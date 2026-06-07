@@ -41,6 +41,18 @@ const fixedMemberMeta = {
   "諸橋 沙夏": { birthday: "08-03", birthdayLabel: "8月3日", memberColors: ["green"], memberColorLabels: ["緑"] },
   "山本 杏奈": { birthday: "11-30", birthdayLabel: "11月30日", memberColors: ["yellow", "light-blue"], memberColorLabels: ["黄", "水色"] },
 };
+const colorPalette = {
+  white: "#fafafa",
+  purple: "#8a4fd6",
+  orange: "#ff9a28",
+  "light-blue": "#65c9ff",
+  pink: "#e84d8a",
+  "light-pink": "#f8b8d1",
+  red: "#e33445",
+  yellow: "#ffd83d",
+  green: "#49bf69",
+  default: "#f6e8ef",
+};
 
 const messages = {
   loading: "\u8aad\u307f\u8fbc\u307f\u4e2d",
@@ -131,6 +143,8 @@ function renderDailyPick() {
 
   const name = escapeHtml(pick.name);
   const image = escapeHtml(pick.image || "assets/official-love.png");
+  const ringStyle = createColorRingStyle(pick);
+  const colorLabel = createColorLabel(pick);
 
   dailyPickEl.innerHTML = `
     <article class="daily-pick-card">
@@ -139,11 +153,12 @@ function renderDailyPick() {
         <p>${dailyPickSubtexts[currentFilter]}</p>
       </div>
       <div class="daily-pick-profile">
-        <div class="daily-pick-image-wrap">
+        <div class="daily-pick-image-wrap color-ring" style="${ringStyle}">
           <img class="daily-pick-image" src="${image}" alt="${name}" loading="lazy" referrerpolicy="no-referrer">
         </div>
         <div class="daily-pick-info">
           <h3>${name}</h3>
+          ${colorLabel}
           <div class="sns-buttons">
             ${createSnsButtons(pick)}
           </div>
@@ -177,22 +192,23 @@ function createMemberCard(member) {
   const image = escapeHtml(member.image || "assets/official-love.png");
   const cardUrl = currentFilter !== "all" ? member.sns?.[currentFilter] : "";
   const clickableClass = cardUrl ? " is-clickable" : "";
-  const colorChips = createColorChips(member);
+  const ringStyle = createColorRingStyle(member);
+  const colorLabel = createColorLabel(member);
   const birthday = createBirthdayLine(member);
 
   return `
     <article class="member-card${clickableClass}" ${cardUrl ? `data-card-url="${escapeHtml(cardUrl)}"` : ""}>
-      <div class="member-image-wrap">
+      <div class="member-image-wrap${ringStyle ? " color-ring" : ""}" ${ringStyle ? `style="${ringStyle}"` : ""}>
         <img class="member-image" src="${image}" alt="${name}" loading="lazy" referrerpolicy="no-referrer">
       </div>
 
       <div class="member-info">
         <div class="member-heading">
           <h2 class="member-name">${name}</h2>
-          ${colorChips}
           ${typeLabel}
           ${favoriteButton}
         </div>
+        ${colorLabel}
         ${birthday}
         <div class="sns-buttons">
           ${createSnsButtons(member)}
@@ -258,20 +274,25 @@ function createSnsBadge(member, key) {
   return `<span class="sns-badge">${status === "changed" ? "UPDATED" : "NEW"}</span>`;
 }
 
-function createColorChips(member) {
+function createColorRingStyle(member) {
   if (member.type !== "member" || !Array.isArray(member.memberColors) || member.memberColors.length === 0) {
     return "";
   }
 
-  const labels = member.memberColorLabels || [];
-  const chips = member.memberColors
-    .map((color, index) => {
-      const label = escapeHtml(labels[index] || color);
-      return `<span class="member-color-chip color-${escapeHtml(color)}" title="${label}" aria-label="${label}"></span>`;
-    })
-    .join("");
+  const colors = member.memberColors.map((color) => colorPalette[color] || colorPalette.default);
+  const background = colors.length === 1
+    ? colors[0]
+    : `linear-gradient(135deg, ${colors[0]}, ${colors[1]})`;
 
-  return `<span class="member-colors">${chips}</span>`;
+  return `--member-ring:${escapeHtml(background)};`;
+}
+
+function createColorLabel(member) {
+  if (member.type !== "member" || !Array.isArray(member.memberColorLabels) || member.memberColorLabels.length === 0) {
+    return "";
+  }
+
+  return `<div class="member-color-label">${escapeHtml(member.memberColorLabels.join(" × "))}</div>`;
 }
 
 function createBirthdayLine(member) {
