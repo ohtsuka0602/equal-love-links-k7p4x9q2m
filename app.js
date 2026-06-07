@@ -6,16 +6,24 @@ const filterButtons = document.querySelectorAll(".filter-button");
 
 const favoriteStorageKey = "equalLoveFavoriteMembers";
 const dailyPickStartDate = "2026-01-01";
-const snsOrder = ["instagram", "x", "tiktok"];
+const snsOrder = ["instagram", "x", "tiktok", "youtube"];
 const snsLabels = {
   instagram: "Instagram",
   x: "X",
   tiktok: "TikTok",
+  youtube: "YouTube",
 };
 const snsIcons = {
   instagram: "assets/sns/instagram.svg",
   x: "assets/sns/x.svg",
   tiktok: "assets/sns/tiktok.svg",
+  youtube: "assets/sns/youtube.svg",
+};
+const fixedYoutubeLinks = {
+  "=LOVE \u30aa\u30d5\u30a3\u30b7\u30e3\u30eb": "https://youtube.com/@equallove_?si=Gz5sMcLqE722nYoq",
+  "\u5927\u8c37 \u6620\u7f8e\u91cc": "https://youtube.com/@mirinyaikolove?si=858PErgfTSsj1ewF",
+  "\u4f50\u3005\u6728 \u821e\u9999": "https://youtube.com/@ikorabunohutari?si=86Ox9PoReIfsjT5L",
+  "\u5c71\u672c \u674f\u5948": "https://youtube.com/@ikorabunohutari?si=86Ox9PoReIfsjT5L",
 };
 
 const messages = {
@@ -41,6 +49,8 @@ const dailyPickSubtexts = {
   x: "\u4eca\u65e5\u306f\u3053\u306e\u30e1\u30f3\u30d0\u30fc\u306eX\u3078",
   tiktok:
     "\u4eca\u65e5\u306f\u3053\u306e\u30e1\u30f3\u30d0\u30fc\u306eTikTok\u3078",
+  youtube:
+    "\u4eca\u65e5\u306f\u3053\u306e\u30e1\u30f3\u30d0\u30fc\u306eYouTube\u3078",
 };
 
 let members = [];
@@ -63,7 +73,7 @@ async function loadMembers() {
       throw new Error("members.json must be an array");
     }
 
-    members = data.filter(isDisplayableMember);
+    members = data.map(applyFixedLinks).filter(isDisplayableMember);
     favoriteNames = pruneFavoriteNames(favoriteNames, members);
     saveFavoriteNames();
     render();
@@ -318,6 +328,20 @@ function getOriginalIndex(member) {
 
 function matchesCurrentFilter(member) {
   return currentFilter === "all" || Boolean(member.sns?.[currentFilter]);
+}
+
+function applyFixedLinks(member) {
+  const sns = member.sns || {};
+
+  return {
+    ...member,
+    sns: {
+      instagram: sns.instagram || "",
+      x: sns.x || "",
+      tiktok: sns.tiktok || "",
+      youtube: sns.youtube || fixedYoutubeLinks[member.name] || "",
+    },
+  };
 }
 
 function isDisplayableMember(member) {

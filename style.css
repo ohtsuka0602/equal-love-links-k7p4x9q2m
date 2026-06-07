@@ -67,7 +67,7 @@ h1 {
 
 .filter-buttons {
   display: grid;
-  grid-template-columns: repeat(4, minmax(74px, 1fr));
+  grid-template-columns: repeat(5, minmax(74px, 1fr));
   gap: 8px;
 }
 
@@ -293,6 +293,10 @@ h1 {
 
 .sns-tiktok {
   background: #000;
+}
+
+.sns-youtube {
+  background: #ff0033;
 }
 
 .sns-instagram .sns-icon {

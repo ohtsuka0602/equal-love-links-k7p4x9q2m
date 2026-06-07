@@ -7,6 +7,12 @@ const ROOT_DIR = path.resolve(__dirname, "..");
 const DATA_PATH = path.join(ROOT_DIR, "data", "members.json");
 const DEBUG_DIR = path.join(ROOT_DIR, "debug");
 const MEMBER_ASSET_DIR = path.join(ROOT_DIR, "assets", "members");
+const FIXED_YOUTUBE_LINKS = {
+  "=LOVE \u30aa\u30d5\u30a3\u30b7\u30e3\u30eb": "https://youtube.com/@equallove_?si=Gz5sMcLqE722nYoq",
+  "\u5927\u8c37 \u6620\u7f8e\u91cc": "https://youtube.com/@mirinyaikolove?si=858PErgfTSsj1ewF",
+  "\u4f50\u3005\u6728 \u821e\u9999": "https://youtube.com/@ikorabunohutari?si=86Ox9PoReIfsjT5L",
+  "\u5c71\u672c \u674f\u5948": "https://youtube.com/@ikorabunohutari?si=86Ox9PoReIfsjT5L",
+};
 const OFFICIAL_MEMBER = {
   name: "=LOVE オフィシャル",
   image: "assets/official-love.png",
@@ -14,6 +20,7 @@ const OFFICIAL_MEMBER = {
     instagram: "https://www.instagram.com/equal_love.official?igsh=OWtqdjBnYzJvOXBy",
     x: "https://x.com/equal_love_12?s=21&t=qpSEjRlbXxEJSyu7RsnLCg",
     tiktok: "https://www.tiktok.com/@equal_love_12?_r=1&_t=ZS-970UVFiCfbu",
+    youtube: FIXED_YOUTUBE_LINKS["=LOVE \u30aa\u30d5\u30a3\u30b7\u30e3\u30eb"],
   },
   type: "official",
 };
@@ -269,13 +276,16 @@ function slugFromName(name) {
 }
 
 function normalizeMember(member) {
+  const name = cleanText(member.name);
+
   return {
-    name: cleanText(member.name),
+    name,
     image: cleanUrl(member.image),
     sns: {
       instagram: cleanUrl(member.sns?.instagram),
       x: cleanUrl(member.sns?.x),
       tiktok: cleanUrl(member.sns?.tiktok),
+      youtube: cleanUrl(member.sns?.youtube || FIXED_YOUTUBE_LINKS[name]),
     },
     type: "member",
   };
