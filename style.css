@@ -38,15 +38,6 @@ input {
   margin: 0 auto;
 }
 
-.eyebrow {
-  margin: 0 0 6px;
-  color: var(--brand-strong);
-  font-size: 12px;
-  font-weight: 800;
-  letter-spacing: 0;
-  text-transform: uppercase;
-}
-
 h1 {
   margin: 0;
   font-size: 28px;
