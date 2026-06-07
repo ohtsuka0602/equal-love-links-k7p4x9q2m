@@ -206,18 +206,23 @@ h1 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 42px;
-  min-height: 34px;
-  padding: 0 12px;
+  width: 42px;
+  height: 42px;
+  padding: 0;
   border-radius: 8px;
   color: #fff;
-  font-size: 13px;
-  font-weight: 800;
   text-decoration: none;
 }
 
+.sns-icon {
+  display: block;
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+}
+
 .sns-instagram {
-  background: #d83f72;
+  background: transparent;
 }
 
 .sns-x {
@@ -225,7 +230,12 @@ h1 {
 }
 
 .sns-tiktok {
-  background: #005f66;
+  background: #000;
+}
+
+.sns-instagram .sns-icon {
+  width: 42px;
+  height: 42px;
 }
 
 .empty-message {

@@ -10,6 +10,11 @@ const snsLabels = {
   x: "X",
   tiktok: "TikTok",
 };
+const snsIcons = {
+  instagram: "assets/sns/instagram.svg",
+  x: "assets/sns/x.svg",
+  tiktok: "assets/sns/tiktok.svg",
+};
 
 const messages = {
   loading: "\u8aad\u307f\u8fbc\u307f\u4e2d",
@@ -116,8 +121,11 @@ function createSnsButton(label, url, key) {
       href="${escapeHtml(url)}"
       target="_blank"
       rel="noopener noreferrer"
+      aria-label="${label}"
+      title="${label}"
     >
-      ${label}
+      <img class="sns-icon" src="${snsIcons[key]}" alt="" aria-hidden="true">
+      <span class="visually-hidden">${label}</span>
     </a>
   `;
 }
