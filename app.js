@@ -1,7 +1,6 @@
 const memberListEl = document.getElementById("memberList");
 const statusEl = document.getElementById("status");
 const reloadButton = document.getElementById("reloadButton");
-const searchInput = document.getElementById("searchInput");
 const filterButtons = document.querySelectorAll(".filter-button");
 
 const snsOrder = ["instagram", "x", "tiktok"];
@@ -31,7 +30,6 @@ const messages = {
 
 let members = [];
 let currentFilter = "all";
-let searchQuery = "";
 
 async function loadMembers() {
   setLoading(true);
@@ -64,9 +62,8 @@ async function loadMembers() {
 function renderMembers() {
   const filteredMembers = members.filter((member) => {
     const matchesFilter = currentFilter === "all" || Boolean(member.sns?.[currentFilter]);
-    const matchesSearch = normalize(member.name).includes(normalize(searchQuery));
 
-    return matchesFilter && matchesSearch && hasAnySns(member);
+    return matchesFilter && hasAnySns(member);
   });
 
   if (filteredMembers.length === 0) {
@@ -143,10 +140,6 @@ function setLoading(isLoading) {
   reloadButton.textContent = isLoading ? messages.loading : messages.reload;
 }
 
-function normalize(value) {
-  return String(value || "").trim().toLocaleLowerCase("ja-JP");
-}
-
 function escapeHtml(value) {
   return String(value)
     .replaceAll("&", "&amp;")
@@ -163,11 +156,6 @@ filterButtons.forEach((button) => {
     currentFilter = button.dataset.filter;
     renderMembers();
   });
-});
-
-searchInput.addEventListener("input", (event) => {
-  searchQuery = event.target.value;
-  renderMembers();
 });
 
 reloadButton.addEventListener("click", loadMembers);
