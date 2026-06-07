@@ -9,9 +9,10 @@
   "theme_color": "#ffffff",
   "icons": [
     {
-      "src": "assets/official-love.png",
-      "sizes": "150x127",
-      "type": "image/png"
+      "src": "assets/app-icon.png",
+      "sizes": "163x163",
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
