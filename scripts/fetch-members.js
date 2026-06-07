@@ -13,6 +13,18 @@ const FIXED_YOUTUBE_LINKS = {
   "\u4f50\u3005\u6728 \u821e\u9999": "https://youtube.com/@ikorabunohutari?si=86Ox9PoReIfsjT5L",
   "\u5c71\u672c \u674f\u5948": "https://youtube.com/@ikorabunohutari?si=86Ox9PoReIfsjT5L",
 };
+const FIXED_MEMBER_META = {
+  "大谷 映美里": { birthday: "03-15", birthdayLabel: "3月15日", memberColors: ["white", "purple"], memberColorLabels: ["白", "紫"] },
+  "大場 花菜": { birthday: "02-04", birthdayLabel: "2月4日", memberColors: ["orange", "light-blue"], memberColorLabels: ["オレンジ", "水色"] },
+  "音嶋 莉沙": { birthday: "08-11", birthdayLabel: "8月11日", memberColors: ["light-blue", "pink"], memberColorLabels: ["水色", "濃いピンク"] },
+  "齋藤 樹愛羅": { birthday: "11-26", birthdayLabel: "11月26日", memberColors: ["light-pink"], memberColorLabels: ["薄ピンク"] },
+  "佐々木 舞香": { birthday: "01-21", birthdayLabel: "1月21日", memberColors: ["red"], memberColorLabels: ["赤"] },
+  "髙松 瞳": { birthday: "01-19", birthdayLabel: "1月19日", memberColors: ["red"], memberColorLabels: ["赤"] },
+  "瀧脇 笙古": { birthday: "07-09", birthdayLabel: "7月9日", memberColors: ["yellow", "orange"], memberColorLabels: ["黄", "オレンジ"] },
+  "野口 衣織": { birthday: "04-26", birthdayLabel: "4月26日", memberColors: ["purple"], memberColorLabels: ["紫"] },
+  "諸橋 沙夏": { birthday: "08-03", birthdayLabel: "8月3日", memberColors: ["green"], memberColorLabels: ["緑"] },
+  "山本 杏奈": { birthday: "11-30", birthdayLabel: "11月30日", memberColors: ["yellow", "light-blue"], memberColorLabels: ["黄", "水色"] },
+};
 const OFFICIAL_MEMBER = {
   name: "=LOVE オフィシャル",
   image: "assets/official-love.png",
@@ -21,6 +33,7 @@ const OFFICIAL_MEMBER = {
     x: "https://x.com/equal_love_12?s=21&t=qpSEjRlbXxEJSyu7RsnLCg",
     tiktok: "https://www.tiktok.com/@equal_love_12?_r=1&_t=ZS-970UVFiCfbu",
     youtube: FIXED_YOUTUBE_LINKS["=LOVE \u30aa\u30d5\u30a3\u30b7\u30e3\u30eb"],
+    showroom: "",
   },
   type: "official",
 };
@@ -50,10 +63,15 @@ async function main() {
     }
 
     const localizedMembers = await captureMemberImages(page, uniqueMembers);
-    const output = [OFFICIAL_MEMBER, ...localizedMembers];
+    const output = {
+      meta: {
+        updatedAt: new Date().toISOString(),
+      },
+      members: [OFFICIAL_MEMBER, ...localizedMembers],
+    };
 
     await fs.writeFile(DATA_PATH, `${JSON.stringify(output, null, 2)}\n`, "utf8");
-    console.log(`Updated ${path.relative(ROOT_DIR, DATA_PATH)} with ${output.length} records.`);
+    console.log(`Updated ${path.relative(ROOT_DIR, DATA_PATH)} with ${output.members.length} records.`);
   } finally {
     await browser.close();
   }
@@ -64,6 +82,7 @@ function extractMembersFromDom() {
     instagram: /instagram\.com/i,
     x: /(x\.com|twitter\.com)/i,
     tiktok: /tiktok\.com/i,
+    showroom: /showroom-live\.com/i,
   };
 
   const anchors = Array.from(document.querySelectorAll("a[href]"));
@@ -86,6 +105,7 @@ function extractMembersFromDom() {
         instagram: findUrl(links, socialPatterns.instagram),
         x: findUrl(links, socialPatterns.x),
         tiktok: findUrl(links, socialPatterns.tiktok),
+        showroom: findUrl(links, socialPatterns.showroom),
       },
       type: "member",
     };
@@ -277,15 +297,26 @@ function slugFromName(name) {
 
 function normalizeMember(member) {
   const name = cleanText(member.name);
+  const fixedMeta = FIXED_MEMBER_META[name] || {};
+  const fixedYoutube = FIXED_YOUTUBE_LINKS[name] || "";
 
   return {
     name,
     image: cleanUrl(member.image),
+    birthday: fixedMeta.birthday || "",
+    birthdayLabel: fixedMeta.birthdayLabel || "",
+    memberColors: fixedMeta.memberColors || [],
+    memberColorLabels: fixedMeta.memberColorLabels || [],
+    badges: {
+      youtube: fixedYoutube ? "new" : "",
+      showroom: cleanUrl(member.sns?.showroom) ? "new" : "",
+    },
     sns: {
       instagram: cleanUrl(member.sns?.instagram),
       x: cleanUrl(member.sns?.x),
       tiktok: cleanUrl(member.sns?.tiktok),
-      youtube: cleanUrl(member.sns?.youtube || FIXED_YOUTUBE_LINKS[name]),
+      youtube: cleanUrl(member.sns?.youtube || fixedYoutube),
+      showroom: cleanUrl(member.sns?.showroom),
     },
     type: "member",
   };
@@ -311,7 +342,7 @@ function dedupeMembers(members) {
 }
 
 function hasAnySns(member) {
-  return Boolean(member.sns.instagram || member.sns.x || member.sns.tiktok);
+  return Boolean(member.sns.instagram || member.sns.x || member.sns.tiktok || member.sns.youtube || member.sns.showroom);
 }
 
 function cleanText(value) {

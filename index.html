@@ -11,7 +11,7 @@
   <link rel="apple-touch-icon" href="assets/app-icon.png?v=20260607-5" />
   <link rel="icon" href="assets/app-icon.png?v=20260607-5" />
   <link rel="manifest" href="manifest.json?v=20260607-5" />
-  <link rel="stylesheet" href="style.css?v=20260607-7" />
+  <link rel="stylesheet" href="style.css?v=20260607-8" />
 </head>
 <body>
   <header class="app-header">
@@ -29,9 +29,18 @@
         <button class="filter-button" type="button" data-filter="x">X</button>
         <button class="filter-button" type="button" data-filter="tiktok">TikTok</button>
         <button class="filter-button" type="button" data-filter="youtube">YouTube</button>
+        <button class="filter-button" type="button" data-filter="showroom">SHOWROOM</button>
       </div>
 
-      <button id="reloadButton" class="reload-button" type="button">更新</button>
+      <label class="favorite-only-toggle">
+        <input id="favoriteOnlyToggle" type="checkbox" />
+        <span>推しだけ</span>
+      </label>
+
+      <div class="reload-row">
+        <button id="reloadButton" class="reload-button" type="button">更新</button>
+        <p id="updatedAt" class="updated-at"></p>
+      </div>
     </section>
 
     <section id="dailyPick" class="daily-pick" aria-live="polite"></section>
@@ -43,6 +52,6 @@
     <section id="memberList" class="member-list" aria-label="SNSリンク一覧"></section>
   </main>
 
-  <script src="app.js?v=20260607-7"></script>
+  <script src="app.js?v=20260607-8"></script>
 </body>
 </html>

@@ -67,8 +67,34 @@ h1 {
 
 .filter-buttons {
   display: grid;
-  grid-template-columns: repeat(5, minmax(74px, 1fr));
+  grid-template-columns: repeat(6, minmax(82px, 1fr));
   gap: 8px;
+}
+
+.favorite-only-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  min-height: 36px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--brand-strong);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.favorite-only-toggle input {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--brand);
+}
+
+.reload-row {
+  display: grid;
+  gap: 6px;
 }
 
 .filter-button,
@@ -96,6 +122,13 @@ h1 {
 .reload-button:disabled {
   cursor: progress;
   opacity: 0.7;
+}
+
+.updated-at {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  text-align: center;
 }
 
 .summary {
@@ -189,6 +222,14 @@ h1 {
   box-shadow: var(--shadow);
 }
 
+.member-card.is-clickable {
+  cursor: pointer;
+}
+
+.member-card.is-clickable:active {
+  background: #fff4f8;
+}
+
 .member-image-wrap {
   flex: 0 0 72px;
   width: 72px;
@@ -235,6 +276,52 @@ h1 {
   font-weight: 800;
 }
 
+.member-colors {
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 3px;
+}
+
+.member-color-chip {
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(38, 33, 38, 0.18);
+}
+
+.color-white { background: #fff; }
+.color-purple { background: #8a4fd6; }
+.color-orange { background: #ff9a28; }
+.color-light-blue { background: #65c9ff; }
+.color-pink { background: #e84d8a; }
+.color-light-pink { background: #f8b8d1; }
+.color-red { background: #e33445; }
+.color-yellow { background: #ffd83d; }
+.color-green { background: #49bf69; }
+
+.member-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin: -4px 0 10px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.birthday-badge,
+.sns-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 18px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: #ffe9f3;
+  color: var(--brand-strong);
+  font-size: 10px;
+  font-weight: 900;
+}
+
 .favorite-button {
   flex: 0 0 auto;
   display: inline-flex;
@@ -262,6 +349,11 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+}
+
+.sns-button-wrap {
+  position: relative;
+  display: inline-flex;
 }
 
 .sns-button {
@@ -299,9 +391,27 @@ h1 {
   background: #ff0033;
 }
 
+.sns-showroom {
+  background: #050505;
+}
+
 .sns-instagram .sns-icon {
   width: 42px;
   height: 42px;
+}
+
+.sns-showroom .sns-icon {
+  width: 34px;
+  height: 34px;
+}
+
+.sns-badge {
+  position: absolute;
+  top: -6px;
+  right: -7px;
+  min-height: 15px;
+  padding: 0 4px;
+  font-size: 8px;
 }
 
 .empty-message {
