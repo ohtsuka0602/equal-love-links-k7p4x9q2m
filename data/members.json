@@ -1,0 +1,112 @@
+[
+  {
+    "name": "=LOVE オフィシャル",
+    "image": "assets/official-love.png",
+    "sns": {
+      "instagram": "https://www.instagram.com/equal_love.official?igsh=OWtqdjBnYzJvOXBy",
+      "x": "https://x.com/equal_love_12?s=21&t=qpSEjRlbXxEJSyu7RsnLCg",
+      "tiktok": "https://www.tiktok.com/@equal_love_12?_r=1&_t=ZS-970UVFiCfbu"
+    },
+    "type": "official"
+  },
+  {
+    "name": "大谷 映美里",
+    "image": "assets/members/otani_emiri.png",
+    "sns": {
+      "instagram": "https://www.instagram.com/otani_emiri/",
+      "x": "https://twitter.com/otani_emiri",
+      "tiktok": "https://www.tiktok.com/@equal_love_emiri"
+    },
+    "type": "member"
+  },
+  {
+    "name": "大場 花菜",
+    "image": "assets/members/oba_hana.png",
+    "sns": {
+      "instagram": "https://instagram.com/oba_hana_?igshid=NTc4MTIwNjQ2YQ==",
+      "x": "https://twitter.com/hana_oba",
+      "tiktok": "https://www.tiktok.com/@equal_love_hana_"
+    },
+    "type": "member"
+  },
+  {
+    "name": "音嶋 莉沙",
+    "image": "assets/members/otoshima_risa.png",
+    "sns": {
+      "instagram": "https://www.instagram.com/otoshima_risa/",
+      "x": "https://twitter.com/otoshima_risa",
+      "tiktok": "https://www.tiktok.com/@equal_love_risa_"
+    },
+    "type": "member"
+  },
+  {
+    "name": "齋藤 樹愛羅",
+    "image": "assets/members/saito_kiara.png",
+    "sns": {
+      "instagram": "https://www.instagram.com/saito_kiara_/",
+      "x": "https://twitter.com/saitou_kiara",
+      "tiktok": "https://www.tiktok.com/@equal_love_kiara"
+    },
+    "type": "member"
+  },
+  {
+    "name": "佐々木 舞香",
+    "image": "assets/members/sasaki_maika.png",
+    "sns": {
+      "instagram": "https://www.instagram.com/maika_sasaki_",
+      "x": "https://twitter.com/sasaki_maika",
+      "tiktok": ""
+    },
+    "type": "member"
+  },
+  {
+    "name": "髙松 瞳",
+    "image": "assets/members/takamatsu_hitomi.png",
+    "sns": {
+      "instagram": "https://www.instagram.com/takamatsu__hitomi/",
+      "x": "https://twitter.com/takamatsuhitomi",
+      "tiktok": ""
+    },
+    "type": "member"
+  },
+  {
+    "name": "瀧脇 笙古",
+    "image": "assets/members/takiwaki_shoko.png",
+    "sns": {
+      "instagram": "https://instagram.com/takiwaki_shoko_/",
+      "x": "https://twitter.com/shoko_takiwaki",
+      "tiktok": ""
+    },
+    "type": "member"
+  },
+  {
+    "name": "野口 衣織",
+    "image": "assets/members/noguchi_iori.png",
+    "sns": {
+      "instagram": "https://www.instagram.com/noguchi_iori_",
+      "x": "https://twitter.com/noguchi_iori",
+      "tiktok": ""
+    },
+    "type": "member"
+  },
+  {
+    "name": "諸橋 沙夏",
+    "image": "assets/members/morohashi_sana.png",
+    "sns": {
+      "instagram": "https://instagram.com/morohashi_sana/",
+      "x": "https://twitter.com/morohashi_sana",
+      "tiktok": ""
+    },
+    "type": "member"
+  },
+  {
+    "name": "山本 杏奈",
+    "image": "assets/members/yamamoto_anna.png",
+    "sns": {
+      "instagram": "https://www.instagram.com/yamamoto_anna_/",
+      "x": "https://twitter.com/yamamoto_anna_",
+      "tiktok": "https://www.tiktok.com/@equal_love_anna"
+    },
+    "type": "member"
+  }
+]

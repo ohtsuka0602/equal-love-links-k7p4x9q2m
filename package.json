@@ -1,0 +1,13 @@
+{
+  "name": "equal-love-links",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/serve.js",
+    "fetch": "node scripts/fetch-members.js",
+    "check": "node --check app.js && node --check scripts/fetch-members.js && node --check scripts/serve.js"
+  },
+  "dependencies": {
+    "playwright": "^1.53.0"
+  }
+}
