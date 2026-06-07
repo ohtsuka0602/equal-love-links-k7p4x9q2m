@@ -1,0 +1,17 @@
+{
+  "name": "=LOVE SNS Links",
+  "short_name": "=LOVE SNS",
+  "description": "メンバーと公式アカウントのSNSリンク集",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fff8fb",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "assets/official-love.png",
+      "sizes": "150x127",
+      "type": "image/png"
+    }
+  ]
+}
