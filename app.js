@@ -2,9 +2,9 @@ const memberListEl = document.getElementById("memberList");
 const statusEl = document.getElementById("status");
 const reloadButton = document.getElementById("reloadButton");
 const dailyPickEl = document.getElementById("dailyPick");
-const favoriteOnlyToggle = document.getElementById("favoriteOnlyToggle");
 const updatedAtEl = document.getElementById("updatedAt");
 const filterButtons = document.querySelectorAll(".filter-button");
+const targetButtons = document.querySelectorAll(".target-button");
 
 const favoriteStorageKey = "equalLoveFavoriteMembers";
 const dailyPickStartDate = "2026-01-01";
@@ -72,7 +72,6 @@ const messages = {
     "\u8868\u793a\u3067\u304d\u308b\u30e1\u30f3\u30d0\u30fc\u304c\u3044\u307e\u305b\u3093",
 };
 const dailyPickSubtexts = {
-  all: "\u4eca\u65e5\u306f\u3053\u306e\u30e1\u30f3\u30d0\u30fc\u306eSNS\u3078",
   instagram:
     "\u4eca\u65e5\u306f\u3053\u306e\u30e1\u30f3\u30d0\u30fc\u306eInstagram\u3078",
   x: "\u4eca\u65e5\u306f\u3053\u306e\u30e1\u30f3\u30d0\u30fc\u306eX\u3078",
@@ -87,7 +86,7 @@ const dailyPickSubtexts = {
 let members = [];
 let meta = {};
 let favoriteNames = loadFavoriteNames();
-let currentFilter = "all";
+let currentFilter = "instagram";
 let favoriteOnly = false;
 
 async function loadMembers() {
@@ -171,18 +170,16 @@ function renderDailyPick() {
 
 function renderMembers() {
   const filteredMembers = sortMembersForDisplay(
-    members.filter((member) => matchesCurrentFilter(member) && matchesFavoriteOnly(member) && hasAnySns(member))
+    members.filter((member) => matchesCurrentFilter(member) && matchesFavoriteOnly(member))
   );
+  const targetLabel = favoriteOnly ? "推しだけ" : "全員";
+  statusEl.textContent = `${filteredMembers.length}\u4ef6\u3092\u8868\u793a\u4e2d (${snsLabels[currentFilter]} / ${targetLabel})`;
 
   if (filteredMembers.length === 0) {
-    statusEl.textContent = messages.noMatches;
     memberListEl.innerHTML = `<p class="empty-message">${messages.changeFilters}</p>`;
     return;
   }
 
-  const filterLabel = currentFilter === "all" ? "All" : snsLabels[currentFilter];
-  const favoriteLabel = favoriteOnly ? " / 推しだけ" : "";
-  statusEl.textContent = `${filteredMembers.length}\u4ef6\u3092\u8868\u793a\u4e2d (${filterLabel}${favoriteLabel})`;
   memberListEl.innerHTML = filteredMembers.map(createMemberCard).join("");
 }
 
@@ -191,7 +188,7 @@ function createMemberCard(member) {
   const typeLabel = member.type === "official" ? `<span class="member-type">${messages.official}</span>` : "";
   const favoriteButton = member.type === "member" ? createFavoriteButton(member) : "";
   const image = escapeHtml(member.image || "assets/official-love.png");
-  const cardUrl = currentFilter !== "all" ? member.sns?.[currentFilter] : "";
+  const cardUrl = member.sns?.[currentFilter] || "";
   const clickableClass = cardUrl ? " is-clickable" : "";
   const ringStyle = createColorRingStyle(member);
   const colorLabel = createColorLabel(member);
@@ -240,7 +237,7 @@ function createSnsButtons(member) {
   const sns = member.sns || {};
 
   return snsOrder
-    .filter((key) => currentFilter === "all" || currentFilter === key)
+    .filter((key) => currentFilter === key)
     .filter((key) => Boolean(sns[key]))
     .map((key) => createSnsButton(snsLabels[key], sns[key], key, member))
     .join("");
@@ -415,7 +412,7 @@ function getOriginalIndex(member) {
 }
 
 function matchesCurrentFilter(member) {
-  return currentFilter === "all" || Boolean(member.sns?.[currentFilter]);
+  return Boolean(member.sns?.[currentFilter]);
 }
 
 function matchesFavoriteOnly(member) {
@@ -582,6 +579,15 @@ filterButtons.forEach((button) => {
   });
 });
 
+targetButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    targetButtons.forEach((btn) => btn.classList.remove("active"));
+    button.classList.add("active");
+    favoriteOnly = button.dataset.target === "favorites";
+    renderMembers();
+  });
+});
+
 memberListEl.addEventListener("click", (event) => {
   const button = event.target.closest("[data-favorite-name]");
 
@@ -599,11 +605,6 @@ memberListEl.addEventListener("click", (event) => {
   if (card?.dataset.cardUrl) {
     window.open(card.dataset.cardUrl, "_blank", "noopener,noreferrer");
   }
-});
-
-favoriteOnlyToggle.addEventListener("change", () => {
-  favoriteOnly = favoriteOnlyToggle.checked;
-  renderMembers();
 });
 
 reloadButton.addEventListener("click", loadMembers);

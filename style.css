@@ -67,29 +67,14 @@ h1 {
 
 .filter-buttons {
   display: grid;
-  grid-template-columns: repeat(6, minmax(82px, 1fr));
+  grid-template-columns: repeat(5, minmax(90px, 1fr));
   gap: 8px;
 }
 
-.favorite-only-toggle {
-  display: inline-flex;
-  align-items: center;
+.target-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 120px));
   gap: 8px;
-  width: fit-content;
-  min-height: 36px;
-  padding: 0 12px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: var(--surface);
-  color: var(--brand-strong);
-  font-size: 13px;
-  font-weight: 800;
-}
-
-.favorite-only-toggle input {
-  width: 16px;
-  height: 16px;
-  accent-color: var(--brand);
 }
 
 .reload-row {
@@ -98,6 +83,7 @@ h1 {
 }
 
 .filter-button,
+.target-button,
 .reload-button {
   min-height: 40px;
   border: 1px solid var(--line);
@@ -109,7 +95,8 @@ h1 {
   cursor: pointer;
 }
 
-.filter-button.active {
+.filter-button.active,
+.target-button.active {
   border-color: var(--brand);
   background: var(--brand);
   color: #fff;
@@ -471,6 +458,10 @@ h1 {
   .filter-button {
     flex: 0 0 auto;
     min-width: 86px;
+  }
+
+  .target-buttons {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .member-card {

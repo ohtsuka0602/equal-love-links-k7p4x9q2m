@@ -11,7 +11,7 @@
   <link rel="apple-touch-icon" href="assets/app-icon.png?v=20260607-5" />
   <link rel="icon" href="assets/app-icon.png?v=20260607-5" />
   <link rel="manifest" href="manifest.json?v=20260607-5" />
-  <link rel="stylesheet" href="style.css?v=20260607-9" />
+  <link rel="stylesheet" href="style.css?v=20260608-1" />
 </head>
 <body>
   <header class="app-header">
@@ -24,18 +24,17 @@
   <main class="app-main">
     <section class="controls" aria-label="表示条件">
       <div class="filter-buttons" role="tablist" aria-label="SNSで絞り込み">
-        <button class="filter-button active" type="button" data-filter="all">All</button>
-        <button class="filter-button" type="button" data-filter="instagram">Instagram</button>
+        <button class="filter-button active" type="button" data-filter="instagram">Instagram</button>
         <button class="filter-button" type="button" data-filter="x">X</button>
         <button class="filter-button" type="button" data-filter="tiktok">TikTok</button>
         <button class="filter-button" type="button" data-filter="youtube">YouTube</button>
         <button class="filter-button" type="button" data-filter="showroom">SHOWROOM</button>
       </div>
 
-      <label class="favorite-only-toggle">
-        <input id="favoriteOnlyToggle" type="checkbox" />
-        <span>推しだけ</span>
-      </label>
+      <div class="target-buttons" role="tablist" aria-label="表示対象">
+        <button class="target-button active" type="button" data-target="all">全員</button>
+        <button class="target-button" type="button" data-target="favorites">推しだけ</button>
+      </div>
 
       <div class="reload-row">
         <button id="reloadButton" class="reload-button" type="button">更新</button>
@@ -52,6 +51,6 @@
     <section id="memberList" class="member-list" aria-label="SNSリンク一覧"></section>
   </main>
 
-  <script src="app.js?v=20260607-9"></script>
+  <script src="app.js?v=20260608-1"></script>
 </body>
 </html>
