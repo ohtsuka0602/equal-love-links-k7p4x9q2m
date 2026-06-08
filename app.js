@@ -9,7 +9,7 @@ const targetButtons = document.querySelectorAll(".target-button");
 
 const favoriteStorageKey = "equalLoveFavoriteMembers";
 const dailyPickStartDate = "2026-01-01";
-const snsOrder = ["instagram", "x", "tiktok", "youtube", "showroom"];
+const snsOrder = ["youtube", "instagram", "x", "tiktok", "showroom"];
 const snsLabels = {
   instagram: "Instagram",
   x: "X",
@@ -93,7 +93,7 @@ let youtubeVideos = [];
 let youtubeVideosMeta = {};
 let youtubeVideosFailed = false;
 let favoriteNames = loadFavoriteNames();
-let currentFilter = "instagram";
+let currentFilter = "youtube";
 let favoriteOnly = false;
 
 async function loadMembers() {
