@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "updatedAt": "2026-06-08T00:37:33.078Z",
+    "checkedAt": "2026-06-08T00:37:33.078Z"
+  },
+  "members": [
+    {
+      "name": "=LOVE オフィシャル",
+      "image": "assets/official-love.png",
+      "sns": {
+        "instagram": "https://www.instagram.com/equal_love.official?igsh=OWtqdjBnYzJvOXBy",
+        "x": "https://x.com/equal_love_12?s=21&t=qpSEjRlbXxEJSyu7RsnLCg",
+        "tiktok": "https://www.tiktok.com/@equal_love_12?_r=1&_t=ZS-970UVFiCfbu",
+        "youtube": "https://youtube.com/@equallove_?si=Gz5sMcLqE722nYoq",
+        "showroom": ""
+      },
+      "type": "official"
+    },
+    {
+      "name": "大谷 映美里",
+      "image": "assets/members/otani_emiri.png",
+      "imageSourceUrl": "https://sp.equal-love.jp/image/profile/otani_emiri.jpg",
+      "birthday": "03-15",
+      "birthdayLabel": "3月15日",
+      "memberColors": [
+        "white",
+        "purple"
+      ],
+      "memberColorLabels": [
+        "白",
+        "紫"
+      ],
+      "sns": {
+        "instagram": "https://www.instagram.com/otani_emiri/",
+        "x": "https://twitter.com/otani_emiri",
+        "tiktok": "https://www.tiktok.com/@equal_love_emiri",
+        "youtube": "https://youtube.com/@mirinyaikolove?si=858PErgfTSsj1ewF",
+        "showroom": "https://www.showroom-live.com/LOVE_EMIRI_OTANI"
+      },
+      "type": "member",
+      "badges": {}
+    },
+    {
+      "name": "大場 花菜",
+      "image": "assets/members/oba_hana.png",
+      "imageSourceUrl": "https://sp.equal-love.jp/image/profile/oba_hana.jpg",
+      "birthday": "02-04",
+      "birthdayLabel": "2月4日",
+      "memberColors": [
+        "orange",
+        "blue"
+      ],
+      "memberColorLabels": [
+        "オレンジ",
+        "青"
+      ],
+      "sns": {
+        "instagram": "https://instagram.com/oba_hana_?igshid=NTc4MTIwNjQ2YQ==",
+        "x": "https://twitter.com/hana_oba",
+        "tiktok": "https://www.tiktok.com/@equal_love_hana_",
+        "youtube": "",
+        "showroom": "https://www.showroom-live.com/LOVE_HANA_OBA"
+      },
+      "type": "member",
+      "badges": {}
+    },
+    {
+      "name": "音嶋 莉沙",
+      "image": "assets/members/otoshima_risa.png",
+      "imageSourceUrl": "https://sp.equal-love.jp/image/profile/otoshima_risa.jpg",
+      "birthday": "08-11",
+      "birthdayLabel": "8月11日",
+      "memberColors": [
+        "light-blue",
+        "pink"
+      ],
+      "memberColorLabels": [
+        "水色",
+        "濃いピンク"
+      ],
+      "sns": {
+        "instagram": "https://www.instagram.com/otoshima_risa/",
+        "x": "https://twitter.com/otoshima_risa",
+        "tiktok": "https://www.tiktok.com/@equal_love_risa_",
+        "youtube": "",
+        "showroom": "https://www.showroom-live.com/LOVE_RISA_OTOSHIMA"
+      },
+      "type": "member",
+      "badges": {}
+    },
+    {
+      "name": "齋藤 樹愛羅",
+      "image": "assets/members/saito_kiara.png",
+      "imageSourceUrl": "https://sp.equal-love.jp/image/profile/saito_kiara.jpg",
+      "birthday": "11-26",
+      "birthdayLabel": "11月26日",
+      "memberColors": [
+        "light-pink"
+      ],
+      "memberColorLabels": [
+        "薄ピンク"
+      ],
+      "sns": {
+        "instagram": "https://www.instagram.com/saito_kiara_/",
+        "x": "https://twitter.com/saitou_kiara",
+        "tiktok": "https://www.tiktok.com/@equal_love_kiara",
+        "youtube": "",
+        "showroom": "https://www.showroom-live.com/LOVE_KIARA_SAITO"
+      },
+      "type": "member",
+      "badges": {}
+    },
+    {
+      "name": "佐々木 舞香",
+      "image": "assets/members/sasaki_maika.png",
+      "imageSourceUrl": "https://sp.equal-love.jp/image/profile/sasaki_maika.jpg",
+      "birthday": "01-21",
+      "birthdayLabel": "1月21日",
+      "memberColors": [
+        "white"
+      ],
+      "memberColorLabels": [
+        "白"
+      ],
+      "sns": {
+        "instagram": "https://www.instagram.com/maika_sasaki_",
+        "x": "https://twitter.com/sasaki_maika",
+        "tiktok": "",
+        "youtube": "https://youtube.com/@ikorabunohutari?si=86Ox9PoReIfsjT5L",
+        "showroom": "https://www.showroom-live.com/LOVE_MAIKA_SASAKI"
+      },
+      "type": "member",
+      "badges": {}
+    },
+    {
+      "name": "髙松 瞳",
+      "image": "assets/members/takamatsu_hitomi.png",
+      "imageSourceUrl": "https://sp.equal-love.jp/image/profile/takamatsu_hitomi.jpg",
+      "birthday": "01-19",
+      "birthdayLabel": "1月19日",
+      "memberColors": [
+        "red"
+      ],
+      "memberColorLabels": [
+        "赤"
+      ],
+      "sns": {
+        "instagram": "https://www.instagram.com/takamatsu__hitomi/",
+        "x": "https://twitter.com/takamatsuhitomi",
+        "tiktok": "",
+        "youtube": "",
+        "showroom": "https://www.showroom-live.com/LOVE_HITOMI_TAKAMATSU"
+      },
+      "type": "member",
+      "badges": {}
+    },
+    {
+      "name": "瀧脇 笙古",
+      "image": "assets/members/takiwaki_shoko.png",
+      "imageSourceUrl": "https://sp.equal-love.jp/image/profile/takiwaki_shoko.jpg",
+      "birthday": "07-09",
+      "birthdayLabel": "7月9日",
+      "memberColors": [
+        "yellow",
+        "orange"
+      ],
+      "memberColorLabels": [
+        "黄",
+        "オレンジ"
+      ],
+      "sns": {
+        "instagram": "https://instagram.com/takiwaki_shoko_/",
+        "x": "https://twitter.com/shoko_takiwaki",
+        "tiktok": "",
+        "youtube": "",
+        "showroom": "https://www.showroom-live.com/LOVE_SHOKO_TAKIWAKI"
+      },
+      "type": "member",
+      "badges": {}
+    },
+    {
+      "name": "野口 衣織",
+      "image": "assets/members/noguchi_iori.png",
+      "imageSourceUrl": "https://sp.equal-love.jp/image/profile/noguchi_iori.jpg",
+      "birthday": "04-26",
+      "birthdayLabel": "4月26日",
+      "memberColors": [
+        "purple"
+      ],
+      "memberColorLabels": [
+        "紫"
+      ],
+      "sns": {
+        "instagram": "https://www.instagram.com/noguchi_iori_",
+        "x": "https://twitter.com/noguchi_iori",
+        "tiktok": "",
+        "youtube": "",
+        "showroom": "https://www.showroom-live.com/LOVE_IORI_NOGUCHI"
+      },
+      "type": "member",
+      "badges": {}
+    },
+    {
+      "name": "諸橋 沙夏",
+      "image": "assets/members/morohashi_sana.png",
+      "imageSourceUrl": "https://sp.equal-love.jp/image/profile/morohashi_sana.jpg",
+      "birthday": "08-03",
+      "birthdayLabel": "8月3日",
+      "memberColors": [
+        "green"
+      ],
+      "memberColorLabels": [
+        "緑"
+      ],
+      "sns": {
+        "instagram": "https://instagram.com/morohashi_sana/",
+        "x": "https://twitter.com/morohashi_sana",
+        "tiktok": "",
+        "youtube": "",
+        "showroom": "https://www.showroom-live.com/LOVE_SANA_MOROHASHI"
+      },
+      "type": "member",
+      "badges": {}
+    },
+    {
+      "name": "山本 杏奈",
+      "image": "assets/members/yamamoto_anna.png",
+      "imageSourceUrl": "https://sp.equal-love.jp/image/profile/yamamoto_anna.jpg",
+      "birthday": "11-30",
+      "birthdayLabel": "11月30日",
+      "memberColors": [
+        "yellow",
+        "blue"
+      ],
+      "memberColorLabels": [
+        "黄",
+        "青"
+      ],
+      "sns": {
+        "instagram": "https://www.instagram.com/yamamoto_anna_/",
+        "x": "https://twitter.com/yamamoto_anna_",
+        "tiktok": "https://www.tiktok.com/@equal_love_anna",
+        "youtube": "https://youtube.com/@ikorabunohutari?si=86Ox9PoReIfsjT5L",
+        "showroom": "https://www.showroom-live.com/LOVE_ANNA_YAMAMOTO"
+      },
+      "type": "member",
+      "badges": {}
+    }
+  ]
+}
