@@ -848,12 +848,17 @@ function renderHomeDashboard() {
   memberListEl.innerHTML = "";
   statusEl.textContent = "";
 
+  const birthdays = getUpcomingBirthdays();
+  const birthdaySection = createUpcomingBirthdaysSection(birthdays);
+  const hasBirthdayToday = birthdays.some((item) => item.daysUntil === 0);
+
   homeDashboardEl.innerHTML = [
     createHomeDailyPickSection(),
+    hasBirthdayToday ? birthdaySection : "",
     createYoutubeVideosSection(3, { compact: true }),
     createNewsSection(),
     createScheduleSection(),
-    createUpcomingBirthdaysSection(),
+    hasBirthdayToday ? "" : birthdaySection,
     createFavoriteMembersSection(),
   ].filter(Boolean).join("");
 }
@@ -1042,8 +1047,7 @@ function createExpandableDashboardList(key, items, isExpanded, renderItem) {
     ${toggleButton}
   `;
 }
-function createUpcomingBirthdaysSection() {
-  const birthdays = getUpcomingBirthdays();
+function createUpcomingBirthdaysSection(birthdays = getUpcomingBirthdays()) {
 
   if (birthdays.length === 0) {
     return "";
@@ -1258,7 +1262,7 @@ function getDaysUntilBirthday(birthday) {
 
 function createBirthdayCountdownLabel(daysUntil) {
   if (daysUntil === 0) {
-    return "HAPPY BIRTHDAY";
+    return "🎂 HAPPY BIRTHDAY";
   }
 
   if (daysUntil === 1) {
