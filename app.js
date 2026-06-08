@@ -468,28 +468,43 @@ function applyFixedData(member) {
 }
 
 function renderUpdatedAt() {
-  const value = meta.updatedAt || meta.checkedAt;
+  const checkedAt = formatMetaDate(meta.checkedAt);
+  const updatedAt = formatMetaDate(meta.updatedAt);
 
-  if (!value) {
+  if (!checkedAt && !updatedAt) {
     updatedAtEl.textContent = "";
     return;
+  }
+
+  const updateBadge = meta.checkedAt && meta.updatedAt && meta.checkedAt === meta.updatedAt
+    ? `<span class="data-update-badge">更新あり</span>`
+    : "";
+  const lines = [
+    checkedAt ? `<span>最終確認：${checkedAt}</span>` : "",
+    updatedAt ? `<span>データ更新：${updatedAt}${updateBadge}</span>` : "",
+  ].filter(Boolean);
+
+  updatedAtEl.innerHTML = lines.join("");
+}
+
+function formatMetaDate(value) {
+  if (!value) {
+    return "";
   }
 
   const date = new Date(value);
 
   if (Number.isNaN(date.getTime())) {
-    updatedAtEl.textContent = "";
-    return;
+    return "";
   }
 
-  const label = meta.updatedAt ? "データ更新" : "最終チェック";
-  updatedAtEl.textContent = `${label}: ${date.toLocaleString("ja-JP", {
+  return date.toLocaleString("ja-JP", {
     year: "numeric",
     month: "2-digit",
     day: "2-digit",
     hour: "2-digit",
     minute: "2-digit",
-  })}`;
+  });
 }
 
 function isBirthdayToday(birthday) {

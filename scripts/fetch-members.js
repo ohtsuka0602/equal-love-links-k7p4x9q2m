@@ -67,25 +67,26 @@ async function main() {
 
     const checkedAt = new Date().toISOString();
     const localizedMembers = await captureMemberImages(page, uniqueMembers, existingMembersByName, checkedAt);
-    const comparedMembers = localizedMembers.map((member) =>
+    const comparedResults = localizedMembers.map((member) =>
       applyDiffMetadata(member, existingMembersByName.get(member.name), checkedAt)
     );
+    const comparedMembers = comparedResults.map((result) => result.member);
+    const hasContentUpdates = comparedResults.some((result) => result.hasContentUpdates);
     const output = {
       meta: {
         ...existingData.meta,
         checkedAt,
-        updatedAt: checkedAt,
+        updatedAt: hasContentUpdates ? checkedAt : existingData.meta.updatedAt || checkedAt,
       },
       members: [OFFICIAL_MEMBER, ...comparedMembers],
     };
 
-    if (!hasMembersChanged(existingData.members, output.members)) {
-      console.log("No member SNS link or image changes detected. Existing members.json was not changed.");
-      return;
-    }
-
     await writeJsonAtomically(output);
-    console.log(`Updated ${path.relative(ROOT_DIR, DATA_PATH)} with ${output.members.length} records.`);
+    console.log(
+      hasContentUpdates
+        ? `Updated ${path.relative(ROOT_DIR, DATA_PATH)} with ${output.members.length} records.`
+        : `Checked official profile. No member SNS link or image changes detected.`
+    );
   } finally {
     await browser.close();
   }
@@ -122,7 +123,8 @@ function createMemberMap(members) {
 }
 
 function applyDiffMetadata(member, previousMember, checkedAt) {
-  const badges = {};
+  const badges = { ...(previousMember?.badges || {}) };
+  let hasContentUpdates = false;
 
   for (const key of SNS_KEYS) {
     const previousUrl = cleanUrl(previousMember?.sns?.[key]);
@@ -130,8 +132,13 @@ function applyDiffMetadata(member, previousMember, checkedAt) {
 
     if (!previousUrl && currentUrl) {
       badges[key] = "new";
+      hasContentUpdates = true;
     } else if (previousUrl && currentUrl && previousUrl !== currentUrl) {
       badges[key] = "changed";
+      hasContentUpdates = true;
+    } else if (previousUrl && !currentUrl) {
+      delete badges[key];
+      hasContentUpdates = true;
     }
   }
 
@@ -141,17 +148,17 @@ function applyDiffMetadata(member, previousMember, checkedAt) {
 
   if (imageChanged) {
     badges.image = "changed";
+    hasContentUpdates = true;
   }
 
   return {
-    ...member,
-    imageUpdatedAt: imageChanged ? checkedAt : previousMember?.imageUpdatedAt || undefined,
-    badges,
+    member: {
+      ...member,
+      imageUpdatedAt: imageChanged ? checkedAt : previousMember?.imageUpdatedAt || undefined,
+      badges,
+    },
+    hasContentUpdates,
   };
-}
-
-function hasMembersChanged(previousMembers, nextMembers) {
-  return JSON.stringify(previousMembers || []) !== JSON.stringify(nextMembers);
 }
 
 async function writeJsonAtomically(data) {
