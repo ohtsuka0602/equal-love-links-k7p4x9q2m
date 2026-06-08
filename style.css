@@ -854,3 +854,20 @@ h1 {
     grid-template-columns: 98px minmax(0, 1fr);
   }
 }
+
+.dashboard-toggle-button {
+  justify-self: center;
+  min-height: 32px;
+  padding: 0 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--brand-strong);
+  font-size: 12px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.dashboard-toggle-button:active {
+  background: #fff4f8;
+}

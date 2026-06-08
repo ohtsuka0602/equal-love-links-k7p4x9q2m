@@ -714,6 +714,8 @@ let newsFailed = false;
 let scheduleItems = [];
 let scheduleMeta = {};
 let scheduleFailed = false;
+let newsExpanded = false;
+let scheduleExpanded = false;
 
 async function loadMembers() {
   setLoading(true);
@@ -980,7 +982,7 @@ function createYoutubeVideoCard(video, options = {}) {
 
 function createNewsSection() {
   const content = newsItems.length > 0
-    ? `<div class="dashboard-list">${newsItems.slice(0, 10).map(createNewsItem).join("")}</div>`
+    ? createExpandableDashboardList("news", newsItems, newsExpanded, createNewsItem)
     : `<p class="dashboard-empty">${newsFailed ? "ニュースを取得できませんでした" : "最新ニュースはまだありません"}</p>`;
 
   return createDashboardSection("最新ニュース", content, createDashboardMeta(newsMeta.checkedAt));
@@ -1005,7 +1007,7 @@ function createNewsItem(item) {
 
 function createScheduleSection() {
   const content = scheduleItems.length > 0
-    ? `<div class="dashboard-list">${scheduleItems.slice(0, 10).map(createScheduleItem).join("")}</div>`
+    ? createExpandableDashboardList("schedule", scheduleItems, scheduleExpanded, createScheduleItem)
     : `<p class="dashboard-empty">${scheduleFailed ? "スケジュールを取得できませんでした" : "今後のスケジュールはまだありません"}</p>`;
 
   return createDashboardSection("今後のスケジュール", content, createDashboardMeta(scheduleMeta.checkedAt));
@@ -1029,6 +1031,17 @@ function createScheduleItem(item) {
   `;
 }
 
+function createExpandableDashboardList(key, items, isExpanded, renderItem) {
+  const visibleItems = items.slice(0, isExpanded ? 10 : 5);
+  const toggleButton = items.length > 5
+    ? `<button class="dashboard-toggle-button" type="button" data-dashboard-toggle="${key}">${isExpanded ? "閉じる" : "もっと見る"}</button>`
+    : "";
+
+  return `
+    <div class="dashboard-list">${visibleItems.map(renderItem).join("")}</div>
+    ${toggleButton}
+  `;
+}
 function createUpcomingBirthdaysSection() {
   const birthdays = getUpcomingBirthdays();
 
@@ -1302,6 +1315,21 @@ function toggleFavorite(name) {
 
 if (homeDashboardEl) {
   homeDashboardEl.addEventListener("click", (event) => {
+    const toggleButton = event.target.closest("[data-dashboard-toggle]");
+
+    if (toggleButton) {
+      if (toggleButton.dataset.dashboardToggle === "news") {
+        newsExpanded = !newsExpanded;
+      }
+
+      if (toggleButton.dataset.dashboardToggle === "schedule") {
+        scheduleExpanded = !scheduleExpanded;
+      }
+
+      renderHomeDashboard();
+      return;
+    }
+
     const button = event.target.closest("[data-favorite-name]");
 
     if (button) {
