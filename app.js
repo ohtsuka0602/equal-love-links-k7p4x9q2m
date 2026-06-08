@@ -283,7 +283,7 @@ function createColorRingStyle(member) {
   const colors = member.memberColors.map((color) => colorPalette[color] || colorPalette.default);
   const background = colors.length === 1
     ? colors[0]
-    : `conic-gradient(${colors[0]} 0deg 180deg, ${colors[1]} 180deg 360deg)`;
+    : `conic-gradient(${colors[1]} 0deg 180deg, ${colors[0]} 180deg 360deg)`;
 
   return `--member-ring:${escapeHtml(background)};`;
 }
