@@ -1,16 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-06-08T06:05:26.600Z",
-    "updatedAt": "2026-06-08T06:05:26.600Z"
+    "checkedAt": "2026-06-08T21:29:13.370Z",
+    "updatedAt": "2026-06-08T21:29:13.370Z"
   },
   "schedule": [
-    {
-      "title": "ニッポン放送「＝LOVEのイコラフ」",
-      "date": "2026-06-08",
-      "url": "https://equal-love.jp/schedule/detail/10428",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "東京ニュース通信社「週刊TVガイド ...",
       "date": "2026-06-10",
@@ -33,17 +26,17 @@
       "time": ""
     },
     {
-      "title": "【出演情報】映画『おそ松さん 人類ク...",
-      "date": "2026-06-12",
-      "url": "https://equal-love.jp/schedule/detail/11145",
-      "category": "メディア",
-      "time": ""
-    },
-    {
       "title": "映画『おそ松さん 人類クズ化計画!!...",
       "date": "2026-06-12",
       "url": "https://equal-love.jp/schedule/detail/11546",
       "category": "ライブ/イベント",
+      "time": ""
+    },
+    {
+      "title": "【出演情報】映画『おそ松さん 人類ク...",
+      "date": "2026-06-12",
+      "url": "https://equal-love.jp/schedule/detail/11145",
+      "category": "メディア",
       "time": ""
     },
     {
@@ -71,6 +64,13 @@
       "title": "テレビ朝日系「EIGHT-JAM」※...",
       "date": "2026-06-14",
       "url": "https://equal-love.jp/schedule/detail/11520",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "date": "2026-06-15",
+      "url": "https://equal-love.jp/schedule/detail/10429",
       "category": "メディア",
       "time": ""
     }
