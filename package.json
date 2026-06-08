@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "node scripts/serve.js",
     "fetch": "node scripts/fetch-members.js",
-    "check": "node --check app.js && node --check scripts/fetch-members.js && node --check scripts/serve.js"
+    "fetch:youtube": "node scripts/fetch-youtube-videos.js",
+    "check": "node --check app.js && node --check scripts/fetch-members.js && node --check scripts/fetch-youtube-videos.js && node --check scripts/serve.js"
   },
   "dependencies": {
     "playwright": "^1.53.0"

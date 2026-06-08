@@ -2,7 +2,7 @@ name: Update members
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 3,9,15,21 * * *"
   workflow_dispatch:
 
 permissions:
@@ -30,8 +30,13 @@ jobs:
       - name: Fetch member links
         run: npm run fetch
 
+      - name: Fetch YouTube videos
+        run: npm run fetch:youtube
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update member SNS links"
-          file_pattern: data/members.json assets/members/*
+          commit_message: "Update member SNS links and YouTube videos"
+          file_pattern: data/members.json data/youtube-videos.json assets/members/*

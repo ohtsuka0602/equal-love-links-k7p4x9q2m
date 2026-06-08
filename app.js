@@ -2,6 +2,7 @@ const memberListEl = document.getElementById("memberList");
 const statusEl = document.getElementById("status");
 const reloadButton = document.getElementById("reloadButton");
 const dailyPickEl = document.getElementById("dailyPick");
+const youtubeVideosEl = document.getElementById("youtubeVideos");
 const updatedAtEl = document.getElementById("updatedAt");
 const filterButtons = document.querySelectorAll(".filter-button");
 const targetButtons = document.querySelectorAll(".target-button");
@@ -70,6 +71,9 @@ const messages = {
   dailyPickTitle: "DAILY PICK",
   dailyPickEmpty:
     "\u8868\u793a\u3067\u304d\u308b\u30e1\u30f3\u30d0\u30fc\u304c\u3044\u307e\u305b\u3093",
+  youtubeVideosTitle: "YouTube最新動画",
+  youtubeVideosEmpty: "表示できる最新動画がありません",
+  youtubeVideosFailed: "最新動画を取得できませんでした",
 };
 const dailyPickSubtexts = {
   instagram:
@@ -85,6 +89,9 @@ const dailyPickSubtexts = {
 
 let members = [];
 let meta = {};
+let youtubeVideos = [];
+let youtubeVideosMeta = {};
+let youtubeVideosFailed = false;
 let favoriteNames = loadFavoriteNames();
 let currentFilter = "instagram";
 let favoriteOnly = false;
@@ -100,9 +107,13 @@ async function loadMembers() {
     }
 
     const data = await response.json();
+    const youtubeData = await loadYoutubeVideos();
 
     const normalizedData = normalizeMembersPayload(data);
     meta = normalizedData.meta;
+    youtubeVideos = youtubeData.videos;
+    youtubeVideosMeta = youtubeData.meta;
+    youtubeVideosFailed = youtubeData.failed;
     members = normalizedData.members.map(applyFixedData).filter(isDisplayableMember);
     favoriteNames = pruneFavoriteNames(favoriteNames, members);
     saveFavoriteNames();
@@ -112,7 +123,12 @@ async function loadMembers() {
     console.error(error);
     members = [];
     meta = {};
+    youtubeVideos = [];
+    youtubeVideosMeta = {};
+    youtubeVideosFailed = false;
     dailyPickEl.innerHTML = "";
+    youtubeVideosEl.innerHTML = "";
+    youtubeVideosEl.hidden = true;
     updatedAtEl.textContent = "";
     statusEl.textContent = messages.loadFailed;
     memberListEl.innerHTML = `<p class="empty-message">${messages.noData}</p>`;
@@ -123,7 +139,23 @@ async function loadMembers() {
 
 function render() {
   renderDailyPick();
+  renderYoutubeVideos();
   renderMembers();
+}
+
+async function loadYoutubeVideos() {
+  try {
+    const response = await fetch(`data/youtube-videos.json?ts=${Date.now()}`);
+
+    if (!response.ok) {
+      throw new Error(`youtube-videos.json could not be loaded: ${response.status}`);
+    }
+
+    return normalizeYoutubeVideosPayload(await response.json());
+  } catch (error) {
+    console.warn(error);
+    return { meta: {}, videos: [], failed: true };
+  }
 }
 
 function renderDailyPick() {
@@ -165,6 +197,54 @@ function renderDailyPick() {
         </div>
       </div>
     </article>
+  `;
+}
+
+function renderYoutubeVideos() {
+  if (currentFilter !== "youtube") {
+    youtubeVideosEl.hidden = true;
+    youtubeVideosEl.innerHTML = "";
+    return;
+  }
+
+  youtubeVideosEl.hidden = false;
+  const checkedAt = formatMetaDate(youtubeVideosMeta.checkedAt);
+  const metaLine = checkedAt ? `<p class="youtube-videos-meta">動画確認：${checkedAt}</p>` : "";
+  const videos = youtubeVideos.slice(0, 5);
+  const content = videos.length > 0
+    ? `<div class="youtube-video-list">${videos.map(createYoutubeVideoCard).join("")}</div>`
+    : `<p class="youtube-videos-empty">${youtubeVideosFailed ? messages.youtubeVideosFailed : messages.youtubeVideosEmpty}</p>`;
+
+  youtubeVideosEl.innerHTML = `
+    <section class="youtube-videos-card">
+      <div class="youtube-videos-heading">
+        <h2>${messages.youtubeVideosTitle}</h2>
+        ${metaLine}
+      </div>
+      ${content}
+    </section>
+  `;
+}
+
+function createYoutubeVideoCard(video) {
+  const title = escapeHtml(video.title || "YouTube動画");
+  const channelName = escapeHtml(video.channelName || video.sourceName || "YouTube");
+  const publishedAt = formatMetaDate(video.publishedAt);
+  const thumbnail = escapeHtml(video.thumbnail || "assets/official-love.png");
+  const url = escapeHtml(video.url || `https://www.youtube.com/watch?v=${video.videoId || ""}`);
+
+  return `
+    <a class="youtube-video-card" href="${url}" target="_blank" rel="noopener noreferrer">
+      <span class="youtube-video-thumb">
+        <img src="${thumbnail}" alt="" loading="lazy" referrerpolicy="no-referrer">
+        <span class="youtube-play-mark" aria-hidden="true"></span>
+      </span>
+      <span class="youtube-video-body">
+        <span class="youtube-video-title">${title}</span>
+        <span class="youtube-video-channel">${channelName}</span>
+        ${publishedAt ? `<span class="youtube-video-date">${publishedAt}</span>` : ""}
+      </span>
+    </a>
   `;
 }
 
@@ -436,6 +516,21 @@ function normalizeMembersPayload(data) {
   }
 
   throw new Error("members.json must be an array or { members, meta }");
+}
+
+function normalizeYoutubeVideosPayload(data) {
+  if (!data || !Array.isArray(data.videos)) {
+    return { meta: {}, videos: [], failed: false };
+  }
+
+  return {
+    meta: data.meta || {},
+    videos: data.videos
+      .filter((video) => video && (video.url || video.videoId))
+      .sort((left, right) => new Date(right.publishedAt || 0) - new Date(left.publishedAt || 0))
+      .slice(0, 5),
+    failed: false,
+  };
 }
 
 function applyFixedData(member) {

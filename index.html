@@ -11,7 +11,7 @@
   <link rel="apple-touch-icon" href="assets/app-icon.png?v=20260607-5" />
   <link rel="icon" href="assets/app-icon.png?v=20260607-5" />
   <link rel="manifest" href="manifest.json?v=20260607-5" />
-  <link rel="stylesheet" href="style.css?v=20260608-1" />
+  <link rel="stylesheet" href="style.css?v=20260608-2" />
 </head>
 <body>
   <header class="app-header">
@@ -32,8 +32,8 @@
       </div>
 
       <div class="target-buttons" role="tablist" aria-label="表示対象">
-        <button class="target-button active" type="button" data-target="all">全員</button>
         <button class="target-button" type="button" data-target="favorites">推しだけ</button>
+        <button class="target-button active" type="button" data-target="all">全員</button>
       </div>
 
       <div class="reload-row">
@@ -43,6 +43,7 @@
     </section>
 
     <section id="dailyPick" class="daily-pick" aria-live="polite"></section>
+    <section id="youtubeVideos" class="youtube-videos" aria-live="polite" hidden></section>
 
     <section class="summary" aria-live="polite">
       <p id="status">読み込み中...</p>
@@ -51,6 +52,6 @@
     <section id="memberList" class="member-list" aria-label="SNSリンク一覧"></section>
   </main>
 
-  <script src="app.js?v=20260608-1"></script>
+  <script src="app.js?v=20260608-2"></script>
 </body>
 </html>
