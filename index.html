@@ -5,26 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#ffffff" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-title" content="=LOVE SNS" />
+  <meta name="apple-mobile-web-app-title" content="=LOVE " />
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-  <title>=LOVE SNS Links</title>
+  <title>=LOVE Dashboard</title>
   <link rel="apple-touch-icon" href="assets/app-icon.png?v=20260607-5" />
   <link rel="icon" href="assets/app-icon.png?v=20260607-5" />
   <link rel="manifest" href="manifest.json?v=20260607-5" />
-  <link rel="stylesheet" href="style.css?v=20260608-3" />
+  <link rel="stylesheet" href="style.css?v=20260608-5" />
 </head>
 <body>
   <header class="app-header">
     <div>
-      <h1>=LOVE SNS Links</h1>
-      <p class="lead">SNSリンク集</p>
+      <h1>=LOVE Dashboard</h1>
+      <p class="lead">情報まとめ</p>
     </div>
   </header>
 
   <main class="app-main">
     <section class="controls" aria-label="表示条件">
       <div class="filter-buttons" role="tablist" aria-label="SNSで絞り込み">
-        <button class="filter-button active" type="button" data-filter="youtube">YouTube</button>
+        <button class="filter-button active" type="button" data-filter="home">Home</button>
+        <button class="filter-button" type="button" data-filter="youtube">YouTube</button>
         <button class="filter-button" type="button" data-filter="instagram">Instagram</button>
         <button class="filter-button" type="button" data-filter="x">X</button>
         <button class="filter-button" type="button" data-filter="tiktok">TikTok</button>
@@ -42,6 +43,7 @@
       </div>
     </section>
 
+    <section id="homeDashboard" class="home-dashboard" aria-live="polite"></section>
     <section id="dailyPick" class="daily-pick" aria-live="polite"></section>
     <section id="youtubeVideos" class="youtube-videos" aria-live="polite" hidden></section>
 
@@ -52,6 +54,6 @@
     <section id="memberList" class="member-list" aria-label="SNSリンク一覧"></section>
   </main>
 
-  <script src="app.js?v=20260608-3"></script>
+  <script src="app.js?v=20260608-5"></script>
 </body>
 </html>

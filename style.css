@@ -613,3 +613,244 @@ h1 {
     height: 32px;
   }
 }
+
+.filter-buttons {
+  grid-template-columns: repeat(6, minmax(78px, 1fr));
+}
+
+.filter-button {
+  min-height: 34px;
+  font-size: 12px;
+}
+
+.target-button {
+  min-height: 30px;
+  padding: 0 11px;
+}
+
+.target-buttons[hidden],
+.home-dashboard[hidden],
+.summary[hidden],
+.member-list[hidden] {
+  display: none;
+}
+
+.home-dashboard {
+  display: grid;
+  gap: 10px;
+  margin: 6px 0 12px;
+}
+
+.dashboard-section {
+  display: grid;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.dashboard-heading,
+.compact-member-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.dashboard-heading h2,
+.compact-member-heading h3 {
+  margin: 0;
+  min-width: 0;
+  color: var(--brand-strong);
+  font-size: 14px;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+
+.compact-member-heading h3 {
+  color: var(--text);
+  font-size: 14px;
+}
+
+.dashboard-meta {
+  margin: 0;
+  color: var(--muted);
+  font-size: 11px;
+  text-align: right;
+}
+
+.dashboard-list,
+.compact-member-list {
+  display: grid;
+  gap: 8px;
+}
+
+.dashboard-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  min-height: 54px;
+  padding: 9px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.dashboard-list-item:active {
+  background: #fff4f8;
+}
+
+.dashboard-item-main {
+  display: grid;
+  gap: 3px;
+  min-width: 0;
+}
+
+.dashboard-item-title {
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.dashboard-item-meta,
+.dashboard-empty,
+.compact-member-meta {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.dashboard-empty {
+  margin: 0;
+  padding: 14px 8px;
+  text-align: center;
+}
+
+.dashboard-category,
+.video-new-badge,
+.compact-member-badge {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  min-height: 18px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: #ffe9f3;
+  color: var(--brand-strong);
+  font-size: 10px;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.video-new-badge {
+  margin-left: 6px;
+  vertical-align: 1px;
+}
+
+.compact-member-badge {
+  background: #fff2c2;
+  color: #8b5f00;
+}
+
+.compact-member-card {
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  gap: 10px;
+  align-items: center;
+  min-height: 78px;
+  padding: 9px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fffdfd;
+}
+
+.compact-member-image-wrap {
+  width: 58px;
+  height: 58px;
+  padding: 3px;
+  border-radius: 50%;
+  background: #f6e8ef;
+  box-shadow: 0 0 0 1px rgba(38, 33, 38, 0.12);
+}
+
+.compact-member-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  background: var(--surface);
+}
+
+.compact-member-body {
+  display: grid;
+  gap: 5px;
+  min-width: 0;
+}
+
+.compact-member-card .member-color-label {
+  margin: 0;
+}
+
+.compact-member-card .favorite-button {
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+}
+
+.compact-sns-buttons {
+  gap: 6px;
+}
+
+.compact-sns-buttons .sns-button {
+  width: 34px;
+  height: 34px;
+}
+
+.compact-sns-buttons .sns-icon {
+  width: 22px;
+  height: 22px;
+}
+
+.compact-sns-buttons .sns-instagram .sns-icon {
+  width: 34px;
+  height: 34px;
+}
+
+.compact-sns-buttons .sns-showroom .sns-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.youtube-videos-card.is-compact .youtube-video-card {
+  grid-template-columns: 104px minmax(0, 1fr);
+}
+
+@media (max-width: 430px) {
+  .filter-button {
+    min-width: 78px;
+  }
+
+  .dashboard-list-item {
+    align-items: flex-start;
+  }
+
+  .compact-member-card {
+    grid-template-columns: 54px minmax(0, 1fr);
+  }
+
+  .compact-member-image-wrap {
+    width: 54px;
+    height: 54px;
+  }
+
+  .youtube-videos-card.is-compact .youtube-video-card {
+    grid-template-columns: 98px minmax(0, 1fr);
+  }
+}

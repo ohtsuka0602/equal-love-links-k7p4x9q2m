@@ -6,7 +6,9 @@
     "dev": "node scripts/serve.js",
     "fetch": "node scripts/fetch-members.js",
     "fetch:youtube": "node scripts/fetch-youtube-videos.js",
-    "check": "node --check app.js && node --check scripts/fetch-members.js && node --check scripts/fetch-youtube-videos.js && node --check scripts/serve.js"
+    "fetch:news": "node scripts/fetch-news.js",
+    "fetch:schedule": "node scripts/fetch-schedule.js",
+    "check": "node --check app.js && node --check scripts/fetch-members.js && node --check scripts/fetch-youtube-videos.js && node --check scripts/fetch-official-list.js && node --check scripts/fetch-news.js && node --check scripts/fetch-schedule.js && node --check scripts/serve.js"
   },
   "dependencies": {
     "playwright": "^1.53.0"

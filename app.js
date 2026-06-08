@@ -93,7 +93,7 @@ let youtubeVideos = [];
 let youtubeVideosMeta = {};
 let youtubeVideosFailed = false;
 let favoriteNames = loadFavoriteNames();
-let currentFilter = "youtube";
+let currentFilter = "home";
 let favoriteOnly = false;
 
 async function loadMembers() {
@@ -703,5 +703,611 @@ memberListEl.addEventListener("click", (event) => {
 });
 
 reloadButton.addEventListener("click", loadMembers);
+
+const homeDashboardEl = document.getElementById("homeDashboard");
+const targetButtonsEl = document.querySelector(".target-buttons");
+const summaryEl = document.querySelector(".summary");
+
+let newsItems = [];
+let newsMeta = {};
+let newsFailed = false;
+let scheduleItems = [];
+let scheduleMeta = {};
+let scheduleFailed = false;
+
+async function loadMembers() {
+  setLoading(true);
+
+  try {
+    const response = await fetch(`data/members.json?ts=${Date.now()}`);
+
+    if (!response.ok) {
+      throw new Error(`members.json could not be loaded: ${response.status}`);
+    }
+
+    const [data, youtubeData, newsData, scheduleData] = await Promise.all([
+      response.json(),
+      loadYoutubeVideos(),
+      loadNews(),
+      loadSchedule(),
+    ]);
+
+    const normalizedData = normalizeMembersPayload(data);
+    meta = normalizedData.meta;
+    youtubeVideos = youtubeData.videos;
+    youtubeVideosMeta = youtubeData.meta;
+    youtubeVideosFailed = youtubeData.failed;
+    newsItems = newsData.items;
+    newsMeta = newsData.meta;
+    newsFailed = newsData.failed;
+    scheduleItems = scheduleData.items;
+    scheduleMeta = scheduleData.meta;
+    scheduleFailed = scheduleData.failed;
+    members = normalizedData.members.map(applyFixedData).filter(isDisplayableMember);
+    favoriteNames = pruneFavoriteNames(favoriteNames, members);
+    saveFavoriteNames();
+    renderUpdatedAt();
+    render();
+  } catch (error) {
+    console.error(error);
+    members = [];
+    meta = {};
+    youtubeVideos = [];
+    youtubeVideosMeta = {};
+    youtubeVideosFailed = false;
+    newsItems = [];
+    newsMeta = {};
+    newsFailed = false;
+    scheduleItems = [];
+    scheduleMeta = {};
+    scheduleFailed = false;
+    if (homeDashboardEl) {
+      homeDashboardEl.innerHTML = "";
+      homeDashboardEl.hidden = true;
+    }
+    dailyPickEl.innerHTML = "";
+    dailyPickEl.hidden = true;
+    youtubeVideosEl.innerHTML = "";
+    youtubeVideosEl.hidden = true;
+    if (summaryEl) {
+      summaryEl.hidden = false;
+    }
+    updatedAtEl.textContent = "";
+    statusEl.textContent = messages.loadFailed;
+    memberListEl.innerHTML = `<p class="empty-message">${messages.noData}</p>`;
+  } finally {
+    setLoading(false);
+  }
+}
+
+async function loadNews() {
+  return loadDashboardJson("news.json", normalizeNewsPayload, { meta: {}, items: [] });
+}
+
+async function loadSchedule() {
+  return loadDashboardJson("schedule.json", normalizeSchedulePayload, { meta: {}, items: [] });
+}
+
+async function loadDashboardJson(fileName, normalizer, fallback) {
+  try {
+    const response = await fetch(`data/${fileName}?ts=${Date.now()}`);
+
+    if (!response.ok) {
+      throw new Error(`${fileName} could not be loaded: ${response.status}`);
+    }
+
+    return { ...normalizer(await response.json()), failed: false };
+  } catch (error) {
+    console.warn(error);
+    return { ...fallback, failed: true };
+  }
+}
+
+function render() {
+  if (currentFilter === "home") {
+    renderHomeDashboard();
+    return;
+  }
+
+  if (homeDashboardEl) {
+    homeDashboardEl.hidden = true;
+    homeDashboardEl.innerHTML = "";
+  }
+  if (targetButtonsEl) {
+    targetButtonsEl.hidden = false;
+  }
+  if (summaryEl) {
+    summaryEl.hidden = false;
+  }
+  dailyPickEl.hidden = false;
+  memberListEl.hidden = false;
+  renderDailyPick();
+  renderYoutubeVideos();
+  renderMembers();
+}
+
+function renderHomeDashboard() {
+  if (!homeDashboardEl) {
+    return;
+  }
+
+  homeDashboardEl.hidden = false;
+  if (targetButtonsEl) {
+    targetButtonsEl.hidden = true;
+  }
+  if (summaryEl) {
+    summaryEl.hidden = true;
+  }
+  dailyPickEl.hidden = true;
+  dailyPickEl.innerHTML = "";
+  youtubeVideosEl.hidden = true;
+  youtubeVideosEl.innerHTML = "";
+  memberListEl.hidden = true;
+  memberListEl.innerHTML = "";
+  statusEl.textContent = "";
+
+  homeDashboardEl.innerHTML = [
+    createHomeDailyPickSection(),
+    createYoutubeVideosSection(3, { compact: true }),
+    createNewsSection(),
+    createScheduleSection(),
+    createUpcomingBirthdaysSection(),
+    createFavoriteMembersSection(),
+  ].filter(Boolean).join("");
+}
+
+function renderDailyPick() {
+  dailyPickEl.hidden = false;
+  const pick = getDailyPick();
+
+  if (!pick) {
+    dailyPickEl.innerHTML = `
+      <article class="daily-pick-card daily-pick-empty">
+        <div>
+          <h2>${messages.dailyPickTitle}</h2>
+          <p>${messages.dailyPickEmpty}</p>
+        </div>
+      </article>
+    `;
+    return;
+  }
+
+  dailyPickEl.innerHTML = createDailyPickContent(
+    pick,
+    dailyPickSubtexts[currentFilter] || "今日はこのメンバーへ",
+    false
+  );
+}
+
+function createHomeDailyPickSection() {
+  const pick = getHomeDailyPick();
+
+  if (!pick) {
+    return `
+      <article class="daily-pick-card daily-pick-empty">
+        <div>
+          <h2>${messages.dailyPickTitle}</h2>
+          <p>${messages.dailyPickEmpty}</p>
+        </div>
+      </article>
+    `;
+  }
+
+  return createDailyPickContent(pick, "今日はこのメンバーのSNSへ", true);
+}
+
+function createDailyPickContent(pick, subtext, showAllSns) {
+  const name = escapeHtml(pick.name);
+  const image = escapeHtml(pick.image || "assets/official-love.png");
+  const ringStyle = createColorRingStyle(pick);
+  const colorLabel = createColorLabel(pick);
+  const snsButtons = showAllSns ? createAllSnsButtons(pick) : createSnsButtons(pick);
+
+  return `
+    <article class="daily-pick-card">
+      <div class="daily-pick-copy">
+        <h2>${messages.dailyPickTitle}</h2>
+        <p>${escapeHtml(subtext)}</p>
+      </div>
+      <div class="daily-pick-profile">
+        <div class="daily-pick-image-wrap color-ring" style="${ringStyle}">
+          <img class="daily-pick-image" src="${image}" alt="${name}" loading="lazy" referrerpolicy="no-referrer">
+        </div>
+        <div class="daily-pick-info">
+          <h3>${name}</h3>
+          ${colorLabel}
+          <div class="sns-buttons${showAllSns ? " compact-sns-buttons" : ""}">
+            ${snsButtons}
+          </div>
+        </div>
+      </div>
+    </article>
+  `;
+}
+
+function renderYoutubeVideos() {
+  if (currentFilter !== "youtube") {
+    youtubeVideosEl.hidden = true;
+    youtubeVideosEl.innerHTML = "";
+    return;
+  }
+
+  youtubeVideosEl.hidden = false;
+  youtubeVideosEl.innerHTML = createYoutubeVideosSection(5, { compact: false });
+}
+
+function createYoutubeVideosSection(limit, options = {}) {
+  const checkedAt = formatMetaDate(youtubeVideosMeta.checkedAt);
+  const metaLine = checkedAt ? `<p class="youtube-videos-meta">動画確認：${checkedAt}</p>` : "";
+  const videos = youtubeVideos.slice(0, limit);
+  const content = videos.length > 0
+    ? `<div class="youtube-video-list">${videos.map((video) => createYoutubeVideoCard(video, options)).join("")}</div>`
+    : `<p class="youtube-videos-empty">${youtubeVideosFailed ? messages.youtubeVideosFailed : messages.youtubeVideosEmpty}</p>`;
+
+  return `
+    <section class="youtube-videos-card${options.compact ? " is-compact" : ""}">
+      <div class="youtube-videos-heading">
+        <h2>YouTube最新動画</h2>
+        ${metaLine}
+      </div>
+      ${content}
+    </section>
+  `;
+}
+
+function createYoutubeVideoCard(video, options = {}) {
+  const title = escapeHtml(video.title || "YouTube動画");
+  const channelName = escapeHtml(video.channelName || video.sourceName || "YouTube");
+  const publishedAt = formatMetaDate(video.publishedAt);
+  const thumbnail = escapeHtml(video.thumbnail || "assets/official-love.png");
+  const url = escapeHtml(video.url || `https://www.youtube.com/watch?v=${video.videoId || ""}`);
+  const newBadge = isNewVideo(video.publishedAt) ? `<span class="video-new-badge">NEW</span>` : "";
+
+  return `
+    <a class="youtube-video-card${options.compact ? " is-compact" : ""}" href="${url}" target="_blank" rel="noopener noreferrer">
+      <span class="youtube-video-thumb">
+        <img src="${thumbnail}" alt="" loading="lazy" referrerpolicy="no-referrer">
+        <span class="youtube-play-mark" aria-hidden="true"></span>
+      </span>
+      <span class="youtube-video-body">
+        <span class="youtube-video-title">${title}${newBadge}</span>
+        <span class="youtube-video-channel">${channelName}</span>
+        ${publishedAt ? `<span class="youtube-video-date">${publishedAt}</span>` : ""}
+      </span>
+    </a>
+  `;
+}
+
+function createNewsSection() {
+  const content = newsItems.length > 0
+    ? `<div class="dashboard-list">${newsItems.slice(0, 10).map(createNewsItem).join("")}</div>`
+    : `<p class="dashboard-empty">${newsFailed ? "ニュースを取得できませんでした" : "最新ニュースはまだありません"}</p>`;
+
+  return createDashboardSection("最新ニュース", content, createDashboardMeta(newsMeta.checkedAt));
+}
+
+function createNewsItem(item) {
+  const title = escapeHtml(item.title || "ニュース");
+  const date = formatDashboardDate(item.date);
+  const category = item.category ? `<span class="dashboard-category">${escapeHtml(item.category)}</span>` : "";
+  const url = escapeHtml(item.url || "#");
+
+  return `
+    <a class="dashboard-list-item" href="${url}" target="_blank" rel="noopener noreferrer">
+      <span class="dashboard-item-main">
+        <span class="dashboard-item-title">${title}</span>
+        <span class="dashboard-item-meta">${[date, item.category ? escapeHtml(item.category) : ""].filter(Boolean).join(" / ")}</span>
+      </span>
+      ${category}
+    </a>
+  `;
+}
+
+function createScheduleSection() {
+  const content = scheduleItems.length > 0
+    ? `<div class="dashboard-list">${scheduleItems.slice(0, 10).map(createScheduleItem).join("")}</div>`
+    : `<p class="dashboard-empty">${scheduleFailed ? "スケジュールを取得できませんでした" : "今後のスケジュールはまだありません"}</p>`;
+
+  return createDashboardSection("今後のスケジュール", content, createDashboardMeta(scheduleMeta.checkedAt));
+}
+
+function createScheduleItem(item) {
+  const title = escapeHtml(item.title || "スケジュール");
+  const date = formatDashboardDate(item.date);
+  const time = item.time ? escapeHtml(item.time) : "";
+  const category = item.category ? `<span class="dashboard-category">${escapeHtml(item.category)}</span>` : "";
+  const url = escapeHtml(item.url || "#");
+
+  return `
+    <a class="dashboard-list-item" href="${url}" target="_blank" rel="noopener noreferrer">
+      <span class="dashboard-item-main">
+        <span class="dashboard-item-title">${title}</span>
+        <span class="dashboard-item-meta">${[date, time, item.category ? escapeHtml(item.category) : ""].filter(Boolean).join(" / ")}</span>
+      </span>
+      ${category}
+    </a>
+  `;
+}
+
+function createUpcomingBirthdaysSection() {
+  const birthdays = getUpcomingBirthdays();
+
+  if (birthdays.length === 0) {
+    return "";
+  }
+
+  const content = `<div class="compact-member-list">${birthdays.map(createBirthdayMemberCard).join("")}</div>`;
+  return createDashboardSection("近日誕生日", content);
+}
+
+function createBirthdayMemberCard(entry) {
+  const member = entry.member;
+  const name = escapeHtml(member.name);
+  const image = escapeHtml(member.image || "assets/official-love.png");
+  const ringStyle = createColorRingStyle(member);
+  const countdown = escapeHtml(createBirthdayCountdownLabel(entry.daysUntil));
+
+  return `
+    <article class="compact-member-card">
+      <div class="compact-member-image-wrap color-ring" style="${ringStyle}">
+        <img class="compact-member-image" src="${image}" alt="${name}" loading="lazy" referrerpolicy="no-referrer">
+      </div>
+      <div class="compact-member-body">
+        <div class="compact-member-heading">
+          <h3>${name}</h3>
+          <span class="compact-member-badge">${countdown}</span>
+        </div>
+        <div class="compact-member-meta">${escapeHtml(member.birthdayLabel || member.birthday)}</div>
+        <div class="sns-buttons compact-sns-buttons">${createAllSnsButtons(member)}</div>
+      </div>
+    </article>
+  `;
+}
+
+function createFavoriteMembersSection() {
+  const favoriteMembers = favoriteNames
+    .map((name) => members.find((member) => member.name === name && member.type === "member"))
+    .filter(Boolean);
+  const content = favoriteMembers.length > 0
+    ? `<div class="compact-member-list">${favoriteMembers.map(createCompactMemberCard).join("")}</div>`
+    : `<p class="dashboard-empty">推しメンバーを登録するとここに表示されます</p>`;
+
+  return createDashboardSection("推しメンバー", content);
+}
+
+function createCompactMemberCard(member) {
+  const name = escapeHtml(member.name);
+  const image = escapeHtml(member.image || "assets/official-love.png");
+  const ringStyle = createColorRingStyle(member);
+  const colorLabel = createColorLabel(member);
+
+  return `
+    <article class="compact-member-card">
+      <div class="compact-member-image-wrap color-ring" style="${ringStyle}">
+        <img class="compact-member-image" src="${image}" alt="${name}" loading="lazy" referrerpolicy="no-referrer">
+      </div>
+      <div class="compact-member-body">
+        <div class="compact-member-heading">
+          <h3>${name}</h3>
+          ${createFavoriteButton(member)}
+        </div>
+        ${colorLabel}
+        <div class="sns-buttons compact-sns-buttons">${createAllSnsButtons(member)}</div>
+      </div>
+    </article>
+  `;
+}
+
+function createDashboardSection(title, content, metaLine = "") {
+  return `
+    <section class="dashboard-section">
+      <div class="dashboard-heading">
+        <h2>${escapeHtml(title)}</h2>
+        ${metaLine}
+      </div>
+      ${content}
+    </section>
+  `;
+}
+
+function createDashboardMeta(value) {
+  const formatted = formatMetaDate(value);
+  return formatted ? `<p class="dashboard-meta">確認：${formatted}</p>` : "";
+}
+
+function createAllSnsButtons(member) {
+  const sns = member.sns || {};
+
+  return snsOrder
+    .filter((key) => Boolean(sns[key]))
+    .map((key) => createSnsButton(snsLabels[key], sns[key], key, member))
+    .join("");
+}
+
+function createSnsButtons(member) {
+  if (currentFilter === "home") {
+    return createAllSnsButtons(member);
+  }
+
+  const sns = member.sns || {};
+
+  return snsOrder
+    .filter((key) => currentFilter === key)
+    .filter((key) => Boolean(sns[key]))
+    .map((key) => createSnsButton(snsLabels[key], sns[key], key, member))
+    .join("");
+}
+
+function getDailyPick() {
+  const candidates = members.filter(
+    (member) => member.type === "member" && matchesCurrentFilter(member) && hasAnySns(member)
+  );
+
+  return pickFromCandidates(candidates, currentFilter);
+}
+
+function getHomeDailyPick() {
+  const candidates = members.filter((member) => member.type === "member" && hasAnySns(member));
+  return pickFromCandidates(candidates, "home");
+}
+
+function pickFromCandidates(candidates, seedKey) {
+  if (candidates.length === 0) {
+    return null;
+  }
+
+  const dayNumber = getDayNumber();
+  const cycleNumber = Math.floor(dayNumber / candidates.length);
+  const indexInCycle = dayNumber % candidates.length;
+  const shuffled = getCycleMembers(candidates, seedKey, cycleNumber);
+
+  return shuffled[indexInCycle] || null;
+}
+
+function matchesCurrentFilter(member) {
+  return currentFilter !== "home" && Boolean(member.sns?.[currentFilter]);
+}
+
+function normalizeNewsPayload(data) {
+  const items = Array.isArray(data)
+    ? data
+    : Array.isArray(data?.news)
+      ? data.news
+      : Array.isArray(data?.items)
+        ? data.items
+        : [];
+
+  return {
+    meta: data?.meta || {},
+    items: items
+      .filter((item) => item && item.title && item.url)
+      .map((item) => ({
+        title: String(item.title || "").trim(),
+        date: String(item.date || "").trim(),
+        url: String(item.url || "").trim(),
+        category: String(item.category || "").trim(),
+      }))
+      .sort((left, right) => getDateTime(right.date) - getDateTime(left.date))
+      .slice(0, 10),
+  };
+}
+
+function normalizeSchedulePayload(data) {
+  const items = Array.isArray(data)
+    ? data
+    : Array.isArray(data?.schedule)
+      ? data.schedule
+      : Array.isArray(data?.items)
+        ? data.items
+        : [];
+
+  return {
+    meta: data?.meta || {},
+    items: items
+      .filter((item) => item && item.title && item.url)
+      .map((item) => ({
+        title: String(item.title || "").trim(),
+        date: String(item.date || "").trim(),
+        time: String(item.time || "").trim(),
+        url: String(item.url || "").trim(),
+        category: String(item.category || "").trim(),
+      }))
+      .sort((left, right) => getDateTime(left.date) - getDateTime(right.date))
+      .slice(0, 10),
+  };
+}
+
+function getUpcomingBirthdays() {
+  return members
+    .filter((member) => member.type === "member" && member.birthday)
+    .map((member) => ({ member, daysUntil: getDaysUntilBirthday(member.birthday) }))
+    .filter((entry) => entry.daysUntil >= 0 && entry.daysUntil <= 30)
+    .sort((left, right) => left.daysUntil - right.daysUntil || getOriginalIndex(left.member) - getOriginalIndex(right.member));
+}
+
+function getDaysUntilBirthday(birthday) {
+  const match = String(birthday).match(/^(\d{2})-(\d{2})$/);
+
+  if (!match) {
+    return Number.POSITIVE_INFINITY;
+  }
+
+  const now = new Date();
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  let nextBirthday = new Date(now.getFullYear(), Number(match[1]) - 1, Number(match[2]));
+
+  if (nextBirthday < today) {
+    nextBirthday = new Date(now.getFullYear() + 1, Number(match[1]) - 1, Number(match[2]));
+  }
+
+  return Math.round((nextBirthday - today) / 86400000);
+}
+
+function createBirthdayCountdownLabel(daysUntil) {
+  if (daysUntil === 0) {
+    return "HAPPY BIRTHDAY";
+  }
+
+  if (daysUntil === 1) {
+    return "明日";
+  }
+
+  return `あと${daysUntil}日`;
+}
+
+function isNewVideo(value) {
+  const publishedAt = new Date(value);
+
+  if (Number.isNaN(publishedAt.getTime())) {
+    return false;
+  }
+
+  return Date.now() - publishedAt.getTime() <= 48 * 60 * 60 * 1000;
+}
+
+function formatDashboardDate(value) {
+  if (!value) {
+    return "";
+  }
+
+  const normalized = String(value).trim();
+  const date = new Date(/^\d{4}-\d{2}-\d{2}$/.test(normalized) ? `${normalized}T00:00:00` : normalized);
+
+  if (Number.isNaN(date.getTime())) {
+    return escapeHtml(normalized);
+  }
+
+  return date.toLocaleDateString("ja-JP", {
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  });
+}
+
+function getDateTime(value) {
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? 0 : date.getTime();
+}
+
+function toggleFavorite(name) {
+  if (favoriteNames.includes(name)) {
+    favoriteNames = favoriteNames.filter((favoriteName) => favoriteName !== name);
+  } else {
+    favoriteNames = [...favoriteNames, name];
+  }
+
+  saveFavoriteNames();
+  render();
+}
+
+if (homeDashboardEl) {
+  homeDashboardEl.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-favorite-name]");
+
+    if (button) {
+      toggleFavorite(button.dataset.favoriteName);
+    }
+  });
+}
 
 loadMembers();
