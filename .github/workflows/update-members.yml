@@ -1,0 +1,45 @@
+name: Update members
+
+on:
+  schedule:
+    - cron: "13 3,9,15,21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-members:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Playwright browser
+        run: npx playwright install --with-deps chromium
+
+      - name: Fetch member links
+        run: npm run fetch
+
+      - name: Fetch YouTube videos
+        run: npm run fetch:youtube
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+
+      - name: Fetch latest news
+        run: npm run fetch:news
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update member SNS links, YouTube videos, and news"
+          file_pattern: data/members.json data/youtube-videos.json data/news.json assets/members/*
