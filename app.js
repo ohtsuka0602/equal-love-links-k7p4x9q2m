@@ -572,8 +572,8 @@ function renderUpdatedAt() {
     ? `<span class="data-update-badge">更新あり</span>`
     : "";
   const lines = [
-    checkedAt ? `<span>最終確認：${checkedAt}</span>` : "",
-    updatedAt ? `<span>データ更新：${updatedAt}${updateBadge}</span>` : "",
+    checkedAt ? `<span>メンバー確認：${checkedAt}</span>` : "",
+    updatedAt ? `<span>メンバー更新：${updatedAt}${updateBadge}</span>` : "",
   ].filter(Boolean);
 
   updatedAtEl.innerHTML = lines.join("");
