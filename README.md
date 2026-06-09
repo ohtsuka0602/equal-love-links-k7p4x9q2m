@@ -15,10 +15,16 @@ GitHub Actions の `schedule` は `.github/workflows/update-members.yml` に残�
 ### 対象workflow
 
 - Repository: `ohtsuka0602/equal-love-links-k7p4x9q2m`
-- Workflow file: `.github/workflows/update-members.yml`
 - Ref: `main`
-- Primary trigger: external cron -> `workflow_dispatch`
+- Primary trigger: Cloudflare Workers Cron Triggers -> `workflow_dispatch`
 - Fallback trigger: GitHub Actions `schedule`
+
+Cloudflare Workerから以下2つのworkflowを起動します。
+
+| Workflow | File | 更新対象 | 主なcron |
+| --- | --- | --- | --- |
+| Update members | `.github/workflows/update-members.yml` | `members.json` / `youtube-videos.json` / `news.json` | `43 2,8,14,20 * * *` |
+| Update schedule | `.github/workflows/update-schedule.yml` | `schedule.json` | `13 14 * * *` |
 
 ### GitHub REST API 仕様
 
@@ -111,6 +117,122 @@ sh scripts/dispatch-update-members.curl.sh
 現時点で最も置きやすい候補は Cloudflare Workers Cron Triggers です。無料枠で足りやすく、`GITHUB_TOKEN` をWorkers Secretとして保存でき、cronからGitHub APIを呼び出せます。
 
 GCP環境を既に使っているなら、Google Cloud Scheduler + Cloud Run/Functions + Secret Manager が安定寄りです。
+
+### Cloudflare Workers Cron Triggers
+
+このプロジェクトでは、外部cronの本線として Cloudflare Workers Cron Triggers を使います。Workerは `scheduled(event, env, ctx)` だけでGitHub REST APIを呼び出す外部起動係です。GitHub Actions側の取得処理は既存workflowをそのまま使います。
+
+追加ファイル:
+
+```text
+cloudflare/worker.js
+cloudflare/wrangler.toml.example
+```
+
+Cloudflare CronはUTC基準です。設定するcronは以下です。
+
+| 対象 | JST | UTC | cron |
+| --- | --- | --- | --- |
+| Update members | 5:43 / 11:43 / 17:43 / 23:43 | 20:43 / 02:43 / 08:43 / 14:43 | `43 2,8,14,20 * * *` |
+| Update schedule | 23:13 | 14:13 | `13 14 * * *` |
+
+Workerは `event.cron` で起動対象を分けます。
+
+- `43 2,8,14,20 * * *` -> `update-members.yml`
+- `13 14 * * *` -> `update-schedule.yml`
+
+#### Cloudflareへの設定手順
+
+1. Cloudflare用設定ファイルを作る
+
+```sh
+cd cloudflare
+cp wrangler.toml.example wrangler.toml
+```
+
+2. Cloudflareへログインする
+
+```sh
+npx wrangler login
+```
+
+3. GitHub tokenをWorker Secretに保存する
+
+```sh
+npx wrangler secret put GITHUB_TOKEN
+```
+
+`GITHUB_TOKEN` は `wrangler.toml` には書きません。Fine-grained PATを使う場合は、対象repoへのアクセスと `Actions: Read and write` を付与します。
+
+4. Workerをデプロイする
+
+```sh
+npx wrangler deploy
+```
+
+#### 手動テスト方法
+
+ローカルでCron Triggerをテストする場合は、Cloudflare公式の `wrangler dev --test-scheduled` を使います。
+
+```sh
+cd cloudflare
+npx wrangler dev --test-scheduled
+```
+
+別ターミナルから、members用cronを指定してscheduled handlerを呼びます。
+
+```sh
+curl "http://localhost:8787/__scheduled?cron=43+2,8,14,20+*+*+*"
+```
+
+schedule用cronのテスト:
+
+```sh
+curl "http://localhost:8787/__scheduled?cron=13+14+*+*+*"
+```
+
+Wranglerのバージョンや実行モードによっては、以下のscheduled test routeが使われます。
+
+```sh
+curl "http://localhost:8787/cdn-cgi/handler/scheduled?cron=43+2,8,14,20+*+*+*"
+```
+
+ローカルテストで実際にGitHubへdispatchする場合は、ローカルsecretとして `cloudflare/.dev.vars` に以下を置きます。このファイルはcommitしません。
+
+```text
+GITHUB_TOKEN=<token>
+```
+
+#### 確認方法
+
+Cloudflare側:
+
+- Workers Logsで `update-members.yml dispatch status: 204` を確認する
+- Workers Logsで `update-schedule.yml dispatch status: 204` を確認する
+- 204以外の場合は、Workerがstatusとbodyをログに出してthrowします
+
+GitHub Actions側:
+
+- Actions > `Update members` を開く
+- `event=workflow_dispatch` のrunが作成されているか確認する
+- Actions > `Update schedule` も同様に確認する
+- runの `status` / `conclusion` / `head_sha` / run URLを確認する
+
+APIで確認する例:
+
+```sh
+curl -L \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer $GITHUB_TOKEN" \
+  -H "X-GitHub-Api-Version: 2022-11-28" \
+  "https://api.github.com/repos/ohtsuka0602/equal-love-links-k7p4x9q2m/actions/workflows/update-members.yml/runs?event=workflow_dispatch&branch=main&per_page=5"
+```
+
+Cloudflare公式ドキュメント:
+
+- Cron Triggers: https://developers.cloudflare.com/workers/configuration/cron-triggers/
+- Test Cron Triggers using Wrangler: https://developers.cloudflare.com/workers/examples/cron-trigger/
+- Worker Secrets: https://developers.cloudflare.com/workers/configuration/secrets/
 
 ### 推奨実行時刻
 

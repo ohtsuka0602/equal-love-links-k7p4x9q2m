@@ -2,3 +2,5 @@ node_modules/
 debug/
 server.*.log
 .DS_Store
+cloudflare/wrangler.toml
+cloudflare/.dev.vars

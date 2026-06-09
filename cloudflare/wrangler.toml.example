@@ -1,0 +1,14 @@
+name = "equal-love-links-dispatcher"
+main = "worker.js"
+compatibility_date = "2026-06-09"
+
+[triggers]
+crons = [
+  "43 2,8,14,20 * * *",
+  "13 14 * * *"
+]
+
+[vars]
+GITHUB_OWNER = "ohtsuka0602"
+GITHUB_REPO = "equal-love-links-k7p4x9q2m"
+GITHUB_REF = "main"
