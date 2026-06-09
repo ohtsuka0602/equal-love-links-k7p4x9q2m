@@ -228,6 +228,27 @@ curl -L \
   "https://api.github.com/repos/ohtsuka0602/equal-love-links-k7p4x9q2m/actions/workflows/update-members.yml/runs?event=workflow_dispatch&branch=main&per_page=5"
 ```
 
+
+#### Update schedule Cron の切り分けログ
+
+`13 14 * * *` が動かない場合は、Cloudflare Workers Logsで以下を確認します。
+
+```text
+Cloudflare scheduled event.cron: "13 14 * * *"
+Normalized cron: 13 14 * * *
+Dispatch target workflow: update-schedule.yml
+Dispatch source: cron
+Dispatch cron: 13 14 * * *
+Dispatch workflow: update-schedule.yml
+update-schedule.yml dispatch status: 204
+```
+
+判断基準:
+
+- `Cloudflare scheduled event.cron` 自体が無い場合は、Cloudflare Cron Triggerが実行されていません。
+- `Dispatch target workflow: (none)` または `No workflow mapped` が出る場合は、Cloudflareから渡された `event.cron` とWorkerの分岐条件が一致していません。
+- `update-schedule.yml dispatch status: 204` が出ているのにGitHub Actionsにrunが無い場合は、GitHub API側の異常または確認対象workflowの見間違いを疑います。
+- `update-members.yml` が23:43 JSTだけに出ている場合はmembers本来のcronです。23:13 JST前後にmembersが出ていなければ、schedule cronがmembersへ誤dispatchされた状態ではありません。
 Cloudflare公式ドキュメント:
 
 - Cron Triggers: https://developers.cloudflare.com/workers/configuration/cron-triggers/
