@@ -779,6 +779,10 @@ h1 {
   box-shadow: 0 0 0 1px rgba(38, 33, 38, 0.12);
 }
 
+
+.compact-member-image-wrap.color-ring {
+  background: var(--member-ring, #f6e8ef);
+}
 .compact-member-image {
   display: block;
   width: 100%;

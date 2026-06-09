@@ -2,8 +2,12 @@ name: Update members
 
 on:
   schedule:
-    - cron: "13 3,9,15,21 * * *"
+    - cron: "43 2,8,14,20 * * *"
   workflow_dispatch:
+
+concurrency:
+  group: equal-love-data-updates
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -15,6 +19,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -38,8 +45,59 @@ jobs:
       - name: Fetch latest news
         run: npm run fetch:news
 
-      - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Update member SNS links, YouTube videos, and news"
-          file_pattern: data/members.json data/youtube-videos.json data/news.json assets/members/*
+      - name: Commit and push changes
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          tmp_dir="$(mktemp -d)"
+          cleanup() {
+            rm -rf "$tmp_dir"
+          }
+          trap cleanup EXIT
+
+          mkdir -p "$tmp_dir/data" "$tmp_dir/assets"
+          cp data/members.json "$tmp_dir/data/members.json"
+          cp data/youtube-videos.json "$tmp_dir/data/youtube-videos.json"
+          cp data/news.json "$tmp_dir/data/news.json"
+          cp -R assets/members "$tmp_dir/assets/members"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          for attempt in 1 2 3; do
+            echo "Commit/push attempt ${attempt}"
+            git fetch origin main
+            git reset --hard origin/main
+
+            mkdir -p data assets
+            cp "$tmp_dir/data/members.json" data/members.json
+            cp "$tmp_dir/data/youtube-videos.json" data/youtube-videos.json
+            cp "$tmp_dir/data/news.json" data/news.json
+            rm -rf assets/members
+            cp -R "$tmp_dir/assets/members" assets/members
+
+            echo "Current HEAD: $(git rev-parse --short HEAD)"
+            echo "Origin main: $(git rev-parse --short origin/main)"
+            git status --short
+
+            git add data/members.json data/youtube-videos.json data/news.json assets/members
+
+            if git diff --cached --quiet; then
+              echo "No changes to commit."
+              exit 0
+            fi
+
+            git commit -m "Update member SNS links, YouTube videos, and news"
+
+            if git push origin HEAD:main; then
+              echo "Pushed generated data successfully."
+              exit 0
+            fi
+
+            echo "Push failed, retrying after refreshing origin/main."
+            sleep $((attempt * 10))
+          done
+
+          echo "Push failed after retries."
+          exit 1
