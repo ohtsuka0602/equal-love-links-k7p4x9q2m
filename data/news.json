@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-06-09T14:44:19.084Z",
-    "updatedAt": "2026-06-09T05:56:19.444Z"
+    "checkedAt": "2026-06-09T17:29:57.105Z",
+    "updatedAt": "2026-06-09T17:29:57.105Z"
   },
   "news": [
+    {
+      "title": "「BEAT AX -SUMMER EDITION 2026-」FC販売のお知らせ",
+      "date": "2026-06-10",
+      "url": "https://sp.equal-love.jp/news/detail/11563",
+      "category": "ライブ/イベント"
+    },
     {
       "title": "【出演情報】TBS系「CDTVライブ！ライブ！」※＝LOVE",
       "date": "2026-06-08",
@@ -57,12 +63,6 @@
       "date": "2026-06-03",
       "url": "https://sp.equal-love.jp/news/detail/11539",
       "category": "グッズ"
-    },
-    {
-      "title": "【=LOVE Official Fan Club】新動画コンテンツ「SHORT」スタート！",
-      "date": "2026-06-01",
-      "url": "https://sp.equal-love.jp/news/detail/11525",
-      "category": "お知らせ"
     }
   ]
 }
