@@ -3,7 +3,6 @@ name: Update members
 on:
   schedule:
     - cron: "43 2,8,14,20 * * *"
-    - cron: "*/15 * * * *"
   workflow_dispatch:
 
 concurrency:
@@ -14,16 +13,7 @@ permissions:
   contents: write
 
 jobs:
-  verify-schedule-event:
-    if: github.event_name == 'schedule' && github.event.schedule == '*/15 * * * *'
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Confirm schedule event
-        run: echo "Temporary schedule probe run was created."
-
   update-members:
-    if: github.event_name != 'schedule' || github.event.schedule != '*/15 * * * *'
     runs-on: ubuntu-latest
 
     steps:
