@@ -1,6 +1,8 @@
 name: Update members
 
 on:
+  # Primary automation is an external cron that calls workflow_dispatch.
+  # GitHub's native schedule is kept only as a best-effort fallback.
   schedule:
     - cron: "43 2,8,14,20 * * *"
   workflow_dispatch:
