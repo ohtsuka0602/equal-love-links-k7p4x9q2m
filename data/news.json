@@ -1,9 +1,21 @@
 {
   "meta": {
-    "checkedAt": "2026-06-08T11:00:47.832Z",
-    "updatedAt": "2026-06-08T05:51:34.423Z"
+    "checkedAt": "2026-06-09T05:56:19.444Z",
+    "updatedAt": "2026-06-09T05:56:19.444Z"
   },
   "news": [
+    {
+      "title": "【出演情報】TBS系「CDTVライブ！ライブ！」※＝LOVE",
+      "date": "2026-06-08",
+      "url": "https://sp.equal-love.jp/news/detail/11559",
+      "category": "メディア"
+    },
+    {
+      "title": "【出演情報】TBS系「音楽の日2026」※＝LOVE",
+      "date": "2026-06-08",
+      "url": "https://sp.equal-love.jp/news/detail/11553",
+      "category": "メディア"
+    },
     {
       "title": "【出演情報】「TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック」＝LOVE、諸橋沙夏の出演日決定！",
       "date": "2026-06-08",
@@ -51,18 +63,6 @@
       "date": "2026-06-01",
       "url": "https://sp.equal-love.jp/news/detail/11525",
       "category": "お知らせ"
-    },
-    {
-      "title": "野口衣織が橋本にゃー役で出演する映画『おそ松さん 人類クズ化計画!!!!!?』初日舞台挨拶&全国同時生中継の開催が決定！",
-      "date": "2026-06-01",
-      "url": "https://sp.equal-love.jp/news/detail/11545",
-      "category": "ライブ/イベント"
-    },
-    {
-      "title": "【出演情報】TBS系「ラヴィット！」※大谷映美里",
-      "date": "2026-06-01",
-      "url": "https://sp.equal-love.jp/news/detail/11534",
-      "category": "メディア"
     }
   ]
 }
