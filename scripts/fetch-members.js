@@ -50,19 +50,59 @@ async function main() {
   });
 
   try {
-    await page.goto(PROFILE_URL, { waitUntil: "networkidle", timeout: 60000 });
+    console.log(`Fetch target URL: ${PROFILE_URL}`);
+    const response = await page.goto(PROFILE_URL, { waitUntil: "networkidle", timeout: 60000 });
+    const responseStatus = response?.status() || "unknown";
+    const responseHeaders = response?.headers() || {};
+    const responseContentType = responseHeaders["content-type"] || "unknown";
     await page.waitForTimeout(2500);
 
     await fs.mkdir(DEBUG_DIR, { recursive: true });
-    await fs.writeFile(path.join(DEBUG_DIR, "profile.html"), await page.content(), "utf8");
+    const html = await page.content();
+    console.log(`HTTP status: ${responseStatus}`);
+    console.log(`Response content-type: ${responseContentType}`);
+    console.log(`Response length: ${html.length}`);
+
+    await fs.writeFile(path.join(DEBUG_DIR, "profile.html"), html, "utf8");
     await page.screenshot({ path: path.join(DEBUG_DIR, "profile.png"), fullPage: true });
 
     const members = await page.evaluate(extractMembersFromDom);
     const normalizedMembers = members.map(normalizeMember).filter(isValidMember);
     const uniqueMembers = dedupeMembers(normalizedMembers);
+    console.log(`Extracted member count: raw=${members.length}, normalized=${normalizedMembers.length}, unique=${uniqueMembers.length}`);
+    console.log(`Existing member count: ${existingData.members.length}`);
+
+    await fs.writeFile(
+      path.join(DEBUG_DIR, "profile-summary.json"),
+      `${JSON.stringify({
+        targetUrl: PROFILE_URL,
+        responseStatus,
+        responseContentType,
+        responseLength: html.length,
+        extractedRawCount: members.length,
+        extractedNormalizedCount: normalizedMembers.length,
+        extractedUniqueCount: uniqueMembers.length,
+        existingMemberCount: existingData.members.length,
+        checkedAt: new Date().toISOString(),
+      }, null, 2)}\n`,
+      "utf8"
+    );
 
     if (uniqueMembers.length === 0) {
-      throw new Error("No member data was extracted. Existing members.json was not changed.");
+      if (existingData.members.length > 0) {
+        const checkedAt = new Date().toISOString();
+        await writeJsonAtomically({
+          meta: {
+            ...existingData.meta,
+            checkedAt,
+          },
+          members: existingData.members,
+        });
+        console.warn("No member data was extracted. Kept existing members.json so downstream updates can continue.");
+        return;
+      }
+
+      throw new Error("No member data was extracted and no existing members.json data is available.");
     }
 
     const checkedAt = new Date().toISOString();
