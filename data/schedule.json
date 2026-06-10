@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-06-10T11:40:19.852Z",
-    "updatedAt": "2026-06-08T21:29:13.370Z"
+    "checkedAt": "2026-06-10T12:04:24.466Z",
+    "updatedAt": "2026-06-10T12:04:24.466Z"
   },
   "schedule": [
     {
@@ -15,13 +15,6 @@
       "title": "フジテレビ系「STAR」 ※＝LOV...",
       "date": "2026-06-11",
       "url": "https://equal-love.jp/schedule/detail/11548",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "Artistspoken「イマフレラ...",
-      "date": "2026-06-12",
-      "url": "https://equal-love.jp/schedule/detail/10724",
       "category": "メディア",
       "time": ""
     },
@@ -40,6 +33,20 @@
       "time": ""
     },
     {
+      "title": "Artistspoken「イマフレラ...",
+      "date": "2026-06-12",
+      "url": "https://equal-love.jp/schedule/detail/10724",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "フジテレビ「相葉◎×部」※髙松瞳",
+      "date": "2026-06-13",
+      "url": "https://equal-love.jp/schedule/detail/11404",
+      "category": "メディア",
+      "time": ""
+    },
+    {
       "title": "MBSラジオ「アッパレやってまーす！...",
       "date": "2026-06-13",
       "url": "https://equal-love.jp/schedule/detail/10533",
@@ -50,13 +57,6 @@
       "title": "日本テレビ「1億人の大質問!?笑って...",
       "date": "2026-06-13",
       "url": "https://equal-love.jp/schedule/detail/11550",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "フジテレビ「相葉◎×部」※髙松瞳",
-      "date": "2026-06-13",
-      "url": "https://equal-love.jp/schedule/detail/11404",
       "category": "メディア",
       "time": ""
     },
