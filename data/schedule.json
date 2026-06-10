@@ -1,16 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-06-10T14:44:23.073Z",
-    "updatedAt": "2026-06-10T12:04:24.466Z"
+    "checkedAt": "2026-06-10T20:44:44.409Z",
+    "updatedAt": "2026-06-10T20:44:44.409Z"
   },
   "schedule": [
-    {
-      "title": "東京ニュース通信社「週刊TVガイド ...",
-      "date": "2026-06-10",
-      "url": "https://equal-love.jp/schedule/detail/11556",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "フジテレビ系「STAR」 ※＝LOV...",
       "date": "2026-06-11",
@@ -71,6 +64,13 @@
       "title": "ニッポン放送「＝LOVEのイコラフ」",
       "date": "2026-06-15",
       "url": "https://equal-love.jp/schedule/detail/10429",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "秋水社「ねことも2026年8月号」※...",
+      "date": "2026-06-16",
+      "url": "https://equal-love.jp/schedule/detail/11503",
       "category": "メディア",
       "time": ""
     }
