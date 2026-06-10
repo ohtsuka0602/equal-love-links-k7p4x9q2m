@@ -5,8 +5,7 @@ preview_urls = false
 
 [triggers]
 crons = [
-  "43 2,8,14,20 * * *",
-  "13 14 * * *"
+  "43 2,8,14,20 * * *"
 ]
 
 [observability]
