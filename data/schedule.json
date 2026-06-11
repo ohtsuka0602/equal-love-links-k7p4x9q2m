@@ -1,23 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-06-11T14:45:13.006Z",
-    "updatedAt": "2026-06-11T02:44:57.554Z"
+    "checkedAt": "2026-06-11T20:44:05.924Z",
+    "updatedAt": "2026-06-11T20:44:05.924Z"
   },
   "schedule": [
-    {
-      "title": "フジテレビ系「STAR」 ※＝LOV...",
-      "date": "2026-06-11",
-      "url": "https://equal-love.jp/schedule/detail/11548",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "フジテレビ ONE「プロ野球ニュース...",
-      "date": "2026-06-11",
-      "url": "https://equal-love.jp/schedule/detail/11435",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "映画『おそ松さん 人類クズ化計画!!...",
       "date": "2026-06-12",
@@ -71,6 +57,20 @@
       "title": "ニッポン放送「＝LOVEのイコラフ」",
       "date": "2026-06-15",
       "url": "https://equal-love.jp/schedule/detail/10429",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "秋水社「ねことも2026年8月号」※...",
+      "date": "2026-06-16",
+      "url": "https://equal-love.jp/schedule/detail/11503",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "フジテレビ「奇跡体験！アンビリバボー...",
+      "date": "2026-06-17",
+      "url": "https://equal-love.jp/schedule/detail/11562",
       "category": "メディア",
       "time": ""
     }
