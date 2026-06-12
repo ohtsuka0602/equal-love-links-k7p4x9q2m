@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-06-12T11:13:45.247Z",
-    "updatedAt": "2026-06-10T12:05:15.819Z"
+    "checkedAt": "2026-06-12T14:44:14.034Z",
+    "updatedAt": "2026-06-12T14:44:14.034Z"
   },
   "news": [
+    {
+      "title": "【出演情報】テレビ朝日系「ミュージックステーション」※＝LOVE",
+      "date": "2026-06-12",
+      "url": "https://sp.equal-love.jp/news/detail/11570",
+      "category": "メディア"
+    },
     {
       "title": "【出演情報】フジテレビ「奇跡体験！アンビリバボー」※大谷映美里",
       "date": "2026-06-10",
@@ -56,12 +62,6 @@
       "title": "【出演情報】テレビ朝日系「EIGHT-JAM」※＝LOVE",
       "date": "2026-06-08",
       "url": "https://sp.equal-love.jp/news/detail/11519",
-      "category": "メディア"
-    },
-    {
-      "title": "【出演情報】日本テレビ「1億人の大質問!?笑ってコラえて！」※髙松瞳",
-      "date": "2026-06-06",
-      "url": "https://sp.equal-love.jp/news/detail/11549",
       "category": "メディア"
     }
   ]
