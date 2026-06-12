@@ -1,30 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-06-12T14:44:58.456Z",
-    "updatedAt": "2026-06-11T20:44:05.924Z"
+    "checkedAt": "2026-06-12T20:45:02.235Z",
+    "updatedAt": "2026-06-12T20:45:02.235Z"
   },
   "schedule": [
-    {
-      "title": "映画『おそ松さん 人類クズ化計画!!...",
-      "date": "2026-06-12",
-      "url": "https://equal-love.jp/schedule/detail/11546",
-      "category": "ライブ/イベント",
-      "time": ""
-    },
-    {
-      "title": "Artistspoken「イマフレラ...",
-      "date": "2026-06-12",
-      "url": "https://equal-love.jp/schedule/detail/10724",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "【出演情報】映画『おそ松さん 人類ク...",
-      "date": "2026-06-12",
-      "url": "https://equal-love.jp/schedule/detail/11145",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "日本テレビ「1億人の大質問!?笑って...",
       "date": "2026-06-13",
@@ -71,6 +50,27 @@
       "title": "フジテレビ「奇跡体験！アンビリバボー...",
       "date": "2026-06-17",
       "url": "https://equal-love.jp/schedule/detail/11562",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "＝LOVE 8周年ツアー「＝LOVE...",
+      "date": "2026-06-17",
+      "url": "https://equal-love.jp/schedule/detail/11496",
+      "category": "リリース",
+      "time": ""
+    },
+    {
+      "title": "「S Cawaii! 2026年8月...",
+      "date": "2026-06-17",
+      "url": "https://equal-love.jp/schedule/detail/11507",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "Artistspoken「イマフレラ...",
+      "date": "2026-06-19",
+      "url": "https://equal-love.jp/schedule/detail/10725",
       "category": "メディア",
       "time": ""
     }
