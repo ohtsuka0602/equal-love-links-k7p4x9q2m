@@ -1,30 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-06-13T14:43:55.911Z",
-    "updatedAt": "2026-06-12T20:45:02.235Z"
+    "checkedAt": "2026-06-13T18:55:46.279Z",
+    "updatedAt": "2026-06-13T18:55:46.279Z"
   },
   "schedule": [
-    {
-      "title": "日本テレビ「1億人の大質問!?笑って...",
-      "date": "2026-06-13",
-      "url": "https://equal-love.jp/schedule/detail/11550",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "MBSラジオ「アッパレやってまーす！...",
-      "date": "2026-06-13",
-      "url": "https://equal-love.jp/schedule/detail/10533",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "フジテレビ「相葉◎×部」※髙松瞳",
-      "date": "2026-06-13",
-      "url": "https://equal-love.jp/schedule/detail/11404",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "テレビ朝日系「EIGHT-JAM」※...",
       "date": "2026-06-14",
@@ -71,6 +50,20 @@
       "title": "Artistspoken「イマフレラ...",
       "date": "2026-06-19",
       "url": "https://equal-love.jp/schedule/detail/10725",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "＝LOVE STADIUM LIVE...",
+      "date": "2026-06-20",
+      "url": "https://equal-love.jp/schedule/detail/11142",
+      "category": "ライブ/イベント",
+      "time": ""
+    },
+    {
+      "title": "MBSラジオ「アッパレやってまーす！...",
+      "date": "2026-06-20",
+      "url": "https://equal-love.jp/schedule/detail/10534",
       "category": "メディア",
       "time": ""
     }
