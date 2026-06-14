@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-06-14T08:56:40.071Z",
-    "updatedAt": "2026-06-12T14:44:14.034Z"
+    "checkedAt": "2026-06-14T14:44:48.202Z",
+    "updatedAt": "2026-06-14T14:44:48.202Z"
   },
   "news": [
+    {
+      "title": "【出演情報】日本テレビ「ヒルナンデス！」※音嶋莉沙、髙松瞳",
+      "date": "2026-06-14",
+      "url": "https://sp.equal-love.jp/news/detail/11572",
+      "category": "メディア"
+    },
     {
       "title": "【出演情報】テレビ朝日系「ミュージックステーション」※＝LOVE",
       "date": "2026-06-12",
@@ -57,12 +63,6 @@
       "date": "2026-06-08",
       "url": "https://sp.equal-love.jp/news/detail/11557",
       "category": "ライブ/イベント"
-    },
-    {
-      "title": "【出演情報】テレビ朝日系「EIGHT-JAM」※＝LOVE",
-      "date": "2026-06-08",
-      "url": "https://sp.equal-love.jp/news/detail/11519",
-      "category": "メディア"
     }
   ]
 }
