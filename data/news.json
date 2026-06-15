@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-06-15T08:45:33.221Z",
-    "updatedAt": "2026-06-15T08:45:33.221Z"
+    "checkedAt": "2026-06-15T14:44:59.788Z",
+    "updatedAt": "2026-06-15T14:44:59.788Z"
   },
   "news": [
+    {
+      "title": "【出演情報】日本テレビ「有吉ゼミ」※大谷映美里",
+      "date": "2026-06-15",
+      "url": "https://sp.equal-love.jp/news/detail/11582",
+      "category": "メディア"
+    },
     {
       "title": "【＝LOVE Official Fan Club】＝LOVE STADIUM LIVE「Beyond \"KYUN\"♡」連動企画実施決定！",
       "date": "2026-06-15",
@@ -26,7 +32,7 @@
       "title": "『＝LOVE STADIUM LIVE「Beyond \"KYUN\"♡」開催記念 ラッフルくじ』開催決定＆広告掲示のお知らせ",
       "date": "2026-06-15",
       "url": "https://sp.equal-love.jp/news/detail/11579",
-      "category": "グッズ"
+      "category": "お知らせ"
     },
     {
       "title": "【出演情報】日本テレビ「ヒルナンデス！」※音嶋莉沙、髙松瞳",
@@ -57,12 +63,6 @@
       "date": "2026-06-10",
       "url": "https://sp.equal-love.jp/news/detail/11565",
       "category": "お知らせ"
-    },
-    {
-      "title": "【出演情報】AT-X「マヂラブ・野口衣織のマヂでラブになるTV」#1※野口衣織",
-      "date": "2026-06-10",
-      "url": "https://sp.equal-love.jp/news/detail/11521",
-      "category": "メディア"
     }
   ]
 }
