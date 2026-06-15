@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-06-15T02:44:35.525Z",
-    "updatedAt": "2026-06-14T18:54:01.846Z"
+    "checkedAt": "2026-06-15T08:44:42.297Z",
+    "updatedAt": "2026-06-15T08:44:42.297Z"
   },
   "schedule": [
     {
@@ -19,16 +19,9 @@
       "time": ""
     },
     {
-      "title": "＝LOVE 8周年ツアー「＝LOVE...",
+      "title": "日本テレビ「DayDay.」※音嶋莉...",
       "date": "2026-06-17",
-      "url": "https://equal-love.jp/schedule/detail/11496",
-      "category": "リリース",
-      "time": ""
-    },
-    {
-      "title": "フジテレビ「奇跡体験！アンビリバボー...",
-      "date": "2026-06-17",
-      "url": "https://equal-love.jp/schedule/detail/11562",
+      "url": "https://equal-love.jp/schedule/detail/11581",
       "category": "メディア",
       "time": ""
     },
@@ -40,16 +33,23 @@
       "time": ""
     },
     {
-      "title": "「S Cawaii! 2026年8月...",
+      "title": "フジテレビ「奇跡体験！アンビリバボー...",
       "date": "2026-06-17",
-      "url": "https://equal-love.jp/schedule/detail/11507",
+      "url": "https://equal-love.jp/schedule/detail/11562",
       "category": "メディア",
       "time": ""
     },
     {
-      "title": "Artistspoken「イマフレラ...",
-      "date": "2026-06-19",
-      "url": "https://equal-love.jp/schedule/detail/10725",
+      "title": "＝LOVE 8周年ツアー「＝LOVE...",
+      "date": "2026-06-17",
+      "url": "https://equal-love.jp/schedule/detail/11496",
+      "category": "リリース",
+      "time": ""
+    },
+    {
+      "title": "「S Cawaii! 2026年8月...",
+      "date": "2026-06-17",
+      "url": "https://equal-love.jp/schedule/detail/11507",
       "category": "メディア",
       "time": ""
     }
