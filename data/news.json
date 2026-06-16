@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-06-16T08:44:51.413Z",
-    "updatedAt": "2026-06-16T08:44:51.413Z"
+    "checkedAt": "2026-06-16T14:45:38.731Z",
+    "updatedAt": "2026-06-16T14:45:38.731Z"
   },
   "news": [
+    {
+      "title": "【掲載情報】日刊スポーツ「＝LOVE特大号」※＝LOVE",
+      "date": "2026-06-16",
+      "url": "https://sp.equal-love.jp/news/detail/11584",
+      "category": "メディア"
+    },
     {
       "title": "握手会2026.06.16New! ＝LOVE 21stシングル発売記念 オンライン個別お話し会開催決定!!",
       "date": "2026-06-16",
@@ -56,12 +62,6 @@
       "title": "【出演情報】テレビ朝日系「ミュージックステーション」※＝LOVE",
       "date": "2026-06-12",
       "url": "https://sp.equal-love.jp/news/detail/11570",
-      "category": "メディア"
-    },
-    {
-      "title": "【出演情報】フジテレビ「奇跡体験！アンビリバボー」※大谷映美里",
-      "date": "2026-06-10",
-      "url": "https://sp.equal-love.jp/news/detail/11561",
       "category": "メディア"
     }
   ]
