@@ -1,16 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-06-16T22:22:43.712Z",
-    "updatedAt": "2026-06-16T20:45:35.489Z"
+    "checkedAt": "2026-06-17T08:44:47.005Z",
+    "updatedAt": "2026-06-17T08:44:47.005Z"
   },
   "schedule": [
-    {
-      "title": "日本テレビ「DayDay.」※音嶋莉...",
-      "date": "2026-06-17",
-      "url": "https://equal-love.jp/schedule/detail/11581",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "日本テレビ「ヒルナンデス！」※音嶋莉...",
       "date": "2026-06-17",
@@ -19,9 +12,16 @@
       "time": ""
     },
     {
-      "title": "フジテレビ「奇跡体験！アンビリバボー...",
+      "title": "マクドナルド店内BGM「ミュージック...",
       "date": "2026-06-17",
-      "url": "https://equal-love.jp/schedule/detail/11562",
+      "url": "https://equal-love.jp/schedule/detail/11600",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "日本テレビ「DayDay.」※音嶋莉...",
+      "date": "2026-06-17",
+      "url": "https://equal-love.jp/schedule/detail/11581",
       "category": "メディア",
       "time": ""
     },
@@ -33,9 +33,9 @@
       "time": ""
     },
     {
-      "title": "「S Cawaii! 2026年8月...",
+      "title": "フジテレビ「奇跡体験！アンビリバボー...",
       "date": "2026-06-17",
-      "url": "https://equal-love.jp/schedule/detail/11507",
+      "url": "https://equal-love.jp/schedule/detail/11562",
       "category": "メディア",
       "time": ""
     }
