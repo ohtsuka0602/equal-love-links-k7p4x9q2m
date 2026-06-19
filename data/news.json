@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-06-19T02:44:49.805Z",
-    "updatedAt": "2026-06-19T02:44:49.805Z"
+    "checkedAt": "2026-06-19T08:44:39.536Z",
+    "updatedAt": "2026-06-19T08:44:39.536Z"
   },
   "news": [
+    {
+      "title": "【掲載情報】「テレ朝POST」※齋藤樹愛羅、佐々木舞香",
+      "date": "2026-06-19",
+      "url": "https://sp.equal-love.jp/news/detail/11606",
+      "category": "メディア"
+    },
     {
       "title": "【掲載情報】「ALPEN GROUP MAGAZINE」※瀧脇笙古",
       "date": "2026-06-19",
@@ -56,12 +62,6 @@
       "title": "【出演情報】日本テレビ系「THE MUSIC DAY 2026」※＝LOVE",
       "date": "2026-06-17",
       "url": "https://sp.equal-love.jp/news/detail/11577",
-      "category": "メディア"
-    },
-    {
-      "title": "【掲載情報】日刊スポーツ「＝LOVE特大号」※＝LOVE",
-      "date": "2026-06-16",
-      "url": "https://sp.equal-love.jp/news/detail/11584",
       "category": "メディア"
     }
   ]
