@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-06-19T20:44:03.027Z",
-    "updatedAt": "2026-06-19T14:24:23.875Z"
+    "checkedAt": "2026-06-20T02:44:36.757Z",
+    "updatedAt": "2026-06-20T02:44:36.757Z"
   },
   "news": [
+    {
+      "title": "【出演情報】読売テレビ「音道楽√」※＝LOVE",
+      "date": "2026-06-20",
+      "url": "https://sp.equal-love.jp/news/detail/11604",
+      "category": "メディア"
+    },
     {
       "title": "＝LOVE STADIUM LIVE「Beyond “KYUN”♡」開催記念 スーベニアミニタオル付限定メニュー販売のお知らせ",
       "date": "2026-06-19",
@@ -57,12 +63,6 @@
       "date": "2026-06-17",
       "url": "https://sp.equal-love.jp/news/detail/11599",
       "category": "お知らせ"
-    },
-    {
-      "title": "【掲載情報】サンケイスポーツ「BAY☆スタ」第41号※瀧脇笙古",
-      "date": "2026-06-17",
-      "url": "https://sp.equal-love.jp/news/detail/11574",
-      "category": "メディア"
     }
   ]
 }
