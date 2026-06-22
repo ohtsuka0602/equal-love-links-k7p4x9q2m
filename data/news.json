@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-06-22T08:44:53.167Z",
-    "updatedAt": "2026-06-21T14:44:00.827Z"
+    "checkedAt": "2026-06-22T14:44:58.157Z",
+    "updatedAt": "2026-06-22T14:44:58.157Z"
   },
   "news": [
+    {
+      "title": "【出演情報】テレビ朝日「アイ=ラブ！げーみんぐ ～○○さんがオンラインになりました～」とくべチュ編※齋藤樹愛羅、佐々木舞香、大谷映美里、大場花菜、諸橋沙夏",
+      "date": "2026-06-22",
+      "url": "https://sp.equal-love.jp/news/detail/11620",
+      "category": "メディア"
+    },
     {
       "title": "＝LOVE STADIUM LIVE「Beyond \"KYUN\"♡」グッズ通販サイトでの販売のお知らせ",
       "date": "2026-06-21",
@@ -57,12 +63,6 @@
       "date": "2026-06-18",
       "url": "https://sp.equal-love.jp/news/detail/11595",
       "category": "ライブ/イベント"
-    },
-    {
-      "title": "＝LOVE STADIUM LIVE「Beyond “KYUN”♡」ライブ会場にて、＝LOVE CD予約抽選会＆映像商品販売決定！",
-      "date": "2026-06-18",
-      "url": "https://sp.equal-love.jp/news/detail/11603",
-      "category": "お知らせ"
     }
   ]
 }
