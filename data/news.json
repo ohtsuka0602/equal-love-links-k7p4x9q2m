@@ -1,9 +1,21 @@
 {
   "meta": {
-    "checkedAt": "2026-06-22T20:44:00.014Z",
-    "updatedAt": "2026-06-22T14:44:58.157Z"
+    "checkedAt": "2026-06-23T08:44:36.654Z",
+    "updatedAt": "2026-06-23T08:44:36.654Z"
   },
   "news": [
+    {
+      "title": "【掲載情報】集英社「MYOJO 9月号」※大場花菜",
+      "date": "2026-06-23",
+      "url": "https://sp.equal-love.jp/news/detail/11076",
+      "category": "メディア"
+    },
+    {
+      "title": "【出演情報】TBS系「ラヴィット！」※野口衣織",
+      "date": "2026-06-23",
+      "url": "https://sp.equal-love.jp/news/detail/11608",
+      "category": "メディア"
+    },
     {
       "title": "【出演情報】テレビ朝日「アイ=ラブ！げーみんぐ ～○○さんがオンラインになりました～」とくべチュ編※齋藤樹愛羅、佐々木舞香、大谷映美里、大場花菜、諸橋沙夏",
       "date": "2026-06-22",
@@ -51,18 +63,6 @@
       "date": "2026-06-19",
       "url": "https://sp.equal-love.jp/news/detail/11596",
       "category": "メディア"
-    },
-    {
-      "title": "＝LOVE 21stシングル 発売記念スペシャルプレゼントのお知らせ",
-      "date": "2026-06-18",
-      "url": "https://sp.equal-love.jp/news/detail/11602",
-      "category": "お知らせ"
-    },
-    {
-      "title": "＝LOVE STADIUM LIVE「Beyond \"KYUN\"♡」についてのお知らせ",
-      "date": "2026-06-18",
-      "url": "https://sp.equal-love.jp/news/detail/11595",
-      "category": "ライブ/イベント"
     }
   ]
 }
