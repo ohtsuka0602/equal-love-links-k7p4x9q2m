@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-06-23T08:46:02.052Z",
-    "updatedAt": "2026-06-23T08:44:36.654Z"
+    "checkedAt": "2026-06-23T14:44:03.657Z",
+    "updatedAt": "2026-06-23T14:44:03.657Z"
   },
   "news": [
+    {
+      "title": "【出演情報】日本テレビ系「ザ！世界仰天ニュース」※佐々木舞香、野口衣織",
+      "date": "2026-06-23",
+      "url": "https://sp.equal-love.jp/news/detail/11566",
+      "category": "メディア"
+    },
     {
       "title": "【掲載情報】集英社「MYOJO 9月号」※大場花菜",
       "date": "2026-06-23",
@@ -56,12 +62,6 @@
       "title": "【掲載情報】「テレ朝POST」※齋藤樹愛羅、佐々木舞香",
       "date": "2026-06-19",
       "url": "https://sp.equal-love.jp/news/detail/11606",
-      "category": "メディア"
-    },
-    {
-      "title": "【掲載情報】「ALPEN GROUP MAGAZINE」※瀧脇笙古",
-      "date": "2026-06-19",
-      "url": "https://sp.equal-love.jp/news/detail/11596",
       "category": "メディア"
     }
   ]
