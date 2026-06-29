@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-06-29T08:44:07.832Z",
-    "updatedAt": "2026-06-29T08:44:07.832Z"
+    "checkedAt": "2026-06-29T12:48:46.271Z",
+    "updatedAt": "2026-06-29T12:48:46.271Z"
   },
   "news": [
+    {
+      "title": "『生誕祭イベント~supported by IKONOIJOY Puzzle~』（8月）FC限定チケット受付開始のお知らせ",
+      "date": "2026-06-29",
+      "url": "https://sp.equal-love.jp/news/detail/11640",
+      "category": "ライブ/イベント"
+    },
     {
       "title": "『生誕祭イベント~supported by IKONOIJOY Puzzle~』（7月）FC限定チケット2次受付開始のお知らせ",
       "date": "2026-06-29",
@@ -57,12 +63,6 @@
       "date": "2026-06-26",
       "url": "https://sp.equal-love.jp/news/detail/11633",
       "category": "メディア"
-    },
-    {
-      "title": "「劇薬中毒」グッズ発売！",
-      "date": "2026-06-25",
-      "url": "https://sp.equal-love.jp/news/detail/11636",
-      "category": "グッズ"
     }
   ]
 }
