@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-06-30T11:59:51.808Z",
-    "updatedAt": "2026-06-29T12:48:46.271Z"
+    "checkedAt": "2026-06-30T14:44:07.406Z",
+    "updatedAt": "2026-06-30T14:44:07.406Z"
   },
   "news": [
+    {
+      "title": "【出演情報】日本テレビ系「THE MUSIC DAY 2026」※＝LOVE",
+      "date": "2026-06-30",
+      "url": "https://sp.equal-love.jp/news/detail/11637",
+      "category": "メディア"
+    },
     {
       "title": "『生誕祭イベント~supported by IKONOIJOY Puzzle~』（8月）FC限定チケット受付開始のお知らせ",
       "date": "2026-06-29",
@@ -56,12 +62,6 @@
       "title": "【掲載情報】宝島社「sweet 8月号」※大谷映美里、野口衣織",
       "date": "2026-06-26",
       "url": "https://sp.equal-love.jp/news/detail/11642",
-      "category": "メディア"
-    },
-    {
-      "title": "【出演情報】フジテレビ・FODプレミアムにて新番組「キミはもっと＝LOVEを愛せるか!!!」放送決定！※＝LOVE",
-      "date": "2026-06-26",
-      "url": "https://sp.equal-love.jp/news/detail/11633",
       "category": "メディア"
     }
   ]
