@@ -1,41 +1,76 @@
 {
   "meta": {
-    "checkedAt": "2026-06-17T08:44:47.005Z",
-    "updatedAt": "2026-06-17T08:44:47.005Z"
+    "checkedAt": "2026-07-01T02:44:56.824Z",
+    "updatedAt": "2026-07-01T02:44:56.824Z"
   },
   "schedule": [
     {
-      "title": "日本テレビ「ヒルナンデス！」※音嶋莉...",
-      "date": "2026-06-17",
-      "url": "https://equal-love.jp/schedule/detail/11573",
+      "title": "日本テレビ(関東ローカル)連続ドラマ...",
+      "date": "2026-07-01",
+      "url": "https://equal-love.jp/schedule/detail/11626",
       "category": "メディア",
       "time": ""
     },
     {
-      "title": "マクドナルド店内BGM「ミュージック...",
-      "date": "2026-06-17",
-      "url": "https://equal-love.jp/schedule/detail/11600",
+      "title": "Artistspoken「イマフレラ...",
+      "date": "2026-07-03",
+      "url": "https://equal-love.jp/schedule/detail/10727",
       "category": "メディア",
       "time": ""
     },
     {
-      "title": "日本テレビ「DayDay.」※音嶋莉...",
-      "date": "2026-06-17",
-      "url": "https://equal-love.jp/schedule/detail/11581",
+      "title": "NHK「Venue101 EXTRA...",
+      "date": "2026-07-04",
+      "url": "https://equal-love.jp/schedule/detail/11656",
       "category": "メディア",
       "time": ""
     },
     {
-      "title": "＝LOVE 8周年ツアー「＝LOVE...",
-      "date": "2026-06-17",
-      "url": "https://equal-love.jp/schedule/detail/11496",
-      "category": "リリース",
+      "title": "日本テレビ系「THE MUSIC D...",
+      "date": "2026-07-04",
+      "url": "https://equal-love.jp/schedule/detail/11638",
+      "category": "メディア",
       "time": ""
     },
     {
-      "title": "フジテレビ「奇跡体験！アンビリバボー...",
-      "date": "2026-06-17",
-      "url": "https://equal-love.jp/schedule/detail/11562",
+      "title": "MBSラジオ「アッパレやってまーす！...",
+      "date": "2026-07-04",
+      "url": "https://equal-love.jp/schedule/detail/10536",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "BSテレビ東京「シネマアディクト」※...",
+      "date": "2026-07-05",
+      "url": "https://equal-love.jp/schedule/detail/11531",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "date": "2026-07-06",
+      "url": "https://equal-love.jp/schedule/detail/10432",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "フジテレビ・FODプレミアム「キミは...",
+      "date": "2026-07-06",
+      "url": "https://equal-love.jp/schedule/detail/11634",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "宝島社「sweet 8月号」※大谷映...",
+      "date": "2026-07-10",
+      "url": "https://equal-love.jp/schedule/detail/11643",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "Artistspoken「イマフレラ...",
+      "date": "2026-07-10",
+      "url": "https://equal-love.jp/schedule/detail/10728",
       "category": "メディア",
       "time": ""
     }
