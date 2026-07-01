@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-07-01T02:44:14.477Z",
-    "updatedAt": "2026-06-30T14:44:07.406Z"
+    "checkedAt": "2026-07-01T08:43:59.442Z",
+    "updatedAt": "2026-07-01T08:43:59.442Z"
   },
   "news": [
+    {
+      "title": "【出演情報】MBSラジオ「アッパレ #ちゃいぱRADIO やってまーす！」 ※大谷映美里",
+      "date": "2026-07-01",
+      "url": "https://sp.equal-love.jp/news/detail/11660",
+      "category": "メディア"
+    },
     {
       "title": "【出演情報】日本テレビ系「THE MUSIC DAY 2026」※＝LOVE",
       "date": "2026-06-30",
@@ -57,12 +63,6 @@
       "date": "2026-06-26",
       "url": "https://sp.equal-love.jp/news/detail/11641",
       "category": "お知らせ"
-    },
-    {
-      "title": "【掲載情報】宝島社「sweet 8月号」※大谷映美里、野口衣織",
-      "date": "2026-06-26",
-      "url": "https://sp.equal-love.jp/news/detail/11642",
-      "category": "メディア"
     }
   ]
 }
