@@ -1,15 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-07-01T14:43:55.186Z",
-    "updatedAt": "2026-07-01T12:25:50.457Z"
+    "checkedAt": "2026-07-01T20:44:45.805Z",
+    "updatedAt": "2026-07-01T20:44:45.805Z"
   },
   "videos": [
     {
-      "videoId": "hGCMEiSVRQI",
-      "title": "40万人記念おうちから生配信",
-      "url": "https://www.youtube.com/watch?v=hGCMEiSVRQI",
-      "thumbnail": "https://i.ytimg.com/vi/hGCMEiSVRQI/maxresdefault.jpg",
-      "publishedAt": "2026-07-01T12:18:44Z",
+      "videoId": "8TKlf3pkhK4",
+      "title": "40万人記念生配信続き",
+      "url": "https://www.youtube.com/watch?v=8TKlf3pkhK4",
+      "thumbnail": "https://i.ytimg.com/vi/8TKlf3pkhK4/maxresdefault.jpg",
+      "publishedAt": "2026-07-01T15:08:19Z",
       "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
       "channelName": "みりにゃと申します。",
       "sourceName": "大谷 映美里",
@@ -18,11 +18,11 @@
       ]
     },
     {
-      "videoId": "8TKlf3pkhK4",
-      "title": "40万人記念生配信続き",
-      "url": "https://www.youtube.com/watch?v=8TKlf3pkhK4",
-      "thumbnail": "https://i.ytimg.com/vi/8TKlf3pkhK4/maxresdefault_live.jpg",
-      "publishedAt": "2026-07-01T12:16:10Z",
+      "videoId": "hGCMEiSVRQI",
+      "title": "40万人記念おうちから生配信",
+      "url": "https://www.youtube.com/watch?v=hGCMEiSVRQI",
+      "thumbnail": "https://i.ytimg.com/vi/hGCMEiSVRQI/maxresdefault.jpg",
+      "publishedAt": "2026-07-01T12:18:44Z",
       "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
       "channelName": "みりにゃと申します。",
       "sourceName": "大谷 映美里",
