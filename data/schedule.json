@@ -1,9 +1,16 @@
 {
   "meta": {
-    "checkedAt": "2026-07-01T20:44:02.483Z",
-    "updatedAt": "2026-07-01T20:30:56.965Z"
+    "checkedAt": "2026-07-02T02:43:52.256Z",
+    "updatedAt": "2026-07-02T02:43:52.256Z"
   },
   "schedule": [
+    {
+      "title": "フジテレビ ONE「プロ野球ニュース...",
+      "date": "2026-07-02",
+      "url": "https://equal-love.jp/schedule/detail/11438",
+      "category": "メディア",
+      "time": ""
+    },
     {
       "title": "Artistspoken「イマフレラ...",
       "date": "2026-07-03",
@@ -54,9 +61,9 @@
       "time": ""
     },
     {
-      "title": "Artistspoken「イマフレラ...",
-      "date": "2026-07-10",
-      "url": "https://equal-love.jp/schedule/detail/10728",
+      "title": "日本テレビ(関東ローカル)連続ドラマ...",
+      "date": "2026-07-08",
+      "url": "https://equal-love.jp/schedule/detail/11665",
       "category": "メディア",
       "time": ""
     },
@@ -64,13 +71,6 @@
       "title": "宝島社「sweet 8月号」※大谷映...",
       "date": "2026-07-10",
       "url": "https://equal-love.jp/schedule/detail/11643",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "MBSラジオ「アッパレやってまーす！...",
-      "date": "2026-07-11",
-      "url": "https://equal-love.jp/schedule/detail/10537",
       "category": "メディア",
       "time": ""
     }
