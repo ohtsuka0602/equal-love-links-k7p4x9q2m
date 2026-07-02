@@ -1,16 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-07-02T14:44:02.451Z",
-    "updatedAt": "2026-07-02T02:43:52.256Z"
+    "checkedAt": "2026-07-02T19:02:44.354Z",
+    "updatedAt": "2026-07-02T19:02:44.354Z"
   },
   "schedule": [
-    {
-      "title": "フジテレビ ONE「プロ野球ニュース...",
-      "date": "2026-07-02",
-      "url": "https://equal-love.jp/schedule/detail/11438",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "Artistspoken「イマフレラ...",
       "date": "2026-07-03",
@@ -71,6 +64,13 @@
       "title": "宝島社「sweet 8月号」※大谷映...",
       "date": "2026-07-10",
       "url": "https://equal-love.jp/schedule/detail/11643",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "Artistspoken「イマフレラ...",
+      "date": "2026-07-10",
+      "url": "https://equal-love.jp/schedule/detail/10728",
       "category": "メディア",
       "time": ""
     }
