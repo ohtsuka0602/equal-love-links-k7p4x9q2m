@@ -1,23 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-07-02T20:44:43.393Z",
-    "updatedAt": "2026-07-02T19:02:44.354Z"
+    "checkedAt": "2026-07-03T18:48:53.370Z",
+    "updatedAt": "2026-07-03T18:48:53.370Z"
   },
   "schedule": [
-    {
-      "title": "Artistspoken「イマフレラ...",
-      "date": "2026-07-03",
-      "url": "https://equal-love.jp/schedule/detail/10727",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "NHK「Venue101 EXTRA...",
-      "date": "2026-07-04",
-      "url": "https://equal-love.jp/schedule/detail/11656",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "日本テレビ系「THE MUSIC D...",
       "date": "2026-07-04",
@@ -33,6 +19,13 @@
       "time": ""
     },
     {
+      "title": "NHK「Venue101 EXTRA...",
+      "date": "2026-07-04",
+      "url": "https://equal-love.jp/schedule/detail/11656",
+      "category": "メディア",
+      "time": ""
+    },
+    {
       "title": "BSテレビ東京「シネマアディクト」※...",
       "date": "2026-07-05",
       "url": "https://equal-love.jp/schedule/detail/11531",
@@ -40,16 +33,16 @@
       "time": ""
     },
     {
-      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "title": "フジテレビ・FODプレミアム「キミは...",
       "date": "2026-07-06",
-      "url": "https://equal-love.jp/schedule/detail/10432",
+      "url": "https://equal-love.jp/schedule/detail/11634",
       "category": "メディア",
       "time": ""
     },
     {
-      "title": "フジテレビ・FODプレミアム「キミは...",
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
       "date": "2026-07-06",
-      "url": "https://equal-love.jp/schedule/detail/11634",
+      "url": "https://equal-love.jp/schedule/detail/10432",
       "category": "メディア",
       "time": ""
     },
@@ -71,6 +64,13 @@
       "title": "Artistspoken「イマフレラ...",
       "date": "2026-07-10",
       "url": "https://equal-love.jp/schedule/detail/10728",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "MBSラジオ「アッパレやってまーす！...",
+      "date": "2026-07-11",
+      "url": "https://equal-love.jp/schedule/detail/10537",
       "category": "メディア",
       "time": ""
     }
