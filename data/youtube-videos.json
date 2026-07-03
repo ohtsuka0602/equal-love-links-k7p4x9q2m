@@ -1,9 +1,22 @@
 {
   "meta": {
-    "checkedAt": "2026-07-03T08:36:53.756Z",
-    "updatedAt": "2026-07-01T20:44:45.805Z"
+    "checkedAt": "2026-07-03T15:45:14.867Z",
+    "updatedAt": "2026-07-03T15:45:14.867Z"
   },
   "videos": [
+    {
+      "videoId": "CNCqoMKTF5E",
+      "title": "指原さんとさなとほろ酔い質問返し",
+      "url": "https://www.youtube.com/watch?v=CNCqoMKTF5E",
+      "thumbnail": "https://i.ytimg.com/vi/CNCqoMKTF5E/maxresdefault.jpg",
+      "publishedAt": "2026-07-03T11:30:09Z",
+      "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
+      "channelName": "みりにゃと申します。",
+      "sourceName": "大谷 映美里",
+      "memberNames": [
+        "大谷 映美里"
+      ]
+    },
     {
       "videoId": "8TKlf3pkhK4",
       "title": "40万人記念生配信続き",
@@ -51,19 +64,6 @@
       "channelName": "＝LOVE（イコールラブ）公式チャンネル",
       "sourceName": "=LOVE オフィシャル",
       "memberNames": []
-    },
-    {
-      "videoId": "e86Rn4TXBFc",
-      "title": "【ギルティー❗️】国立前の最後の高カロリー摂取",
-      "url": "https://www.youtube.com/watch?v=e86Rn4TXBFc",
-      "thumbnail": "https://i.ytimg.com/vi/e86Rn4TXBFc/maxresdefault.jpg",
-      "publishedAt": "2026-06-16T11:31:39Z",
-      "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
-      "channelName": "みりにゃと申します。",
-      "sourceName": "大谷 映美里",
-      "memberNames": [
-        "大谷 映美里"
-      ]
     }
   ]
 }
