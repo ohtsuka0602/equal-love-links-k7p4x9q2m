@@ -1,30 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-07-04T14:44:22.211Z",
-    "updatedAt": "2026-07-03T18:48:53.370Z"
+    "checkedAt": "2026-07-04T17:48:02.952Z",
+    "updatedAt": "2026-07-04T17:48:02.952Z"
   },
   "schedule": [
-    {
-      "title": "日本テレビ系「THE MUSIC D...",
-      "date": "2026-07-04",
-      "url": "https://equal-love.jp/schedule/detail/11638",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "MBSラジオ「アッパレやってまーす！...",
-      "date": "2026-07-04",
-      "url": "https://equal-love.jp/schedule/detail/10536",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "NHK「Venue101 EXTRA...",
-      "date": "2026-07-04",
-      "url": "https://equal-love.jp/schedule/detail/11656",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "BSテレビ東京「シネマアディクト」※...",
       "date": "2026-07-05",
@@ -72,6 +51,27 @@
       "date": "2026-07-11",
       "url": "https://equal-love.jp/schedule/detail/10537",
       "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "日本テレビ「サクサクヒムヒム☆推しの...",
+      "date": "2026-07-11",
+      "url": "https://equal-love.jp/schedule/detail/11663",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "「EIGHT-JAM FES 202...",
+      "date": "2026-07-11",
+      "url": "https://equal-love.jp/schedule/detail/11433",
+      "category": "ライブ/イベント",
+      "time": ""
+    },
+    {
+      "title": "「BEAT AX -SUMMER E...",
+      "date": "2026-07-12",
+      "url": "https://equal-love.jp/schedule/detail/11505",
+      "category": "ライブ/イベント",
       "time": ""
     }
   ]
