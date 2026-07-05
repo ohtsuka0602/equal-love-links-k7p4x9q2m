@@ -1,23 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-07-05T14:45:10.293Z",
-    "updatedAt": "2026-07-05T02:45:14.239Z"
+    "checkedAt": "2026-07-05T17:48:47.383Z",
+    "updatedAt": "2026-07-05T17:48:47.383Z"
   },
   "schedule": [
-    {
-      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
-      "date": "2026-07-05",
-      "url": "https://equal-love.jp/schedule/detail/11170",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "BSテレビ東京「シネマアディクト」※...",
-      "date": "2026-07-05",
-      "url": "https://equal-love.jp/schedule/detail/11531",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "フジテレビ・FODプレミアム「キミは...",
       "date": "2026-07-06",
@@ -72,6 +58,20 @@
       "date": "2026-07-11",
       "url": "https://equal-love.jp/schedule/detail/11433",
       "category": "ライブ/イベント",
+      "time": ""
+    },
+    {
+      "title": "「BEAT AX -SUMMER E...",
+      "date": "2026-07-12",
+      "url": "https://equal-love.jp/schedule/detail/11505",
+      "category": "ライブ/イベント",
+      "time": ""
+    },
+    {
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "date": "2026-07-13",
+      "url": "https://equal-love.jp/schedule/detail/10433",
+      "category": "メディア",
       "time": ""
     }
   ]
