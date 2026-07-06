@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-07-06T08:47:01.983Z",
-    "updatedAt": "2026-07-06T08:47:01.983Z"
+    "checkedAt": "2026-07-06T12:16:22.395Z",
+    "updatedAt": "2026-07-06T12:16:22.395Z"
   },
   "news": [
+    {
+      "title": "【出演情報】YouTube「マヂラブ・野口衣織のマヂでラブになるTV」#1※野口衣織",
+      "date": "2026-07-06",
+      "url": "https://sp.equal-love.jp/news/detail/11678",
+      "category": "メディア"
+    },
     {
       "title": "握手会2026.07.06New! 8/26(水)発売、=LOVE 21stシングル発売記念スペシャルリリースイベント Vol.3決定！",
       "date": "2026-07-06",
@@ -57,12 +63,6 @@
       "date": "2026-07-01",
       "url": "https://sp.equal-love.jp/news/detail/11645",
       "category": "グッズ"
-    },
-    {
-      "title": "【出演情報】MBSラジオ「アッパレ #ちゃいぱRADIO やってまーす！」 ※大谷映美里",
-      "date": "2026-07-01",
-      "url": "https://sp.equal-love.jp/news/detail/11660",
-      "category": "メディア"
     }
   ]
 }
