@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-07-05T20:44:29.824Z",
-    "updatedAt": "2026-07-05T17:48:47.383Z"
+    "checkedAt": "2026-07-06T02:45:13.404Z",
+    "updatedAt": "2026-07-06T02:45:13.404Z"
   },
   "schedule": [
     {
@@ -40,13 +40,6 @@
       "time": ""
     },
     {
-      "title": "MBSラジオ「アッパレやってまーす！...",
-      "date": "2026-07-11",
-      "url": "https://equal-love.jp/schedule/detail/10537",
-      "category": "メディア",
-      "time": ""
-    },
-    {
       "title": "日本テレビ「サクサクヒムヒム☆推しの...",
       "date": "2026-07-11",
       "url": "https://equal-love.jp/schedule/detail/11663",
@@ -58,6 +51,13 @@
       "date": "2026-07-11",
       "url": "https://equal-love.jp/schedule/detail/11433",
       "category": "ライブ/イベント",
+      "time": ""
+    },
+    {
+      "title": "MBSラジオ「アッパレやってまーす！...",
+      "date": "2026-07-11",
+      "url": "https://equal-love.jp/schedule/detail/10537",
+      "category": "メディア",
       "time": ""
     },
     {
