@@ -1,20 +1,20 @@
 {
   "meta": {
-    "checkedAt": "2026-07-06T08:47:54.190Z",
-    "updatedAt": "2026-07-06T08:47:54.190Z"
+    "checkedAt": "2026-07-06T14:44:42.300Z",
+    "updatedAt": "2026-07-06T14:44:42.300Z"
   },
   "schedule": [
-    {
-      "title": "フジテレビ・FODプレミアム「キミは...",
-      "date": "2026-07-06",
-      "url": "https://equal-love.jp/schedule/detail/11634",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "ニッポン放送「＝LOVEのイコラフ」",
       "date": "2026-07-06",
       "url": "https://equal-love.jp/schedule/detail/10432",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "フジテレビ・FODプレミアム「キミは...",
+      "date": "2026-07-06",
+      "url": "https://equal-love.jp/schedule/detail/11634",
       "category": "メディア",
       "time": ""
     },
@@ -33,13 +33,6 @@
       "time": ""
     },
     {
-      "title": "宝島社「sweet 8月号」※大谷映...",
-      "date": "2026-07-10",
-      "url": "https://equal-love.jp/schedule/detail/11643",
-      "category": "メディア",
-      "time": ""
-    },
-    {
       "title": "Artistspoken「イマフレラ...",
       "date": "2026-07-10",
       "url": "https://equal-love.jp/schedule/detail/10728",
@@ -47,9 +40,9 @@
       "time": ""
     },
     {
-      "title": "日本テレビ「サクサクヒムヒム☆推しの...",
-      "date": "2026-07-11",
-      "url": "https://equal-love.jp/schedule/detail/11663",
+      "title": "宝島社「sweet 8月号」※大谷映...",
+      "date": "2026-07-10",
+      "url": "https://equal-love.jp/schedule/detail/11643",
       "category": "メディア",
       "time": ""
     },
@@ -58,6 +51,13 @@
       "date": "2026-07-11",
       "url": "https://equal-love.jp/schedule/detail/11433",
       "category": "ライブ/イベント",
+      "time": ""
+    },
+    {
+      "title": "日本テレビ「サクサクヒムヒム☆推しの...",
+      "date": "2026-07-11",
+      "url": "https://equal-love.jp/schedule/detail/11663",
+      "category": "メディア",
       "time": ""
     },
     {
