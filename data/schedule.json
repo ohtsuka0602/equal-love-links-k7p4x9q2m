@@ -1,23 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-07-06T14:44:42.300Z",
-    "updatedAt": "2026-07-06T14:44:42.300Z"
+    "checkedAt": "2026-07-06T20:43:50.785Z",
+    "updatedAt": "2026-07-06T20:43:50.785Z"
   },
   "schedule": [
-    {
-      "title": "ニッポン放送「＝LOVEのイコラフ」",
-      "date": "2026-07-06",
-      "url": "https://equal-love.jp/schedule/detail/10432",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "フジテレビ・FODプレミアム「キミは...",
-      "date": "2026-07-06",
-      "url": "https://equal-love.jp/schedule/detail/11634",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "FODプレミアム「横浜DeNAベイス...",
       "date": "2026-07-08",
@@ -72,6 +58,20 @@
       "date": "2026-07-12",
       "url": "https://equal-love.jp/schedule/detail/11505",
       "category": "ライブ/イベント",
+      "time": ""
+    },
+    {
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "date": "2026-07-13",
+      "url": "https://equal-love.jp/schedule/detail/10433",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "Artistspoken「イマフレラ...",
+      "date": "2026-07-17",
+      "url": "https://equal-love.jp/schedule/detail/10729",
+      "category": "メディア",
       "time": ""
     }
   ]
