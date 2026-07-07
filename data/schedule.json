@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-07-06T21:01:22.048Z",
-    "updatedAt": "2026-07-06T20:43:50.785Z"
+    "checkedAt": "2026-07-07T02:44:40.117Z",
+    "updatedAt": "2026-07-07T02:44:40.117Z"
   },
   "schedule": [
     {
@@ -19,6 +19,13 @@
       "time": ""
     },
     {
+      "title": "宝島社「sweet 8月号」※大谷映...",
+      "date": "2026-07-10",
+      "url": "https://equal-love.jp/schedule/detail/11643",
+      "category": "メディア",
+      "time": ""
+    },
+    {
       "title": "Artistspoken「イマフレラ...",
       "date": "2026-07-10",
       "url": "https://equal-love.jp/schedule/detail/10728",
@@ -26,9 +33,16 @@
       "time": ""
     },
     {
-      "title": "宝島社「sweet 8月号」※大谷映...",
-      "date": "2026-07-10",
-      "url": "https://equal-love.jp/schedule/detail/11643",
+      "title": "日本テレビ「サクサクヒムヒム☆推しの...",
+      "date": "2026-07-11",
+      "url": "https://equal-love.jp/schedule/detail/11663",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "TELASAオリジナル「アイ=ラブ！...",
+      "date": "2026-07-11",
+      "url": "https://equal-love.jp/schedule/detail/11698",
       "category": "メディア",
       "time": ""
     },
@@ -37,13 +51,6 @@
       "date": "2026-07-11",
       "url": "https://equal-love.jp/schedule/detail/11433",
       "category": "ライブ/イベント",
-      "time": ""
-    },
-    {
-      "title": "日本テレビ「サクサクヒムヒム☆推しの...",
-      "date": "2026-07-11",
-      "url": "https://equal-love.jp/schedule/detail/11663",
-      "category": "メディア",
       "time": ""
     },
     {
@@ -64,13 +71,6 @@
       "title": "ニッポン放送「＝LOVEのイコラフ」",
       "date": "2026-07-13",
       "url": "https://equal-love.jp/schedule/detail/10433",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "Artistspoken「イマフレラ...",
-      "date": "2026-07-17",
-      "url": "https://equal-love.jp/schedule/detail/10729",
       "category": "メディア",
       "time": ""
     }
