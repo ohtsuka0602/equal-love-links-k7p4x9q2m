@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-07-08T10:48:03.394Z",
-    "updatedAt": "2026-07-08T05:38:09.470Z"
+    "checkedAt": "2026-07-08T14:44:00.413Z",
+    "updatedAt": "2026-07-08T14:44:00.413Z"
   },
   "news": [
+    {
+      "title": "【出演情報】日本テレビ系「千鳥かまいたちゴールデンアワー」※大谷映美里、齋藤樹愛羅、髙松瞳、野口衣織",
+      "date": "2026-07-08",
+      "url": "https://sp.equal-love.jp/news/detail/11675",
+      "category": "メディア"
+    },
     {
       "title": "【＝LOVE Official Fan Club】瀧脇笙古バースデーメッセージを募集♪",
       "date": "2026-07-08",
@@ -57,12 +63,6 @@
       "date": "2026-07-03",
       "url": "https://sp.equal-love.jp/news/detail/11668",
       "category": "メディア"
-    },
-    {
-      "title": "「Ririmew」ブランドミューズに＝LOVEが就任いたしました！",
-      "date": "2026-07-03",
-      "url": "https://sp.equal-love.jp/news/detail/11666",
-      "category": "お知らせ"
     }
   ]
 }
