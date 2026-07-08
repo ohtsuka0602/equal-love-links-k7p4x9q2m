@@ -1,23 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-07-08T14:44:38.446Z",
-    "updatedAt": "2026-07-07T02:44:40.117Z"
+    "checkedAt": "2026-07-08T16:10:29.696Z",
+    "updatedAt": "2026-07-08T16:10:29.696Z"
   },
   "schedule": [
-    {
-      "title": "FODプレミアム「横浜DeNAベイス...",
-      "date": "2026-07-08",
-      "url": "https://equal-love.jp/schedule/detail/11569",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "日本テレビ(関東ローカル)連続ドラマ...",
-      "date": "2026-07-08",
-      "url": "https://equal-love.jp/schedule/detail/11665",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "宝島社「sweet 8月号」※大谷映...",
       "date": "2026-07-10",
@@ -71,6 +57,20 @@
       "title": "ニッポン放送「＝LOVEのイコラフ」",
       "date": "2026-07-13",
       "url": "https://equal-love.jp/schedule/detail/10433",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "日本テレビ系「千鳥かまいたちゴールデ...",
+      "date": "2026-07-15",
+      "url": "https://equal-love.jp/schedule/detail/11676",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "Artistspoken「イマフレラ...",
+      "date": "2026-07-17",
+      "url": "https://equal-love.jp/schedule/detail/10729",
       "category": "メディア",
       "time": ""
     }
