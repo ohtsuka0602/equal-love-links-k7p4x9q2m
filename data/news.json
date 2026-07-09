@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-07-09T08:45:17.877Z",
-    "updatedAt": "2026-07-08T14:44:00.413Z"
+    "checkedAt": "2026-07-09T11:37:30.784Z",
+    "updatedAt": "2026-07-09T11:37:30.784Z"
   },
   "news": [
+    {
+      "title": "【出演情報】フジテレビ系「STAR」(コメント出演)※大谷映美里、大場花菜、野口衣織",
+      "date": "2026-07-09",
+      "url": "https://sp.equal-love.jp/news/detail/11658",
+      "category": "メディア"
+    },
     {
       "title": "【出演情報】日本テレビ系「千鳥かまいたちゴールデンアワー」※大谷映美里、齋藤樹愛羅、髙松瞳、野口衣織",
       "date": "2026-07-08",
@@ -57,12 +63,6 @@
       "date": "2026-07-03",
       "url": "https://sp.equal-love.jp/news/detail/11672",
       "category": "お知らせ"
-    },
-    {
-      "title": "【出演情報】NHK「NHK 夏の音楽祭 うたであえたら 2026」※＝LOVE",
-      "date": "2026-07-03",
-      "url": "https://sp.equal-love.jp/news/detail/11668",
-      "category": "メディア"
     }
   ]
 }
