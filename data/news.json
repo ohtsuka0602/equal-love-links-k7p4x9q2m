@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-07-09T11:37:30.784Z",
-    "updatedAt": "2026-07-09T11:37:30.784Z"
+    "checkedAt": "2026-07-09T14:44:25.192Z",
+    "updatedAt": "2026-07-09T14:44:25.192Z"
   },
   "news": [
+    {
+      "title": "【出演情報】 FM NACK5「FAV FOUR」※大場花菜",
+      "date": "2026-07-09",
+      "url": "https://sp.equal-love.jp/news/detail/11670",
+      "category": "メディア"
+    },
     {
       "title": "【出演情報】フジテレビ系「STAR」(コメント出演)※大谷映美里、大場花菜、野口衣織",
       "date": "2026-07-09",
@@ -57,12 +63,6 @@
       "date": "2026-07-04",
       "url": "https://sp.equal-love.jp/news/detail/11662",
       "category": "メディア"
-    },
-    {
-      "title": "【＝LOVE Official Fan Club】大谷映美里・野口衣織 バースデーコンテンツ更新！",
-      "date": "2026-07-03",
-      "url": "https://sp.equal-love.jp/news/detail/11672",
-      "category": "お知らせ"
     }
   ]
 }
