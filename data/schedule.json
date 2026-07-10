@@ -1,23 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-07-10T14:43:59.630Z",
-    "updatedAt": "2026-07-09T08:44:16.750Z"
+    "checkedAt": "2026-07-10T16:33:50.658Z",
+    "updatedAt": "2026-07-10T16:33:50.658Z"
   },
   "schedule": [
-    {
-      "title": "宝島社「sweet 8月号」※大谷映...",
-      "date": "2026-07-10",
-      "url": "https://equal-love.jp/schedule/detail/11643",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "Artistspoken「イマフレラ...",
-      "date": "2026-07-10",
-      "url": "https://equal-love.jp/schedule/detail/10728",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "日本テレビ「サクサクヒムヒム☆推しの...",
       "date": "2026-07-11",
@@ -71,6 +57,20 @@
       "title": "日本テレビ系「千鳥かまいたちゴールデ...",
       "date": "2026-07-15",
       "url": "https://equal-love.jp/schedule/detail/11676",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "フジテレビ系「STAR」(コメント出...",
+      "date": "2026-07-16",
+      "url": "https://equal-love.jp/schedule/detail/11659",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "Artistspoken「イマフレラ...",
+      "date": "2026-07-17",
+      "url": "https://equal-love.jp/schedule/detail/10729",
       "category": "メディア",
       "time": ""
     }
