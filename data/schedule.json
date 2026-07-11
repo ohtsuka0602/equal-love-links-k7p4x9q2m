@@ -1,37 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-07-11T14:45:17.216Z",
-    "updatedAt": "2026-07-10T16:33:50.658Z"
+    "checkedAt": "2026-07-11T15:14:01.164Z",
+    "updatedAt": "2026-07-11T15:14:01.164Z"
   },
   "schedule": [
-    {
-      "title": "日本テレビ「サクサクヒムヒム☆推しの...",
-      "date": "2026-07-11",
-      "url": "https://equal-love.jp/schedule/detail/11663",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "TELASAオリジナル「アイ=ラブ！...",
-      "date": "2026-07-11",
-      "url": "https://equal-love.jp/schedule/detail/11698",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "「EIGHT-JAM FES 202...",
-      "date": "2026-07-11",
-      "url": "https://equal-love.jp/schedule/detail/11433",
-      "category": "ライブ/イベント",
-      "time": ""
-    },
-    {
-      "title": "MBSラジオ「アッパレやってまーす！...",
-      "date": "2026-07-11",
-      "url": "https://equal-love.jp/schedule/detail/10537",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "「BEAT AX -SUMMER E...",
       "date": "2026-07-12",
@@ -71,6 +43,34 @@
       "title": "Artistspoken「イマフレラ...",
       "date": "2026-07-17",
       "url": "https://equal-love.jp/schedule/detail/10729",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "TBS系「音楽の日2026」※＝LO...",
+      "date": "2026-07-18",
+      "url": "https://equal-love.jp/schedule/detail/11554",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "MBSラジオ「アッパレやってまーす！...",
+      "date": "2026-07-18",
+      "url": "https://equal-love.jp/schedule/detail/10538",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "YouTube「マヂラブ・野口衣織の...",
+      "date": "2026-07-19",
+      "url": "https://equal-love.jp/schedule/detail/11679",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "date": "2026-07-20",
+      "url": "https://equal-love.jp/schedule/detail/10434",
       "category": "メディア",
       "time": ""
     }
