@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-07-11T05:28:31.364Z",
-    "updatedAt": "2026-07-11T05:28:31.364Z"
+    "checkedAt": "2026-07-11T08:44:03.630Z",
+    "updatedAt": "2026-07-11T08:44:03.630Z"
   },
   "news": [
+    {
+      "title": "【出演情報】CSテレ朝チャンネル１「EIGHT-JAM FES 2026」※＝LOVE",
+      "date": "2026-07-11",
+      "url": "https://sp.equal-love.jp/news/detail/11752",
+      "category": "メディア"
+    },
     {
       "title": "【出演情報】テレビ朝日「アイ＝ラブ！げーみんぐ ～○○さんがオンラインになりました～」サマフェス公開収録2026※齋藤樹愛羅、佐々木舞香、大場花菜、瀧脇笙古",
       "date": "2026-07-11",
@@ -57,12 +63,6 @@
       "date": "2026-07-06",
       "url": "https://sp.equal-love.jp/news/detail/11678",
       "category": "メディア"
-    },
-    {
-      "title": "握手会2026.07.06New! 8/26(水)発売、=LOVE 21stシングル発売記念スペシャルリリースイベント Vol.3決定！",
-      "date": "2026-07-06",
-      "url": "https://sp.equal-love.jp/news/detail/11707",
-      "category": ""
     }
   ]
 }
