@@ -1,9 +1,16 @@
 {
   "meta": {
-    "checkedAt": "2026-07-11T20:45:14.934Z",
-    "updatedAt": "2026-07-11T15:14:01.164Z"
+    "checkedAt": "2026-07-12T02:45:12.951Z",
+    "updatedAt": "2026-07-12T02:45:12.951Z"
   },
   "schedule": [
+    {
+      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
+      "date": "2026-07-12",
+      "url": "https://equal-love.jp/schedule/detail/11171",
+      "category": "メディア",
+      "time": ""
+    },
     {
       "title": "「BEAT AX -SUMMER E...",
       "date": "2026-07-12",
@@ -47,13 +54,6 @@
       "time": ""
     },
     {
-      "title": "TBS系「音楽の日2026」※＝LO...",
-      "date": "2026-07-18",
-      "url": "https://equal-love.jp/schedule/detail/11554",
-      "category": "メディア",
-      "time": ""
-    },
-    {
       "title": "MBSラジオ「アッパレやってまーす！...",
       "date": "2026-07-18",
       "url": "https://equal-love.jp/schedule/detail/10538",
@@ -61,16 +61,16 @@
       "time": ""
     },
     {
-      "title": "YouTube「マヂラブ・野口衣織の...",
-      "date": "2026-07-19",
-      "url": "https://equal-love.jp/schedule/detail/11679",
+      "title": "TBS系「音楽の日2026」※＝LO...",
+      "date": "2026-07-18",
+      "url": "https://equal-love.jp/schedule/detail/11554",
       "category": "メディア",
       "time": ""
     },
     {
-      "title": "ニッポン放送「＝LOVEのイコラフ」",
-      "date": "2026-07-20",
-      "url": "https://equal-love.jp/schedule/detail/10434",
+      "title": "TELASAオリジナル「アイ=ラブ！...",
+      "date": "2026-07-18",
+      "url": "https://equal-love.jp/schedule/detail/11699",
       "category": "メディア",
       "time": ""
     }
