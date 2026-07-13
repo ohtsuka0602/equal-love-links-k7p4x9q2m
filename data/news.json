@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-07-13T08:45:13.168Z",
-    "updatedAt": "2026-07-13T08:45:13.168Z"
+    "checkedAt": "2026-07-13T11:42:14.711Z",
+    "updatedAt": "2026-07-13T11:42:14.711Z"
   },
   "news": [
+    {
+      "title": "【出演情報】NHK総合「Venue101 EXTRA」※＝LOVE",
+      "date": "2026-07-13",
+      "url": "https://sp.equal-love.jp/news/detail/11761",
+      "category": "メディア"
+    },
     {
       "title": "握手会2026.07.13New! =LOVE 21stシングル発売記念 オンライン個別サイン会 開催決定!!",
       "date": "2026-07-13",
@@ -57,12 +63,6 @@
       "date": "2026-07-08",
       "url": "https://sp.equal-love.jp/news/detail/11675",
       "category": "メディア"
-    },
-    {
-      "title": "【＝LOVE Official Fan Club】瀧脇笙古バースデーメッセージを募集♪",
-      "date": "2026-07-08",
-      "url": "https://sp.equal-love.jp/news/detail/11713",
-      "category": "お知らせ"
     }
   ]
 }
