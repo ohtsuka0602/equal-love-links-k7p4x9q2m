@@ -1,20 +1,27 @@
 {
   "meta": {
-    "checkedAt": "2026-07-14T20:44:43.017Z",
-    "updatedAt": "2026-07-13T16:43:10.957Z"
+    "checkedAt": "2026-07-15T02:45:18.173Z",
+    "updatedAt": "2026-07-15T02:45:18.173Z"
   },
   "schedule": [
-    {
-      "title": "日本テレビ(関東ローカル)連続ドラマ...",
-      "date": "2026-07-15",
-      "url": "https://equal-love.jp/schedule/detail/11726",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "日本テレビ系「千鳥かまいたちゴールデ...",
       "date": "2026-07-15",
       "url": "https://equal-love.jp/schedule/detail/11676",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "双葉社「EX大衆 8・9月合併号」※...",
+      "date": "2026-07-15",
+      "url": "https://equal-love.jp/schedule/detail/11712",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "日本テレビ(関東ローカル)連続ドラマ...",
+      "date": "2026-07-15",
+      "url": "https://equal-love.jp/schedule/detail/11726",
       "category": "メディア",
       "time": ""
     },
@@ -29,13 +36,6 @@
       "title": "Artistspoken「イマフレラ...",
       "date": "2026-07-17",
       "url": "https://equal-love.jp/schedule/detail/10729",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "NHK総合「Venue101 EXT...",
-      "date": "2026-07-18",
-      "url": "https://equal-love.jp/schedule/detail/11762",
       "category": "メディア",
       "time": ""
     },
