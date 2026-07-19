@@ -3,7 +3,7 @@ const path = require("node:path");
 const { chromium } = require("playwright");
 
 const DEFAULT_MAX_ITEMS = 10;
-const DEFAULT_EXTRACT_LIMIT = 300;
+const DEFAULT_EXTRACT_LIMIT = null;
 const CATEGORY_WORDS = [
   "NEWS",
   "INFO",
@@ -30,7 +30,7 @@ const CATEGORY_WORDS = [
 
 async function fetchOfficialList(config) {
   const maxItems = config.maxItems || DEFAULT_MAX_ITEMS;
-  const extractLimit = config.extractLimit || DEFAULT_EXTRACT_LIMIT;
+  const extractLimit = config.extractLimit ?? DEFAULT_EXTRACT_LIMIT;
   const existingData = await readJson(config.outputPath, { meta: {}, [config.rootKey]: [] });
   const existingItems = normalizeExistingItems(existingData, config.rootKey);
   const browser = await chromium.launch();
@@ -47,7 +47,7 @@ async function fetchOfficialList(config) {
     const responseStatus = response?.status() || "unknown";
     const responseHeaders = response?.headers() || {};
     const responseContentType = responseHeaders["content-type"] || "unknown";
-    await page.waitForTimeout(1500);
+    await page.waitForTimeout(config.settleTimeout ?? 1500);
 
     const finalUrl = page.url();
     const html = await page.content();
@@ -63,7 +63,7 @@ async function fetchOfficialList(config) {
     });
     const prepared = prepareItems(extractedItems, config);
     const nextItems = prepared.items.slice(0, maxItems);
-    const checkedAt = new Date().toISOString();
+    const checkedAt = getNowIso(config);
     const summary = {
       label: config.label,
       targetUrl: config.url,
@@ -155,7 +155,8 @@ function prepareItems(items, config) {
   const normalized = rawItems
     .map((item) => normalizeItem(item, config.type))
     .filter((item) => item.title && item.url);
-  const dateFiltered = normalized.filter((item) => config.type !== "schedule" || !item.date || item.date >= getTokyoDateKey());
+  const todayKey = getTokyoDateKey(config.now ? new Date(config.now) : new Date());
+  const dateFiltered = normalized.filter((item) => config.type !== "schedule" || !item.date || item.date >= todayKey);
   const categoryFiltered = dateFiltered;
   const prepared = categoryFiltered.filter((item) => {
     const key = `${item.url}|${item.title}`;
@@ -240,7 +241,6 @@ function logFetchSummary(summary) {
 function extractOfficialItemsFromDom(options) {
   const anchors = Array.from(document.querySelectorAll("a[href]"));
   const items = [];
-  const seen = new Set();
 
   for (const anchor of anchors) {
     const url = toAbsoluteUrl(anchor.getAttribute("href"));
@@ -257,13 +257,6 @@ function extractOfficialItemsFromDom(options) {
       continue;
     }
 
-    const key = `${url}|${title}`;
-
-    if (seen.has(key)) {
-      continue;
-    }
-
-    seen.add(key);
     items.push({
       title,
       date: options.type === "schedule" ? findScheduleDate(anchor) || findDate(text) : findDate(text),
@@ -272,7 +265,7 @@ function extractOfficialItemsFromDom(options) {
       category: findCategory(container, text),
     });
 
-    if (items.length >= options.maxItems) {
+    if (Number.isFinite(options.maxItems) && items.length >= options.maxItems) {
       break;
     }
   }
@@ -491,6 +484,10 @@ function getTokyoDateKey(date = new Date()) {
     day: "2-digit",
   }).format(date);
 }
+
+function getNowIso(config = {}) {
+  return config.now ? new Date(config.now).toISOString() : new Date().toISOString();
+}
 function normalizeDate(value) {
   const text = cleanText(value);
   const match = text.match(/^(20\d{2})-(\d{2})-(\d{2})$/);
@@ -527,4 +524,5 @@ function cleanUrl(value) {
 
 module.exports = {
   fetchOfficialList,
+  prepareItems,
 };
