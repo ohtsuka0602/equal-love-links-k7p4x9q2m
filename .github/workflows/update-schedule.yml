@@ -39,6 +39,16 @@ jobs:
       - name: Fetch schedule
         run: npm run fetch:schedule
 
+      - name: Upload schedule debug artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: schedule-debug
+          path: |
+            debug/schedule.html
+            debug/schedule-summary.json
+          if-no-files-found: ignore
+
       - name: Commit and push changes
         shell: bash
         run: |
@@ -67,6 +77,7 @@ jobs:
             echo "Current HEAD: $(git rev-parse --short HEAD)"
             echo "Origin main: $(git rev-parse --short origin/main)"
             git status --short
+            git diff -- data/schedule.json
 
             git add data/schedule.json
 

@@ -3,6 +3,7 @@ const path = require("node:path");
 const { chromium } = require("playwright");
 
 const DEFAULT_MAX_ITEMS = 10;
+const DEFAULT_EXTRACT_LIMIT = 300;
 const CATEGORY_WORDS = [
   "NEWS",
   "INFO",
@@ -29,6 +30,7 @@ const CATEGORY_WORDS = [
 
 async function fetchOfficialList(config) {
   const maxItems = config.maxItems || DEFAULT_MAX_ITEMS;
+  const extractLimit = config.extractLimit || DEFAULT_EXTRACT_LIMIT;
   const existingData = await readJson(config.outputPath, { meta: {}, [config.rootKey]: [] });
   const existingItems = normalizeExistingItems(existingData, config.rootKey);
   const browser = await chromium.launch();
@@ -40,28 +42,66 @@ async function fetchOfficialList(config) {
   });
 
   try {
-    await page.goto(config.url, { waitUntil: "networkidle", timeout: 60000 });
+    console.log(`Fetch target URL: ${config.url}`);
+    const response = await page.goto(config.url, { waitUntil: "networkidle", timeout: 60000 });
+    const responseStatus = response?.status() || "unknown";
+    const responseHeaders = response?.headers() || {};
+    const responseContentType = responseHeaders["content-type"] || "unknown";
     await page.waitForTimeout(1500);
+
+    const finalUrl = page.url();
+    const html = await page.content();
+    console.log(`HTTP status: ${responseStatus}`);
+    console.log(`Response content-type: ${responseContentType}`);
+    console.log(`Response length: ${html.length}`);
+    console.log(`Final response URL: ${finalUrl}`);
 
     const extractedItems = await page.evaluate(extractOfficialItemsFromDom, {
       type: config.type,
-      maxItems: maxItems * 3,
+      maxItems: extractLimit,
       categoryWords: CATEGORY_WORDS,
     });
-    const nextItems = prepareItems(extractedItems, config).slice(0, maxItems);
+    const prepared = prepareItems(extractedItems, config);
+    const nextItems = prepared.items.slice(0, maxItems);
+    const checkedAt = new Date().toISOString();
+    const summary = {
+      label: config.label,
+      targetUrl: config.url,
+      finalUrl,
+      responseStatus,
+      responseContentType,
+      responseLength: html.length,
+      rawExtractedCount: prepared.counts.raw,
+      normalizedCount: prepared.counts.normalized,
+      dateFilteredCount: prepared.counts.dateFiltered,
+      categoryFilteredCount: prepared.counts.categoryFiltered,
+      deduplicatedCount: prepared.counts.deduplicated,
+      finalOutputCount: nextItems.length,
+      existingItemCount: existingItems.length,
+      checkedAt,
+    };
+
+    logFetchSummary(summary);
+    await writeDebugArtifacts(config, html, summary);
 
     if (nextItems.length === 0) {
       const message = `No ${config.label} items were extracted. Existing JSON was not changed.`;
 
       if (existingItems.length > 0) {
         console.warn(message);
+        await writeJsonAtomically(config.outputPath, {
+          meta: {
+            ...(existingData.meta || {}),
+            checkedAt,
+          },
+          [config.rootKey]: existingItems,
+        });
         return;
       }
 
       throw new Error(message);
     }
 
-    const checkedAt = new Date().toISOString();
     const updatedAt = hasListChanged(existingItems, nextItems)
       ? checkedAt
       : existingData.meta?.updatedAt || checkedAt;
@@ -111,27 +151,40 @@ function normalizeExistingItems(data, rootKey) {
 
 function prepareItems(items, config) {
   const seen = new Set();
-  const prepared = (items || [])
+  const rawItems = items || [];
+  const normalized = rawItems
     .map((item) => normalizeItem(item, config.type))
-    .filter((item) => item.title && item.url)
-    .filter((item) => config.type !== "schedule" || !item.date || item.date >= getTokyoDateKey())
-    .filter((item) => {
-      const key = `${item.url}|${item.title}`;
+    .filter((item) => item.title && item.url);
+  const dateFiltered = normalized.filter((item) => config.type !== "schedule" || !item.date || item.date >= getTokyoDateKey());
+  const categoryFiltered = dateFiltered;
+  const prepared = categoryFiltered.filter((item) => {
+    const key = `${item.url}|${item.title}`;
 
-      if (seen.has(key)) {
-        return false;
-      }
+    if (seen.has(key)) {
+      return false;
+    }
 
-      seen.add(key);
-      return true;
-    });
+    seen.add(key);
+    return true;
+  });
 
-  return prepared.sort((left, right) => {
+  const sorted = prepared.sort((left, right) => {
     const leftDate = getDateTime(left.date);
     const rightDate = getDateTime(right.date);
 
     return config.sort === "asc" ? leftDate - rightDate : rightDate - leftDate;
   });
+
+  return {
+    items: sorted,
+    counts: {
+      raw: rawItems.length,
+      normalized: normalized.length,
+      dateFiltered: dateFiltered.length,
+      categoryFiltered: categoryFiltered.length,
+      deduplicated: prepared.length,
+    },
+  };
 }
 
 function normalizeItem(item, type) {
@@ -163,6 +216,25 @@ async function writeJsonAtomically(filePath, data) {
   const temporaryPath = `${filePath}.tmp`;
   await fs.writeFile(temporaryPath, `${JSON.stringify(data, null, 2)}\n`, "utf8");
   await fs.rename(temporaryPath, filePath);
+}
+
+async function writeDebugArtifacts(config, html, summary) {
+  const debugDir = path.join(config.rootDir, "debug");
+
+  await fs.mkdir(debugDir, { recursive: true });
+  await fs.writeFile(path.join(debugDir, `${config.label}.html`), html, "utf8");
+  await fs.writeFile(path.join(debugDir, `${config.label}-summary.json`), `${JSON.stringify(summary, null, 2)}\n`, "utf8");
+}
+
+function logFetchSummary(summary) {
+  console.log(`Raw extracted count: ${summary.rawExtractedCount}`);
+  console.log(`Normalized count: ${summary.normalizedCount}`);
+  console.log(`Date-filtered count: ${summary.dateFilteredCount}`);
+  console.log(`Category-filtered count: ${summary.categoryFilteredCount}`);
+  console.log(`Deduplicated count: ${summary.deduplicatedCount}`);
+  console.log(`Final output count: ${summary.finalOutputCount}`);
+  console.log(`Existing ${summary.label} count: ${summary.existingItemCount}`);
+  console.log(`Checked at: ${summary.checkedAt}`);
 }
 
 function extractOfficialItemsFromDom(options) {
