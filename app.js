@@ -714,6 +714,10 @@ let newsFailed = false;
 let scheduleItems = [];
 let scheduleMeta = {};
 let scheduleFailed = false;
+let memberProfiles = [];
+let memberProfilesMeta = {};
+let memberProfilesFailed = false;
+let selectedProfileId = "";
 let newsExpanded = false;
 let scheduleExpanded = false;
 
@@ -727,11 +731,12 @@ async function loadMembers() {
       throw new Error(`members.json could not be loaded: ${response.status}`);
     }
 
-    const [data, youtubeData, newsData, scheduleData] = await Promise.all([
+    const [data, youtubeData, newsData, scheduleData, profileData] = await Promise.all([
       response.json(),
       loadYoutubeVideos(),
       loadNews(),
       loadSchedule(),
+      loadMemberProfiles(),
     ]);
 
     const normalizedData = normalizeMembersPayload(data);
@@ -745,6 +750,9 @@ async function loadMembers() {
     scheduleItems = scheduleData.items;
     scheduleMeta = scheduleData.meta;
     scheduleFailed = scheduleData.failed;
+    memberProfiles = profileData.profiles;
+    memberProfilesMeta = profileData.meta;
+    memberProfilesFailed = profileData.failed;
     members = normalizedData.members.map(applyFixedData).filter(isDisplayableMember);
     favoriteNames = pruneFavoriteNames(favoriteNames, members);
     saveFavoriteNames();
@@ -763,6 +771,9 @@ async function loadMembers() {
     scheduleItems = [];
     scheduleMeta = {};
     scheduleFailed = false;
+    memberProfiles = [];
+    memberProfilesMeta = {};
+    memberProfilesFailed = false;
     if (homeDashboardEl) {
       homeDashboardEl.innerHTML = "";
       homeDashboardEl.hidden = true;
@@ -788,6 +799,10 @@ async function loadNews() {
 
 async function loadSchedule() {
   return loadDashboardJson("schedule.json", normalizeSchedulePayload, { meta: {}, items: [] });
+}
+
+async function loadMemberProfiles() {
+  return loadDashboardJson("member-profiles.json", normalizeMemberProfilesPayload, { meta: {}, profiles: [] });
 }
 
 async function loadDashboardJson(fileName, normalizer, fallback) {
@@ -854,6 +869,7 @@ function renderHomeDashboard() {
 
   homeDashboardEl.innerHTML = [
     createHomeDailyPickSection(),
+    createMemberProfileSection(),
     hasBirthdayToday ? birthdaySection : "",
     createYoutubeVideosSection(3, { compact: true }),
     createNewsSection(),
@@ -930,6 +946,165 @@ function createDailyPickContent(pick, subtext, showAllSns) {
       </div>
     </article>
   `;
+}
+
+function createMemberProfileSection() {
+  const profile = getSelectedMemberProfile();
+
+  if (!profile) {
+    return memberProfilesFailed
+      ? createDashboardSection("MEMBER PROFILE", `<p class="dashboard-empty">プロフィールを取得できませんでした</p>`)
+      : "";
+  }
+
+  const member = getMemberForProfile(profile);
+  const name = escapeHtml(profile.name);
+  const nameEn = profile.nameEn ? `<p class="member-profile-en">${escapeHtml(profile.nameEn)}</p>` : "";
+  const image = escapeHtml(member?.image || profile.image || "assets/official-love.png");
+  const ringStyle = member ? createColorRingStyle(member) : "";
+  const colorLabel = member ? createColorLabel(member) : "";
+  const birthday = formatProfileBirthday(profile.birthday);
+  const fieldRows = [
+    ["誕生日", birthday],
+    ["出身地", profile.birthplace],
+    ["身長", profile.height],
+    ["趣味", profile.hobby],
+    ["特技", profile.skill],
+  ]
+    .filter(([, value]) => value)
+    .map(([label, value]) => `
+      <div class="member-profile-field">
+        <span>${escapeHtml(label)}</span>
+        <strong>${escapeHtml(value)}</strong>
+      </div>
+    `)
+    .join("");
+  const subRows = [profile.bloodType, profile.zodiac].filter(Boolean).map(escapeHtml).join(" / ");
+  const currentIndex = getMemberProfileIndex(profile.id);
+  const options = memberProfiles
+    .map((item) => `<option value="${escapeHtml(item.id)}"${item.id === profile.id ? " selected" : ""}>${escapeHtml(item.name)}</option>`)
+    .join("");
+  const officialLink = profile.profileUrl
+    ? `<a class="member-profile-link" href="${escapeHtml(profile.profileUrl)}" target="_blank" rel="noopener noreferrer">公式プロフィール</a>`
+    : "";
+  const favoriteControl = member && !favoriteNames.includes(member.name) ? createFavoriteButton(member) : "";
+  const favoriteBadge = member && favoriteNames.includes(member.name) ? `<span class="member-profile-favorite-badge">推し</span>` : "";
+  const snsButtons = member ? createAllSnsButtons(member) : "";
+
+  return createDashboardSection(
+    "MEMBER PROFILE",
+    `
+      <article class="member-profile-card">
+        <div class="member-profile-top">
+          <button class="member-profile-nav" type="button" data-profile-prev aria-label="前のメンバー">‹</button>
+          <div class="member-profile-image-wrap${ringStyle ? " color-ring" : ""}" ${ringStyle ? `style="${ringStyle}"` : ""}>
+            <img class="member-profile-image" src="${image}" alt="${name}" loading="lazy" referrerpolicy="no-referrer">
+          </div>
+          <button class="member-profile-nav" type="button" data-profile-next aria-label="次のメンバー">›</button>
+        </div>
+        <div class="member-profile-body">
+          <div class="member-profile-name-row">
+            <div>
+              <h3>${name}</h3>
+              ${nameEn}
+              ${colorLabel}
+            </div>
+            ${favoriteControl || favoriteBadge}
+          </div>
+          ${subRows ? `<p class="member-profile-sub">${subRows}</p>` : ""}
+          <div class="member-profile-fields">${fieldRows}</div>
+          <div class="member-profile-actions">
+            ${officialLink}
+            ${snsButtons ? `<div class="sns-buttons compact-sns-buttons">${snsButtons}</div>` : ""}
+          </div>
+          <select class="member-profile-select" data-profile-select aria-label="表示するメンバー">
+            ${options}
+          </select>
+          <p class="member-profile-count">${currentIndex + 1} / ${memberProfiles.length}</p>
+        </div>
+      </article>
+    `,
+    createDashboardMeta(memberProfilesMeta.checkedAt)
+  );
+}
+
+function getSelectedMemberProfile() {
+  const profiles = memberProfiles.filter((profile) => profile && profile.id && profile.name);
+
+  if (profiles.length === 0) {
+    return null;
+  }
+
+  const selected = profiles.find((profile) => profile.id === selectedProfileId);
+
+  if (selected) {
+    return selected;
+  }
+
+  const favoriteProfile = favoriteNames
+    .map((name) => profiles.find((profile) => getMemberForProfile(profile)?.name === name || profile.name === name))
+    .find(Boolean);
+
+  if (favoriteProfile) {
+    selectedProfileId = favoriteProfile.id;
+    return favoriteProfile;
+  }
+
+  const dailyPick = getHomeDailyPick();
+  const dailyPickProfile = dailyPick ? profiles.find((profile) => getProfileIdFromMember(dailyPick) === profile.id || profile.name === dailyPick.name) : null;
+
+  selectedProfileId = (dailyPickProfile || profiles[0]).id;
+  return dailyPickProfile || profiles[0];
+}
+
+function getMemberProfileIndex(profileId) {
+  return Math.max(0, memberProfiles.findIndex((profile) => profile.id === profileId));
+}
+
+function shiftSelectedMemberProfile(delta) {
+  if (memberProfiles.length === 0) {
+    return;
+  }
+
+  const current = getSelectedMemberProfile();
+  const currentIndex = getMemberProfileIndex(current?.id);
+  const nextIndex = (currentIndex + delta + memberProfiles.length) % memberProfiles.length;
+  selectedProfileId = memberProfiles[nextIndex].id;
+  renderHomeDashboard();
+}
+
+function getMemberForProfile(profile) {
+  return members.find((member) => member.type === "member" && (getProfileIdFromMember(member) === profile.id || member.name === profile.name));
+}
+
+function getProfileIdFromMember(member) {
+  const source = member?.imageSourceUrl || member?.image || "";
+
+  try {
+    const url = new URL(source, "https://local.example/");
+    const filename = url.pathname.split("/").pop() || "";
+    return filename.replace(/\.[^.]+$/, "").replace(/_/g, "-").toLowerCase();
+  } catch {
+    return "";
+  }
+}
+
+function formatProfileBirthday(value) {
+  if (!value) {
+    return "";
+  }
+
+  const date = new Date(`${value}T00:00:00`);
+
+  if (Number.isNaN(date.getTime())) {
+    return value;
+  }
+
+  return date.toLocaleDateString("ja-JP", {
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  });
 }
 
 function renderYoutubeVideos() {
@@ -1234,6 +1409,35 @@ function normalizeSchedulePayload(data) {
   };
 }
 
+function normalizeMemberProfilesPayload(data) {
+  const profiles = Array.isArray(data)
+    ? data
+    : Array.isArray(data?.profiles)
+      ? data.profiles
+      : [];
+
+  return {
+    meta: data?.meta || {},
+    profiles: profiles
+      .filter((profile) => profile && profile.id && profile.name)
+      .map((profile) => ({
+        id: String(profile.id || "").trim(),
+        name: String(profile.name || "").trim(),
+        nameEn: String(profile.nameEn || "").trim(),
+        profileUrl: String(profile.profileUrl || "").trim(),
+        image: String(profile.image || "").trim(),
+        imageUrl: String(profile.imageUrl || "").trim(),
+        birthday: String(profile.birthday || "").trim(),
+        birthplace: String(profile.birthplace || "").trim(),
+        bloodType: String(profile.bloodType || "").trim(),
+        zodiac: String(profile.zodiac || "").trim(),
+        height: String(profile.height || "").trim(),
+        hobby: String(profile.hobby || "").trim(),
+        skill: String(profile.skill || "").trim(),
+      })),
+  };
+}
+
 function getUpcomingBirthdays() {
   return members
     .filter((member) => member.type === "member" && member.birthday)
@@ -1319,6 +1523,16 @@ function toggleFavorite(name) {
 
 if (homeDashboardEl) {
   homeDashboardEl.addEventListener("click", (event) => {
+    if (event.target.closest("[data-profile-prev]")) {
+      shiftSelectedMemberProfile(-1);
+      return;
+    }
+
+    if (event.target.closest("[data-profile-next]")) {
+      shiftSelectedMemberProfile(1);
+      return;
+    }
+
     const toggleButton = event.target.closest("[data-dashboard-toggle]");
 
     if (toggleButton) {
@@ -1338,7 +1552,19 @@ if (homeDashboardEl) {
 
     if (button) {
       toggleFavorite(button.dataset.favoriteName);
+      return;
     }
+  });
+
+  homeDashboardEl.addEventListener("change", (event) => {
+    const select = event.target.closest("[data-profile-select]");
+
+    if (!select) {
+      return;
+    }
+
+    selectedProfileId = select.value;
+    renderHomeDashboard();
   });
 }
 

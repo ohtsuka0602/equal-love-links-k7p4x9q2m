@@ -39,6 +39,10 @@ jobs:
       - name: Fetch member links
         run: npm run fetch
 
+      - name: Fetch member profiles
+        run: npm run fetch:profiles
+        continue-on-error: true
+
       - name: Fetch YouTube videos
         run: npm run fetch:youtube
         env:
@@ -46,6 +50,16 @@ jobs:
 
       - name: Fetch latest news
         run: npm run fetch:news
+
+      - name: Upload member profile debug artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: member-profile-debug
+          path: |
+            debug/member-profile-summary.json
+            debug/profile-list.html
+          if-no-files-found: ignore
 
       - name: Commit and push changes
         shell: bash
@@ -60,6 +74,7 @@ jobs:
 
           mkdir -p "$tmp_dir/data" "$tmp_dir/assets"
           cp data/members.json "$tmp_dir/data/members.json"
+          cp data/member-profiles.json "$tmp_dir/data/member-profiles.json"
           cp data/youtube-videos.json "$tmp_dir/data/youtube-videos.json"
           cp data/news.json "$tmp_dir/data/news.json"
           cp -R assets/members "$tmp_dir/assets/members"
@@ -74,6 +89,7 @@ jobs:
 
             mkdir -p data assets
             cp "$tmp_dir/data/members.json" data/members.json
+            cp "$tmp_dir/data/member-profiles.json" data/member-profiles.json
             cp "$tmp_dir/data/youtube-videos.json" data/youtube-videos.json
             cp "$tmp_dir/data/news.json" data/news.json
             rm -rf assets/members
@@ -83,7 +99,7 @@ jobs:
             echo "Origin main: $(git rev-parse --short origin/main)"
             git status --short
 
-            git add data/members.json data/youtube-videos.json data/news.json assets/members
+            git add data/members.json data/member-profiles.json data/youtube-videos.json data/news.json assets/members
 
             if git diff --cached --quiet; then
               echo "No changes to commit."
