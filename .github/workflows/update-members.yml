@@ -106,7 +106,7 @@ jobs:
               exit 0
             fi
 
-            git commit -m "Update member SNS links, YouTube videos, and news"
+            git commit -m "Update member data, profiles, YouTube videos, and news"
 
             if git push origin HEAD:main; then
               echo "Pushed generated data successfully."
