@@ -1,9 +1,16 @@
 {
   "meta": {
-    "checkedAt": "2026-07-19T23:55:55.018Z",
-    "updatedAt": "2026-07-19T23:31:37.613Z"
+    "checkedAt": "2026-07-20T02:43:40.034Z",
+    "updatedAt": "2026-07-20T02:43:40.034Z"
   },
   "schedule": [
+    {
+      "title": "フジテレビ・FODプレミアム「キミは...",
+      "date": "2026-07-20",
+      "url": "https://equal-love.jp/schedule/detail/11680",
+      "category": "メディア",
+      "time": ""
+    },
     {
       "title": "ニッポン放送「＝LOVEのイコラフ」",
       "date": "2026-07-20",
@@ -19,16 +26,16 @@
       "time": ""
     },
     {
-      "title": "集英社「MYOJO 9月号」※大場花...",
+      "title": "日本テレビ(関東ローカル)連続ドラマ...",
       "date": "2026-07-22",
-      "url": "https://equal-love.jp/schedule/detail/11077",
+      "url": "https://equal-love.jp/schedule/detail/11765",
       "category": "メディア",
       "time": ""
     },
     {
-      "title": "日本テレビ(関東ローカル)連続ドラマ...",
+      "title": "集英社「MYOJO 9月号」※大場花...",
       "date": "2026-07-22",
-      "url": "https://equal-love.jp/schedule/detail/11765",
+      "url": "https://equal-love.jp/schedule/detail/11077",
       "category": "メディア",
       "time": ""
     },
@@ -58,13 +65,6 @@
       "date": "2026-07-25",
       "url": "https://equal-love.jp/schedule/detail/10539",
       "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "握手会 =LOVE 21stシングル発売記念...",
-      "date": "2026-07-26",
-      "url": "https://equal-love.jp/schedule/detail/11631",
-      "category": "",
       "time": ""
     },
     {
