@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-07-21T05:38:08.237Z",
-    "updatedAt": "2026-07-20T08:45:20.643Z"
+    "checkedAt": "2026-07-21T08:45:19.411Z",
+    "updatedAt": "2026-07-21T08:45:19.411Z"
   },
   "news": [
+    {
+      "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」FC長期会員先行(会員＋会員)チケット受付開始のお知らせ",
+      "date": "2026-07-21",
+      "url": "https://sp.equal-love.jp/news/detail/11763",
+      "category": "ライブ/イベント"
+    },
     {
       "title": "【出演情報】オリジナルアニメーション映画『GROTESQQQUE-グロテスク-』にて野口衣織の参加が決定！",
       "date": "2026-07-17",
@@ -57,12 +63,6 @@
       "date": "2026-07-10",
       "url": "https://sp.equal-love.jp/news/detail/11754",
       "category": "お知らせ"
-    },
-    {
-      "title": "【出演情報】AT-X「マヂラブ・野口衣織のマヂでラブになるTV」#2※野口衣織",
-      "date": "2026-07-10",
-      "url": "https://sp.equal-love.jp/news/detail/11523",
-      "category": "メディア"
     }
   ]
 }
