@@ -1,16 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-07-21T14:46:06.487Z",
-    "updatedAt": "2026-07-20T16:00:56.115Z"
+    "checkedAt": "2026-07-21T15:52:23.998Z",
+    "updatedAt": "2026-07-21T15:52:23.998Z"
   },
   "schedule": [
-    {
-      "title": "GAORA SPORTS【バッテリィ...",
-      "date": "2026-07-21",
-      "url": "https://equal-love.jp/schedule/detail/11587",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "日本テレビ(関東ローカル)連続ドラマ...",
       "date": "2026-07-22",
@@ -72,6 +65,13 @@
       "date": "2026-07-27",
       "url": "https://equal-love.jp/schedule/detail/10435",
       "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "テレビ朝日「アイ＝ラブ！げーみんぐ ...",
+      "date": "2026-07-28",
+      "url": "https://equal-love.jp/schedule/detail/11757",
+      "category": "ライブ/イベント",
       "time": ""
     }
   ]
