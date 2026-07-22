@@ -1,20 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-07-22T14:43:46.149Z",
-    "updatedAt": "2026-07-22T14:43:46.149Z"
+    "checkedAt": "2026-07-22T15:51:04.665Z",
+    "updatedAt": "2026-07-22T15:51:04.665Z"
   },
   "schedule": [
     {
-      "title": "日本テレビ(関東ローカル)連続ドラマ...",
-      "date": "2026-07-22",
-      "url": "https://equal-love.jp/schedule/detail/11765",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "集英社「MYOJO 9月号」※大場花...",
-      "date": "2026-07-22",
-      "url": "https://equal-love.jp/schedule/detail/11077",
+      "title": "FM NACK5「FAV FOUR」...",
+      "date": "2026-07-23",
+      "url": "https://equal-love.jp/schedule/detail/11671",
       "category": "メディア",
       "time": ""
     },
@@ -26,9 +19,9 @@
       "time": ""
     },
     {
-      "title": "FM NACK5「FAV FOUR」...",
+      "title": "ソフトバンク『Samsung Gal...",
       "date": "2026-07-23",
-      "url": "https://equal-love.jp/schedule/detail/11671",
+      "url": "https://equal-love.jp/schedule/detail/11778",
       "category": "メディア",
       "time": ""
     },
@@ -47,17 +40,17 @@
       "time": ""
     },
     {
-      "title": "AT-X「マヂラブ・野口衣織のマヂで...",
-      "date": "2026-07-26",
-      "url": "https://equal-love.jp/schedule/detail/11524",
-      "category": "メディア",
-      "time": ""
-    },
-    {
       "title": "握手会 ＝LOVE 21stシングル発売記念...",
       "date": "2026-07-26",
       "url": "https://equal-love.jp/schedule/detail/11631",
       "category": "",
+      "time": ""
+    },
+    {
+      "title": "AT-X「マヂラブ・野口衣織のマヂで...",
+      "date": "2026-07-26",
+      "url": "https://equal-love.jp/schedule/detail/11524",
+      "category": "メディア",
       "time": ""
     },
     {
@@ -72,6 +65,13 @@
       "date": "2026-07-28",
       "url": "https://equal-love.jp/schedule/detail/11757",
       "category": "ライブ/イベント",
+      "time": ""
+    },
+    {
+      "title": "日本テレビ系「上田と女が吠える夜」2...",
+      "date": "2026-07-29",
+      "url": "https://equal-love.jp/schedule/detail/11772",
+      "category": "メディア",
       "time": ""
     }
   ]
