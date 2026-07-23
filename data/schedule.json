@@ -1,9 +1,16 @@
 {
   "meta": {
-    "checkedAt": "2026-07-22T20:45:09.696Z",
-    "updatedAt": "2026-07-22T15:51:04.665Z"
+    "checkedAt": "2026-07-23T02:43:52.278Z",
+    "updatedAt": "2026-07-23T02:43:52.278Z"
   },
   "schedule": [
+    {
+      "title": "ソフトバンク『Samsung Gal...",
+      "date": "2026-07-23",
+      "url": "https://equal-love.jp/schedule/detail/11778",
+      "category": "メディア",
+      "time": ""
+    },
     {
       "title": "FM NACK5「FAV FOUR」...",
       "date": "2026-07-23",
@@ -12,16 +19,16 @@
       "time": ""
     },
     {
-      "title": "SHOWROOM『＝LOVE 山本杏...",
+      "title": "フジテレビ ONE「プロ野球ニュース...",
       "date": "2026-07-23",
-      "url": "https://equal-love.jp/schedule/detail/10486",
+      "url": "https://equal-love.jp/schedule/detail/11441",
       "category": "メディア",
       "time": ""
     },
     {
-      "title": "ソフトバンク『Samsung Gal...",
+      "title": "SHOWROOM『＝LOVE 山本杏...",
       "date": "2026-07-23",
-      "url": "https://equal-love.jp/schedule/detail/11778",
+      "url": "https://equal-love.jp/schedule/detail/10486",
       "category": "メディア",
       "time": ""
     },
@@ -40,17 +47,17 @@
       "time": ""
     },
     {
-      "title": "握手会 ＝LOVE 21stシングル発売記念...",
-      "date": "2026-07-26",
-      "url": "https://equal-love.jp/schedule/detail/11631",
-      "category": "",
-      "time": ""
-    },
-    {
       "title": "AT-X「マヂラブ・野口衣織のマヂで...",
       "date": "2026-07-26",
       "url": "https://equal-love.jp/schedule/detail/11524",
       "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "握手会 ＝LOVE 21stシングル発売記念...",
+      "date": "2026-07-26",
+      "url": "https://equal-love.jp/schedule/detail/11631",
+      "category": "",
       "time": ""
     },
     {
@@ -65,13 +72,6 @@
       "date": "2026-07-28",
       "url": "https://equal-love.jp/schedule/detail/11757",
       "category": "ライブ/イベント",
-      "time": ""
-    },
-    {
-      "title": "日本テレビ系「上田と女が吠える夜」2...",
-      "date": "2026-07-29",
-      "url": "https://equal-love.jp/schedule/detail/11772",
-      "category": "メディア",
       "time": ""
     }
   ]
