@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-07-26T21:35:53.811Z",
-    "updatedAt": "2026-07-26T14:45:20.651Z"
+    "checkedAt": "2026-07-27T02:45:11.064Z",
+    "updatedAt": "2026-07-27T02:45:11.064Z"
   },
   "news": [
+    {
+      "title": "【出演情報】TBS系「ラヴィット！」※齋藤樹愛羅",
+      "date": "2026-07-27",
+      "url": "https://sp.equal-love.jp/news/detail/11786",
+      "category": "メディア"
+    },
     {
       "title": "【出演情報】テレビ東京「家、ついて行ってイイですか？」※大谷映美里",
       "date": "2026-07-26",
@@ -57,12 +63,6 @@
       "date": "2026-07-17",
       "url": "https://sp.equal-love.jp/news/detail/11601",
       "category": "メディア"
-    },
-    {
-      "title": "大場花菜、野口衣織が出演している日本テレビ(関東ローカル)連続ドラマ「ヤンキー激戦区の四天王がアイドルグループに転生したら？」劇中歌が配信決定！",
-      "date": "2026-07-16",
-      "url": "https://sp.equal-love.jp/news/detail/11766",
-      "category": "お知らせ"
     }
   ]
 }
