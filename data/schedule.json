@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-07-27T08:44:12.767Z",
-    "updatedAt": "2026-07-27T02:45:58.599Z"
+    "checkedAt": "2026-07-27T14:45:05.607Z",
+    "updatedAt": "2026-07-27T14:45:05.607Z"
   },
   "schedule": [
     {
@@ -43,6 +43,13 @@
       "title": "Artistspoken「イマフレラ...",
       "date": "2026-07-31",
       "url": "https://equal-love.jp/schedule/detail/10731",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "秋水社「ねこともmini」(創刊号)...",
+      "date": "2026-07-31",
+      "url": "https://equal-love.jp/schedule/detail/11790",
       "category": "メディア",
       "time": ""
     }
