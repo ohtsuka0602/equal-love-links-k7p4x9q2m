@@ -1,9 +1,21 @@
 {
   "meta": {
-    "checkedAt": "2026-07-27T08:46:05.407Z",
-    "updatedAt": "2026-07-27T02:45:11.064Z"
+    "checkedAt": "2026-07-27T11:57:18.883Z",
+    "updatedAt": "2026-07-27T11:57:18.883Z"
   },
   "news": [
+    {
+      "title": "【出演情報】TBS系「CDTVライブ！ライブ！」※＝LOVE",
+      "date": "2026-07-27",
+      "url": "https://sp.equal-love.jp/news/detail/11791",
+      "category": "メディア"
+    },
+    {
+      "title": "【掲載情報】秋水社「ねこともmini」(創刊号) ※髙松瞳",
+      "date": "2026-07-27",
+      "url": "https://sp.equal-love.jp/news/detail/11789",
+      "category": "メディア"
+    },
     {
       "title": "【出演情報】TBS系「ラヴィット！」※齋藤樹愛羅",
       "date": "2026-07-27",
@@ -51,18 +63,6 @@
       "date": "2026-07-22",
       "url": "https://sp.equal-love.jp/news/detail/11767",
       "category": "ライブ/イベント"
-    },
-    {
-      "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」FC長期会員先行(会員＋会員)チケット受付開始のお知らせ",
-      "date": "2026-07-21",
-      "url": "https://sp.equal-love.jp/news/detail/11763",
-      "category": "ライブ/イベント"
-    },
-    {
-      "title": "【出演情報】オリジナルアニメーション映画『GROTESQQQUE-グロテスク-』にて野口衣織の参加が決定！",
-      "date": "2026-07-17",
-      "url": "https://sp.equal-love.jp/news/detail/11601",
-      "category": "メディア"
     }
   ]
 }
