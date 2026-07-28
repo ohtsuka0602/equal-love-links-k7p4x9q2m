@@ -1,9 +1,21 @@
 {
   "meta": {
-    "checkedAt": "2026-07-28T11:01:02.817Z",
-    "updatedAt": "2026-07-27T11:57:18.883Z"
+    "checkedAt": "2026-07-28T14:45:24.921Z",
+    "updatedAt": "2026-07-28T14:45:24.921Z"
   },
   "news": [
+    {
+      "title": "【出演情報】日本テレビ「ZIP!」※齋藤樹愛羅",
+      "date": "2026-07-28",
+      "url": "https://sp.equal-love.jp/news/detail/11782",
+      "category": "メディア"
+    },
+    {
+      "title": "【出演情報】日本テレビ「DayDay.」※齋藤樹愛羅",
+      "date": "2026-07-28",
+      "url": "https://sp.equal-love.jp/news/detail/11780",
+      "category": "メディア"
+    },
     {
       "title": "【出演情報】TBS系「CDTVライブ！ライブ！」※＝LOVE",
       "date": "2026-07-27",
@@ -51,18 +63,6 @@
       "date": "2026-07-23",
       "url": "https://sp.equal-love.jp/news/detail/11776",
       "category": "メディア"
-    },
-    {
-      "title": "【出演情報】日本テレビ系「上田と女が吠える夜」2時間SP ※齋藤樹愛羅",
-      "date": "2026-07-22",
-      "url": "https://sp.equal-love.jp/news/detail/11771",
-      "category": "メディア"
-    },
-    {
-      "title": "「マヂラブ・野口衣織のマヂでラブになるTV」公開収録が決定！",
-      "date": "2026-07-22",
-      "url": "https://sp.equal-love.jp/news/detail/11767",
-      "category": "ライブ/イベント"
     }
   ]
 }
