@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-07-30T10:50:18.306Z",
-    "updatedAt": "2026-07-30T05:27:13.882Z"
+    "checkedAt": "2026-07-30T14:46:06.816Z",
+    "updatedAt": "2026-07-30T14:46:06.816Z"
   },
   "news": [
+    {
+      "title": "【出演情報】フジテレビ系「STAR」※＝LOVE",
+      "date": "2026-07-30",
+      "url": "https://sp.equal-love.jp/news/detail/11802",
+      "category": "メディア"
+    },
     {
       "title": "【出演情報】THE FIRST TAKE YouTubeチャンネルにて、４月に横浜で行われた都市型音楽フェス「CENTRAL26」より＝LOVE『劇薬中毒』のパフォーマンス映像が公開！",
       "date": "2026-07-30",
@@ -56,12 +62,6 @@
       "title": "【出演情報】テレビ東京「家、ついて行ってイイですか？」※大谷映美里",
       "date": "2026-07-26",
       "url": "https://sp.equal-love.jp/news/detail/11769",
-      "category": "メディア"
-    },
-    {
-      "title": "【出演情報】日本テレビ「ヒルナンデス！」※齋藤樹愛羅",
-      "date": "2026-07-26",
-      "url": "https://sp.equal-love.jp/news/detail/11774",
       "category": "メディア"
     }
   ]
