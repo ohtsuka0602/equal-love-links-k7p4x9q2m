@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-07-31T11:11:11.117Z",
-    "updatedAt": "2026-07-31T11:11:11.117Z"
+    "checkedAt": "2026-07-31T14:45:15.100Z",
+    "updatedAt": "2026-07-31T14:45:15.100Z"
   },
   "news": [
+    {
+      "title": "【出演情報】TBS系「それSnow Manにやらせて下さい」※髙松瞳",
+      "date": "2026-07-31",
+      "url": "https://sp.equal-love.jp/news/detail/11809",
+      "category": "メディア"
+    },
     {
       "title": "生写真購入数制限のお知らせ",
       "date": "2026-07-31",
@@ -56,12 +62,6 @@
       "title": "【出演情報】TBS系「CDTVライブ！ライブ！」※＝LOVE",
       "date": "2026-07-27",
       "url": "https://sp.equal-love.jp/news/detail/11791",
-      "category": "メディア"
-    },
-    {
-      "title": "【掲載情報】秋水社「ねこともmini」(創刊号) ※髙松瞳",
-      "date": "2026-07-27",
-      "url": "https://sp.equal-love.jp/news/detail/11789",
       "category": "メディア"
     }
   ]
