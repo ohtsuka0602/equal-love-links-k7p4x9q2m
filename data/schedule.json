@@ -1,37 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-08-01T14:44:32.199Z",
-    "updatedAt": "2026-08-01T02:45:57.019Z"
+    "checkedAt": "2026-08-01T15:16:20.421Z",
+    "updatedAt": "2026-08-01T15:16:20.421Z"
   },
   "schedule": [
-    {
-      "title": "TBS系「夜明けのラヴィット！」※齋...",
-      "date": "2026-08-01",
-      "url": "https://equal-love.jp/schedule/detail/11788",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "「TOKYO IDOL FESTIV...",
-      "date": "2026-08-01",
-      "url": "https://equal-love.jp/schedule/detail/11558",
-      "category": "ライブ/イベント",
-      "time": ""
-    },
-    {
-      "title": "テレビ朝日「アイ=ラブ！げーみんぐ ...",
-      "date": "2026-08-01",
-      "url": "https://equal-love.jp/schedule/detail/10667",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "MBSラジオ「アッパレやってまーす！...",
-      "date": "2026-08-01",
-      "url": "https://equal-love.jp/schedule/detail/10540",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "握手会 =LOVE 21stシングル発売記念...",
       "date": "2026-08-02",
@@ -71,6 +43,34 @@
       "title": "日本テレビ(関東ローカル)連続ドラマ...",
       "date": "2026-08-05",
       "url": "https://equal-love.jp/schedule/detail/11798",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "フジテレビ系「STAR」※＝LOVE",
+      "date": "2026-08-06",
+      "url": "https://equal-love.jp/schedule/detail/11803",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "握手会 KADOKAWA「はなコミ！～となり...",
+      "date": "2026-08-07",
+      "url": "https://equal-love.jp/schedule/detail/11411",
+      "category": "",
+      "time": ""
+    },
+    {
+      "title": "YouTube「マヂラブ・野口衣織の...",
+      "date": "2026-08-07",
+      "url": "https://equal-love.jp/schedule/detail/11795",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "KADOKAWA「はなコミ！～となり...",
+      "date": "2026-08-07",
+      "url": "https://equal-love.jp/schedule/detail/11409",
       "category": "メディア",
       "time": ""
     }
