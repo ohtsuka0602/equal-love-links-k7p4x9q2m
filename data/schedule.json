@@ -1,20 +1,76 @@
 {
   "meta": {
-    "checkedAt": "2026-07-31T20:46:10.638Z",
-    "updatedAt": "2026-07-30T16:00:02.934Z"
+    "checkedAt": "2026-08-01T02:45:57.019Z",
+    "updatedAt": "2026-08-01T02:45:57.019Z"
   },
   "schedule": [
     {
-      "title": "Artistspoken「イマフレラ...",
-      "date": "2026-07-31",
-      "url": "https://equal-love.jp/schedule/detail/10731",
+      "title": "TBS系「夜明けのラヴィット！」※齋...",
+      "date": "2026-08-01",
+      "url": "https://equal-love.jp/schedule/detail/11788",
       "category": "メディア",
       "time": ""
     },
     {
-      "title": "秋水社「ねこともmini」(創刊号)...",
-      "date": "2026-07-31",
-      "url": "https://equal-love.jp/schedule/detail/11790",
+      "title": "「TOKYO IDOL FESTIV...",
+      "date": "2026-08-01",
+      "url": "https://equal-love.jp/schedule/detail/11558",
+      "category": "ライブ/イベント",
+      "time": ""
+    },
+    {
+      "title": "テレビ朝日「アイ=ラブ！げーみんぐ ...",
+      "date": "2026-08-01",
+      "url": "https://equal-love.jp/schedule/detail/10667",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "MBSラジオ「アッパレやってまーす！...",
+      "date": "2026-08-01",
+      "url": "https://equal-love.jp/schedule/detail/10540",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "握手会 =LOVE 21stシングル発売記念...",
+      "date": "2026-08-02",
+      "url": "https://equal-love.jp/schedule/detail/11708",
+      "category": "",
+      "time": ""
+    },
+    {
+      "title": "テレビ東京「家、ついて行ってイイです...",
+      "date": "2026-08-02",
+      "url": "https://equal-love.jp/schedule/detail/11770",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "TBS系「CDTVライブ！ライブ！」...",
+      "date": "2026-08-03",
+      "url": "https://equal-love.jp/schedule/detail/11792",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "date": "2026-08-03",
+      "url": "https://equal-love.jp/schedule/detail/10436",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "TOKYO FM「Hand in H...",
+      "date": "2026-08-04",
+      "url": "https://equal-love.jp/schedule/detail/11729",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "日本テレビ(関東ローカル)連続ドラマ...",
+      "date": "2026-08-05",
+      "url": "https://equal-love.jp/schedule/detail/11798",
       "category": "メディア",
       "time": ""
     }
