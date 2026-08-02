@@ -1,30 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-08-02T14:46:16.176Z",
-    "updatedAt": "2026-08-02T02:44:40.253Z"
+    "checkedAt": "2026-08-02T15:17:37.987Z",
+    "updatedAt": "2026-08-02T15:17:37.987Z"
   },
   "schedule": [
-    {
-      "title": "握手会 =LOVE 21stシングル発売記念...",
-      "date": "2026-08-02",
-      "url": "https://equal-love.jp/schedule/detail/11708",
-      "category": "",
-      "time": ""
-    },
-    {
-      "title": "テレビ東京「家、ついて行ってイイです...",
-      "date": "2026-08-02",
-      "url": "https://equal-love.jp/schedule/detail/11770",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
-      "date": "2026-08-02",
-      "url": "https://equal-love.jp/schedule/detail/11174",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "TBS系「CDTVライブ！ライブ！」...",
       "date": "2026-08-03",
@@ -71,6 +50,27 @@
       "title": "YouTube「マヂラブ・野口衣織の...",
       "date": "2026-08-07",
       "url": "https://equal-love.jp/schedule/detail/11795",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "KADOKAWA「はなコミ！～となり...",
+      "date": "2026-08-07",
+      "url": "https://equal-love.jp/schedule/detail/11409",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "Artistspoken「イマフレラ...",
+      "date": "2026-08-07",
+      "url": "https://equal-love.jp/schedule/detail/10732",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "MBSラジオ「アッパレやってまーす！...",
+      "date": "2026-08-08",
+      "url": "https://equal-love.jp/schedule/detail/10541",
       "category": "メディア",
       "time": ""
     }
