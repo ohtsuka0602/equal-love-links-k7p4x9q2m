@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-08-01T20:45:53.349Z",
-    "updatedAt": "2026-08-01T15:16:20.421Z"
+    "checkedAt": "2026-08-02T02:44:40.253Z",
+    "updatedAt": "2026-08-02T02:44:40.253Z"
   },
   "schedule": [
     {
@@ -15,6 +15,13 @@
       "title": "テレビ東京「家、ついて行ってイイです...",
       "date": "2026-08-02",
       "url": "https://equal-love.jp/schedule/detail/11770",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
+      "date": "2026-08-02",
+      "url": "https://equal-love.jp/schedule/detail/11174",
       "category": "メディア",
       "time": ""
     },
@@ -64,13 +71,6 @@
       "title": "YouTube「マヂラブ・野口衣織の...",
       "date": "2026-08-07",
       "url": "https://equal-love.jp/schedule/detail/11795",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "KADOKAWA「はなコミ！～となり...",
-      "date": "2026-08-07",
-      "url": "https://equal-love.jp/schedule/detail/11409",
       "category": "メディア",
       "time": ""
     }
