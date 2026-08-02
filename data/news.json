@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-08-02T20:45:50.150Z",
-    "updatedAt": "2026-08-02T05:43:53.825Z"
+    "checkedAt": "2026-08-02T21:34:25.837Z",
+    "updatedAt": "2026-08-02T21:34:25.837Z"
   },
   "news": [
+    {
+      "title": "【出演情報】テレビ朝日系「EIGHT-JAM」※＝LOVE",
+      "date": "2026-08-03",
+      "url": "https://sp.equal-love.jp/news/detail/11806",
+      "category": "メディア"
+    },
     {
       "title": "【＝LOVE Official Fan Club】諸橋沙夏へのバースデーメッセージを募集♪",
       "date": "2026-08-02",
@@ -56,12 +62,6 @@
       "title": "【出演情報】日本テレビ「ZIP!」※齋藤樹愛羅",
       "date": "2026-07-28",
       "url": "https://sp.equal-love.jp/news/detail/11782",
-      "category": "メディア"
-    },
-    {
-      "title": "【出演情報】日本テレビ「DayDay.」※齋藤樹愛羅",
-      "date": "2026-07-28",
-      "url": "https://sp.equal-love.jp/news/detail/11780",
       "category": "メディア"
     }
   ]
