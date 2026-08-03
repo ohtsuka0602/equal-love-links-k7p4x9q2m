@@ -1,13 +1,20 @@
 {
   "meta": {
-    "checkedAt": "2026-08-02T20:44:34.091Z",
-    "updatedAt": "2026-08-02T15:17:37.987Z"
+    "checkedAt": "2026-08-03T02:44:28.282Z",
+    "updatedAt": "2026-08-03T02:44:28.282Z"
   },
   "schedule": [
     {
       "title": "TBS系「CDTVライブ！ライブ！」...",
       "date": "2026-08-03",
       "url": "https://equal-love.jp/schedule/detail/11792",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "フジテレビ・FODプレミアム「キミは...",
+      "date": "2026-08-03",
+      "url": "https://equal-love.jp/schedule/detail/11681",
       "category": "メディア",
       "time": ""
     },
@@ -40,23 +47,9 @@
       "time": ""
     },
     {
-      "title": "握手会 KADOKAWA「はなコミ！～となり...",
-      "date": "2026-08-07",
-      "url": "https://equal-love.jp/schedule/detail/11411",
-      "category": "",
-      "time": ""
-    },
-    {
       "title": "YouTube「マヂラブ・野口衣織の...",
       "date": "2026-08-07",
       "url": "https://equal-love.jp/schedule/detail/11795",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "KADOKAWA「はなコミ！～となり...",
-      "date": "2026-08-07",
-      "url": "https://equal-love.jp/schedule/detail/11409",
       "category": "メディア",
       "time": ""
     },
@@ -68,10 +61,17 @@
       "time": ""
     },
     {
-      "title": "MBSラジオ「アッパレやってまーす！...",
-      "date": "2026-08-08",
-      "url": "https://equal-love.jp/schedule/detail/10541",
+      "title": "KADOKAWA「はなコミ！～となり...",
+      "date": "2026-08-07",
+      "url": "https://equal-love.jp/schedule/detail/11409",
       "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "握手会 KADOKAWA「はなコミ！～となり...",
+      "date": "2026-08-07",
+      "url": "https://equal-love.jp/schedule/detail/11411",
+      "category": "",
       "time": ""
     }
   ]
