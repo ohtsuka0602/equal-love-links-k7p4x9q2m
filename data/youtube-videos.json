@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-08-04T05:34:16.887Z",
-    "updatedAt": "2026-08-03T16:59:14.994Z"
+    "checkedAt": "2026-08-04T05:58:57.151Z",
+    "updatedAt": "2026-08-04T05:58:57.151Z"
   },
   "videos": [
     {
@@ -14,6 +14,19 @@
       "channelName": "＝LOVE（イコールラブ）公式チャンネル",
       "sourceName": "=LOVE オフィシャル",
       "memberNames": []
+    },
+    {
+      "videoId": "uerzc04ALGw",
+      "title": "諸橋沙夏、YouTube始めます【つんはしご】",
+      "url": "https://www.youtube.com/watch?v=uerzc04ALGw",
+      "thumbnail": "https://i.ytimg.com/vi/uerzc04ALGw/maxresdefault.jpg",
+      "publishedAt": "2026-08-03T13:00:03Z",
+      "channelId": "UC0r-2f003yXdV5En7qHlrGw",
+      "channelName": "つんはしご",
+      "sourceName": "諸橋 沙夏",
+      "memberNames": [
+        "諸橋 沙夏"
+      ]
     },
     {
       "videoId": "tyNaA-rJUaA",
@@ -53,19 +66,6 @@
       "memberNames": [
         "佐々木 舞香",
         "山本 杏奈"
-      ]
-    },
-    {
-      "videoId": "nokQuZzWZPk",
-      "title": "御殿場アウトレットで爆買い予定のみりにゃ【購入品紹介も🛍️】",
-      "url": "https://www.youtube.com/watch?v=nokQuZzWZPk",
-      "thumbnail": "https://i.ytimg.com/vi/nokQuZzWZPk/maxresdefault.jpg",
-      "publishedAt": "2026-07-12T12:00:02Z",
-      "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
-      "channelName": "みりにゃと申します。",
-      "sourceName": "大谷 映美里",
-      "memberNames": [
-        "大谷 映美里"
       ]
     }
   ]
