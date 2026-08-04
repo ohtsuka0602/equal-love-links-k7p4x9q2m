@@ -1,16 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-08-04T14:46:05.753Z",
-    "updatedAt": "2026-08-03T16:39:56.755Z"
+    "checkedAt": "2026-08-04T16:21:49.515Z",
+    "updatedAt": "2026-08-04T16:21:49.515Z"
   },
   "schedule": [
-    {
-      "title": "TOKYO FM「Hand in H...",
-      "date": "2026-08-04",
-      "url": "https://equal-love.jp/schedule/detail/11729",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "日本テレビ(関東ローカル)連続ドラマ...",
       "date": "2026-08-05",
@@ -71,6 +64,13 @@
       "title": "テレビ朝日系「EIGHT-JAM」※...",
       "date": "2026-08-09",
       "url": "https://equal-love.jp/schedule/detail/11807",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "date": "2026-08-10",
+      "url": "https://equal-love.jp/schedule/detail/10437",
       "category": "メディア",
       "time": ""
     }
