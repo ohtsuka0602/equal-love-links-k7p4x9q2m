@@ -10,7 +10,7 @@
     "fetch:news": "node scripts/fetch-news.js",
     "fetch:schedule": "node scripts/fetch-schedule.js",
     "test": "node --test tests/*.test.js",
-    "check": "node --check app.js && node --check scripts/fetch-members.js && node --check scripts/fetch-member-profiles.js && node --check scripts/fetch-youtube-videos.js && node --check scripts/fetch-official-list.js && node --check scripts/fetch-news.js && node --check scripts/fetch-schedule.js && node --check scripts/serve.js && node --check tests/fetch-official-list.test.js && node --check tests/fetch-member-profiles.test.js"
+    "check": "node --check app.js && node --check scripts/fetch-members.js && node --check scripts/fetch-member-profiles.js && node --check scripts/fetch-youtube-videos.js && node --check scripts/fetch-official-list.js && node --check scripts/fetch-news.js && node --check scripts/fetch-schedule.js && node --check scripts/serve.js && node --check tests/fetch-official-list.test.js && node --check tests/fetch-member-profiles.test.js && node --check tests/fetch-youtube-videos.test.js"
   },
   "dependencies": {
     "playwright": "^1.53.0"

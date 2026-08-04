@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updatedAt": "2026-06-08T00:37:33.078Z",
-    "checkedAt": "2026-08-04T05:33:44.638Z"
+    "updatedAt": "2026-08-04T05:52:24.382Z",
+    "checkedAt": "2026-08-04T05:52:24.382Z"
   },
   "members": [
     {
@@ -216,11 +216,13 @@
         "instagram": "https://instagram.com/morohashi_sana/",
         "x": "https://twitter.com/morohashi_sana",
         "tiktok": "",
-        "youtube": "",
+        "youtube": "https://www.youtube.com/@tsunhashigo",
         "showroom": "https://www.showroom-live.com/LOVE_SANA_MOROHASHI"
       },
       "type": "member",
-      "badges": {}
+      "badges": {
+        "youtube": "new"
+      }
     },
     {
       "name": "山本 杏奈",

@@ -20,6 +20,7 @@ async function main() {
   const members = normalizeMembersPayload(membersData).members;
   const targets = collectYoutubeTargets(members);
   const checkedAt = new Date().toISOString();
+  console.log(`YouTube target count: ${targets.length}`);
 
   if (targets.length === 0) {
     await writeJsonAtomically({
@@ -39,6 +40,10 @@ async function main() {
 
   for (const target of targets) {
     try {
+      const descriptor = getChannelDescriptor(target);
+      console.log(
+        `YouTube target: ${target.sourceName} ${descriptor?.type || "unknown"}=${descriptor?.value || ""} ${target.url}`
+      );
       const channel = await resolveChannel(target, apiKey);
 
       if (!channel) {
@@ -47,7 +52,9 @@ async function main() {
       }
 
       resolvedCount += 1;
+      console.log(`Resolved YouTube channel: ${target.sourceName} -> ${channel.title || channel.id} (${channel.id})`);
       const channelVideos = await fetchLatestChannelVideos(channel, target, apiKey);
+      console.log(`Fetched YouTube videos: ${target.sourceName} ${channelVideos.length}`);
       videos.push(...channelVideos);
     } catch (error) {
       console.warn(`Could not fetch YouTube videos for ${target.url}: ${error.message}`);
@@ -57,6 +64,9 @@ async function main() {
   const latestVideos = dedupeVideos(videos)
     .sort((left, right) => new Date(right.publishedAt || 0) - new Date(left.publishedAt || 0))
     .slice(0, MAX_VIDEOS);
+  console.log(`Resolved YouTube channel count: ${resolvedCount}`);
+  console.log(`Fetched YouTube video count: ${videos.length}`);
+  console.log(`Final YouTube video count: ${latestVideos.length}`);
 
   if (resolvedCount === 0 && existingData.videos?.length > 0) {
     console.warn("No YouTube channels could be fetched. Existing youtube-videos.json was not changed.");
@@ -338,7 +348,16 @@ async function writeJsonAtomically(data) {
   await fs.rename(temporaryPath, VIDEOS_PATH);
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exit(1);
-});
+if (require.main === module) {
+  main().catch((error) => {
+    console.error(error);
+    process.exit(1);
+  });
+}
+
+module.exports = {
+  collectYoutubeTargets,
+  normalizeYoutubeChannelUrl,
+  getChannelDescriptor,
+  dedupeVideos,
+};
