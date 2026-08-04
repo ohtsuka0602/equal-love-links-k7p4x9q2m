@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-08-04T20:45:28.909Z",
-    "updatedAt": "2026-08-04T08:45:10.115Z"
+    "checkedAt": "2026-08-04T21:53:54.012Z",
+    "updatedAt": "2026-08-04T21:53:54.012Z"
   },
   "news": [
+    {
+      "title": "【出演情報】TOKYO FM・JFN系列「TOKYO SPEAKEASY」※野口衣織",
+      "date": "2026-08-05",
+      "url": "https://sp.equal-love.jp/news/detail/11784",
+      "category": "メディア"
+    },
     {
       "title": "握手会2026.08.04New! 【振替に関するご案内】 過去開催分「ツーショット撮影会」の振替に関するご案内",
       "date": "2026-08-04",
@@ -57,12 +63,6 @@
       "date": "2026-08-02",
       "url": "https://sp.equal-love.jp/news/detail/11717",
       "category": "お知らせ"
-    },
-    {
-      "title": "【出演情報】TBS系「それSnow Manにやらせて下さい」※髙松瞳",
-      "date": "2026-07-31",
-      "url": "https://sp.equal-love.jp/news/detail/11809",
-      "category": "メディア"
     }
   ]
 }
