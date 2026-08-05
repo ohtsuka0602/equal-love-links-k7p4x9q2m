@@ -1,16 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-08-05T14:45:55.480Z",
-    "updatedAt": "2026-08-05T02:45:49.756Z"
+    "checkedAt": "2026-08-05T16:08:04.818Z",
+    "updatedAt": "2026-08-05T16:08:04.818Z"
   },
   "schedule": [
-    {
-      "title": "日本テレビ(関東ローカル)連続ドラマ...",
-      "date": "2026-08-05",
-      "url": "https://equal-love.jp/schedule/detail/11798",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "フジテレビ系「STAR」※＝LOVE",
       "date": "2026-08-06",
@@ -72,6 +65,13 @@
       "date": "2026-08-10",
       "url": "https://equal-love.jp/schedule/detail/11716",
       "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "握手会 ＝LOVE 21stシングル発売記念...",
+      "date": "2026-08-10",
+      "url": "https://equal-love.jp/schedule/detail/11632",
+      "category": "",
       "time": ""
     }
   ]
