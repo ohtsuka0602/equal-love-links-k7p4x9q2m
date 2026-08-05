@@ -1,9 +1,31 @@
 {
   "meta": {
-    "checkedAt": "2026-08-05T11:04:55.499Z",
-    "updatedAt": "2026-08-04T14:45:12.871Z"
+    "checkedAt": "2026-08-05T14:45:09.634Z",
+    "updatedAt": "2026-08-05T14:45:09.634Z"
   },
   "videos": [
+    {
+      "videoId": "7zTidWz6cnY",
+      "title": "8/26(水)発売＝LOVE 21stシングル表題曲 『恋、はじめました』 先行配信がスタートしました🎧🎶MVの公開もおたのしみに💘˒˒#イコールラブ #イコラブ #恋はじめました #大谷映美里",
+      "url": "https://www.youtube.com/watch?v=7zTidWz6cnY",
+      "thumbnail": "https://i.ytimg.com/vi/7zTidWz6cnY/maxresdefault.jpg",
+      "publishedAt": "2026-08-05T12:00:29Z",
+      "channelId": "UCv7VutirxDn3RWIJXI68n_A",
+      "channelName": "＝LOVE（イコールラブ）公式チャンネル",
+      "sourceName": "=LOVE オフィシャル",
+      "memberNames": []
+    },
+    {
+      "videoId": "AbTnsLru3S4",
+      "title": "8/26(水)発売＝LOVE 21stシングル表題曲 『恋、はじめました』 先行配信がスタートしました🎧🎶MVの公開もおたのしみに💘˒˒#イコールラブ #イコラブ #恋はじめました #諸橋沙夏",
+      "url": "https://www.youtube.com/watch?v=AbTnsLru3S4",
+      "thumbnail": "https://i.ytimg.com/vi/AbTnsLru3S4/maxresdefault.jpg",
+      "publishedAt": "2026-08-05T12:00:00Z",
+      "channelId": "UCv7VutirxDn3RWIJXI68n_A",
+      "channelName": "＝LOVE（イコールラブ）公式チャンネル",
+      "sourceName": "=LOVE オフィシャル",
+      "memberNames": []
+    },
     {
       "videoId": "eUlhgYXjNQk",
       "title": "8/26(水)発売＝LOVE 21stシングル表題曲 『恋、はじめました』 先行配信がスタートしました🎧🎶MVの公開もおたのしみに💘˒˒#イコールラブ #イコラブ #恋はじめました #佐々木舞香",
@@ -36,32 +58,6 @@
       "channelName": "＝LOVE（イコールラブ）公式チャンネル",
       "sourceName": "=LOVE オフィシャル",
       "memberNames": []
-    },
-    {
-      "videoId": "uerzc04ALGw",
-      "title": "諸橋沙夏、YouTube始めます【つんはしご】",
-      "url": "https://www.youtube.com/watch?v=uerzc04ALGw",
-      "thumbnail": "https://i.ytimg.com/vi/uerzc04ALGw/maxresdefault.jpg",
-      "publishedAt": "2026-08-03T13:00:03Z",
-      "channelId": "UC0r-2f003yXdV5En7qHlrGw",
-      "channelName": "つんはしご",
-      "sourceName": "諸橋 沙夏",
-      "memberNames": [
-        "諸橋 沙夏"
-      ]
-    },
-    {
-      "videoId": "tyNaA-rJUaA",
-      "title": "みりにゃの最近の毎日メイク【目指せ夏の美少女】",
-      "url": "https://www.youtube.com/watch?v=tyNaA-rJUaA",
-      "thumbnail": "https://i.ytimg.com/vi/tyNaA-rJUaA/hqdefault.jpg",
-      "publishedAt": "2026-08-02T11:00:14Z",
-      "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
-      "channelName": "みりにゃと申します。",
-      "sourceName": "大谷 映美里",
-      "memberNames": [
-        "大谷 映美里"
-      ]
     }
   ]
 }
