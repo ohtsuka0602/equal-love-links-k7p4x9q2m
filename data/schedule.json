@@ -1,9 +1,16 @@
 {
   "meta": {
-    "checkedAt": "2026-08-05T20:46:07.639Z",
-    "updatedAt": "2026-08-05T16:08:04.818Z"
+    "checkedAt": "2026-08-06T02:46:01.613Z",
+    "updatedAt": "2026-08-06T02:46:01.613Z"
   },
   "schedule": [
+    {
+      "title": "フジテレビ ONE「プロ野球ニュース...",
+      "date": "2026-08-06",
+      "url": "https://equal-love.jp/schedule/detail/11443",
+      "category": "メディア",
+      "time": ""
+    },
     {
       "title": "フジテレビ系「STAR」※＝LOVE",
       "date": "2026-08-06",
@@ -19,16 +26,16 @@
       "time": ""
     },
     {
-      "title": "YouTube「マヂラブ・野口衣織の...",
+      "title": "KADOKAWA「はなコミ！～となり...",
       "date": "2026-08-07",
-      "url": "https://equal-love.jp/schedule/detail/11795",
+      "url": "https://equal-love.jp/schedule/detail/11409",
       "category": "メディア",
       "time": ""
     },
     {
-      "title": "KADOKAWA「はなコミ！～となり...",
+      "title": "YouTube「マヂラブ・野口衣織の...",
       "date": "2026-08-07",
-      "url": "https://equal-love.jp/schedule/detail/11409",
+      "url": "https://equal-love.jp/schedule/detail/11795",
       "category": "メディア",
       "time": ""
     },
@@ -57,13 +64,6 @@
       "title": "テレビ朝日系「EIGHT-JAM」※...",
       "date": "2026-08-09",
       "url": "https://equal-love.jp/schedule/detail/11807",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "宝島社「sweet 9月号」※大谷映...",
-      "date": "2026-08-10",
-      "url": "https://equal-love.jp/schedule/detail/11716",
       "category": "メディア",
       "time": ""
     },
