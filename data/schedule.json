@@ -1,37 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-08-07T14:44:26.334Z",
-    "updatedAt": "2026-08-07T14:44:26.334Z"
+    "checkedAt": "2026-08-07T15:07:41.771Z",
+    "updatedAt": "2026-08-07T15:07:41.771Z"
   },
   "schedule": [
-    {
-      "title": "Artistspoken「イマフレラ...",
-      "date": "2026-08-07",
-      "url": "https://equal-love.jp/schedule/detail/10732",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "KADOKAWA「はなコミ！～となり...",
-      "date": "2026-08-07",
-      "url": "https://equal-love.jp/schedule/detail/11409",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "YouTube「マヂラブ・野口衣織の...",
-      "date": "2026-08-07",
-      "url": "https://equal-love.jp/schedule/detail/11795",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "握手会 KADOKAWA「はなコミ！～となり...",
-      "date": "2026-08-07",
-      "url": "https://equal-love.jp/schedule/detail/11411",
-      "category": "",
-      "time": ""
-    },
     {
       "title": "MBSラジオ「アッパレやってまーす！...",
       "date": "2026-08-08",
@@ -71,6 +43,34 @@
       "title": "ニッポン放送「＝LOVEのイコラフ」",
       "date": "2026-08-10",
       "url": "https://equal-love.jp/schedule/detail/10437",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "TOKYO FM・JFN系列「TOK...",
+      "date": "2026-08-11",
+      "url": "https://equal-love.jp/schedule/detail/11785",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "握手会 ＝LOVE 21stシングル発売記念...",
+      "date": "2026-08-11",
+      "url": "https://equal-love.jp/schedule/detail/11647",
+      "category": "",
+      "time": ""
+    },
+    {
+      "title": "日本テレビ(関東ローカル)連続ドラマ...",
+      "date": "2026-08-12",
+      "url": "https://equal-love.jp/schedule/detail/11827",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "TBS系「それSnow Manにやら...",
+      "date": "2026-08-14",
+      "url": "https://equal-love.jp/schedule/detail/11810",
       "category": "メディア",
       "time": ""
     }
