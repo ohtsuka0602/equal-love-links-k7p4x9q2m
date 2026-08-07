@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-08-07T09:39:35.123Z",
-    "updatedAt": "2026-08-07T04:38:28.359Z"
+    "checkedAt": "2026-08-07T14:45:52.372Z",
+    "updatedAt": "2026-08-07T14:45:52.372Z"
   },
   "news": [
+    {
+      "title": "【出演情報】テレビ朝日系「ミュージックステーション」※＝LOVE",
+      "date": "2026-08-07",
+      "url": "https://sp.equal-love.jp/news/detail/11825",
+      "category": "メディア"
+    },
     {
       "title": "10月29日(木)「MTV VMAJ 2026」に＝LOVEの出演が決定！",
       "date": "2026-08-07",
@@ -57,12 +63,6 @@
       "date": "2026-08-03",
       "url": "https://sp.equal-love.jp/news/detail/11808",
       "category": "グッズ"
-    },
-    {
-      "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」FC先行(会員＋会員)チケット受付開始のお知らせ",
-      "date": "2026-08-03",
-      "url": "https://sp.equal-love.jp/news/detail/11805",
-      "category": "ライブ/イベント"
     }
   ]
 }
