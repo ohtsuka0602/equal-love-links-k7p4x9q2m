@@ -1,16 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-08-07T08:44:23.785Z",
-    "updatedAt": "2026-08-06T20:44:38.026Z"
+    "checkedAt": "2026-08-07T14:44:26.334Z",
+    "updatedAt": "2026-08-07T14:44:26.334Z"
   },
   "schedule": [
-    {
-      "title": "握手会 KADOKAWA「はなコミ！～となり...",
-      "date": "2026-08-07",
-      "url": "https://equal-love.jp/schedule/detail/11411",
-      "category": "",
-      "time": ""
-    },
     {
       "title": "Artistspoken「イマフレラ...",
       "date": "2026-08-07",
@@ -30,6 +23,13 @@
       "date": "2026-08-07",
       "url": "https://equal-love.jp/schedule/detail/11795",
       "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "握手会 KADOKAWA「はなコミ！～となり...",
+      "date": "2026-08-07",
+      "url": "https://equal-love.jp/schedule/detail/11411",
+      "category": "",
       "time": ""
     },
     {
@@ -61,17 +61,17 @@
       "time": ""
     },
     {
-      "title": "ニッポン放送「＝LOVEのイコラフ」",
-      "date": "2026-08-10",
-      "url": "https://equal-love.jp/schedule/detail/10437",
-      "category": "メディア",
-      "time": ""
-    },
-    {
       "title": "握手会 ＝LOVE 21stシングル発売記念...",
       "date": "2026-08-10",
       "url": "https://equal-love.jp/schedule/detail/11632",
       "category": "",
+      "time": ""
+    },
+    {
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "date": "2026-08-10",
+      "url": "https://equal-love.jp/schedule/detail/10437",
+      "category": "メディア",
       "time": ""
     }
   ]
