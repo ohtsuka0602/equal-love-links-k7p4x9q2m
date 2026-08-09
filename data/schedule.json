@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-08-08T20:45:58.213Z",
-    "updatedAt": "2026-08-08T20:45:58.213Z"
+    "checkedAt": "2026-08-09T02:44:39.574Z",
+    "updatedAt": "2026-08-09T02:44:39.574Z"
   },
   "schedule": [
     {
@@ -12,9 +12,9 @@
       "time": ""
     },
     {
-      "title": "宝島社「sweet 9月号」※大谷映...",
-      "date": "2026-08-10",
-      "url": "https://equal-love.jp/schedule/detail/11716",
+      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
+      "date": "2026-08-09",
+      "url": "https://equal-love.jp/schedule/detail/11175",
       "category": "メディア",
       "time": ""
     },
@@ -29,6 +29,13 @@
       "title": "ニッポン放送「＝LOVEのイコラフ」",
       "date": "2026-08-10",
       "url": "https://equal-love.jp/schedule/detail/10437",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "宝島社「sweet 9月号」※大谷映...",
+      "date": "2026-08-10",
+      "url": "https://equal-love.jp/schedule/detail/11716",
       "category": "メディア",
       "time": ""
     },
@@ -54,13 +61,6 @@
       "time": ""
     },
     {
-      "title": "TBS系「それSnow Manにやら...",
-      "date": "2026-08-14",
-      "url": "https://equal-love.jp/schedule/detail/11810",
-      "category": "メディア",
-      "time": ""
-    },
-    {
       "title": "Artistspoken「イマフレラ...",
       "date": "2026-08-14",
       "url": "https://equal-love.jp/schedule/detail/10733",
@@ -68,10 +68,10 @@
       "time": ""
     },
     {
-      "title": "握手会 KADOKAWA「はなコミ！～となり...",
-      "date": "2026-08-15",
-      "url": "https://equal-love.jp/schedule/detail/11410",
-      "category": "",
+      "title": "TBS系「それSnow Manにやら...",
+      "date": "2026-08-14",
+      "url": "https://equal-love.jp/schedule/detail/11810",
+      "category": "メディア",
       "time": ""
     }
   ]
