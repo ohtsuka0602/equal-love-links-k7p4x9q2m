@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-08-09T20:44:33.067Z",
-    "updatedAt": "2026-08-09T20:44:33.067Z"
+    "checkedAt": "2026-08-10T02:45:53.694Z",
+    "updatedAt": "2026-08-10T02:45:53.694Z"
   },
   "schedule": [
     {
@@ -9,6 +9,13 @@
       "date": "2026-08-10",
       "url": "https://equal-love.jp/schedule/detail/11632",
       "category": "",
+      "time": ""
+    },
+    {
+      "title": "TOKYO FM「Hand in H...",
+      "date": "2026-08-10",
+      "url": "https://equal-love.jp/schedule/detail/11730",
+      "category": "メディア",
       "time": ""
     },
     {
@@ -65,13 +72,6 @@
       "date": "2026-08-15",
       "url": "https://equal-love.jp/schedule/detail/10542",
       "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "握手会 ＝LOVE 21stシングル発売記念...",
-      "date": "2026-08-15",
-      "url": "https://equal-love.jp/schedule/detail/11709",
-      "category": "",
       "time": ""
     }
   ]
