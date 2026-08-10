@@ -1,37 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-08-10T14:46:20.703Z",
-    "updatedAt": "2026-08-10T14:46:20.703Z"
+    "checkedAt": "2026-08-10T15:15:00.781Z",
+    "updatedAt": "2026-08-10T15:15:00.781Z"
   },
   "schedule": [
-    {
-      "title": "握手会 ＝LOVE 21stシングル発売記念...",
-      "date": "2026-08-10",
-      "url": "https://equal-love.jp/schedule/detail/11632",
-      "category": "",
-      "time": ""
-    },
-    {
-      "title": "ニッポン放送「＝LOVEのイコラフ」",
-      "date": "2026-08-10",
-      "url": "https://equal-love.jp/schedule/detail/10437",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "TOKYO FM「Hand in H...",
-      "date": "2026-08-10",
-      "url": "https://equal-love.jp/schedule/detail/11730",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "宝島社「sweet 9月号」※大谷映...",
-      "date": "2026-08-10",
-      "url": "https://equal-love.jp/schedule/detail/11716",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "握手会 ＝LOVE 21stシングル発売記念...",
       "date": "2026-08-11",
@@ -71,6 +43,34 @@
       "title": "TELASAオリジナル「アイ=ラブ！...",
       "date": "2026-08-15",
       "url": "https://equal-love.jp/schedule/detail/11700",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "握手会 KADOKAWA「はなコミ！～となり...",
+      "date": "2026-08-15",
+      "url": "https://equal-love.jp/schedule/detail/11410",
+      "category": "",
+      "time": ""
+    },
+    {
+      "title": "握手会 ＝LOVE 21stシングル発売記念...",
+      "date": "2026-08-15",
+      "url": "https://equal-love.jp/schedule/detail/11709",
+      "category": "",
+      "time": ""
+    },
+    {
+      "title": "NHK「NHK 夏の音楽祭 うたであ...",
+      "date": "2026-08-15",
+      "url": "https://equal-love.jp/schedule/detail/11669",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "MBSラジオ「アッパレやってまーす！...",
+      "date": "2026-08-15",
+      "url": "https://equal-love.jp/schedule/detail/10542",
       "category": "メディア",
       "time": ""
     }
