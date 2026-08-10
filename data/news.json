@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-08-10T10:01:33.055Z",
-    "updatedAt": "2026-08-10T04:17:32.877Z"
+    "checkedAt": "2026-08-10T14:45:40.445Z",
+    "updatedAt": "2026-08-10T14:45:40.445Z"
   },
   "news": [
+    {
+      "title": "【出演情報】テレビ朝日系「EIGHT-JAM」※＝LOVE",
+      "date": "2026-08-10",
+      "url": "https://sp.equal-love.jp/news/detail/11834",
+      "category": "メディア"
+    },
     {
       "title": "【＝LOVE Official Fan Club】音嶋莉沙へのバースデーメッセージを募集♪",
       "date": "2026-08-10",
@@ -56,12 +62,6 @@
       "title": "握手会2026.08.04New! 【振替に関するご案内】 過去開催分「個別お話し会」の振替に関するご案内",
       "date": "2026-08-04",
       "url": "https://sp.equal-love.jp/news/detail/11813",
-      "category": ""
-    },
-    {
-      "title": "握手会2026.08.04New! 【振替に関するご案内】 過去開催分「オンライン個別お話し会」、「オンライン個別サイン会」の振替に関するご案内",
-      "date": "2026-08-04",
-      "url": "https://sp.equal-love.jp/news/detail/11812",
       "category": ""
     }
   ]
