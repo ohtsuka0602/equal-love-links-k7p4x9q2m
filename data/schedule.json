@@ -1,23 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-08-11T14:45:43.920Z",
-    "updatedAt": "2026-08-10T15:15:00.781Z"
+    "checkedAt": "2026-08-11T15:14:30.765Z",
+    "updatedAt": "2026-08-11T15:14:30.765Z"
   },
   "schedule": [
-    {
-      "title": "握手会 ＝LOVE 21stシングル発売記念...",
-      "date": "2026-08-11",
-      "url": "https://equal-love.jp/schedule/detail/11647",
-      "category": "",
-      "time": ""
-    },
-    {
-      "title": "TOKYO FM・JFN系列「TOK...",
-      "date": "2026-08-11",
-      "url": "https://equal-love.jp/schedule/detail/11785",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "日本テレビ(関東ローカル)連続ドラマ...",
       "date": "2026-08-12",
@@ -71,6 +57,20 @@
       "title": "MBSラジオ「アッパレやってまーす！...",
       "date": "2026-08-15",
       "url": "https://equal-love.jp/schedule/detail/10542",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "握手会 ＝LOVE 21stシングル発売記念...",
+      "date": "2026-08-16",
+      "url": "https://equal-love.jp/schedule/detail/11706",
+      "category": "",
+      "time": ""
+    },
+    {
+      "title": "テレビ朝日系「EIGHT-JAM」※...",
+      "date": "2026-08-16",
+      "url": "https://equal-love.jp/schedule/detail/11835",
       "category": "メディア",
       "time": ""
     }
