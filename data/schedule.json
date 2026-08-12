@@ -1,13 +1,20 @@
 {
   "meta": {
-    "checkedAt": "2026-08-11T20:45:43.915Z",
-    "updatedAt": "2026-08-11T15:14:30.765Z"
+    "checkedAt": "2026-08-12T02:45:26.056Z",
+    "updatedAt": "2026-08-12T02:45:26.056Z"
   },
   "schedule": [
     {
       "title": "日本テレビ(関東ローカル)連続ドラマ...",
       "date": "2026-08-12",
       "url": "https://equal-love.jp/schedule/detail/11827",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "TBS系「それSnow Manにやら...",
+      "date": "2026-08-14",
+      "url": "https://equal-love.jp/schedule/detail/11810",
       "category": "メディア",
       "time": ""
     },
@@ -19,9 +26,9 @@
       "time": ""
     },
     {
-      "title": "TBS系「それSnow Manにやら...",
-      "date": "2026-08-14",
-      "url": "https://equal-love.jp/schedule/detail/11810",
+      "title": "NHK「NHK 夏の音楽祭 うたであ...",
+      "date": "2026-08-15",
+      "url": "https://equal-love.jp/schedule/detail/11669",
       "category": "メディア",
       "time": ""
     },
@@ -40,20 +47,6 @@
       "time": ""
     },
     {
-      "title": "握手会 ＝LOVE 21stシングル発売記念...",
-      "date": "2026-08-15",
-      "url": "https://equal-love.jp/schedule/detail/11709",
-      "category": "",
-      "time": ""
-    },
-    {
-      "title": "NHK「NHK 夏の音楽祭 うたであ...",
-      "date": "2026-08-15",
-      "url": "https://equal-love.jp/schedule/detail/11669",
-      "category": "メディア",
-      "time": ""
-    },
-    {
       "title": "MBSラジオ「アッパレやってまーす！...",
       "date": "2026-08-15",
       "url": "https://equal-love.jp/schedule/detail/10542",
@@ -62,8 +55,8 @@
     },
     {
       "title": "握手会 ＝LOVE 21stシングル発売記念...",
-      "date": "2026-08-16",
-      "url": "https://equal-love.jp/schedule/detail/11706",
+      "date": "2026-08-15",
+      "url": "https://equal-love.jp/schedule/detail/11709",
       "category": "",
       "time": ""
     },
@@ -72,6 +65,13 @@
       "date": "2026-08-16",
       "url": "https://equal-love.jp/schedule/detail/11835",
       "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "握手会 ＝LOVE 21stシングル発売記念...",
+      "date": "2026-08-16",
+      "url": "https://equal-love.jp/schedule/detail/11706",
+      "category": "",
       "time": ""
     }
   ]
