@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-08-13T04:29:58.360Z",
-    "updatedAt": "2026-08-13T02:45:38.344Z"
+    "checkedAt": "2026-08-13T08:45:37.948Z",
+    "updatedAt": "2026-08-13T08:45:37.948Z"
   },
   "news": [
+    {
+      "title": "【出演情報】「evelyn 2026 New season collection モデル」※音嶋莉沙",
+      "date": "2026-08-13",
+      "url": "https://sp.equal-love.jp/news/detail/11817",
+      "category": "メディア"
+    },
     {
       "title": "【出演情報】NHK「NHK 夏の音楽祭 うたであえたら 2026」※＝LOVE",
       "date": "2026-08-13",
@@ -57,12 +63,6 @@
       "date": "2026-08-07",
       "url": "https://sp.equal-love.jp/news/detail/11825",
       "category": "メディア"
-    },
-    {
-      "title": "10月29日(木)「MTV VMAJ 2026」に＝LOVEの出演が決定！",
-      "date": "2026-08-07",
-      "url": "https://sp.equal-love.jp/news/detail/11828",
-      "category": "ライブ/イベント"
     }
   ]
 }
