@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-08-13T09:45:52.725Z",
-    "updatedAt": "2026-08-13T08:45:37.948Z"
+    "checkedAt": "2026-08-13T15:36:11.736Z",
+    "updatedAt": "2026-08-13T15:36:11.736Z"
   },
   "news": [
+    {
+      "title": "【出演情報】フジテレビ系「STAR」※＝LOVE",
+      "date": "2026-08-13",
+      "url": "https://sp.equal-love.jp/news/detail/11842",
+      "category": "メディア"
+    },
     {
       "title": "【出演情報】「evelyn 2026 New season collection モデル」※音嶋莉沙",
       "date": "2026-08-13",
@@ -57,12 +63,6 @@
       "date": "2026-08-08",
       "url": "https://sp.equal-love.jp/news/detail/11830",
       "category": "グッズ"
-    },
-    {
-      "title": "【出演情報】テレビ朝日系「ミュージックステーション」※＝LOVE",
-      "date": "2026-08-07",
-      "url": "https://sp.equal-love.jp/news/detail/11825",
-      "category": "メディア"
     }
   ]
 }
