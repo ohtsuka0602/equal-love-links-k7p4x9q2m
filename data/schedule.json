@@ -1,16 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-08-13T08:44:10.377Z",
-    "updatedAt": "2026-08-13T02:44:03.652Z"
+    "checkedAt": "2026-08-13T15:13:01.360Z",
+    "updatedAt": "2026-08-13T15:13:01.360Z"
   },
   "schedule": [
-    {
-      "title": "フジテレビ ONE「プロ野球ニュース...",
-      "date": "2026-08-13",
-      "url": "https://equal-love.jp/schedule/detail/11444",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "Artistspoken「イマフレラ...",
       "date": "2026-08-14",
@@ -71,6 +64,13 @@
       "title": "テレビ朝日系「EIGHT-JAM」※...",
       "date": "2026-08-16",
       "url": "https://equal-love.jp/schedule/detail/11835",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "date": "2026-08-17",
+      "url": "https://equal-love.jp/schedule/detail/10438",
       "category": "メディア",
       "time": ""
     }
