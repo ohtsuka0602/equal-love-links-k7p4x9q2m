@@ -1,13 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-08-12T20:45:34.721Z",
-    "updatedAt": "2026-08-12T15:13:04.248Z"
+    "checkedAt": "2026-08-13T02:44:03.652Z",
+    "updatedAt": "2026-08-13T02:44:03.652Z"
   },
   "schedule": [
     {
-      "title": "TBS系「それSnow Manにやら...",
-      "date": "2026-08-14",
-      "url": "https://equal-love.jp/schedule/detail/11810",
+      "title": "フジテレビ ONE「プロ野球ニュース...",
+      "date": "2026-08-13",
+      "url": "https://equal-love.jp/schedule/detail/11444",
       "category": "メディア",
       "time": ""
     },
@@ -19,17 +19,24 @@
       "time": ""
     },
     {
-      "title": "NHK「NHK 夏の音楽祭 うたであ...",
-      "date": "2026-08-15",
-      "url": "https://equal-love.jp/schedule/detail/11669",
+      "title": "TBS系「それSnow Manにやら...",
+      "date": "2026-08-14",
+      "url": "https://equal-love.jp/schedule/detail/11810",
       "category": "メディア",
       "time": ""
     },
     {
-      "title": "TELASAオリジナル「アイ=ラブ！...",
+      "title": "NHK「NHK 夏の音楽祭 うたであ...",
       "date": "2026-08-15",
-      "url": "https://equal-love.jp/schedule/detail/11700",
+      "url": "https://equal-love.jp/schedule/detail/11841",
       "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "握手会 ＝LOVE 21stシングル発売記念...",
+      "date": "2026-08-15",
+      "url": "https://equal-love.jp/schedule/detail/11709",
+      "category": "",
       "time": ""
     },
     {
@@ -47,16 +54,9 @@
       "time": ""
     },
     {
-      "title": "握手会 ＝LOVE 21stシングル発売記念...",
+      "title": "TELASAオリジナル「アイ=ラブ！...",
       "date": "2026-08-15",
-      "url": "https://equal-love.jp/schedule/detail/11709",
-      "category": "",
-      "time": ""
-    },
-    {
-      "title": "テレビ朝日系「EIGHT-JAM」※...",
-      "date": "2026-08-16",
-      "url": "https://equal-love.jp/schedule/detail/11835",
+      "url": "https://equal-love.jp/schedule/detail/11700",
       "category": "メディア",
       "time": ""
     },
@@ -68,9 +68,9 @@
       "time": ""
     },
     {
-      "title": "ニッポン放送「＝LOVEのイコラフ」",
-      "date": "2026-08-17",
-      "url": "https://equal-love.jp/schedule/detail/10438",
+      "title": "テレビ朝日系「EIGHT-JAM」※...",
+      "date": "2026-08-16",
+      "url": "https://equal-love.jp/schedule/detail/11835",
       "category": "メディア",
       "time": ""
     }
