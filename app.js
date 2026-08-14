@@ -27,6 +27,7 @@ const snsIcons = {
 const fixedYoutubeLinks = {
   "=LOVE \u30aa\u30d5\u30a3\u30b7\u30e3\u30eb": "https://youtube.com/@equallove_?si=Gz5sMcLqE722nYoq",
   "\u5927\u8c37 \u6620\u7f8e\u91cc": "https://youtube.com/@mirinyaikolove?si=858PErgfTSsj1ewF",
+  "\u97f3\u5d8b \u8389\u6c99": "https://youtube.com/@risa_yousugaokashii",
   "\u4f50\u3005\u6728 \u821e\u9999": "https://youtube.com/@ikorabunohutari?si=86Ox9PoReIfsjT5L",
   "\u8af8\u6a4b \u6c99\u590f": "https://www.youtube.com/@tsunhashigo",
   "\u5c71\u672c \u674f\u5948": "https://youtube.com/@ikorabunohutari?si=86Ox9PoReIfsjT5L",

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updatedAt": "2026-08-04T05:52:24.382Z",
-    "checkedAt": "2026-08-14T23:22:28.012Z"
+    "updatedAt": "2026-08-14T23:28:35.441Z",
+    "checkedAt": "2026-08-14T23:28:35.441Z"
   },
   "members": [
     {
@@ -82,11 +82,13 @@
         "instagram": "https://www.instagram.com/otoshima_risa/",
         "x": "https://twitter.com/otoshima_risa",
         "tiktok": "https://www.tiktok.com/@equal_love_risa_",
-        "youtube": "",
+        "youtube": "https://youtube.com/@risa_yousugaokashii",
         "showroom": "https://www.showroom-live.com/LOVE_RISA_OTOSHIMA"
       },
       "type": "member",
-      "badges": {}
+      "badges": {
+        "youtube": "new"
+      }
     },
     {
       "name": "齋藤 樹愛羅",

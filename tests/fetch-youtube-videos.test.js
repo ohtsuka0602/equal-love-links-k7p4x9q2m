@@ -30,23 +30,37 @@ test("collects Morohashi Sana YouTube handle and keeps shared channels deduped",
       type: "member",
       sns: { youtube: "https://www.youtube.com/@tsunhashigo" },
     },
+    {
+      name: "音嶋 莉沙",
+      type: "member",
+      sns: { youtube: "https://youtube.com/@risa_yousugaokashii?si=tracking" },
+    },
   ]);
 
   const morohashi = targets.find((target) => target.memberNames.includes("諸橋 沙夏"));
+  const otoshima = targets.find((target) => target.memberNames.includes("音嶋 莉沙"));
   const shared = targets.find((target) => target.url === "https://www.youtube.com/@ikorabunohutari");
 
   assert.equal(morohashi.url, "https://www.youtube.com/@tsunhashigo");
   assert.deepEqual(morohashi.memberNames, ["諸橋 沙夏"]);
   assert.equal(getChannelDescriptor(morohashi).type, "handle");
   assert.equal(getChannelDescriptor(morohashi).value, "tsunhashigo");
+  assert.equal(otoshima.url, "https://www.youtube.com/@risa_yousugaokashii");
+  assert.deepEqual(otoshima.memberNames, ["音嶋 莉沙"]);
+  assert.equal(getChannelDescriptor(otoshima).type, "handle");
+  assert.equal(getChannelDescriptor(otoshima).value, "risa_yousugaokashii");
   assert.deepEqual(shared.memberNames, ["佐々木 舞香", "山本 杏奈"]);
-  assert.equal(targets.length, 3);
+  assert.equal(targets.length, 4);
 });
 
 test("normalizes YouTube handles without keeping tracking query strings", () => {
   assert.equal(
     normalizeYoutubeChannelUrl("https://youtube.com/@tsunhashigo?si=tracking"),
     "https://www.youtube.com/@tsunhashigo"
+  );
+  assert.equal(
+    normalizeYoutubeChannelUrl("https://youtube.com/@risa_yousugaokashii?si=tracking"),
+    "https://www.youtube.com/@risa_yousugaokashii"
   );
 });
 
