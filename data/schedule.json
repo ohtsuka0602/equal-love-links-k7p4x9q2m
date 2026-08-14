@@ -1,23 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-08-14T14:44:06.594Z",
-    "updatedAt": "2026-08-14T02:45:30.469Z"
+    "checkedAt": "2026-08-14T15:05:59.208Z",
+    "updatedAt": "2026-08-14T15:05:59.208Z"
   },
   "schedule": [
-    {
-      "title": "Artistspoken「イマフレラ...",
-      "date": "2026-08-14",
-      "url": "https://equal-love.jp/schedule/detail/10733",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "TBS系「それSnow Manにやら...",
-      "date": "2026-08-14",
-      "url": "https://equal-love.jp/schedule/detail/11810",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "NHK「NHK 夏の音楽祭 うたであ...",
       "date": "2026-08-15",
@@ -72,6 +58,20 @@
       "date": "2026-08-17",
       "url": "https://equal-love.jp/schedule/detail/10438",
       "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "日本テレビ系「夜の音 -TOKYO ...",
+      "date": "2026-08-18",
+      "url": "https://equal-love.jp/schedule/detail/11833",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "握手会 ＝LOVE 21stシングル発売記念...",
+      "date": "2026-08-19",
+      "url": "https://equal-love.jp/schedule/detail/11759",
+      "category": "",
       "time": ""
     }
   ]
