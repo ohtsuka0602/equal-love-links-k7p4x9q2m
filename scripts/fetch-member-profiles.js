@@ -1,4 +1,5 @@
 const fs = require("node:fs/promises");
+const crypto = require("node:crypto");
 const path = require("node:path");
 const { chromium } = require("playwright");
 
@@ -62,12 +63,13 @@ async function fetchMemberProfiles(options = {}) {
       }
     }
 
-    const normalizedProfiles = dedupeProfiles(
+    const normalizedProfilesWithoutImages = dedupeProfiles(
       fetchedProfiles
         .map((profile) => joinExistingMemberData(profile, membersById, existingById))
         .map(normalizeProfile)
         .filter((profile) => profile.id && profile.name)
     );
+    const normalizedProfiles = await enrichProfilesWithImageMetadata(normalizedProfilesWithoutImages, existingById, options, summary);
     summary.profileSuccessCount = fetchedProfiles.length;
     summary.profileFailureCount = summary.failures.length;
     summary.normalizedCount = normalizedProfiles.length;
@@ -78,6 +80,8 @@ async function fetchMemberProfiles(options = {}) {
     console.log(`Normalized count: ${summary.normalizedCount}`);
     console.log(`Existing profile count: ${existingProfiles.length}`);
     console.log(`Existing member count: ${summary.existingMemberCount}`);
+    console.log(`Profile image metadata success count: ${summary.imageSuccessCount}`);
+    console.log(`Profile image metadata failure count: ${summary.imageFailureCount}`);
 
     if (normalizedProfiles.length === 0) {
       await preserveExistingOutput(outputPath, debugDir, existingData, existingProfiles, summary, "all profile fetches failed", false);
@@ -375,6 +379,102 @@ function mergePartialFailures(profiles, profileLinks, existingById) {
   return dedupeProfiles([...profiles, ...missingExisting]);
 }
 
+async function enrichProfilesWithImageMetadata(profiles, existingById, options, summary) {
+  const shouldFetchImages = options.fetchProfileImages ?? !String(options.sourceUrl || PROFILE_LIST_URL).startsWith("file:");
+
+  summary.imageSuccessCount = 0;
+  summary.imageFailureCount = 0;
+  summary.images = [];
+
+  return Promise.all(
+    profiles.map(async (profile) => {
+      const existing = existingById.get(profile.id);
+
+      if (!profile.imageUrl) {
+        return preserveExistingImageMetadata(profile, existing);
+      }
+
+      if (!shouldFetchImages && !options.imageMetadataFetcher) {
+        return preserveExistingImageMetadata(profile, existing);
+      }
+
+      try {
+        const metadata = options.imageMetadataFetcher
+          ? await options.imageMetadataFetcher(profile.imageUrl, profile, existing)
+          : await fetchImageMetadata(profile.imageUrl);
+        const imageVersion = metadata.sha256 ? metadata.sha256.slice(0, 16) : metadata.etag || metadata.lastModified || "";
+
+        summary.imageSuccessCount += 1;
+        summary.images.push({
+          id: profile.id,
+          name: profile.name,
+          imageUrl: profile.imageUrl,
+          status: metadata.status,
+          contentLength: metadata.contentLength,
+          etag: metadata.etag,
+          lastModified: metadata.lastModified,
+          sha256: metadata.sha256,
+          imageVersion,
+        });
+
+        return removeEmpty({
+          ...profile,
+          imageContentLength: metadata.contentLength,
+          imageEtag: metadata.etag,
+          imageLastModified: metadata.lastModified,
+          imageSha256: metadata.sha256,
+          imageVersion,
+        });
+      } catch (error) {
+        summary.imageFailureCount += 1;
+        summary.images.push({
+          id: profile.id,
+          name: profile.name,
+          imageUrl: profile.imageUrl,
+          status: "error",
+          error: error.message,
+        });
+        console.warn(`Profile image metadata failed: ${profile.name} ${profile.imageUrl} ${error.message}`);
+        return preserveExistingImageMetadata(profile, existing);
+      }
+    })
+  );
+}
+
+async function fetchImageMetadata(imageUrl) {
+  const response = await fetch(imageUrl, {
+    headers: {
+      "user-agent":
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+    },
+  });
+
+  if (!response.ok) {
+    throw new Error(`HTTP status ${response.status}`);
+  }
+
+  const buffer = Buffer.from(await response.arrayBuffer());
+
+  return {
+    status: response.status,
+    contentLength: response.headers.get("content-length") || String(buffer.length),
+    etag: response.headers.get("etag") || "",
+    lastModified: response.headers.get("last-modified") || "",
+    sha256: crypto.createHash("sha256").update(buffer).digest("hex"),
+  };
+}
+
+function preserveExistingImageMetadata(profile, existing) {
+  return removeEmpty({
+    ...profile,
+    imageContentLength: existing?.imageContentLength || "",
+    imageEtag: existing?.imageEtag || "",
+    imageLastModified: existing?.imageLastModified || "",
+    imageSha256: existing?.imageSha256 || "",
+    imageVersion: existing?.imageVersion || "",
+  });
+}
+
 function dedupeProfiles(profiles) {
   const seen = new Set();
 
@@ -391,7 +491,11 @@ function dedupeProfiles(profiles) {
 }
 
 function hasProfilesChanged(previousProfiles = [], nextProfiles = []) {
-  return JSON.stringify(previousProfiles) !== JSON.stringify(nextProfiles);
+  return JSON.stringify(previousProfiles.map(canonicalProfile)) !== JSON.stringify(nextProfiles.map(canonicalProfile));
+}
+
+function canonicalProfile(profile) {
+  return Object.fromEntries(Object.entries(profile || {}).sort(([left], [right]) => left.localeCompare(right)));
 }
 
 function getMissingFields(profile) {

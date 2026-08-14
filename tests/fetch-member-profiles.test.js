@@ -111,7 +111,100 @@ test("content changes update updatedAt, unchanged content only updates checkedAt
   assert.equal(changed.profiles.some((item) => item.id === "yamamoto-anna"), true);
 });
 
-async function runFixture(workspace, slugs, now) {
+test("profile image URL changes update output and updatedAt", async () => {
+  const workspace = await createWorkspace();
+  await writeMembers(workspace);
+  await writeExistingProfiles(workspace, [
+    profile("otani-emiri", "螟ｧ隹ｷ 譏鄒朱㈹", {
+      imageUrl: "https://equal-love.jp/image/profile/otani_emiri_original_old.jpg",
+      imageSha256: "old-hash",
+      imageVersion: "old-hash",
+    }),
+  ]);
+  await writeProfiles(workspace, [member("otani_emiri", "螟ｧ隹ｷ 譏鄒朱㈹", "OTANI EMIRI")]);
+
+  await runFixture(workspace, ["otani_emiri"], "2026-07-20T04:00:00+09:00", {
+    imageMetadataFetcher: imageMetadata("new-image-hash"),
+  });
+  const output = await readJson(path.join(workspace, "data", "member-profiles.json"));
+  const item = output.profiles[0];
+
+  assert.equal(item.imageUrl, "https://equal-love.jp/image/profile/otani_emiri_original.jpg");
+  assert.equal(item.imageSha256, "new-image-hash");
+  assert.equal(item.imageVersion, "new-image-hash");
+  assert.equal(output.meta.updatedAt, "2026-07-19T19:00:00.000Z");
+});
+
+test("same profile image URL and hash keep updatedAt unchanged", async () => {
+  const workspace = await createWorkspace();
+  await writeMembers(workspace);
+  await writeExistingProfiles(workspace, [
+    profile("otani-emiri", "螟ｧ隹ｷ 譏鄒朱㈹", {
+      imageSha256: "same-image-hash",
+      imageVersion: "same-image-hash",
+      imageContentLength: "100",
+      profileUrl: pathToFileURL(path.join(workspace, "feature", "otani_emiri.html")).href,
+    }),
+  ]);
+  await writeProfiles(workspace, [member("otani_emiri", "螟ｧ隹ｷ 譏鄒朱㈹", "OTANI EMIRI")]);
+
+  await runFixture(workspace, ["otani_emiri"], "2026-07-20T05:00:00+09:00", {
+    imageMetadataFetcher: imageMetadata("same-image-hash"),
+  });
+  const output = await readJson(path.join(workspace, "data", "member-profiles.json"));
+
+  assert.equal(output.meta.checkedAt, "2026-07-19T20:00:00.000Z");
+  assert.equal(output.meta.updatedAt, "2026-07-01T00:00:00.000Z");
+});
+
+test("same profile image URL with changed image hash updates updatedAt", async () => {
+  const workspace = await createWorkspace();
+  await writeMembers(workspace);
+  await writeExistingProfiles(workspace, [
+    profile("otani-emiri", "螟ｧ隹ｷ 譏鄒朱㈹", {
+      imageSha256: "old-image-hash",
+      imageVersion: "old-image-hash",
+    }),
+  ]);
+  await writeProfiles(workspace, [member("otani_emiri", "螟ｧ隹ｷ 譏鄒朱㈹", "OTANI EMIRI")]);
+
+  await runFixture(workspace, ["otani_emiri"], "2026-07-20T06:00:00+09:00", {
+    imageMetadataFetcher: imageMetadata("changed-image-hash"),
+  });
+  const output = await readJson(path.join(workspace, "data", "member-profiles.json"));
+
+  assert.equal(output.profiles[0].imageUrl, "https://equal-love.jp/image/profile/otani_emiri_original.jpg");
+  assert.equal(output.profiles[0].imageSha256, "changed-image-hash");
+  assert.equal(output.meta.updatedAt, "2026-07-19T21:00:00.000Z");
+});
+
+test("profile image metadata failure preserves existing image metadata", async () => {
+  const workspace = await createWorkspace();
+  await writeMembers(workspace);
+  await writeExistingProfiles(workspace, [
+    profile("otani-emiri", "螟ｧ隹ｷ 譏鄒朱㈹", {
+      imageSha256: "kept-image-hash",
+      imageVersion: "kept-image-hash",
+      imageContentLength: "12345",
+      profileUrl: pathToFileURL(path.join(workspace, "feature", "otani_emiri.html")).href,
+    }),
+  ]);
+  await writeProfiles(workspace, [member("otani_emiri", "螟ｧ隹ｷ 譏鄒朱㈹", "OTANI EMIRI")]);
+
+  await runFixture(workspace, ["otani_emiri"], "2026-07-20T07:00:00+09:00", {
+    imageMetadataFetcher: async () => {
+      throw new Error("image unavailable");
+    },
+  });
+  const output = await readJson(path.join(workspace, "data", "member-profiles.json"));
+
+  assert.equal(output.profiles[0].imageSha256, "kept-image-hash");
+  assert.equal(output.profiles[0].imageVersion, "kept-image-hash");
+  assert.equal(output.profiles[0].imageContentLength, "12345");
+  assert.equal(output.meta.updatedAt, "2026-07-01T00:00:00.000Z");
+});
+
+async function runFixture(workspace, slugs, now, options = {}) {
   const listPath = path.join(workspace, "profile.html");
   await fs.writeFile(listPath, makeListHtml(workspace, slugs), "utf8");
 
@@ -123,6 +216,7 @@ async function runFixture(workspace, slugs, now) {
     debugDir: path.join(workspace, "debug"),
     now,
     settleTimeout: 0,
+    ...options,
   });
 }
 
@@ -221,6 +315,8 @@ function profile(id, name, overrides = {}) {
     imageUrl: `https://equal-love.jp/image/profile/${id.replace(/-/g, "_")}_original.jpg`,
     birthday: "1998-03-15",
     birthplace: "東京都",
+    bloodType: "O型",
+    zodiac: "うお座",
     height: "155cm",
     hobby: "メイク",
     skill: "ジョッキ持ち",
@@ -242,6 +338,16 @@ function nameBySlug(slug) {
 
 function romanBySlug(slug) {
   return slug.replace(/_/g, " ").toUpperCase();
+}
+
+function imageMetadata(sha256) {
+  return async () => ({
+    status: 200,
+    contentLength: "100",
+    etag: "",
+    lastModified: "",
+    sha256,
+  });
 }
 
 async function readJson(filePath) {

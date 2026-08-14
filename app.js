@@ -962,7 +962,7 @@ function createMemberProfileSection() {
   const member = getMemberForProfile(profile);
   const name = escapeHtml(profile.name);
   const nameEn = profile.nameEn ? `<p class="member-profile-en">${escapeHtml(profile.nameEn)}</p>` : "";
-  const image = escapeHtml(member?.image || profile.image || "assets/official-love.png");
+  const image = escapeHtml(createProfileImageSrc(profile, member));
   const ringStyle = member ? createColorRingStyle(member) : "";
   const colorLabel = member ? createColorLabel(member) : "";
   const birthday = formatProfileBirthday(profile.birthday);
@@ -1028,6 +1028,23 @@ function createMemberProfileSection() {
     `,
     createDashboardMeta(memberProfilesMeta.checkedAt)
   );
+}
+
+function createProfileImageSrc(profile, member) {
+  const source = profile?.imageUrl || profile?.image || member?.image || "assets/official-love.png";
+  const version = profile?.imageVersion || (profile?.imageSha256 ? String(profile.imageSha256).slice(0, 16) : "");
+
+  if (!version || !/^https?:\/\//i.test(source)) {
+    return source;
+  }
+
+  try {
+    const url = new URL(source);
+    url.searchParams.set("v", version);
+    return url.href;
+  } catch {
+    return source;
+  }
 }
 
 function getSelectedMemberProfile() {
@@ -1429,6 +1446,11 @@ function normalizeMemberProfilesPayload(data) {
         profileUrl: String(profile.profileUrl || "").trim(),
         image: String(profile.image || "").trim(),
         imageUrl: String(profile.imageUrl || "").trim(),
+        imageContentLength: String(profile.imageContentLength || "").trim(),
+        imageEtag: String(profile.imageEtag || "").trim(),
+        imageLastModified: String(profile.imageLastModified || "").trim(),
+        imageSha256: String(profile.imageSha256 || "").trim(),
+        imageVersion: String(profile.imageVersion || "").trim(),
         birthday: String(profile.birthday || "").trim(),
         birthplace: String(profile.birthplace || "").trim(),
         bloodType: String(profile.bloodType || "").trim(),
