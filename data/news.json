@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-08-14T08:45:20.807Z",
-    "updatedAt": "2026-08-13T15:36:11.736Z"
+    "checkedAt": "2026-08-14T09:41:43.794Z",
+    "updatedAt": "2026-08-14T09:41:43.794Z"
   },
   "news": [
+    {
+      "title": "【出演情報】 FM NACK5「FAV FOUR」※大場花菜",
+      "date": "2026-08-14",
+      "url": "https://sp.equal-love.jp/news/detail/11849",
+      "category": "メディア"
+    },
     {
       "title": "【出演情報】フジテレビ系「STAR」※＝LOVE",
       "date": "2026-08-13",
@@ -57,12 +63,6 @@
       "date": "2026-08-09",
       "url": "https://sp.equal-love.jp/news/detail/11831",
       "category": ""
-    },
-    {
-      "title": "≪物販情報≫8月11日(火・祝) 個別お話し会",
-      "date": "2026-08-08",
-      "url": "https://sp.equal-love.jp/news/detail/11830",
-      "category": "グッズ"
     }
   ]
 }
