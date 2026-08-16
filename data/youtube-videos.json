@@ -1,9 +1,22 @@
 {
   "meta": {
-    "checkedAt": "2026-08-16T09:01:53.786Z",
-    "updatedAt": "2026-08-14T23:31:56.495Z"
+    "checkedAt": "2026-08-16T14:45:07.209Z",
+    "updatedAt": "2026-08-16T14:45:07.209Z"
   },
   "videos": [
+    {
+      "videoId": "qZHV-0OGKxQ",
+      "title": "サファリパークの後のペヤングって最高【夏休み】",
+      "url": "https://www.youtube.com/watch?v=qZHV-0OGKxQ",
+      "thumbnail": "https://i.ytimg.com/vi/qZHV-0OGKxQ/maxresdefault.jpg",
+      "publishedAt": "2026-08-16T11:30:01Z",
+      "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
+      "channelName": "みりにゃと申します。",
+      "sourceName": "大谷 映美里",
+      "memberNames": [
+        "大谷 映美里"
+      ]
+    },
     {
       "videoId": "A8nlZ3yYufU",
       "title": "＝LOVE 21stシングル表題曲「恋、はじめました。」Music Videoが公開！ぜひご覧ください🎬#イコラブ #イコールラブ #恋はじめました",
@@ -47,19 +60,6 @@
       "channelName": "＝LOVE（イコールラブ）公式チャンネル",
       "sourceName": "=LOVE オフィシャル",
       "memberNames": []
-    },
-    {
-      "videoId": "L_UjOzanEJI",
-      "title": "【初投稿】イコラブ音嶋莉沙のカバンの中身大公開スペシャル【7.8kg】",
-      "url": "https://www.youtube.com/watch?v=L_UjOzanEJI",
-      "thumbnail": "https://i.ytimg.com/vi/L_UjOzanEJI/maxresdefault.jpg",
-      "publishedAt": "2026-08-11T11:00:04Z",
-      "channelId": "UCcsyyry5bsjTeqqJ_Yz9TiA",
-      "channelName": "音嶋莉沙の様子がおかしいチャンネル",
-      "sourceName": "音嶋 莉沙",
-      "memberNames": [
-        "音嶋 莉沙"
-      ]
     }
   ]
 }
