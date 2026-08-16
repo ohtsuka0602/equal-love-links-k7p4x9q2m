@@ -710,6 +710,24 @@ const homeDashboardEl = document.getElementById("homeDashboard");
 const targetButtonsEl = document.querySelector(".target-buttons");
 const summaryEl = document.querySelector(".summary");
 
+document.addEventListener(
+  "error",
+  (event) => {
+    const image = event.target;
+
+    if (!(image instanceof HTMLImageElement) || !image.classList.contains("member-profile-image")) {
+      return;
+    }
+
+    const fallbackSrc = image.dataset.fallbackSrc;
+
+    if (fallbackSrc && image.getAttribute("src") !== fallbackSrc) {
+      image.src = fallbackSrc;
+    }
+  },
+  true
+);
+
 let newsItems = [];
 let newsMeta = {};
 let newsFailed = false;
@@ -963,6 +981,7 @@ function createMemberProfileSection() {
   const name = escapeHtml(profile.name);
   const nameEn = profile.nameEn ? `<p class="member-profile-en">${escapeHtml(profile.nameEn)}</p>` : "";
   const image = escapeHtml(createProfileImageSrc(profile, member));
+  const fallbackImage = escapeHtml(member?.image || profile.image || "assets/official-love.png");
   const ringStyle = member ? createColorRingStyle(member) : "";
   const colorLabel = member ? createColorLabel(member) : "";
   const birthday = formatProfileBirthday(profile.birthday);
@@ -1000,7 +1019,7 @@ function createMemberProfileSection() {
         <div class="member-profile-top">
           <button class="member-profile-nav" type="button" data-profile-prev aria-label="前のメンバー">‹</button>
           <div class="member-profile-image-wrap${ringStyle ? " color-ring" : ""}" ${ringStyle ? `style="${ringStyle}"` : ""}>
-            <img class="member-profile-image" src="${image}" alt="${name}" loading="lazy" referrerpolicy="no-referrer">
+            <img class="member-profile-image" src="${image}" alt="${name}" data-fallback-src="${fallbackImage}" loading="lazy" referrerpolicy="no-referrer">
           </div>
           <button class="member-profile-nav" type="button" data-profile-next aria-label="次のメンバー">›</button>
         </div>
@@ -1031,10 +1050,10 @@ function createMemberProfileSection() {
 }
 
 function createProfileImageSrc(profile, member) {
-  const source = profile?.imageUrl || profile?.image || member?.image || "assets/official-love.png";
+  const source = profile?.image || member?.image || profile?.imageUrl || "assets/official-love.png";
   const version = profile?.imageVersion || (profile?.imageSha256 ? String(profile.imageSha256).slice(0, 16) : "");
 
-  if (!version || !/^https?:\/\//i.test(source)) {
+  if (!version || !/^https?:\/\//i.test(source) || /^https?:\/\/equal-love\.jp\/image\/profile\//i.test(source)) {
     return source;
   }
 

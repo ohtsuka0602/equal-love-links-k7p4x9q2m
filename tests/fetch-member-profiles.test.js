@@ -178,6 +178,22 @@ test("same profile image URL with changed image hash updates updatedAt", async (
   assert.equal(output.meta.updatedAt, "2026-07-19T21:00:00.000Z");
 });
 
+test("downloaded profile images are written to generated assets", async () => {
+  const workspace = await createWorkspace();
+  await writeMembers(workspace);
+  await writeProfiles(workspace, [member("otani_emiri", "大谷 映美里", "OTANI EMIRI")]);
+
+  await runFixture(workspace, ["otani_emiri"], "2026-07-20T06:30:00+09:00", {
+    imageMetadataFetcher: imageMetadata("generated-image-hash", Buffer.from("profile-image")),
+  });
+  const output = await readJson(path.join(workspace, "data", "member-profiles.json"));
+  const image = output.profiles[0].image;
+  const imagePath = path.join(workspace, image);
+
+  assert.equal(image, "assets/generated/profile-images/otani-emiri-generated-image-.jpg");
+  assert.equal(await fs.readFile(imagePath, "utf8"), "profile-image");
+});
+
 test("profile image metadata failure preserves existing image metadata", async () => {
   const workspace = await createWorkspace();
   await writeMembers(workspace);
@@ -340,13 +356,15 @@ function romanBySlug(slug) {
   return slug.replace(/_/g, " ").toUpperCase();
 }
 
-function imageMetadata(sha256) {
+function imageMetadata(sha256, buffer) {
   return async () => ({
     status: 200,
+    contentType: "image/jpeg",
     contentLength: "100",
     etag: "",
     lastModified: "",
     sha256,
+    buffer,
   });
 }
 

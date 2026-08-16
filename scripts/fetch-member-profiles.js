@@ -8,6 +8,7 @@ const ROOT_DIR = path.resolve(__dirname, "..");
 const OUTPUT_PATH = path.join(ROOT_DIR, "data", "member-profiles.json");
 const MEMBERS_PATH = path.join(ROOT_DIR, "data", "members.json");
 const DEBUG_DIR = path.join(ROOT_DIR, "debug");
+const GENERATED_PROFILE_IMAGE_DIR = path.join("assets", "generated", "profile-images");
 const MIN_EXPECTED_PROFILES = 8;
 
 async function fetchMemberProfiles(options = {}) {
@@ -15,6 +16,7 @@ async function fetchMemberProfiles(options = {}) {
   const outputPath = options.outputPath || path.join(rootDir, "data", "member-profiles.json");
   const membersPath = options.membersPath || path.join(rootDir, "data", "members.json");
   const debugDir = options.debugDir || path.join(rootDir, "debug");
+  const generatedImageDir = options.generatedImageDir || path.join(rootDir, GENERATED_PROFILE_IMAGE_DIR);
   const sourceUrl = options.sourceUrl || PROFILE_LIST_URL;
   const now = getNowIso(options);
   const existingData = await readJson(outputPath, { meta: {}, profiles: [] });
@@ -69,7 +71,10 @@ async function fetchMemberProfiles(options = {}) {
         .map(normalizeProfile)
         .filter((profile) => profile.id && profile.name)
     );
-    const normalizedProfiles = await enrichProfilesWithImageMetadata(normalizedProfilesWithoutImages, existingById, options, summary);
+    const normalizedProfiles = await enrichProfilesWithImageMetadata(normalizedProfilesWithoutImages, existingById, options, summary, {
+      rootDir,
+      generatedImageDir,
+    });
     summary.profileSuccessCount = fetchedProfiles.length;
     summary.profileFailureCount = summary.failures.length;
     summary.normalizedCount = normalizedProfiles.length;
@@ -379,7 +384,7 @@ function mergePartialFailures(profiles, profileLinks, existingById) {
   return dedupeProfiles([...profiles, ...missingExisting]);
 }
 
-async function enrichProfilesWithImageMetadata(profiles, existingById, options, summary) {
+async function enrichProfilesWithImageMetadata(profiles, existingById, options, summary, paths) {
   const shouldFetchImages = options.fetchProfileImages ?? !String(options.sourceUrl || PROFILE_LIST_URL).startsWith("file:");
 
   summary.imageSuccessCount = 0;
@@ -403,6 +408,9 @@ async function enrichProfilesWithImageMetadata(profiles, existingById, options, 
           ? await options.imageMetadataFetcher(profile.imageUrl, profile, existing)
           : await fetchImageMetadata(profile.imageUrl);
         const imageVersion = metadata.sha256 ? metadata.sha256.slice(0, 16) : metadata.etag || metadata.lastModified || "";
+        const generatedImage = metadata.buffer && imageVersion
+          ? await writeGeneratedProfileImage(profile, metadata, imageVersion, paths)
+          : existing?.image || profile.image;
 
         summary.imageSuccessCount += 1;
         summary.images.push({
@@ -410,15 +418,18 @@ async function enrichProfilesWithImageMetadata(profiles, existingById, options, 
           name: profile.name,
           imageUrl: profile.imageUrl,
           status: metadata.status,
+          contentType: metadata.contentType,
           contentLength: metadata.contentLength,
           etag: metadata.etag,
           lastModified: metadata.lastModified,
           sha256: metadata.sha256,
           imageVersion,
+          generatedImage,
         });
 
         return removeEmpty({
           ...profile,
+          image: generatedImage,
           imageContentLength: metadata.contentLength,
           imageEtag: metadata.etag,
           imageLastModified: metadata.lastModified,
@@ -457,11 +468,41 @@ async function fetchImageMetadata(imageUrl) {
 
   return {
     status: response.status,
+    contentType: response.headers.get("content-type") || "",
     contentLength: response.headers.get("content-length") || String(buffer.length),
     etag: response.headers.get("etag") || "",
     lastModified: response.headers.get("last-modified") || "",
     sha256: crypto.createHash("sha256").update(buffer).digest("hex"),
+    buffer,
   };
+}
+
+async function writeGeneratedProfileImage(profile, metadata, imageVersion, paths) {
+  const extension = getImageExtension(profile.imageUrl, metadata.contentType) || ".jpg";
+  const fileName = `${profile.id}-${imageVersion}${extension}`;
+  const absolutePath = path.join(paths.generatedImageDir, fileName);
+
+  await fs.mkdir(paths.generatedImageDir, { recursive: true });
+  await fs.writeFile(absolutePath, metadata.buffer);
+
+  return path.relative(paths.rootDir, absolutePath).replace(/\\/g, "/");
+}
+
+function getImageExtension(imageUrl, contentType = "") {
+  if (/png/i.test(contentType)) {
+    return ".png";
+  }
+
+  if (/webp/i.test(contentType)) {
+    return ".webp";
+  }
+
+  try {
+    const extension = path.extname(new URL(imageUrl).pathname);
+    return extension || ".jpg";
+  } catch {
+    return ".jpg";
+  }
 }
 
 function preserveExistingImageMetadata(profile, existing) {
