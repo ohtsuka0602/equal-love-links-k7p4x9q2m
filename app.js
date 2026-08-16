@@ -116,7 +116,7 @@ async function loadMembers() {
     youtubeVideos = youtubeData.videos;
     youtubeVideosMeta = youtubeData.meta;
     youtubeVideosFailed = youtubeData.failed;
-    members = normalizedData.members.map(applyFixedData).filter(isDisplayableMember);
+    members = applyProfileImagesToMembers(normalizedData.members.map(applyFixedData)).filter(isDisplayableMember);
     favoriteNames = pruneFavoriteNames(favoriteNames, members);
     saveFavoriteNames();
     renderUpdatedAt();
@@ -176,7 +176,6 @@ function renderDailyPick() {
   }
 
   const name = escapeHtml(pick.name);
-  const image = escapeHtml(pick.image || "assets/official-love.png");
   const ringStyle = createColorRingStyle(pick);
   const colorLabel = createColorLabel(pick);
 
@@ -188,7 +187,7 @@ function renderDailyPick() {
       </div>
       <div class="daily-pick-profile">
         <div class="daily-pick-image-wrap color-ring" style="${ringStyle}">
-          <img class="daily-pick-image" src="${image}" alt="${name}" loading="lazy" referrerpolicy="no-referrer">
+          ${createMemberImageTag("daily-pick-image", pick, pick.name)}
         </div>
         <div class="daily-pick-info">
           <h3>${name}</h3>
@@ -269,7 +268,6 @@ function createMemberCard(member) {
   const name = escapeHtml(member.name);
   const typeLabel = member.type === "official" ? `<span class="member-type">${messages.official}</span>` : "";
   const favoriteButton = member.type === "member" ? createFavoriteButton(member) : "";
-  const image = escapeHtml(member.image || "assets/official-love.png");
   const cardUrl = member.sns?.[currentFilter] || "";
   const clickableClass = cardUrl ? " is-clickable" : "";
   const ringStyle = createColorRingStyle(member);
@@ -279,7 +277,7 @@ function createMemberCard(member) {
   return `
     <article class="member-card${clickableClass}" ${cardUrl ? `data-card-url="${escapeHtml(cardUrl)}"` : ""}>
       <div class="member-image-wrap${ringStyle ? " color-ring" : ""}" ${ringStyle ? `style="${ringStyle}"` : ""}>
-        <img class="member-image" src="${image}" alt="${name}" loading="lazy" referrerpolicy="no-referrer">
+        ${createMemberImageTag("member-image", member, member.name)}
       </div>
 
       <div class="member-info">
@@ -715,7 +713,7 @@ document.addEventListener(
   (event) => {
     const image = event.target;
 
-    if (!(image instanceof HTMLImageElement) || !image.classList.contains("member-profile-image")) {
+    if (!(image instanceof HTMLImageElement) || !image.dataset.fallbackSrc) {
       return;
     }
 
@@ -773,7 +771,7 @@ async function loadMembers() {
     memberProfiles = profileData.profiles;
     memberProfilesMeta = profileData.meta;
     memberProfilesFailed = profileData.failed;
-    members = normalizedData.members.map(applyFixedData).filter(isDisplayableMember);
+    members = applyProfileImagesToMembers(normalizedData.members.map(applyFixedData)).filter(isDisplayableMember);
     favoriteNames = pruneFavoriteNames(favoriteNames, members);
     saveFavoriteNames();
     renderUpdatedAt();
@@ -941,7 +939,6 @@ function createHomeDailyPickSection() {
 
 function createDailyPickContent(pick, subtext, showAllSns) {
   const name = escapeHtml(pick.name);
-  const image = escapeHtml(pick.image || "assets/official-love.png");
   const ringStyle = createColorRingStyle(pick);
   const colorLabel = createColorLabel(pick);
   const snsButtons = showAllSns ? createAllSnsButtons(pick) : createSnsButtons(pick);
@@ -954,7 +951,7 @@ function createDailyPickContent(pick, subtext, showAllSns) {
       </div>
       <div class="daily-pick-profile">
         <div class="daily-pick-image-wrap color-ring" style="${ringStyle}">
-          <img class="daily-pick-image" src="${image}" alt="${name}" loading="lazy" referrerpolicy="no-referrer">
+          ${createMemberImageTag("daily-pick-image", pick, pick.name)}
         </div>
         <div class="daily-pick-info">
           <h3>${name}</h3>
@@ -981,7 +978,7 @@ function createMemberProfileSection() {
   const name = escapeHtml(profile.name);
   const nameEn = profile.nameEn ? `<p class="member-profile-en">${escapeHtml(profile.nameEn)}</p>` : "";
   const image = escapeHtml(createProfileImageSrc(profile, member));
-  const fallbackImage = escapeHtml(member?.image || profile.image || "assets/official-love.png");
+  const fallbackImage = escapeHtml(member?.fallbackImage || member?.image || profile.image || "assets/official-love.png");
   const ringStyle = member ? createColorRingStyle(member) : "";
   const colorLabel = member ? createColorLabel(member) : "";
   const birthday = formatProfileBirthday(profile.birthday);
@@ -1064,6 +1061,37 @@ function createProfileImageSrc(profile, member) {
   } catch {
     return source;
   }
+}
+
+function applyProfileImagesToMembers(sourceMembers) {
+  const profilesById = new Map(memberProfiles.map((profile) => [profile.id, profile]).filter(([id]) => id));
+  const profilesByName = new Map(memberProfiles.map((profile) => [profile.name, profile]).filter(([name]) => name));
+
+  return sourceMembers.map((member) => {
+    if (member.type !== "member") {
+      return member;
+    }
+
+    const profile = profilesById.get(getProfileIdFromMember(member)) || profilesByName.get(member.name);
+    const profileImage = createProfileImageSrc(profile, member);
+
+    return {
+      ...member,
+      fallbackImage: member.image || "assets/official-love.png",
+      profileImageSourceUrl: profile?.imageUrl || "",
+      profileImageSha256: profile?.imageSha256 || "",
+      profileImageVersion: profile?.imageVersion || "",
+      image: profileImage || member.image || "assets/official-love.png",
+    };
+  });
+}
+
+function createMemberImageTag(className, member, altText) {
+  const image = escapeHtml(member.image || "assets/official-love.png");
+  const fallbackImage = escapeHtml(member.fallbackImage || (member.type === "member" ? "assets/official-love.png" : member.image || "assets/official-love.png"));
+  const alt = escapeHtml(altText || member.name || "");
+
+  return `<img class="${className}" src="${image}" alt="${alt}" data-fallback-src="${fallbackImage}" loading="lazy" referrerpolicy="no-referrer">`;
 }
 
 function getSelectedMemberProfile() {
@@ -1273,14 +1301,13 @@ function createUpcomingBirthdaysSection(birthdays = getUpcomingBirthdays()) {
 function createBirthdayMemberCard(entry) {
   const member = entry.member;
   const name = escapeHtml(member.name);
-  const image = escapeHtml(member.image || "assets/official-love.png");
   const ringStyle = createColorRingStyle(member);
   const countdown = escapeHtml(createBirthdayCountdownLabel(entry.daysUntil));
 
   return `
     <article class="compact-member-card">
       <div class="compact-member-image-wrap color-ring" style="${ringStyle}">
-        <img class="compact-member-image" src="${image}" alt="${name}" loading="lazy" referrerpolicy="no-referrer">
+        ${createMemberImageTag("compact-member-image", member, member.name)}
       </div>
       <div class="compact-member-body">
         <div class="compact-member-heading">
@@ -1307,14 +1334,13 @@ function createFavoriteMembersSection() {
 
 function createCompactMemberCard(member) {
   const name = escapeHtml(member.name);
-  const image = escapeHtml(member.image || "assets/official-love.png");
   const ringStyle = createColorRingStyle(member);
   const colorLabel = createColorLabel(member);
 
   return `
     <article class="compact-member-card">
       <div class="compact-member-image-wrap color-ring" style="${ringStyle}">
-        <img class="compact-member-image" src="${image}" alt="${name}" loading="lazy" referrerpolicy="no-referrer">
+        ${createMemberImageTag("compact-member-image", member, member.name)}
       </div>
       <div class="compact-member-body">
         <div class="compact-member-heading">
