@@ -140,6 +140,14 @@ test("same profile image URL and hash keep updatedAt unchanged", async () => {
   await writeMembers(workspace);
   await writeExistingProfiles(workspace, [
     profile("otani-emiri", "螟ｧ隹ｷ 譏鄒朱㈹", {
+      image: "assets/generated/profile-images/otani-emiri-same-image-hash.jpg",
+      avatarImage: "assets/generated/profile-avatars/otani-emiri-same-avatar-hash.jpg",
+      avatarImageSha256: "same-avatar-hash",
+      avatarImageVersion: "same-avatar-hash",
+      avatarSourceImageSha256: "same-image-hash",
+      avatarWidth: "512",
+      avatarHeight: "512",
+      avatarCrop: "same-crop",
       imageSha256: "same-image-hash",
       imageVersion: "same-image-hash",
       imageContentLength: "100",
@@ -213,12 +221,20 @@ test("changed profile image content writes a new content-addressed asset and pru
 
   await runFixture(workspace, ["otani_emiri"], "2026-07-20T06:45:00+09:00", {
     imageMetadataFetcher: imageMetadata("new-content-hash", Buffer.from("new-profile-image")),
+    avatarImageGenerator: avatarImage("new-avatar-image"),
   });
   const output = await readJson(path.join(workspace, "data", "member-profiles.json"));
   const image = output.profiles[0].image;
+  const avatar = output.profiles[0].avatarImage;
 
   assert.equal(image, "assets/generated/profile-images/otani-emiri-new-content-hash.jpg");
   assert.equal(await fs.readFile(path.join(workspace, image), "utf8"), "new-profile-image");
+  assert.match(avatar, /^assets\/generated\/profile-avatars\/otani-emiri-[a-f0-9]{16}\.jpg$/);
+  assert.equal(await fs.readFile(path.join(workspace, avatar), "utf8"), "new-avatar-image");
+  assert.equal(output.profiles[0].avatarWidth, "512");
+  assert.equal(output.profiles[0].avatarHeight, "512");
+  assert.equal(output.profiles[0].avatarCrop, "fixture-crop");
+  assert.equal(output.profiles[0].avatarSourceImageSha256, "new-content-hash");
   await assert.rejects(fs.access(oldImagePath));
   assert.equal(output.profiles[0].imageSha256, "new-content-hash");
   assert.equal(output.meta.updatedAt, "2026-07-19T21:45:00.000Z");
@@ -230,6 +246,13 @@ test("profile image metadata failure preserves existing image metadata", async (
   await writeExistingProfiles(workspace, [
     profile("otani-emiri", "螟ｧ隹ｷ 譏鄒朱㈹", {
       image: "assets/generated/profile-images/otani-emiri-kept-image-hash.jpg",
+      avatarImage: "assets/generated/profile-avatars/otani-emiri-kept-avatar-hash.jpg",
+      avatarImageSha256: "kept-avatar-hash",
+      avatarImageVersion: "kept-avatar-hash",
+      avatarSourceImageSha256: "kept-image-hash",
+      avatarWidth: "512",
+      avatarHeight: "512",
+      avatarCrop: "kept-crop",
       imageSha256: "kept-image-hash",
       imageVersion: "kept-image-hash",
       imageContentLength: "12345",
@@ -246,6 +269,9 @@ test("profile image metadata failure preserves existing image metadata", async (
   const output = await readJson(path.join(workspace, "data", "member-profiles.json"));
 
   assert.equal(output.profiles[0].image, "assets/generated/profile-images/otani-emiri-kept-image-hash.jpg");
+  assert.equal(output.profiles[0].avatarImage, "assets/generated/profile-avatars/otani-emiri-kept-avatar-hash.jpg");
+  assert.equal(output.profiles[0].avatarImageSha256, "kept-avatar-hash");
+  assert.equal(output.profiles[0].avatarCrop, "kept-crop");
   assert.equal(output.profiles[0].imageSha256, "kept-image-hash");
   assert.equal(output.profiles[0].imageVersion, "kept-image-hash");
   assert.equal(output.profiles[0].imageContentLength, "12345");
@@ -397,6 +423,15 @@ function imageMetadata(sha256, buffer) {
     lastModified: "",
     sha256,
     buffer,
+  });
+}
+
+function avatarImage(text) {
+  return async () => ({
+    buffer: Buffer.from(text),
+    width: 512,
+    height: 512,
+    crop: "fixture-crop",
   });
 }
 

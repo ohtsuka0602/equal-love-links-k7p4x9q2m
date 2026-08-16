@@ -9,6 +9,7 @@ const OUTPUT_PATH = path.join(ROOT_DIR, "data", "member-profiles.json");
 const MEMBERS_PATH = path.join(ROOT_DIR, "data", "members.json");
 const DEBUG_DIR = path.join(ROOT_DIR, "debug");
 const GENERATED_PROFILE_IMAGE_DIR = path.join("assets", "generated", "profile-images");
+const GENERATED_PROFILE_AVATAR_DIR = path.join("assets", "generated", "profile-avatars");
 const MIN_EXPECTED_PROFILES = 8;
 
 async function fetchMemberProfiles(options = {}) {
@@ -17,6 +18,7 @@ async function fetchMemberProfiles(options = {}) {
   const membersPath = options.membersPath || path.join(rootDir, "data", "members.json");
   const debugDir = options.debugDir || path.join(rootDir, "debug");
   const generatedImageDir = options.generatedImageDir || path.join(rootDir, GENERATED_PROFILE_IMAGE_DIR);
+  const generatedAvatarDir = options.generatedAvatarDir || path.join(rootDir, GENERATED_PROFILE_AVATAR_DIR);
   const sourceUrl = options.sourceUrl || PROFILE_LIST_URL;
   const now = getNowIso(options);
   const existingData = await readJson(outputPath, { meta: {}, profiles: [] });
@@ -24,7 +26,7 @@ async function fetchMemberProfiles(options = {}) {
   const existingById = new Map(existingProfiles.map((profile) => [profile.id, profile]));
   const existingMembers = normalizeExistingMembers(await readJson(membersPath, { members: [] }));
   const membersById = new Map(existingMembers.map((member) => [getMemberId(member), member]).filter(([id]) => id));
-  const paths = { rootDir, generatedImageDir };
+  const paths = { rootDir, generatedImageDir, generatedAvatarDir };
   const summary = createInitialSummary(sourceUrl, existingProfiles.length, now);
   const browser = await chromium.launch();
   const page = await browser.newPage({
@@ -72,7 +74,13 @@ async function fetchMemberProfiles(options = {}) {
         .map(normalizeProfile)
         .filter((profile) => profile.id && profile.name)
     );
-    const normalizedProfiles = await enrichProfilesWithImageMetadata(normalizedProfilesWithoutImages, existingById, options, summary, paths);
+    const normalizedProfiles = await enrichProfilesWithImageMetadata(
+      normalizedProfilesWithoutImages,
+      existingById,
+      { ...options, avatarPage: page },
+      summary,
+      paths
+    );
     summary.profileSuccessCount = fetchedProfiles.length;
     summary.profileFailureCount = summary.failures.length;
     summary.normalizedCount = normalizedProfiles.length;
@@ -107,6 +115,7 @@ async function fetchMemberProfiles(options = {}) {
     const outputProfiles = mergePartialFailures(normalizedProfiles, profileLinks, existingById);
     summary.outputCount = outputProfiles.length;
     summary.prunedGeneratedImages = await pruneUnusedGeneratedProfileImages(outputProfiles, paths);
+    summary.prunedGeneratedAvatars = await pruneUnusedGeneratedProfileAvatars(outputProfiles, paths);
     const updatedAt = hasProfilesChanged(existingProfiles, outputProfiles)
       ? now
       : existingData.meta?.updatedAt || now;
@@ -129,6 +138,7 @@ async function fetchMemberProfiles(options = {}) {
     await writeSummary(debugDir, summary);
     console.log(`Output count: ${summary.outputCount}`);
     console.log(`Pruned generated profile images: ${summary.prunedGeneratedImages}`);
+    console.log(`Pruned generated profile avatars: ${summary.prunedGeneratedAvatars}`);
     console.log(`Checked at: ${summary.checkedAt}`);
     console.log(`Updated at: ${summary.updatedAt}`);
     console.log(`Updated ${path.relative(rootDir, outputPath)} with ${outputProfiles.length} member profiles.`);
@@ -411,6 +421,9 @@ async function enrichProfilesWithImageMetadata(profiles, existingById, options, 
         const generatedImage = metadata.buffer && imageVersion
           ? await writeGeneratedProfileImage(profile, metadata, imageVersion, paths)
           : existing?.image || profile.image;
+        const generatedAvatar = metadata.buffer && imageVersion
+          ? await writeGeneratedProfileAvatarSafely(profile, metadata, existing, options, paths, summary)
+          : preserveExistingAvatarMetadata(existing);
 
         summary.imageSuccessCount += 1;
         summary.images.push({
@@ -425,11 +438,20 @@ async function enrichProfilesWithImageMetadata(profiles, existingById, options, 
           sha256: metadata.sha256,
           imageVersion,
           generatedImage,
+          generatedAvatar: generatedAvatar.image,
+          avatarSha256: generatedAvatar.sha256,
         });
 
         return removeEmpty({
           ...profile,
           image: generatedImage,
+          avatarImage: generatedAvatar.image,
+          avatarImageSha256: generatedAvatar.sha256,
+          avatarImageVersion: generatedAvatar.version,
+          avatarSourceImageSha256: metadata.sha256,
+          avatarWidth: generatedAvatar.width,
+          avatarHeight: generatedAvatar.height,
+          avatarCrop: generatedAvatar.crop,
           imageContentLength: metadata.contentLength,
           imageEtag: metadata.etag,
           imageLastModified: metadata.lastModified,
@@ -488,11 +510,135 @@ async function writeGeneratedProfileImage(profile, metadata, imageVersion, paths
   return path.relative(paths.rootDir, absolutePath).replace(/\\/g, "/");
 }
 
+async function writeGeneratedProfileAvatarSafely(profile, metadata, existing, options, paths, summary) {
+  try {
+    return await writeGeneratedProfileAvatar(profile, metadata, options, paths);
+  } catch (error) {
+    summary.images.push({
+      id: profile.id,
+      name: profile.name,
+      imageUrl: profile.imageUrl,
+      status: "avatar-error",
+      error: error.message,
+    });
+    console.warn(`Profile avatar generation failed: ${profile.name} ${profile.imageUrl} ${error.message}`);
+    return preserveExistingAvatarMetadata(existing);
+  }
+}
+
+async function writeGeneratedProfileAvatar(profile, metadata, options, paths) {
+  const avatar = options.avatarImageGenerator
+    ? await options.avatarImageGenerator(profile, metadata)
+    : await generateAvatarImage(metadata, options.avatarPage);
+  const sha256 = crypto.createHash("sha256").update(avatar.buffer).digest("hex");
+  const version = sha256.slice(0, 16);
+  const fileName = `${profile.id}-${version}.jpg`;
+  const absolutePath = path.join(paths.generatedAvatarDir, fileName);
+
+  await fs.mkdir(paths.generatedAvatarDir, { recursive: true });
+  await fs.writeFile(absolutePath, avatar.buffer);
+
+  return {
+    image: path.relative(paths.rootDir, absolutePath).replace(/\\/g, "/"),
+    sha256,
+    version,
+    width: String(avatar.width || 512),
+    height: String(avatar.height || 512),
+    crop: avatar.crop || "",
+  };
+}
+
+async function generateAvatarImage(metadata, page) {
+  if (!page) {
+    throw new Error("avatar page unavailable");
+  }
+
+  const contentType = metadata.contentType || "image/jpeg";
+  const dataUrl = `data:${contentType};base64,${metadata.buffer.toString("base64")}`;
+
+  return page.evaluate(async ({ dataUrl: imageDataUrl }) => {
+    const image = new Image();
+    image.decoding = "async";
+    const loaded = new Promise((resolve, reject) => {
+      image.onload = resolve;
+      image.onerror = () => reject(new Error("avatar source image could not be decoded"));
+    });
+    image.src = imageDataUrl;
+    await loaded;
+
+    const sourceWidth = image.naturalWidth || image.width;
+    const sourceHeight = image.naturalHeight || image.height;
+    const side = Math.min(sourceWidth, sourceHeight);
+    const cropX = Math.max(0, Math.round((sourceWidth - side) / 2));
+    const cropY = Math.max(0, Math.round((sourceHeight - side) * 0.24));
+    const canvasSize = 512;
+    const canvas = document.createElement("canvas");
+    canvas.width = canvasSize;
+    canvas.height = canvasSize;
+    const context = canvas.getContext("2d", { alpha: false });
+
+    if (!context) {
+      throw new Error("canvas context unavailable");
+    }
+
+    context.fillStyle = "#ffffff";
+    context.fillRect(0, 0, canvasSize, canvasSize);
+    context.imageSmoothingEnabled = true;
+    context.imageSmoothingQuality = "high";
+    context.drawImage(image, cropX, cropY, side, side, 0, 0, canvasSize, canvasSize);
+
+    const blob = await new Promise((resolve, reject) => {
+      canvas.toBlob((value) => value ? resolve(value) : reject(new Error("avatar canvas export failed")), "image/jpeg", 0.9);
+    });
+    const bytes = new Uint8Array(await blob.arrayBuffer());
+
+    return {
+      buffer: Array.from(bytes),
+      width: canvasSize,
+      height: canvasSize,
+      crop: `x=${cropX},y=${cropY},size=${side},source=${sourceWidth}x${sourceHeight}`,
+    };
+  }, { dataUrl }).then((avatar) => ({
+    ...avatar,
+    buffer: Buffer.from(avatar.buffer),
+  }));
+}
+
 async function pruneUnusedGeneratedProfileImages(profiles, paths) {
   const generatedDir = paths.generatedImageDir;
   const keep = new Set(
     profiles
       .map((profile) => path.basename(String(profile.image || "")))
+      .filter(Boolean)
+  );
+
+  let entries = [];
+
+  try {
+    entries = await fs.readdir(generatedDir, { withFileTypes: true });
+  } catch {
+    return 0;
+  }
+
+  let pruned = 0;
+
+  for (const entry of entries) {
+    if (!entry.isFile() || keep.has(entry.name)) {
+      continue;
+    }
+
+    await fs.unlink(path.join(generatedDir, entry.name));
+    pruned += 1;
+  }
+
+  return pruned;
+}
+
+async function pruneUnusedGeneratedProfileAvatars(profiles, paths) {
+  const generatedDir = paths.generatedAvatarDir;
+  const keep = new Set(
+    profiles
+      .map((profile) => path.basename(String(profile.avatarImage || "")))
       .filter(Boolean)
   );
 
@@ -539,12 +685,30 @@ function preserveExistingImageMetadata(profile, existing) {
   return removeEmpty({
     ...profile,
     image: existing?.image || profile.image || "",
+    avatarImage: existing?.avatarImage || profile.avatarImage || "",
+    avatarImageSha256: existing?.avatarImageSha256 || "",
+    avatarImageVersion: existing?.avatarImageVersion || "",
+    avatarSourceImageSha256: existing?.avatarSourceImageSha256 || "",
+    avatarWidth: existing?.avatarWidth || "",
+    avatarHeight: existing?.avatarHeight || "",
+    avatarCrop: existing?.avatarCrop || "",
     imageContentLength: existing?.imageContentLength || "",
     imageEtag: existing?.imageEtag || "",
     imageLastModified: existing?.imageLastModified || "",
     imageSha256: existing?.imageSha256 || "",
     imageVersion: existing?.imageVersion || "",
   });
+}
+
+function preserveExistingAvatarMetadata(existing) {
+  return {
+    image: existing?.avatarImage || "",
+    sha256: existing?.avatarImageSha256 || "",
+    version: existing?.avatarImageVersion || "",
+    width: existing?.avatarWidth || "",
+    height: existing?.avatarHeight || "",
+    crop: existing?.avatarCrop || "",
+  };
 }
 
 function dedupeProfiles(profiles) {

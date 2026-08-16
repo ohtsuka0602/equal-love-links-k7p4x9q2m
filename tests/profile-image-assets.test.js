@@ -20,6 +20,15 @@ test("all member profile images are generated assets matching recorded hashes", 
     const sha256 = crypto.createHash("sha256").update(image).digest("hex");
 
     assert.equal(sha256, profile.imageSha256, profile.id);
+    assert.match(profile.avatarImage, /^assets\/generated\/profile-avatars\/.+\.jpg$/);
+
+    const avatarPath = path.join(rootDir, profile.avatarImage);
+    const avatar = fs.readFileSync(avatarPath);
+    const avatarSha256 = crypto.createHash("sha256").update(avatar).digest("hex");
+
+    assert.equal(avatarSha256, profile.avatarImageSha256, `${profile.id} avatar`);
+    assert.equal(profile.avatarWidth, "512", `${profile.id} avatar width`);
+    assert.equal(profile.avatarHeight, "512", `${profile.id} avatar height`);
   }
 });
 
@@ -34,6 +43,7 @@ test("member image rendering uses the shared profile image resolver", () => {
   assert.match(app, /displayImage: resolvedImage\.displayImage/);
   assert.match(app, /avatarImage: resolvedImage\.avatarImage/);
   assert.match(app, /profileDisplayImage: resolvedImage\.profileDisplayImage/);
+  assert.match(app, /matchedProfile\?\.avatarImage/);
   assert.match(app, /legacyImage: member\.image/);
   assert.match(app, /data-image-role="\$\{role\}"/);
   assert.match(app, /data-fallback-src="\$\{fallbackImage\}"/);

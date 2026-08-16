@@ -1063,18 +1063,20 @@ function resolveMemberImage(member, profile, options = {}) {
     };
   }
 
-  const generatedImage = matchedProfile?.image || "";
-  const displayImage = generatedImage || legacyFallback;
+  const generatedProfileImage = matchedProfile?.image || "";
+  const generatedAvatarImage = matchedProfile?.avatarImage || "";
+  const displayImage = generatedProfileImage || legacyFallback;
+  const avatarImage = generatedAvatarImage || displayImage;
 
   return {
     sourceImageUrl: matchedProfile?.imageUrl || member?.imageSourceUrl || "",
     displayImage,
     profileDisplayImage: displayImage,
-    avatarImage: displayImage,
+    avatarImage,
     fallbackImage: legacyFallback,
     imageSha256: matchedProfile?.imageSha256 || "",
     imageVersion: matchedProfile?.imageVersion || "",
-    objectPosition: "50% 24%",
+    objectPosition: generatedAvatarImage && variant !== "profile" ? "50% 50%" : "50% 24%",
     variant,
   };
 }
@@ -1120,7 +1122,9 @@ function createMemberImageTag(className, member, altText, options = {}) {
   const image = escapeHtml(source || resolvedImage.displayImage || "assets/official-love.png");
   const fallbackImage = escapeHtml(resolvedImage.fallbackImage || "assets/official-love.png");
   const alt = escapeHtml(altText || member?.name || "");
-  const position = escapeHtml(member?.imageObjectPosition || resolvedImage.objectPosition || "50% 24%");
+  const position = escapeHtml(options.variant === "profile"
+    ? resolvedImage.objectPosition || "50% 24%"
+    : member?.imageObjectPosition || resolvedImage.objectPosition || "50% 50%");
   const role = escapeHtml(options.variant === "profile" ? "profile" : "avatar");
 
   return `<img class="${className}" src="${image}" alt="${alt}" data-image-role="${role}" data-fallback-src="${fallbackImage}" style="--member-image-position: ${position}" loading="lazy" referrerpolicy="no-referrer">`;
@@ -1523,6 +1527,13 @@ function normalizeMemberProfilesPayload(data) {
         profileUrl: String(profile.profileUrl || "").trim(),
         image: String(profile.image || "").trim(),
         imageUrl: String(profile.imageUrl || "").trim(),
+        avatarImage: String(profile.avatarImage || "").trim(),
+        avatarImageSha256: String(profile.avatarImageSha256 || "").trim(),
+        avatarImageVersion: String(profile.avatarImageVersion || "").trim(),
+        avatarSourceImageSha256: String(profile.avatarSourceImageSha256 || "").trim(),
+        avatarWidth: String(profile.avatarWidth || "").trim(),
+        avatarHeight: String(profile.avatarHeight || "").trim(),
+        avatarCrop: String(profile.avatarCrop || "").trim(),
         imageContentLength: String(profile.imageContentLength || "").trim(),
         imageEtag: String(profile.imageEtag || "").trim(),
         imageLastModified: String(profile.imageLastModified || "").trim(),
