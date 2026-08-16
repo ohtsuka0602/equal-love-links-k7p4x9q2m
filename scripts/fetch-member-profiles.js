@@ -24,6 +24,7 @@ async function fetchMemberProfiles(options = {}) {
   const existingById = new Map(existingProfiles.map((profile) => [profile.id, profile]));
   const existingMembers = normalizeExistingMembers(await readJson(membersPath, { members: [] }));
   const membersById = new Map(existingMembers.map((member) => [getMemberId(member), member]).filter(([id]) => id));
+  const paths = { rootDir, generatedImageDir };
   const summary = createInitialSummary(sourceUrl, existingProfiles.length, now);
   const browser = await chromium.launch();
   const page = await browser.newPage({
@@ -71,10 +72,7 @@ async function fetchMemberProfiles(options = {}) {
         .map(normalizeProfile)
         .filter((profile) => profile.id && profile.name)
     );
-    const normalizedProfiles = await enrichProfilesWithImageMetadata(normalizedProfilesWithoutImages, existingById, options, summary, {
-      rootDir,
-      generatedImageDir,
-    });
+    const normalizedProfiles = await enrichProfilesWithImageMetadata(normalizedProfilesWithoutImages, existingById, options, summary, paths);
     summary.profileSuccessCount = fetchedProfiles.length;
     summary.profileFailureCount = summary.failures.length;
     summary.normalizedCount = normalizedProfiles.length;
@@ -108,6 +106,7 @@ async function fetchMemberProfiles(options = {}) {
 
     const outputProfiles = mergePartialFailures(normalizedProfiles, profileLinks, existingById);
     summary.outputCount = outputProfiles.length;
+    summary.prunedGeneratedImages = await pruneUnusedGeneratedProfileImages(outputProfiles, paths);
     const updatedAt = hasProfilesChanged(existingProfiles, outputProfiles)
       ? now
       : existingData.meta?.updatedAt || now;
@@ -129,6 +128,7 @@ async function fetchMemberProfiles(options = {}) {
     await writeJsonAtomically(outputPath, output);
     await writeSummary(debugDir, summary);
     console.log(`Output count: ${summary.outputCount}`);
+    console.log(`Pruned generated profile images: ${summary.prunedGeneratedImages}`);
     console.log(`Checked at: ${summary.checkedAt}`);
     console.log(`Updated at: ${summary.updatedAt}`);
     console.log(`Updated ${path.relative(rootDir, outputPath)} with ${outputProfiles.length} member profiles.`);
@@ -488,6 +488,36 @@ async function writeGeneratedProfileImage(profile, metadata, imageVersion, paths
   return path.relative(paths.rootDir, absolutePath).replace(/\\/g, "/");
 }
 
+async function pruneUnusedGeneratedProfileImages(profiles, paths) {
+  const generatedDir = paths.generatedImageDir;
+  const keep = new Set(
+    profiles
+      .map((profile) => path.basename(String(profile.image || "")))
+      .filter(Boolean)
+  );
+
+  let entries = [];
+
+  try {
+    entries = await fs.readdir(generatedDir, { withFileTypes: true });
+  } catch {
+    return 0;
+  }
+
+  let pruned = 0;
+
+  for (const entry of entries) {
+    if (!entry.isFile() || keep.has(entry.name)) {
+      continue;
+    }
+
+    await fs.unlink(path.join(generatedDir, entry.name));
+    pruned += 1;
+  }
+
+  return pruned;
+}
+
 function getImageExtension(imageUrl, contentType = "") {
   if (/png/i.test(contentType)) {
     return ".png";
@@ -508,6 +538,7 @@ function getImageExtension(imageUrl, contentType = "") {
 function preserveExistingImageMetadata(profile, existing) {
   return removeEmpty({
     ...profile,
+    image: existing?.image || profile.image || "",
     imageContentLength: existing?.imageContentLength || "",
     imageEtag: existing?.imageEtag || "",
     imageLastModified: existing?.imageLastModified || "",

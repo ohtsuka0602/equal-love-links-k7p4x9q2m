@@ -25,9 +25,19 @@ test("all member profile images are generated assets matching recorded hashes", 
 
 test("member image rendering uses the shared profile image resolver", () => {
   const app = fs.readFileSync(path.join(rootDir, "app.js"), "utf8");
+  const css = fs.readFileSync(path.join(rootDir, "style.css"), "utf8");
 
+  assert.match(app, /function resolveMemberImage/);
   assert.match(app, /function applyProfileImagesToMembers/);
   assert.match(app, /function createMemberImageTag/);
   assert.match(app, /members = applyProfileImagesToMembers/);
+  assert.match(app, /displayImage: resolvedImage\.displayImage/);
+  assert.match(app, /avatarImage: resolvedImage\.avatarImage/);
+  assert.match(app, /profileDisplayImage: resolvedImage\.profileDisplayImage/);
+  assert.match(app, /legacyImage: member\.image/);
+  assert.match(app, /data-image-role="\$\{role\}"/);
+  assert.match(app, /data-fallback-src="\$\{fallbackImage\}"/);
   assert.doesNotMatch(app, /<img class="(?:daily-pick-image|member-image|compact-member-image)" src="\$\{image\}"/);
+  assert.doesNotMatch(app, /<img class="member-profile-image" src="\$\{image\}"/);
+  assert.match(css, /object-position: var\(--member-image-position, 50% 24%\)/);
 });

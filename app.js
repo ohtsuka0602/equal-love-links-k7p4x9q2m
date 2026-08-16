@@ -977,8 +977,6 @@ function createMemberProfileSection() {
   const member = getMemberForProfile(profile);
   const name = escapeHtml(profile.name);
   const nameEn = profile.nameEn ? `<p class="member-profile-en">${escapeHtml(profile.nameEn)}</p>` : "";
-  const image = escapeHtml(createProfileImageSrc(profile, member));
-  const fallbackImage = escapeHtml(member?.fallbackImage || member?.image || profile.image || "assets/official-love.png");
   const ringStyle = member ? createColorRingStyle(member) : "";
   const colorLabel = member ? createColorLabel(member) : "";
   const birthday = formatProfileBirthday(profile.birthday);
@@ -1016,7 +1014,7 @@ function createMemberProfileSection() {
         <div class="member-profile-top">
           <button class="member-profile-nav" type="button" data-profile-prev aria-label="前のメンバー">‹</button>
           <div class="member-profile-image-wrap${ringStyle ? " color-ring" : ""}" ${ringStyle ? `style="${ringStyle}"` : ""}>
-            <img class="member-profile-image" src="${image}" alt="${name}" data-fallback-src="${fallbackImage}" loading="lazy" referrerpolicy="no-referrer">
+            ${createMemberImageTag("member-profile-image", member, profile.name, { profile, variant: "profile" })}
           </div>
           <button class="member-profile-nav" type="button" data-profile-next aria-label="次のメンバー">›</button>
         </div>
@@ -1046,52 +1044,86 @@ function createMemberProfileSection() {
   );
 }
 
-function createProfileImageSrc(profile, member) {
-  const source = profile?.image || member?.image || profile?.imageUrl || "assets/official-love.png";
-  const version = profile?.imageVersion || (profile?.imageSha256 ? String(profile.imageSha256).slice(0, 16) : "");
+function resolveMemberImage(member, profile, options = {}) {
+  const variant = options.variant === "profile" ? "profile" : "avatar";
+  const matchedProfile = profile || findProfileForMember(member);
+  const legacyFallback = member?.fallbackImage || member?.legacyImage || member?.image || "assets/official-love.png";
 
-  if (!version || !/^https?:\/\//i.test(source) || /^https?:\/\/equal-love\.jp\/image\/profile\//i.test(source)) {
-    return source;
+  if (member?.type && member.type !== "member") {
+    return {
+      sourceImageUrl: member.imageSourceUrl || "",
+      displayImage: member.image || "assets/official-love.png",
+      profileDisplayImage: member.image || "assets/official-love.png",
+      avatarImage: member.image || "assets/official-love.png",
+      fallbackImage: member.image || "assets/official-love.png",
+      imageSha256: "",
+      imageVersion: "",
+      objectPosition: "50% 50%",
+      variant,
+    };
   }
 
-  try {
-    const url = new URL(source);
-    url.searchParams.set("v", version);
-    return url.href;
-  } catch {
-    return source;
-  }
+  const generatedImage = matchedProfile?.image || "";
+  const displayImage = generatedImage || legacyFallback;
+
+  return {
+    sourceImageUrl: matchedProfile?.imageUrl || member?.imageSourceUrl || "",
+    displayImage,
+    profileDisplayImage: displayImage,
+    avatarImage: displayImage,
+    fallbackImage: legacyFallback,
+    imageSha256: matchedProfile?.imageSha256 || "",
+    imageVersion: matchedProfile?.imageVersion || "",
+    objectPosition: "50% 24%",
+    variant,
+  };
 }
 
 function applyProfileImagesToMembers(sourceMembers) {
-  const profilesById = new Map(memberProfiles.map((profile) => [profile.id, profile]).filter(([id]) => id));
-  const profilesByName = new Map(memberProfiles.map((profile) => [profile.name, profile]).filter(([name]) => name));
-
   return sourceMembers.map((member) => {
     if (member.type !== "member") {
       return member;
     }
 
-    const profile = profilesById.get(getProfileIdFromMember(member)) || profilesByName.get(member.name);
-    const profileImage = createProfileImageSrc(profile, member);
+    const resolvedImage = resolveMemberImage(member, null, { variant: "avatar" });
 
     return {
       ...member,
-      fallbackImage: member.image || "assets/official-love.png",
-      profileImageSourceUrl: profile?.imageUrl || "",
-      profileImageSha256: profile?.imageSha256 || "",
-      profileImageVersion: profile?.imageVersion || "",
-      image: profileImage || member.image || "assets/official-love.png",
+      legacyImage: member.image || "",
+      fallbackImage: resolvedImage.fallbackImage,
+      sourceImageUrl: resolvedImage.sourceImageUrl,
+      displayImage: resolvedImage.displayImage,
+      avatarImage: resolvedImage.avatarImage,
+      profileDisplayImage: resolvedImage.profileDisplayImage,
+      profileImageSourceUrl: resolvedImage.sourceImageUrl,
+      profileImageSha256: resolvedImage.imageSha256,
+      profileImageVersion: resolvedImage.imageVersion,
+      imageObjectPosition: resolvedImage.objectPosition,
+      image: resolvedImage.displayImage,
     };
   });
 }
 
-function createMemberImageTag(className, member, altText) {
-  const image = escapeHtml(member.image || "assets/official-love.png");
-  const fallbackImage = escapeHtml(member.fallbackImage || (member.type === "member" ? "assets/official-love.png" : member.image || "assets/official-love.png"));
-  const alt = escapeHtml(altText || member.name || "");
+function findProfileForMember(member) {
+  if (!member || member.type !== "member") {
+    return null;
+  }
 
-  return `<img class="${className}" src="${image}" alt="${alt}" data-fallback-src="${fallbackImage}" loading="lazy" referrerpolicy="no-referrer">`;
+  const profileId = getProfileIdFromMember(member);
+
+  return memberProfiles.find((profile) => profile.id === profileId || profile.name === member.name) || null;
+}
+
+function createMemberImageTag(className, member, altText, options = {}) {
+  const resolvedImage = resolveMemberImage(member, options.profile, { variant: options.variant });
+  const source = options.variant === "profile" ? resolvedImage.profileDisplayImage : resolvedImage.avatarImage;
+  const image = escapeHtml(source || resolvedImage.displayImage || "assets/official-love.png");
+  const fallbackImage = escapeHtml(resolvedImage.fallbackImage || "assets/official-love.png");
+  const alt = escapeHtml(altText || member?.name || "");
+  const position = escapeHtml(member?.imageObjectPosition || resolvedImage.objectPosition || "50% 24%");
+  const role = escapeHtml(options.variant === "profile" ? "profile" : "avatar");
+
+  return `<img class="${className}" src="${image}" alt="${alt}" data-image-role="${role}" data-fallback-src="${fallbackImage}" style="--member-image-position: ${position}" loading="lazy" referrerpolicy="no-referrer">`;
 }
 
 function getSelectedMemberProfile() {

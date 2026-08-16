@@ -194,11 +194,42 @@ test("downloaded profile images are written to generated assets", async () => {
   assert.equal(await fs.readFile(imagePath, "utf8"), "profile-image");
 });
 
+test("changed profile image content writes a new content-addressed asset and prunes the old one", async () => {
+  const workspace = await createWorkspace();
+  const oldImage = "assets/generated/profile-images/otani-emiri-old-image-hash.jpg";
+  const oldImagePath = path.join(workspace, oldImage);
+
+  await writeMembers(workspace);
+  await fs.mkdir(path.dirname(oldImagePath), { recursive: true });
+  await fs.writeFile(oldImagePath, "old-profile-image", "utf8");
+  await writeExistingProfiles(workspace, [
+    profile("otani-emiri", "OTANI EMIRI", {
+      image: oldImage,
+      imageSha256: "old-image-hash",
+      imageVersion: "old-image-hash",
+    }),
+  ]);
+  await writeProfiles(workspace, [member("otani_emiri", "OTANI EMIRI", "OTANI EMIRI")]);
+
+  await runFixture(workspace, ["otani_emiri"], "2026-07-20T06:45:00+09:00", {
+    imageMetadataFetcher: imageMetadata("new-content-hash", Buffer.from("new-profile-image")),
+  });
+  const output = await readJson(path.join(workspace, "data", "member-profiles.json"));
+  const image = output.profiles[0].image;
+
+  assert.equal(image, "assets/generated/profile-images/otani-emiri-new-content-hash.jpg");
+  assert.equal(await fs.readFile(path.join(workspace, image), "utf8"), "new-profile-image");
+  await assert.rejects(fs.access(oldImagePath));
+  assert.equal(output.profiles[0].imageSha256, "new-content-hash");
+  assert.equal(output.meta.updatedAt, "2026-07-19T21:45:00.000Z");
+});
+
 test("profile image metadata failure preserves existing image metadata", async () => {
   const workspace = await createWorkspace();
   await writeMembers(workspace);
   await writeExistingProfiles(workspace, [
     profile("otani-emiri", "螟ｧ隹ｷ 譏鄒朱㈹", {
+      image: "assets/generated/profile-images/otani-emiri-kept-image-hash.jpg",
       imageSha256: "kept-image-hash",
       imageVersion: "kept-image-hash",
       imageContentLength: "12345",
@@ -214,6 +245,7 @@ test("profile image metadata failure preserves existing image metadata", async (
   });
   const output = await readJson(path.join(workspace, "data", "member-profiles.json"));
 
+  assert.equal(output.profiles[0].image, "assets/generated/profile-images/otani-emiri-kept-image-hash.jpg");
   assert.equal(output.profiles[0].imageSha256, "kept-image-hash");
   assert.equal(output.profiles[0].imageVersion, "kept-image-hash");
   assert.equal(output.profiles[0].imageContentLength, "12345");
