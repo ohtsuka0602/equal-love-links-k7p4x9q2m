@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-08-17T09:23:09.321Z",
-    "updatedAt": "2026-08-17T09:23:09.321Z"
+    "checkedAt": "2026-08-17T14:45:13.006Z",
+    "updatedAt": "2026-08-17T14:45:13.006Z"
   },
   "news": [
+    {
+      "title": "【出演情報】Fm yokohama「Tresen」※瀧脇笙古",
+      "date": "2026-08-17",
+      "url": "https://sp.equal-love.jp/news/detail/11823",
+      "category": "メディア"
+    },
     {
       "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」FC2次先行チケット受付開始のお知らせ",
       "date": "2026-08-17",
@@ -57,12 +63,6 @@
       "date": "2026-08-12",
       "url": "https://sp.equal-love.jp/news/detail/11836",
       "category": "グッズ"
-    },
-    {
-      "title": "「STARフェス」＝LOVEの出演決定・FC先行受付のお知らせ",
-      "date": "2026-08-12",
-      "url": "https://sp.equal-love.jp/news/detail/11839",
-      "category": "ライブ/イベント"
     }
   ]
 }
