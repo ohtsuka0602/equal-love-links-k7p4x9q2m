@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-08-17T02:45:59.684Z",
-    "updatedAt": "2026-08-17T02:45:59.684Z"
+    "checkedAt": "2026-08-17T03:32:02.504Z",
+    "updatedAt": "2026-08-17T03:32:02.504Z"
   },
   "news": [
+    {
+      "title": "【出演情報】文化放送「矢吹奈子のレコメン！」※齋藤樹愛羅、山本杏奈",
+      "date": "2026-08-17",
+      "url": "https://sp.equal-love.jp/news/detail/11847",
+      "category": "メディア"
+    },
     {
       "title": "【掲載情報】サンケイスポーツ「BAY☆スタ」第42号※瀧脇笙古",
       "date": "2026-08-17",
@@ -56,12 +62,6 @@
       "title": "【出演情報】日本テレビ系「夜の音 -TOKYO MIDNIGHT MUSIC-」※＝LOVE",
       "date": "2026-08-12",
       "url": "https://sp.equal-love.jp/news/detail/11832",
-      "category": "メディア"
-    },
-    {
-      "title": "【出演情報】テレビ朝日系「EIGHT-JAM」※＝LOVE",
-      "date": "2026-08-10",
-      "url": "https://sp.equal-love.jp/news/detail/11834",
       "category": "メディア"
     }
   ]
