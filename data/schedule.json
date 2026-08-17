@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-08-16T20:44:26.968Z",
-    "updatedAt": "2026-08-16T20:44:26.968Z"
+    "checkedAt": "2026-08-17T02:44:29.163Z",
+    "updatedAt": "2026-08-17T02:44:29.163Z"
   },
   "schedule": [
     {
@@ -12,9 +12,23 @@
       "time": ""
     },
     {
+      "title": "フジテレビ・FODプレミアム「キミは...",
+      "date": "2026-08-17",
+      "url": "https://equal-love.jp/schedule/detail/11682",
+      "category": "メディア",
+      "time": ""
+    },
+    {
       "title": "日本テレビ系「夜の音 -TOKYO ...",
       "date": "2026-08-18",
       "url": "https://equal-love.jp/schedule/detail/11833",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "サンケイスポーツ「BAY☆スタ」第4...",
+      "date": "2026-08-18",
+      "url": "https://equal-love.jp/schedule/detail/11838",
       "category": "メディア",
       "time": ""
     },
@@ -33,6 +47,13 @@
       "time": ""
     },
     {
+      "title": "「Ray 2026年10月号」※音嶋...",
+      "date": "2026-08-21",
+      "url": "https://equal-love.jp/schedule/detail/11728",
+      "category": "メディア",
+      "time": ""
+    },
+    {
       "title": "集英社「MYOJO 10月号」※大谷...",
       "date": "2026-08-21",
       "url": "https://equal-love.jp/schedule/detail/11079",
@@ -47,31 +68,10 @@
       "time": ""
     },
     {
-      "title": "「Ray 2026年10月号」※音嶋...",
-      "date": "2026-08-21",
-      "url": "https://equal-love.jp/schedule/detail/11728",
-      "category": "メディア",
-      "time": ""
-    },
-    {
       "title": "MBSラジオ「アッパレやってまーす！...",
       "date": "2026-08-22",
       "url": "https://equal-love.jp/schedule/detail/10543",
       "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "FM NACK5「FAV FOUR...",
-      "date": "2026-08-24",
-      "url": "https://equal-love.jp/schedule/detail/11850",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "握手会 ＝LOVE 21stシングル発売記念...",
-      "date": "2026-08-25",
-      "url": "https://equal-love.jp/schedule/detail/11710",
-      "category": "",
       "time": ""
     }
   ]
