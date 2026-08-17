@@ -1,16 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-08-17T02:44:29.163Z",
-    "updatedAt": "2026-08-17T02:44:29.163Z"
+    "checkedAt": "2026-08-17T08:44:32.293Z",
+    "updatedAt": "2026-08-17T08:44:32.293Z"
   },
   "schedule": [
-    {
-      "title": "ニッポン放送「＝LOVEのイコラフ」",
-      "date": "2026-08-17",
-      "url": "https://equal-love.jp/schedule/detail/10438",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "フジテレビ・FODプレミアム「キミは...",
       "date": "2026-08-17",
@@ -19,9 +12,9 @@
       "time": ""
     },
     {
-      "title": "日本テレビ系「夜の音 -TOKYO ...",
-      "date": "2026-08-18",
-      "url": "https://equal-love.jp/schedule/detail/11833",
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "date": "2026-08-17",
+      "url": "https://equal-love.jp/schedule/detail/10438",
       "category": "メディア",
       "time": ""
     },
@@ -29,6 +22,13 @@
       "title": "サンケイスポーツ「BAY☆スタ」第4...",
       "date": "2026-08-18",
       "url": "https://equal-love.jp/schedule/detail/11838",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "日本テレビ系「夜の音 -TOKYO ...",
+      "date": "2026-08-18",
+      "url": "https://equal-love.jp/schedule/detail/11833",
       "category": "メディア",
       "time": ""
     },
