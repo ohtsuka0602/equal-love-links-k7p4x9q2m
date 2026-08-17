@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-08-16T20:57:04.074Z",
-    "updatedAt": "2026-08-15T14:57:25.971Z"
+    "checkedAt": "2026-08-17T02:45:59.684Z",
+    "updatedAt": "2026-08-17T02:45:59.684Z"
   },
   "news": [
+    {
+      "title": "【掲載情報】サンケイスポーツ「BAY☆スタ」第42号※瀧脇笙古",
+      "date": "2026-08-17",
+      "url": "https://sp.equal-love.jp/news/detail/11837",
+      "category": "メディア"
+    },
     {
       "title": "【出演情報】日本テレビ「サクサクヒムヒム☆推しの降る夜☆」※大谷映美里",
       "date": "2026-08-15",
@@ -57,12 +63,6 @@
       "date": "2026-08-10",
       "url": "https://sp.equal-love.jp/news/detail/11834",
       "category": "メディア"
-    },
-    {
-      "title": "【＝LOVE Official Fan Club】音嶋莉沙へのバースデーメッセージを募集♪",
-      "date": "2026-08-10",
-      "url": "https://sp.equal-love.jp/news/detail/11718",
-      "category": "お知らせ"
     }
   ]
 }
