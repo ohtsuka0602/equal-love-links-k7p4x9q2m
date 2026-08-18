@@ -1,9 +1,16 @@
 {
   "meta": {
-    "checkedAt": "2026-08-18T02:46:17.922Z",
-    "updatedAt": "2026-08-18T02:46:17.922Z"
+    "checkedAt": "2026-08-18T08:44:25.173Z",
+    "updatedAt": "2026-08-18T08:44:25.173Z"
   },
   "schedule": [
+    {
+      "title": "TOKYO FM「Hand in H...",
+      "date": "2026-08-18",
+      "url": "https://equal-love.jp/schedule/detail/11732",
+      "category": "メディア",
+      "time": ""
+    },
     {
       "title": "日本テレビ系「夜の音 -TOKYO ...",
       "date": "2026-08-18",
@@ -15,13 +22,6 @@
       "title": "サンケイスポーツ「BAY☆スタ」第4...",
       "date": "2026-08-18",
       "url": "https://equal-love.jp/schedule/detail/11838",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "TOKYO FM「Hand in H...",
-      "date": "2026-08-18",
-      "url": "https://equal-love.jp/schedule/detail/11732",
       "category": "メディア",
       "time": ""
     },
@@ -40,6 +40,13 @@
       "time": ""
     },
     {
+      "title": "Artistspoken「イマフレラ...",
+      "date": "2026-08-21",
+      "url": "https://equal-love.jp/schedule/detail/10734",
+      "category": "メディア",
+      "time": ""
+    },
+    {
       "title": "「Ray 2026年10月号」※音嶋...",
       "date": "2026-08-21",
       "url": "https://equal-love.jp/schedule/detail/11728",
@@ -54,9 +61,9 @@
       "time": ""
     },
     {
-      "title": "Artistspoken「イマフレラ...",
-      "date": "2026-08-21",
-      "url": "https://equal-love.jp/schedule/detail/10734",
+      "title": "NHK総合「うたコン」再放送※＝LO...",
+      "date": "2026-08-22",
+      "url": "https://equal-love.jp/schedule/detail/11862",
       "category": "メディア",
       "time": ""
     },
@@ -64,13 +71,6 @@
       "title": "MBSラジオ「アッパレやってまーす！...",
       "date": "2026-08-22",
       "url": "https://equal-love.jp/schedule/detail/10543",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "FM NACK5「FAV FOUR...",
-      "date": "2026-08-24",
-      "url": "https://equal-love.jp/schedule/detail/11850",
       "category": "メディア",
       "time": ""
     }
