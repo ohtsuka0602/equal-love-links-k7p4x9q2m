@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-08-17T20:46:02.479Z",
-    "updatedAt": "2026-08-17T20:46:02.479Z"
+    "checkedAt": "2026-08-18T02:46:17.922Z",
+    "updatedAt": "2026-08-18T02:46:17.922Z"
   },
   "schedule": [
     {
@@ -15,6 +15,13 @@
       "title": "サンケイスポーツ「BAY☆スタ」第4...",
       "date": "2026-08-18",
       "url": "https://equal-love.jp/schedule/detail/11838",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "TOKYO FM「Hand in H...",
+      "date": "2026-08-18",
+      "url": "https://equal-love.jp/schedule/detail/11732",
       "category": "メディア",
       "time": ""
     },
@@ -65,13 +72,6 @@
       "date": "2026-08-24",
       "url": "https://equal-love.jp/schedule/detail/11850",
       "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "握手会 ＝LOVE 21stシングル発売記念...",
-      "date": "2026-08-25",
-      "url": "https://equal-love.jp/schedule/detail/11710",
-      "category": "",
       "time": ""
     }
   ]
