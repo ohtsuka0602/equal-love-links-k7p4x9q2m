@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-08-18T02:45:33.525Z",
-    "updatedAt": "2026-08-17T14:45:13.006Z"
+    "checkedAt": "2026-08-18T03:32:39.421Z",
+    "updatedAt": "2026-08-18T03:32:39.421Z"
   },
   "news": [
+    {
+      "title": "【出演情報】「GIFT 〜Girls Idol Festival Tokyo〜」に＝LOVEの出演が決定！",
+      "date": "2026-08-18",
+      "url": "https://sp.equal-love.jp/news/detail/11851",
+      "category": "ライブ/イベント"
+    },
     {
       "title": "【出演情報】Fm yokohama「Tresen」※瀧脇笙古",
       "date": "2026-08-17",
@@ -57,12 +63,6 @@
       "date": "2026-08-13",
       "url": "https://sp.equal-love.jp/news/detail/11668",
       "category": "メディア"
-    },
-    {
-      "title": "生写真セット(20thcw「お姫様の作り方」②)発売！",
-      "date": "2026-08-12",
-      "url": "https://sp.equal-love.jp/news/detail/11836",
-      "category": "グッズ"
     }
   ]
 }
