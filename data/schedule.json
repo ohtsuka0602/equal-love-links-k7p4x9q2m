@@ -1,16 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-08-19T14:56:20.020Z",
-    "updatedAt": "2026-08-18T20:44:35.807Z"
+    "checkedAt": "2026-08-19T20:53:01.247Z",
+    "updatedAt": "2026-08-19T20:53:01.247Z"
   },
   "schedule": [
-    {
-      "title": "握手会 ＝LOVE 21stシングル発売記念...",
-      "date": "2026-08-19",
-      "url": "https://equal-love.jp/schedule/detail/11759",
-      "category": "",
-      "time": ""
-    },
     {
       "title": "握手会 ＝LOVE 21stシングル発売記念...",
       "date": "2026-08-20",
@@ -72,6 +65,13 @@
       "date": "2026-08-26",
       "url": "https://equal-love.jp/schedule/detail/11848",
       "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "【発売日】＝LOVE 21stシング...",
+      "date": "2026-08-26",
+      "url": "https://equal-love.jp/schedule/detail/11816",
+      "category": "リリース",
       "time": ""
     }
   ]
