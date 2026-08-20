@@ -1,23 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-08-20T14:53:25.636Z",
-    "updatedAt": "2026-08-20T02:54:06.568Z"
+    "checkedAt": "2026-08-20T20:43:43.357Z",
+    "updatedAt": "2026-08-20T20:43:43.357Z"
   },
   "schedule": [
-    {
-      "title": "握手会 ＝LOVE 21stシングル発売記念...",
-      "date": "2026-08-20",
-      "url": "https://equal-love.jp/schedule/detail/11760",
-      "category": "",
-      "time": ""
-    },
-    {
-      "title": "フジテレビ ONE「プロ野球ニュース...",
-      "date": "2026-08-20",
-      "url": "https://equal-love.jp/schedule/detail/11445",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "「Ray 2026年10月号」※音嶋...",
       "date": "2026-08-21",
@@ -71,6 +57,20 @@
       "title": "文化放送「矢吹奈子のレコメン！」※齋...",
       "date": "2026-08-26",
       "url": "https://equal-love.jp/schedule/detail/11848",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "【発売日】＝LOVE 21stシング...",
+      "date": "2026-08-26",
+      "url": "https://equal-love.jp/schedule/detail/11816",
+      "category": "リリース",
+      "time": ""
+    },
+    {
+      "title": "Fm yokohama「Tresen...",
+      "date": "2026-08-27",
+      "url": "https://equal-love.jp/schedule/detail/11824",
       "category": "メディア",
       "time": ""
     }
