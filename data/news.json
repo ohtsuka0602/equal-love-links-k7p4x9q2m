@@ -1,9 +1,27 @@
 {
   "meta": {
-    "checkedAt": "2026-08-21T03:34:39.644Z",
-    "updatedAt": "2026-08-21T02:44:23.762Z"
+    "checkedAt": "2026-08-21T08:44:28.308Z",
+    "updatedAt": "2026-08-21T08:44:28.308Z"
   },
   "news": [
+    {
+      "title": "ファンの皆様への大切なお願い",
+      "date": "2026-08-21",
+      "url": "https://sp.equal-love.jp/news/detail/11872",
+      "category": "お知らせ"
+    },
+    {
+      "title": "SBS「인기가요(人気歌謡)」番組観覧ご招待のお知らせ",
+      "date": "2026-08-21",
+      "url": "https://sp.equal-love.jp/news/detail/11876",
+      "category": "ライブ/イベント"
+    },
+    {
+      "title": "【出演情報】SBS「인기가요(人気歌謡)」※＝LOVE",
+      "date": "2026-08-21",
+      "url": "https://sp.equal-love.jp/news/detail/11870",
+      "category": "メディア"
+    },
     {
       "title": "【出演情報】NHK「NHK 夏の音楽祭 うたであえたら 2026」再放送※＝LOVE",
       "date": "2026-08-21",
@@ -45,24 +63,6 @@
       "date": "2026-08-18",
       "url": "https://sp.equal-love.jp/news/detail/11855",
       "category": "リリース"
-    },
-    {
-      "title": "【出演情報】NHK総合「うたコン」再放送※＝LOVE",
-      "date": "2026-08-18",
-      "url": "https://sp.equal-love.jp/news/detail/11861",
-      "category": "メディア"
-    },
-    {
-      "title": "【出演情報】「GIFT 〜Girls Idol Festival Tokyo〜」に＝LOVEの出演が決定！",
-      "date": "2026-08-18",
-      "url": "https://sp.equal-love.jp/news/detail/11851",
-      "category": "ライブ/イベント"
-    },
-    {
-      "title": "【出演情報】Fm yokohama「Tresen」※瀧脇笙古",
-      "date": "2026-08-17",
-      "url": "https://sp.equal-love.jp/news/detail/11823",
-      "category": "メディア"
     }
   ]
 }
