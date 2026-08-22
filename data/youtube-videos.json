@@ -1,9 +1,22 @@
 {
   "meta": {
-    "checkedAt": "2026-08-22T09:02:24.983Z",
-    "updatedAt": "2026-08-22T08:44:21.150Z"
+    "checkedAt": "2026-08-22T14:45:01.011Z",
+    "updatedAt": "2026-08-22T14:45:01.011Z"
   },
   "videos": [
+    {
+      "videoId": "IQyrVB__Ygg",
+      "title": "【三軒茶屋】とにかくビールだけを飲み続ける夏のはしご酒",
+      "url": "https://www.youtube.com/watch?v=IQyrVB__Ygg",
+      "thumbnail": "https://i.ytimg.com/vi/IQyrVB__Ygg/maxresdefault.jpg",
+      "publishedAt": "2026-08-22T10:00:22Z",
+      "channelId": "UC0r-2f003yXdV5En7qHlrGw",
+      "channelName": "つんはしご",
+      "sourceName": "諸橋 沙夏",
+      "memberNames": [
+        "諸橋 沙夏"
+      ]
+    },
     {
       "videoId": "xF6DGQszors",
       "title": "“사랑, 시작했습니다.” MV공개중💘˒˒「恋、はじめました。」MV公開中💘˒˒#사랑시작했습니다#이코러브#イコラブ #イコールラブ",
@@ -49,17 +62,6 @@
       "memberNames": [
         "大谷 映美里"
       ]
-    },
-    {
-      "videoId": "V81fRKV4D2g",
-      "title": "＝LOVE（イコールラブ）/ 21st Single『恋、はじめました。』2026.08.03 TBS系 CDTVライブ！ライブ！【期間限定公開】",
-      "url": "https://www.youtube.com/watch?v=V81fRKV4D2g",
-      "thumbnail": "https://i.ytimg.com/vi/V81fRKV4D2g/maxresdefault.jpg",
-      "publishedAt": "2026-08-17T13:00:20Z",
-      "channelId": "UCv7VutirxDn3RWIJXI68n_A",
-      "channelName": "＝LOVE（イコールラブ）公式チャンネル",
-      "sourceName": "=LOVE オフィシャル",
-      "memberNames": []
     }
   ]
 }

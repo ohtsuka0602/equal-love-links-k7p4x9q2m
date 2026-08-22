@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-08-22T09:02:30.890Z",
-    "updatedAt": "2026-08-21T08:44:28.308Z"
+    "checkedAt": "2026-08-22T14:45:07.403Z",
+    "updatedAt": "2026-08-22T14:45:07.403Z"
   },
   "news": [
+    {
+      "title": "【出演情報】NHK総合「Venue101」※＝LOVE",
+      "date": "2026-08-22",
+      "url": "https://sp.equal-love.jp/news/detail/11877",
+      "category": "メディア"
+    },
     {
       "title": "ファンの皆様への大切なお願い",
       "date": "2026-08-21",
@@ -57,12 +63,6 @@
       "date": "2026-08-18",
       "url": "https://sp.equal-love.jp/news/detail/11857",
       "category": ""
-    },
-    {
-      "title": "＝LOVE 8周年ツアー「＝LOVE 8th ANNIVERSARY PREMIUM TOUR」FINAL in 横浜スタジアム 映像商品発売決定！",
-      "date": "2026-08-18",
-      "url": "https://sp.equal-love.jp/news/detail/11855",
-      "category": "リリース"
     }
   ]
 }
