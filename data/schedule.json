@@ -1,23 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-08-22T14:45:46.482Z",
-    "updatedAt": "2026-08-22T14:36:12.938Z"
+    "checkedAt": "2026-08-22T20:45:54.665Z",
+    "updatedAt": "2026-08-22T20:45:54.665Z"
   },
   "schedule": [
-    {
-      "title": "NHK総合「うたコン」再放送※＝LO...",
-      "date": "2026-08-22",
-      "url": "https://equal-love.jp/schedule/detail/11862",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "MBSラジオ「アッパレやってまーす！...",
-      "date": "2026-08-22",
-      "url": "https://equal-love.jp/schedule/detail/10543",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "SBS「인기가요(人気歌謡)」※＝L...",
       "date": "2026-08-23",
@@ -71,6 +57,20 @@
       "title": "Prime Video『賞金1億円の...",
       "date": "2026-08-28",
       "url": "https://equal-love.jp/schedule/detail/11797",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "Artistspoken「イマフレラ...",
+      "date": "2026-08-28",
+      "url": "https://equal-love.jp/schedule/detail/10735",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "NHK「NHK 夏の音楽祭 うたであ...",
+      "date": "2026-08-29",
+      "url": "https://equal-love.jp/schedule/detail/11868",
       "category": "メディア",
       "time": ""
     }
