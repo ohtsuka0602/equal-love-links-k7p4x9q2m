@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-08-22T20:57:53.685Z",
-    "updatedAt": "2026-08-22T14:45:07.403Z"
+    "checkedAt": "2026-08-23T02:45:56.030Z",
+    "updatedAt": "2026-08-23T02:45:56.030Z"
   },
   "news": [
+    {
+      "title": "【掲載情報】集英社「MYOJO 11月号」※瀧脇笙古",
+      "date": "2026-08-23",
+      "url": "https://sp.equal-love.jp/news/detail/11080",
+      "category": "メディア"
+    },
     {
       "title": "【出演情報】NHK総合「Venue101」※＝LOVE",
       "date": "2026-08-22",
@@ -57,12 +63,6 @@
       "date": "2026-08-19",
       "url": "https://sp.equal-love.jp/news/detail/11863",
       "category": "お知らせ"
-    },
-    {
-      "title": "握手会2026.08.18New! ＝LOVE映像商品 ＝LOVE 8周年ツアー「＝LOVE 8th ANNIVERSARY PREMIUM TOUR」FINAL in 横浜スタジアム 発売記念オンライン個別サイン会 開催決定!",
-      "date": "2026-08-18",
-      "url": "https://sp.equal-love.jp/news/detail/11857",
-      "category": ""
     }
   ]
 }
