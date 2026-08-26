@@ -1,9 +1,27 @@
 {
   "meta": {
-    "checkedAt": "2026-08-26T03:38:13.611Z",
-    "updatedAt": "2026-08-26T03:38:13.611Z"
+    "checkedAt": "2026-08-26T09:24:19.338Z",
+    "updatedAt": "2026-08-26T09:24:19.338Z"
   },
   "news": [
+    {
+      "title": "【出演情報】ミュージック・ジャパンTV「＝LOVE スペシャル」",
+      "date": "2026-08-26",
+      "url": "https://sp.equal-love.jp/news/detail/11881",
+      "category": "メディア"
+    },
+    {
+      "title": "所属タレントに対する誹謗中傷等への対応について",
+      "date": "2026-08-26",
+      "url": "https://sp.equal-love.jp/news/detail/11897",
+      "category": "お知らせ"
+    },
+    {
+      "title": "【出演情報】「INKIGAYO LIVE in TOKYO」＝LOVEの出演が決定！",
+      "date": "2026-08-26",
+      "url": "https://sp.equal-love.jp/news/detail/11885",
+      "category": "ライブ/イベント"
+    },
     {
       "title": "【出演情報】今年で35周年を迎えるマクドナルドの月見ファミリーより、月見スイーツの「北海道産バターとあんことおもちの月見パイ」の新CMに佐々木舞香の出演が決定いたしました！",
       "date": "2026-08-26",
@@ -45,24 +63,6 @@
       "date": "2026-08-21",
       "url": "https://sp.equal-love.jp/news/detail/11876",
       "category": "ライブ/イベント"
-    },
-    {
-      "title": "【出演情報】SBS「인기가요(人気歌謡)」※＝LOVE",
-      "date": "2026-08-21",
-      "url": "https://sp.equal-love.jp/news/detail/11870",
-      "category": "メディア"
-    },
-    {
-      "title": "【出演情報】NHK「NHK 夏の音楽祭 うたであえたら 2026」再放送※＝LOVE",
-      "date": "2026-08-21",
-      "url": "https://sp.equal-love.jp/news/detail/11867",
-      "category": "メディア"
-    },
-    {
-      "title": "『恋、はじめました。』Spotify Canvasシェアキャンペーン実施決定！",
-      "date": "2026-08-20",
-      "url": "https://sp.equal-love.jp/news/detail/11869",
-      "category": "お知らせ"
     }
   ]
 }
