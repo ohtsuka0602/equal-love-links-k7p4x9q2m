@@ -1,27 +1,20 @@
 {
   "meta": {
-    "checkedAt": "2026-08-25T15:02:31.068Z",
-    "updatedAt": "2026-08-25T15:02:31.068Z"
+    "checkedAt": "2026-08-26T20:45:47.815Z",
+    "updatedAt": "2026-08-26T20:45:47.815Z"
   },
   "schedule": [
-    {
-      "title": "【発売日】＝LOVE 21stシング...",
-      "date": "2026-08-26",
-      "url": "https://equal-love.jp/schedule/detail/11880",
-      "category": "リリース",
-      "time": ""
-    },
-    {
-      "title": "文化放送「矢吹奈子のレコメン！」※齋...",
-      "date": "2026-08-26",
-      "url": "https://equal-love.jp/schedule/detail/11848",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "Fm yokohama「Tresen...",
       "date": "2026-08-27",
       "url": "https://equal-love.jp/schedule/detail/11824",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "SHOWROOM『＝LOVE 山本杏...",
+      "date": "2026-08-27",
+      "url": "https://equal-love.jp/schedule/detail/10491",
       "category": "メディア",
       "time": ""
     },
@@ -47,6 +40,13 @@
       "time": ""
     },
     {
+      "title": "リスパ「#イコラブとリスパ」",
+      "date": "2026-08-28",
+      "url": "https://equal-love.jp/schedule/detail/11896",
+      "category": "メディア",
+      "time": ""
+    },
+    {
       "title": "NHK「NHK 夏の音楽祭 うたであ...",
       "date": "2026-08-29",
       "url": "https://equal-love.jp/schedule/detail/11868",
@@ -54,16 +54,16 @@
       "time": ""
     },
     {
-      "title": "NHK総合「Venue101」※＝L...",
+      "title": "MBSラジオ「アッパレやってまーす！...",
       "date": "2026-08-29",
-      "url": "https://equal-love.jp/schedule/detail/11878",
+      "url": "https://equal-love.jp/schedule/detail/10544",
       "category": "メディア",
       "time": ""
     },
     {
-      "title": "MBSラジオ「アッパレやってまーす！...",
+      "title": "NHK総合「Venue101」※＝L...",
       "date": "2026-08-29",
-      "url": "https://equal-love.jp/schedule/detail/10544",
+      "url": "https://equal-love.jp/schedule/detail/11878",
       "category": "メディア",
       "time": ""
     },
