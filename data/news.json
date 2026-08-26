@@ -1,9 +1,21 @@
 {
   "meta": {
-    "checkedAt": "2026-08-26T09:24:19.338Z",
-    "updatedAt": "2026-08-26T09:24:19.338Z"
+    "checkedAt": "2026-08-26T16:06:13.611Z",
+    "updatedAt": "2026-08-26T16:06:13.611Z"
   },
   "news": [
+    {
+      "title": "リスパ「#イコラブとリスパ」ライブ配信が決定！",
+      "date": "2026-08-26",
+      "url": "https://sp.equal-love.jp/news/detail/11895",
+      "category": "メディア"
+    },
+    {
+      "title": "＝LOVE 21stシングル「恋、はじめました。」楽天ミュージック再生キャンペーン実施決定！",
+      "date": "2026-08-26",
+      "url": "https://sp.equal-love.jp/news/detail/11898",
+      "category": "お知らせ"
+    },
     {
       "title": "【出演情報】ミュージック・ジャパンTV「＝LOVE スペシャル」",
       "date": "2026-08-26",
@@ -51,18 +63,6 @@
       "date": "2026-08-22",
       "url": "https://sp.equal-love.jp/news/detail/11877",
       "category": "メディア"
-    },
-    {
-      "title": "ファンの皆様への大切なお願い",
-      "date": "2026-08-21",
-      "url": "https://sp.equal-love.jp/news/detail/11872",
-      "category": "お知らせ"
-    },
-    {
-      "title": "SBS「인기가요(人気歌謡)」番組観覧ご招待のお知らせ",
-      "date": "2026-08-21",
-      "url": "https://sp.equal-love.jp/news/detail/11876",
-      "category": "ライブ/イベント"
     }
   ]
 }
