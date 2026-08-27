@@ -1,30 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-08-27T14:44:15.534Z",
-    "updatedAt": "2026-08-27T02:44:11.527Z"
+    "checkedAt": "2026-08-27T20:45:57.543Z",
+    "updatedAt": "2026-08-27T20:45:57.543Z"
   },
   "schedule": [
-    {
-      "title": "Fm yokohama「Tresen...",
-      "date": "2026-08-27",
-      "url": "https://equal-love.jp/schedule/detail/11824",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "フジテレビ ONE「プロ野球ニュース...",
-      "date": "2026-08-27",
-      "url": "https://equal-love.jp/schedule/detail/11446",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "SHOWROOM『＝LOVE 山本杏...",
-      "date": "2026-08-27",
-      "url": "https://equal-love.jp/schedule/detail/10491",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "テレビ朝日系「ミュージックステーショ...",
       "date": "2026-08-28",
@@ -71,6 +50,13 @@
       "title": "NHK総合「Venue101」※＝L...",
       "date": "2026-08-29",
       "url": "https://equal-love.jp/schedule/detail/11878",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "date": "2026-08-31",
+      "url": "https://equal-love.jp/schedule/detail/10440",
       "category": "メディア",
       "time": ""
     }
