@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-08-28T20:45:39.470Z",
-    "updatedAt": "2026-08-28T14:45:05.277Z"
+    "checkedAt": "2026-08-28T23:41:22.121Z",
+    "updatedAt": "2026-08-28T23:41:22.121Z"
   },
   "news": [
+    {
+      "title": "【出演情報】日本テレビ系「バズリズム02」※＝LOVE",
+      "date": "2026-08-29",
+      "url": "https://sp.equal-love.jp/news/detail/11901",
+      "category": "メディア"
+    },
     {
       "title": "【掲載情報】音楽ナタリー※＝LOVE",
       "date": "2026-08-28",
@@ -57,12 +63,6 @@
       "date": "2026-08-25",
       "url": "https://sp.equal-love.jp/news/detail/11889",
       "category": "お知らせ"
-    },
-    {
-      "title": "8/26(水)発売 ＝LOVE 21stシングル 「恋、はじめました。」 収録内容公開！",
-      "date": "2026-08-25",
-      "url": "https://sp.equal-love.jp/news/detail/11879",
-      "category": "リリース"
     }
   ]
 }
