@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-08-28T14:35:54.229Z",
-    "updatedAt": "2026-08-28T14:35:54.229Z"
+    "checkedAt": "2026-08-28T14:45:05.277Z",
+    "updatedAt": "2026-08-28T14:45:05.277Z"
   },
   "news": [
+    {
+      "title": "【掲載情報】音楽ナタリー※＝LOVE",
+      "date": "2026-08-28",
+      "url": "https://sp.equal-love.jp/news/detail/11903",
+      "category": "メディア"
+    },
     {
       "title": "マヂラブ・野口衣織のマヂでラブになるTV 公開収録2026～もともと配信していたサイトがサ終になって番組も終わりかけたけど、なんかまだギリ生き残ってる件～の詳細が決定！",
       "date": "2026-08-28",
@@ -57,12 +63,6 @@
       "date": "2026-08-25",
       "url": "https://sp.equal-love.jp/news/detail/11879",
       "category": "リリース"
-    },
-    {
-      "title": "【掲載情報】集英社「MYOJO 11月号」※瀧脇笙古",
-      "date": "2026-08-23",
-      "url": "https://sp.equal-love.jp/news/detail/11080",
-      "category": "メディア"
     }
   ]
 }
