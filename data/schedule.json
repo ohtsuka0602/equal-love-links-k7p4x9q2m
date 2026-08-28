@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-08-28T08:44:14.917Z",
-    "updatedAt": "2026-08-27T20:45:57.543Z"
+    "checkedAt": "2026-08-28T14:45:45.852Z",
+    "updatedAt": "2026-08-28T14:45:45.852Z"
   },
   "schedule": [
     {
@@ -33,9 +33,9 @@
       "time": ""
     },
     {
-      "title": "MBSラジオ「アッパレやってまーす！...",
-      "date": "2026-08-29",
-      "url": "https://equal-love.jp/schedule/detail/10544",
+      "title": "音楽ナタリー※＝LOVE",
+      "date": "2026-08-28",
+      "url": "https://equal-love.jp/schedule/detail/11904",
       "category": "メディア",
       "time": ""
     },
@@ -43,6 +43,13 @@
       "title": "NHK「NHK 夏の音楽祭 うたであ...",
       "date": "2026-08-29",
       "url": "https://equal-love.jp/schedule/detail/11868",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "MBSラジオ「アッパレやってまーす！...",
+      "date": "2026-08-29",
+      "url": "https://equal-love.jp/schedule/detail/10544",
       "category": "メディア",
       "time": ""
     },
