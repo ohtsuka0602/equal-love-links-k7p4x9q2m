@@ -1,9 +1,33 @@
 {
   "meta": {
-    "checkedAt": "2026-08-29T09:22:59.052Z",
-    "updatedAt": "2026-08-28T14:35:48.503Z"
+    "checkedAt": "2026-08-29T14:44:53.121Z",
+    "updatedAt": "2026-08-29T14:44:53.121Z"
   },
   "videos": [
+    {
+      "videoId": "kEn98L5fFak",
+      "title": "＝LOVE（イコールラブ）/ 21st Single『恋、はじめました。』360° Video version",
+      "url": "https://www.youtube.com/watch?v=kEn98L5fFak",
+      "thumbnail": "https://i.ytimg.com/vi/kEn98L5fFak/maxresdefault.jpg",
+      "publishedAt": "2026-08-29T11:00:19Z",
+      "channelId": "UCv7VutirxDn3RWIJXI68n_A",
+      "channelName": "＝LOVE（イコールラブ）公式チャンネル",
+      "sourceName": "=LOVE オフィシャル",
+      "memberNames": []
+    },
+    {
+      "videoId": "gY3pMOA-WUY",
+      "title": "夏！浴衣！焼肉！みりにゃ！",
+      "url": "https://www.youtube.com/watch?v=gY3pMOA-WUY",
+      "thumbnail": "https://i.ytimg.com/vi/gY3pMOA-WUY/maxresdefault.jpg",
+      "publishedAt": "2026-08-29T10:00:34Z",
+      "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
+      "channelName": "みりにゃと申します。",
+      "sourceName": "大谷 映美里",
+      "memberNames": [
+        "大谷 映美里"
+      ]
+    },
     {
       "videoId": "usry25cSTBQ",
       "title": "＝LOVE（イコールラブ）/ 21st Single『恋、はじめました。』Position Shuffle version",
@@ -38,28 +62,6 @@
       "memberNames": [
         "音嶋 莉沙"
       ]
-    },
-    {
-      "videoId": "LtnNcvZYB-Q",
-      "title": "＝LOVE（イコールラブ）/ 21st Single『恋、はじめました。』One-Take Dance version",
-      "url": "https://www.youtube.com/watch?v=LtnNcvZYB-Q",
-      "thumbnail": "https://i.ytimg.com/vi/LtnNcvZYB-Q/maxresdefault.jpg",
-      "publishedAt": "2026-08-26T11:00:27Z",
-      "channelId": "UCv7VutirxDn3RWIJXI68n_A",
-      "channelName": "＝LOVE（イコールラブ）公式チャンネル",
-      "sourceName": "=LOVE オフィシャル",
-      "memberNames": []
-    },
-    {
-      "videoId": "RjHjQlEjs_E",
-      "title": "＝LOVE（イコールラブ）/ 21st Single c/w『夢の続き』【MV full】",
-      "url": "https://www.youtube.com/watch?v=RjHjQlEjs_E",
-      "thumbnail": "https://i.ytimg.com/vi/RjHjQlEjs_E/maxresdefault.jpg",
-      "publishedAt": "2026-08-25T11:00:27Z",
-      "channelId": "UCv7VutirxDn3RWIJXI68n_A",
-      "channelName": "＝LOVE（イコールラブ）公式チャンネル",
-      "sourceName": "=LOVE オフィシャル",
-      "memberNames": []
     }
   ]
 }
