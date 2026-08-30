@@ -1,9 +1,33 @@
 {
   "meta": {
-    "checkedAt": "2026-08-30T08:44:58.817Z",
-    "updatedAt": "2026-08-29T14:44:53.121Z"
+    "checkedAt": "2026-08-30T14:00:08.845Z",
+    "updatedAt": "2026-08-30T14:00:08.845Z"
   },
   "videos": [
+    {
+      "videoId": "6TDaGcSbm9M",
+      "title": "＝LOVE（イコールラブ）/ 21st SingleType A・Type B 収録『齋藤樹愛羅presents 東京プレミアムツアー』【YouTube EDIT】",
+      "url": "https://www.youtube.com/watch?v=6TDaGcSbm9M",
+      "thumbnail": "https://i.ytimg.com/vi/6TDaGcSbm9M/maxresdefault.jpg",
+      "publishedAt": "2026-08-30T13:00:04Z",
+      "channelId": "UCv7VutirxDn3RWIJXI68n_A",
+      "channelName": "＝LOVE（イコールラブ）公式チャンネル",
+      "sourceName": "=LOVE オフィシャル",
+      "memberNames": []
+    },
+    {
+      "videoId": "dP9N7HnPTmU",
+      "title": "誕生日当日のソロ宅飲み【おめでとう自分】",
+      "url": "https://www.youtube.com/watch?v=dP9N7HnPTmU",
+      "thumbnail": "https://i.ytimg.com/vi/dP9N7HnPTmU/maxresdefault.jpg",
+      "publishedAt": "2026-08-30T10:00:04Z",
+      "channelId": "UC0r-2f003yXdV5En7qHlrGw",
+      "channelName": "つんはしご",
+      "sourceName": "諸橋 沙夏",
+      "memberNames": [
+        "諸橋 沙夏"
+      ]
+    },
     {
       "videoId": "kEn98L5fFak",
       "title": "＝LOVE（イコールラブ）/ 21st Single『恋、はじめました。』360° Video version",
@@ -38,30 +62,6 @@
       "channelName": "＝LOVE（イコールラブ）公式チャンネル",
       "sourceName": "=LOVE オフィシャル",
       "memberNames": []
-    },
-    {
-      "videoId": "xJinruGKA04",
-      "title": "＝LOVE（イコールラブ）/ 21st Single『恋、はじめました。』Dance Practice version",
-      "url": "https://www.youtube.com/watch?v=xJinruGKA04",
-      "thumbnail": "https://i.ytimg.com/vi/xJinruGKA04/maxresdefault.jpg",
-      "publishedAt": "2026-08-27T12:30:28Z",
-      "channelId": "UCv7VutirxDn3RWIJXI68n_A",
-      "channelName": "＝LOVE（イコールラブ）公式チャンネル",
-      "sourceName": "=LOVE オフィシャル",
-      "memberNames": []
-    },
-    {
-      "videoId": "umh83EemQQE",
-      "title": "【奇声注意】音嶋莉沙が約100個の質問に答えます",
-      "url": "https://www.youtube.com/watch?v=umh83EemQQE",
-      "thumbnail": "https://i.ytimg.com/vi/umh83EemQQE/maxresdefault.jpg",
-      "publishedAt": "2026-08-27T11:30:06Z",
-      "channelId": "UCcsyyry5bsjTeqqJ_Yz9TiA",
-      "channelName": "音嶋莉沙の様子がおかしいチャンネル",
-      "sourceName": "音嶋 莉沙",
-      "memberNames": [
-        "音嶋 莉沙"
-      ]
     }
   ]
 }
