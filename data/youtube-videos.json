@@ -1,9 +1,22 @@
 {
   "meta": {
-    "checkedAt": "2026-08-31T08:54:29.723Z",
-    "updatedAt": "2026-08-31T08:45:17.482Z"
+    "checkedAt": "2026-08-31T14:46:26.081Z",
+    "updatedAt": "2026-08-31T14:46:26.081Z"
   },
   "videos": [
+    {
+      "videoId": "pi8zBB4s_mc",
+      "title": "様子のおかしな10万人お祝い配信【奇声注意】",
+      "url": "https://www.youtube.com/watch?v=pi8zBB4s_mc",
+      "thumbnail": "https://i.ytimg.com/vi/pi8zBB4s_mc/maxresdefault.jpg",
+      "publishedAt": "2026-08-31T12:26:07Z",
+      "channelId": "UCcsyyry5bsjTeqqJ_Yz9TiA",
+      "channelName": "音嶋莉沙の様子がおかしいチャンネル",
+      "sourceName": "音嶋 莉沙",
+      "memberNames": [
+        "音嶋 莉沙"
+      ]
+    },
     {
       "videoId": "vqvBTPmehe8",
       "title": "生誕祭の日の様子おかしめな裏側 #shorts",
@@ -51,19 +64,6 @@
       "channelName": "＝LOVE（イコールラブ）公式チャンネル",
       "sourceName": "=LOVE オフィシャル",
       "memberNames": []
-    },
-    {
-      "videoId": "gY3pMOA-WUY",
-      "title": "夏！浴衣！焼肉！みりにゃ！",
-      "url": "https://www.youtube.com/watch?v=gY3pMOA-WUY",
-      "thumbnail": "https://i.ytimg.com/vi/gY3pMOA-WUY/maxresdefault.jpg",
-      "publishedAt": "2026-08-29T10:00:34Z",
-      "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
-      "channelName": "みりにゃと申します。",
-      "sourceName": "大谷 映美里",
-      "memberNames": [
-        "大谷 映美里"
-      ]
     }
   ]
 }
