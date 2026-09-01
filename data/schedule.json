@@ -1,13 +1,76 @@
 {
   "meta": {
-    "checkedAt": "2026-08-31T20:44:30.535Z",
-    "updatedAt": "2026-08-30T18:03:35.882Z"
+    "checkedAt": "2026-09-01T02:44:33.249Z",
+    "updatedAt": "2026-09-01T02:44:33.249Z"
   },
   "schedule": [
     {
-      "title": "ニッポン放送「＝LOVEのイコラフ」",
-      "date": "2026-08-31",
-      "url": "https://equal-love.jp/schedule/detail/10440",
+      "title": "日本マクドナルド 月見スイーツ「北海...",
+      "date": "2026-09-01",
+      "url": "https://equal-love.jp/schedule/detail/11884",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "TOKYO FM「Hand in H...",
+      "date": "2026-09-01",
+      "url": "https://equal-love.jp/schedule/detail/11734",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "フジテレビ・FODプレミアム「キミは...",
+      "date": "2026-09-01",
+      "url": "https://equal-love.jp/schedule/detail/11683",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "フジテレビ系「STAR」※＝LOVE",
+      "date": "2026-09-03",
+      "url": "https://equal-love.jp/schedule/detail/11891",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "日本テレビ系「バズリズム02」※＝L...",
+      "date": "2026-09-04",
+      "url": "https://equal-love.jp/schedule/detail/11902",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "Artistspoken「イマフレラ...",
+      "date": "2026-09-04",
+      "url": "https://equal-love.jp/schedule/detail/10736",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "握手会 ＝LOVE 21stシングル発売記念...",
+      "date": "2026-09-05",
+      "url": "https://equal-love.jp/schedule/detail/11591",
+      "category": "",
+      "time": ""
+    },
+    {
+      "title": "ミュージック・ジャパンTV「＝LOV...",
+      "date": "2026-09-05",
+      "url": "https://equal-love.jp/schedule/detail/11882",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "日本テレビ「サクサクヒムヒム☆推しの...",
+      "date": "2026-09-05",
+      "url": "https://equal-love.jp/schedule/detail/11821",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "MBSラジオ「アッパレやってまーす！...",
+      "date": "2026-09-05",
+      "url": "https://equal-love.jp/schedule/detail/10545",
       "category": "メディア",
       "time": ""
     }
