@@ -1,9 +1,16 @@
 {
   "meta": {
-    "checkedAt": "2026-09-02T08:46:30.950Z",
-    "updatedAt": "2026-09-01T17:48:30.635Z"
+    "checkedAt": "2026-09-02T14:44:31.627Z",
+    "updatedAt": "2026-09-02T14:44:31.627Z"
   },
   "schedule": [
+    {
+      "title": "日本テレビ「ZIP!」※＝LOVE",
+      "date": "2026-09-03",
+      "url": "https://equal-love.jp/schedule/detail/11908",
+      "category": "メディア",
+      "time": ""
+    },
     {
       "title": "フジテレビ系「STAR」※＝LOVE",
       "date": "2026-09-03",
@@ -65,13 +72,6 @@
       "date": "2026-09-07",
       "url": "https://equal-love.jp/schedule/detail/11858",
       "category": "",
-      "time": ""
-    },
-    {
-      "title": "ニッポン放送「＝LOVEのイコラフ」",
-      "date": "2026-09-07",
-      "url": "https://equal-love.jp/schedule/detail/10441",
-      "category": "メディア",
       "time": ""
     }
   ]
