@@ -1,30 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-09-03T14:46:41.492Z",
-    "updatedAt": "2026-09-03T02:44:40.786Z"
+    "checkedAt": "2026-09-03T17:50:36.176Z",
+    "updatedAt": "2026-09-03T17:50:36.176Z"
   },
   "schedule": [
-    {
-      "title": "日本テレビ「ZIP!」※＝LOVE",
-      "date": "2026-09-03",
-      "url": "https://equal-love.jp/schedule/detail/11908",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "フジテレビ系「STAR」※＝LOVE",
-      "date": "2026-09-03",
-      "url": "https://equal-love.jp/schedule/detail/11891",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "フジテレビ ONE「プロ野球ニュース...",
-      "date": "2026-09-03",
-      "url": "https://equal-love.jp/schedule/detail/11447",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "日本テレビ系「バズリズム02」※＝L...",
       "date": "2026-09-04",
@@ -72,6 +51,27 @@
       "date": "2026-09-06",
       "url": "https://equal-love.jp/schedule/detail/11648",
       "category": "",
+      "time": ""
+    },
+    {
+      "title": "握手会 ＝LOVE映像商品 ＝LOVE 8周...",
+      "date": "2026-09-07",
+      "url": "https://equal-love.jp/schedule/detail/11858",
+      "category": "",
+      "time": ""
+    },
+    {
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "date": "2026-09-07",
+      "url": "https://equal-love.jp/schedule/detail/10441",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "NHK「うたコン」※＝LOVE",
+      "date": "2026-09-08",
+      "url": "https://equal-love.jp/schedule/detail/11906",
+      "category": "メディア",
       "time": ""
     }
   ]
