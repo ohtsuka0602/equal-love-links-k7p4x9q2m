@@ -1,23 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-09-04T14:44:30.447Z",
-    "updatedAt": "2026-09-03T17:50:36.176Z"
+    "checkedAt": "2026-09-04T17:35:29.442Z",
+    "updatedAt": "2026-09-04T17:35:29.442Z"
   },
   "schedule": [
-    {
-      "title": "日本テレビ系「バズリズム02」※＝L...",
-      "date": "2026-09-04",
-      "url": "https://equal-love.jp/schedule/detail/11902",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "Artistspoken「イマフレラ...",
-      "date": "2026-09-04",
-      "url": "https://equal-love.jp/schedule/detail/10736",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "握手会 ＝LOVE 21stシングル発売記念...",
       "date": "2026-09-05",
@@ -71,6 +57,20 @@
       "title": "NHK「うたコン」※＝LOVE",
       "date": "2026-09-08",
       "url": "https://equal-love.jp/schedule/detail/11906",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "SHOWROOM『＝LOVE 山本杏...",
+      "date": "2026-09-10",
+      "url": "https://equal-love.jp/schedule/detail/10493",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "Artistspoken「イマフレラ...",
+      "date": "2026-09-11",
+      "url": "https://equal-love.jp/schedule/detail/10737",
       "category": "メディア",
       "time": ""
     }
