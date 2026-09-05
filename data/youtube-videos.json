@@ -1,9 +1,22 @@
 {
   "meta": {
-    "checkedAt": "2026-09-05T08:45:12.158Z",
-    "updatedAt": "2026-09-01T07:59:30.128Z"
+    "checkedAt": "2026-09-05T12:03:13.577Z",
+    "updatedAt": "2026-09-05T12:03:13.577Z"
   },
   "videos": [
+    {
+      "videoId": "WQXLUt8bu10",
+      "title": "みりにゃの1日に密着",
+      "url": "https://www.youtube.com/watch?v=WQXLUt8bu10",
+      "thumbnail": "https://i.ytimg.com/vi/WQXLUt8bu10/maxresdefault.jpg",
+      "publishedAt": "2026-09-05T10:00:03Z",
+      "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
+      "channelName": "みりにゃと申します。",
+      "sourceName": "大谷 映美里",
+      "memberNames": [
+        "大谷 映美里"
+      ]
+    },
     {
       "videoId": "iol33RJffaA",
       "title": "8/26発売 21stシングル表題曲「恋、はじめました。」MV白ドレスver.🧸゛先行配信&MV公開中💘ぜひチェックお願いします🎧⟡.·‪#恋はじめました‬#イコールラブ ‪#イコラブ‬#大谷映美里🩷",
@@ -51,17 +64,6 @@
       "memberNames": [
         "音嶋 莉沙"
       ]
-    },
-    {
-      "videoId": "6TDaGcSbm9M",
-      "title": "＝LOVE（イコールラブ）/ 21st SingleType A・Type B 収録『齋藤樹愛羅presents 東京プレミアムツアー』【YouTube EDIT】",
-      "url": "https://www.youtube.com/watch?v=6TDaGcSbm9M",
-      "thumbnail": "https://i.ytimg.com/vi/6TDaGcSbm9M/maxresdefault.jpg",
-      "publishedAt": "2026-08-30T13:00:04Z",
-      "channelId": "UCv7VutirxDn3RWIJXI68n_A",
-      "channelName": "＝LOVE（イコールラブ）公式チャンネル",
-      "sourceName": "=LOVE オフィシャル",
-      "memberNames": []
     }
   ]
 }
