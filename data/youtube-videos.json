@@ -1,9 +1,20 @@
 {
   "meta": {
-    "checkedAt": "2026-09-06T12:19:58.405Z",
-    "updatedAt": "2026-09-06T08:45:11.757Z"
+    "checkedAt": "2026-09-06T14:45:16.576Z",
+    "updatedAt": "2026-09-06T14:45:16.576Z"
   },
   "videos": [
+    {
+      "videoId": "-acS8BRlNuE",
+      "title": "＝LOVE（イコールラブ）/ 21st Single『恋、はじめました。』Dance version",
+      "url": "https://www.youtube.com/watch?v=-acS8BRlNuE",
+      "thumbnail": "https://i.ytimg.com/vi/-acS8BRlNuE/maxresdefault.jpg",
+      "publishedAt": "2026-09-06T13:00:16Z",
+      "channelId": "UCv7VutirxDn3RWIJXI68n_A",
+      "channelName": "＝LOVE（イコールラブ）公式チャンネル",
+      "sourceName": "=LOVE オフィシャル",
+      "memberNames": []
+    },
     {
       "videoId": "T4cqqbKfGcA",
       "title": "＝LOVE（イコールラブ）/ 21st Single『Making of 恋、はじめました。』",
@@ -49,19 +60,6 @@
       "channelName": "＝LOVE（イコールラブ）公式チャンネル",
       "sourceName": "=LOVE オフィシャル",
       "memberNames": []
-    },
-    {
-      "videoId": "pi8zBB4s_mc",
-      "title": "様子のおかしな10万人お祝い配信【奇声注意】",
-      "url": "https://www.youtube.com/watch?v=pi8zBB4s_mc",
-      "thumbnail": "https://i.ytimg.com/vi/pi8zBB4s_mc/maxresdefault.jpg",
-      "publishedAt": "2026-08-31T12:26:07Z",
-      "channelId": "UCcsyyry5bsjTeqqJ_Yz9TiA",
-      "channelName": "音嶋莉沙の様子がおかしいチャンネル",
-      "sourceName": "音嶋 莉沙",
-      "memberNames": [
-        "音嶋 莉沙"
-      ]
     }
   ]
 }
