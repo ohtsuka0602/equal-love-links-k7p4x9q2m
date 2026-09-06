@@ -1,23 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-09-06T14:46:11.555Z",
-    "updatedAt": "2026-09-06T02:44:27.600Z"
+    "checkedAt": "2026-09-06T17:00:21.923Z",
+    "updatedAt": "2026-09-06T17:00:21.923Z"
   },
   "schedule": [
-    {
-      "title": "握手会 ＝LOVE 21stシングル発売記念...",
-      "date": "2026-09-06",
-      "url": "https://equal-love.jp/schedule/detail/11648",
-      "category": "",
-      "time": ""
-    },
-    {
-      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
-      "date": "2026-09-06",
-      "url": "https://equal-love.jp/schedule/detail/11179",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "握手会 ＝LOVE映像商品 ＝LOVE 8周...",
       "date": "2026-09-07",
@@ -72,6 +58,20 @@
       "date": "2026-09-13",
       "url": "https://equal-love.jp/schedule/detail/11653",
       "category": "",
+      "time": ""
+    },
+    {
+      "title": "TBS系「坂上&指原のつぶれない店」...",
+      "date": "2026-09-13",
+      "url": "https://equal-love.jp/schedule/detail/11900",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "date": "2026-09-14",
+      "url": "https://equal-love.jp/schedule/detail/10442",
+      "category": "メディア",
       "time": ""
     }
   ]
