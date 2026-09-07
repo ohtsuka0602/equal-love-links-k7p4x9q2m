@@ -1,30 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-09-07T14:44:15.540Z",
-    "updatedAt": "2026-09-07T01:26:54.288Z"
+    "checkedAt": "2026-09-07T18:43:15.702Z",
+    "updatedAt": "2026-09-07T18:43:15.702Z"
   },
   "schedule": [
-    {
-      "title": "ニッポン放送「＝LOVEのイコラフ」",
-      "date": "2026-09-07",
-      "url": "https://equal-love.jp/schedule/detail/10441",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "J:COM STREAM「인기가요(...",
-      "date": "2026-09-07",
-      "url": "https://equal-love.jp/schedule/detail/11924",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "握手会 ＝LOVE映像商品 ＝LOVE 8周...",
-      "date": "2026-09-07",
-      "url": "https://equal-love.jp/schedule/detail/11858",
-      "category": "",
-      "time": ""
-    },
     {
       "title": "NHK「うたコン」※＝LOVE",
       "date": "2026-09-08",
@@ -71,6 +50,27 @@
       "title": "TBS系「坂上&指原のつぶれない店」...",
       "date": "2026-09-13",
       "url": "https://equal-love.jp/schedule/detail/11900",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "date": "2026-09-14",
+      "url": "https://equal-love.jp/schedule/detail/10442",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "Artistspoken「イマフレラ...",
+      "date": "2026-09-18",
+      "url": "https://equal-love.jp/schedule/detail/10738",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "MBSラジオ「アッパレやってまーす！...",
+      "date": "2026-09-19",
+      "url": "https://equal-love.jp/schedule/detail/10547",
       "category": "メディア",
       "time": ""
     }

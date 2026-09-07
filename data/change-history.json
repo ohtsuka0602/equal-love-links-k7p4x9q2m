@@ -1,43 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-09-07T14:45:49.303Z",
-    "updatedAt": "2026-09-07T14:27:05.966Z",
+    "checkedAt": "2026-09-07T18:43:15.884Z",
+    "updatedAt": "2026-09-07T18:43:15.884Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/10441": {
-        "hash": "0025df40339023edabdd3af7f1092b47d2543f7d2610c724957903732e89794f",
-        "item": {
-          "title": "ニッポン放送「＝LOVEのイコラフ」",
-          "date": "2026-09-07",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10441",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11924": {
-        "hash": "6a7340c392cdb4b97decd0dfd1e2e88b8b4c81d6ae28e6ef29ea7dccf851a445",
-        "item": {
-          "title": "J:COM STREAM「인기가요(...",
-          "date": "2026-09-07",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11924",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11858": {
-        "hash": "77c25c750293e47688992e62607dbeee04241d301ad2cfab0be6ebe5ed666712",
-        "item": {
-          "title": "握手会 ＝LOVE映像商品 ＝LOVE 8周...",
-          "date": "2026-09-07",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11858",
-          "category": ""
-        }
-      },
       "https://equal-love.jp/schedule/detail/11906": {
         "hash": "3f71d8ef55567352f91c6ab2fe005ad7728846feca86c7b8d2e1951a06a0de06",
         "item": {
@@ -105,6 +75,36 @@
           "date": "2026-09-13",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11900",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10442": {
+        "hash": "73ffa2d14dc0d9814b40bcd0f01b28163d2631f23e6a3471c498db03ad0bd885",
+        "item": {
+          "title": "ニッポン放送「＝LOVEのイコラフ」",
+          "date": "2026-09-14",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10442",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10738": {
+        "hash": "77738bf7ec4fbac2462f2950ed49a0ba317c49b088e2a28e1fa7c827f22c7cf1",
+        "item": {
+          "title": "Artistspoken「イマフレラ...",
+          "date": "2026-09-18",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10738",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10547": {
+        "hash": "15acdfc8c3078dbef94b8765be4b4daa21efece7e4393d6b33f08ed30e07b42d",
+        "item": {
+          "title": "MBSラジオ「アッパレやってまーす！...",
+          "date": "2026-09-19",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10547",
           "category": "メディア"
         }
       }
@@ -499,6 +499,42 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10442:73ffa2d14dc0",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-09-07T18:43:15.884Z",
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "url": "https://equal-love.jp/schedule/detail/10442",
+      "date": "2026-09-14",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10738:77738bf7ec4f",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-09-07T18:43:15.884Z",
+      "title": "Artistspoken「イマフレラ...",
+      "url": "https://equal-love.jp/schedule/detail/10738",
+      "date": "2026-09-18",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10547:15acdfc8c307",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-09-07T18:43:15.884Z",
+      "title": "MBSラジオ「アッパレやってまーす！...",
+      "url": "https://equal-love.jp/schedule/detail/10547",
+      "date": "2026-09-19",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/11909:5e354ae098f5",
       "type": "news",
