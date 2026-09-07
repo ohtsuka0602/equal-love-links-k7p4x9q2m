@@ -1,23 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-09-07T01:24:11.468Z",
-    "updatedAt": "",
+    "checkedAt": "2026-09-07T01:26:54.471Z",
+    "updatedAt": "2026-09-07T01:26:54.471Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/11858": {
-        "hash": "77c25c750293e47688992e62607dbeee04241d301ad2cfab0be6ebe5ed666712",
-        "item": {
-          "title": "握手会 ＝LOVE映像商品 ＝LOVE 8周...",
-          "date": "2026-09-07",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11858",
-          "category": ""
-        }
-      },
       "https://equal-love.jp/schedule/detail/10441": {
         "hash": "0025df40339023edabdd3af7f1092b47d2543f7d2610c724957903732e89794f",
         "item": {
@@ -26,6 +16,26 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10441",
           "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11924": {
+        "hash": "6a7340c392cdb4b97decd0dfd1e2e88b8b4c81d6ae28e6ef29ea7dccf851a445",
+        "item": {
+          "title": "J:COM STREAM「인기가요(...",
+          "date": "2026-09-07",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11924",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11858": {
+        "hash": "77c25c750293e47688992e62607dbeee04241d301ad2cfab0be6ebe5ed666712",
+        "item": {
+          "title": "握手会 ＝LOVE映像商品 ＝LOVE 8周...",
+          "date": "2026-09-07",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11858",
+          "category": ""
         }
       },
       "https://equal-love.jp/schedule/detail/11906": {
@@ -95,16 +105,6 @@
           "date": "2026-09-13",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11900",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/10442": {
-        "hash": "73ffa2d14dc0d9814b40bcd0f01b28163d2631f23e6a3471c498db03ad0bd885",
-        "item": {
-          "title": "ニッポン放送「＝LOVEのイコラフ」",
-          "date": "2026-09-14",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10442",
           "category": "メディア"
         }
       }
@@ -498,5 +498,18 @@
       }
     }
   },
-  "history": []
+  "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11924:6a7340c392cd",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-09-07T01:26:54.471Z",
+      "title": "J:COM STREAM「인기가요(...",
+      "url": "https://equal-love.jp/schedule/detail/11924",
+      "date": "2026-09-07",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    }
+  ]
 }
