@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-07T08:45:58.784Z",
-    "updatedAt": "2026-09-07T01:26:54.471Z",
+    "checkedAt": "2026-09-07T14:27:05.966Z",
+    "updatedAt": "2026-09-07T14:27:05.966Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/11909": {
+        "hash": "5e354ae098f5343b21dee3da7808ca1a0743300e34b1d1d2a3a85de907b29020",
+        "item": {
+          "title": "生写真セット(年末歌番組2025衣装②)・アクリルスタンドキーホルダー(年末歌番組2025衣装②)発売！",
+          "date": "2026-09-07",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/11909",
+          "category": "グッズ"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/11923": {
         "hash": "11eda89c4cefc87771e6c00ee60dfd5a80c42a8fd25b05aceafcb4d60e8b4098",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/11912",
           "category": "ライブ/イベント"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11916": {
-        "hash": "fe390c566f170b85e35ff79973cd991a517615ba5d427e97ea897e718b2a68eb",
-        "item": {
-          "title": "【出演情報】「Heather 25th Anniversary Collection」イメージモデルを髙松瞳が務めさせていただくことが決定いたしました！",
-          "date": "2026-09-04",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11916",
-          "category": "お知らせ"
         }
       }
     },
@@ -499,6 +499,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/11909:5e354ae098f5",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-07T14:27:05.966Z",
+      "title": "生写真セット(年末歌番組2025衣装②)・アクリルスタンドキーホルダー(年末歌番組2025衣装②)発売！",
+      "url": "https://sp.equal-love.jp/news/detail/11909",
+      "date": "2026-09-07",
+      "category": "グッズ",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11924:6a7340c392cd",
       "type": "schedule",
