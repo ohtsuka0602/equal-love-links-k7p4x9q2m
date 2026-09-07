@@ -39,6 +39,9 @@ jobs:
       - name: Fetch schedule
         run: npm run fetch:schedule
 
+      - name: Update change history
+        run: npm run history:update
+
       - name: Upload schedule debug artifacts
         if: always()
         uses: actions/upload-artifact@v4
@@ -62,6 +65,7 @@ jobs:
 
           mkdir -p "$tmp_dir/data"
           cp data/schedule.json "$tmp_dir/data/schedule.json"
+          cp data/change-history.json "$tmp_dir/data/change-history.json"
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -73,13 +77,14 @@ jobs:
 
             mkdir -p data
             cp "$tmp_dir/data/schedule.json" data/schedule.json
+            cp "$tmp_dir/data/change-history.json" data/change-history.json
 
             echo "Current HEAD: $(git rev-parse --short HEAD)"
             echo "Origin main: $(git rev-parse --short origin/main)"
             git status --short
-            git diff -- data/schedule.json
+            git diff -- data/schedule.json data/change-history.json
 
-            git add data/schedule.json
+            git add data/schedule.json data/change-history.json
 
             if git diff --cached --quiet; then
               echo "No changes to commit."

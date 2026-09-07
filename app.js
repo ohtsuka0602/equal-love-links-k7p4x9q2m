@@ -24,6 +24,7 @@ const snsIcons = {
   youtube: "assets/sns/youtube.svg",
   showroom: "assets/sns/showroom.svg",
 };
+const dashboardUtils = window.EqualLoveDashboardUtils || {};
 const fixedYoutubeLinks = {
   "=LOVE \u30aa\u30d5\u30a3\u30b7\u30e3\u30eb": "https://youtube.com/@equallove_?si=Gz5sMcLqE722nYoq",
   "\u5927\u8c37 \u6620\u7f8e\u91cc": "https://youtube.com/@mirinyaikolove?si=858PErgfTSsj1ewF",
@@ -451,7 +452,7 @@ function nextRandomState(state) {
 }
 
 function getDayNumber() {
-  const today = getLocalDateKey(new Date());
+  const today = dashboardUtils.getTokyoDateKey(new Date());
   const start = new Date(`${dailyPickStartDate}T00:00:00`);
   const current = new Date(`${today}T00:00:00`);
 
@@ -459,11 +460,7 @@ function getDayNumber() {
 }
 
 function getLocalDateKey(date) {
-  const year = date.getFullYear();
-  const month = String(date.getMonth() + 1).padStart(2, "0");
-  const day = String(date.getDate()).padStart(2, "0");
-
-  return `${year}-${month}-${day}`;
+  return dashboardUtils.getTokyoDateKey(date);
 }
 
 function sortMembersForDisplay(displayMembers) {
@@ -735,6 +732,9 @@ let scheduleFailed = false;
 let memberProfiles = [];
 let memberProfilesMeta = {};
 let memberProfilesFailed = false;
+let changeHistory = [];
+let changeHistoryMeta = {};
+let changeHistoryFailed = false;
 let selectedProfileId = "";
 let newsExpanded = false;
 let scheduleExpanded = false;
@@ -749,12 +749,13 @@ async function loadMembers() {
       throw new Error(`members.json could not be loaded: ${response.status}`);
     }
 
-    const [data, youtubeData, newsData, scheduleData, profileData] = await Promise.all([
+    const [data, youtubeData, newsData, scheduleData, profileData, historyData] = await Promise.all([
       response.json(),
       loadYoutubeVideos(),
       loadNews(),
       loadSchedule(),
       loadMemberProfiles(),
+      loadChangeHistory(),
     ]);
 
     const normalizedData = normalizeMembersPayload(data);
@@ -771,6 +772,9 @@ async function loadMembers() {
     memberProfiles = profileData.profiles;
     memberProfilesMeta = profileData.meta;
     memberProfilesFailed = profileData.failed;
+    changeHistory = historyData.history;
+    changeHistoryMeta = historyData.meta;
+    changeHistoryFailed = historyData.failed;
     members = applyProfileImagesToMembers(normalizedData.members.map(applyFixedData)).filter(isDisplayableMember);
     favoriteNames = pruneFavoriteNames(favoriteNames, members);
     saveFavoriteNames();
@@ -792,6 +796,9 @@ async function loadMembers() {
     memberProfiles = [];
     memberProfilesMeta = {};
     memberProfilesFailed = false;
+    changeHistory = [];
+    changeHistoryMeta = {};
+    changeHistoryFailed = false;
     if (homeDashboardEl) {
       homeDashboardEl.innerHTML = "";
       homeDashboardEl.hidden = true;
@@ -821,6 +828,10 @@ async function loadSchedule() {
 
 async function loadMemberProfiles() {
   return loadDashboardJson("member-profiles.json", normalizeMemberProfilesPayload, { meta: {}, profiles: [] });
+}
+
+async function loadChangeHistory() {
+  return loadDashboardJson("change-history.json", normalizeChangeHistoryPayload, { meta: {}, history: [] });
 }
 
 async function loadDashboardJson(fileName, normalizer, fallback) {
@@ -886,6 +897,9 @@ function renderHomeDashboard() {
   const hasBirthdayToday = birthdays.some((item) => item.daysUntil === 0);
 
   homeDashboardEl.innerHTML = [
+    createTodaySection(),
+    createMyFavoriteDashboardSection(),
+    createWhatsNewSection(),
     createHomeDailyPickSection(),
     createMemberProfileSection(),
     hasBirthdayToday ? birthdaySection : "",
@@ -893,8 +907,164 @@ function renderHomeDashboard() {
     createNewsSection(),
     createScheduleSection(),
     hasBirthdayToday ? "" : birthdaySection,
-    createFavoriteMembersSection(),
   ].filter(Boolean).join("");
+}
+
+function createTodaySection() {
+  const today = dashboardUtils.getTodayDashboardData({
+    scheduleItems,
+    youtubeVideos,
+    newsItems,
+    members,
+  });
+  const birthday = today.nextBirthday;
+  const birthdayMember = birthday?.member;
+  const birthdayText = birthday
+    ? birthday.daysUntil === 0
+      ? "HAPPY BIRTHDAY"
+      : `${escapeHtml(birthdayMember.birthdayLabel || dashboardUtils.getBirthdayLabel(birthdayMember.birthday))} / あと${birthday.daysUntil}日`
+    : "未取得";
+  const birthdayCard = birthdayMember
+    ? `
+      <div class="today-birthday-card">
+        <div class="today-birthday-image color-ring" style="${createColorRingStyle(birthdayMember)}">
+          ${createMemberImageTag("today-birthday-avatar", birthdayMember, birthdayMember.name)}
+        </div>
+        <div>
+          <span>${escapeHtml(birthday.daysUntil === 0 ? "今日の誕生日" : "次の誕生日")}</span>
+          <strong>${escapeHtml(birthdayMember.name)}</strong>
+          <small>${birthdayText}</small>
+        </div>
+      </div>
+    `
+    : `<p class="dashboard-empty">誕生日データを取得できませんでした</p>`;
+  const scheduleDetail = today.schedule.length > 0
+    ? `<div class="today-mini-list">${today.schedule.slice(0, 2).map(createScheduleItem).join("")}</div>`
+    : `<p class="dashboard-empty">今日の予定はありません</p>`;
+
+  return `
+    <section class="today-dashboard-card dashboard-section">
+      <div class="today-hero">
+        <div>
+          <p class="dashboard-kicker">TODAY</p>
+          <h2>今日の＝LOVE</h2>
+        </div>
+        <time>${escapeHtml(today.dateLabel)}</time>
+      </div>
+      <div class="today-metrics">
+        ${createTodayMetric("今日の予定", today.schedule.length, "Schedule")}
+        ${createTodayMetric("NEW VIDEO", today.videos.length, "今日公開")}
+        ${createTodayMetric("NEW NEWS", today.news.length, "今日掲載")}
+      </div>
+      ${birthdayCard}
+      ${scheduleDetail}
+    </section>
+  `;
+}
+
+function createTodayMetric(label, count, subLabel) {
+  return `
+    <div class="today-metric">
+      <span>${escapeHtml(label)}</span>
+      <strong>${count}件</strong>
+      <small>${escapeHtml(subLabel)}</small>
+    </div>
+  `;
+}
+
+function createMyFavoriteDashboardSection() {
+  const favorites = dashboardUtils.getFavoriteDashboardData({
+    favoriteNames,
+    members,
+    scheduleItems,
+  });
+
+  if (favorites.length === 0) {
+    return createDashboardSection(
+      "MY FAVORITE",
+      `<p class="dashboard-empty">推しを設定すると、ここに情報が表示されます</p>`
+    );
+  }
+
+  const content = `
+    <div class="favorite-dashboard-list">
+      ${favorites.slice(0, 3).map(createFavoriteDashboardCard).join("")}
+    </div>
+  `;
+
+  return createDashboardSection("MY FAVORITE", content);
+}
+
+function createFavoriteDashboardCard(entry) {
+  const member = entry.member;
+  const profile = findProfileForMember(member);
+  const profileButton = profile
+    ? `<button class="profile-jump-button" type="button" data-profile-jump="${escapeHtml(profile.id)}">PROFILE</button>`
+    : "";
+  const birthday = Number.isFinite(entry.birthday.daysUntil)
+    ? entry.birthday.daysUntil === 0
+      ? "HAPPY BIRTHDAY"
+      : `${entry.birthday.label} / あと${entry.birthday.daysUntil}日`
+    : "誕生日未取得";
+  const nextSchedule = entry.nextSchedule
+    ? `<a class="favorite-next-schedule" href="${escapeHtml(entry.nextSchedule.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(entry.nextSchedule.title)}</a>`
+    : `<p class="favorite-next-schedule is-empty">名前で確認できる次の予定はありません</p>`;
+
+  return `
+    <article class="favorite-dashboard-card">
+      <div class="compact-member-image-wrap color-ring" style="${createColorRingStyle(member)}">
+        ${createMemberImageTag("compact-member-image", member, member.name)}
+      </div>
+      <div class="favorite-dashboard-body">
+        <div class="compact-member-heading">
+          <h3>${escapeHtml(member.name)}</h3>
+          ${createFavoriteButton(member)}
+        </div>
+        ${createColorLabel(member)}
+        <p class="compact-member-meta">${escapeHtml(birthday)}</p>
+        ${nextSchedule}
+        <div class="favorite-dashboard-actions">
+          <div class="sns-buttons compact-sns-buttons">${createAllSnsButtons(member)}</div>
+          ${profileButton}
+        </div>
+      </div>
+    </article>
+  `;
+}
+
+function createWhatsNewSection() {
+  const items = changeHistory.slice(0, 5);
+  const content = items.length > 0
+    ? `<div class="whats-new-list">${items.map(createWhatsNewItem).join("")}</div>`
+    : `<p class="dashboard-empty">${changeHistoryFailed ? "更新履歴を取得できませんでした" : "導入後の変更はまだありません"}</p>`;
+
+  return createDashboardSection("WHAT'S NEW", content, createDashboardMeta(changeHistoryMeta.checkedAt));
+}
+
+function createWhatsNewItem(item) {
+  const typeLabel = {
+    schedule: "Schedule",
+    news: "NEWS",
+    youtube: "YouTube",
+    profile: "Profile",
+  }[item.type] || "Update";
+  const actionLabel = item.action === "added" ? "追加" : "変更";
+  const detectedAt = formatMetaDate(item.occurredAt);
+  const member = item.memberName || (Array.isArray(item.memberNames) ? item.memberNames.join(" / ") : "");
+  const metaText = [detectedAt ? `検知：${detectedAt}` : "", member].filter(Boolean).join(" / ");
+  const body = `
+    <span class="dashboard-item-main">
+      <span class="dashboard-item-title">${escapeHtml(item.title)}</span>
+      <span class="dashboard-item-meta">${escapeHtml(metaText || "Dashboardが検知した更新")}</span>
+    </span>
+    <span class="dashboard-category">${escapeHtml(`${typeLabel} ${actionLabel}`)}</span>
+  `;
+
+  if (item.url) {
+    return `<a class="dashboard-list-item" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${body}</a>`;
+  }
+
+  return `<div class="dashboard-list-item">${body}</div>`;
 }
 
 function renderDailyPick() {
@@ -1550,6 +1720,10 @@ function normalizeMemberProfilesPayload(data) {
   };
 }
 
+function normalizeChangeHistoryPayload(data) {
+  return dashboardUtils.normalizeChangeHistoryPayload(data);
+}
+
 function getUpcomingBirthdays() {
   return members
     .filter((member) => member.type === "member" && member.birthday)
@@ -1559,21 +1733,7 @@ function getUpcomingBirthdays() {
 }
 
 function getDaysUntilBirthday(birthday) {
-  const match = String(birthday).match(/^(\d{2})-(\d{2})$/);
-
-  if (!match) {
-    return Number.POSITIVE_INFINITY;
-  }
-
-  const now = new Date();
-  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-  let nextBirthday = new Date(now.getFullYear(), Number(match[1]) - 1, Number(match[2]));
-
-  if (nextBirthday < today) {
-    nextBirthday = new Date(now.getFullYear() + 1, Number(match[1]) - 1, Number(match[2]));
-  }
-
-  return Math.round((nextBirthday - today) / 86400000);
+  return dashboardUtils.getDaysUntilBirthday(birthday);
 }
 
 function createBirthdayCountdownLabel(daysUntil) {
@@ -1596,6 +1756,10 @@ function isNewVideo(value) {
   }
 
   return Date.now() - publishedAt.getTime() <= 48 * 60 * 60 * 1000;
+}
+
+function isBirthdayToday(birthday) {
+  return dashboardUtils.getDaysUntilBirthday(birthday) === 0;
 }
 
 function formatDashboardDate(value) {
@@ -1642,6 +1806,14 @@ if (homeDashboardEl) {
 
     if (event.target.closest("[data-profile-next]")) {
       shiftSelectedMemberProfile(1);
+      return;
+    }
+
+    const profileJumpButton = event.target.closest("[data-profile-jump]");
+
+    if (profileJumpButton) {
+      selectedProfileId = profileJumpButton.dataset.profileJump;
+      renderHomeDashboard();
       return;
     }
 

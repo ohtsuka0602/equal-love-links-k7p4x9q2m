@@ -51,6 +51,9 @@ jobs:
       - name: Fetch latest news
         run: npm run fetch:news
 
+      - name: Update change history
+        run: npm run history:update
+
       - name: Upload member profile debug artifacts
         if: always()
         uses: actions/upload-artifact@v4
@@ -77,6 +80,7 @@ jobs:
           cp data/member-profiles.json "$tmp_dir/data/member-profiles.json"
           cp data/youtube-videos.json "$tmp_dir/data/youtube-videos.json"
           cp data/news.json "$tmp_dir/data/news.json"
+          cp data/change-history.json "$tmp_dir/data/change-history.json"
           cp -R assets/members "$tmp_dir/assets/members"
 
           git config user.name "github-actions[bot]"
@@ -92,6 +96,7 @@ jobs:
             cp "$tmp_dir/data/member-profiles.json" data/member-profiles.json
             cp "$tmp_dir/data/youtube-videos.json" data/youtube-videos.json
             cp "$tmp_dir/data/news.json" data/news.json
+            cp "$tmp_dir/data/change-history.json" data/change-history.json
             rm -rf assets/members
             cp -R "$tmp_dir/assets/members" assets/members
 
@@ -99,7 +104,7 @@ jobs:
             echo "Origin main: $(git rev-parse --short origin/main)"
             git status --short
 
-            git add data/members.json data/member-profiles.json data/youtube-videos.json data/news.json assets/members
+            git add data/members.json data/member-profiles.json data/youtube-videos.json data/news.json data/change-history.json assets/members
 
             if git diff --cached --quiet; then
               echo "No changes to commit."
