@@ -19,6 +19,16 @@ test("initial run creates a baseline without flooding WHAT'S NEW", async () => {
 
   assert.equal(result.history.length, 0);
   assert.equal(result.meta.baselineCreatedAt, "2026-09-10T00:00:00.000Z");
+
+  await writeData(workspace, {
+    schedule: [{ title: "New current baseline", date: "2026-09-11", url: "/schedule/2" }],
+    news: [],
+    videos: [],
+    profiles: [],
+  });
+  const reset = await updateChangeHistory({ rootDir: workspace, now: "2026-09-11T00:00:00.000Z", resetBaseline: true });
+  assert.equal(reset.history.length, 0);
+  assert.equal(Boolean(reset.baseline.schedule["/schedule/2"]), true);
 });
 
 test("added and changed items are recorded once, while checkedAt-only reruns are ignored", async () => {

@@ -8,10 +8,14 @@ const MAX_HISTORY_ITEMS = 100;
 const RETENTION_DAYS = 30;
 
 async function main() {
-  const result = await updateChangeHistory();
+  const resetBaseline = process.argv.includes("--reset-baseline");
+  const result = await updateChangeHistory({ resetBaseline });
   console.log(`Change history baseline entries: ${Object.keys(result.baseline).length}`);
   console.log(`Change history new entries: ${result.addedCount}`);
   console.log(`Change history retained entries: ${result.history.length}`);
+  if (resetBaseline) {
+    console.log("Change history baseline was reset.");
+  }
 }
 
 async function updateChangeHistory(options = {}) {
@@ -19,7 +23,7 @@ async function updateChangeHistory(options = {}) {
   const historyPath = options.historyPath || path.join(rootDir, "data", "change-history.json");
   const now = options.now || new Date().toISOString();
   const previous = await readJson(historyPath, null);
-  const previousBaseline = previous?.baseline || null;
+  const previousBaseline = options.resetBaseline ? null : previous?.baseline || null;
   const previousHistory = Array.isArray(previous?.history) ? previous.history : [];
   const baseline = await buildCurrentBaseline(rootDir);
 

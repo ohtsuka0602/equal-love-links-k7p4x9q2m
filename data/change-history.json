@@ -1,287 +1,287 @@
 {
   "meta": {
-    "checkedAt": "2026-09-07T01:18:31.280Z",
+    "checkedAt": "2026-09-07T01:24:11.468Z",
     "updatedAt": "",
-    "baselineCreatedAt": "2026-09-07T01:18:31.280Z",
+    "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/11835": {
-        "hash": "a0a0cf51715992cf0aa4e7e57f2f0560e6270a6073a374e60ef82c19b11be4a1",
+      "https://equal-love.jp/schedule/detail/11858": {
+        "hash": "77c25c750293e47688992e62607dbeee04241d301ad2cfab0be6ebe5ed666712",
         "item": {
-          "title": "テレビ朝日系「EIGHT-JAM」※...",
-          "date": "2026-08-16",
+          "title": "握手会 ＝LOVE映像商品 ＝LOVE 8周...",
+          "date": "2026-09-07",
           "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11835",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11176": {
-        "hash": "94a7b4d0642e018ffefc185ba6eff3a5dee5ed280a0a525f791a8de4ae31883d",
-        "item": {
-          "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
-          "date": "2026-08-16",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11176",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11706": {
-        "hash": "f2541f648f12035b7b47149601674888e5ac5c5a5570afd58e83bfaa14a9d783",
-        "item": {
-          "title": "握手会 ＝LOVE 21stシングル発売記念...",
-          "date": "2026-08-16",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11706",
+          "url": "https://equal-love.jp/schedule/detail/11858",
           "category": ""
         }
       },
-      "https://equal-love.jp/schedule/detail/10438": {
-        "hash": "8651971ef784f5d30d5cf38a7db970f7793f4bd7c9ee222f44c983c15329f4e6",
+      "https://equal-love.jp/schedule/detail/10441": {
+        "hash": "0025df40339023edabdd3af7f1092b47d2543f7d2610c724957903732e89794f",
         "item": {
           "title": "ニッポン放送「＝LOVEのイコラフ」",
-          "date": "2026-08-17",
+          "date": "2026-09-07",
           "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10438",
+          "url": "https://equal-love.jp/schedule/detail/10441",
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/11833": {
-        "hash": "1531c2e952155176a8fc2e99b9d39c759bdb03a804f0aa406b58e3ca57ae4960",
+      "https://equal-love.jp/schedule/detail/11906": {
+        "hash": "3f71d8ef55567352f91c6ab2fe005ad7728846feca86c7b8d2e1951a06a0de06",
         "item": {
-          "title": "日本テレビ系「夜の音 -TOKYO ...",
-          "date": "2026-08-18",
+          "title": "NHK「うたコン」※＝LOVE",
+          "date": "2026-09-08",
           "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11833",
+          "url": "https://equal-love.jp/schedule/detail/11906",
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/11759": {
-        "hash": "049a961fb34c83167beac60a368ffa5d242914229202280a1b48e82193feea44",
+      "https://equal-love.jp/schedule/detail/10493": {
+        "hash": "456e525b118223977d4aaac528e72cd93e2c3523030d4490d83b636bb0235c80",
         "item": {
-          "title": "握手会 ＝LOVE 21stシングル発売記念...",
-          "date": "2026-08-19",
+          "title": "SHOWROOM『＝LOVE 山本杏...",
+          "date": "2026-09-10",
           "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11759",
-          "category": ""
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11760": {
-        "hash": "a321ddf96c1133da74733f72491f343391b63433194c744aa241ff2aa166a116",
-        "item": {
-          "title": "握手会 ＝LOVE 21stシングル発売記念...",
-          "date": "2026-08-20",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11760",
-          "category": ""
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11079": {
-        "hash": "6ca7bb63f54ac49c6973b659641aa47c5e730b992d21f114dfa1e4c356fe0850",
-        "item": {
-          "title": "集英社「MYOJO 10月号」※大谷...",
-          "date": "2026-08-21",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11079",
+          "url": "https://equal-love.jp/schedule/detail/10493",
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/10734": {
-        "hash": "8dba97ee6bfbefea1e28700e2de1ef7b55343ebd7e8013b56f7f89138fd2d2e1",
+      "https://equal-love.jp/schedule/detail/10737": {
+        "hash": "9c571552a86c53b98179653ab28bc6175586ddf2a4898fdfd0dab62b701367f1",
         "item": {
           "title": "Artistspoken「イマフレラ...",
-          "date": "2026-08-21",
+          "date": "2026-09-11",
           "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10734",
+          "url": "https://equal-love.jp/schedule/detail/10737",
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/11728": {
-        "hash": "d6ce8e948b8bb05fccea35afa035f3927e7e1e1dbfe713b8ce3b000dc166fc78",
+      "https://equal-love.jp/schedule/detail/11651": {
+        "hash": "66afed562e012f5676f45aabacc90e426ad0bda8aa3d4841512c204600b613be",
         "item": {
-          "title": "「Ray 2026年10月号」※音嶋...",
-          "date": "2026-08-21",
+          "title": "握手会 ＝LOVE 21stシングル発売記念...",
+          "date": "2026-09-12",
           "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11728",
+          "url": "https://equal-love.jp/schedule/detail/11651",
+          "category": ""
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10546": {
+        "hash": "08b7afdaf0272442b55a0fa8af84dfcec01bf03ea8bdc94d661ee84d6bbccb89",
+        "item": {
+          "title": "MBSラジオ「アッパレやってまーす！...",
+          "date": "2026-09-12",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10546",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11653": {
+        "hash": "30257f062f0d9461017f37b94e92e6addc12868b859171bd4765c3f00019998d",
+        "item": {
+          "title": "握手会 ＝LOVE 21stシングル発売記念...",
+          "date": "2026-09-13",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11653",
+          "category": ""
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11900": {
+        "hash": "0f00d11ba8a1f6205dc100ef6a87267a3f9bd48a92bc25a56af8325565109f5f",
+        "item": {
+          "title": "TBS系「坂上&指原のつぶれない店」...",
+          "date": "2026-09-13",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11900",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10442": {
+        "hash": "73ffa2d14dc0d9814b40bcd0f01b28163d2631f23e6a3471c498db03ad0bd885",
+        "item": {
+          "title": "ニッポン放送「＝LOVEのイコラフ」",
+          "date": "2026-09-14",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10442",
           "category": "メディア"
         }
       }
     },
     "news": {
-      "https://sp.equal-love.jp/news/detail/11820": {
-        "hash": "6d940095e8fae14650887307f5a89656d1884e725e40f2d1ca0542d6b5bd9439",
+      "https://sp.equal-love.jp/news/detail/11923": {
+        "hash": "11eda89c4cefc87771e6c00ee60dfd5a80c42a8fd25b05aceafcb4d60e8b4098",
         "item": {
-          "title": "【出演情報】日本テレビ「サクサクヒムヒム☆推しの降る夜☆」※大谷映美里",
-          "date": "2026-08-15",
+          "title": "【出演情報】J:COM STREAM「인기가요(人気歌謡) ※日本語字幕版」※＝LOVE",
+          "date": "2026-09-07",
           "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11820",
+          "url": "https://sp.equal-love.jp/news/detail/11923",
           "category": "メディア"
         }
       },
-      "https://sp.equal-love.jp/news/detail/11849": {
-        "hash": "bb019227057e228d159a28210d5f7016e931a11ebb98ddec660aefa08dfc7d55",
+      "https://sp.equal-love.jp/news/detail/11899": {
+        "hash": "7de83e61acb3acea9e7576f3ea791441b63787f5c8163d3425922c2c50113910",
         "item": {
-          "title": "【出演情報】 FM NACK5「FAV FOUR」※大場花菜",
-          "date": "2026-08-14",
+          "title": "【出演情報】TBS系「坂上&指原のつぶれない店」※大谷映美里、諸橋沙夏",
+          "date": "2026-09-06",
           "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11849",
+          "url": "https://sp.equal-love.jp/news/detail/11899",
           "category": "メディア"
         }
       },
-      "https://sp.equal-love.jp/news/detail/11842": {
-        "hash": "aa80565b4174709a027f82edceff7603883b0ea81844303019a5e1dc6fcab18e",
+      "https://sp.equal-love.jp/news/detail/11922": {
+        "hash": "03623e0522d6eb4dfe375c31f43330dd84476eeeb8bb8679704b37e4b0dfb0be",
         "item": {
-          "title": "【出演情報】フジテレビ系「STAR」※＝LOVE",
-          "date": "2026-08-13",
+          "title": "＝LOVE 8周年ツアー「＝LOVE 8th ANNIVERSARY PREMIUM TOUR」FINAL in 横浜スタジアム 映像商品アートワーク・収録内容公開！",
+          "date": "2026-09-06",
           "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11842",
+          "url": "https://sp.equal-love.jp/news/detail/11922",
+          "category": "リリース"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/11919": {
+        "hash": "534af68d0266f113e1775f7a44e0e3d19e3911ccac17c6af86479dfdddac322a",
+        "item": {
+          "title": "＝LOVEデビュー9周年企画 コンサート音源配信決定！",
+          "date": "2026-09-05",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/11919",
+          "category": "お知らせ"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/11914": {
+        "hash": "4610ad394ef2c20d61964caf092efb5368bda47cc8d3aed5bdcdbfa964e3c6a5",
+        "item": {
+          "title": "【出演情報】今年で35周年を迎えるマクドナルドの秋の定番、月見スイーツのWebCMに齋藤樹愛羅の出演が決定いたしました！",
+          "date": "2026-09-05",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/11914",
           "category": "メディア"
         }
       },
-      "https://sp.equal-love.jp/news/detail/11817": {
-        "hash": "0bcaf5c4f850bd3d2a396d560acaafbb8fb1331128be53a9258c6c372908eefb",
+      "https://sp.equal-love.jp/news/detail/11917": {
+        "hash": "1cad08d461841ef0254fa4bc29317cb1c33691dc7c0e7ab245fff2225a3c78e4",
         "item": {
-          "title": "【出演情報】「evelyn 2026 New season collection モデル」※音嶋莉沙",
-          "date": "2026-08-13",
+          "title": "「＝LOVE 21stシングル発売記念 個別お話し会」イベント会場にて、＝LOVE CD購入抽選会開催決定！",
+          "date": "2026-09-04",
           "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11817",
-          "category": "メディア"
+          "url": "https://sp.equal-love.jp/news/detail/11917",
+          "category": "お知らせ"
         }
       },
-      "https://sp.equal-love.jp/news/detail/11668": {
-        "hash": "870e359d7f870606d5e7a2c46afe90a8399c13cda2da87889abe8fd6fab690a8",
+      "https://sp.equal-love.jp/news/detail/11915": {
+        "hash": "385ba5e2ee4692f63e6966908a23ed814bd1db1b301537326e30e4e96c810bb9",
         "item": {
-          "title": "【出演情報】NHK「NHK 夏の音楽祭 うたであえたら 2026」※＝LOVE",
-          "date": "2026-08-13",
+          "title": "≪物販情報≫9月6日(日)個別お話し会",
+          "date": "2026-09-04",
           "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11668",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11836": {
-        "hash": "8bd6dce5076666f20ec3e00d40cf2b624cc01f2fb62878ae70a32b3d76282ebb",
-        "item": {
-          "title": "生写真セット(20thcw「お姫様の作り方」②)発売！",
-          "date": "2026-08-12",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11836",
+          "url": "https://sp.equal-love.jp/news/detail/11915",
           "category": "グッズ"
         }
       },
-      "https://sp.equal-love.jp/news/detail/11839": {
-        "hash": "49d794f2f88bd896e54ab1a68767b95c890fbe24777bc17dd9d5769c6d6ef935",
+      "https://sp.equal-love.jp/news/detail/11918": {
+        "hash": "f508f545df0b713e7f2af59eaa732115990c4944d16fde308833a476d1d71c3e",
         "item": {
-          "title": "「STARフェス」＝LOVEの出演決定・FC先行受付のお知らせ",
-          "date": "2026-08-12",
+          "title": "【出演情報】ユニバーサル・スタジオ・ジャパン「ハロウィーン・ホラー・ナイト」の学生向けキャンペーン、「ユニハロ」の新WebCMに齋藤樹愛羅の出演が決定いたしました！",
+          "date": "2026-09-04",
           "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11839",
+          "url": "https://sp.equal-love.jp/news/detail/11918",
+          "category": "メディア"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/11912": {
+        "hash": "7bd903c72314daf6447b99cea8fb31d6bc9f71b292d3534a629ebe3e383bdc57",
+        "item": {
+          "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」一般先行チケット受付開始のお知らせ",
+          "date": "2026-09-04",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/11912",
           "category": "ライブ/イベント"
         }
       },
-      "https://sp.equal-love.jp/news/detail/11832": {
-        "hash": "e2551bbf5853c531342a879cd30eadf7b8b207870beb891e4922e45f027b0140",
+      "https://sp.equal-love.jp/news/detail/11916": {
+        "hash": "fe390c566f170b85e35ff79973cd991a517615ba5d427e97ea897e718b2a68eb",
         "item": {
-          "title": "【出演情報】日本テレビ系「夜の音 -TOKYO MIDNIGHT MUSIC-」※＝LOVE",
-          "date": "2026-08-12",
+          "title": "【出演情報】「Heather 25th Anniversary Collection」イメージモデルを髙松瞳が務めさせていただくことが決定いたしました！",
+          "date": "2026-09-04",
           "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11832",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11834": {
-        "hash": "a1bafded13e0340ede9beb266a50059d7415a9523a77c9d51f3587d2791eae06",
-        "item": {
-          "title": "【出演情報】テレビ朝日系「EIGHT-JAM」※＝LOVE",
-          "date": "2026-08-10",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11834",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11718": {
-        "hash": "b330a4486c16677ad0fd19877acdee9c7c3f6b1c4ccb317508503737fb41f33e",
-        "item": {
-          "title": "【＝LOVE Official Fan Club】音嶋莉沙へのバースデーメッセージを募集♪",
-          "date": "2026-08-10",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11718",
+          "url": "https://sp.equal-love.jp/news/detail/11916",
           "category": "お知らせ"
         }
       }
     },
     "youtube": {
-      "A8nlZ3yYufU": {
-        "hash": "2d14e0d5a167c32e340a2563c0aa8303210bb7445b6fd4de645cebb95ed33958",
+      "-acS8BRlNuE": {
+        "hash": "bc30c96ff90a8710ea8851eeb1b92398f9433158faa27e6f0981888e89245baa",
         "item": {
-          "videoId": "A8nlZ3yYufU",
-          "title": "＝LOVE 21stシングル表題曲「恋、はじめました。」Music Videoが公開！ぜひご覧ください🎬#イコラブ #イコールラブ #恋はじめました",
-          "url": "https://www.youtube.com/watch?v=A8nlZ3yYufU",
-          "thumbnail": "https://i.ytimg.com/vi/A8nlZ3yYufU/maxresdefault.jpg",
-          "publishedAt": "2026-08-14T13:17:19Z",
+          "videoId": "-acS8BRlNuE",
+          "title": "＝LOVE（イコールラブ）/ 21st Single『恋、はじめました。』Dance version",
+          "url": "https://www.youtube.com/watch?v=-acS8BRlNuE",
+          "thumbnail": "https://i.ytimg.com/vi/-acS8BRlNuE/maxresdefault.jpg",
+          "publishedAt": "2026-09-06T13:00:16Z",
           "channelId": "UCv7VutirxDn3RWIJXI68n_A",
           "channelName": "＝LOVE（イコールラブ）公式チャンネル",
           "sourceName": "=LOVE オフィシャル",
           "memberNames": []
         }
       },
-      "p6QeFJHHLpU": {
-        "hash": "f73fadc911c9e3391cd128c5cf9a033a8ebf72f5fe7337cb9e30f7d0af5fd789",
+      "T4cqqbKfGcA": {
+        "hash": "1e1a7eace8c257fa328442e1166b9abeb6568ba70712fd817da5f9fd79cb5fcb",
         "item": {
-          "videoId": "p6QeFJHHLpU",
-          "title": "＝LOVE 21stシングル表題曲「恋、はじめました。」Music Videoが公開！ぜひご覧ください🎬#イコラブ #イコールラブ #恋はじめました",
-          "url": "https://www.youtube.com/watch?v=p6QeFJHHLpU",
-          "thumbnail": "https://i.ytimg.com/vi/p6QeFJHHLpU/maxresdefault.jpg",
-          "publishedAt": "2026-08-14T13:17:03Z",
+          "videoId": "T4cqqbKfGcA",
+          "title": "＝LOVE（イコールラブ）/ 21st Single『Making of 恋、はじめました。』",
+          "url": "https://www.youtube.com/watch?v=T4cqqbKfGcA",
+          "thumbnail": "https://i.ytimg.com/vi/T4cqqbKfGcA/maxresdefault.jpg",
+          "publishedAt": "2026-09-06T08:30:21Z",
           "channelId": "UCv7VutirxDn3RWIJXI68n_A",
           "channelName": "＝LOVE（イコールラブ）公式チャンネル",
           "sourceName": "=LOVE オフィシャル",
           "memberNames": []
         }
       },
-      "ikFaEAlO5N0": {
-        "hash": "2921e03dc0da8b80e13dddd0e6c9fddb5c4fd4841d978839e3bd6c639d42386c",
+      "WQXLUt8bu10": {
+        "hash": "53b562f77723d42e40f16629caecb859da7e668e3f22b5be1f1060370884a8d3",
         "item": {
-          "videoId": "ikFaEAlO5N0",
-          "title": "＝LOVE（イコールラブ）/ 21st Single『恋、はじめました。』【MV full】",
-          "url": "https://www.youtube.com/watch?v=ikFaEAlO5N0",
-          "thumbnail": "https://i.ytimg.com/vi/ikFaEAlO5N0/maxresdefault.jpg",
-          "publishedAt": "2026-08-14T13:00:06Z",
-          "channelId": "UCv7VutirxDn3RWIJXI68n_A",
-          "channelName": "＝LOVE（イコールラブ）公式チャンネル",
-          "sourceName": "=LOVE オフィシャル",
-          "memberNames": []
-        }
-      },
-      "MFoialdE84s": {
-        "hash": "3970020ba1016f9d6c14335a39919fe5c338375ed75a98d9b38eef0da4af0ac5",
-        "item": {
-          "videoId": "MFoialdE84s",
-          "title": "8/26(水)発売＝LOVE 21stシングル表題曲 『恋、はじめました』 先行配信がスタートしました🎧🎶MVの公開もおたのしみに💘˒˒#イコールラブ #イコラブ #恋はじめました #大谷映美里",
-          "url": "https://www.youtube.com/watch?v=MFoialdE84s",
-          "thumbnail": "https://i.ytimg.com/vi/MFoialdE84s/maxresdefault.jpg",
-          "publishedAt": "2026-08-12T12:00:11Z",
-          "channelId": "UCv7VutirxDn3RWIJXI68n_A",
-          "channelName": "＝LOVE（イコールラブ）公式チャンネル",
-          "sourceName": "=LOVE オフィシャル",
-          "memberNames": []
-        }
-      },
-      "L_UjOzanEJI": {
-        "hash": "e918c3479261ee57e371a11534868ad5c232bc404ea5522c433526d83d8aba0d",
-        "item": {
-          "videoId": "L_UjOzanEJI",
-          "title": "【初投稿】イコラブ音嶋莉沙のカバンの中身大公開スペシャル【7.8kg】",
-          "url": "https://www.youtube.com/watch?v=L_UjOzanEJI",
-          "thumbnail": "https://i.ytimg.com/vi/L_UjOzanEJI/maxresdefault.jpg",
-          "publishedAt": "2026-08-11T11:00:04Z",
-          "channelId": "UCcsyyry5bsjTeqqJ_Yz9TiA",
-          "channelName": "音嶋莉沙の様子がおかしいチャンネル",
-          "sourceName": "音嶋 莉沙",
+          "videoId": "WQXLUt8bu10",
+          "title": "みりにゃの1日に密着",
+          "url": "https://www.youtube.com/watch?v=WQXLUt8bu10",
+          "thumbnail": "https://i.ytimg.com/vi/WQXLUt8bu10/maxresdefault.jpg",
+          "publishedAt": "2026-09-05T10:00:03Z",
+          "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
+          "channelName": "みりにゃと申します。",
+          "sourceName": "大谷 映美里",
           "memberNames": [
-            "音嶋 莉沙"
+            "大谷 映美里"
           ]
+        }
+      },
+      "iol33RJffaA": {
+        "hash": "07a492a2a021a52fc8ab3ffc85ffebb351cb30b0c8aefc3d43a083110d7e49d0",
+        "item": {
+          "videoId": "iol33RJffaA",
+          "title": "8/26発売 21stシングル表題曲「恋、はじめました。」MV白ドレスver.🧸゛先行配信&MV公開中💘ぜひチェックお願いします🎧⟡.·‪#恋はじめました‬#イコールラブ ‪#イコラブ‬#大谷映美里🩷",
+          "url": "https://www.youtube.com/watch?v=iol33RJffaA",
+          "thumbnail": "https://i.ytimg.com/vi/iol33RJffaA/maxresdefault.jpg",
+          "publishedAt": "2026-09-01T07:53:22Z",
+          "channelId": "UCv7VutirxDn3RWIJXI68n_A",
+          "channelName": "＝LOVE（イコールラブ）公式チャンネル",
+          "sourceName": "=LOVE オフィシャル",
+          "memberNames": []
+        }
+      },
+      "fsZ4L2xkyYY": {
+        "hash": "99548107f043c2271306dae08a2608aba240c0741835f096488a1ef86914ddb6",
+        "item": {
+          "videoId": "fsZ4L2xkyYY",
+          "title": "8/26発売 21stシングル表題曲「恋、はじめました。」MV白ドレスver.🧸゛先行配信&MV公開中💘ぜひチェックお願いします🎧⟡.·‪#恋はじめました‬#イコールラブ ‪#イコラブ‬#瀧脇笙古 🩷",
+          "url": "https://www.youtube.com/watch?v=fsZ4L2xkyYY",
+          "thumbnail": "https://i.ytimg.com/vi/fsZ4L2xkyYY/maxresdefault.jpg",
+          "publishedAt": "2026-09-01T07:53:10Z",
+          "channelId": "UCv7VutirxDn3RWIJXI68n_A",
+          "channelName": "＝LOVE（イコールラブ）公式チャンネル",
+          "sourceName": "=LOVE オフィシャル",
+          "memberNames": []
         }
       }
     },
