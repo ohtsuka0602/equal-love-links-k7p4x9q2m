@@ -1,13 +1,20 @@
 {
   "meta": {
-    "checkedAt": "2026-09-07T20:45:42.970Z",
-    "updatedAt": "2026-09-07T18:43:15.702Z"
+    "checkedAt": "2026-09-08T02:44:11.718Z",
+    "updatedAt": "2026-09-08T02:44:11.718Z"
   },
   "schedule": [
     {
       "title": "NHK「うたコン」※＝LOVE",
       "date": "2026-09-08",
       "url": "https://equal-love.jp/schedule/detail/11906",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "TOKYO FM「Hand in H...",
+      "date": "2026-09-08",
+      "url": "https://equal-love.jp/schedule/detail/11735",
       "category": "メディア",
       "time": ""
     },
@@ -64,13 +71,6 @@
       "title": "Artistspoken「イマフレラ...",
       "date": "2026-09-18",
       "url": "https://equal-love.jp/schedule/detail/10738",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "MBSラジオ「アッパレやってまーす！...",
-      "date": "2026-09-19",
-      "url": "https://equal-love.jp/schedule/detail/10547",
       "category": "メディア",
       "time": ""
     }

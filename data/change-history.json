@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-07T23:00:33.616Z",
-    "updatedAt": "2026-09-07T18:43:15.884Z",
+    "checkedAt": "2026-09-08T02:44:12.386Z",
+    "updatedAt": "2026-09-08T02:44:12.386Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -15,6 +15,16 @@
           "date": "2026-09-08",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11906",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11735": {
+        "hash": "2bc9e02921c189365e9aeabf329eef25370bb99d37003630dd2ffd3ce3c52768",
+        "item": {
+          "title": "TOKYO FM「Hand in H...",
+          "date": "2026-09-08",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11735",
           "category": "メディア"
         }
       },
@@ -95,16 +105,6 @@
           "date": "2026-09-18",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10738",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/10547": {
-        "hash": "15acdfc8c3078dbef94b8765be4b4daa21efece7e4393d6b33f08ed30e07b42d",
-        "item": {
-          "title": "MBSラジオ「アッパレやってまーす！...",
-          "date": "2026-09-19",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10547",
           "category": "メディア"
         }
       }
@@ -499,6 +499,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11735:2bc9e02921c1",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-09-08T02:44:12.386Z",
+      "title": "TOKYO FM「Hand in H...",
+      "url": "https://equal-love.jp/schedule/detail/11735",
+      "date": "2026-09-08",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/10442:73ffa2d14dc0",
       "type": "schedule",
