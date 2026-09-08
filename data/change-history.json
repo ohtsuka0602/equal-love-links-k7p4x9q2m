@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-08T08:45:51.688Z",
-    "updatedAt": "2026-09-08T02:44:12.386Z",
+    "checkedAt": "2026-09-08T13:03:53.635Z",
+    "updatedAt": "2026-09-08T13:03:53.635Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/11931": {
+        "hash": "96fbe57a080958da3d9822a7d585876ee387918bdba7897b9e808ca326a67fad",
+        "item": {
+          "title": "＝LOVE 個別衣装ポーチ(8周年ツアー衣装③)発売！",
+          "date": "2026-09-08",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/11931",
+          "category": "グッズ"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/11909": {
         "hash": "5e354ae098f5343b21dee3da7808ca1a0743300e34b1d1d2a3a85de907b29020",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/11918",
           "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11912": {
-        "hash": "7bd903c72314daf6447b99cea8fb31d6bc9f71b292d3534a629ebe3e383bdc57",
-        "item": {
-          "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」一般先行チケット受付開始のお知らせ",
-          "date": "2026-09-04",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11912",
-          "category": "ライブ/イベント"
         }
       }
     },
@@ -499,6 +499,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/11931:96fbe57a0809",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-08T13:03:53.635Z",
+      "title": "＝LOVE 個別衣装ポーチ(8周年ツアー衣装③)発売！",
+      "url": "https://sp.equal-love.jp/news/detail/11931",
+      "date": "2026-09-08",
+      "category": "グッズ",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11735:2bc9e02921c1",
       "type": "schedule",
