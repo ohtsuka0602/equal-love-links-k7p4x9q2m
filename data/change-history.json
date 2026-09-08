@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-08T17:54:31.521Z",
-    "updatedAt": "2026-09-08T17:54:31.521Z",
+    "checkedAt": "2026-09-08T18:05:32.102Z",
+    "updatedAt": "2026-09-08T18:05:32.102Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/11930": {
+        "hash": "59367d5f92165f9d331daf515cf7d7f5e82b482e95f173ae27c5cad14c8ef6dc",
+        "item": {
+          "title": "【出演情報】ホットペッパービューティーの新Web CMに＝LOVEの出演が決定いたしました！",
+          "date": "2026-09-09",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/11930",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/11931": {
         "hash": "96fbe57a080958da3d9822a7d585876ee387918bdba7897b9e808ca326a67fad",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/11915",
           "category": "グッズ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11918": {
-        "hash": "f508f545df0b713e7f2af59eaa732115990c4944d16fde308833a476d1d71c3e",
-        "item": {
-          "title": "【出演情報】ユニバーサル・スタジオ・ジャパン「ハロウィーン・ホラー・ナイト」の学生向けキャンペーン、「ユニハロ」の新WebCMに齋藤樹愛羅の出演が決定いたしました！",
-          "date": "2026-09-04",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11918",
-          "category": "メディア"
         }
       }
     },
@@ -499,6 +499,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/11930:59367d5f9216",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-08T18:05:32.102Z",
+      "title": "【出演情報】ホットペッパービューティーの新Web CMに＝LOVEの出演が決定いたしました！",
+      "url": "https://sp.equal-love.jp/news/detail/11930",
+      "date": "2026-09-09",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11495:d52d637a4cb5",
       "type": "schedule",
