@@ -1,23 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-09-08T14:45:53.440Z",
-    "updatedAt": "2026-09-08T02:44:11.718Z"
+    "checkedAt": "2026-09-08T17:54:31.336Z",
+    "updatedAt": "2026-09-08T17:54:31.336Z"
   },
   "schedule": [
-    {
-      "title": "NHK「うたコン」※＝LOVE",
-      "date": "2026-09-08",
-      "url": "https://equal-love.jp/schedule/detail/11906",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "TOKYO FM「Hand in H...",
-      "date": "2026-09-08",
-      "url": "https://equal-love.jp/schedule/detail/11735",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "SHOWROOM『＝LOVE 山本杏...",
       "date": "2026-09-10",
@@ -72,6 +58,20 @@
       "date": "2026-09-18",
       "url": "https://equal-love.jp/schedule/detail/10738",
       "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "MBSラジオ「アッパレやってまーす！...",
+      "date": "2026-09-19",
+      "url": "https://equal-love.jp/schedule/detail/10547",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "「ROCK IN JAPAN FES...",
+      "date": "2026-09-19",
+      "url": "https://equal-love.jp/schedule/detail/11495",
+      "category": "ライブ/イベント",
       "time": ""
     }
   ]
