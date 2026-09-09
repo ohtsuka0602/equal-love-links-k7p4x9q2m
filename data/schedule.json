@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-09T02:44:15.120Z",
-    "updatedAt": "2026-09-08T17:54:31.336Z"
+    "checkedAt": "2026-09-09T08:44:17.977Z",
+    "updatedAt": "2026-09-09T08:44:17.977Z"
   },
   "schedule": [
     {
@@ -15,6 +15,13 @@
       "title": "Artistspoken「イマフレラ...",
       "date": "2026-09-11",
       "url": "https://equal-love.jp/schedule/detail/10737",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "TELASAオリジナル「アイ=ラブ！...",
+      "date": "2026-09-12",
+      "url": "https://equal-love.jp/schedule/detail/11702",
       "category": "メディア",
       "time": ""
     },
@@ -65,13 +72,6 @@
       "date": "2026-09-19",
       "url": "https://equal-love.jp/schedule/detail/10547",
       "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "「ROCK IN JAPAN FES...",
-      "date": "2026-09-19",
-      "url": "https://equal-love.jp/schedule/detail/11495",
-      "category": "ライブ/イベント",
       "time": ""
     }
   ]

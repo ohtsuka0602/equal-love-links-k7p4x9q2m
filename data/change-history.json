@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-09T07:34:45.387Z",
-    "updatedAt": "2026-09-09T07:34:45.387Z",
+    "checkedAt": "2026-09-09T08:44:18.166Z",
+    "updatedAt": "2026-09-09T08:44:18.166Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -25,6 +25,16 @@
           "date": "2026-09-11",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10737",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11702": {
+        "hash": "079a8e13312d49980f52426362297106013fd7c579759f495a7bfbd1a63029d4",
+        "item": {
+          "title": "TELASAオリジナル「アイ=ラブ！...",
+          "date": "2026-09-12",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11702",
           "category": "メディア"
         }
       },
@@ -96,16 +106,6 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10547",
           "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11495": {
-        "hash": "d52d637a4cb5b797766c12803ebc6bd5eb062480fda4601dc8c644a09b448ff5",
-        "item": {
-          "title": "「ROCK IN JAPAN FES...",
-          "date": "2026-09-19",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11495",
-          "category": "ライブ/イベント"
         }
       }
     },
@@ -499,6 +499,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11702:079a8e13312d",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-09-09T08:44:18.166Z",
+      "title": "TELASAオリジナル「アイ=ラブ！...",
+      "url": "https://equal-love.jp/schedule/detail/11702",
+      "date": "2026-09-12",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/11920:070b32dfc511",
       "type": "news",
