@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-09T02:45:47.949Z",
-    "updatedAt": "2026-09-08T18:05:32.102Z",
+    "checkedAt": "2026-09-09T07:34:45.387Z",
+    "updatedAt": "2026-09-09T07:34:45.387Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/11920": {
+        "hash": "070b32dfc511f3e30d4d3abad9a95f54481b61062a3571bb5ce97b74982c893f",
+        "item": {
+          "title": "Suyunn『 1st anniversary Sweet Mood by Suyunn collection 』モデルを齋藤樹愛羅が務めさせていただくことが決定いたしました！",
+          "date": "2026-09-09",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/11920",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/11930": {
         "hash": "59367d5f92165f9d331daf515cf7d7f5e82b482e95f173ae27c5cad14c8ef6dc",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/11917",
           "category": "お知らせ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11915": {
-        "hash": "385ba5e2ee4692f63e6966908a23ed814bd1db1b301537326e30e4e96c810bb9",
-        "item": {
-          "title": "≪物販情報≫9月6日(日)個別お話し会",
-          "date": "2026-09-04",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11915",
-          "category": "グッズ"
         }
       }
     },
@@ -499,6 +499,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/11920:070b32dfc511",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-09T07:34:45.387Z",
+      "title": "Suyunn『 1st anniversary Sweet Mood by Suyunn collection 』モデルを齋藤樹愛羅が務めさせていただくことが決定いたしました！",
+      "url": "https://sp.equal-love.jp/news/detail/11920",
+      "date": "2026-09-09",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/11930:59367d5f9216",
       "type": "news",
