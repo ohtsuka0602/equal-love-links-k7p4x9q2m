@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-09T08:45:47.262Z",
-    "updatedAt": "2026-09-09T08:44:18.166Z",
+    "checkedAt": "2026-09-09T13:09:35.695Z",
+    "updatedAt": "2026-09-09T13:09:35.695Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/11932": {
+        "hash": "a58cc1f6d3d0543845e8270e2f194319cbce3f94e6d353cac7b4fd4e02621443",
+        "item": {
+          "title": "握手会2026.09.09New! 【振替に関するご案内】＝LOVE映像商品『＝LOVE 8周年ツアー「＝LOVE 8th ANNIVERSARY PREMIUM TOUR」FINAL in 横浜スタジアム』発売記念 オンライン個別サイン会について",
+          "date": "2026-09-09",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/11932",
+          "category": ""
+        }
+      },
       "https://sp.equal-love.jp/news/detail/11920": {
         "hash": "070b32dfc511f3e30d4d3abad9a95f54481b61062a3571bb5ce97b74982c893f",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/11914",
           "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11917": {
-        "hash": "1cad08d461841ef0254fa4bc29317cb1c33691dc7c0e7ab245fff2225a3c78e4",
-        "item": {
-          "title": "「＝LOVE 21stシングル発売記念 個別お話し会」イベント会場にて、＝LOVE CD購入抽選会開催決定！",
-          "date": "2026-09-04",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11917",
-          "category": "お知らせ"
         }
       }
     },
@@ -499,6 +499,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/11932:a58cc1f6d3d0",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-09T13:09:35.695Z",
+      "title": "握手会2026.09.09New! 【振替に関するご案内】＝LOVE映像商品『＝LOVE 8周年ツアー「＝LOVE 8th ANNIVERSARY PREMIUM TOUR」FINAL in 横浜スタジアム』発売記念 オンライン個別サイン会について",
+      "url": "https://sp.equal-love.jp/news/detail/11932",
+      "date": "2026-09-09",
+      "category": "",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11702:079a8e13312d",
       "type": "schedule",
