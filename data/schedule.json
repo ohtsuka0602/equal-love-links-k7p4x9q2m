@@ -1,23 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-09-10T14:45:55.161Z",
-    "updatedAt": "2026-09-10T02:45:50.668Z"
+    "checkedAt": "2026-09-10T17:41:51.264Z",
+    "updatedAt": "2026-09-10T17:41:51.264Z"
   },
   "schedule": [
-    {
-      "title": "SHOWROOM『＝LOVE 山本杏...",
-      "date": "2026-09-10",
-      "url": "https://equal-love.jp/schedule/detail/10493",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "フジテレビ ONE「プロ野球ニュース...",
-      "date": "2026-09-10",
-      "url": "https://equal-love.jp/schedule/detail/11448",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "Artistspoken「イマフレラ...",
       "date": "2026-09-11",
@@ -72,6 +58,20 @@
       "date": "2026-09-18",
       "url": "https://equal-love.jp/schedule/detail/10738",
       "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "MBSラジオ「アッパレやってまーす！...",
+      "date": "2026-09-19",
+      "url": "https://equal-love.jp/schedule/detail/10547",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "「ROCK IN JAPAN FES...",
+      "date": "2026-09-19",
+      "url": "https://equal-love.jp/schedule/detail/11495",
+      "category": "ライブ/イベント",
       "time": ""
     }
   ]

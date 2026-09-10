@@ -1,6 +1,6 @@
 {
   "meta": {
-    "checkedAt": "2026-09-10T14:45:55.487Z",
+    "checkedAt": "2026-09-10T17:41:51.411Z",
     "updatedAt": "2026-09-10T13:07:37.528Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
@@ -8,26 +8,6 @@
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/10493": {
-        "hash": "456e525b118223977d4aaac528e72cd93e2c3523030d4490d83b636bb0235c80",
-        "item": {
-          "title": "SHOWROOM『＝LOVE 山本杏...",
-          "date": "2026-09-10",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10493",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11448": {
-        "hash": "7243493b37c540ecfaa64ec85e118d11d4f14e4a1f868a49c8feeb9c6e057f9f",
-        "item": {
-          "title": "フジテレビ ONE「プロ野球ニュース...",
-          "date": "2026-09-10",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11448",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/10737": {
         "hash": "9c571552a86c53b98179653ab28bc6175586ddf2a4898fdfd0dab62b701367f1",
         "item": {
@@ -106,6 +86,26 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10738",
           "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10547": {
+        "hash": "15acdfc8c3078dbef94b8765be4b4daa21efece7e4393d6b33f08ed30e07b42d",
+        "item": {
+          "title": "MBSラジオ「アッパレやってまーす！...",
+          "date": "2026-09-19",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10547",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11495": {
+        "hash": "d52d637a4cb5b797766c12803ebc6bd5eb062480fda4601dc8c644a09b448ff5",
+        "item": {
+          "title": "「ROCK IN JAPAN FES...",
+          "date": "2026-09-19",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11495",
+          "category": "ライブ/イベント"
         }
       }
     },
