@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-10T08:45:52.031Z",
-    "updatedAt": "2026-09-10T07:31:10.949Z",
+    "checkedAt": "2026-09-10T13:07:37.528Z",
+    "updatedAt": "2026-09-10T13:07:37.528Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,36 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/11942": {
+        "hash": "16ac18059ed7eabd56e3f3d0f21baf9bb43559fb8cdafa9f4bbe46a4ad0b1443",
+        "item": {
+          "title": "＝LOVE 個別衣装ポーチ(8周年ツアー衣装③)追加販売のお知らせ",
+          "date": "2026-09-10",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/11942",
+          "category": "グッズ"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/11937": {
+        "hash": "fe7814b45ac4d0b9c30cf33f48639e3bd12529b8847b1471b5edd1c988bc9def",
+        "item": {
+          "title": "≪物販情報≫9月13日(日) スリーショット撮影会",
+          "date": "2026-09-10",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/11937",
+          "category": "グッズ"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/11933": {
+        "hash": "af5986b716d62d9db273ac08e9d6c57698f43346d702cc2fada1f715b93699e7",
+        "item": {
+          "title": "≪物販情報≫9月12日(土) ツーショット撮影会",
+          "date": "2026-09-10",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/11933",
+          "category": "グッズ"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/11926": {
         "hash": "35cc4fb842fcb6bec1e55fede077bf9106e4097fe6d67306add0e017157546d1",
         "item": {
@@ -179,39 +209,25 @@
           "url": "https://sp.equal-love.jp/news/detail/11923",
           "category": "メディア"
         }
-      },
-      "https://sp.equal-love.jp/news/detail/11899": {
-        "hash": "7de83e61acb3acea9e7576f3ea791441b63787f5c8163d3425922c2c50113910",
-        "item": {
-          "title": "【出演情報】TBS系「坂上&指原のつぶれない店」※大谷映美里、諸橋沙夏",
-          "date": "2026-09-06",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11899",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11922": {
-        "hash": "03623e0522d6eb4dfe375c31f43330dd84476eeeb8bb8679704b37e4b0dfb0be",
-        "item": {
-          "title": "＝LOVE 8周年ツアー「＝LOVE 8th ANNIVERSARY PREMIUM TOUR」FINAL in 横浜スタジアム 映像商品アートワーク・収録内容公開！",
-          "date": "2026-09-06",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11922",
-          "category": "リリース"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11919": {
-        "hash": "534af68d0266f113e1775f7a44e0e3d19e3911ccac17c6af86479dfdddac322a",
-        "item": {
-          "title": "＝LOVEデビュー9周年企画 コンサート音源配信決定！",
-          "date": "2026-09-05",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11919",
-          "category": "お知らせ"
-        }
       }
     },
     "youtube": {
+      "_ksaAlGcX-I": {
+        "hash": "3c18f5063c0e804133a4a47f9b1911507a89e709c8b7ad3dac609562e90166b1",
+        "item": {
+          "videoId": "_ksaAlGcX-I",
+          "title": "夏の緊急フッ軽バーベキュー【おいしいビール飲みたい】",
+          "url": "https://www.youtube.com/watch?v=_ksaAlGcX-I",
+          "thumbnail": "https://i.ytimg.com/vi/_ksaAlGcX-I/maxresdefault.jpg",
+          "publishedAt": "2026-09-10T11:00:38Z",
+          "channelId": "UC0r-2f003yXdV5En7qHlrGw",
+          "channelName": "つんはしご",
+          "sourceName": "諸橋 沙夏",
+          "memberNames": [
+            "諸橋 沙夏"
+          ]
+        }
+      },
       "-acS8BRlNuE": {
         "hash": "bc30c96ff90a8710ea8851eeb1b92398f9433158faa27e6f0981888e89245baa",
         "item": {
@@ -264,20 +280,6 @@
           "url": "https://www.youtube.com/watch?v=iol33RJffaA",
           "thumbnail": "https://i.ytimg.com/vi/iol33RJffaA/maxresdefault.jpg",
           "publishedAt": "2026-09-01T07:53:22Z",
-          "channelId": "UCv7VutirxDn3RWIJXI68n_A",
-          "channelName": "＝LOVE（イコールラブ）公式チャンネル",
-          "sourceName": "=LOVE オフィシャル",
-          "memberNames": []
-        }
-      },
-      "fsZ4L2xkyYY": {
-        "hash": "99548107f043c2271306dae08a2608aba240c0741835f096488a1ef86914ddb6",
-        "item": {
-          "videoId": "fsZ4L2xkyYY",
-          "title": "8/26発売 21stシングル表題曲「恋、はじめました。」MV白ドレスver.🧸゛先行配信&MV公開中💘ぜひチェックお願いします🎧⟡.·‪#恋はじめました‬#イコールラブ ‪#イコラブ‬#瀧脇笙古 🩷",
-          "url": "https://www.youtube.com/watch?v=fsZ4L2xkyYY",
-          "thumbnail": "https://i.ytimg.com/vi/fsZ4L2xkyYY/maxresdefault.jpg",
-          "publishedAt": "2026-09-01T07:53:10Z",
           "channelId": "UCv7VutirxDn3RWIJXI68n_A",
           "channelName": "＝LOVE（イコールラブ）公式チャンネル",
           "sourceName": "=LOVE オフィシャル",
@@ -499,6 +501,56 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/11942:16ac18059ed7",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-10T13:07:37.528Z",
+      "title": "＝LOVE 個別衣装ポーチ(8周年ツアー衣装③)追加販売のお知らせ",
+      "url": "https://sp.equal-love.jp/news/detail/11942",
+      "date": "2026-09-10",
+      "category": "グッズ",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/11937:fe7814b45ac4",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-10T13:07:37.528Z",
+      "title": "≪物販情報≫9月13日(日) スリーショット撮影会",
+      "url": "https://sp.equal-love.jp/news/detail/11937",
+      "date": "2026-09-10",
+      "category": "グッズ",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/11933:af5986b716d6",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-10T13:07:37.528Z",
+      "title": "≪物販情報≫9月12日(土) ツーショット撮影会",
+      "url": "https://sp.equal-love.jp/news/detail/11933",
+      "date": "2026-09-10",
+      "category": "グッズ",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "youtube:added:_ksaAlGcX-I:3c18f5063c0e",
+      "type": "youtube",
+      "action": "added",
+      "occurredAt": "2026-09-10T13:07:37.528Z",
+      "title": "夏の緊急フッ軽バーベキュー【おいしいビール飲みたい】",
+      "url": "https://www.youtube.com/watch?v=_ksaAlGcX-I",
+      "date": "2026-09-10T11:00:38Z",
+      "category": "",
+      "memberNames": [
+        "諸橋 沙夏"
+      ],
+      "sourceName": "諸橋 沙夏"
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/11926:35cc4fb842fc",
       "type": "news",
