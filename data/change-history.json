@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-10T02:45:50.865Z",
-    "updatedAt": "2026-09-10T02:45:50.865Z",
+    "checkedAt": "2026-09-10T07:31:10.949Z",
+    "updatedAt": "2026-09-10T07:31:10.949Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/11926": {
+        "hash": "35cc4fb842fcb6bec1e55fede077bf9106e4097fe6d67306add0e017157546d1",
+        "item": {
+          "title": "【出演情報】AT-X「マヂラブ・野口衣織のマヂでラブになるTV」#3※野口衣織",
+          "date": "2026-09-10",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/11926",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/11932": {
         "hash": "a58cc1f6d3d0543845e8270e2f194319cbce3f94e6d353cac7b4fd4e02621443",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/11919",
           "category": "お知らせ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11914": {
-        "hash": "4610ad394ef2c20d61964caf092efb5368bda47cc8d3aed5bdcdbfa964e3c6a5",
-        "item": {
-          "title": "【出演情報】今年で35周年を迎えるマクドナルドの秋の定番、月見スイーツのWebCMに齋藤樹愛羅の出演が決定いたしました！",
-          "date": "2026-09-05",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11914",
-          "category": "メディア"
         }
       }
     },
@@ -499,6 +499,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/11926:35cc4fb842fc",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-10T07:31:10.949Z",
+      "title": "【出演情報】AT-X「マヂラブ・野口衣織のマヂでラブになるTV」#3※野口衣織",
+      "url": "https://sp.equal-love.jp/news/detail/11926",
+      "date": "2026-09-10",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11448:7243493b37c5",
       "type": "schedule",
