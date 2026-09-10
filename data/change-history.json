@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-10T02:44:57.619Z",
-    "updatedAt": "2026-09-09T13:09:35.695Z",
+    "checkedAt": "2026-09-10T02:45:50.865Z",
+    "updatedAt": "2026-09-10T02:45:50.865Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -15,6 +15,16 @@
           "date": "2026-09-10",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10493",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11448": {
+        "hash": "7243493b37c540ecfaa64ec85e118d11d4f14e4a1f868a49c8feeb9c6e057f9f",
+        "item": {
+          "title": "フジテレビ ONE「プロ野球ニュース...",
+          "date": "2026-09-10",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11448",
           "category": "メディア"
         }
       },
@@ -95,16 +105,6 @@
           "date": "2026-09-18",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10738",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/10547": {
-        "hash": "15acdfc8c3078dbef94b8765be4b4daa21efece7e4393d6b33f08ed30e07b42d",
-        "item": {
-          "title": "MBSラジオ「アッパレやってまーす！...",
-          "date": "2026-09-19",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10547",
           "category": "メディア"
         }
       }
@@ -499,6 +499,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11448:7243493b37c5",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-09-10T02:45:50.865Z",
+      "title": "フジテレビ ONE「プロ野球ニュース...",
+      "url": "https://equal-love.jp/schedule/detail/11448",
+      "date": "2026-09-10",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/11932:a58cc1f6d3d0",
       "type": "news",
