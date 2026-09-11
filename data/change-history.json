@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-11T02:45:36.415Z",
-    "updatedAt": "2026-09-10T13:07:37.528Z",
+    "checkedAt": "2026-09-11T07:29:05.450Z",
+    "updatedAt": "2026-09-11T07:29:05.450Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/11943": {
+        "hash": "9bf7e03843dbde7b40c1ed2d8ccf26f9c20114c412ed6dde39e5d13c6174a8e3",
+        "item": {
+          "title": "＝LOVE 21stシングル発売記念イベント会場にて、＝LOVE CD購入抽選会開催決定！",
+          "date": "2026-09-11",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/11943",
+          "category": "お知らせ"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/11942": {
         "hash": "16ac18059ed7eabd56e3f3d0f21baf9bb43559fb8cdafa9f4bbe46a4ad0b1443",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/11909",
           "category": "グッズ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11923": {
-        "hash": "11eda89c4cefc87771e6c00ee60dfd5a80c42a8fd25b05aceafcb4d60e8b4098",
-        "item": {
-          "title": "【出演情報】J:COM STREAM「인기가요(人気歌謡) ※日本語字幕版」※＝LOVE",
-          "date": "2026-09-07",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11923",
-          "category": "メディア"
         }
       }
     },
@@ -501,6 +501,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/11943:9bf7e03843db",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-11T07:29:05.450Z",
+      "title": "＝LOVE 21stシングル発売記念イベント会場にて、＝LOVE CD購入抽選会開催決定！",
+      "url": "https://sp.equal-love.jp/news/detail/11943",
+      "date": "2026-09-11",
+      "category": "お知らせ",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/11942:16ac18059ed7",
       "type": "news",
