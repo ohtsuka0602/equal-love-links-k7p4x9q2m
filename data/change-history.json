@@ -1,23 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-09-11T14:46:05.792Z",
-    "updatedAt": "2026-09-11T13:01:14.407Z",
+    "checkedAt": "2026-09-11T17:44:23.968Z",
+    "updatedAt": "2026-09-11T17:44:23.968Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/10737": {
-        "hash": "9c571552a86c53b98179653ab28bc6175586ddf2a4898fdfd0dab62b701367f1",
-        "item": {
-          "title": "Artistspoken「イマフレラ...",
-          "date": "2026-09-11",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10737",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/11702": {
         "hash": "079a8e13312d49980f52426362297106013fd7c579759f495a7bfbd1a63029d4",
         "item": {
@@ -106,6 +96,16 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11495",
           "category": "ライブ/イベント"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11753": {
+        "hash": "d70adc182f5f7de577f633f266c219367110d64bdbde157d4a3473edc696c817",
+        "item": {
+          "title": "CSテレ朝チャンネル１「EIGHT-...",
+          "date": "2026-09-20",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11753",
+          "category": "メディア"
         }
       }
     },
@@ -501,6 +501,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11753:d70adc182f5f",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-09-11T17:44:23.968Z",
+      "title": "CSテレ朝チャンネル１「EIGHT-...",
+      "url": "https://equal-love.jp/schedule/detail/11753",
+      "date": "2026-09-20",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "youtube:added:Y5eFvtwVdYU:e655533e857a",
       "type": "youtube",
