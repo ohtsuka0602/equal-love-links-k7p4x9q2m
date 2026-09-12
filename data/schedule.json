@@ -1,13 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-09-11T20:44:12.865Z",
-    "updatedAt": "2026-09-11T17:44:23.772Z"
+    "checkedAt": "2026-09-12T02:43:48.558Z",
+    "updatedAt": "2026-09-12T02:43:48.558Z"
   },
   "schedule": [
     {
-      "title": "TELASAオリジナル「アイ=ラブ！...",
+      "title": "MBSラジオ「アッパレやってまーす！...",
       "date": "2026-09-12",
-      "url": "https://equal-love.jp/schedule/detail/11702",
+      "url": "https://equal-love.jp/schedule/detail/10546",
       "category": "メディア",
       "time": ""
     },
@@ -19,9 +19,16 @@
       "time": ""
     },
     {
-      "title": "MBSラジオ「アッパレやってまーす！...",
+      "title": "TELASAオリジナル「アイ=ラブ！...",
       "date": "2026-09-12",
-      "url": "https://equal-love.jp/schedule/detail/10546",
+      "url": "https://equal-love.jp/schedule/detail/11702",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "TBS系「坂上&指原のつぶれない店」...",
+      "date": "2026-09-13",
+      "url": "https://equal-love.jp/schedule/detail/11900",
       "category": "メディア",
       "time": ""
     },
@@ -30,13 +37,6 @@
       "date": "2026-09-13",
       "url": "https://equal-love.jp/schedule/detail/11653",
       "category": "",
-      "time": ""
-    },
-    {
-      "title": "TBS系「坂上&指原のつぶれない店」...",
-      "date": "2026-09-13",
-      "url": "https://equal-love.jp/schedule/detail/11900",
-      "category": "メディア",
       "time": ""
     },
     {
@@ -68,9 +68,9 @@
       "time": ""
     },
     {
-      "title": "CSテレ朝チャンネル１「EIGHT-...",
-      "date": "2026-09-20",
-      "url": "https://equal-love.jp/schedule/detail/11753",
+      "title": "関西テレビ・フジテレビ系「土曜はナニ...",
+      "date": "2026-09-19",
+      "url": "https://equal-love.jp/schedule/detail/11941",
       "category": "メディア",
       "time": ""
     }
