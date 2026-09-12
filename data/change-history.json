@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-12T08:45:24.131Z",
-    "updatedAt": "2026-09-12T08:44:45.337Z",
+    "checkedAt": "2026-09-12T12:22:22.421Z",
+    "updatedAt": "2026-09-12T12:22:22.421Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/11944": {
+        "hash": "bdd982d7470e69697649012a523e5cf1b33b7d82a6ec1fc177a92b3b95fee531",
+        "item": {
+          "title": "「シャインポスト ひまわりシンフォニー feat. ゆらゆらシスターズ Virtual LIVE 2027 “Another Journey”」に齋藤樹愛羅が広瀬実唯菜cv(ゆらゆらシスターズ)としてのゲスト出演が決定！",
+          "date": "2026-09-12",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/11944",
+          "category": "ライブ/イベント"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/11946": {
         "hash": "aa17fa2b061aa0f47ed25ca5567a01b091897e476b2d8db6422962c3a6202f53",
         "item": {
@@ -197,16 +207,6 @@
           "date": "2026-09-09",
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/11920",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11930": {
-        "hash": "59367d5f92165f9d331daf515cf7d7f5e82b482e95f173ae27c5cad14c8ef6dc",
-        "item": {
-          "title": "【出演情報】ホットペッパービューティーの新Web CMに＝LOVEの出演が決定いたしました！",
-          "date": "2026-09-09",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11930",
           "category": "メディア"
         }
       }
@@ -501,6 +501,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/11944:bdd982d7470e",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-12T12:22:22.421Z",
+      "title": "「シャインポスト ひまわりシンフォニー feat. ゆらゆらシスターズ Virtual LIVE 2027 “Another Journey”」に齋藤樹愛羅が広瀬実唯菜cv(ゆらゆらシスターズ)としてのゲスト出演が決定！",
+      "url": "https://sp.equal-love.jp/news/detail/11944",
+      "date": "2026-09-12",
+      "category": "ライブ/イベント",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/11946:aa17fa2b061a",
       "type": "news",
