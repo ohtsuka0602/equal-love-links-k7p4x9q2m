@@ -1,43 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-09-12T14:45:12.033Z",
-    "updatedAt": "2026-09-12T12:22:22.421Z",
+    "checkedAt": "2026-09-12T17:07:30.019Z",
+    "updatedAt": "2026-09-12T17:07:30.019Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/10546": {
-        "hash": "08b7afdaf0272442b55a0fa8af84dfcec01bf03ea8bdc94d661ee84d6bbccb89",
-        "item": {
-          "title": "MBSラジオ「アッパレやってまーす！...",
-          "date": "2026-09-12",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10546",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11651": {
-        "hash": "66afed562e012f5676f45aabacc90e426ad0bda8aa3d4841512c204600b613be",
-        "item": {
-          "title": "握手会 ＝LOVE 21stシングル発売記念...",
-          "date": "2026-09-12",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11651",
-          "category": ""
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11702": {
-        "hash": "079a8e13312d49980f52426362297106013fd7c579759f495a7bfbd1a63029d4",
-        "item": {
-          "title": "TELASAオリジナル「アイ=ラブ！...",
-          "date": "2026-09-12",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11702",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/11900": {
         "hash": "0f00d11ba8a1f6205dc100ef6a87267a3f9bd48a92bc25a56af8325565109f5f",
         "item": {
@@ -105,6 +75,36 @@
           "date": "2026-09-19",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11941",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11753": {
+        "hash": "d70adc182f5f7de577f633f266c219367110d64bdbde157d4a3473edc696c817",
+        "item": {
+          "title": "CSテレ朝チャンネル１「EIGHT-...",
+          "date": "2026-09-20",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11753",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11859": {
+        "hash": "b7260927c8f00aa91a9c98b1d522f199f3e69e4cd053ea517a2d416922bf6023",
+        "item": {
+          "title": "握手会 ＝LOVE映像商品 ＝LOVE 8周...",
+          "date": "2026-09-20",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11859",
+          "category": ""
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10443": {
+        "hash": "cf6b583d3cdd75fea31fb4827ac17ec1ee9dc83c03e5177fb3e6841c24efc27e",
+        "item": {
+          "title": "ニッポン放送「＝LOVEのイコラフ」",
+          "date": "2026-09-21",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10443",
           "category": "メディア"
         }
       }
@@ -501,6 +501,30 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11859:b7260927c8f0",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-09-12T17:07:30.019Z",
+      "title": "握手会 ＝LOVE映像商品 ＝LOVE 8周...",
+      "url": "https://equal-love.jp/schedule/detail/11859",
+      "date": "2026-09-20",
+      "category": "",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10443:cf6b583d3cdd",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-09-12T17:07:30.019Z",
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "url": "https://equal-love.jp/schedule/detail/10443",
+      "date": "2026-09-21",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/11944:bdd982d7470e",
       "type": "news",
