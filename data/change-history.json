@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-12T07:21:19.048Z",
-    "updatedAt": "2026-09-12T02:45:15.291Z",
+    "checkedAt": "2026-09-12T08:44:45.337Z",
+    "updatedAt": "2026-09-12T08:44:45.337Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/11946": {
+        "hash": "aa17fa2b061aa0f47ed25ca5567a01b091897e476b2d8db6422962c3a6202f53",
+        "item": {
+          "title": "＝LOVEデビュー9周年企画 コンサート映像配信決定！",
+          "date": "2026-09-12",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/11946",
+          "category": "お知らせ"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/11940": {
         "hash": "2304fea3626b5d9ef70ac8dbab23d83bb4413aba484b630c0504a2bbaabc6c6b",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/11930",
           "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11931": {
-        "hash": "96fbe57a080958da3d9822a7d585876ee387918bdba7897b9e808ca326a67fad",
-        "item": {
-          "title": "＝LOVE 個別衣装ポーチ(8周年ツアー衣装③)発売！",
-          "date": "2026-09-08",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11931",
-          "category": "グッズ"
         }
       }
     },
@@ -501,6 +501,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/11946:aa17fa2b061a",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-12T08:44:45.337Z",
+      "title": "＝LOVEデビュー9周年企画 コンサート映像配信決定！",
+      "url": "https://sp.equal-love.jp/news/detail/11946",
+      "date": "2026-09-12",
+      "category": "お知らせ",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/11940:2304fea3626b",
       "type": "news",
