@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-12T02:43:48.744Z",
-    "updatedAt": "2026-09-12T02:43:48.744Z",
+    "checkedAt": "2026-09-12T02:45:15.291Z",
+    "updatedAt": "2026-09-12T02:45:15.291Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/11940": {
+        "hash": "2304fea3626b5d9ef70ac8dbab23d83bb4413aba484b630c0504a2bbaabc6c6b",
+        "item": {
+          "title": "【出演情報】関西テレビ・フジテレビ系「土曜はナニする！？」※髙松瞳",
+          "date": "2026-09-12",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/11940",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/11943": {
         "hash": "9bf7e03843dbde7b40c1ed2d8ccf26f9c20114c412ed6dde39e5d13c6174a8e3",
         "item": {
@@ -197,16 +207,6 @@
           "date": "2026-09-08",
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/11931",
-          "category": "グッズ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11909": {
-        "hash": "5e354ae098f5343b21dee3da7808ca1a0743300e34b1d1d2a3a85de907b29020",
-        "item": {
-          "title": "生写真セット(年末歌番組2025衣装②)・アクリルスタンドキーホルダー(年末歌番組2025衣装②)発売！",
-          "date": "2026-09-07",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11909",
           "category": "グッズ"
         }
       }
@@ -501,6 +501,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/11940:2304fea3626b",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-12T02:45:15.291Z",
+      "title": "【出演情報】関西テレビ・フジテレビ系「土曜はナニする！？」※髙松瞳",
+      "url": "https://sp.equal-love.jp/news/detail/11940",
+      "date": "2026-09-12",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11941:cc8a3c3b1073",
       "type": "schedule",
