@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-12T20:43:49.454Z",
-    "updatedAt": "2026-09-12T17:07:29.840Z"
+    "checkedAt": "2026-09-13T02:45:30.313Z",
+    "updatedAt": "2026-09-13T02:45:30.313Z"
   },
   "schedule": [
     {
@@ -19,6 +19,13 @@
       "time": ""
     },
     {
+      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
+      "date": "2026-09-13",
+      "url": "https://equal-love.jp/schedule/detail/11180",
+      "category": "メディア",
+      "time": ""
+    },
+    {
       "title": "ニッポン放送「＝LOVEのイコラフ」",
       "date": "2026-09-14",
       "url": "https://equal-love.jp/schedule/detail/10442",
@@ -29,6 +36,20 @@
       "title": "Artistspoken「イマフレラ...",
       "date": "2026-09-18",
       "url": "https://equal-love.jp/schedule/detail/10738",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "関西テレビ・フジテレビ系「土曜はナニ...",
+      "date": "2026-09-19",
+      "url": "https://equal-love.jp/schedule/detail/11941",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "TELASAオリジナル「アイ=ラブ！...",
+      "date": "2026-09-19",
+      "url": "https://equal-love.jp/schedule/detail/11703",
       "category": "メディア",
       "time": ""
     },
@@ -47,30 +68,9 @@
       "time": ""
     },
     {
-      "title": "関西テレビ・フジテレビ系「土曜はナニ...",
-      "date": "2026-09-19",
-      "url": "https://equal-love.jp/schedule/detail/11941",
-      "category": "メディア",
-      "time": ""
-    },
-    {
       "title": "CSテレ朝チャンネル１「EIGHT-...",
       "date": "2026-09-20",
       "url": "https://equal-love.jp/schedule/detail/11753",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "握手会 ＝LOVE映像商品 ＝LOVE 8周...",
-      "date": "2026-09-20",
-      "url": "https://equal-love.jp/schedule/detail/11859",
-      "category": "",
-      "time": ""
-    },
-    {
-      "title": "ニッポン放送「＝LOVEのイコラフ」",
-      "date": "2026-09-21",
-      "url": "https://equal-love.jp/schedule/detail/10443",
       "category": "メディア",
       "time": ""
     }

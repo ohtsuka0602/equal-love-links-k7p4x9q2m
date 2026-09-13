@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-13T02:44:51.815Z",
-    "updatedAt": "2026-09-12T17:07:30.019Z",
+    "checkedAt": "2026-09-13T02:45:30.498Z",
+    "updatedAt": "2026-09-13T02:45:30.498Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -28,6 +28,16 @@
           "category": ""
         }
       },
+      "https://equal-love.jp/schedule/detail/11180": {
+        "hash": "2bdbb9fdc7210e0e5ee6d1f8d4e18fcb42fe749cee5a1a4ae995746b43dbe597",
+        "item": {
+          "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
+          "date": "2026-09-13",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11180",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/10442": {
         "hash": "73ffa2d14dc0d9814b40bcd0f01b28163d2631f23e6a3471c498db03ad0bd885",
         "item": {
@@ -45,6 +55,26 @@
           "date": "2026-09-18",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10738",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11941": {
+        "hash": "cc8a3c3b1073400e5987fea50f2fd10286b96ad871328c570065f94696de2d1e",
+        "item": {
+          "title": "関西テレビ・フジテレビ系「土曜はナニ...",
+          "date": "2026-09-19",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11941",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11703": {
+        "hash": "f26c31657fe83d4b4b5d99446efffdd7f7370309f627110fc237244ff430976b",
+        "item": {
+          "title": "TELASAオリジナル「アイ=ラブ！...",
+          "date": "2026-09-19",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11703",
           "category": "メディア"
         }
       },
@@ -68,16 +98,6 @@
           "category": "ライブ/イベント"
         }
       },
-      "https://equal-love.jp/schedule/detail/11941": {
-        "hash": "cc8a3c3b1073400e5987fea50f2fd10286b96ad871328c570065f94696de2d1e",
-        "item": {
-          "title": "関西テレビ・フジテレビ系「土曜はナニ...",
-          "date": "2026-09-19",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11941",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/11753": {
         "hash": "d70adc182f5f7de577f633f266c219367110d64bdbde157d4a3473edc696c817",
         "item": {
@@ -85,26 +105,6 @@
           "date": "2026-09-20",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11753",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11859": {
-        "hash": "b7260927c8f00aa91a9c98b1d522f199f3e69e4cd053ea517a2d416922bf6023",
-        "item": {
-          "title": "握手会 ＝LOVE映像商品 ＝LOVE 8周...",
-          "date": "2026-09-20",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11859",
-          "category": ""
-        }
-      },
-      "https://equal-love.jp/schedule/detail/10443": {
-        "hash": "cf6b583d3cdd75fea31fb4827ac17ec1ee9dc83c03e5177fb3e6841c24efc27e",
-        "item": {
-          "title": "ニッポン放送「＝LOVEのイコラフ」",
-          "date": "2026-09-21",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10443",
           "category": "メディア"
         }
       }
@@ -501,6 +501,30 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11180:2bdbb9fdc721",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-09-13T02:45:30.498Z",
+      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
+      "url": "https://equal-love.jp/schedule/detail/11180",
+      "date": "2026-09-13",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11703:f26c31657fe8",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-09-13T02:45:30.498Z",
+      "title": "TELASAオリジナル「アイ=ラブ！...",
+      "url": "https://equal-love.jp/schedule/detail/11703",
+      "date": "2026-09-19",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11859:b7260927c8f0",
       "type": "schedule",
