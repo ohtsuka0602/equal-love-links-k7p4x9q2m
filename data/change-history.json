@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-14T08:45:39.484Z",
-    "updatedAt": "2026-09-13T17:24:15.099Z",
+    "checkedAt": "2026-09-14T14:45:03.615Z",
+    "updatedAt": "2026-09-14T14:45:03.615Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/11947": {
+        "hash": "79c66cb04790b06e0e6e44d6d34c01af2234d9053bc9f1e0f356fc4040c04e14",
+        "item": {
+          "title": "生写真セット(「恋、はじめました。」ジャケット衣装)発売！",
+          "date": "2026-09-14",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/11947",
+          "category": "グッズ"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/11944": {
         "hash": "bdd982d7470e69697649012a523e5cf1b33b7d82a6ec1fc177a92b3b95fee531",
         "item": {
@@ -199,19 +209,25 @@
           "url": "https://sp.equal-love.jp/news/detail/11932",
           "category": ""
         }
-      },
-      "https://sp.equal-love.jp/news/detail/11920": {
-        "hash": "070b32dfc511f3e30d4d3abad9a95f54481b61062a3571bb5ce97b74982c893f",
-        "item": {
-          "title": "Suyunn『 1st anniversary Sweet Mood by Suyunn collection 』モデルを齋藤樹愛羅が務めさせていただくことが決定いたしました！",
-          "date": "2026-09-09",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11920",
-          "category": "メディア"
-        }
       }
     },
     "youtube": {
+      "NvNqTMzTC1o": {
+        "hash": "511bd8c2516a497fee12ee1abfb2a964f324e4714759052443452053d8290339",
+        "item": {
+          "videoId": "NvNqTMzTC1o",
+          "title": "【ご報告】皆さんにやっと言えます",
+          "url": "https://www.youtube.com/watch?v=NvNqTMzTC1o",
+          "thumbnail": "https://i.ytimg.com/vi/NvNqTMzTC1o/maxresdefault.jpg",
+          "publishedAt": "2026-09-14T09:00:16Z",
+          "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
+          "channelName": "みりにゃと申します。",
+          "sourceName": "大谷 映美里",
+          "memberNames": [
+            "大谷 映美里"
+          ]
+        }
+      },
       "Y5eFvtwVdYU": {
         "hash": "e655533e857a535e45b016559ca610880118995d67a960820a5def13b248ff3f",
         "item": {
@@ -266,20 +282,6 @@
           "url": "https://www.youtube.com/watch?v=-acS8BRlNuE",
           "thumbnail": "https://i.ytimg.com/vi/-acS8BRlNuE/maxresdefault.jpg",
           "publishedAt": "2026-09-06T13:00:16Z",
-          "channelId": "UCv7VutirxDn3RWIJXI68n_A",
-          "channelName": "＝LOVE（イコールラブ）公式チャンネル",
-          "sourceName": "=LOVE オフィシャル",
-          "memberNames": []
-        }
-      },
-      "T4cqqbKfGcA": {
-        "hash": "1e1a7eace8c257fa328442e1166b9abeb6568ba70712fd817da5f9fd79cb5fcb",
-        "item": {
-          "videoId": "T4cqqbKfGcA",
-          "title": "＝LOVE（イコールラブ）/ 21st Single『Making of 恋、はじめました。』",
-          "url": "https://www.youtube.com/watch?v=T4cqqbKfGcA",
-          "thumbnail": "https://i.ytimg.com/vi/T4cqqbKfGcA/maxresdefault.jpg",
-          "publishedAt": "2026-09-06T08:30:21Z",
           "channelId": "UCv7VutirxDn3RWIJXI68n_A",
           "channelName": "＝LOVE（イコールラブ）公式チャンネル",
           "sourceName": "=LOVE オフィシャル",
@@ -501,6 +503,32 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/11947:79c66cb04790",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-14T14:45:03.615Z",
+      "title": "生写真セット(「恋、はじめました。」ジャケット衣装)発売！",
+      "url": "https://sp.equal-love.jp/news/detail/11947",
+      "date": "2026-09-14",
+      "category": "グッズ",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "youtube:added:NvNqTMzTC1o:511bd8c2516a",
+      "type": "youtube",
+      "action": "added",
+      "occurredAt": "2026-09-14T14:45:03.615Z",
+      "title": "【ご報告】皆さんにやっと言えます",
+      "url": "https://www.youtube.com/watch?v=NvNqTMzTC1o",
+      "date": "2026-09-14T09:00:16Z",
+      "category": "",
+      "memberNames": [
+        "大谷 映美里"
+      ],
+      "sourceName": "大谷 映美里"
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11886:eae6486dac44",
       "type": "schedule",
