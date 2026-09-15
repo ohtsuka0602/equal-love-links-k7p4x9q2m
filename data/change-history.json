@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-14T23:28:12.800Z",
-    "updatedAt": "2026-09-14T19:20:05.225Z",
+    "checkedAt": "2026-09-15T02:44:32.684Z",
+    "updatedAt": "2026-09-15T02:44:32.684Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/11935": {
+        "hash": "b5f109566b674aa1a51bca8a708a9a6b0dac9066bc798b9a5bcdcfff9184c6c0",
+        "item": {
+          "title": "【掲載情報】双葉社「EX大衆10月号」※大場花菜、山本杏奈",
+          "date": "2026-09-15",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/11935",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/11947": {
         "hash": "79c66cb04790b06e0e6e44d6d34c01af2234d9053bc9f1e0f356fc4040c04e14",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/11926",
           "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11932": {
-        "hash": "a58cc1f6d3d0543845e8270e2f194319cbce3f94e6d353cac7b4fd4e02621443",
-        "item": {
-          "title": "握手会2026.09.09New! 【振替に関するご案内】＝LOVE映像商品『＝LOVE 8周年ツアー「＝LOVE 8th ANNIVERSARY PREMIUM TOUR」FINAL in 横浜スタジアム』発売記念 オンライン個別サイン会について",
-          "date": "2026-09-09",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11932",
-          "category": ""
         }
       }
     },
@@ -503,6 +503,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/11935:b5f109566b67",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-15T02:44:32.684Z",
+      "title": "【掲載情報】双葉社「EX大衆10月号」※大場花菜、山本杏奈",
+      "url": "https://sp.equal-love.jp/news/detail/11935",
+      "date": "2026-09-15",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11081:93592d3aea6a",
       "type": "schedule",
