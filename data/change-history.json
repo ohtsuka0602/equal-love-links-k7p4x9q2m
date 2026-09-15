@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-15T08:45:29.476Z",
-    "updatedAt": "2026-09-15T08:02:46.072Z",
+    "checkedAt": "2026-09-15T13:52:37.535Z",
+    "updatedAt": "2026-09-15T13:52:37.535Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/11928": {
+        "hash": "af50d92a6ff3293164748d1c82a2b1dea53a49d0513807bd1371ef066e41065a",
+        "item": {
+          "title": "【出演情報】日本テレビ「踊る！さんま御殿!!」※大谷映美里",
+          "date": "2026-09-15",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/11928",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/11921": {
         "hash": "8780a9a2b654bb831ba5634857085aa52a8c53d7189434a853e753c086762eb0",
         "item": {
@@ -197,16 +207,6 @@
           "date": "2026-09-10",
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/11937",
-          "category": "グッズ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11933": {
-        "hash": "af5986b716d62d9db273ac08e9d6c57698f43346d702cc2fada1f715b93699e7",
-        "item": {
-          "title": "≪物販情報≫9月12日(土) ツーショット撮影会",
-          "date": "2026-09-10",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11933",
           "category": "グッズ"
         }
       }
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/11928:af50d92a6ff3",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-15T13:52:37.535Z",
+      "title": "【出演情報】日本テレビ「踊る！さんま御殿!!」※大谷映美里",
+      "url": "https://sp.equal-love.jp/news/detail/11928",
+      "date": "2026-09-15",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/11921:8780a9a2b654",
       "type": "news",
