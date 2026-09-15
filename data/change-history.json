@@ -1,13 +1,43 @@
 {
   "meta": {
-    "checkedAt": "2026-09-15T02:44:32.684Z",
-    "updatedAt": "2026-09-15T02:44:32.684Z",
+    "checkedAt": "2026-09-15T02:45:13.903Z",
+    "updatedAt": "2026-09-15T02:45:13.903Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
+      "https://equal-love.jp/schedule/detail/11936": {
+        "hash": "cfb18d8e6d95ea67821ac57846bcf52e07ef3e4bff1d4becaaf99dae271534e8",
+        "item": {
+          "title": "双葉社「EX大衆10月号」※大場花菜...",
+          "date": "2026-09-15",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11936",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11684": {
+        "hash": "3ec55a3d3da5163f367f28371566966185c1c156865e2c607d8a7c0a0cadb82e",
+        "item": {
+          "title": "フジテレビ・FODプレミアム「キミは...",
+          "date": "2026-09-15",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11684",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11736": {
+        "hash": "4a20c866d0108ad0b90cd21bf68125334df42bd05a4f40de137044fb169e566e",
+        "item": {
+          "title": "TOKYO FM「Hand in H...",
+          "date": "2026-09-15",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11736",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/10738": {
         "hash": "77738bf7ec4fbac2462f2950ed49a0ba317c49b088e2a28e1fa7c827f22c7cf1",
         "item": {
@@ -76,36 +106,6 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11859",
           "category": ""
-        }
-      },
-      "https://equal-love.jp/schedule/detail/10443": {
-        "hash": "cf6b583d3cdd75fea31fb4827ac17ec1ee9dc83c03e5177fb3e6841c24efc27e",
-        "item": {
-          "title": "ニッポン放送「＝LOVEのイコラフ」",
-          "date": "2026-09-21",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10443",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11886": {
-        "hash": "eae6486dac44614e0dbb8e5dad1e76764c7874a2db9a36bb3edb5591ed26b83e",
-        "item": {
-          "title": "「INKIGAYO LIVE in ...",
-          "date": "2026-09-22",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11886",
-          "category": "ライブ/イベント"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11081": {
-        "hash": "93592d3aea6af8939af4b450e08efdc3d9de54a4319f7059a2a4eadbac7a6696",
-        "item": {
-          "title": "集英社「MYOJO 11月号」※瀧脇...",
-          "date": "2026-09-24",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11081",
-          "category": "メディア"
         }
       }
     },
@@ -503,6 +503,42 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11936:cfb18d8e6d95",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-09-15T02:45:13.903Z",
+      "title": "双葉社「EX大衆10月号」※大場花菜...",
+      "url": "https://equal-love.jp/schedule/detail/11936",
+      "date": "2026-09-15",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11684:3ec55a3d3da5",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-09-15T02:45:13.903Z",
+      "title": "フジテレビ・FODプレミアム「キミは...",
+      "url": "https://equal-love.jp/schedule/detail/11684",
+      "date": "2026-09-15",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11736:4a20c866d010",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-09-15T02:45:13.903Z",
+      "title": "TOKYO FM「Hand in H...",
+      "url": "https://equal-love.jp/schedule/detail/11736",
+      "date": "2026-09-15",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/11935:b5f109566b67",
       "type": "news",
