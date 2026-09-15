@@ -1,20 +1,20 @@
 {
   "meta": {
-    "checkedAt": "2026-09-15T08:43:55.599Z",
-    "updatedAt": "2026-09-15T02:45:13.716Z"
+    "checkedAt": "2026-09-15T14:45:32.418Z",
+    "updatedAt": "2026-09-15T14:45:32.418Z"
   },
   "schedule": [
-    {
-      "title": "双葉社「EX大衆10月号」※大場花菜...",
-      "date": "2026-09-15",
-      "url": "https://equal-love.jp/schedule/detail/11936",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "フジテレビ・FODプレミアム「キミは...",
       "date": "2026-09-15",
       "url": "https://equal-love.jp/schedule/detail/11684",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "双葉社「EX大衆10月号」※大場花菜...",
+      "date": "2026-09-15",
+      "url": "https://equal-love.jp/schedule/detail/11936",
       "category": "メディア",
       "time": ""
     },
@@ -40,6 +40,13 @@
       "time": ""
     },
     {
+      "title": "「ROCK IN JAPAN FES...",
+      "date": "2026-09-19",
+      "url": "https://equal-love.jp/schedule/detail/11495",
+      "category": "ライブ/イベント",
+      "time": ""
+    },
+    {
       "title": "TELASAオリジナル「アイ=ラブ！...",
       "date": "2026-09-19",
       "url": "https://equal-love.jp/schedule/detail/11703",
@@ -51,13 +58,6 @@
       "date": "2026-09-19",
       "url": "https://equal-love.jp/schedule/detail/10547",
       "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "「ROCK IN JAPAN FES...",
-      "date": "2026-09-19",
-      "url": "https://equal-love.jp/schedule/detail/11495",
-      "category": "ライブ/イベント",
       "time": ""
     },
     {

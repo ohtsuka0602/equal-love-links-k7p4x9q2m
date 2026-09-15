@@ -1,6 +1,6 @@
 {
   "meta": {
-    "checkedAt": "2026-09-15T14:44:51.977Z",
+    "checkedAt": "2026-09-15T14:45:32.603Z",
     "updatedAt": "2026-09-15T13:52:37.535Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
@@ -8,16 +8,6 @@
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/11936": {
-        "hash": "cfb18d8e6d95ea67821ac57846bcf52e07ef3e4bff1d4becaaf99dae271534e8",
-        "item": {
-          "title": "双葉社「EX大衆10月号」※大場花菜...",
-          "date": "2026-09-15",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11936",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/11684": {
         "hash": "3ec55a3d3da5163f367f28371566966185c1c156865e2c607d8a7c0a0cadb82e",
         "item": {
@@ -25,6 +15,16 @@
           "date": "2026-09-15",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11684",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11936": {
+        "hash": "cfb18d8e6d95ea67821ac57846bcf52e07ef3e4bff1d4becaaf99dae271534e8",
+        "item": {
+          "title": "双葉社「EX大衆10月号」※大場花菜...",
+          "date": "2026-09-15",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11936",
           "category": "メディア"
         }
       },
@@ -58,6 +58,16 @@
           "category": "メディア"
         }
       },
+      "https://equal-love.jp/schedule/detail/11495": {
+        "hash": "d52d637a4cb5b797766c12803ebc6bd5eb062480fda4601dc8c644a09b448ff5",
+        "item": {
+          "title": "「ROCK IN JAPAN FES...",
+          "date": "2026-09-19",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11495",
+          "category": "ライブ/イベント"
+        }
+      },
       "https://equal-love.jp/schedule/detail/11703": {
         "hash": "f26c31657fe83d4b4b5d99446efffdd7f7370309f627110fc237244ff430976b",
         "item": {
@@ -76,16 +86,6 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10547",
           "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11495": {
-        "hash": "d52d637a4cb5b797766c12803ebc6bd5eb062480fda4601dc8c644a09b448ff5",
-        "item": {
-          "title": "「ROCK IN JAPAN FES...",
-          "date": "2026-09-19",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11495",
-          "category": "ライブ/イベント"
         }
       },
       "https://equal-love.jp/schedule/detail/11753": {
