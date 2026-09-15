@@ -1,9 +1,22 @@
 {
   "meta": {
-    "checkedAt": "2026-09-15T02:44:27.033Z",
-    "updatedAt": "2026-09-14T14:44:56.884Z"
+    "checkedAt": "2026-09-15T08:02:40.293Z",
+    "updatedAt": "2026-09-15T08:02:40.293Z"
   },
   "videos": [
+    {
+      "videoId": "gaSubSTZBlI",
+      "title": "みり申グッズが完成したよ❣️ #shorts",
+      "url": "https://www.youtube.com/watch?v=gaSubSTZBlI",
+      "thumbnail": "https://i.ytimg.com/vi/gaSubSTZBlI/maxresdefault.jpg",
+      "publishedAt": "2026-09-15T05:03:14Z",
+      "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
+      "channelName": "みりにゃと申します。",
+      "sourceName": "大谷 映美里",
+      "memberNames": [
+        "大谷 映美里"
+      ]
+    },
     {
       "videoId": "NvNqTMzTC1o",
       "title": "【ご報告】皆さんにやっと言えます",
@@ -53,17 +66,6 @@
       "memberNames": [
         "諸橋 沙夏"
       ]
-    },
-    {
-      "videoId": "-acS8BRlNuE",
-      "title": "＝LOVE（イコールラブ）/ 21st Single『恋、はじめました。』Dance version",
-      "url": "https://www.youtube.com/watch?v=-acS8BRlNuE",
-      "thumbnail": "https://i.ytimg.com/vi/-acS8BRlNuE/maxresdefault.jpg",
-      "publishedAt": "2026-09-06T13:00:16Z",
-      "channelId": "UCv7VutirxDn3RWIJXI68n_A",
-      "channelName": "＝LOVE（イコールラブ）公式チャンネル",
-      "sourceName": "=LOVE オフィシャル",
-      "memberNames": []
     }
   ]
 }

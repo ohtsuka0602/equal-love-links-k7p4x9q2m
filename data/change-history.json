@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-15T02:45:13.903Z",
-    "updatedAt": "2026-09-15T02:45:13.903Z",
+    "checkedAt": "2026-09-15T08:02:46.072Z",
+    "updatedAt": "2026-09-15T08:02:46.072Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/11921": {
+        "hash": "8780a9a2b654bb831ba5634857085aa52a8c53d7189434a853e753c086762eb0",
+        "item": {
+          "title": "Suyunn『Dear Suyunn』モデルを齋藤樹愛羅が務めさせていただくことが決定いたしました！",
+          "date": "2026-09-15",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/11921",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/11935": {
         "hash": "b5f109566b674aa1a51bca8a708a9a6b0dac9066bc798b9a5bcdcfff9184c6c0",
         "item": {
@@ -199,19 +209,25 @@
           "url": "https://sp.equal-love.jp/news/detail/11933",
           "category": "グッズ"
         }
-      },
-      "https://sp.equal-love.jp/news/detail/11926": {
-        "hash": "35cc4fb842fcb6bec1e55fede077bf9106e4097fe6d67306add0e017157546d1",
-        "item": {
-          "title": "【出演情報】AT-X「マヂラブ・野口衣織のマヂでラブになるTV」#3※野口衣織",
-          "date": "2026-09-10",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11926",
-          "category": "メディア"
-        }
       }
     },
     "youtube": {
+      "gaSubSTZBlI": {
+        "hash": "fad2bd05f018a45bc0223f0298eb1763c1f1c46e671d8b04f1d2b6346cf88f3c",
+        "item": {
+          "videoId": "gaSubSTZBlI",
+          "title": "みり申グッズが完成したよ❣️ #shorts",
+          "url": "https://www.youtube.com/watch?v=gaSubSTZBlI",
+          "thumbnail": "https://i.ytimg.com/vi/gaSubSTZBlI/maxresdefault.jpg",
+          "publishedAt": "2026-09-15T05:03:14Z",
+          "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
+          "channelName": "みりにゃと申します。",
+          "sourceName": "大谷 映美里",
+          "memberNames": [
+            "大谷 映美里"
+          ]
+        }
+      },
       "NvNqTMzTC1o": {
         "hash": "511bd8c2516a497fee12ee1abfb2a964f324e4714759052443452053d8290339",
         "item": {
@@ -272,20 +288,6 @@
           "memberNames": [
             "諸橋 沙夏"
           ]
-        }
-      },
-      "-acS8BRlNuE": {
-        "hash": "bc30c96ff90a8710ea8851eeb1b92398f9433158faa27e6f0981888e89245baa",
-        "item": {
-          "videoId": "-acS8BRlNuE",
-          "title": "＝LOVE（イコールラブ）/ 21st Single『恋、はじめました。』Dance version",
-          "url": "https://www.youtube.com/watch?v=-acS8BRlNuE",
-          "thumbnail": "https://i.ytimg.com/vi/-acS8BRlNuE/maxresdefault.jpg",
-          "publishedAt": "2026-09-06T13:00:16Z",
-          "channelId": "UCv7VutirxDn3RWIJXI68n_A",
-          "channelName": "＝LOVE（イコールラブ）公式チャンネル",
-          "sourceName": "=LOVE オフィシャル",
-          "memberNames": []
         }
       }
     },
@@ -503,6 +505,32 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/11921:8780a9a2b654",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-15T08:02:46.072Z",
+      "title": "Suyunn『Dear Suyunn』モデルを齋藤樹愛羅が務めさせていただくことが決定いたしました！",
+      "url": "https://sp.equal-love.jp/news/detail/11921",
+      "date": "2026-09-15",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "youtube:added:gaSubSTZBlI:fad2bd05f018",
+      "type": "youtube",
+      "action": "added",
+      "occurredAt": "2026-09-15T08:02:46.072Z",
+      "title": "みり申グッズが完成したよ❣️ #shorts",
+      "url": "https://www.youtube.com/watch?v=gaSubSTZBlI",
+      "date": "2026-09-15T05:03:14Z",
+      "category": "",
+      "memberNames": [
+        "大谷 映美里"
+      ],
+      "sourceName": "大谷 映美里"
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11936:cfb18d8e6d95",
       "type": "schedule",
