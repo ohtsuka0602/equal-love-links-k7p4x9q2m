@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-16T02:45:25.574Z",
-    "updatedAt": "2026-09-16T02:43:51.153Z",
+    "checkedAt": "2026-09-16T07:54:47.766Z",
+    "updatedAt": "2026-09-16T07:54:47.766Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/11960": {
+        "hash": "8b60f2b6e59ecb1b8b5353c59f1ff8a10a6d7cfb4f2a9affcff13c59e44fd601",
+        "item": {
+          "title": "【重要】システムメンテナンスのお知らせ",
+          "date": "2026-09-16",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/11960",
+          "category": "お知らせ"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/11928": {
         "hash": "af50d92a6ff3293164748d1c82a2b1dea53a49d0513807bd1371ef066e41065a",
         "item": {
@@ -197,16 +207,6 @@
           "date": "2026-09-10",
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/11942",
-          "category": "グッズ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11937": {
-        "hash": "fe7814b45ac4d0b9c30cf33f48639e3bd12529b8847b1471b5edd1c988bc9def",
-        "item": {
-          "title": "≪物販情報≫9月13日(日) スリーショット撮影会",
-          "date": "2026-09-10",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11937",
           "category": "グッズ"
         }
       }
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/11960:8b60f2b6e59e",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-16T07:54:47.766Z",
+      "title": "【重要】システムメンテナンスのお知らせ",
+      "url": "https://sp.equal-love.jp/news/detail/11960",
+      "date": "2026-09-16",
+      "category": "お知らせ",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/10699:1b9caf95970c",
       "type": "schedule",

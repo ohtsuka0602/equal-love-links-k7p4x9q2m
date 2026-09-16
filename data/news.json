@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-09-16T02:45:25.385Z",
-    "updatedAt": "2026-09-15T13:52:37.370Z"
+    "checkedAt": "2026-09-16T07:54:47.588Z",
+    "updatedAt": "2026-09-16T07:54:47.588Z"
   },
   "news": [
+    {
+      "title": "【重要】システムメンテナンスのお知らせ",
+      "date": "2026-09-16",
+      "url": "https://sp.equal-love.jp/news/detail/11960",
+      "category": "お知らせ"
+    },
     {
       "title": "【出演情報】日本テレビ「踊る！さんま御殿!!」※大谷映美里",
       "date": "2026-09-15",
@@ -56,12 +62,6 @@
       "title": "＝LOVE 個別衣装ポーチ(8周年ツアー衣装③)追加販売のお知らせ",
       "date": "2026-09-10",
       "url": "https://sp.equal-love.jp/news/detail/11942",
-      "category": "グッズ"
-    },
-    {
-      "title": "≪物販情報≫9月13日(日) スリーショット撮影会",
-      "date": "2026-09-10",
-      "url": "https://sp.equal-love.jp/news/detail/11937",
       "category": "グッズ"
     }
   ]
