@@ -1,13 +1,23 @@
 {
   "meta": {
-    "checkedAt": "2026-09-15T23:11:03.500Z",
-    "updatedAt": "2026-09-15T18:10:27.065Z",
+    "checkedAt": "2026-09-16T02:43:51.153Z",
+    "updatedAt": "2026-09-16T02:43:51.153Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
+      "https://equal-love.jp/schedule/detail/10699": {
+        "hash": "1b9caf95970c61d6ae132dd2e317dd059744be4d5e0b41179f4ef2a0fb27249d",
+        "item": {
+          "title": "「S Cawaii! 2026年11...",
+          "date": "2026-09-16",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10699",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/10738": {
         "hash": "77738bf7ec4fbac2462f2950ed49a0ba317c49b088e2a28e1fa7c827f22c7cf1",
         "item": {
@@ -28,16 +38,6 @@
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/11495": {
-        "hash": "d52d637a4cb5b797766c12803ebc6bd5eb062480fda4601dc8c644a09b448ff5",
-        "item": {
-          "title": "「ROCK IN JAPAN FES...",
-          "date": "2026-09-19",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11495",
-          "category": "ライブ/イベント"
-        }
-      },
       "https://equal-love.jp/schedule/detail/11703": {
         "hash": "f26c31657fe83d4b4b5d99446efffdd7f7370309f627110fc237244ff430976b",
         "item": {
@@ -56,6 +56,16 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10547",
           "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11495": {
+        "hash": "d52d637a4cb5b797766c12803ebc6bd5eb062480fda4601dc8c644a09b448ff5",
+        "item": {
+          "title": "「ROCK IN JAPAN FES...",
+          "date": "2026-09-19",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11495",
+          "category": "ライブ/イベント"
         }
       },
       "https://equal-love.jp/schedule/detail/11753": {
@@ -96,16 +106,6 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11886",
           "category": "ライブ/イベント"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11929": {
-        "hash": "892fb90a8f8e236c7fa5bcd2bf02d2b7fbe08b429c0f749d293d16b8cbe783f4",
-        "item": {
-          "title": "日本テレビ「踊る！さんま御殿!!」※...",
-          "date": "2026-09-22",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11929",
-          "category": "メディア"
         }
       }
     },
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10699:1b9caf95970c",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-09-16T02:43:51.153Z",
+      "title": "「S Cawaii! 2026年11...",
+      "url": "https://equal-love.jp/schedule/detail/10699",
+      "date": "2026-09-16",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11929:892fb90a8f8e",
       "type": "schedule",

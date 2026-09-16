@@ -1,9 +1,16 @@
 {
   "meta": {
-    "checkedAt": "2026-09-15T20:45:27.703Z",
-    "updatedAt": "2026-09-15T18:10:26.863Z"
+    "checkedAt": "2026-09-16T02:43:50.914Z",
+    "updatedAt": "2026-09-16T02:43:50.914Z"
   },
   "schedule": [
+    {
+      "title": "「S Cawaii! 2026年11...",
+      "date": "2026-09-16",
+      "url": "https://equal-love.jp/schedule/detail/10699",
+      "category": "メディア",
+      "time": ""
+    },
     {
       "title": "Artistspoken「イマフレラ...",
       "date": "2026-09-18",
@@ -19,13 +26,6 @@
       "time": ""
     },
     {
-      "title": "「ROCK IN JAPAN FES...",
-      "date": "2026-09-19",
-      "url": "https://equal-love.jp/schedule/detail/11495",
-      "category": "ライブ/イベント",
-      "time": ""
-    },
-    {
       "title": "TELASAオリジナル「アイ=ラブ！...",
       "date": "2026-09-19",
       "url": "https://equal-love.jp/schedule/detail/11703",
@@ -37,6 +37,13 @@
       "date": "2026-09-19",
       "url": "https://equal-love.jp/schedule/detail/10547",
       "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "「ROCK IN JAPAN FES...",
+      "date": "2026-09-19",
+      "url": "https://equal-love.jp/schedule/detail/11495",
+      "category": "ライブ/イベント",
       "time": ""
     },
     {
@@ -65,13 +72,6 @@
       "date": "2026-09-22",
       "url": "https://equal-love.jp/schedule/detail/11886",
       "category": "ライブ/イベント",
-      "time": ""
-    },
-    {
-      "title": "日本テレビ「踊る！さんま御殿!!」※...",
-      "date": "2026-09-22",
-      "url": "https://equal-love.jp/schedule/detail/11929",
-      "category": "メディア",
       "time": ""
     }
   ]
