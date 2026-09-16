@@ -1,20 +1,20 @@
 {
   "meta": {
-    "checkedAt": "2026-09-16T14:45:35.124Z",
-    "updatedAt": "2026-09-16T07:54:47.766Z",
+    "checkedAt": "2026-09-16T18:10:55.110Z",
+    "updatedAt": "2026-09-16T18:10:55.110Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/10699": {
-        "hash": "1b9caf95970c61d6ae132dd2e317dd059744be4d5e0b41179f4ef2a0fb27249d",
+      "https://equal-love.jp/schedule/detail/10494": {
+        "hash": "68ace03378e1ffb9b5f7f8d8b6e0e6a3f2078b837ef47ef118a0bcebf94fe4dc",
         "item": {
-          "title": "「S Cawaii! 2026年11...",
-          "date": "2026-09-16",
+          "title": "SHOWROOM『＝LOVE 山本杏...",
+          "date": "2026-09-17",
           "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10699",
+          "url": "https://equal-love.jp/schedule/detail/10494",
           "category": "メディア"
         }
       },
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10494:68ace03378e1",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-09-16T18:10:55.110Z",
+      "title": "SHOWROOM『＝LOVE 山本杏...",
+      "url": "https://equal-love.jp/schedule/detail/10494",
+      "date": "2026-09-17",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/11960:8b60f2b6e59e",
       "type": "news",
