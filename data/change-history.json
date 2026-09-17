@@ -1,6 +1,6 @@
 {
   "meta": {
-    "checkedAt": "2026-09-17T14:45:32.783Z",
+    "checkedAt": "2026-09-17T18:11:11.361Z",
     "updatedAt": "2026-09-17T13:47:02.951Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
@@ -8,26 +8,6 @@
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/11449": {
-        "hash": "e96482d7333640af3c8a4c82692c7f0b435916fa64381681b67ac9b2238fd318",
-        "item": {
-          "title": "フジテレビ ONE「プロ野球ニュース...",
-          "date": "2026-09-17",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11449",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/10494": {
-        "hash": "68ace03378e1ffb9b5f7f8d8b6e0e6a3f2078b837ef47ef118a0bcebf94fe4dc",
-        "item": {
-          "title": "SHOWROOM『＝LOVE 山本杏...",
-          "date": "2026-09-17",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10494",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/10738": {
         "hash": "77738bf7ec4fbac2462f2950ed49a0ba317c49b088e2a28e1fa7c827f22c7cf1",
         "item": {
@@ -105,6 +85,26 @@
           "date": "2026-09-21",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10443",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11886": {
+        "hash": "eae6486dac44614e0dbb8e5dad1e76764c7874a2db9a36bb3edb5591ed26b83e",
+        "item": {
+          "title": "「INKIGAYO LIVE in ...",
+          "date": "2026-09-22",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11886",
+          "category": "ライブ/イベント"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11929": {
+        "hash": "892fb90a8f8e236c7fa5bcd2bf02d2b7fbe08b429c0f749d293d16b8cbe783f4",
+        "item": {
+          "title": "日本テレビ「踊る！さんま御殿!!」※...",
+          "date": "2026-09-22",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11929",
           "category": "メディア"
         }
       }

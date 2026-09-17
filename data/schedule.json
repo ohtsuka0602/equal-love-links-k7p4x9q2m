@@ -1,23 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-09-17T14:43:58.750Z",
-    "updatedAt": "2026-09-17T02:45:11.432Z"
+    "checkedAt": "2026-09-17T18:11:11.208Z",
+    "updatedAt": "2026-09-17T18:11:11.208Z"
   },
   "schedule": [
-    {
-      "title": "フジテレビ ONE「プロ野球ニュース...",
-      "date": "2026-09-17",
-      "url": "https://equal-love.jp/schedule/detail/11449",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "SHOWROOM『＝LOVE 山本杏...",
-      "date": "2026-09-17",
-      "url": "https://equal-love.jp/schedule/detail/10494",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "Artistspoken「イマフレラ...",
       "date": "2026-09-18",
@@ -71,6 +57,20 @@
       "title": "ニッポン放送「＝LOVEのイコラフ」",
       "date": "2026-09-21",
       "url": "https://equal-love.jp/schedule/detail/10443",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "「INKIGAYO LIVE in ...",
+      "date": "2026-09-22",
+      "url": "https://equal-love.jp/schedule/detail/11886",
+      "category": "ライブ/イベント",
+      "time": ""
+    },
+    {
+      "title": "日本テレビ「踊る！さんま御殿!!」※...",
+      "date": "2026-09-22",
+      "url": "https://equal-love.jp/schedule/detail/11929",
       "category": "メディア",
       "time": ""
     }
