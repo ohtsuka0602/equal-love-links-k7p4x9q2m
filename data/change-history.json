@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-17T08:45:20.854Z",
-    "updatedAt": "2026-09-17T02:45:11.634Z",
+    "checkedAt": "2026-09-17T13:47:02.951Z",
+    "updatedAt": "2026-09-17T13:47:02.951Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,36 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/11962": {
+        "hash": "31ffb0011bd380fc2d9c7bbfa25f6412c121e76eba941c94838320508c371123",
+        "item": {
+          "title": "＝LOVE 個別衣装ポーチ(8周年ツアー衣装③)キャンセル分再販のお知らせ",
+          "date": "2026-09-17",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/11962",
+          "category": "グッズ"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/11961": {
+        "hash": "018ceb2d1ccd434b47bf0635acc66f65a95c35bc070506cf45a4011d1eca1001",
+        "item": {
+          "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」テラススイート席＆ステージ見切れ席＆ステージバック席販売決定・FC販売受付開始のお知らせ",
+          "date": "2026-09-17",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/11961",
+          "category": "ライブ/イベント"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/11948": {
+        "hash": "cdea9616307bf8c0d24bd1477f90f55cd24bfd5ded7ff2588e6f2c4fdbbfde76",
+        "item": {
+          "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」配信チケット発売のお知らせ",
+          "date": "2026-09-17",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/11948",
+          "category": "ライブ/イベント"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/11960": {
         "hash": "8b60f2b6e59ecb1b8b5353c59f1ff8a10a6d7cfb4f2a9affcff13c59e44fd601",
         "item": {
@@ -178,36 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/11946",
           "category": "お知らせ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11940": {
-        "hash": "2304fea3626b5d9ef70ac8dbab23d83bb4413aba484b630c0504a2bbaabc6c6b",
-        "item": {
-          "title": "【出演情報】関西テレビ・フジテレビ系「土曜はナニする！？」※髙松瞳",
-          "date": "2026-09-12",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11940",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11943": {
-        "hash": "9bf7e03843dbde7b40c1ed2d8ccf26f9c20114c412ed6dde39e5d13c6174a8e3",
-        "item": {
-          "title": "＝LOVE 21stシングル発売記念イベント会場にて、＝LOVE CD購入抽選会開催決定！",
-          "date": "2026-09-11",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11943",
-          "category": "お知らせ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11942": {
-        "hash": "16ac18059ed7eabd56e3f3d0f21baf9bb43559fb8cdafa9f4bbe46a4ad0b1443",
-        "item": {
-          "title": "＝LOVE 個別衣装ポーチ(8周年ツアー衣装③)追加販売のお知らせ",
-          "date": "2026-09-10",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11942",
-          "category": "グッズ"
         }
       }
     },
@@ -505,6 +505,42 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/11962:31ffb0011bd3",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-17T13:47:02.951Z",
+      "title": "＝LOVE 個別衣装ポーチ(8周年ツアー衣装③)キャンセル分再販のお知らせ",
+      "url": "https://sp.equal-love.jp/news/detail/11962",
+      "date": "2026-09-17",
+      "category": "グッズ",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/11961:018ceb2d1ccd",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-17T13:47:02.951Z",
+      "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」テラススイート席＆ステージ見切れ席＆ステージバック席販売決定・FC販売受付開始のお知らせ",
+      "url": "https://sp.equal-love.jp/news/detail/11961",
+      "date": "2026-09-17",
+      "category": "ライブ/イベント",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/11948:cdea9616307b",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-17T13:47:02.951Z",
+      "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」配信チケット発売のお知らせ",
+      "url": "https://sp.equal-love.jp/news/detail/11948",
+      "date": "2026-09-17",
+      "category": "ライブ/イベント",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11449:e96482d73336",
       "type": "schedule",
