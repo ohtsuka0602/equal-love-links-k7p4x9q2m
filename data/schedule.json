@@ -1,9 +1,16 @@
 {
   "meta": {
-    "checkedAt": "2026-09-16T20:43:49.725Z",
-    "updatedAt": "2026-09-16T18:10:54.924Z"
+    "checkedAt": "2026-09-17T02:45:11.432Z",
+    "updatedAt": "2026-09-17T02:45:11.432Z"
   },
   "schedule": [
+    {
+      "title": "フジテレビ ONE「プロ野球ニュース...",
+      "date": "2026-09-17",
+      "url": "https://equal-love.jp/schedule/detail/11449",
+      "category": "メディア",
+      "time": ""
+    },
     {
       "title": "SHOWROOM『＝LOVE 山本杏...",
       "date": "2026-09-17",
@@ -65,13 +72,6 @@
       "date": "2026-09-21",
       "url": "https://equal-love.jp/schedule/detail/10443",
       "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "「INKIGAYO LIVE in ...",
-      "date": "2026-09-22",
-      "url": "https://equal-love.jp/schedule/detail/11886",
-      "category": "ライブ/イベント",
       "time": ""
     }
   ]

@@ -1,13 +1,23 @@
 {
   "meta": {
-    "checkedAt": "2026-09-17T02:44:29.792Z",
-    "updatedAt": "2026-09-16T18:10:55.110Z",
+    "checkedAt": "2026-09-17T02:45:11.634Z",
+    "updatedAt": "2026-09-17T02:45:11.634Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
+      "https://equal-love.jp/schedule/detail/11449": {
+        "hash": "e96482d7333640af3c8a4c82692c7f0b435916fa64381681b67ac9b2238fd318",
+        "item": {
+          "title": "フジテレビ ONE「プロ野球ニュース...",
+          "date": "2026-09-17",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11449",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/10494": {
         "hash": "68ace03378e1ffb9b5f7f8d8b6e0e6a3f2078b837ef47ef118a0bcebf94fe4dc",
         "item": {
@@ -96,16 +106,6 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10443",
           "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11886": {
-        "hash": "eae6486dac44614e0dbb8e5dad1e76764c7874a2db9a36bb3edb5591ed26b83e",
-        "item": {
-          "title": "「INKIGAYO LIVE in ...",
-          "date": "2026-09-22",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11886",
-          "category": "ライブ/イベント"
         }
       }
     },
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11449:e96482d73336",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-09-17T02:45:11.634Z",
+      "title": "フジテレビ ONE「プロ野球ニュース...",
+      "url": "https://equal-love.jp/schedule/detail/11449",
+      "date": "2026-09-17",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/10494:68ace03378e1",
       "type": "schedule",
