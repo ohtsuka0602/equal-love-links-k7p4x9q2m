@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-18T02:45:21.659Z",
-    "updatedAt": "2026-09-17T13:47:02.951Z",
+    "checkedAt": "2026-09-18T07:37:19.622Z",
+    "updatedAt": "2026-09-18T07:37:19.622Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/11938": {
+        "hash": "47d54f1e0fd597e1e99bf61b8c1eeb623307a46653517ba8a430acc685d5330b",
+        "item": {
+          "title": "【出演情報】フジテレビ「ぽかぽか」※大谷映美里、齋藤樹愛羅、髙松瞳",
+          "date": "2026-09-18",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/11938",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/11962": {
         "hash": "31ffb0011bd380fc2d9c7bbfa25f6412c121e76eba941c94838320508c371123",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/11944",
           "category": "ライブ/イベント"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11946": {
-        "hash": "aa17fa2b061aa0f47ed25ca5567a01b091897e476b2d8db6422962c3a6202f53",
-        "item": {
-          "title": "＝LOVEデビュー9周年企画 コンサート映像配信決定！",
-          "date": "2026-09-12",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11946",
-          "category": "お知らせ"
         }
       }
     },
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/11938:47d54f1e0fd5",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-18T07:37:19.622Z",
+      "title": "【出演情報】フジテレビ「ぽかぽか」※大谷映美里、齋藤樹愛羅、髙松瞳",
+      "url": "https://sp.equal-love.jp/news/detail/11938",
+      "date": "2026-09-18",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/11962:31ffb0011bd3",
       "type": "news",
