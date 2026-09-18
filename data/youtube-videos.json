@@ -1,9 +1,22 @@
 {
   "meta": {
-    "checkedAt": "2026-09-18T08:44:44.431Z",
-    "updatedAt": "2026-09-15T08:02:40.293Z"
+    "checkedAt": "2026-09-18T13:09:35.974Z",
+    "updatedAt": "2026-09-18T13:09:35.974Z"
   },
   "videos": [
+    {
+      "videoId": "ize6U5etOGo",
+      "title": "みりにゃのポーチの中身紹介 #shorts",
+      "url": "https://www.youtube.com/watch?v=ize6U5etOGo",
+      "thumbnail": "https://i.ytimg.com/vi/ize6U5etOGo/maxresdefault.jpg",
+      "publishedAt": "2026-09-18T09:19:11Z",
+      "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
+      "channelName": "みりにゃと申します。",
+      "sourceName": "大谷 映美里",
+      "memberNames": [
+        "大谷 映美里"
+      ]
+    },
     {
       "videoId": "gaSubSTZBlI",
       "title": "みり申グッズが完成したよ❣️ #shorts",
@@ -52,19 +65,6 @@
       "sourceName": "音嶋 莉沙",
       "memberNames": [
         "音嶋 莉沙"
-      ]
-    },
-    {
-      "videoId": "_ksaAlGcX-I",
-      "title": "夏の緊急フッ軽バーベキュー【おいしいビール飲みたい】",
-      "url": "https://www.youtube.com/watch?v=_ksaAlGcX-I",
-      "thumbnail": "https://i.ytimg.com/vi/_ksaAlGcX-I/maxresdefault.jpg",
-      "publishedAt": "2026-09-10T11:00:38Z",
-      "channelId": "UC0r-2f003yXdV5En7qHlrGw",
-      "channelName": "つんはしご",
-      "sourceName": "諸橋 沙夏",
-      "memberNames": [
-        "諸橋 沙夏"
       ]
     }
   ]

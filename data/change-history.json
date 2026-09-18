@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-18T08:45:40.151Z",
-    "updatedAt": "2026-09-18T07:37:19.622Z",
+    "checkedAt": "2026-09-18T13:09:42.536Z",
+    "updatedAt": "2026-09-18T13:09:42.536Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/11963": {
+        "hash": "04d56dc98208709067eb0406a42b178f50581365b113761e177f37a8f62974d1",
+        "item": {
+          "title": "【＝LOVE Official Fan Club】瀧脇笙古バースデーコンテンツ更新！",
+          "date": "2026-09-18",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/11963",
+          "category": "お知らせ"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/11938": {
         "hash": "47d54f1e0fd597e1e99bf61b8c1eeb623307a46653517ba8a430acc685d5330b",
         "item": {
@@ -199,19 +209,25 @@
           "url": "https://sp.equal-love.jp/news/detail/11947",
           "category": "グッズ"
         }
-      },
-      "https://sp.equal-love.jp/news/detail/11944": {
-        "hash": "bdd982d7470e69697649012a523e5cf1b33b7d82a6ec1fc177a92b3b95fee531",
-        "item": {
-          "title": "「シャインポスト ひまわりシンフォニー feat. ゆらゆらシスターズ Virtual LIVE 2027 “Another Journey”」に齋藤樹愛羅が広瀬実唯菜cv(ゆらゆらシスターズ)としてのゲスト出演が決定！",
-          "date": "2026-09-12",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11944",
-          "category": "ライブ/イベント"
-        }
       }
     },
     "youtube": {
+      "ize6U5etOGo": {
+        "hash": "9c66ffb08d8ce61e68712d50fdaada8c2936abd82a025c1300cfd90807148f67",
+        "item": {
+          "videoId": "ize6U5etOGo",
+          "title": "みりにゃのポーチの中身紹介 #shorts",
+          "url": "https://www.youtube.com/watch?v=ize6U5etOGo",
+          "thumbnail": "https://i.ytimg.com/vi/ize6U5etOGo/maxresdefault.jpg",
+          "publishedAt": "2026-09-18T09:19:11Z",
+          "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
+          "channelName": "みりにゃと申します。",
+          "sourceName": "大谷 映美里",
+          "memberNames": [
+            "大谷 映美里"
+          ]
+        }
+      },
       "gaSubSTZBlI": {
         "hash": "fad2bd05f018a45bc0223f0298eb1763c1f1c46e671d8b04f1d2b6346cf88f3c",
         "item": {
@@ -271,22 +287,6 @@
           "sourceName": "音嶋 莉沙",
           "memberNames": [
             "音嶋 莉沙"
-          ]
-        }
-      },
-      "_ksaAlGcX-I": {
-        "hash": "3c18f5063c0e804133a4a47f9b1911507a89e709c8b7ad3dac609562e90166b1",
-        "item": {
-          "videoId": "_ksaAlGcX-I",
-          "title": "夏の緊急フッ軽バーベキュー【おいしいビール飲みたい】",
-          "url": "https://www.youtube.com/watch?v=_ksaAlGcX-I",
-          "thumbnail": "https://i.ytimg.com/vi/_ksaAlGcX-I/maxresdefault.jpg",
-          "publishedAt": "2026-09-10T11:00:38Z",
-          "channelId": "UC0r-2f003yXdV5En7qHlrGw",
-          "channelName": "つんはしご",
-          "sourceName": "諸橋 沙夏",
-          "memberNames": [
-            "諸橋 沙夏"
           ]
         }
       }
@@ -505,6 +505,32 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/11963:04d56dc98208",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-18T13:09:42.536Z",
+      "title": "【＝LOVE Official Fan Club】瀧脇笙古バースデーコンテンツ更新！",
+      "url": "https://sp.equal-love.jp/news/detail/11963",
+      "date": "2026-09-18",
+      "category": "お知らせ",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "youtube:added:ize6U5etOGo:9c66ffb08d8c",
+      "type": "youtube",
+      "action": "added",
+      "occurredAt": "2026-09-18T13:09:42.536Z",
+      "title": "みりにゃのポーチの中身紹介 #shorts",
+      "url": "https://www.youtube.com/watch?v=ize6U5etOGo",
+      "date": "2026-09-18T09:19:11Z",
+      "category": "",
+      "memberNames": [
+        "大谷 映美里"
+      ],
+      "sourceName": "大谷 映美里"
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/11938:47d54f1e0fd5",
       "type": "news",
