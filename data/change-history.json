@@ -1,6 +1,6 @@
 {
   "meta": {
-    "checkedAt": "2026-09-18T08:44:50.841Z",
+    "checkedAt": "2026-09-18T08:45:40.151Z",
     "updatedAt": "2026-09-18T07:37:19.622Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
@@ -16,6 +16,16 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10738",
           "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11495": {
+        "hash": "d52d637a4cb5b797766c12803ebc6bd5eb062480fda4601dc8c644a09b448ff5",
+        "item": {
+          "title": "「ROCK IN JAPAN FES...",
+          "date": "2026-09-19",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11495",
+          "category": "ライブ/イベント"
         }
       },
       "https://equal-love.jp/schedule/detail/11941": {
@@ -46,16 +56,6 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10547",
           "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11495": {
-        "hash": "d52d637a4cb5b797766c12803ebc6bd5eb062480fda4601dc8c644a09b448ff5",
-        "item": {
-          "title": "「ROCK IN JAPAN FES...",
-          "date": "2026-09-19",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11495",
-          "category": "ライブ/イベント"
         }
       },
       "https://equal-love.jp/schedule/detail/11753": {
