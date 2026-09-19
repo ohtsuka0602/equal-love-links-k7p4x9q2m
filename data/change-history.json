@@ -1,53 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-09-19T14:45:24.323Z",
-    "updatedAt": "2026-09-19T12:41:51.193Z",
+    "checkedAt": "2026-09-19T17:16:06.437Z",
+    "updatedAt": "2026-09-19T17:16:06.437Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/11495": {
-        "hash": "d52d637a4cb5b797766c12803ebc6bd5eb062480fda4601dc8c644a09b448ff5",
-        "item": {
-          "title": "「ROCK IN JAPAN FES...",
-          "date": "2026-09-19",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11495",
-          "category": "ライブ/イベント"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11941": {
-        "hash": "cc8a3c3b1073400e5987fea50f2fd10286b96ad871328c570065f94696de2d1e",
-        "item": {
-          "title": "関西テレビ・フジテレビ系「土曜はナニ...",
-          "date": "2026-09-19",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11941",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11703": {
-        "hash": "f26c31657fe83d4b4b5d99446efffdd7f7370309f627110fc237244ff430976b",
-        "item": {
-          "title": "TELASAオリジナル「アイ=ラブ！...",
-          "date": "2026-09-19",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11703",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/10547": {
-        "hash": "15acdfc8c3078dbef94b8765be4b4daa21efece7e4393d6b33f08ed30e07b42d",
-        "item": {
-          "title": "MBSラジオ「アッパレやってまーす！...",
-          "date": "2026-09-19",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10547",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/11753": {
         "hash": "d70adc182f5f7de577f633f266c219367110d64bdbde157d4a3473edc696c817",
         "item": {
@@ -105,6 +65,46 @@
           "date": "2026-09-22",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11939",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11081": {
+        "hash": "93592d3aea6af8939af4b450e08efdc3d9de54a4319f7059a2a4eadbac7a6696",
+        "item": {
+          "title": "集英社「MYOJO 11月号」※瀧脇...",
+          "date": "2026-09-24",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11081",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10495": {
+        "hash": "a342be586c5f4a50a2f639c5dec0b04635fa8b05bd0ab57752321ddc01230572",
+        "item": {
+          "title": "SHOWROOM『＝LOVE 山本杏...",
+          "date": "2026-09-24",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10495",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11860": {
+        "hash": "440a5c000804a92b6e40451ad11e37e9cf493702bc6ca25c1daf25aabbfbd4ca",
+        "item": {
+          "title": "握手会 ＝LOVE映像商品 ＝LOVE 8周...",
+          "date": "2026-09-25",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11860",
+          "category": ""
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10739": {
+        "hash": "002600affb75ed7d9f8e5d69588d54a977c70cc88da76c064565d327f3d5d2ed",
+        "item": {
+          "title": "Artistspoken「イマフレラ...",
+          "date": "2026-09-25",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10739",
           "category": "メディア"
         }
       }
@@ -505,6 +505,42 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10495:a342be586c5f",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-09-19T17:16:06.437Z",
+      "title": "SHOWROOM『＝LOVE 山本杏...",
+      "url": "https://equal-love.jp/schedule/detail/10495",
+      "date": "2026-09-24",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11860:440a5c000804",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-09-19T17:16:06.437Z",
+      "title": "握手会 ＝LOVE映像商品 ＝LOVE 8周...",
+      "url": "https://equal-love.jp/schedule/detail/11860",
+      "date": "2026-09-25",
+      "category": "",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10739:002600affb75",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-09-19T17:16:06.437Z",
+      "title": "Artistspoken「イマフレラ...",
+      "url": "https://equal-love.jp/schedule/detail/10739",
+      "date": "2026-09-25",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/11964:80d1e7051f98",
       "type": "news",

@@ -1,37 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-09-19T14:45:24.134Z",
-    "updatedAt": "2026-09-18T17:40:07.956Z"
+    "checkedAt": "2026-09-19T17:16:06.252Z",
+    "updatedAt": "2026-09-19T17:16:06.252Z"
   },
   "schedule": [
-    {
-      "title": "「ROCK IN JAPAN FES...",
-      "date": "2026-09-19",
-      "url": "https://equal-love.jp/schedule/detail/11495",
-      "category": "ライブ/イベント",
-      "time": ""
-    },
-    {
-      "title": "関西テレビ・フジテレビ系「土曜はナニ...",
-      "date": "2026-09-19",
-      "url": "https://equal-love.jp/schedule/detail/11941",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "TELASAオリジナル「アイ=ラブ！...",
-      "date": "2026-09-19",
-      "url": "https://equal-love.jp/schedule/detail/11703",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "MBSラジオ「アッパレやってまーす！...",
-      "date": "2026-09-19",
-      "url": "https://equal-love.jp/schedule/detail/10547",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "CSテレ朝チャンネル１「EIGHT-...",
       "date": "2026-09-20",
@@ -71,6 +43,34 @@
       "title": "フジテレビ「ぽかぽか」※大谷映美里、...",
       "date": "2026-09-22",
       "url": "https://equal-love.jp/schedule/detail/11939",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "集英社「MYOJO 11月号」※瀧脇...",
+      "date": "2026-09-24",
+      "url": "https://equal-love.jp/schedule/detail/11081",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "SHOWROOM『＝LOVE 山本杏...",
+      "date": "2026-09-24",
+      "url": "https://equal-love.jp/schedule/detail/10495",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "握手会 ＝LOVE映像商品 ＝LOVE 8周...",
+      "date": "2026-09-25",
+      "url": "https://equal-love.jp/schedule/detail/11860",
+      "category": "",
+      "time": ""
+    },
+    {
+      "title": "Artistspoken「イマフレラ...",
+      "date": "2026-09-25",
+      "url": "https://equal-love.jp/schedule/detail/10739",
       "category": "メディア",
       "time": ""
     }
