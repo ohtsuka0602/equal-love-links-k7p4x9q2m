@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-19T08:45:50.843Z",
-    "updatedAt": "2026-09-18T17:40:08.142Z",
+    "checkedAt": "2026-09-19T12:41:51.193Z",
+    "updatedAt": "2026-09-19T12:41:51.193Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/11964": {
+        "hash": "80d1e7051f982d821443835442eb46ef26a027daaf5bd502052bd5b45f1d037e",
+        "item": {
+          "title": "＝LOVEデビュー9周年企画 コンサート映像配信決定！",
+          "date": "2026-09-19",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/11964",
+          "category": "お知らせ"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/11963": {
         "hash": "04d56dc98208709067eb0406a42b178f50581365b113761e177f37a8f62974d1",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/11935",
           "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11947": {
-        "hash": "79c66cb04790b06e0e6e44d6d34c01af2234d9053bc9f1e0f356fc4040c04e14",
-        "item": {
-          "title": "生写真セット(「恋、はじめました。」ジャケット衣装)発売！",
-          "date": "2026-09-14",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11947",
-          "category": "グッズ"
         }
       }
     },
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/11964:80d1e7051f98",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-19T12:41:51.193Z",
+      "title": "＝LOVEデビュー9周年企画 コンサート映像配信決定！",
+      "url": "https://sp.equal-love.jp/news/detail/11964",
+      "date": "2026-09-19",
+      "category": "お知らせ",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11939:1b8670c6c882",
       "type": "schedule",
