@@ -1,43 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-09-20T14:45:44.493Z",
-    "updatedAt": "2026-09-20T02:45:56.709Z",
+    "checkedAt": "2026-09-20T17:27:29.616Z",
+    "updatedAt": "2026-09-20T17:27:29.616Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/11753": {
-        "hash": "d70adc182f5f7de577f633f266c219367110d64bdbde157d4a3473edc696c817",
-        "item": {
-          "title": "CSテレ朝チャンネル１「EIGHT-...",
-          "date": "2026-09-20",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11753",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11859": {
-        "hash": "b7260927c8f00aa91a9c98b1d522f199f3e69e4cd053ea517a2d416922bf6023",
-        "item": {
-          "title": "握手会 ＝LOVE映像商品 ＝LOVE 8周...",
-          "date": "2026-09-20",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11859",
-          "category": ""
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11181": {
-        "hash": "c052ca4e548c7e7341b188db29b8963c4e4ca69b4735e06761ab7d0e38d4c8a2",
-        "item": {
-          "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
-          "date": "2026-09-20",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11181",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/10443": {
         "hash": "cf6b583d3cdd75fea31fb4827ac17ec1ee9dc83c03e5177fb3e6841c24efc27e",
         "item": {
@@ -106,6 +76,36 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11860",
           "category": ""
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10739": {
+        "hash": "002600affb75ed7d9f8e5d69588d54a977c70cc88da76c064565d327f3d5d2ed",
+        "item": {
+          "title": "Artistspoken「イマフレラ...",
+          "date": "2026-09-25",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10739",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10548": {
+        "hash": "f35dee44c25f36e4c7b0ed972a17562037db47b9205161fc4ab83772bc1970cb",
+        "item": {
+          "title": "MBSラジオ「アッパレやってまーす！...",
+          "date": "2026-09-26",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10548",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10444": {
+        "hash": "cbb2aa1e566d360c84534e303ef5f2490cce4ded38c66c5a61832b0b8165db0d",
+        "item": {
+          "title": "ニッポン放送「＝LOVEのイコラフ」",
+          "date": "2026-09-28",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10444",
+          "category": "メディア"
         }
       }
     },
@@ -505,6 +505,30 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10548:f35dee44c25f",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-09-20T17:27:29.616Z",
+      "title": "MBSラジオ「アッパレやってまーす！...",
+      "url": "https://equal-love.jp/schedule/detail/10548",
+      "date": "2026-09-26",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10444:cbb2aa1e566d",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-09-20T17:27:29.616Z",
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "url": "https://equal-love.jp/schedule/detail/10444",
+      "date": "2026-09-28",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11181:c052ca4e548c",
       "type": "schedule",
