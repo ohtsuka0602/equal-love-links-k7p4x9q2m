@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-19T20:45:46.259Z",
-    "updatedAt": "2026-09-19T17:16:06.252Z"
+    "checkedAt": "2026-09-20T02:45:56.574Z",
+    "updatedAt": "2026-09-20T02:45:56.574Z"
   },
   "schedule": [
     {
@@ -16,6 +16,13 @@
       "date": "2026-09-20",
       "url": "https://equal-love.jp/schedule/detail/11859",
       "category": "",
+      "time": ""
+    },
+    {
+      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
+      "date": "2026-09-20",
+      "url": "https://equal-love.jp/schedule/detail/11181",
+      "category": "メディア",
       "time": ""
     },
     {
@@ -65,13 +72,6 @@
       "date": "2026-09-25",
       "url": "https://equal-love.jp/schedule/detail/11860",
       "category": "",
-      "time": ""
-    },
-    {
-      "title": "Artistspoken「イマフレラ...",
-      "date": "2026-09-25",
-      "url": "https://equal-love.jp/schedule/detail/10739",
-      "category": "メディア",
       "time": ""
     }
   ]
