@@ -1,6 +1,6 @@
 {
   "meta": {
-    "checkedAt": "2026-09-21T15:20:13.023Z",
+    "checkedAt": "2026-09-21T19:24:57.360Z",
     "updatedAt": "2026-09-21T14:45:52.337Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
@@ -8,16 +8,6 @@
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/10443": {
-        "hash": "cf6b583d3cdd75fea31fb4827ac17ec1ee9dc83c03e5177fb3e6841c24efc27e",
-        "item": {
-          "title": "ニッポン放送「＝LOVEのイコラフ」",
-          "date": "2026-09-21",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10443",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/11886": {
         "hash": "eae6486dac44614e0dbb8e5dad1e76764c7874a2db9a36bb3edb5591ed26b83e",
         "item": {
