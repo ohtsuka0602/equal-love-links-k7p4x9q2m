@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-21T14:44:26.648Z",
-    "updatedAt": "2026-09-20T17:27:29.616Z",
+    "checkedAt": "2026-09-21T14:45:52.337Z",
+    "updatedAt": "2026-09-21T14:45:52.337Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -212,6 +212,22 @@
       }
     },
     "youtube": {
+      "4mX16v7FJ70": {
+        "hash": "0736467025d3beb911a12e8b7a1164a1f3c387639641b745ee980e26272609cc",
+        "item": {
+          "videoId": "4mX16v7FJ70",
+          "title": "デニーズ爆食お月見パーティー【爆語り】",
+          "url": "https://www.youtube.com/watch?v=4mX16v7FJ70",
+          "thumbnail": "https://i.ytimg.com/vi/4mX16v7FJ70/maxresdefault.jpg",
+          "publishedAt": "2026-09-21T11:30:22Z",
+          "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
+          "channelName": "みりにゃと申します。",
+          "sourceName": "大谷 映美里",
+          "memberNames": [
+            "大谷 映美里"
+          ]
+        }
+      },
       "ize6U5etOGo": {
         "hash": "9c66ffb08d8ce61e68712d50fdaada8c2936abd82a025c1300cfd90807148f67",
         "item": {
@@ -272,22 +288,6 @@
           "channelName": "＝LOVE（イコールラブ）公式チャンネル",
           "sourceName": "=LOVE オフィシャル",
           "memberNames": []
-        }
-      },
-      "8mZOaCDbD1A": {
-        "hash": "ba947a7a2b2520bee5f0613ae871eac471f1699f8ac3e2bab499bece9140f6e9",
-        "item": {
-          "videoId": "8mZOaCDbD1A",
-          "title": "大好物のナスをひたすら焼いて食べます【ゆるめの奇声】",
-          "url": "https://www.youtube.com/watch?v=8mZOaCDbD1A",
-          "thumbnail": "https://i.ytimg.com/vi/8mZOaCDbD1A/maxresdefault.jpg",
-          "publishedAt": "2026-09-11T11:00:16Z",
-          "channelId": "UCcsyyry5bsjTeqqJ_Yz9TiA",
-          "channelName": "音嶋莉沙の様子がおかしいチャンネル",
-          "sourceName": "音嶋 莉沙",
-          "memberNames": [
-            "音嶋 莉沙"
-          ]
         }
       }
     },
@@ -505,6 +505,20 @@
     }
   },
   "history": [
+    {
+      "id": "youtube:added:4mX16v7FJ70:0736467025d3",
+      "type": "youtube",
+      "action": "added",
+      "occurredAt": "2026-09-21T14:45:52.337Z",
+      "title": "デニーズ爆食お月見パーティー【爆語り】",
+      "url": "https://www.youtube.com/watch?v=4mX16v7FJ70",
+      "date": "2026-09-21T11:30:22Z",
+      "category": "",
+      "memberNames": [
+        "大谷 映美里"
+      ],
+      "sourceName": "大谷 映美里"
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/10548:f35dee44c25f",
       "type": "schedule",

@@ -1,9 +1,22 @@
 {
   "meta": {
-    "checkedAt": "2026-09-21T08:45:37.451Z",
-    "updatedAt": "2026-09-18T13:09:35.974Z"
+    "checkedAt": "2026-09-21T14:45:45.951Z",
+    "updatedAt": "2026-09-21T14:45:45.951Z"
   },
   "videos": [
+    {
+      "videoId": "4mX16v7FJ70",
+      "title": "デニーズ爆食お月見パーティー【爆語り】",
+      "url": "https://www.youtube.com/watch?v=4mX16v7FJ70",
+      "thumbnail": "https://i.ytimg.com/vi/4mX16v7FJ70/maxresdefault.jpg",
+      "publishedAt": "2026-09-21T11:30:22Z",
+      "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
+      "channelName": "みりにゃと申します。",
+      "sourceName": "大谷 映美里",
+      "memberNames": [
+        "大谷 映美里"
+      ]
+    },
     {
       "videoId": "ize6U5etOGo",
       "title": "みりにゃのポーチの中身紹介 #shorts",
@@ -53,19 +66,6 @@
       "channelName": "＝LOVE（イコールラブ）公式チャンネル",
       "sourceName": "=LOVE オフィシャル",
       "memberNames": []
-    },
-    {
-      "videoId": "8mZOaCDbD1A",
-      "title": "大好物のナスをひたすら焼いて食べます【ゆるめの奇声】",
-      "url": "https://www.youtube.com/watch?v=8mZOaCDbD1A",
-      "thumbnail": "https://i.ytimg.com/vi/8mZOaCDbD1A/maxresdefault.jpg",
-      "publishedAt": "2026-09-11T11:00:16Z",
-      "channelId": "UCcsyyry5bsjTeqqJ_Yz9TiA",
-      "channelName": "音嶋莉沙の様子がおかしいチャンネル",
-      "sourceName": "音嶋 莉沙",
-      "memberNames": [
-        "音嶋 莉沙"
-      ]
     }
   ]
 }
