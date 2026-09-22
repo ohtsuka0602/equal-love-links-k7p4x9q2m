@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-22T08:44:22.722Z",
-    "updatedAt": "2026-09-22T08:44:22.722Z",
+    "checkedAt": "2026-09-22T08:45:54.265Z",
+    "updatedAt": "2026-09-22T08:45:54.265Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12105": {
+        "hash": "2b14eff438b3c08cf92747d343d40c1b1dccdbfa03e290a2c9d99665cfc6ac8b",
+        "item": {
+          "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」プレミアムチケットグッズのお知らせ",
+          "date": "2026-09-22",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12105",
+          "category": "グッズ"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/11964": {
         "hash": "80d1e7051f982d821443835442eb46ef26a027daaf5bd502052bd5b45f1d037e",
         "item": {
@@ -197,16 +207,6 @@
           "date": "2026-09-15",
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/11921",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11935": {
-        "hash": "b5f109566b674aa1a51bca8a708a9a6b0dac9066bc798b9a5bcdcfff9184c6c0",
-        "item": {
-          "title": "【掲載情報】双葉社「EX大衆10月号」※大場花菜、山本杏奈",
-          "date": "2026-09-15",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11935",
           "category": "メディア"
         }
       }
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12105:2b14eff438b3",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-22T08:45:54.265Z",
+      "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」プレミアムチケットグッズのお知らせ",
+      "url": "https://sp.equal-love.jp/news/detail/12105",
+      "date": "2026-09-22",
+      "category": "グッズ",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/10695:bd1f2e7a0d3e",
       "type": "schedule",
