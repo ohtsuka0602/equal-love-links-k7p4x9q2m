@@ -1,6 +1,6 @@
 {
   "meta": {
-    "checkedAt": "2026-09-22T14:46:08.688Z",
+    "checkedAt": "2026-09-22T18:04:01.997Z",
     "updatedAt": "2026-09-22T08:45:54.265Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
@@ -8,46 +8,6 @@
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/11886": {
-        "hash": "eae6486dac44614e0dbb8e5dad1e76764c7874a2db9a36bb3edb5591ed26b83e",
-        "item": {
-          "title": "「INKIGAYO LIVE in ...",
-          "date": "2026-09-22",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11886",
-          "category": "ライブ/イベント"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/10695": {
-        "hash": "bd1f2e7a0d3e9568da4b3697b2e35f4340cde8bc1b35f044e8c7e13daa4c1be0",
-        "item": {
-          "title": "いわき民報連載※諸橋沙夏",
-          "date": "2026-09-22",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10695",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11929": {
-        "hash": "892fb90a8f8e236c7fa5bcd2bf02d2b7fbe08b429c0f749d293d16b8cbe783f4",
-        "item": {
-          "title": "日本テレビ「踊る！さんま御殿!!」※...",
-          "date": "2026-09-22",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11929",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11939": {
-        "hash": "1b8670c6c8828b4de273fedc1d9a6a41f76e6e16c01ed4e09556bde30fccfa52",
-        "item": {
-          "title": "フジテレビ「ぽかぽか」※大谷映美里、...",
-          "date": "2026-09-22",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11939",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/11081": {
         "hash": "93592d3aea6af8939af4b450e08efdc3d9de54a4319f7059a2a4eadbac7a6696",
         "item": {
