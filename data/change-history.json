@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-22T07:57:31.648Z",
-    "updatedAt": "2026-09-21T14:45:52.337Z",
+    "checkedAt": "2026-09-22T08:44:22.722Z",
+    "updatedAt": "2026-09-22T08:44:22.722Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -16,6 +16,16 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11886",
           "category": "ライブ/イベント"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10695": {
+        "hash": "bd1f2e7a0d3e9568da4b3697b2e35f4340cde8bc1b35f044e8c7e13daa4c1be0",
+        "item": {
+          "title": "いわき民報連載※諸橋沙夏",
+          "date": "2026-09-22",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10695",
+          "category": "メディア"
         }
       },
       "https://equal-love.jp/schedule/detail/11929": {
@@ -495,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10695:bd1f2e7a0d3e",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-09-22T08:44:22.722Z",
+      "title": "いわき民報連載※諸橋沙夏",
+      "url": "https://equal-love.jp/schedule/detail/10695",
+      "date": "2026-09-22",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "youtube:added:4mX16v7FJ70:0736467025d3",
       "type": "youtube",
