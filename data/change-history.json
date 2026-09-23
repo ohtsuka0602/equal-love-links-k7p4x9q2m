@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-23T02:46:03.201Z",
-    "updatedAt": "2026-09-22T08:45:54.265Z",
+    "checkedAt": "2026-09-23T07:58:15.949Z",
+    "updatedAt": "2026-09-23T07:58:15.949Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -172,6 +172,20 @@
       }
     },
     "youtube": {
+      "CRHXjLot5r4": {
+        "hash": "d945dd73c4a420dc49b75f1d5a24a33eeda079e0cacd877c489303c0beeef01e",
+        "item": {
+          "videoId": "CRHXjLot5r4",
+          "title": "“사랑、시작했습니다(Korean ver.)” 음원 공개가 시작되었습니다! 💘「恋、はじめました。」(Korean ver.)ぜひお聴きください！#인기가요 #人気歌謡#이코러브",
+          "url": "https://www.youtube.com/watch?v=CRHXjLot5r4",
+          "thumbnail": "https://i.ytimg.com/vi/CRHXjLot5r4/maxresdefault.jpg",
+          "publishedAt": "2026-09-23T04:11:46Z",
+          "channelId": "UCv7VutirxDn3RWIJXI68n_A",
+          "channelName": "＝LOVE（イコールラブ）公式チャンネル",
+          "sourceName": "=LOVE オフィシャル",
+          "memberNames": []
+        }
+      },
       "4mX16v7FJ70": {
         "hash": "0736467025d3beb911a12e8b7a1164a1f3c387639641b745ee980e26272609cc",
         "item": {
@@ -234,20 +248,6 @@
           "memberNames": [
             "大谷 映美里"
           ]
-        }
-      },
-      "Y5eFvtwVdYU": {
-        "hash": "e655533e857a535e45b016559ca610880118995d67a960820a5def13b248ff3f",
-        "item": {
-          "videoId": "Y5eFvtwVdYU",
-          "title": "【特別公開】＝LOVE（イコールラブ）/『「部活中に目が合うなって思ってたんだ」』（TOKYO IDOL FESTIVAL 2026）",
-          "url": "https://www.youtube.com/watch?v=Y5eFvtwVdYU",
-          "thumbnail": "https://i.ytimg.com/vi/Y5eFvtwVdYU/maxresdefault.jpg",
-          "publishedAt": "2026-09-11T12:00:29Z",
-          "channelId": "UCv7VutirxDn3RWIJXI68n_A",
-          "channelName": "＝LOVE（イコールラブ）公式チャンネル",
-          "sourceName": "=LOVE オフィシャル",
-          "memberNames": []
         }
       }
     },
@@ -465,6 +465,18 @@
     }
   },
   "history": [
+    {
+      "id": "youtube:added:CRHXjLot5r4:d945dd73c4a4",
+      "type": "youtube",
+      "action": "added",
+      "occurredAt": "2026-09-23T07:58:15.949Z",
+      "title": "“사랑、시작했습니다(Korean ver.)” 음원 공개가 시작되었습니다! 💘「恋、はじめました。」(Korean ver.)ぜひお聴きください！#인기가요 #人気歌謡#이코러브",
+      "url": "https://www.youtube.com/watch?v=CRHXjLot5r4",
+      "date": "2026-09-23T04:11:46Z",
+      "category": "",
+      "memberNames": [],
+      "sourceName": "=LOVE オフィシャル"
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12105:2b14eff438b3",
       "type": "news",

@@ -1,9 +1,20 @@
 {
   "meta": {
-    "checkedAt": "2026-09-23T02:44:58.297Z",
-    "updatedAt": "2026-09-21T14:45:45.951Z"
+    "checkedAt": "2026-09-23T07:58:10.245Z",
+    "updatedAt": "2026-09-23T07:58:10.245Z"
   },
   "videos": [
+    {
+      "videoId": "CRHXjLot5r4",
+      "title": "“사랑、시작했습니다(Korean ver.)” 음원 공개가 시작되었습니다! 💘「恋、はじめました。」(Korean ver.)ぜひお聴きください！#인기가요 #人気歌謡#이코러브",
+      "url": "https://www.youtube.com/watch?v=CRHXjLot5r4",
+      "thumbnail": "https://i.ytimg.com/vi/CRHXjLot5r4/maxresdefault.jpg",
+      "publishedAt": "2026-09-23T04:11:46Z",
+      "channelId": "UCv7VutirxDn3RWIJXI68n_A",
+      "channelName": "＝LOVE（イコールラブ）公式チャンネル",
+      "sourceName": "=LOVE オフィシャル",
+      "memberNames": []
+    },
     {
       "videoId": "4mX16v7FJ70",
       "title": "デニーズ爆食お月見パーティー【爆語り】",
@@ -55,17 +66,6 @@
       "memberNames": [
         "大谷 映美里"
       ]
-    },
-    {
-      "videoId": "Y5eFvtwVdYU",
-      "title": "【特別公開】＝LOVE（イコールラブ）/『「部活中に目が合うなって思ってたんだ」』（TOKYO IDOL FESTIVAL 2026）",
-      "url": "https://www.youtube.com/watch?v=Y5eFvtwVdYU",
-      "thumbnail": "https://i.ytimg.com/vi/Y5eFvtwVdYU/maxresdefault.jpg",
-      "publishedAt": "2026-09-11T12:00:29Z",
-      "channelId": "UCv7VutirxDn3RWIJXI68n_A",
-      "channelName": "＝LOVE（イコールラブ）公式チャンネル",
-      "sourceName": "=LOVE オフィシャル",
-      "memberNames": []
     }
   ]
 }
