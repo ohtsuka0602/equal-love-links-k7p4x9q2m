@@ -1,16 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-09-23T20:45:44.428Z",
-    "updatedAt": "2026-09-22T18:04:01.840Z"
+    "checkedAt": "2026-09-24T02:45:40.218Z",
+    "updatedAt": "2026-09-24T02:45:40.218Z"
   },
   "schedule": [
-    {
-      "title": "集英社「MYOJO 11月号」※瀧脇...",
-      "date": "2026-09-24",
-      "url": "https://equal-love.jp/schedule/detail/11081",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "SHOWROOM『＝LOVE 山本杏...",
       "date": "2026-09-24",
@@ -19,10 +12,17 @@
       "time": ""
     },
     {
-      "title": "握手会 ＝LOVE映像商品 ＝LOVE 8周...",
-      "date": "2026-09-25",
-      "url": "https://equal-love.jp/schedule/detail/11860",
-      "category": "",
+      "title": "集英社「MYOJO 11月号」※瀧脇...",
+      "date": "2026-09-24",
+      "url": "https://equal-love.jp/schedule/detail/11081",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "フジテレビ ONE「プロ野球ニュース...",
+      "date": "2026-09-24",
+      "url": "https://equal-love.jp/schedule/detail/11450",
+      "category": "メディア",
       "time": ""
     },
     {
@@ -30,6 +30,13 @@
       "date": "2026-09-25",
       "url": "https://equal-love.jp/schedule/detail/10739",
       "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "握手会 ＝LOVE映像商品 ＝LOVE 8周...",
+      "date": "2026-09-25",
+      "url": "https://equal-love.jp/schedule/detail/11860",
+      "category": "",
       "time": ""
     },
     {
