@@ -1,6 +1,6 @@
 {
   "meta": {
-    "checkedAt": "2026-09-24T14:46:16.679Z",
+    "checkedAt": "2026-09-24T18:24:49.808Z",
     "updatedAt": "2026-09-24T02:45:40.406Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
@@ -8,36 +8,6 @@
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/10495": {
-        "hash": "a342be586c5f4a50a2f639c5dec0b04635fa8b05bd0ab57752321ddc01230572",
-        "item": {
-          "title": "SHOWROOM『＝LOVE 山本杏...",
-          "date": "2026-09-24",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10495",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11081": {
-        "hash": "93592d3aea6af8939af4b450e08efdc3d9de54a4319f7059a2a4eadbac7a6696",
-        "item": {
-          "title": "集英社「MYOJO 11月号」※瀧脇...",
-          "date": "2026-09-24",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11081",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11450": {
-        "hash": "f54e09c1367b03dfddee5d2d6c9dd9d71a3c19c8c5ffe89af70b535388f65fc5",
-        "item": {
-          "title": "フジテレビ ONE「プロ野球ニュース...",
-          "date": "2026-09-24",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11450",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/10739": {
         "hash": "002600affb75ed7d9f8e5d69588d54a977c70cc88da76c064565d327f3d5d2ed",
         "item": {
