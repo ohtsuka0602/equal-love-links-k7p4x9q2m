@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-24T23:26:32.123Z",
-    "updatedAt": "2026-09-24T02:45:40.406Z",
+    "checkedAt": "2026-09-25T02:44:59.606Z",
+    "updatedAt": "2026-09-25T02:44:59.606Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -50,6 +50,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/11082": {
+        "hash": "64ab9bae07efd795f9d3b063f45b900d34cec0ce0cd13cd5535c8080e63f8f03",
+        "item": {
+          "title": "【掲載情報】集英社「MYOJO 12月号」※佐々木舞香",
+          "date": "2026-09-25",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/11082",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12105": {
         "hash": "2b14eff438b3c08cf92747d343d40c1b1dccdbfa03e290a2c9d99665cfc6ac8b",
         "item": {
@@ -137,16 +147,6 @@
           "date": "2026-09-15",
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/11928",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11921": {
-        "hash": "8780a9a2b654bb831ba5634857085aa52a8c53d7189434a853e753c086762eb0",
-        "item": {
-          "title": "Suyunn『Dear Suyunn』モデルを齋藤樹愛羅が務めさせていただくことが決定いたしました！",
-          "date": "2026-09-15",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11921",
           "category": "メディア"
         }
       }
@@ -445,6 +445,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/11082:64ab9bae07ef",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-25T02:44:59.606Z",
+      "title": "【掲載情報】集英社「MYOJO 12月号」※佐々木舞香",
+      "url": "https://sp.equal-love.jp/news/detail/11082",
+      "date": "2026-09-25",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11450:f54e09c1367b",
       "type": "schedule",
