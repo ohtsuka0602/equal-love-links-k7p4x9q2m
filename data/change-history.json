@@ -1,6 +1,6 @@
 {
   "meta": {
-    "checkedAt": "2026-09-25T14:45:44.098Z",
+    "checkedAt": "2026-09-25T18:34:07.323Z",
     "updatedAt": "2026-09-25T02:44:59.606Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
@@ -8,26 +8,6 @@
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/10739": {
-        "hash": "002600affb75ed7d9f8e5d69588d54a977c70cc88da76c064565d327f3d5d2ed",
-        "item": {
-          "title": "Artistspoken「イマフレラ...",
-          "date": "2026-09-25",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10739",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11860": {
-        "hash": "440a5c000804a92b6e40451ad11e37e9cf493702bc6ca25c1daf25aabbfbd4ca",
-        "item": {
-          "title": "握手会 ＝LOVE映像商品 ＝LOVE 8周...",
-          "date": "2026-09-25",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11860",
-          "category": ""
-        }
-      },
       "https://equal-love.jp/schedule/detail/10548": {
         "hash": "f35dee44c25f36e4c7b0ed972a17562037db47b9205161fc4ab83772bc1970cb",
         "item": {
