@@ -1,13 +1,23 @@
 {
   "meta": {
-    "checkedAt": "2026-09-26T02:44:49.819Z",
-    "updatedAt": "2026-09-25T02:44:59.606Z",
+    "checkedAt": "2026-09-26T02:45:36.417Z",
+    "updatedAt": "2026-09-26T02:45:36.417Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
+      "https://equal-love.jp/schedule/detail/10676": {
+        "hash": "1fc1f31ce9afdc815b5ff1741fdfab86b4a3eedb16eb56f7cb7640775a7f1c2f",
+        "item": {
+          "title": "テレビ朝日「アイ=ラブ！げーみんぐ ...",
+          "date": "2026-09-26",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10676",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/10548": {
         "hash": "f35dee44c25f36e4c7b0ed972a17562037db47b9205161fc4ab83772bc1970cb",
         "item": {
@@ -425,6 +435,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10676:1fc1f31ce9af",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-09-26T02:45:36.417Z",
+      "title": "テレビ朝日「アイ=ラブ！げーみんぐ ...",
+      "url": "https://equal-love.jp/schedule/detail/10676",
+      "date": "2026-09-26",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/11082:64ab9bae07ef",
       "type": "news",
