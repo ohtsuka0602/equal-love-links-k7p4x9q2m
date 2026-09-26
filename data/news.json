@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-09-26T02:44:49.629Z",
-    "updatedAt": "2026-09-25T02:44:59.406Z"
+    "checkedAt": "2026-09-26T08:00:12.621Z",
+    "updatedAt": "2026-09-26T08:00:12.621Z"
   },
   "news": [
+    {
+      "title": "＝LOVEデビュー9周年企画 コンサート映像配信決定！",
+      "date": "2026-09-26",
+      "url": "https://sp.equal-love.jp/news/detail/12163",
+      "category": "お知らせ"
+    },
     {
       "title": "【掲載情報】集英社「MYOJO 12月号」※佐々木舞香",
       "date": "2026-09-25",
@@ -57,12 +63,6 @@
       "date": "2026-09-16",
       "url": "https://sp.equal-love.jp/news/detail/11960",
       "category": "お知らせ"
-    },
-    {
-      "title": "【出演情報】日本テレビ「踊る！さんま御殿!!」※大谷映美里",
-      "date": "2026-09-15",
-      "url": "https://sp.equal-love.jp/news/detail/11928",
-      "category": "メディア"
     }
   ]
 }

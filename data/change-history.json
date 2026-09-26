@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-26T02:45:36.417Z",
-    "updatedAt": "2026-09-26T02:45:36.417Z",
+    "checkedAt": "2026-09-26T08:00:12.801Z",
+    "updatedAt": "2026-09-26T08:00:12.801Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -40,6 +40,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12163": {
+        "hash": "ec5d0d4b9e7db6f72b5e30ab423a4fb98fad4c3ac4ef2697a09aa1c1df7a2ed1",
+        "item": {
+          "title": "＝LOVEデビュー9周年企画 コンサート映像配信決定！",
+          "date": "2026-09-26",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12163",
+          "category": "お知らせ"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/11082": {
         "hash": "64ab9bae07efd795f9d3b063f45b900d34cec0ce0cd13cd5535c8080e63f8f03",
         "item": {
@@ -128,16 +138,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/11960",
           "category": "お知らせ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11928": {
-        "hash": "af50d92a6ff3293164748d1c82a2b1dea53a49d0513807bd1371ef066e41065a",
-        "item": {
-          "title": "【出演情報】日本テレビ「踊る！さんま御殿!!」※大谷映美里",
-          "date": "2026-09-15",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11928",
-          "category": "メディア"
         }
       }
     },
@@ -435,6 +435,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12163:ec5d0d4b9e7d",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-26T08:00:12.801Z",
+      "title": "＝LOVEデビュー9周年企画 コンサート映像配信決定！",
+      "url": "https://sp.equal-love.jp/news/detail/12163",
+      "date": "2026-09-26",
+      "category": "お知らせ",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/10676:1fc1f31ce9af",
       "type": "schedule",
