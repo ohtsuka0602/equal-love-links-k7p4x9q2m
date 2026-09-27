@@ -1,13 +1,23 @@
 {
   "meta": {
-    "checkedAt": "2026-09-27T02:45:25.462Z",
-    "updatedAt": "2026-09-26T08:00:12.801Z",
+    "checkedAt": "2026-09-27T02:46:11.228Z",
+    "updatedAt": "2026-09-27T02:46:11.228Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
+      "https://equal-love.jp/schedule/detail/11182": {
+        "hash": "0fca065490e9ff7430e580135eb1e9a5f0628dfcb00a6249a343c17c156555ca",
+        "item": {
+          "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
+          "date": "2026-09-27",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11182",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/10444": {
         "hash": "cbb2aa1e566d360c84534e303ef5f2490cce4ded38c66c5a61832b0b8165db0d",
         "item": {
@@ -415,6 +425,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11182:0fca065490e9",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-09-27T02:46:11.228Z",
+      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
+      "url": "https://equal-love.jp/schedule/detail/11182",
+      "date": "2026-09-27",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12163:ec5d0d4b9e7d",
       "type": "news",
