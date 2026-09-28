@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-28T14:44:13.042Z",
-    "updatedAt": "2026-09-28T08:45:31.980Z",
+    "checkedAt": "2026-09-28T14:45:50.684Z",
+    "updatedAt": "2026-09-28T14:45:50.684Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -20,6 +20,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12171": {
+        "hash": "f0faafe3283d87c1754fa1b79682af48322ac8706a50c04066ec644998d57710",
+        "item": {
+          "title": "＝LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～ 開催決定！！",
+          "date": "2026-09-28",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12171",
+          "category": "ライブ/イベント"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12162": {
         "hash": "6e5e41176c8468f01a0836c79cde7106ad481c3acd904bb4df7b71b5512175c9",
         "item": {
@@ -107,16 +117,6 @@
           "date": "2026-09-17",
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/11961",
-          "category": "ライブ/イベント"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11948": {
-        "hash": "cdea9616307bf8c0d24bd1477f90f55cd24bfd5ded7ff2588e6f2c4fdbbfde76",
-        "item": {
-          "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」配信チケット発売のお知らせ",
-          "date": "2026-09-17",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11948",
           "category": "ライブ/イベント"
         }
       }
@@ -415,6 +415,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12171:f0faafe3283d",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-28T14:45:50.684Z",
+      "title": "＝LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～ 開催決定！！",
+      "url": "https://sp.equal-love.jp/news/detail/12171",
+      "date": "2026-09-28",
+      "category": "ライブ/イベント",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12162:6e5e41176c84",
       "type": "news",
