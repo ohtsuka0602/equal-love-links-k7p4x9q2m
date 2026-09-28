@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-28T08:44:08.690Z",
-    "updatedAt": "2026-09-27T02:46:11.228Z",
+    "checkedAt": "2026-09-28T08:45:31.980Z",
+    "updatedAt": "2026-09-28T08:45:31.980Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -20,6 +20,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12162": {
+        "hash": "6e5e41176c8468f01a0836c79cde7106ad481c3acd904bb4df7b71b5512175c9",
+        "item": {
+          "title": "【出演情報】TVアニメ「放課後のアイドルには秘密がある」に赤井さくら役として野口衣織の出演が決定！",
+          "date": "2026-09-28",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12162",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12163": {
         "hash": "ec5d0d4b9e7db6f72b5e30ab423a4fb98fad4c3ac4ef2697a09aa1c1df7a2ed1",
         "item": {
@@ -108,16 +118,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/11948",
           "category": "ライブ/イベント"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11960": {
-        "hash": "8b60f2b6e59ecb1b8b5353c59f1ff8a10a6d7cfb4f2a9affcff13c59e44fd601",
-        "item": {
-          "title": "【重要】システムメンテナンスのお知らせ",
-          "date": "2026-09-16",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11960",
-          "category": "お知らせ"
         }
       }
     },
@@ -415,6 +415,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12162:6e5e41176c84",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-28T08:45:31.980Z",
+      "title": "【出演情報】TVアニメ「放課後のアイドルには秘密がある」に赤井さくら役として野口衣織の出演が決定！",
+      "url": "https://sp.equal-love.jp/news/detail/12162",
+      "date": "2026-09-28",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11182:0fca065490e9",
       "type": "schedule",

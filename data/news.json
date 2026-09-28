@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-09-28T02:44:48.839Z",
-    "updatedAt": "2026-09-26T08:00:12.621Z"
+    "checkedAt": "2026-09-28T08:45:31.771Z",
+    "updatedAt": "2026-09-28T08:45:31.771Z"
   },
   "news": [
+    {
+      "title": "【出演情報】TVアニメ「放課後のアイドルには秘密がある」に赤井さくら役として野口衣織の出演が決定！",
+      "date": "2026-09-28",
+      "url": "https://sp.equal-love.jp/news/detail/12162",
+      "category": "メディア"
+    },
     {
       "title": "＝LOVEデビュー9周年企画 コンサート映像配信決定！",
       "date": "2026-09-26",
@@ -57,12 +63,6 @@
       "date": "2026-09-17",
       "url": "https://sp.equal-love.jp/news/detail/11948",
       "category": "ライブ/イベント"
-    },
-    {
-      "title": "【重要】システムメンテナンスのお知らせ",
-      "date": "2026-09-16",
-      "url": "https://sp.equal-love.jp/news/detail/11960",
-      "category": "お知らせ"
     }
   ]
 }
