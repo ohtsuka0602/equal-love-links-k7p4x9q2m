@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-29T14:44:12.182Z",
-    "updatedAt": "2026-09-28T14:45:50.684Z",
+    "checkedAt": "2026-09-29T14:45:41.172Z",
+    "updatedAt": "2026-09-29T14:45:41.172Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -122,6 +122,22 @@
       }
     },
     "youtube": {
+      "9VVxYcBLb8M": {
+        "hash": "62396e5f35e53e769d13d6082f769440f0730ba157f2ec5c8b650b72fab4a3e4",
+        "item": {
+          "videoId": "9VVxYcBLb8M",
+          "title": "初めての中野ではしご酒してきたよ【激ウマ店発見】",
+          "url": "https://www.youtube.com/watch?v=9VVxYcBLb8M",
+          "thumbnail": "https://i.ytimg.com/vi/9VVxYcBLb8M/maxresdefault.jpg",
+          "publishedAt": "2026-09-29T10:00:19Z",
+          "channelId": "UC0r-2f003yXdV5En7qHlrGw",
+          "channelName": "つんはしご",
+          "sourceName": "諸橋 沙夏",
+          "memberNames": [
+            "諸橋 沙夏"
+          ]
+        }
+      },
       "CRHXjLot5r4": {
         "hash": "d945dd73c4a420dc49b75f1d5a24a33eeda079e0cacd877c489303c0beeef01e",
         "item": {
@@ -176,22 +192,6 @@
           "url": "https://www.youtube.com/watch?v=gaSubSTZBlI",
           "thumbnail": "https://i.ytimg.com/vi/gaSubSTZBlI/maxresdefault.jpg",
           "publishedAt": "2026-09-15T05:03:14Z",
-          "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
-          "channelName": "みりにゃと申します。",
-          "sourceName": "大谷 映美里",
-          "memberNames": [
-            "大谷 映美里"
-          ]
-        }
-      },
-      "NvNqTMzTC1o": {
-        "hash": "511bd8c2516a497fee12ee1abfb2a964f324e4714759052443452053d8290339",
-        "item": {
-          "videoId": "NvNqTMzTC1o",
-          "title": "【ご報告】皆さんにやっと言えます",
-          "url": "https://www.youtube.com/watch?v=NvNqTMzTC1o",
-          "thumbnail": "https://i.ytimg.com/vi/NvNqTMzTC1o/maxresdefault.jpg",
-          "publishedAt": "2026-09-14T09:00:16Z",
           "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
           "channelName": "みりにゃと申します。",
           "sourceName": "大谷 映美里",
@@ -415,6 +415,20 @@
     }
   },
   "history": [
+    {
+      "id": "youtube:added:9VVxYcBLb8M:62396e5f35e5",
+      "type": "youtube",
+      "action": "added",
+      "occurredAt": "2026-09-29T14:45:41.172Z",
+      "title": "初めての中野ではしご酒してきたよ【激ウマ店発見】",
+      "url": "https://www.youtube.com/watch?v=9VVxYcBLb8M",
+      "date": "2026-09-29T10:00:19Z",
+      "category": "",
+      "memberNames": [
+        "諸橋 沙夏"
+      ],
+      "sourceName": "諸橋 沙夏"
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12171:f0faafe3283d",
       "type": "news",
