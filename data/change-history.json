@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-30T02:45:37.533Z",
-    "updatedAt": "2026-09-29T14:45:41.172Z",
+    "checkedAt": "2026-09-30T08:44:50.708Z",
+    "updatedAt": "2026-09-30T08:44:50.708Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -20,6 +20,26 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12180": {
+        "hash": "77f59bf7ef2d510c98e15b908d02eea64c2dc4dbae90364468d6f6ec9826fe2f",
+        "item": {
+          "title": "tocco closet「2026 AW collection - tocco closet」モデルを野口衣織が務めさせていただきました！",
+          "date": "2026-09-30",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12180",
+          "category": "メディア"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/12166": {
+        "hash": "8362899dc4096ffb337af928385073db8b697f689645e566d7d706bbd8e37410",
+        "item": {
+          "title": "REDYAZEL「Azely（アゼリー）＆Redyna(レディーナ)collection」ビジュアルモデルを大場花菜が務めさせていただくことが決定いたしました！",
+          "date": "2026-09-30",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12166",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12171": {
         "hash": "f0faafe3283d87c1754fa1b79682af48322ac8706a50c04066ec644998d57710",
         "item": {
@@ -98,26 +118,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/11938",
           "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11962": {
-        "hash": "31ffb0011bd380fc2d9c7bbfa25f6412c121e76eba941c94838320508c371123",
-        "item": {
-          "title": "＝LOVE 個別衣装ポーチ(8周年ツアー衣装③)キャンセル分再販のお知らせ",
-          "date": "2026-09-17",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11962",
-          "category": "グッズ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11961": {
-        "hash": "018ceb2d1ccd434b47bf0635acc66f65a95c35bc070506cf45a4011d1eca1001",
-        "item": {
-          "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」テラススイート席＆ステージ見切れ席＆ステージバック席販売決定・FC販売受付開始のお知らせ",
-          "date": "2026-09-17",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11961",
-          "category": "ライブ/イベント"
         }
       }
     },
@@ -415,6 +415,30 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12180:77f59bf7ef2d",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-30T08:44:50.708Z",
+      "title": "tocco closet「2026 AW collection - tocco closet」モデルを野口衣織が務めさせていただきました！",
+      "url": "https://sp.equal-love.jp/news/detail/12180",
+      "date": "2026-09-30",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12166:8362899dc409",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-30T08:44:50.708Z",
+      "title": "REDYAZEL「Azely（アゼリー）＆Redyna(レディーナ)collection」ビジュアルモデルを大場花菜が務めさせていただくことが決定いたしました！",
+      "url": "https://sp.equal-love.jp/news/detail/12166",
+      "date": "2026-09-30",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "youtube:added:9VVxYcBLb8M:62396e5f35e5",
       "type": "youtube",
