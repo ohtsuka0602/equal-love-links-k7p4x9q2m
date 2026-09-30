@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-09-30T14:48:05.011Z",
-    "updatedAt": "2026-09-30T08:44:50.708Z",
+    "checkedAt": "2026-09-30T14:50:07.205Z",
+    "updatedAt": "2026-09-30T14:50:07.205Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -20,6 +20,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12174": {
+        "hash": "98803e978a18e2e825fa686bc2b75203d7dd479ce4e0661622e892a60171fa93",
+        "item": {
+          "title": "≪物販情報≫＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」",
+          "date": "2026-09-30",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12174",
+          "category": "グッズ"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12180": {
         "hash": "77f59bf7ef2d510c98e15b908d02eea64c2dc4dbae90364468d6f6ec9826fe2f",
         "item": {
@@ -109,19 +119,25 @@
           "url": "https://sp.equal-love.jp/news/detail/11963",
           "category": "お知らせ"
         }
-      },
-      "https://sp.equal-love.jp/news/detail/11938": {
-        "hash": "47d54f1e0fd597e1e99bf61b8c1eeb623307a46653517ba8a430acc685d5330b",
-        "item": {
-          "title": "【出演情報】フジテレビ「ぽかぽか」※大谷映美里、齋藤樹愛羅、髙松瞳",
-          "date": "2026-09-18",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11938",
-          "category": "メディア"
-        }
       }
     },
     "youtube": {
+      "Uk66Nkq2G6c": {
+        "hash": "4f4b863e3179ed9ba05d307ef413f37489770fe568723c208c89c583e6438113",
+        "item": {
+          "videoId": "Uk66Nkq2G6c",
+          "title": "様子がおかしい韓国VLOG",
+          "url": "https://www.youtube.com/watch?v=Uk66Nkq2G6c",
+          "thumbnail": "https://i.ytimg.com/vi/Uk66Nkq2G6c/maxresdefault.jpg",
+          "publishedAt": "2026-09-30T11:00:36Z",
+          "channelId": "UCcsyyry5bsjTeqqJ_Yz9TiA",
+          "channelName": "音嶋莉沙の様子がおかしいチャンネル",
+          "sourceName": "音嶋 莉沙",
+          "memberNames": [
+            "音嶋 莉沙"
+          ]
+        }
+      },
       "9VVxYcBLb8M": {
         "hash": "62396e5f35e53e769d13d6082f769440f0730ba157f2ec5c8b650b72fab4a3e4",
         "item": {
@@ -176,22 +192,6 @@
           "url": "https://www.youtube.com/watch?v=ize6U5etOGo",
           "thumbnail": "https://i.ytimg.com/vi/ize6U5etOGo/maxresdefault.jpg",
           "publishedAt": "2026-09-18T09:19:11Z",
-          "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
-          "channelName": "みりにゃと申します。",
-          "sourceName": "大谷 映美里",
-          "memberNames": [
-            "大谷 映美里"
-          ]
-        }
-      },
-      "gaSubSTZBlI": {
-        "hash": "fad2bd05f018a45bc0223f0298eb1763c1f1c46e671d8b04f1d2b6346cf88f3c",
-        "item": {
-          "videoId": "gaSubSTZBlI",
-          "title": "みり申グッズが完成したよ❣️ #shorts",
-          "url": "https://www.youtube.com/watch?v=gaSubSTZBlI",
-          "thumbnail": "https://i.ytimg.com/vi/gaSubSTZBlI/maxresdefault.jpg",
-          "publishedAt": "2026-09-15T05:03:14Z",
           "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
           "channelName": "みりにゃと申します。",
           "sourceName": "大谷 映美里",
@@ -415,6 +415,32 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12174:98803e978a18",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-09-30T14:50:07.205Z",
+      "title": "≪物販情報≫＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」",
+      "url": "https://sp.equal-love.jp/news/detail/12174",
+      "date": "2026-09-30",
+      "category": "グッズ",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "youtube:added:Uk66Nkq2G6c:4f4b863e3179",
+      "type": "youtube",
+      "action": "added",
+      "occurredAt": "2026-09-30T14:50:07.205Z",
+      "title": "様子がおかしい韓国VLOG",
+      "url": "https://www.youtube.com/watch?v=Uk66Nkq2G6c",
+      "date": "2026-09-30T11:00:36Z",
+      "category": "",
+      "memberNames": [
+        "音嶋 莉沙"
+      ],
+      "sourceName": "音嶋 莉沙"
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12180:77f59bf7ef2d",
       "type": "news",
