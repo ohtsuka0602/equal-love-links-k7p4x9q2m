@@ -1,23 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-10-01T14:45:56.589Z",
-    "updatedAt": "2026-10-01T14:45:05.072Z",
+    "checkedAt": "2026-10-01T19:30:58.727Z",
+    "updatedAt": "2026-10-01T19:30:58.727Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/11451": {
-        "hash": "6ca9e5478fe4aac5cfbaed64ae054a4085d7f352509c86027d406296f0d7a275",
-        "item": {
-          "title": "フジテレビ ONE「プロ野球ニュース...",
-          "date": "2026-10-01",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11451",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/10740": {
         "hash": "af38df8d04f9fd64b1b75e26f515d1f23b64554c9f9cef0e08edf5080d82c167",
         "item": {
@@ -106,6 +96,16 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11616",
           "category": "ライブ/イベント"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10742": {
+        "hash": "43b6081bdfbb31d100b3be9e3cc9c7d2aca26bf3c76a59f94996e1cdf5d84ab0",
+        "item": {
+          "title": "Artistspoken「イマフレラ...",
+          "date": "2026-10-16",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10742",
+          "category": "メディア"
         }
       }
     },
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10742:43b6081bdfbb",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-01T19:30:58.727Z",
+      "title": "Artistspoken「イマフレラ...",
+      "url": "https://equal-love.jp/schedule/detail/10742",
+      "date": "2026-10-16",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12167:1f2f003c6c36",
       "type": "news",
