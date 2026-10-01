@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-01T02:45:30.107Z",
-    "updatedAt": "2026-10-01T02:45:30.107Z",
+    "checkedAt": "2026-10-01T08:44:53.471Z",
+    "updatedAt": "2026-10-01T08:44:53.471Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,36 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12235": {
+        "hash": "c51dd624f58844e1a5fb0c1eba2d7d127caa7087b00b3a92a3a28bf0cdf32a01",
+        "item": {
+          "title": "＝LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～ FC先行チケット受付開始のお知らせ",
+          "date": "2026-10-01",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12235",
+          "category": "ライブ/イベント"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/12168": {
+        "hash": "d201217c4fc3c53b61b3d9f358510ff2ca451f454450ff8b369c9156db66d859",
+        "item": {
+          "title": "『生誕祭イベント~supported by IKONOIJOY Puzzle~』（11月）FC限定チケット受付開始のお知らせ",
+          "date": "2026-10-01",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12168",
+          "category": "ライブ/イベント"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/12241": {
+        "hash": "7b260c8c11e3a45d34d1cfb4bb600c0202df0ad205ee34be376abccd7a13cfc7",
+        "item": {
+          "title": "「＝LOVE 21stシングル発売記念 個別お話し会」イベント会場にて、＝LOVE CD購入＆映像商品予約抽選会開催決定！",
+          "date": "2026-10-01",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12241",
+          "category": "お知らせ"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12174": {
         "hash": "98803e978a18e2e825fa686bc2b75203d7dd479ce4e0661622e892a60171fa93",
         "item": {
@@ -178,36 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/11082",
           "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12105": {
-        "hash": "2b14eff438b3c08cf92747d343d40c1b1dccdbfa03e290a2c9d99665cfc6ac8b",
-        "item": {
-          "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」プレミアムチケットグッズのお知らせ",
-          "date": "2026-09-22",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12105",
-          "category": "グッズ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11964": {
-        "hash": "80d1e7051f982d821443835442eb46ef26a027daaf5bd502052bd5b45f1d037e",
-        "item": {
-          "title": "＝LOVEデビュー9周年企画 コンサート映像配信決定！",
-          "date": "2026-09-19",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11964",
-          "category": "お知らせ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11963": {
-        "hash": "04d56dc98208709067eb0406a42b178f50581365b113761e177f37a8f62974d1",
-        "item": {
-          "title": "【＝LOVE Official Fan Club】瀧脇笙古バースデーコンテンツ更新！",
-          "date": "2026-09-18",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11963",
-          "category": "お知らせ"
         }
       }
     },
@@ -505,6 +505,42 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12235:c51dd624f588",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-01T08:44:53.471Z",
+      "title": "＝LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～ FC先行チケット受付開始のお知らせ",
+      "url": "https://sp.equal-love.jp/news/detail/12235",
+      "date": "2026-10-01",
+      "category": "ライブ/イベント",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12168:d201217c4fc3",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-01T08:44:53.471Z",
+      "title": "『生誕祭イベント~supported by IKONOIJOY Puzzle~』（11月）FC限定チケット受付開始のお知らせ",
+      "url": "https://sp.equal-love.jp/news/detail/12168",
+      "date": "2026-10-01",
+      "category": "ライブ/イベント",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12241:7b260c8c11e3",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-01T08:44:53.471Z",
+      "title": "「＝LOVE 21stシングル発売記念 個別お話し会」イベント会場にて、＝LOVE CD購入＆映像商品予約抽選会開催決定！",
+      "url": "https://sp.equal-love.jp/news/detail/12241",
+      "date": "2026-10-01",
+      "category": "お知らせ",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11451:6ca9e5478fe4",
       "type": "schedule",
