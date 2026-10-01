@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-01T09:25:58.955Z",
-    "updatedAt": "2026-10-01T08:44:53.471Z",
+    "checkedAt": "2026-10-01T14:45:05.072Z",
+    "updatedAt": "2026-10-01T14:45:05.072Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,26 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12167": {
+        "hash": "1f2f003c6c369d79b3a61b2f6c44c749d988d924dd7fee43eedd5692c5f5f763",
+        "item": {
+          "title": "【＝LOVE Official Fan Club】 新企画「イコラブラボ」スタート！SHORT 一問一答の質問を募集！",
+          "date": "2026-10-01",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12167",
+          "category": "お知らせ"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/12236": {
+        "hash": "14618ced0376bc6060e0a47fc1403337f1b73c045ce941a5906f99f5dc4e31f1",
+        "item": {
+          "title": "≪物販情報≫10月3日(土)個別お話し会",
+          "date": "2026-10-01",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12236",
+          "category": "グッズ"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12235": {
         "hash": "c51dd624f58844e1a5fb0c1eba2d7d127caa7087b00b3a92a3a28bf0cdf32a01",
         "item": {
@@ -187,26 +207,6 @@
           "date": "2026-09-28",
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12162",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12163": {
-        "hash": "ec5d0d4b9e7db6f72b5e30ab423a4fb98fad4c3ac4ef2697a09aa1c1df7a2ed1",
-        "item": {
-          "title": "＝LOVEデビュー9周年企画 コンサート映像配信決定！",
-          "date": "2026-09-26",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12163",
-          "category": "お知らせ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/11082": {
-        "hash": "64ab9bae07efd795f9d3b063f45b900d34cec0ce0cd13cd5535c8080e63f8f03",
-        "item": {
-          "title": "【掲載情報】集英社「MYOJO 12月号」※佐々木舞香",
-          "date": "2026-09-25",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11082",
           "category": "メディア"
         }
       }
@@ -505,6 +505,30 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12167:1f2f003c6c36",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-01T14:45:05.072Z",
+      "title": "【＝LOVE Official Fan Club】 新企画「イコラブラボ」スタート！SHORT 一問一答の質問を募集！",
+      "url": "https://sp.equal-love.jp/news/detail/12167",
+      "date": "2026-10-01",
+      "category": "お知らせ",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12236:14618ced0376",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-01T14:45:05.072Z",
+      "title": "≪物販情報≫10月3日(土)個別お話し会",
+      "url": "https://sp.equal-love.jp/news/detail/12236",
+      "date": "2026-10-01",
+      "category": "グッズ",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12235:c51dd624f588",
       "type": "news",
