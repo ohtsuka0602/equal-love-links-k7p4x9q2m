@@ -1,21 +1,111 @@
 {
   "meta": {
-    "checkedAt": "2026-10-01T02:44:46.820Z",
-    "updatedAt": "2026-09-30T14:50:07.205Z",
+    "checkedAt": "2026-10-01T02:45:30.107Z",
+    "updatedAt": "2026-10-01T02:45:30.107Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/10444": {
-        "hash": "cbb2aa1e566d360c84534e303ef5f2490cce4ded38c66c5a61832b0b8165db0d",
+      "https://equal-love.jp/schedule/detail/11451": {
+        "hash": "6ca9e5478fe4aac5cfbaed64ae054a4085d7f352509c86027d406296f0d7a275",
+        "item": {
+          "title": "フジテレビ ONE「プロ野球ニュース...",
+          "date": "2026-10-01",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11451",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10740": {
+        "hash": "af38df8d04f9fd64b1b75e26f515d1f23b64554c9f9cef0e08edf5080d82c167",
+        "item": {
+          "title": "Artistspoken「イマフレラ...",
+          "date": "2026-10-02",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10740",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11649": {
+        "hash": "9661c351bfac6f53770b5364f96815f79b6dfeeeec3cbf30baf662a477494c25",
+        "item": {
+          "title": "握手会 ＝LOVE 21stシングル発売記念...",
+          "date": "2026-10-03",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11649",
+          "category": ""
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10445": {
+        "hash": "2a0957d9b94e561af7a3fc19561bf85603bf0981bfcf8e46870585e9cf93250f",
         "item": {
           "title": "ニッポン放送「＝LOVEのイコラフ」",
-          "date": "2026-09-28",
+          "date": "2026-10-05",
           "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10444",
+          "url": "https://equal-love.jp/schedule/detail/10445",
           "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10497": {
+        "hash": "1d80ab89f970a828e62ba9ba2ea1b0017f01833d4131efe9331136f435e007a3",
+        "item": {
+          "title": "SHOWROOM『＝LOVE 山本杏...",
+          "date": "2026-10-08",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10497",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10741": {
+        "hash": "51b7b1ff67a52dc0755d1adccb38a3cf1d3359d7cdaf6ad76ead0633f7d83f2e",
+        "item": {
+          "title": "Artistspoken「イマフレラ...",
+          "date": "2026-10-09",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10741",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11866": {
+        "hash": "81d42978dfb7cb51ae1ec8cf35d1a9c6f06cbe39679ba4e2be0f861c35bc8e0c",
+        "item": {
+          "title": "「STARフェス」※＝LOVE",
+          "date": "2026-10-10",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11866",
+          "category": "ライブ/イベント"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10446": {
+        "hash": "72e303f15d621dcf19499d229e3d772ab3884bdf1673bc284ffaa89403161cf3",
+        "item": {
+          "title": "ニッポン放送「＝LOVEのイコラフ」",
+          "date": "2026-10-12",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10446",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11925": {
+        "hash": "ff1a03468e0ce0e47a469c3a4a97f2aa95edfabdd050871ac9eeffbbd0002ea6",
+        "item": {
+          "title": "【発売日】＝LOVE 8周年ツアー「...",
+          "date": "2026-10-14",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11925",
+          "category": "リリース"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11616": {
+        "hash": "4db30d9a30dcbf3f00639be49c93df791b6b52a275f66b5e593a85c4362ef689",
+        "item": {
+          "title": "＝LOVE 9周年コンサート「＝LO...",
+          "date": "2026-10-15",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11616",
+          "category": "ライブ/イベント"
         }
       }
     },
@@ -415,6 +505,126 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11451:6ca9e5478fe4",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-01T02:45:30.107Z",
+      "title": "フジテレビ ONE「プロ野球ニュース...",
+      "url": "https://equal-love.jp/schedule/detail/11451",
+      "date": "2026-10-01",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10740:af38df8d04f9",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-01T02:45:30.107Z",
+      "title": "Artistspoken「イマフレラ...",
+      "url": "https://equal-love.jp/schedule/detail/10740",
+      "date": "2026-10-02",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11649:9661c351bfac",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-01T02:45:30.107Z",
+      "title": "握手会 ＝LOVE 21stシングル発売記念...",
+      "url": "https://equal-love.jp/schedule/detail/11649",
+      "date": "2026-10-03",
+      "category": "",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10445:2a0957d9b94e",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-01T02:45:30.107Z",
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "url": "https://equal-love.jp/schedule/detail/10445",
+      "date": "2026-10-05",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10497:1d80ab89f970",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-01T02:45:30.107Z",
+      "title": "SHOWROOM『＝LOVE 山本杏...",
+      "url": "https://equal-love.jp/schedule/detail/10497",
+      "date": "2026-10-08",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10741:51b7b1ff67a5",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-01T02:45:30.107Z",
+      "title": "Artistspoken「イマフレラ...",
+      "url": "https://equal-love.jp/schedule/detail/10741",
+      "date": "2026-10-09",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11866:81d42978dfb7",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-01T02:45:30.107Z",
+      "title": "「STARフェス」※＝LOVE",
+      "url": "https://equal-love.jp/schedule/detail/11866",
+      "date": "2026-10-10",
+      "category": "ライブ/イベント",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10446:72e303f15d62",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-01T02:45:30.107Z",
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "url": "https://equal-love.jp/schedule/detail/10446",
+      "date": "2026-10-12",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11925:ff1a03468e0c",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-01T02:45:30.107Z",
+      "title": "【発売日】＝LOVE 8周年ツアー「...",
+      "url": "https://equal-love.jp/schedule/detail/11925",
+      "date": "2026-10-14",
+      "category": "リリース",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11616:4db30d9a30dc",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-01T02:45:30.107Z",
+      "title": "＝LOVE 9周年コンサート「＝LO...",
+      "url": "https://equal-love.jp/schedule/detail/11616",
+      "date": "2026-10-15",
+      "category": "ライブ/イベント",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12174:98803e978a18",
       "type": "news",

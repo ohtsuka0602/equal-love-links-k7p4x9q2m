@@ -1,14 +1,77 @@
 {
   "meta": {
-    "checkedAt": "2026-09-30T20:44:10.897Z",
-    "updatedAt": "2026-09-28T02:45:30.036Z"
+    "checkedAt": "2026-10-01T02:45:29.910Z",
+    "updatedAt": "2026-10-01T02:45:29.910Z"
   },
   "schedule": [
     {
-      "title": "ニッポン放送「＝LOVEのイコラフ」",
-      "date": "2026-09-28",
-      "url": "https://equal-love.jp/schedule/detail/10444",
+      "title": "フジテレビ ONE「プロ野球ニュース...",
+      "date": "2026-10-01",
+      "url": "https://equal-love.jp/schedule/detail/11451",
       "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "Artistspoken「イマフレラ...",
+      "date": "2026-10-02",
+      "url": "https://equal-love.jp/schedule/detail/10740",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "握手会 ＝LOVE 21stシングル発売記念...",
+      "date": "2026-10-03",
+      "url": "https://equal-love.jp/schedule/detail/11649",
+      "category": "",
+      "time": ""
+    },
+    {
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "date": "2026-10-05",
+      "url": "https://equal-love.jp/schedule/detail/10445",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "SHOWROOM『＝LOVE 山本杏...",
+      "date": "2026-10-08",
+      "url": "https://equal-love.jp/schedule/detail/10497",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "Artistspoken「イマフレラ...",
+      "date": "2026-10-09",
+      "url": "https://equal-love.jp/schedule/detail/10741",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "「STARフェス」※＝LOVE",
+      "date": "2026-10-10",
+      "url": "https://equal-love.jp/schedule/detail/11866",
+      "category": "ライブ/イベント",
+      "time": ""
+    },
+    {
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "date": "2026-10-12",
+      "url": "https://equal-love.jp/schedule/detail/10446",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "【発売日】＝LOVE 8周年ツアー「...",
+      "date": "2026-10-14",
+      "url": "https://equal-love.jp/schedule/detail/11925",
+      "category": "リリース",
+      "time": ""
+    },
+    {
+      "title": "＝LOVE 9周年コンサート「＝LO...",
+      "date": "2026-10-15",
+      "url": "https://equal-love.jp/schedule/detail/11616",
+      "category": "ライブ/イベント",
       "time": ""
     }
   ]
