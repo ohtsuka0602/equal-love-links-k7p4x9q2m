@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-10-02T02:45:50.579Z",
-    "updatedAt": "2026-10-01T14:45:04.931Z"
+    "checkedAt": "2026-10-02T08:45:59.772Z",
+    "updatedAt": "2026-10-02T08:45:59.772Z"
   },
   "news": [
+    {
+      "title": "【出演情報】TBS系「それSnow Manにやらせて下さい」※＝LOVE",
+      "date": "2026-10-02",
+      "url": "https://sp.equal-love.jp/news/detail/12177",
+      "category": "メディア"
+    },
     {
       "title": "【＝LOVE Official Fan Club】 新企画「イコラブラボ」スタート！SHORT 一問一答の質問を募集！",
       "date": "2026-10-01",
@@ -57,12 +63,6 @@
       "date": "2026-09-28",
       "url": "https://sp.equal-love.jp/news/detail/12171",
       "category": "ライブ/イベント"
-    },
-    {
-      "title": "【出演情報】TVアニメ「放課後のアイドルには秘密がある」に赤井さくら役として野口衣織の出演が決定！",
-      "date": "2026-09-28",
-      "url": "https://sp.equal-love.jp/news/detail/12162",
-      "category": "メディア"
     }
   ]
 }

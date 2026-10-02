@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-02T08:44:32.199Z",
-    "updatedAt": "2026-10-02T08:44:32.199Z",
+    "checkedAt": "2026-10-02T08:45:59.960Z",
+    "updatedAt": "2026-10-02T08:45:59.960Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12177": {
+        "hash": "a0d12172631ea9b2b56689be8c2b3d9b1bcc0867679eb13512fc2c44755bd79a",
+        "item": {
+          "title": "【出演情報】TBS系「それSnow Manにやらせて下さい」※＝LOVE",
+          "date": "2026-10-02",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12177",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12167": {
         "hash": "1f2f003c6c369d79b3a61b2f6c44c749d988d924dd7fee43eedd5692c5f5f763",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12171",
           "category": "ライブ/イベント"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12162": {
-        "hash": "6e5e41176c8468f01a0836c79cde7106ad481c3acd904bb4df7b71b5512175c9",
-        "item": {
-          "title": "【出演情報】TVアニメ「放課後のアイドルには秘密がある」に赤井さくら役として野口衣織の出演が決定！",
-          "date": "2026-09-28",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12162",
-          "category": "メディア"
         }
       }
     },
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12177:a0d12172631e",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-02T08:45:59.960Z",
+      "title": "【出演情報】TBS系「それSnow Manにやらせて下さい」※＝LOVE",
+      "url": "https://sp.equal-love.jp/news/detail/12177",
+      "date": "2026-10-02",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12178:f509e256e1bf",
       "type": "schedule",
