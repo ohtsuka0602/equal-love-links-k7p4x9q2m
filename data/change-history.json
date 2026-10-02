@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-02T02:45:50.773Z",
-    "updatedAt": "2026-10-01T19:30:58.727Z",
+    "checkedAt": "2026-10-02T08:44:32.199Z",
+    "updatedAt": "2026-10-02T08:44:32.199Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -45,6 +45,16 @@
           "date": "2026-10-08",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10497",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12178": {
+        "hash": "f509e256e1bf1ba9fb00fb7b3987fcf77f314f48990f4229942a751e91d2e723",
+        "item": {
+          "title": "TBS系「それSnow Manにやら...",
+          "date": "2026-10-09",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12178",
           "category": "メディア"
         }
       },
@@ -96,16 +106,6 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11616",
           "category": "ライブ/イベント"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/10742": {
-        "hash": "43b6081bdfbb31d100b3be9e3cc9c7d2aca26bf3c76a59f94996e1cdf5d84ab0",
-        "item": {
-          "title": "Artistspoken「イマフレラ...",
-          "date": "2026-10-16",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10742",
-          "category": "メディア"
         }
       }
     },
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12178:f509e256e1bf",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-02T08:44:32.199Z",
+      "title": "TBS系「それSnow Manにやら...",
+      "url": "https://equal-love.jp/schedule/detail/12178",
+      "date": "2026-10-09",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/10742:43b6081bdfbb",
       "type": "schedule",
