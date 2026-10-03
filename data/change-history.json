@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-03T02:45:59.214Z",
-    "updatedAt": "2026-10-02T08:45:59.960Z",
+    "checkedAt": "2026-10-03T08:33:51.975Z",
+    "updatedAt": "2026-10-03T08:33:51.975Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,26 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12243": {
+        "hash": "350eb9ecd7f090aa254f04577035ebb970bffaa3d72a823aaf10343665b01491",
+        "item": {
+          "title": "【出演情報】SBS「2026 SBS 인기가요 Live In Tokyo」※＝LOVE",
+          "date": "2026-10-03",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12243",
+          "category": "メディア"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/12242": {
+        "hash": "0678dec52aaf08826b7d0f8a348e5f8d42e2d698dcf62b8e74a1399fa240bc92",
+        "item": {
+          "title": "＝LOVEデビュー9周年企画 コンサート映像配信決定！",
+          "date": "2026-10-03",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12242",
+          "category": "お知らせ"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12177": {
         "hash": "a0d12172631ea9b2b56689be8c2b3d9b1bcc0867679eb13512fc2c44755bd79a",
         "item": {
@@ -188,26 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12180",
           "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12166": {
-        "hash": "8362899dc4096ffb337af928385073db8b697f689645e566d7d706bbd8e37410",
-        "item": {
-          "title": "REDYAZEL「Azely（アゼリー）＆Redyna(レディーナ)collection」ビジュアルモデルを大場花菜が務めさせていただくことが決定いたしました！",
-          "date": "2026-09-30",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12166",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12171": {
-        "hash": "f0faafe3283d87c1754fa1b79682af48322ac8706a50c04066ec644998d57710",
-        "item": {
-          "title": "＝LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～ 開催決定！！",
-          "date": "2026-09-28",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12171",
-          "category": "ライブ/イベント"
         }
       }
     },
@@ -505,6 +505,30 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12243:350eb9ecd7f0",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-03T08:33:51.975Z",
+      "title": "【出演情報】SBS「2026 SBS 인기가요 Live In Tokyo」※＝LOVE",
+      "url": "https://sp.equal-love.jp/news/detail/12243",
+      "date": "2026-10-03",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12242:0678dec52aaf",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-03T08:33:51.975Z",
+      "title": "＝LOVEデビュー9周年企画 コンサート映像配信決定！",
+      "url": "https://sp.equal-love.jp/news/detail/12242",
+      "date": "2026-10-03",
+      "category": "お知らせ",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12177:a0d12172631e",
       "type": "news",
