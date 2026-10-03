@@ -1,16 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-10-03T14:44:32.225Z",
-    "updatedAt": "2026-10-03T08:45:54.281Z"
+    "checkedAt": "2026-10-03T17:56:26.604Z",
+    "updatedAt": "2026-10-03T17:56:26.604Z"
   },
   "schedule": [
-    {
-      "title": "握手会 ＝LOVE 21stシングル発売記念...",
-      "date": "2026-10-03",
-      "url": "https://equal-love.jp/schedule/detail/11649",
-      "category": "",
-      "time": ""
-    },
     {
       "title": "SBS「2026 SBS 인기가요 ...",
       "date": "2026-10-05",
@@ -72,6 +65,13 @@
       "date": "2026-10-15",
       "url": "https://equal-love.jp/schedule/detail/11616",
       "category": "ライブ/イベント",
+      "time": ""
+    },
+    {
+      "title": "Artistspoken「イマフレラ...",
+      "date": "2026-10-16",
+      "url": "https://equal-love.jp/schedule/detail/10742",
+      "category": "メディア",
       "time": ""
     }
   ]
