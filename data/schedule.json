@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-04T08:46:05.802Z",
-    "updatedAt": "2026-10-04T02:44:40.615Z"
+    "checkedAt": "2026-10-04T14:44:30.706Z",
+    "updatedAt": "2026-10-04T14:44:30.706Z"
   },
   "schedule": [
     {
@@ -61,17 +61,17 @@
       "time": ""
     },
     {
-      "title": "ニッポン放送「＝LOVEのイコラフ」",
-      "date": "2026-10-12",
-      "url": "https://equal-love.jp/schedule/detail/10446",
+      "title": "TBS系「坂上&指原のつぶれない店」...",
+      "date": "2026-10-11",
+      "url": "https://equal-love.jp/schedule/detail/12160",
       "category": "メディア",
       "time": ""
     },
     {
-      "title": "【発売日】＝LOVE 8周年ツアー「...",
-      "date": "2026-10-14",
-      "url": "https://equal-love.jp/schedule/detail/11925",
-      "category": "リリース",
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "date": "2026-10-12",
+      "url": "https://equal-love.jp/schedule/detail/10446",
+      "category": "メディア",
       "time": ""
     }
   ]

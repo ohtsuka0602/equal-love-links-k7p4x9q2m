@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-04T08:47:29.099Z",
-    "updatedAt": "2026-10-04T08:45:13.427Z",
+    "checkedAt": "2026-10-04T14:44:30.833Z",
+    "updatedAt": "2026-10-04T14:44:30.833Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -88,6 +88,16 @@
           "category": "メディア"
         }
       },
+      "https://equal-love.jp/schedule/detail/12160": {
+        "hash": "9032fb660601c62f7deda8b428ccf97a212cbc76e91cde93d2e989c1748291fe",
+        "item": {
+          "title": "TBS系「坂上&指原のつぶれない店」...",
+          "date": "2026-10-11",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12160",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/10446": {
         "hash": "72e303f15d621dcf19499d229e3d772ab3884bdf1673bc284ffaa89403161cf3",
         "item": {
@@ -96,16 +106,6 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10446",
           "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11925": {
-        "hash": "ff1a03468e0ce0e47a469c3a4a97f2aa95edfabdd050871ac9eeffbbd0002ea6",
-        "item": {
-          "title": "【発売日】＝LOVE 8周年ツアー「...",
-          "date": "2026-10-14",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11925",
-          "category": "リリース"
         }
       }
     },
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12160:9032fb660601",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-04T14:44:30.833Z",
+      "title": "TBS系「坂上&指原のつぶれない店」...",
+      "url": "https://equal-love.jp/schedule/detail/12160",
+      "date": "2026-10-11",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12161:db6bdd69bd21",
       "type": "news",
@@ -1706,18 +1718,6 @@
       "url": "https://sp.equal-love.jp/news/detail/11909",
       "date": "2026-09-07",
       "category": "グッズ",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11924:6a7340c392cd",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-09-07T01:26:54.471Z",
-      "title": "J:COM STREAM「인기가요(...",
-      "url": "https://equal-love.jp/schedule/detail/11924",
-      "date": "2026-09-07",
-      "category": "メディア",
       "memberNames": [],
       "sourceName": ""
     }
