@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-04T14:44:30.833Z",
-    "updatedAt": "2026-10-04T14:44:30.833Z",
+    "checkedAt": "2026-10-04T14:45:56.646Z",
+    "updatedAt": "2026-10-04T14:45:56.646Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12159": {
+        "hash": "811fb8192512157743ba14df98d924aa5180f76250cb6065ff868e828a8fd74e",
+        "item": {
+          "title": "【出演情報】TBS系「坂上&指原のつぶれない店」※大谷映美里",
+          "date": "2026-10-04",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12159",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12161": {
         "hash": "db6bdd69bd2122b744dc82715679a9d3f40b83f8e8c4d15cfc32c3448cd85593",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12241",
           "category": "お知らせ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12174": {
-        "hash": "98803e978a18e2e825fa686bc2b75203d7dd479ce4e0661622e892a60171fa93",
-        "item": {
-          "title": "≪物販情報≫＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」",
-          "date": "2026-09-30",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12174",
-          "category": "グッズ"
         }
       }
     },
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12159:811fb8192512",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-04T14:45:56.646Z",
+      "title": "【出演情報】TBS系「坂上&指原のつぶれない店」※大谷映美里",
+      "url": "https://sp.equal-love.jp/news/detail/12159",
+      "date": "2026-10-04",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12160:9032fb660601",
       "type": "schedule",
@@ -1706,18 +1718,6 @@
       "url": "https://equal-love.jp/schedule/detail/10547",
       "date": "2026-09-19",
       "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/11909:5e354ae098f5",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-09-07T14:27:05.966Z",
-      "title": "生写真セット(年末歌番組2025衣装②)・アクリルスタンドキーホルダー(年末歌番組2025衣装②)発売！",
-      "url": "https://sp.equal-love.jp/news/detail/11909",
-      "date": "2026-09-07",
-      "category": "グッズ",
       "memberNames": [],
       "sourceName": ""
     }
