@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-04T02:46:01.249Z",
-    "updatedAt": "2026-10-04T02:44:40.812Z",
+    "checkedAt": "2026-10-04T08:45:13.427Z",
+    "updatedAt": "2026-10-04T08:45:13.427Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12161": {
+        "hash": "db6bdd69bd2122b744dc82715679a9d3f40b83f8e8c4d15cfc32c3448cd85593",
+        "item": {
+          "title": "生写真セット(「恋、はじめました。」歌唱衣装)・アクリルスタンドキーホルダー(「恋、はじめました。」衣装) ・「恋、はじめました。」フォトアルバム発売！",
+          "date": "2026-10-04",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12161",
+          "category": "グッズ"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12243": {
         "hash": "350eb9ecd7f090aa254f04577035ebb970bffaa3d72a823aaf10343665b01491",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12174",
           "category": "グッズ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12180": {
-        "hash": "77f59bf7ef2d510c98e15b908d02eea64c2dc4dbae90364468d6f6ec9826fe2f",
-        "item": {
-          "title": "tocco closet「2026 AW collection - tocco closet」モデルを野口衣織が務めさせていただきました！",
-          "date": "2026-09-30",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12180",
-          "category": "メディア"
         }
       }
     },
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12161:db6bdd69bd21",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-04T08:45:13.427Z",
+      "title": "生写真セット(「恋、はじめました。」歌唱衣装)・アクリルスタンドキーホルダー(「恋、はじめました。」衣装) ・「恋、はじめました。」フォトアルバム発売！",
+      "url": "https://sp.equal-love.jp/news/detail/12161",
+      "date": "2026-10-04",
+      "category": "グッズ",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11183:6d908d1f53b5",
       "type": "schedule",
