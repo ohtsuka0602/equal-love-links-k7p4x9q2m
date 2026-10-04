@@ -1,16 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-10-04T14:44:30.706Z",
-    "updatedAt": "2026-10-04T14:44:30.706Z"
+    "checkedAt": "2026-10-04T18:09:01.569Z",
+    "updatedAt": "2026-10-04T18:09:01.569Z"
   },
   "schedule": [
-    {
-      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
-      "date": "2026-10-04",
-      "url": "https://equal-love.jp/schedule/detail/11183",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "SBS「2026 SBS 인기가요 ...",
       "date": "2026-10-05",
@@ -72,6 +65,13 @@
       "date": "2026-10-12",
       "url": "https://equal-love.jp/schedule/detail/10446",
       "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "【発売日】＝LOVE 8周年ツアー「...",
+      "date": "2026-10-14",
+      "url": "https://equal-love.jp/schedule/detail/11925",
+      "category": "リリース",
       "time": ""
     }
   ]

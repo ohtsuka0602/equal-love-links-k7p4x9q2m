@@ -1,6 +1,6 @@
 {
   "meta": {
-    "checkedAt": "2026-10-04T14:45:56.646Z",
+    "checkedAt": "2026-10-04T18:09:01.756Z",
     "updatedAt": "2026-10-04T14:45:56.646Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
@@ -8,16 +8,6 @@
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/11183": {
-        "hash": "6d908d1f53b5639d0c227f7da8e8c9484983b31d188176c020fcbdc2b9dd1946",
-        "item": {
-          "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
-          "date": "2026-10-04",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11183",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/12244": {
         "hash": "addd795d898f751b33d823df0103f0306e646ba550f137c36f2419c1b95cd8aa",
         "item": {
@@ -106,6 +96,16 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10446",
           "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11925": {
+        "hash": "ff1a03468e0ce0e47a469c3a4a97f2aa95edfabdd050871ac9eeffbbd0002ea6",
+        "item": {
+          "title": "【発売日】＝LOVE 8周年ツアー「...",
+          "date": "2026-10-14",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11925",
+          "category": "リリース"
         }
       }
     },
