@@ -1,13 +1,23 @@
 {
   "meta": {
-    "checkedAt": "2026-10-03T23:20:15.914Z",
-    "updatedAt": "2026-10-03T08:45:54.471Z",
+    "checkedAt": "2026-10-04T02:44:40.812Z",
+    "updatedAt": "2026-10-04T02:44:40.812Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
+      "https://equal-love.jp/schedule/detail/11183": {
+        "hash": "6d908d1f53b5639d0c227f7da8e8c9484983b31d188176c020fcbdc2b9dd1946",
+        "item": {
+          "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
+          "date": "2026-10-04",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11183",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/12244": {
         "hash": "addd795d898f751b33d823df0103f0306e646ba550f137c36f2419c1b95cd8aa",
         "item": {
@@ -68,6 +78,16 @@
           "category": "ライブ/イベント"
         }
       },
+      "https://equal-love.jp/schedule/detail/11934": {
+        "hash": "1508bcacf10bf65a6ae3a2d431a4ce265a00444e97dc8186491816386dd159bc",
+        "item": {
+          "title": "TELASAオリジナル「アイ=ラブ！...",
+          "date": "2026-10-10",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11934",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/10446": {
         "hash": "72e303f15d621dcf19499d229e3d772ab3884bdf1673bc284ffaa89403161cf3",
         "item": {
@@ -86,26 +106,6 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11925",
           "category": "リリース"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11616": {
-        "hash": "4db30d9a30dcbf3f00639be49c93df791b6b52a275f66b5e593a85c4362ef689",
-        "item": {
-          "title": "＝LOVE 9周年コンサート「＝LO...",
-          "date": "2026-10-15",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11616",
-          "category": "ライブ/イベント"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/10742": {
-        "hash": "43b6081bdfbb31d100b3be9e3cc9c7d2aca26bf3c76a59f94996e1cdf5d84ab0",
-        "item": {
-          "title": "Artistspoken「イマフレラ...",
-          "date": "2026-10-16",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10742",
-          "category": "メディア"
         }
       }
     },
@@ -505,6 +505,30 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11183:6d908d1f53b5",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-04T02:44:40.812Z",
+      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
+      "url": "https://equal-love.jp/schedule/detail/11183",
+      "date": "2026-10-04",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11934:1508bcacf10b",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-04T02:44:40.812Z",
+      "title": "TELASAオリジナル「アイ=ラブ！...",
+      "url": "https://equal-love.jp/schedule/detail/11934",
+      "date": "2026-10-10",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12244:addd795d898f",
       "type": "schedule",

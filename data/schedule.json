@@ -1,9 +1,16 @@
 {
   "meta": {
-    "checkedAt": "2026-10-03T20:46:37.862Z",
-    "updatedAt": "2026-10-03T17:56:26.604Z"
+    "checkedAt": "2026-10-04T02:44:40.615Z",
+    "updatedAt": "2026-10-04T02:44:40.615Z"
   },
   "schedule": [
+    {
+      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
+      "date": "2026-10-04",
+      "url": "https://equal-love.jp/schedule/detail/11183",
+      "category": "メディア",
+      "time": ""
+    },
     {
       "title": "SBS「2026 SBS 인기가요 ...",
       "date": "2026-10-05",
@@ -47,6 +54,13 @@
       "time": ""
     },
     {
+      "title": "TELASAオリジナル「アイ=ラブ！...",
+      "date": "2026-10-10",
+      "url": "https://equal-love.jp/schedule/detail/11934",
+      "category": "メディア",
+      "time": ""
+    },
+    {
       "title": "ニッポン放送「＝LOVEのイコラフ」",
       "date": "2026-10-12",
       "url": "https://equal-love.jp/schedule/detail/10446",
@@ -58,20 +72,6 @@
       "date": "2026-10-14",
       "url": "https://equal-love.jp/schedule/detail/11925",
       "category": "リリース",
-      "time": ""
-    },
-    {
-      "title": "＝LOVE 9周年コンサート「＝LO...",
-      "date": "2026-10-15",
-      "url": "https://equal-love.jp/schedule/detail/11616",
-      "category": "ライブ/イベント",
-      "time": ""
-    },
-    {
-      "title": "Artistspoken「イマフレラ...",
-      "date": "2026-10-16",
-      "url": "https://equal-love.jp/schedule/detail/10742",
-      "category": "メディア",
       "time": ""
     }
   ]
