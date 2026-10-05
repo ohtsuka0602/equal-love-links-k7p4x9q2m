@@ -1,23 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-10-05T14:45:55.677Z",
-    "updatedAt": "2026-10-04T18:09:01.569Z"
+    "checkedAt": "2026-10-05T20:51:42.249Z",
+    "updatedAt": "2026-10-05T20:51:42.249Z"
   },
   "schedule": [
-    {
-      "title": "SBS「2026 SBS 인기가요 ...",
-      "date": "2026-10-05",
-      "url": "https://equal-love.jp/schedule/detail/12244",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "ニッポン放送「＝LOVEのイコラフ」",
-      "date": "2026-10-05",
-      "url": "https://equal-love.jp/schedule/detail/10445",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "SHOWROOM『＝LOVE 山本杏...",
       "date": "2026-10-08",
@@ -72,6 +58,20 @@
       "date": "2026-10-14",
       "url": "https://equal-love.jp/schedule/detail/11925",
       "category": "リリース",
+      "time": ""
+    },
+    {
+      "title": "＝LOVE 9周年コンサート「＝LO...",
+      "date": "2026-10-15",
+      "url": "https://equal-love.jp/schedule/detail/11616",
+      "category": "ライブ/イベント",
+      "time": ""
+    },
+    {
+      "title": "Artistspoken「イマフレラ...",
+      "date": "2026-10-16",
+      "url": "https://equal-love.jp/schedule/detail/10742",
+      "category": "メディア",
       "time": ""
     }
   ]
