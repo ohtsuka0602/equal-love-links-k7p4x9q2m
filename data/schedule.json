@@ -1,9 +1,16 @@
 {
   "meta": {
-    "checkedAt": "2026-10-05T20:51:42.249Z",
-    "updatedAt": "2026-10-05T20:51:42.249Z"
+    "checkedAt": "2026-10-05T21:28:33.512Z",
+    "updatedAt": "2026-10-05T21:28:33.512Z"
   },
   "schedule": [
+    {
+      "title": "TOKYO FM「Hand in H...",
+      "date": "2026-10-06",
+      "url": "https://equal-love.jp/schedule/detail/11739",
+      "category": "メディア",
+      "time": ""
+    },
     {
       "title": "SHOWROOM『＝LOVE 山本杏...",
       "date": "2026-10-08",
@@ -65,13 +72,6 @@
       "date": "2026-10-15",
       "url": "https://equal-love.jp/schedule/detail/11616",
       "category": "ライブ/イベント",
-      "time": ""
-    },
-    {
-      "title": "Artistspoken「イマフレラ...",
-      "date": "2026-10-16",
-      "url": "https://equal-love.jp/schedule/detail/10742",
-      "category": "メディア",
       "time": ""
     }
   ]
