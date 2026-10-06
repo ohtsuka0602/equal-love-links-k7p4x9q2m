@@ -1,13 +1,23 @@
 {
   "meta": {
-    "checkedAt": "2026-10-06T14:45:18.824Z",
-    "updatedAt": "2026-10-06T09:24:56.300Z",
+    "checkedAt": "2026-10-06T14:46:05.311Z",
+    "updatedAt": "2026-10-06T14:46:05.311Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
+      "https://equal-love.jp/schedule/detail/12238": {
+        "hash": "6c925c518d58447a398ff506e987b40a4ff9e73c93400cc5dd5bfc7e31a81d57",
+        "item": {
+          "title": "イコラブ ノイミー ニアジョイ チャ...",
+          "date": "2026-10-06",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12238",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/11739": {
         "hash": "45b23a9f33056aa6948f8ba14a22cd195b1215a143b0cffeb82602f561673350",
         "item": {
@@ -96,16 +106,6 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11925",
           "category": "リリース"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11616": {
-        "hash": "4db30d9a30dcbf3f00639be49c93df791b6b52a275f66b5e593a85c4362ef689",
-        "item": {
-          "title": "＝LOVE 9周年コンサート「＝LO...",
-          "date": "2026-10-15",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11616",
-          "category": "ライブ/イベント"
         }
       }
     },
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12238:6c925c518d58",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-06T14:46:05.311Z",
+      "title": "イコラブ ノイミー ニアジョイ チャ...",
+      "url": "https://equal-love.jp/schedule/detail/12238",
+      "date": "2026-10-06",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12237:bbdc1d51defb",
       "type": "news",
@@ -1705,18 +1717,6 @@
       "title": "TOKYO FM「Hand in H...",
       "url": "https://equal-love.jp/schedule/detail/11735",
       "date": "2026-09-08",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/10442:73ffa2d14dc0",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-09-07T18:43:15.884Z",
-      "title": "ニッポン放送「＝LOVEのイコラフ」",
-      "url": "https://equal-love.jp/schedule/detail/10442",
-      "date": "2026-09-14",
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""
