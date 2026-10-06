@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-06T08:46:12.721Z",
-    "updatedAt": "2026-10-05T21:28:33.719Z",
+    "checkedAt": "2026-10-06T09:24:56.300Z",
+    "updatedAt": "2026-10-06T09:24:56.300Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12237": {
+        "hash": "bbdc1d51defb6bf77526af3ff34d4959256c02d605573b02954935a4846391bf",
+        "item": {
+          "title": "アサヒ空想開発局コラボ『とくべチューハイ』の開発が決定！大谷映美里、佐々木舞香、野口衣織、諸橋沙夏が「イコラブチューハイ開発局」局員に就任！",
+          "date": "2026-10-06",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12237",
+          "category": "お知らせ"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12159": {
         "hash": "811fb8192512157743ba14df98d924aa5180f76250cb6065ff868e828a8fd74e",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12168",
           "category": "ライブ/イベント"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12241": {
-        "hash": "7b260c8c11e3a45d34d1cfb4bb600c0202df0ad205ee34be376abccd7a13cfc7",
-        "item": {
-          "title": "「＝LOVE 21stシングル発売記念 個別お話し会」イベント会場にて、＝LOVE CD購入＆映像商品予約抽選会開催決定！",
-          "date": "2026-10-01",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12241",
-          "category": "お知らせ"
         }
       }
     },
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12237:bbdc1d51defb",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-06T09:24:56.300Z",
+      "title": "アサヒ空想開発局コラボ『とくべチューハイ』の開発が決定！大谷映美里、佐々木舞香、野口衣織、諸橋沙夏が「イコラブチューハイ開発局」局員に就任！",
+      "url": "https://sp.equal-love.jp/news/detail/12237",
+      "date": "2026-10-06",
+      "category": "お知らせ",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11739:45b23a9f3305",
       "type": "schedule",
@@ -1705,18 +1717,6 @@
       "title": "ニッポン放送「＝LOVEのイコラフ」",
       "url": "https://equal-love.jp/schedule/detail/10442",
       "date": "2026-09-14",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/10738:77738bf7ec4f",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-09-07T18:43:15.884Z",
-      "title": "Artistspoken「イマフレラ...",
-      "url": "https://equal-love.jp/schedule/detail/10738",
-      "date": "2026-09-18",
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""
