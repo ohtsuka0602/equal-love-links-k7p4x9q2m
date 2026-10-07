@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-07T09:14:40.573Z",
-    "updatedAt": "2026-10-06T14:46:05.311Z",
+    "checkedAt": "2026-10-07T14:44:30.014Z",
+    "updatedAt": "2026-10-07T14:44:30.014Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -78,14 +78,14 @@
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/11925": {
-        "hash": "ff1a03468e0ce0e47a469c3a4a97f2aa95edfabdd050871ac9eeffbbd0002ea6",
+      "https://equal-love.jp/schedule/detail/11874": {
+        "hash": "6dfb1457e863a97306c7139e982a2aa92176a84c3684df601903b11f5e4d272e",
         "item": {
-          "title": "【発売日】＝LOVE 8周年ツアー「...",
-          "date": "2026-10-14",
+          "title": "株式会社ジェイロック「月刊わんこvo...",
+          "date": "2026-10-15",
           "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11925",
-          "category": "リリース"
+          "url": "https://equal-love.jp/schedule/detail/11874",
+          "category": "メディア"
         }
       },
       "https://equal-love.jp/schedule/detail/11616": {
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11874:6dfb1457e863",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-07T14:44:30.014Z",
+      "title": "株式会社ジェイロック「月刊わんこvo...",
+      "url": "https://equal-love.jp/schedule/detail/11874",
+      "date": "2026-10-15",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12238:6c925c518d58",
       "type": "schedule",
@@ -1706,18 +1718,6 @@
       "url": "https://sp.equal-love.jp/news/detail/11931",
       "date": "2026-09-08",
       "category": "グッズ",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11735:2bc9e02921c1",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-09-08T02:44:12.386Z",
-      "title": "TOKYO FM「Hand in H...",
-      "url": "https://equal-love.jp/schedule/detail/11735",
-      "date": "2026-09-08",
-      "category": "メディア",
       "memberNames": [],
       "sourceName": ""
     }
