@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-07T14:44:30.014Z",
-    "updatedAt": "2026-10-07T14:44:30.014Z",
+    "checkedAt": "2026-10-07T14:46:03.201Z",
+    "updatedAt": "2026-10-07T14:46:03.201Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/11873": {
+        "hash": "9bceb7dc72067df07bda720cbc2db16e3946de957ea4f452f671f50fcca26a90",
+        "item": {
+          "title": "【掲載情報】株式会社ジェイロック「月刊わんこvol.35」※諸橋沙夏",
+          "date": "2026-10-07",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/11873",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12237": {
         "hash": "bbdc1d51defb6bf77526af3ff34d4959256c02d605573b02954935a4846391bf",
         "item": {
@@ -199,19 +209,25 @@
           "url": "https://sp.equal-love.jp/news/detail/12235",
           "category": "ライブ/イベント"
         }
-      },
-      "https://sp.equal-love.jp/news/detail/12168": {
-        "hash": "d201217c4fc3c53b61b3d9f358510ff2ca451f454450ff8b369c9156db66d859",
-        "item": {
-          "title": "『生誕祭イベント~supported by IKONOIJOY Puzzle~』（11月）FC限定チケット受付開始のお知らせ",
-          "date": "2026-10-01",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12168",
-          "category": "ライブ/イベント"
-        }
       }
     },
     "youtube": {
+      "Q5WpQvExXKc": {
+        "hash": "4dcd0725eddf71aeb27d684fcf3049b5a0af4acb527024ce9ae59175a7bb3726",
+        "item": {
+          "videoId": "Q5WpQvExXKc",
+          "title": "筋トレ後のスシローでエネルギーを蓄えるみりにゃ",
+          "url": "https://www.youtube.com/watch?v=Q5WpQvExXKc",
+          "thumbnail": "https://i.ytimg.com/vi/Q5WpQvExXKc/maxresdefault.jpg",
+          "publishedAt": "2026-10-07T11:00:10Z",
+          "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
+          "channelName": "みりにゃと申します。",
+          "sourceName": "大谷 映美里",
+          "memberNames": [
+            "大谷 映美里"
+          ]
+        }
+      },
       "Uk66Nkq2G6c": {
         "hash": "4f4b863e3179ed9ba05d307ef413f37489770fe568723c208c89c583e6438113",
         "item": {
@@ -266,22 +282,6 @@
           "url": "https://www.youtube.com/watch?v=4mX16v7FJ70",
           "thumbnail": "https://i.ytimg.com/vi/4mX16v7FJ70/maxresdefault.jpg",
           "publishedAt": "2026-09-21T11:30:22Z",
-          "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
-          "channelName": "みりにゃと申します。",
-          "sourceName": "大谷 映美里",
-          "memberNames": [
-            "大谷 映美里"
-          ]
-        }
-      },
-      "ize6U5etOGo": {
-        "hash": "9c66ffb08d8ce61e68712d50fdaada8c2936abd82a025c1300cfd90807148f67",
-        "item": {
-          "videoId": "ize6U5etOGo",
-          "title": "みりにゃのポーチの中身紹介 #shorts",
-          "url": "https://www.youtube.com/watch?v=ize6U5etOGo",
-          "thumbnail": "https://i.ytimg.com/vi/ize6U5etOGo/maxresdefault.jpg",
-          "publishedAt": "2026-09-18T09:19:11Z",
           "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
           "channelName": "みりにゃと申します。",
           "sourceName": "大谷 映美里",
@@ -505,6 +505,32 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/11873:9bceb7dc7206",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-07T14:46:03.201Z",
+      "title": "【掲載情報】株式会社ジェイロック「月刊わんこvol.35」※諸橋沙夏",
+      "url": "https://sp.equal-love.jp/news/detail/11873",
+      "date": "2026-10-07",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "youtube:added:Q5WpQvExXKc:4dcd0725eddf",
+      "type": "youtube",
+      "action": "added",
+      "occurredAt": "2026-10-07T14:46:03.201Z",
+      "title": "筋トレ後のスシローでエネルギーを蓄えるみりにゃ",
+      "url": "https://www.youtube.com/watch?v=Q5WpQvExXKc",
+      "date": "2026-10-07T11:00:10Z",
+      "category": "",
+      "memberNames": [
+        "大谷 映美里"
+      ],
+      "sourceName": "大谷 映美里"
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11874:6dfb1457e863",
       "type": "schedule",
@@ -1694,30 +1720,6 @@
       "url": "https://sp.equal-love.jp/news/detail/11930",
       "date": "2026-09-09",
       "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11495:d52d637a4cb5",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-09-08T17:54:31.521Z",
-      "title": "「ROCK IN JAPAN FES...",
-      "url": "https://equal-love.jp/schedule/detail/11495",
-      "date": "2026-09-19",
-      "category": "ライブ/イベント",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/11931:96fbe57a0809",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-09-08T13:03:53.635Z",
-      "title": "＝LOVE 個別衣装ポーチ(8周年ツアー衣装③)発売！",
-      "url": "https://sp.equal-love.jp/news/detail/11931",
-      "date": "2026-09-08",
-      "category": "グッズ",
       "memberNames": [],
       "sourceName": ""
     }
