@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-08T00:24:45.871Z",
-    "updatedAt": "2026-10-07T14:46:03.201Z",
+    "checkedAt": "2026-10-08T02:44:39.568Z",
+    "updatedAt": "2026-10-08T02:44:39.568Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -15,6 +15,16 @@
           "date": "2026-10-08",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10497",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11452": {
+        "hash": "58e9e96fc75142f47811ff88bba39592d1e5d7ea5fb562a3812567a0e686e56b",
+        "item": {
+          "title": "フジテレビ ONE「プロ野球ニュース...",
+          "date": "2026-10-08",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11452",
           "category": "メディア"
         }
       },
@@ -78,6 +88,16 @@
           "category": "メディア"
         }
       },
+      "https://equal-love.jp/schedule/detail/11925": {
+        "hash": "ff1a03468e0ce0e47a469c3a4a97f2aa95edfabdd050871ac9eeffbbd0002ea6",
+        "item": {
+          "title": "【発売日】＝LOVE 8周年ツアー「...",
+          "date": "2026-10-14",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11925",
+          "category": "リリース"
+        }
+      },
       "https://equal-love.jp/schedule/detail/11874": {
         "hash": "6dfb1457e863a97306c7139e982a2aa92176a84c3684df601903b11f5e4d272e",
         "item": {
@@ -85,26 +105,6 @@
           "date": "2026-10-15",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11874",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11616": {
-        "hash": "4db30d9a30dcbf3f00639be49c93df791b6b52a275f66b5e593a85c4362ef689",
-        "item": {
-          "title": "＝LOVE 9周年コンサート「＝LO...",
-          "date": "2026-10-15",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11616",
-          "category": "ライブ/イベント"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/10742": {
-        "hash": "43b6081bdfbb31d100b3be9e3cc9c7d2aca26bf3c76a59f94996e1cdf5d84ab0",
-        "item": {
-          "title": "Artistspoken「イマフレラ...",
-          "date": "2026-10-16",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10742",
           "category": "メディア"
         }
       }
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11452:58e9e96fc751",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-08T02:44:39.568Z",
+      "title": "フジテレビ ONE「プロ野球ニュース...",
+      "url": "https://equal-love.jp/schedule/detail/11452",
+      "date": "2026-10-08",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/11873:9bceb7dc7206",
       "type": "news",
@@ -1706,18 +1718,6 @@
       "occurredAt": "2026-09-09T07:34:45.387Z",
       "title": "Suyunn『 1st anniversary Sweet Mood by Suyunn collection 』モデルを齋藤樹愛羅が務めさせていただくことが決定いたしました！",
       "url": "https://sp.equal-love.jp/news/detail/11920",
-      "date": "2026-09-09",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/11930:59367d5f9216",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-09-08T18:05:32.102Z",
-      "title": "【出演情報】ホットペッパービューティーの新Web CMに＝LOVEの出演が決定いたしました！",
-      "url": "https://sp.equal-love.jp/news/detail/11930",
       "date": "2026-09-09",
       "category": "メディア",
       "memberNames": [],

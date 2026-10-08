@@ -1,13 +1,20 @@
 {
   "meta": {
-    "checkedAt": "2026-10-07T20:47:39.892Z",
-    "updatedAt": "2026-10-07T14:44:29.816Z"
+    "checkedAt": "2026-10-08T02:44:39.404Z",
+    "updatedAt": "2026-10-08T02:44:39.404Z"
   },
   "schedule": [
     {
       "title": "SHOWROOM『＝LOVE 山本杏...",
       "date": "2026-10-08",
       "url": "https://equal-love.jp/schedule/detail/10497",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "フジテレビ ONE「プロ野球ニュース...",
+      "date": "2026-10-08",
+      "url": "https://equal-love.jp/schedule/detail/11452",
       "category": "メディア",
       "time": ""
     },
@@ -54,23 +61,16 @@
       "time": ""
     },
     {
+      "title": "【発売日】＝LOVE 8周年ツアー「...",
+      "date": "2026-10-14",
+      "url": "https://equal-love.jp/schedule/detail/11925",
+      "category": "リリース",
+      "time": ""
+    },
+    {
       "title": "株式会社ジェイロック「月刊わんこvo...",
       "date": "2026-10-15",
       "url": "https://equal-love.jp/schedule/detail/11874",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "＝LOVE 9周年コンサート「＝LO...",
-      "date": "2026-10-15",
-      "url": "https://equal-love.jp/schedule/detail/11616",
-      "category": "ライブ/イベント",
-      "time": ""
-    },
-    {
-      "title": "Artistspoken「イマフレラ...",
-      "date": "2026-10-16",
-      "url": "https://equal-love.jp/schedule/detail/10742",
       "category": "メディア",
       "time": ""
     }
