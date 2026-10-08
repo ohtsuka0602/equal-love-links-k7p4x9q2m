@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-08T02:44:39.568Z",
-    "updatedAt": "2026-10-08T02:44:39.568Z",
+    "checkedAt": "2026-10-08T02:46:10.078Z",
+    "updatedAt": "2026-10-08T02:46:10.078Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12248": {
+        "hash": "e1c0fb7723a4e8fbb329c1433f3aaf95c79db6bd5a0c6431e1529eb0ef845fd0",
+        "item": {
+          "title": "【出演情報】日本マクドナルド サイドメニュー「ザクザクジューシーももチキン」の新CMに佐々木舞香の出演が決定しました！",
+          "date": "2026-10-08",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12248",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/11873": {
         "hash": "9bceb7dc72067df07bda720cbc2db16e3946de957ea4f452f671f50fcca26a90",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12236",
           "category": "グッズ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12235": {
-        "hash": "c51dd624f58844e1a5fb0c1eba2d7d127caa7087b00b3a92a3a28bf0cdf32a01",
-        "item": {
-          "title": "＝LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～ FC先行チケット受付開始のお知らせ",
-          "date": "2026-10-01",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12235",
-          "category": "ライブ/イベント"
         }
       }
     },
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12248:e1c0fb7723a4",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-08T02:46:10.078Z",
+      "title": "【出演情報】日本マクドナルド サイドメニュー「ザクザクジューシーももチキン」の新CMに佐々木舞香の出演が決定しました！",
+      "url": "https://sp.equal-love.jp/news/detail/12248",
+      "date": "2026-10-08",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11452:58e9e96fc751",
       "type": "schedule",
@@ -1707,18 +1719,6 @@
       "title": "TELASAオリジナル「アイ=ラブ！...",
       "url": "https://equal-love.jp/schedule/detail/11702",
       "date": "2026-09-12",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/11920:070b32dfc511",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-09-09T07:34:45.387Z",
-      "title": "Suyunn『 1st anniversary Sweet Mood by Suyunn collection 』モデルを齋藤樹愛羅が務めさせていただくことが決定いたしました！",
-      "url": "https://sp.equal-love.jp/news/detail/11920",
-      "date": "2026-09-09",
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""
