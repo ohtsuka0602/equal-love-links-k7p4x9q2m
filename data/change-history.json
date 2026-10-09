@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-09T02:44:26.808Z",
-    "updatedAt": "2026-10-09T02:44:26.808Z",
+    "checkedAt": "2026-10-09T02:45:46.822Z",
+    "updatedAt": "2026-10-09T02:45:46.822Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12254": {
+        "hash": "6a57ec4dcbd6054012d597bb697c20f14c62ba247dd39f9086c48ef86ceb0766",
+        "item": {
+          "title": "【掲載情報】宝島社「sweet 11月号」※大谷映美里、大場花菜",
+          "date": "2026-10-09",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12254",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12251": {
         "hash": "d1ea0debc1266b8cd9abca8e09c85ba319fe1601a2fffe5c1985cb29c4b7c60c",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12242",
           "category": "お知らせ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12177": {
-        "hash": "a0d12172631ea9b2b56689be8c2b3d9b1bcc0867679eb13512fc2c44755bd79a",
-        "item": {
-          "title": "【出演情報】TBS系「それSnow Manにやらせて下さい」※＝LOVE",
-          "date": "2026-10-02",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12177",
-          "category": "メディア"
         }
       }
     },
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12254:6a57ec4dcbd6",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-09T02:45:46.822Z",
+      "title": "【掲載情報】宝島社「sweet 11月号」※大谷映美里、大場花菜",
+      "url": "https://sp.equal-love.jp/news/detail/12254",
+      "date": "2026-10-09",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12255:1e74404ef6b3",
       "type": "schedule",
@@ -1710,18 +1722,6 @@
         "諸橋 沙夏"
       ],
       "sourceName": "諸橋 沙夏"
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/11926:35cc4fb842fc",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-09-10T07:31:10.949Z",
-      "title": "【出演情報】AT-X「マヂラブ・野口衣織のマヂでラブになるTV」#3※野口衣織",
-      "url": "https://sp.equal-love.jp/news/detail/11926",
-      "date": "2026-09-10",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
     }
   ]
 }
