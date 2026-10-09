@@ -1,43 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-10-09T14:47:30.652Z",
-    "updatedAt": "2026-10-09T09:37:29.022Z",
+    "checkedAt": "2026-10-09T19:31:49.034Z",
+    "updatedAt": "2026-10-09T19:31:49.034Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/12178": {
-        "hash": "f509e256e1bf1ba9fb00fb7b3987fcf77f314f48990f4229942a751e91d2e723",
-        "item": {
-          "title": "TBS系「それSnow Manにやら...",
-          "date": "2026-10-09",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12178",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/10741": {
-        "hash": "51b7b1ff67a52dc0755d1adccb38a3cf1d3359d7cdaf6ad76ead0633f7d83f2e",
-        "item": {
-          "title": "Artistspoken「イマフレラ...",
-          "date": "2026-10-09",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10741",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12255": {
-        "hash": "1e74404ef6b3d551c1f5cbe7ba554c0bb22dfd6a5918258fad4ce925d5cc781f",
-        "item": {
-          "title": "宝島社「sweet 11月号」※大谷...",
-          "date": "2026-10-09",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12255",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/11934": {
         "hash": "1508bcacf10bf65a6ae3a2d431a4ce265a00444e97dc8186491816386dd159bc",
         "item": {
@@ -106,6 +76,36 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11616",
           "category": "ライブ/イベント"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10742": {
+        "hash": "43b6081bdfbb31d100b3be9e3cc9c7d2aca26bf3c76a59f94996e1cdf5d84ab0",
+        "item": {
+          "title": "Artistspoken「イマフレラ...",
+          "date": "2026-10-16",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10742",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11619": {
+        "hash": "d5c0c8afcfae5c7ce2407d629e70be3da71696048478bb57fa35d79e3a940051",
+        "item": {
+          "title": "＝LOVE 9周年コンサート「＝LO...",
+          "date": "2026-10-16",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11619",
+          "category": "ライブ/イベント"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10447": {
+        "hash": "09e7586f12e29d087e76f7c32ef89d07879b89aa66efa2140db0b645898fe539",
+        "item": {
+          "title": "ニッポン放送「＝LOVEのイコラフ」",
+          "date": "2026-10-19",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10447",
+          "category": "メディア"
         }
       }
     },
@@ -505,6 +505,30 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11619:d5c0c8afcfae",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-09T19:31:49.034Z",
+      "title": "＝LOVE 9周年コンサート「＝LO...",
+      "url": "https://equal-love.jp/schedule/detail/11619",
+      "date": "2026-10-16",
+      "category": "ライブ/イベント",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10447:09e7586f12e2",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-09T19:31:49.034Z",
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "url": "https://equal-love.jp/schedule/detail/10447",
+      "date": "2026-10-19",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12253:fd91b1c9a687",
       "type": "news",
@@ -1694,32 +1718,6 @@
       "category": "",
       "memberNames": [],
       "sourceName": "=LOVE オフィシャル"
-    },
-    {
-      "id": "youtube:added:8mZOaCDbD1A:ba947a7a2b25",
-      "type": "youtube",
-      "action": "added",
-      "occurredAt": "2026-09-11T13:01:14.407Z",
-      "title": "大好物のナスをひたすら焼いて食べます【ゆるめの奇声】",
-      "url": "https://www.youtube.com/watch?v=8mZOaCDbD1A",
-      "date": "2026-09-11T11:00:16Z",
-      "category": "",
-      "memberNames": [
-        "音嶋 莉沙"
-      ],
-      "sourceName": "音嶋 莉沙"
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/11943:9bf7e03843db",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-09-11T07:29:05.450Z",
-      "title": "＝LOVE 21stシングル発売記念イベント会場にて、＝LOVE CD購入抽選会開催決定！",
-      "url": "https://sp.equal-love.jp/news/detail/11943",
-      "date": "2026-09-11",
-      "category": "お知らせ",
-      "memberNames": [],
-      "sourceName": ""
     }
   ]
 }
