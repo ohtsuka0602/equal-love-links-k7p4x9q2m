@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-09T02:45:46.822Z",
-    "updatedAt": "2026-10-09T02:45:46.822Z",
+    "checkedAt": "2026-10-09T08:45:34.581Z",
+    "updatedAt": "2026-10-09T08:45:34.581Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,36 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12257": {
+        "hash": "56697b30e88e2b3a808c1aefdb5b78fe87d03a0c114fc690937dccfd7d0a70f7",
+        "item": {
+          "title": "「STARフェス」イベント会場にて、＝LOVE映像商品予約抽選会開催決定！",
+          "date": "2026-10-09",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12257",
+          "category": "お知らせ"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/12250": {
+        "hash": "8fc247f097e0dfc8b0d9cd938f844bada3448f6099dfcbdb8f74465dcb806504",
+        "item": {
+          "title": "【＝LOVE Official Fan Club】＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」連動企画「9周年オリジナルカードプレゼント」参加方法について",
+          "date": "2026-10-09",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12250",
+          "category": "お知らせ"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/12240": {
+        "hash": "289492e72866998b7ae4c555d3286274e48804a64847cdbdb6542ccd9d67bc67",
+        "item": {
+          "title": "齋藤樹愛羅がカラコンブランド「MeloRia（メロリア）」イメージモデルに就任！",
+          "date": "2026-10-09",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12240",
+          "category": "お知らせ"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12254": {
         "hash": "6a57ec4dcbd6054012d597bb697c20f14c62ba247dd39f9086c48ef86ceb0766",
         "item": {
@@ -178,36 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12159",
           "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12161": {
-        "hash": "db6bdd69bd2122b744dc82715679a9d3f40b83f8e8c4d15cfc32c3448cd85593",
-        "item": {
-          "title": "生写真セット(「恋、はじめました。」歌唱衣装)・アクリルスタンドキーホルダー(「恋、はじめました。」衣装) ・「恋、はじめました。」フォトアルバム発売！",
-          "date": "2026-10-04",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12161",
-          "category": "グッズ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12243": {
-        "hash": "350eb9ecd7f090aa254f04577035ebb970bffaa3d72a823aaf10343665b01491",
-        "item": {
-          "title": "【出演情報】SBS「2026 SBS 인기가요 Live In Tokyo」※＝LOVE",
-          "date": "2026-10-03",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12243",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12242": {
-        "hash": "0678dec52aaf08826b7d0f8a348e5f8d42e2d698dcf62b8e74a1399fa240bc92",
-        "item": {
-          "title": "＝LOVEデビュー9周年企画 コンサート映像配信決定！",
-          "date": "2026-10-03",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12242",
-          "category": "お知らせ"
         }
       }
     },
@@ -505,6 +505,42 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12257:56697b30e88e",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-09T08:45:34.581Z",
+      "title": "「STARフェス」イベント会場にて、＝LOVE映像商品予約抽選会開催決定！",
+      "url": "https://sp.equal-love.jp/news/detail/12257",
+      "date": "2026-10-09",
+      "category": "お知らせ",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12250:8fc247f097e0",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-09T08:45:34.581Z",
+      "title": "【＝LOVE Official Fan Club】＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」連動企画「9周年オリジナルカードプレゼント」参加方法について",
+      "url": "https://sp.equal-love.jp/news/detail/12250",
+      "date": "2026-10-09",
+      "category": "お知らせ",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12240:289492e72866",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-09T08:45:34.581Z",
+      "title": "齋藤樹愛羅がカラコンブランド「MeloRia（メロリア）」イメージモデルに就任！",
+      "url": "https://sp.equal-love.jp/news/detail/12240",
+      "date": "2026-10-09",
+      "category": "お知らせ",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12254:6a57ec4dcbd6",
       "type": "news",
@@ -1684,44 +1720,6 @@
       "category": "グッズ",
       "memberNames": [],
       "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/11937:fe7814b45ac4",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-09-10T13:07:37.528Z",
-      "title": "≪物販情報≫9月13日(日) スリーショット撮影会",
-      "url": "https://sp.equal-love.jp/news/detail/11937",
-      "date": "2026-09-10",
-      "category": "グッズ",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/11933:af5986b716d6",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-09-10T13:07:37.528Z",
-      "title": "≪物販情報≫9月12日(土) ツーショット撮影会",
-      "url": "https://sp.equal-love.jp/news/detail/11933",
-      "date": "2026-09-10",
-      "category": "グッズ",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "youtube:added:_ksaAlGcX-I:3c18f5063c0e",
-      "type": "youtube",
-      "action": "added",
-      "occurredAt": "2026-09-10T13:07:37.528Z",
-      "title": "夏の緊急フッ軽バーベキュー【おいしいビール飲みたい】",
-      "url": "https://www.youtube.com/watch?v=_ksaAlGcX-I",
-      "date": "2026-09-10T11:00:38Z",
-      "category": "",
-      "memberNames": [
-        "諸橋 沙夏"
-      ],
-      "sourceName": "諸橋 沙夏"
     }
   ]
 }
