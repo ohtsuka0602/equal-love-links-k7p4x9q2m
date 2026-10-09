@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-09T08:46:21.224Z",
-    "updatedAt": "2026-10-09T08:45:34.581Z",
+    "checkedAt": "2026-10-09T09:37:29.022Z",
+    "updatedAt": "2026-10-09T09:37:29.022Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12253": {
+        "hash": "fd91b1c9a6876b6f99c816d8d030c9b542e0f217f81fd6a3a147d8ef6712646e",
+        "item": {
+          "title": "＝LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～ 一般先行チケット受付開始のお知らせ",
+          "date": "2026-10-09",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12253",
+          "category": "ライブ/イベント"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12257": {
         "hash": "56697b30e88e2b3a808c1aefdb5b78fe87d03a0c114fc690937dccfd7d0a70f7",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12237",
           "category": "お知らせ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12159": {
-        "hash": "811fb8192512157743ba14df98d924aa5180f76250cb6065ff868e828a8fd74e",
-        "item": {
-          "title": "【出演情報】TBS系「坂上&指原のつぶれない店」※大谷映美里",
-          "date": "2026-10-04",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12159",
-          "category": "メディア"
         }
       }
     },
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12253:fd91b1c9a687",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-09T09:37:29.022Z",
+      "title": "＝LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～ 一般先行チケット受付開始のお知らせ",
+      "url": "https://sp.equal-love.jp/news/detail/12253",
+      "date": "2026-10-09",
+      "category": "ライブ/イベント",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12257:56697b30e88e",
       "type": "news",
@@ -1706,18 +1718,6 @@
       "url": "https://sp.equal-love.jp/news/detail/11943",
       "date": "2026-09-11",
       "category": "お知らせ",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/11942:16ac18059ed7",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-09-10T13:07:37.528Z",
-      "title": "＝LOVE 個別衣装ポーチ(8周年ツアー衣装③)追加販売のお知らせ",
-      "url": "https://sp.equal-love.jp/news/detail/11942",
-      "date": "2026-09-10",
-      "category": "グッズ",
       "memberNames": [],
       "sourceName": ""
     }
