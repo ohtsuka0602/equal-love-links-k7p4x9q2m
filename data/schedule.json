@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-08T20:45:51.830Z",
-    "updatedAt": "2026-10-08T19:55:19.806Z"
+    "checkedAt": "2026-10-09T02:44:26.613Z",
+    "updatedAt": "2026-10-09T02:44:26.613Z"
   },
   "schedule": [
     {
@@ -19,10 +19,10 @@
       "time": ""
     },
     {
-      "title": "「STARフェス」※＝LOVE",
-      "date": "2026-10-10",
-      "url": "https://equal-love.jp/schedule/detail/11866",
-      "category": "ライブ/イベント",
+      "title": "宝島社「sweet 11月号」※大谷...",
+      "date": "2026-10-09",
+      "url": "https://equal-love.jp/schedule/detail/12255",
+      "category": "メディア",
       "time": ""
     },
     {
@@ -30,6 +30,13 @@
       "date": "2026-10-10",
       "url": "https://equal-love.jp/schedule/detail/11934",
       "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "「STARフェス」※＝LOVE",
+      "date": "2026-10-10",
+      "url": "https://equal-love.jp/schedule/detail/11866",
+      "category": "ライブ/イベント",
       "time": ""
     },
     {
@@ -65,13 +72,6 @@
       "date": "2026-10-15",
       "url": "https://equal-love.jp/schedule/detail/11616",
       "category": "ライブ/イベント",
-      "time": ""
-    },
-    {
-      "title": "Artistspoken「イマフレラ...",
-      "date": "2026-10-16",
-      "url": "https://equal-love.jp/schedule/detail/10742",
-      "category": "メディア",
       "time": ""
     }
   ]
