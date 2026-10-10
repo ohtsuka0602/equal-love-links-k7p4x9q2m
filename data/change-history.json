@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-10T08:44:42.490Z",
-    "updatedAt": "2026-10-09T19:31:49.034Z",
+    "checkedAt": "2026-10-10T08:46:08.177Z",
+    "updatedAt": "2026-10-10T08:46:08.177Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12260": {
+        "hash": "edbb02acbf8440bcd6691401362ffe75ef2001ceeb0acd5493ad52b26ad508b7",
+        "item": {
+          "title": "＝LOVEデビュー9周年企画 コンサート映像配信決定！",
+          "date": "2026-10-10",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12260",
+          "category": "お知らせ"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12253": {
         "hash": "fd91b1c9a6876b6f99c816d8d030c9b542e0f217f81fd6a3a147d8ef6712646e",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/11873",
           "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12237": {
-        "hash": "bbdc1d51defb6bf77526af3ff34d4959256c02d605573b02954935a4846391bf",
-        "item": {
-          "title": "アサヒ空想開発局コラボ『とくべチューハイ』の開発が決定！大谷映美里、佐々木舞香、野口衣織、諸橋沙夏が「イコラブチューハイ開発局」局員に就任！",
-          "date": "2026-10-06",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12237",
-          "category": "お知らせ"
         }
       }
     },
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12260:edbb02acbf84",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-10T08:46:08.177Z",
+      "title": "＝LOVEデビュー9周年企画 コンサート映像配信決定！",
+      "url": "https://sp.equal-love.jp/news/detail/12260",
+      "date": "2026-10-10",
+      "category": "お知らせ",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11619:d5c0c8afcfae",
       "type": "schedule",
@@ -1706,18 +1718,6 @@
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""
-    },
-    {
-      "id": "youtube:added:Y5eFvtwVdYU:e655533e857a",
-      "type": "youtube",
-      "action": "added",
-      "occurredAt": "2026-09-11T13:01:14.407Z",
-      "title": "【特別公開】＝LOVE（イコールラブ）/『「部活中に目が合うなって思ってたんだ」』（TOKYO IDOL FESTIVAL 2026）",
-      "url": "https://www.youtube.com/watch?v=Y5eFvtwVdYU",
-      "date": "2026-09-11T12:00:29Z",
-      "category": "",
-      "memberNames": [],
-      "sourceName": "=LOVE オフィシャル"
     }
   ]
 }
