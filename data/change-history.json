@@ -1,33 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-10-10T14:46:54.748Z",
-    "updatedAt": "2026-10-10T14:46:54.748Z",
+    "checkedAt": "2026-10-10T18:32:46.101Z",
+    "updatedAt": "2026-10-10T18:32:46.101Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/11934": {
-        "hash": "1508bcacf10bf65a6ae3a2d431a4ce265a00444e97dc8186491816386dd159bc",
-        "item": {
-          "title": "TELASAオリジナル「アイ=ラブ！...",
-          "date": "2026-10-10",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11934",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11866": {
-        "hash": "81d42978dfb7cb51ae1ec8cf35d1a9c6f06cbe39679ba4e2be0f861c35bc8e0c",
-        "item": {
-          "title": "「STARフェス」※＝LOVE",
-          "date": "2026-10-10",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11866",
-          "category": "ライブ/イベント"
-        }
-      },
       "https://equal-love.jp/schedule/detail/12160": {
         "hash": "9032fb660601c62f7deda8b428ccf97a212cbc76e91cde93d2e989c1748291fe",
         "item": {
@@ -105,6 +85,26 @@
           "date": "2026-10-19",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10447",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11083": {
+        "hash": "88c057912d007b5d902b84d47f1787c0a064e15ee3c624cde903dd26d211cee4",
+        "item": {
+          "title": "集英社「MYOJO 12月号」※佐々...",
+          "date": "2026-10-22",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11083",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10743": {
+        "hash": "fa307ee2ccecc78049b4c34e4684e373f051bba0d22bfb9b0e251d419fb77c1a",
+        "item": {
+          "title": "Artistspoken「イマフレラ...",
+          "date": "2026-10-23",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10743",
           "category": "メディア"
         }
       }
@@ -503,6 +503,30 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11083:88c057912d00",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-10T18:32:46.101Z",
+      "title": "集英社「MYOJO 12月号」※佐々...",
+      "url": "https://equal-love.jp/schedule/detail/11083",
+      "date": "2026-10-22",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10743:fa307ee2ccec",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-10T18:32:46.101Z",
+      "title": "Artistspoken「イマフレラ...",
+      "url": "https://equal-love.jp/schedule/detail/10743",
+      "date": "2026-10-23",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12263:431dddef36bc",
       "type": "news",
@@ -1690,30 +1714,6 @@
       "url": "https://equal-love.jp/schedule/detail/10443",
       "date": "2026-09-21",
       "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/11944:bdd982d7470e",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-09-12T12:22:22.421Z",
-      "title": "「シャインポスト ひまわりシンフォニー feat. ゆらゆらシスターズ Virtual LIVE 2027 “Another Journey”」に齋藤樹愛羅が広瀬実唯菜cv(ゆらゆらシスターズ)としてのゲスト出演が決定！",
-      "url": "https://sp.equal-love.jp/news/detail/11944",
-      "date": "2026-09-12",
-      "category": "ライブ/イベント",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/11946:aa17fa2b061a",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-09-12T08:44:45.337Z",
-      "title": "＝LOVEデビュー9周年企画 コンサート映像配信決定！",
-      "url": "https://sp.equal-love.jp/news/detail/11946",
-      "date": "2026-09-12",
-      "category": "お知らせ",
       "memberNames": [],
       "sourceName": ""
     }
