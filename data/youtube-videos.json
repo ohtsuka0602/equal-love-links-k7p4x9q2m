@@ -1,9 +1,31 @@
 {
   "meta": {
-    "checkedAt": "2026-10-10T08:59:15.840Z",
-    "updatedAt": "2026-10-07T14:45:56.740Z"
+    "checkedAt": "2026-10-10T14:46:49.108Z",
+    "updatedAt": "2026-10-10T14:46:49.108Z"
   },
   "videos": [
+    {
+      "videoId": "VjAZTmkBJYQ",
+      "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #大場花菜 #イコラブ #イコールラブ",
+      "url": "https://www.youtube.com/watch?v=VjAZTmkBJYQ",
+      "thumbnail": "https://i.ytimg.com/vi/VjAZTmkBJYQ/maxresdefault.jpg",
+      "publishedAt": "2026-10-10T13:42:10Z",
+      "channelId": "UCv7VutirxDn3RWIJXI68n_A",
+      "channelName": "＝LOVE（イコールラブ）公式チャンネル",
+      "sourceName": "=LOVE オフィシャル",
+      "memberNames": []
+    },
+    {
+      "videoId": "c0dlRRjd-dc",
+      "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #大谷映美里 #イコラブ #イコールラブ",
+      "url": "https://www.youtube.com/watch?v=c0dlRRjd-dc",
+      "thumbnail": "https://i.ytimg.com/vi/c0dlRRjd-dc/maxresdefault.jpg",
+      "publishedAt": "2026-10-10T13:41:34Z",
+      "channelId": "UCv7VutirxDn3RWIJXI68n_A",
+      "channelName": "＝LOVE（イコールラブ）公式チャンネル",
+      "sourceName": "=LOVE オフィシャル",
+      "memberNames": []
+    },
     {
       "videoId": "Q5WpQvExXKc",
       "title": "筋トレ後のスシローでエネルギーを蓄えるみりにゃ",
@@ -41,30 +63,6 @@
       "sourceName": "諸橋 沙夏",
       "memberNames": [
         "諸橋 沙夏"
-      ]
-    },
-    {
-      "videoId": "CRHXjLot5r4",
-      "title": "“사랑、시작했습니다(Korean ver.)” 음원 공개가 시작되었습니다! 💘「恋、はじめました。」(Korean ver.)ぜひお聴きください！#인기가요 #人気歌謡#이코러브",
-      "url": "https://www.youtube.com/watch?v=CRHXjLot5r4",
-      "thumbnail": "https://i.ytimg.com/vi/CRHXjLot5r4/maxresdefault.jpg",
-      "publishedAt": "2026-09-23T04:11:46Z",
-      "channelId": "UCv7VutirxDn3RWIJXI68n_A",
-      "channelName": "＝LOVE（イコールラブ）公式チャンネル",
-      "sourceName": "=LOVE オフィシャル",
-      "memberNames": []
-    },
-    {
-      "videoId": "4mX16v7FJ70",
-      "title": "デニーズ爆食お月見パーティー【爆語り】",
-      "url": "https://www.youtube.com/watch?v=4mX16v7FJ70",
-      "thumbnail": "https://i.ytimg.com/vi/4mX16v7FJ70/maxresdefault.jpg",
-      "publishedAt": "2026-09-21T11:30:22Z",
-      "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
-      "channelName": "みりにゃと申します。",
-      "sourceName": "大谷 映美里",
-      "memberNames": [
-        "大谷 映美里"
       ]
     }
   ]

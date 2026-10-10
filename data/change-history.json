@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-10T14:45:36.002Z",
-    "updatedAt": "2026-10-10T08:46:08.177Z",
+    "checkedAt": "2026-10-10T14:46:54.748Z",
+    "updatedAt": "2026-10-10T14:46:54.748Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12263": {
+        "hash": "431dddef36bc87e1ec170f91dda71aec8cd876b518bf4028e5fda24a08fd27de",
+        "item": {
+          "title": "【出演情報】フジテレビ「STARフェス」※＝LOVE",
+          "date": "2026-10-10",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12263",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12260": {
         "hash": "edbb02acbf8440bcd6691401362ffe75ef2001ceeb0acd5493ad52b26ad508b7",
         "item": {
@@ -199,19 +209,37 @@
           "url": "https://sp.equal-love.jp/news/detail/12248",
           "category": "メディア"
         }
-      },
-      "https://sp.equal-love.jp/news/detail/11873": {
-        "hash": "9bceb7dc72067df07bda720cbc2db16e3946de957ea4f452f671f50fcca26a90",
-        "item": {
-          "title": "【掲載情報】株式会社ジェイロック「月刊わんこvol.35」※諸橋沙夏",
-          "date": "2026-10-07",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/11873",
-          "category": "メディア"
-        }
       }
     },
     "youtube": {
+      "VjAZTmkBJYQ": {
+        "hash": "6efd24e521c95d84672bfc7eddfadacb806ade08d13e8ffd25c651fa65060e6a",
+        "item": {
+          "videoId": "VjAZTmkBJYQ",
+          "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #大場花菜 #イコラブ #イコールラブ",
+          "url": "https://www.youtube.com/watch?v=VjAZTmkBJYQ",
+          "thumbnail": "https://i.ytimg.com/vi/VjAZTmkBJYQ/maxresdefault.jpg",
+          "publishedAt": "2026-10-10T13:42:10Z",
+          "channelId": "UCv7VutirxDn3RWIJXI68n_A",
+          "channelName": "＝LOVE（イコールラブ）公式チャンネル",
+          "sourceName": "=LOVE オフィシャル",
+          "memberNames": []
+        }
+      },
+      "c0dlRRjd-dc": {
+        "hash": "0560e377b789176804d022fde6b3e7ecf23169093dc45c02fcc83b8768f662f6",
+        "item": {
+          "videoId": "c0dlRRjd-dc",
+          "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #大谷映美里 #イコラブ #イコールラブ",
+          "url": "https://www.youtube.com/watch?v=c0dlRRjd-dc",
+          "thumbnail": "https://i.ytimg.com/vi/c0dlRRjd-dc/maxresdefault.jpg",
+          "publishedAt": "2026-10-10T13:41:34Z",
+          "channelId": "UCv7VutirxDn3RWIJXI68n_A",
+          "channelName": "＝LOVE（イコールラブ）公式チャンネル",
+          "sourceName": "=LOVE オフィシャル",
+          "memberNames": []
+        }
+      },
       "Q5WpQvExXKc": {
         "hash": "4dcd0725eddf71aeb27d684fcf3049b5a0af4acb527024ce9ae59175a7bb3726",
         "item": {
@@ -257,36 +285,6 @@
           "sourceName": "諸橋 沙夏",
           "memberNames": [
             "諸橋 沙夏"
-          ]
-        }
-      },
-      "CRHXjLot5r4": {
-        "hash": "d945dd73c4a420dc49b75f1d5a24a33eeda079e0cacd877c489303c0beeef01e",
-        "item": {
-          "videoId": "CRHXjLot5r4",
-          "title": "“사랑、시작했습니다(Korean ver.)” 음원 공개가 시작되었습니다! 💘「恋、はじめました。」(Korean ver.)ぜひお聴きください！#인기가요 #人気歌謡#이코러브",
-          "url": "https://www.youtube.com/watch?v=CRHXjLot5r4",
-          "thumbnail": "https://i.ytimg.com/vi/CRHXjLot5r4/maxresdefault.jpg",
-          "publishedAt": "2026-09-23T04:11:46Z",
-          "channelId": "UCv7VutirxDn3RWIJXI68n_A",
-          "channelName": "＝LOVE（イコールラブ）公式チャンネル",
-          "sourceName": "=LOVE オフィシャル",
-          "memberNames": []
-        }
-      },
-      "4mX16v7FJ70": {
-        "hash": "0736467025d3beb911a12e8b7a1164a1f3c387639641b745ee980e26272609cc",
-        "item": {
-          "videoId": "4mX16v7FJ70",
-          "title": "デニーズ爆食お月見パーティー【爆語り】",
-          "url": "https://www.youtube.com/watch?v=4mX16v7FJ70",
-          "thumbnail": "https://i.ytimg.com/vi/4mX16v7FJ70/maxresdefault.jpg",
-          "publishedAt": "2026-09-21T11:30:22Z",
-          "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
-          "channelName": "みりにゃと申します。",
-          "sourceName": "大谷 映美里",
-          "memberNames": [
-            "大谷 映美里"
           ]
         }
       }
@@ -505,6 +503,42 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12263:431dddef36bc",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-10T14:46:54.748Z",
+      "title": "【出演情報】フジテレビ「STARフェス」※＝LOVE",
+      "url": "https://sp.equal-love.jp/news/detail/12263",
+      "date": "2026-10-10",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "youtube:added:VjAZTmkBJYQ:6efd24e521c9",
+      "type": "youtube",
+      "action": "added",
+      "occurredAt": "2026-10-10T14:46:54.748Z",
+      "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #大場花菜 #イコラブ #イコールラブ",
+      "url": "https://www.youtube.com/watch?v=VjAZTmkBJYQ",
+      "date": "2026-10-10T13:42:10Z",
+      "category": "",
+      "memberNames": [],
+      "sourceName": "=LOVE オフィシャル"
+    },
+    {
+      "id": "youtube:added:c0dlRRjd-dc:0560e377b789",
+      "type": "youtube",
+      "action": "added",
+      "occurredAt": "2026-10-10T14:46:54.748Z",
+      "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #大谷映美里 #イコラブ #イコールラブ",
+      "url": "https://www.youtube.com/watch?v=c0dlRRjd-dc",
+      "date": "2026-10-10T13:41:34Z",
+      "category": "",
+      "memberNames": [],
+      "sourceName": "=LOVE オフィシャル"
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12260:edbb02acbf84",
       "type": "news",
@@ -1680,42 +1714,6 @@
       "url": "https://sp.equal-love.jp/news/detail/11946",
       "date": "2026-09-12",
       "category": "お知らせ",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/11940:2304fea3626b",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-09-12T02:45:15.291Z",
-      "title": "【出演情報】関西テレビ・フジテレビ系「土曜はナニする！？」※髙松瞳",
-      "url": "https://sp.equal-love.jp/news/detail/11940",
-      "date": "2026-09-12",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11941:cc8a3c3b1073",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-09-12T02:43:48.744Z",
-      "title": "関西テレビ・フジテレビ系「土曜はナニ...",
-      "url": "https://equal-love.jp/schedule/detail/11941",
-      "date": "2026-09-19",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11753:d70adc182f5f",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-09-11T17:44:23.968Z",
-      "title": "CSテレ朝チャンネル１「EIGHT-...",
-      "url": "https://equal-love.jp/schedule/detail/11753",
-      "date": "2026-09-20",
-      "category": "メディア",
       "memberNames": [],
       "sourceName": ""
     }
