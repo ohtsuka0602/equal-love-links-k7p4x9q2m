@@ -1,9 +1,44 @@
 {
   "meta": {
-    "checkedAt": "2026-10-11T09:18:12.413Z",
-    "updatedAt": "2026-10-10T14:46:49.108Z"
+    "checkedAt": "2026-10-11T14:45:05.070Z",
+    "updatedAt": "2026-10-11T14:45:05.070Z"
   },
   "videos": [
+    {
+      "videoId": "IE4_1hlE_g4",
+      "title": "ホテルで1人飲みしながら質問に答えたよ",
+      "url": "https://www.youtube.com/watch?v=IE4_1hlE_g4",
+      "thumbnail": "https://i.ytimg.com/vi/IE4_1hlE_g4/maxresdefault.jpg",
+      "publishedAt": "2026-10-11T13:00:17Z",
+      "channelId": "UC0r-2f003yXdV5En7qHlrGw",
+      "channelName": "つんはしご",
+      "sourceName": "諸橋 沙夏",
+      "memberNames": [
+        "諸橋 沙夏"
+      ]
+    },
+    {
+      "videoId": "kSUj9lUyLpk",
+      "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #齋藤樹愛羅 #イコラブ #イコールラブ",
+      "url": "https://www.youtube.com/watch?v=kSUj9lUyLpk",
+      "thumbnail": "https://i.ytimg.com/vi/kSUj9lUyLpk/maxresdefault.jpg",
+      "publishedAt": "2026-10-11T11:58:21Z",
+      "channelId": "UCv7VutirxDn3RWIJXI68n_A",
+      "channelName": "＝LOVE（イコールラブ）公式チャンネル",
+      "sourceName": "=LOVE オフィシャル",
+      "memberNames": []
+    },
+    {
+      "videoId": "S2eHj8VmEi0",
+      "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #音嶋莉沙 #イコラブ #イコールラブ",
+      "url": "https://www.youtube.com/watch?v=S2eHj8VmEi0",
+      "thumbnail": "https://i.ytimg.com/vi/S2eHj8VmEi0/maxresdefault.jpg",
+      "publishedAt": "2026-10-11T11:56:31Z",
+      "channelId": "UCv7VutirxDn3RWIJXI68n_A",
+      "channelName": "＝LOVE（イコールラブ）公式チャンネル",
+      "sourceName": "=LOVE オフィシャル",
+      "memberNames": []
+    },
     {
       "videoId": "VjAZTmkBJYQ",
       "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #大場花菜 #イコラブ #イコールラブ",
@@ -25,45 +60,6 @@
       "channelName": "＝LOVE（イコールラブ）公式チャンネル",
       "sourceName": "=LOVE オフィシャル",
       "memberNames": []
-    },
-    {
-      "videoId": "Q5WpQvExXKc",
-      "title": "筋トレ後のスシローでエネルギーを蓄えるみりにゃ",
-      "url": "https://www.youtube.com/watch?v=Q5WpQvExXKc",
-      "thumbnail": "https://i.ytimg.com/vi/Q5WpQvExXKc/maxresdefault.jpg",
-      "publishedAt": "2026-10-07T11:00:10Z",
-      "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
-      "channelName": "みりにゃと申します。",
-      "sourceName": "大谷 映美里",
-      "memberNames": [
-        "大谷 映美里"
-      ]
-    },
-    {
-      "videoId": "Uk66Nkq2G6c",
-      "title": "様子がおかしい韓国VLOG",
-      "url": "https://www.youtube.com/watch?v=Uk66Nkq2G6c",
-      "thumbnail": "https://i.ytimg.com/vi/Uk66Nkq2G6c/maxresdefault.jpg",
-      "publishedAt": "2026-09-30T11:00:36Z",
-      "channelId": "UCcsyyry5bsjTeqqJ_Yz9TiA",
-      "channelName": "音嶋莉沙の様子がおかしいチャンネル",
-      "sourceName": "音嶋 莉沙",
-      "memberNames": [
-        "音嶋 莉沙"
-      ]
-    },
-    {
-      "videoId": "9VVxYcBLb8M",
-      "title": "初めての中野ではしご酒してきたよ【激ウマ店発見】",
-      "url": "https://www.youtube.com/watch?v=9VVxYcBLb8M",
-      "thumbnail": "https://i.ytimg.com/vi/9VVxYcBLb8M/maxresdefault.jpg",
-      "publishedAt": "2026-09-29T10:00:19Z",
-      "channelId": "UC0r-2f003yXdV5En7qHlrGw",
-      "channelName": "つんはしご",
-      "sourceName": "諸橋 沙夏",
-      "memberNames": [
-        "諸橋 沙夏"
-      ]
     }
   ]
 }

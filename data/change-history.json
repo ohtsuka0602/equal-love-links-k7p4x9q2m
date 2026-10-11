@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-11T09:18:19.468Z",
-    "updatedAt": "2026-10-11T02:44:37.581Z",
+    "checkedAt": "2026-10-11T14:45:11.666Z",
+    "updatedAt": "2026-10-11T14:45:11.666Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -212,6 +212,50 @@
       }
     },
     "youtube": {
+      "IE4_1hlE_g4": {
+        "hash": "3bfa2ed632507dac7e1bedd73efc6915abb06c0d73b9b33c3edc47fdfdc8d671",
+        "item": {
+          "videoId": "IE4_1hlE_g4",
+          "title": "ホテルで1人飲みしながら質問に答えたよ",
+          "url": "https://www.youtube.com/watch?v=IE4_1hlE_g4",
+          "thumbnail": "https://i.ytimg.com/vi/IE4_1hlE_g4/maxresdefault.jpg",
+          "publishedAt": "2026-10-11T13:00:17Z",
+          "channelId": "UC0r-2f003yXdV5En7qHlrGw",
+          "channelName": "つんはしご",
+          "sourceName": "諸橋 沙夏",
+          "memberNames": [
+            "諸橋 沙夏"
+          ]
+        }
+      },
+      "kSUj9lUyLpk": {
+        "hash": "19f14c693a0a156aa13ce0cca286f34a047fdc4091beb7d983f41bfcd9b61bd1",
+        "item": {
+          "videoId": "kSUj9lUyLpk",
+          "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #齋藤樹愛羅 #イコラブ #イコールラブ",
+          "url": "https://www.youtube.com/watch?v=kSUj9lUyLpk",
+          "thumbnail": "https://i.ytimg.com/vi/kSUj9lUyLpk/maxresdefault.jpg",
+          "publishedAt": "2026-10-11T11:58:21Z",
+          "channelId": "UCv7VutirxDn3RWIJXI68n_A",
+          "channelName": "＝LOVE（イコールラブ）公式チャンネル",
+          "sourceName": "=LOVE オフィシャル",
+          "memberNames": []
+        }
+      },
+      "S2eHj8VmEi0": {
+        "hash": "b342d06592baa2d4d5dacc1307ab9cb4ffa7caff35b3130b8df82a53a2f9fcc8",
+        "item": {
+          "videoId": "S2eHj8VmEi0",
+          "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #音嶋莉沙 #イコラブ #イコールラブ",
+          "url": "https://www.youtube.com/watch?v=S2eHj8VmEi0",
+          "thumbnail": "https://i.ytimg.com/vi/S2eHj8VmEi0/maxresdefault.jpg",
+          "publishedAt": "2026-10-11T11:56:31Z",
+          "channelId": "UCv7VutirxDn3RWIJXI68n_A",
+          "channelName": "＝LOVE（イコールラブ）公式チャンネル",
+          "sourceName": "=LOVE オフィシャル",
+          "memberNames": []
+        }
+      },
       "VjAZTmkBJYQ": {
         "hash": "6efd24e521c95d84672bfc7eddfadacb806ade08d13e8ffd25c651fa65060e6a",
         "item": {
@@ -238,54 +282,6 @@
           "channelName": "＝LOVE（イコールラブ）公式チャンネル",
           "sourceName": "=LOVE オフィシャル",
           "memberNames": []
-        }
-      },
-      "Q5WpQvExXKc": {
-        "hash": "4dcd0725eddf71aeb27d684fcf3049b5a0af4acb527024ce9ae59175a7bb3726",
-        "item": {
-          "videoId": "Q5WpQvExXKc",
-          "title": "筋トレ後のスシローでエネルギーを蓄えるみりにゃ",
-          "url": "https://www.youtube.com/watch?v=Q5WpQvExXKc",
-          "thumbnail": "https://i.ytimg.com/vi/Q5WpQvExXKc/maxresdefault.jpg",
-          "publishedAt": "2026-10-07T11:00:10Z",
-          "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
-          "channelName": "みりにゃと申します。",
-          "sourceName": "大谷 映美里",
-          "memberNames": [
-            "大谷 映美里"
-          ]
-        }
-      },
-      "Uk66Nkq2G6c": {
-        "hash": "4f4b863e3179ed9ba05d307ef413f37489770fe568723c208c89c583e6438113",
-        "item": {
-          "videoId": "Uk66Nkq2G6c",
-          "title": "様子がおかしい韓国VLOG",
-          "url": "https://www.youtube.com/watch?v=Uk66Nkq2G6c",
-          "thumbnail": "https://i.ytimg.com/vi/Uk66Nkq2G6c/maxresdefault.jpg",
-          "publishedAt": "2026-09-30T11:00:36Z",
-          "channelId": "UCcsyyry5bsjTeqqJ_Yz9TiA",
-          "channelName": "音嶋莉沙の様子がおかしいチャンネル",
-          "sourceName": "音嶋 莉沙",
-          "memberNames": [
-            "音嶋 莉沙"
-          ]
-        }
-      },
-      "9VVxYcBLb8M": {
-        "hash": "62396e5f35e53e769d13d6082f769440f0730ba157f2ec5c8b650b72fab4a3e4",
-        "item": {
-          "videoId": "9VVxYcBLb8M",
-          "title": "初めての中野ではしご酒してきたよ【激ウマ店発見】",
-          "url": "https://www.youtube.com/watch?v=9VVxYcBLb8M",
-          "thumbnail": "https://i.ytimg.com/vi/9VVxYcBLb8M/maxresdefault.jpg",
-          "publishedAt": "2026-09-29T10:00:19Z",
-          "channelId": "UC0r-2f003yXdV5En7qHlrGw",
-          "channelName": "つんはしご",
-          "sourceName": "諸橋 沙夏",
-          "memberNames": [
-            "諸橋 沙夏"
-          ]
         }
       }
     },
@@ -503,6 +499,44 @@
     }
   },
   "history": [
+    {
+      "id": "youtube:added:IE4_1hlE_g4:3bfa2ed63250",
+      "type": "youtube",
+      "action": "added",
+      "occurredAt": "2026-10-11T14:45:11.666Z",
+      "title": "ホテルで1人飲みしながら質問に答えたよ",
+      "url": "https://www.youtube.com/watch?v=IE4_1hlE_g4",
+      "date": "2026-10-11T13:00:17Z",
+      "category": "",
+      "memberNames": [
+        "諸橋 沙夏"
+      ],
+      "sourceName": "諸橋 沙夏"
+    },
+    {
+      "id": "youtube:added:kSUj9lUyLpk:19f14c693a0a",
+      "type": "youtube",
+      "action": "added",
+      "occurredAt": "2026-10-11T14:45:11.666Z",
+      "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #齋藤樹愛羅 #イコラブ #イコールラブ",
+      "url": "https://www.youtube.com/watch?v=kSUj9lUyLpk",
+      "date": "2026-10-11T11:58:21Z",
+      "category": "",
+      "memberNames": [],
+      "sourceName": "=LOVE オフィシャル"
+    },
+    {
+      "id": "youtube:added:S2eHj8VmEi0:b342d06592ba",
+      "type": "youtube",
+      "action": "added",
+      "occurredAt": "2026-10-11T14:45:11.666Z",
+      "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #音嶋莉沙 #イコラブ #イコールラブ",
+      "url": "https://www.youtube.com/watch?v=S2eHj8VmEi0",
+      "date": "2026-10-11T11:56:31Z",
+      "category": "",
+      "memberNames": [],
+      "sourceName": "=LOVE オフィシャル"
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11184:e6685337eb69",
       "type": "schedule",
@@ -1678,42 +1712,6 @@
       "url": "https://equal-love.jp/schedule/detail/11886",
       "date": "2026-09-22",
       "category": "ライブ/イベント",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11180:2bdbb9fdc721",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-09-13T02:45:30.498Z",
-      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
-      "url": "https://equal-love.jp/schedule/detail/11180",
-      "date": "2026-09-13",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11703:f26c31657fe8",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-09-13T02:45:30.498Z",
-      "title": "TELASAオリジナル「アイ=ラブ！...",
-      "url": "https://equal-love.jp/schedule/detail/11703",
-      "date": "2026-09-19",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11859:b7260927c8f0",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-09-12T17:07:30.019Z",
-      "title": "握手会 ＝LOVE映像商品 ＝LOVE 8周...",
-      "url": "https://equal-love.jp/schedule/detail/11859",
-      "date": "2026-09-20",
-      "category": "",
       "memberNames": [],
       "sourceName": ""
     }
