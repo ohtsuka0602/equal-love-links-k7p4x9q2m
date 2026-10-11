@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-10T23:49:56.343Z",
-    "updatedAt": "2026-10-10T18:32:46.101Z",
+    "checkedAt": "2026-10-11T02:44:37.581Z",
+    "updatedAt": "2026-10-11T02:44:37.581Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -15,6 +15,16 @@
           "date": "2026-10-11",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12160",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11184": {
+        "hash": "e6685337eb69c479d79d43e9c679dd78a2b6cba642bb4cebd81712b0d965216b",
+        "item": {
+          "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
+          "date": "2026-10-11",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11184",
           "category": "メディア"
         }
       },
@@ -95,16 +105,6 @@
           "date": "2026-10-22",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11083",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/10743": {
-        "hash": "fa307ee2ccecc78049b4c34e4684e373f051bba0d22bfb9b0e251d419fb77c1a",
-        "item": {
-          "title": "Artistspoken「イマフレラ...",
-          "date": "2026-10-23",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10743",
           "category": "メディア"
         }
       }
@@ -503,6 +503,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11184:e6685337eb69",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-11T02:44:37.581Z",
+      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
+      "url": "https://equal-love.jp/schedule/detail/11184",
+      "date": "2026-10-11",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11083:88c057912d00",
       "type": "schedule",
@@ -1702,18 +1714,6 @@
       "url": "https://equal-love.jp/schedule/detail/11859",
       "date": "2026-09-20",
       "category": "",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/10443:cf6b583d3cdd",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-09-12T17:07:30.019Z",
-      "title": "ニッポン放送「＝LOVEのイコラフ」",
-      "url": "https://equal-love.jp/schedule/detail/10443",
-      "date": "2026-09-21",
-      "category": "メディア",
       "memberNames": [],
       "sourceName": ""
     }
