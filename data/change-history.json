@@ -1,33 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-10-11T14:45:49.847Z",
-    "updatedAt": "2026-10-11T14:45:11.666Z",
+    "checkedAt": "2026-10-11T18:51:57.757Z",
+    "updatedAt": "2026-10-11T18:51:57.757Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/12160": {
-        "hash": "9032fb660601c62f7deda8b428ccf97a212cbc76e91cde93d2e989c1748291fe",
-        "item": {
-          "title": "TBS系「坂上&指原のつぶれない店」...",
-          "date": "2026-10-11",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12160",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11184": {
-        "hash": "e6685337eb69c479d79d43e9c679dd78a2b6cba642bb4cebd81712b0d965216b",
-        "item": {
-          "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
-          "date": "2026-10-11",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11184",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/10446": {
         "hash": "72e303f15d621dcf19499d229e3d772ab3884bdf1673bc284ffaa89403161cf3",
         "item": {
@@ -105,6 +85,26 @@
           "date": "2026-10-22",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11083",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10743": {
+        "hash": "fa307ee2ccecc78049b4c34e4684e373f051bba0d22bfb9b0e251d419fb77c1a",
+        "item": {
+          "title": "Artistspoken「イマフレラ...",
+          "date": "2026-10-23",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10743",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11927": {
+        "hash": "f1a582d91a8d966a82157813bae1d61e91c5150c55fe73fd45538c41ac14141e",
+        "item": {
+          "title": "AT-X「マヂラブ・野口衣織のマヂで...",
+          "date": "2026-10-25",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11927",
           "category": "メディア"
         }
       }
@@ -499,6 +499,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11927:f1a582d91a8d",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-11T18:51:57.757Z",
+      "title": "AT-X「マヂラブ・野口衣織のマヂで...",
+      "url": "https://equal-love.jp/schedule/detail/11927",
+      "date": "2026-10-25",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "youtube:added:IE4_1hlE_g4:3bfa2ed63250",
       "type": "youtube",
@@ -1702,18 +1714,6 @@
         "大谷 映美里"
       ],
       "sourceName": "大谷 映美里"
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11886:eae6486dac44",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-09-13T17:24:15.099Z",
-      "title": "「INKIGAYO LIVE in ...",
-      "url": "https://equal-love.jp/schedule/detail/11886",
-      "date": "2026-09-22",
-      "category": "ライブ/イベント",
-      "memberNames": [],
-      "sourceName": ""
     }
   ]
 }
