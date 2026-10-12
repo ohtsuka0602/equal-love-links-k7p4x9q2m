@@ -1,9 +1,16 @@
 {
   "meta": {
-    "checkedAt": "2026-10-12T20:44:29.287Z",
-    "updatedAt": "2026-10-12T20:44:29.287Z"
+    "checkedAt": "2026-10-12T22:07:53.807Z",
+    "updatedAt": "2026-10-12T22:07:53.807Z"
   },
   "schedule": [
+    {
+      "title": "TOKYO FM「Hand in H...",
+      "date": "2026-10-13",
+      "url": "https://equal-love.jp/schedule/detail/11740",
+      "category": "メディア",
+      "time": ""
+    },
     {
       "title": "【発売日】＝LOVE 8周年ツアー「...",
       "date": "2026-10-14",
@@ -64,13 +71,6 @@
       "title": "Artistspoken「イマフレラ...",
       "date": "2026-10-23",
       "url": "https://equal-love.jp/schedule/detail/10743",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "AT-X「マヂラブ・野口衣織のマヂで...",
-      "date": "2026-10-25",
-      "url": "https://equal-love.jp/schedule/detail/11927",
       "category": "メディア",
       "time": ""
     }

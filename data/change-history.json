@@ -1,13 +1,23 @@
 {
   "meta": {
-    "checkedAt": "2026-10-12T20:45:56.090Z",
-    "updatedAt": "2026-10-12T14:45:54.347Z",
+    "checkedAt": "2026-10-12T22:07:53.975Z",
+    "updatedAt": "2026-10-12T22:07:53.975Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
+      "https://equal-love.jp/schedule/detail/11740": {
+        "hash": "840f242296e6b620cdb9d2645fc83c0fc886322e8287729e4d99d5767e3957a4",
+        "item": {
+          "title": "TOKYO FM「Hand in H...",
+          "date": "2026-10-13",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11740",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/11925": {
         "hash": "ff1a03468e0ce0e47a469c3a4a97f2aa95edfabdd050871ac9eeffbbd0002ea6",
         "item": {
@@ -95,16 +105,6 @@
           "date": "2026-10-23",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10743",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11927": {
-        "hash": "f1a582d91a8d966a82157813bae1d61e91c5150c55fe73fd45538c41ac14141e",
-        "item": {
-          "title": "AT-X「マヂラブ・野口衣織のマヂで...",
-          "date": "2026-10-25",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11927",
           "category": "メディア"
         }
       }
@@ -499,6 +499,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11740:840f242296e6",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-12T22:07:53.975Z",
+      "title": "TOKYO FM「Hand in H...",
+      "url": "https://equal-love.jp/schedule/detail/11740",
+      "date": "2026-10-13",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12261:7dc7b9091395",
       "type": "news",
@@ -1696,18 +1708,6 @@
       "occurredAt": "2026-09-15T02:45:13.903Z",
       "title": "フジテレビ・FODプレミアム「キミは...",
       "url": "https://equal-love.jp/schedule/detail/11684",
-      "date": "2026-09-15",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11736:4a20c866d010",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-09-15T02:45:13.903Z",
-      "title": "TOKYO FM「Hand in H...",
-      "url": "https://equal-love.jp/schedule/detail/11736",
       "date": "2026-09-15",
       "category": "メディア",
       "memberNames": [],
