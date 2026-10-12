@@ -1,6 +1,6 @@
 {
   "meta": {
-    "checkedAt": "2026-10-12T14:45:54.347Z",
+    "checkedAt": "2026-10-12T20:44:29.476Z",
     "updatedAt": "2026-10-12T14:45:54.347Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
@@ -8,16 +8,6 @@
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/10446": {
-        "hash": "72e303f15d621dcf19499d229e3d772ab3884bdf1673bc284ffaa89403161cf3",
-        "item": {
-          "title": "ニッポン放送「＝LOVEのイコラフ」",
-          "date": "2026-10-12",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10446",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/11925": {
         "hash": "ff1a03468e0ce0e47a469c3a4a97f2aa95edfabdd050871ac9eeffbbd0002ea6",
         "item": {
@@ -105,6 +95,16 @@
           "date": "2026-10-23",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10743",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11927": {
+        "hash": "f1a582d91a8d966a82157813bae1d61e91c5150c55fe73fd45538c41ac14141e",
+        "item": {
+          "title": "AT-X「マヂラブ・野口衣織のマヂで...",
+          "date": "2026-10-25",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11927",
           "category": "メディア"
         }
       }
