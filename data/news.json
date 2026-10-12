@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-10-12T09:49:22.753Z",
-    "updatedAt": "2026-10-10T14:46:54.592Z"
+    "checkedAt": "2026-10-12T14:45:54.151Z",
+    "updatedAt": "2026-10-12T14:45:54.151Z"
   },
   "news": [
+    {
+      "title": "【出演情報】TBS系「CDTVライブ！ライブ！」※＝LOVE",
+      "date": "2026-10-12",
+      "url": "https://sp.equal-love.jp/news/detail/12261",
+      "category": "メディア"
+    },
     {
       "title": "【出演情報】フジテレビ「STARフェス」※＝LOVE",
       "date": "2026-10-10",
@@ -57,12 +63,6 @@
       "date": "2026-10-08",
       "url": "https://sp.equal-love.jp/news/detail/12252",
       "category": "お知らせ"
-    },
-    {
-      "title": "【出演情報】日本マクドナルド サイドメニュー「ザクザクジューシーももチキン」の新CMに佐々木舞香の出演が決定しました！",
-      "date": "2026-10-08",
-      "url": "https://sp.equal-love.jp/news/detail/12248",
-      "category": "メディア"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-12T14:44:29.288Z",
-    "updatedAt": "2026-10-12T14:44:29.288Z",
+    "checkedAt": "2026-10-12T14:45:54.347Z",
+    "updatedAt": "2026-10-12T14:45:54.347Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12261": {
+        "hash": "7dc7b9091395a4bf7fdd7cf6ab24073cd7170d3391a66935808276c421695d03",
+        "item": {
+          "title": "【出演情報】TBS系「CDTVライブ！ライブ！」※＝LOVE",
+          "date": "2026-10-12",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12261",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12263": {
         "hash": "431dddef36bc87e1ec170f91dda71aec8cd876b518bf4028e5fda24a08fd27de",
         "item": {
@@ -199,19 +209,37 @@
           "url": "https://sp.equal-love.jp/news/detail/12252",
           "category": "お知らせ"
         }
-      },
-      "https://sp.equal-love.jp/news/detail/12248": {
-        "hash": "e1c0fb7723a4e8fbb329c1433f3aaf95c79db6bd5a0c6431e1529eb0ef845fd0",
-        "item": {
-          "title": "【出演情報】日本マクドナルド サイドメニュー「ザクザクジューシーももチキン」の新CMに佐々木舞香の出演が決定しました！",
-          "date": "2026-10-08",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12248",
-          "category": "メディア"
-        }
       }
     },
     "youtube": {
+      "eOJHqbN_TAs": {
+        "hash": "1943ee46c3ae689911b380ecdd5eb05007184a989b2fbab019e9052421a996cf",
+        "item": {
+          "videoId": "eOJHqbN_TAs",
+          "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #髙松瞳 #イコラブ #イコールラブ",
+          "url": "https://www.youtube.com/watch?v=eOJHqbN_TAs",
+          "thumbnail": "https://i.ytimg.com/vi/eOJHqbN_TAs/maxresdefault.jpg",
+          "publishedAt": "2026-10-12T12:55:08Z",
+          "channelId": "UCv7VutirxDn3RWIJXI68n_A",
+          "channelName": "＝LOVE（イコールラブ）公式チャンネル",
+          "sourceName": "=LOVE オフィシャル",
+          "memberNames": []
+        }
+      },
+      "0SQgtf8DzrM": {
+        "hash": "44ed15acf449f23905e74df3f3e6cdf7f8a9ce2db0f9fcf69fbec277e3300f51",
+        "item": {
+          "videoId": "0SQgtf8DzrM",
+          "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #佐々木舞香 #イコラブ #イコールラブ",
+          "url": "https://www.youtube.com/watch?v=0SQgtf8DzrM",
+          "thumbnail": "https://i.ytimg.com/vi/0SQgtf8DzrM/maxresdefault.jpg",
+          "publishedAt": "2026-10-12T12:48:56Z",
+          "channelId": "UCv7VutirxDn3RWIJXI68n_A",
+          "channelName": "＝LOVE（イコールラブ）公式チャンネル",
+          "sourceName": "=LOVE オフィシャル",
+          "memberNames": []
+        }
+      },
       "IE4_1hlE_g4": {
         "hash": "3bfa2ed632507dac7e1bedd73efc6915abb06c0d73b9b33c3edc47fdfdc8d671",
         "item": {
@@ -250,34 +278,6 @@
           "url": "https://www.youtube.com/watch?v=S2eHj8VmEi0",
           "thumbnail": "https://i.ytimg.com/vi/S2eHj8VmEi0/maxresdefault.jpg",
           "publishedAt": "2026-10-11T11:56:31Z",
-          "channelId": "UCv7VutirxDn3RWIJXI68n_A",
-          "channelName": "＝LOVE（イコールラブ）公式チャンネル",
-          "sourceName": "=LOVE オフィシャル",
-          "memberNames": []
-        }
-      },
-      "VjAZTmkBJYQ": {
-        "hash": "6efd24e521c95d84672bfc7eddfadacb806ade08d13e8ffd25c651fa65060e6a",
-        "item": {
-          "videoId": "VjAZTmkBJYQ",
-          "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #大場花菜 #イコラブ #イコールラブ",
-          "url": "https://www.youtube.com/watch?v=VjAZTmkBJYQ",
-          "thumbnail": "https://i.ytimg.com/vi/VjAZTmkBJYQ/maxresdefault.jpg",
-          "publishedAt": "2026-10-10T13:42:10Z",
-          "channelId": "UCv7VutirxDn3RWIJXI68n_A",
-          "channelName": "＝LOVE（イコールラブ）公式チャンネル",
-          "sourceName": "=LOVE オフィシャル",
-          "memberNames": []
-        }
-      },
-      "c0dlRRjd-dc": {
-        "hash": "0560e377b789176804d022fde6b3e7ecf23169093dc45c02fcc83b8768f662f6",
-        "item": {
-          "videoId": "c0dlRRjd-dc",
-          "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #大谷映美里 #イコラブ #イコールラブ",
-          "url": "https://www.youtube.com/watch?v=c0dlRRjd-dc",
-          "thumbnail": "https://i.ytimg.com/vi/c0dlRRjd-dc/maxresdefault.jpg",
-          "publishedAt": "2026-10-10T13:41:34Z",
           "channelId": "UCv7VutirxDn3RWIJXI68n_A",
           "channelName": "＝LOVE（イコールラブ）公式チャンネル",
           "sourceName": "=LOVE オフィシャル",
@@ -499,6 +499,42 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12261:7dc7b9091395",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-12T14:45:54.347Z",
+      "title": "【出演情報】TBS系「CDTVライブ！ライブ！」※＝LOVE",
+      "url": "https://sp.equal-love.jp/news/detail/12261",
+      "date": "2026-10-12",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "youtube:added:eOJHqbN_TAs:1943ee46c3ae",
+      "type": "youtube",
+      "action": "added",
+      "occurredAt": "2026-10-12T14:45:54.347Z",
+      "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #髙松瞳 #イコラブ #イコールラブ",
+      "url": "https://www.youtube.com/watch?v=eOJHqbN_TAs",
+      "date": "2026-10-12T12:55:08Z",
+      "category": "",
+      "memberNames": [],
+      "sourceName": "=LOVE オフィシャル"
+    },
+    {
+      "id": "youtube:added:0SQgtf8DzrM:44ed15acf449",
+      "type": "youtube",
+      "action": "added",
+      "occurredAt": "2026-10-12T14:45:54.347Z",
+      "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #佐々木舞香 #イコラブ #イコールラブ",
+      "url": "https://www.youtube.com/watch?v=0SQgtf8DzrM",
+      "date": "2026-10-12T12:48:56Z",
+      "category": "",
+      "memberNames": [],
+      "sourceName": "=LOVE オフィシャル"
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12262:72db3571a2a8",
       "type": "schedule",
@@ -1674,42 +1710,6 @@
       "url": "https://equal-love.jp/schedule/detail/11736",
       "date": "2026-09-15",
       "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/11935:b5f109566b67",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-09-15T02:44:32.684Z",
-      "title": "【掲載情報】双葉社「EX大衆10月号」※大場花菜、山本杏奈",
-      "url": "https://sp.equal-love.jp/news/detail/11935",
-      "date": "2026-09-15",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11081:93592d3aea6a",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-09-14T19:20:05.225Z",
-      "title": "集英社「MYOJO 11月号」※瀧脇...",
-      "url": "https://equal-love.jp/schedule/detail/11081",
-      "date": "2026-09-24",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/11947:79c66cb04790",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-09-14T14:45:03.615Z",
-      "title": "生写真セット(「恋、はじめました。」ジャケット衣装)発売！",
-      "url": "https://sp.equal-love.jp/news/detail/11947",
-      "date": "2026-09-14",
-      "category": "グッズ",
       "memberNames": [],
       "sourceName": ""
     }
