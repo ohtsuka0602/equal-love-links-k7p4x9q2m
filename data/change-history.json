@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-13T08:44:33.608Z",
-    "updatedAt": "2026-10-13T02:45:48.614Z",
+    "checkedAt": "2026-10-13T08:46:04.338Z",
+    "updatedAt": "2026-10-13T08:46:04.338Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,46 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12265": {
+        "hash": "99b476c2804296393fb058096f2f575d24ae0c10bdd8308693b846e40f53c2cc",
+        "item": {
+          "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」ライブ会場にて、＝LOVE CD＆映像商品購入抽選会開催決定！",
+          "date": "2026-10-13",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12265",
+          "category": "お知らせ"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/12268": {
+        "hash": "28ccbbee7749366ba98e95d602cbeba384611aeb2ce166a8b424667bf081c68d",
+        "item": {
+          "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」オリジナルラッピングキッチンカーの出店が決定！",
+          "date": "2026-10-13",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12268",
+          "category": "ライブ/イベント"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/12269": {
+        "hash": "18c9b16aec208f686cb002628eafbf0aaf531a765bb35d9668d2e5b5021af70a",
+        "item": {
+          "title": "＝LOVE in TOKYO DOME FC最速先行(会員＋会員)チケット受付開始のお知らせ",
+          "date": "2026-10-13",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12269",
+          "category": "ライブ/イベント"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/12259": {
+        "hash": "11ce80782d1e80b0253c05741f17626bb7154d7fef8914c4a0cbce6e4a7feebb",
+        "item": {
+          "title": "10月14日（水）～10月20日（火）まで西武新宿駅前のユニカビジョンで＝LOVE 特集が放映されます！",
+          "date": "2026-10-13",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12259",
+          "category": "お知らせ"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12261": {
         "hash": "7dc7b9091395a4bf7fdd7cf6ab24073cd7170d3391a66935808276c421695d03",
         "item": {
@@ -167,46 +207,6 @@
           "date": "2026-10-09",
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12250",
-          "category": "お知らせ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12240": {
-        "hash": "289492e72866998b7ae4c555d3286274e48804a64847cdbdb6542ccd9d67bc67",
-        "item": {
-          "title": "齋藤樹愛羅がカラコンブランド「MeloRia（メロリア）」イメージモデルに就任！",
-          "date": "2026-10-09",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12240",
-          "category": "お知らせ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12254": {
-        "hash": "6a57ec4dcbd6054012d597bb697c20f14c62ba247dd39f9086c48ef86ceb0766",
-        "item": {
-          "title": "【掲載情報】宝島社「sweet 11月号」※大谷映美里、大場花菜",
-          "date": "2026-10-09",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12254",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12251": {
-        "hash": "d1ea0debc1266b8cd9abca8e09c85ba319fe1601a2fffe5c1985cb29c4b7c60c",
-        "item": {
-          "title": "10月14日(水)発売 『＝LOVE 8周年ツアー「＝LOVE 8th ANNIVERSARY PREMIUM TOUR」FINAL in 横浜スタジアム』リリース記念 CDショップでのイコラブ応援キャンペーン決定！",
-          "date": "2026-10-08",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12251",
-          "category": "お知らせ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12252": {
-        "hash": "47ee6006db1b732c3ee860b28b0c16e262641641e24c4d3f0ff669d84336442b",
-        "item": {
-          "title": "10月14日(水)発売 『＝LOVE 8周年ツアー「＝LOVE 8th ANNIVERSARY PREMIUM TOUR」FINAL in 横浜スタジアム』 店舗購入者特典決定！",
-          "date": "2026-10-08",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12252",
           "category": "お知らせ"
         }
       }
@@ -499,6 +499,54 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12265:99b476c28042",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-13T08:46:04.338Z",
+      "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」ライブ会場にて、＝LOVE CD＆映像商品購入抽選会開催決定！",
+      "url": "https://sp.equal-love.jp/news/detail/12265",
+      "date": "2026-10-13",
+      "category": "お知らせ",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12268:28ccbbee7749",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-13T08:46:04.338Z",
+      "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」オリジナルラッピングキッチンカーの出店が決定！",
+      "url": "https://sp.equal-love.jp/news/detail/12268",
+      "date": "2026-10-13",
+      "category": "ライブ/イベント",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12269:18c9b16aec20",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-13T08:46:04.338Z",
+      "title": "＝LOVE in TOKYO DOME FC最速先行(会員＋会員)チケット受付開始のお知らせ",
+      "url": "https://sp.equal-love.jp/news/detail/12269",
+      "date": "2026-10-13",
+      "category": "ライブ/イベント",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12259:11ce80782d1e",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-13T08:46:04.338Z",
+      "title": "10月14日（水）～10月20日（火）まで西武新宿駅前のユニカビジョンで＝LOVE 特集が放映されます！",
+      "url": "https://sp.equal-love.jp/news/detail/12259",
+      "date": "2026-10-13",
+      "category": "お知らせ",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11685:11ad47b773d5",
       "type": "schedule",
@@ -1659,56 +1707,6 @@
       "title": "日本テレビ「踊る！さんま御殿!!」※...",
       "url": "https://equal-love.jp/schedule/detail/11929",
       "date": "2026-09-22",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/11928:af50d92a6ff3",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-09-15T13:52:37.535Z",
-      "title": "【出演情報】日本テレビ「踊る！さんま御殿!!」※大谷映美里",
-      "url": "https://sp.equal-love.jp/news/detail/11928",
-      "date": "2026-09-15",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/11921:8780a9a2b654",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-09-15T08:02:46.072Z",
-      "title": "Suyunn『Dear Suyunn』モデルを齋藤樹愛羅が務めさせていただくことが決定いたしました！",
-      "url": "https://sp.equal-love.jp/news/detail/11921",
-      "date": "2026-09-15",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "youtube:added:gaSubSTZBlI:fad2bd05f018",
-      "type": "youtube",
-      "action": "added",
-      "occurredAt": "2026-09-15T08:02:46.072Z",
-      "title": "みり申グッズが完成したよ❣️ #shorts",
-      "url": "https://www.youtube.com/watch?v=gaSubSTZBlI",
-      "date": "2026-09-15T05:03:14Z",
-      "category": "",
-      "memberNames": [
-        "大谷 映美里"
-      ],
-      "sourceName": "大谷 映美里"
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11936:cfb18d8e6d95",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-09-15T02:45:13.903Z",
-      "title": "双葉社「EX大衆10月号」※大場花菜...",
-      "url": "https://equal-love.jp/schedule/detail/11936",
-      "date": "2026-09-15",
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""
