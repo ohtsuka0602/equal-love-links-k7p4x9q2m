@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-13T02:45:06.889Z",
-    "updatedAt": "2026-10-12T22:07:53.975Z",
+    "checkedAt": "2026-10-13T02:45:48.614Z",
+    "updatedAt": "2026-10-13T02:45:48.614Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -15,6 +15,16 @@
           "date": "2026-10-13",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11740",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11685": {
+        "hash": "11ad47b773d5d87038143f6bb7f4205a874a6f7f454f80d81c5bc42b771d35fc",
+        "item": {
+          "title": "フジテレビ・FODプレミアム「キミは...",
+          "date": "2026-10-13",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11685",
           "category": "メディア"
         }
       },
@@ -95,16 +105,6 @@
           "date": "2026-10-22",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11083",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/10743": {
-        "hash": "fa307ee2ccecc78049b4c34e4684e373f051bba0d22bfb9b0e251d419fb77c1a",
-        "item": {
-          "title": "Artistspoken「イマフレラ...",
-          "date": "2026-10-23",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10743",
           "category": "メディア"
         }
       }
@@ -499,6 +499,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11685:11ad47b773d5",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-13T02:45:48.614Z",
+      "title": "フジテレビ・FODプレミアム「キミは...",
+      "url": "https://equal-love.jp/schedule/detail/11685",
+      "date": "2026-10-13",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11740:840f242296e6",
       "type": "schedule",
@@ -1696,18 +1708,6 @@
       "occurredAt": "2026-09-15T02:45:13.903Z",
       "title": "双葉社「EX大衆10月号」※大場花菜...",
       "url": "https://equal-love.jp/schedule/detail/11936",
-      "date": "2026-09-15",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11684:3ec55a3d3da5",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-09-15T02:45:13.903Z",
-      "title": "フジテレビ・FODプレミアム「キミは...",
-      "url": "https://equal-love.jp/schedule/detail/11684",
       "date": "2026-09-15",
       "category": "メディア",
       "memberNames": [],
