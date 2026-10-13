@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-13T14:44:33.523Z",
-    "updatedAt": "2026-10-13T08:46:04.338Z",
+    "checkedAt": "2026-10-13T14:45:43.285Z",
+    "updatedAt": "2026-10-13T14:45:43.285Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -212,6 +212,34 @@
       }
     },
     "youtube": {
+      "97BXESXjdOs": {
+        "hash": "cfe3726c49801aa39ef00c01e0caabbc9873338408064623a8537e2ba5c33f72",
+        "item": {
+          "videoId": "97BXESXjdOs",
+          "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #野口衣織 #イコラブ #イコールラブ",
+          "url": "https://www.youtube.com/watch?v=97BXESXjdOs",
+          "thumbnail": "https://i.ytimg.com/vi/97BXESXjdOs/maxresdefault.jpg",
+          "publishedAt": "2026-10-13T13:36:31Z",
+          "channelId": "UCv7VutirxDn3RWIJXI68n_A",
+          "channelName": "＝LOVE（イコールラブ）公式チャンネル",
+          "sourceName": "=LOVE オフィシャル",
+          "memberNames": []
+        }
+      },
+      "czy844ZUvzI": {
+        "hash": "92658bbf6d19e68e8f86e85996fab7b663862b7e1601fa347dfdef4ca70cb849",
+        "item": {
+          "videoId": "czy844ZUvzI",
+          "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #瀧脇笙古 #イコラブ #イコールラブ",
+          "url": "https://www.youtube.com/watch?v=czy844ZUvzI",
+          "thumbnail": "https://i.ytimg.com/vi/czy844ZUvzI/maxresdefault.jpg",
+          "publishedAt": "2026-10-13T13:34:49Z",
+          "channelId": "UCv7VutirxDn3RWIJXI68n_A",
+          "channelName": "＝LOVE（イコールラブ）公式チャンネル",
+          "sourceName": "=LOVE オフィシャル",
+          "memberNames": []
+        }
+      },
       "eOJHqbN_TAs": {
         "hash": "1943ee46c3ae689911b380ecdd5eb05007184a989b2fbab019e9052421a996cf",
         "item": {
@@ -254,34 +282,6 @@
           "memberNames": [
             "諸橋 沙夏"
           ]
-        }
-      },
-      "kSUj9lUyLpk": {
-        "hash": "19f14c693a0a156aa13ce0cca286f34a047fdc4091beb7d983f41bfcd9b61bd1",
-        "item": {
-          "videoId": "kSUj9lUyLpk",
-          "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #齋藤樹愛羅 #イコラブ #イコールラブ",
-          "url": "https://www.youtube.com/watch?v=kSUj9lUyLpk",
-          "thumbnail": "https://i.ytimg.com/vi/kSUj9lUyLpk/maxresdefault.jpg",
-          "publishedAt": "2026-10-11T11:58:21Z",
-          "channelId": "UCv7VutirxDn3RWIJXI68n_A",
-          "channelName": "＝LOVE（イコールラブ）公式チャンネル",
-          "sourceName": "=LOVE オフィシャル",
-          "memberNames": []
-        }
-      },
-      "S2eHj8VmEi0": {
-        "hash": "b342d06592baa2d4d5dacc1307ab9cb4ffa7caff35b3130b8df82a53a2f9fcc8",
-        "item": {
-          "videoId": "S2eHj8VmEi0",
-          "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #音嶋莉沙 #イコラブ #イコールラブ",
-          "url": "https://www.youtube.com/watch?v=S2eHj8VmEi0",
-          "thumbnail": "https://i.ytimg.com/vi/S2eHj8VmEi0/maxresdefault.jpg",
-          "publishedAt": "2026-10-11T11:56:31Z",
-          "channelId": "UCv7VutirxDn3RWIJXI68n_A",
-          "channelName": "＝LOVE（イコールラブ）公式チャンネル",
-          "sourceName": "=LOVE オフィシャル",
-          "memberNames": []
         }
       }
     },
@@ -499,6 +499,30 @@
     }
   },
   "history": [
+    {
+      "id": "youtube:added:97BXESXjdOs:cfe3726c4980",
+      "type": "youtube",
+      "action": "added",
+      "occurredAt": "2026-10-13T14:45:43.285Z",
+      "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #野口衣織 #イコラブ #イコールラブ",
+      "url": "https://www.youtube.com/watch?v=97BXESXjdOs",
+      "date": "2026-10-13T13:36:31Z",
+      "category": "",
+      "memberNames": [],
+      "sourceName": "=LOVE オフィシャル"
+    },
+    {
+      "id": "youtube:added:czy844ZUvzI:92658bbf6d19",
+      "type": "youtube",
+      "action": "added",
+      "occurredAt": "2026-10-13T14:45:43.285Z",
+      "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #瀧脇笙古 #イコラブ #イコールラブ",
+      "url": "https://www.youtube.com/watch?v=czy844ZUvzI",
+      "date": "2026-10-13T13:34:49Z",
+      "category": "",
+      "memberNames": [],
+      "sourceName": "=LOVE オフィシャル"
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12265:99b476c28042",
       "type": "news",
@@ -1684,30 +1708,6 @@
       "url": "https://sp.equal-love.jp/news/detail/11960",
       "date": "2026-09-16",
       "category": "お知らせ",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/10699:1b9caf95970c",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-09-16T02:43:51.153Z",
-      "title": "「S Cawaii! 2026年11...",
-      "url": "https://equal-love.jp/schedule/detail/10699",
-      "date": "2026-09-16",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11929:892fb90a8f8e",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-09-15T18:10:27.065Z",
-      "title": "日本テレビ「踊る！さんま御殿!!」※...",
-      "url": "https://equal-love.jp/schedule/detail/11929",
-      "date": "2026-09-22",
-      "category": "メディア",
       "memberNames": [],
       "sourceName": ""
     }
