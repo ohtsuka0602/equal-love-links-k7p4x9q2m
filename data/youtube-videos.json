@@ -1,9 +1,44 @@
 {
   "meta": {
-    "checkedAt": "2026-10-14T08:44:52.876Z",
-    "updatedAt": "2026-10-13T14:45:38.246Z"
+    "checkedAt": "2026-10-14T14:01:32.836Z",
+    "updatedAt": "2026-10-14T14:01:32.836Z"
   },
   "videos": [
+    {
+      "videoId": "jr_IEdOX6lc",
+      "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒#山本杏奈 #イコラブ #イコールラブ",
+      "url": "https://www.youtube.com/watch?v=jr_IEdOX6lc",
+      "thumbnail": "https://i.ytimg.com/vi/jr_IEdOX6lc/maxresdefault.jpg",
+      "publishedAt": "2026-10-14T13:27:44Z",
+      "channelId": "UCv7VutirxDn3RWIJXI68n_A",
+      "channelName": "＝LOVE（イコールラブ）公式チャンネル",
+      "sourceName": "=LOVE オフィシャル",
+      "memberNames": []
+    },
+    {
+      "videoId": "BhBl5Lp67dk",
+      "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒#諸橋沙夏 #イコラブ #イコールラブ",
+      "url": "https://www.youtube.com/watch?v=BhBl5Lp67dk",
+      "thumbnail": "https://i.ytimg.com/vi/BhBl5Lp67dk/maxresdefault.jpg",
+      "publishedAt": "2026-10-14T13:25:53Z",
+      "channelId": "UCv7VutirxDn3RWIJXI68n_A",
+      "channelName": "＝LOVE（イコールラブ）公式チャンネル",
+      "sourceName": "=LOVE オフィシャル",
+      "memberNames": []
+    },
+    {
+      "videoId": "e4iYaqCBkkY",
+      "title": "緊急おかチャン反省会【サムギョプサル】",
+      "url": "https://www.youtube.com/watch?v=e4iYaqCBkkY",
+      "thumbnail": "https://i.ytimg.com/vi/e4iYaqCBkkY/maxresdefault.jpg",
+      "publishedAt": "2026-10-14T10:00:39Z",
+      "channelId": "UCcsyyry5bsjTeqqJ_Yz9TiA",
+      "channelName": "音嶋莉沙の様子がおかしいチャンネル",
+      "sourceName": "音嶋 莉沙",
+      "memberNames": [
+        "音嶋 莉沙"
+      ]
+    },
     {
       "videoId": "97BXESXjdOs",
       "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #野口衣織 #イコラブ #イコールラブ",
@@ -25,41 +60,6 @@
       "channelName": "＝LOVE（イコールラブ）公式チャンネル",
       "sourceName": "=LOVE オフィシャル",
       "memberNames": []
-    },
-    {
-      "videoId": "eOJHqbN_TAs",
-      "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #髙松瞳 #イコラブ #イコールラブ",
-      "url": "https://www.youtube.com/watch?v=eOJHqbN_TAs",
-      "thumbnail": "https://i.ytimg.com/vi/eOJHqbN_TAs/maxresdefault.jpg",
-      "publishedAt": "2026-10-12T12:55:08Z",
-      "channelId": "UCv7VutirxDn3RWIJXI68n_A",
-      "channelName": "＝LOVE（イコールラブ）公式チャンネル",
-      "sourceName": "=LOVE オフィシャル",
-      "memberNames": []
-    },
-    {
-      "videoId": "0SQgtf8DzrM",
-      "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #佐々木舞香 #イコラブ #イコールラブ",
-      "url": "https://www.youtube.com/watch?v=0SQgtf8DzrM",
-      "thumbnail": "https://i.ytimg.com/vi/0SQgtf8DzrM/maxresdefault.jpg",
-      "publishedAt": "2026-10-12T12:48:56Z",
-      "channelId": "UCv7VutirxDn3RWIJXI68n_A",
-      "channelName": "＝LOVE（イコールラブ）公式チャンネル",
-      "sourceName": "=LOVE オフィシャル",
-      "memberNames": []
-    },
-    {
-      "videoId": "IE4_1hlE_g4",
-      "title": "ホテルで1人飲みしながら質問に答えたよ",
-      "url": "https://www.youtube.com/watch?v=IE4_1hlE_g4",
-      "thumbnail": "https://i.ytimg.com/vi/IE4_1hlE_g4/maxresdefault.jpg",
-      "publishedAt": "2026-10-11T13:00:17Z",
-      "channelId": "UC0r-2f003yXdV5En7qHlrGw",
-      "channelName": "つんはしご",
-      "sourceName": "諸橋 沙夏",
-      "memberNames": [
-        "諸橋 沙夏"
-      ]
     }
   ]
 }
