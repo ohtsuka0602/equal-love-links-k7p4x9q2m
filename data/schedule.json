@@ -1,16 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-10-14T14:46:06.821Z",
-    "updatedAt": "2026-10-13T20:14:28.272Z"
+    "checkedAt": "2026-10-14T18:34:17.402Z",
+    "updatedAt": "2026-10-14T18:34:17.402Z"
   },
   "schedule": [
-    {
-      "title": "【発売日】＝LOVE 8周年ツアー「...",
-      "date": "2026-10-14",
-      "url": "https://equal-love.jp/schedule/detail/11925",
-      "category": "リリース",
-      "time": ""
-    },
     {
       "title": "株式会社ジェイロック「月刊わんこvo...",
       "date": "2026-10-15",
@@ -71,6 +64,13 @@
       "title": "AT-X「マヂラブ・野口衣織のマヂで...",
       "date": "2026-10-25",
       "url": "https://equal-love.jp/schedule/detail/11927",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "date": "2026-10-26",
+      "url": "https://equal-love.jp/schedule/detail/10448",
       "category": "メディア",
       "time": ""
     }

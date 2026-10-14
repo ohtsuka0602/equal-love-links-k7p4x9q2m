@@ -1,23 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-10-14T14:46:07.027Z",
-    "updatedAt": "2026-10-14T14:01:38.920Z",
+    "checkedAt": "2026-10-14T18:34:17.533Z",
+    "updatedAt": "2026-10-14T18:34:17.533Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/11925": {
-        "hash": "ff1a03468e0ce0e47a469c3a4a97f2aa95edfabdd050871ac9eeffbbd0002ea6",
-        "item": {
-          "title": "【発売日】＝LOVE 8周年ツアー「...",
-          "date": "2026-10-14",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11925",
-          "category": "リリース"
-        }
-      },
       "https://equal-love.jp/schedule/detail/11874": {
         "hash": "6dfb1457e863a97306c7139e982a2aa92176a84c3684df601903b11f5e4d272e",
         "item": {
@@ -105,6 +95,16 @@
           "date": "2026-10-25",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11927",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10448": {
+        "hash": "34cf3a2001f97ebaffed283930423d81f6524500de616bf708f7deac4908e7f4",
+        "item": {
+          "title": "ニッポン放送「＝LOVEのイコラフ」",
+          "date": "2026-10-26",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10448",
           "category": "メディア"
         }
       }
@@ -499,6 +499,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10448:34cf3a2001f9",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-14T18:34:17.533Z",
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "url": "https://equal-love.jp/schedule/detail/10448",
+      "date": "2026-10-26",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12239:eb4197e4fcb2",
       "type": "news",
@@ -1698,18 +1710,6 @@
       "url": "https://sp.equal-love.jp/news/detail/11962",
       "date": "2026-09-17",
       "category": "グッズ",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/11961:018ceb2d1ccd",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-09-17T13:47:02.951Z",
-      "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」テラススイート席＆ステージ見切れ席＆ステージバック席販売決定・FC販売受付開始のお知らせ",
-      "url": "https://sp.equal-love.jp/news/detail/11961",
-      "date": "2026-09-17",
-      "category": "ライブ/イベント",
       "memberNames": [],
       "sourceName": ""
     }
