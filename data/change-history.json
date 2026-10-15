@@ -1,53 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-10-15T14:45:25.551Z",
-    "updatedAt": "2026-10-15T02:43:53.616Z",
+    "checkedAt": "2026-10-15T18:15:16.083Z",
+    "updatedAt": "2026-10-15T18:15:16.083Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/12173": {
-        "hash": "b13df61fa56a569b499e0d7d748bcfbd82090ae201cccafd008afaeacf6b081b",
-        "item": {
-          "title": "双葉社「EX大衆11月号」※大場花菜",
-          "date": "2026-10-15",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12173",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11616": {
-        "hash": "4db30d9a30dcbf3f00639be49c93df791b6b52a275f66b5e593a85c4362ef689",
-        "item": {
-          "title": "＝LOVE 9周年コンサート「＝LO...",
-          "date": "2026-10-15",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11616",
-          "category": "ライブ/イベント"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11453": {
-        "hash": "231532f877b7f6f5f683b14387c650d08e58a6ba73c402b101e96c4de15d8773",
-        "item": {
-          "title": "フジテレビ ONE「プロ野球ニュース...",
-          "date": "2026-10-15",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11453",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11874": {
-        "hash": "6dfb1457e863a97306c7139e982a2aa92176a84c3684df601903b11f5e4d272e",
-        "item": {
-          "title": "株式会社ジェイロック「月刊わんこvo...",
-          "date": "2026-10-15",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11874",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/10742": {
         "hash": "43b6081bdfbb31d100b3be9e3cc9c7d2aca26bf3c76a59f94996e1cdf5d84ab0",
         "item": {
@@ -105,6 +65,46 @@
           "date": "2026-10-23",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10743",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11927": {
+        "hash": "f1a582d91a8d966a82157813bae1d61e91c5150c55fe73fd45538c41ac14141e",
+        "item": {
+          "title": "AT-X「マヂラブ・野口衣織のマヂで...",
+          "date": "2026-10-25",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11927",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10448": {
+        "hash": "34cf3a2001f97ebaffed283930423d81f6524500de616bf708f7deac4908e7f4",
+        "item": {
+          "title": "ニッポン放送「＝LOVEのイコラフ」",
+          "date": "2026-10-26",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10448",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12249": {
+        "hash": "0afb87d5c30f30d6814c3b00c3d889755de1e54a76329ed8a6782e06e136c7d1",
+        "item": {
+          "title": "日本マクドナルド サイドメニュー「ザ...",
+          "date": "2026-10-27",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12249",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10500": {
+        "hash": "5756b5ccdaa2f4ffec7db23e23ba42307eeab91e6a61e2705d0d344361d42d26",
+        "item": {
+          "title": "SHOWROOM『＝LOVE 山本杏...",
+          "date": "2026-10-29",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10500",
           "category": "メディア"
         }
       }
@@ -499,6 +499,30 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12249:0afb87d5c30f",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-15T18:15:16.083Z",
+      "title": "日本マクドナルド サイドメニュー「ザ...",
+      "url": "https://equal-love.jp/schedule/detail/12249",
+      "date": "2026-10-27",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10500:5756b5ccdaa2",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-15T18:15:16.083Z",
+      "title": "SHOWROOM『＝LOVE 山本杏...",
+      "url": "https://equal-love.jp/schedule/detail/10500",
+      "date": "2026-10-29",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12173:b13df61fa56a",
       "type": "schedule",
@@ -1686,32 +1710,6 @@
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/11963:04d56dc98208",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-09-18T13:09:42.536Z",
-      "title": "【＝LOVE Official Fan Club】瀧脇笙古バースデーコンテンツ更新！",
-      "url": "https://sp.equal-love.jp/news/detail/11963",
-      "date": "2026-09-18",
-      "category": "お知らせ",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "youtube:added:ize6U5etOGo:9c66ffb08d8c",
-      "type": "youtube",
-      "action": "added",
-      "occurredAt": "2026-09-18T13:09:42.536Z",
-      "title": "みりにゃのポーチの中身紹介 #shorts",
-      "url": "https://www.youtube.com/watch?v=ize6U5etOGo",
-      "date": "2026-09-18T09:19:11Z",
-      "category": "",
-      "memberNames": [
-        "大谷 映美里"
-      ],
-      "sourceName": "大谷 映美里"
     }
   ]
 }
