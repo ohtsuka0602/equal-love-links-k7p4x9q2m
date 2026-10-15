@@ -1,20 +1,20 @@
 {
   "meta": {
-    "checkedAt": "2026-10-14T23:27:29.451Z",
-    "updatedAt": "2026-10-14T18:34:17.533Z",
+    "checkedAt": "2026-10-15T02:43:53.616Z",
+    "updatedAt": "2026-10-15T02:43:53.616Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/11874": {
-        "hash": "6dfb1457e863a97306c7139e982a2aa92176a84c3684df601903b11f5e4d272e",
+      "https://equal-love.jp/schedule/detail/12173": {
+        "hash": "b13df61fa56a569b499e0d7d748bcfbd82090ae201cccafd008afaeacf6b081b",
         "item": {
-          "title": "株式会社ジェイロック「月刊わんこvo...",
+          "title": "双葉社「EX大衆11月号」※大場花菜",
           "date": "2026-10-15",
           "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11874",
+          "url": "https://equal-love.jp/schedule/detail/12173",
           "category": "メディア"
         }
       },
@@ -26,6 +26,26 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11616",
           "category": "ライブ/イベント"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11453": {
+        "hash": "231532f877b7f6f5f683b14387c650d08e58a6ba73c402b101e96c4de15d8773",
+        "item": {
+          "title": "フジテレビ ONE「プロ野球ニュース...",
+          "date": "2026-10-15",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11453",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11874": {
+        "hash": "6dfb1457e863a97306c7139e982a2aa92176a84c3684df601903b11f5e4d272e",
+        "item": {
+          "title": "株式会社ジェイロック「月刊わんこvo...",
+          "date": "2026-10-15",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11874",
+          "category": "メディア"
         }
       },
       "https://equal-love.jp/schedule/detail/10742": {
@@ -85,26 +105,6 @@
           "date": "2026-10-23",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10743",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11927": {
-        "hash": "f1a582d91a8d966a82157813bae1d61e91c5150c55fe73fd45538c41ac14141e",
-        "item": {
-          "title": "AT-X「マヂラブ・野口衣織のマヂで...",
-          "date": "2026-10-25",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11927",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/10448": {
-        "hash": "34cf3a2001f97ebaffed283930423d81f6524500de616bf708f7deac4908e7f4",
-        "item": {
-          "title": "ニッポン放送「＝LOVEのイコラフ」",
-          "date": "2026-10-26",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10448",
           "category": "メディア"
         }
       }
@@ -499,6 +499,30 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12173:b13df61fa56a",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-15T02:43:53.616Z",
+      "title": "双葉社「EX大衆11月号」※大場花菜",
+      "url": "https://equal-love.jp/schedule/detail/12173",
+      "date": "2026-10-15",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11453:231532f877b7",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-15T02:43:53.616Z",
+      "title": "フジテレビ ONE「プロ野球ニュース...",
+      "url": "https://equal-love.jp/schedule/detail/11453",
+      "date": "2026-10-15",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/10448:34cf3a2001f9",
       "type": "schedule",
@@ -1688,30 +1712,6 @@
         "大谷 映美里"
       ],
       "sourceName": "大谷 映美里"
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/11938:47d54f1e0fd5",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-09-18T07:37:19.622Z",
-      "title": "【出演情報】フジテレビ「ぽかぽか」※大谷映美里、齋藤樹愛羅、髙松瞳",
-      "url": "https://sp.equal-love.jp/news/detail/11938",
-      "date": "2026-09-18",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/11962:31ffb0011bd3",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-09-17T13:47:02.951Z",
-      "title": "＝LOVE 個別衣装ポーチ(8周年ツアー衣装③)キャンセル分再販のお知らせ",
-      "url": "https://sp.equal-love.jp/news/detail/11962",
-      "date": "2026-09-17",
-      "category": "グッズ",
-      "memberNames": [],
-      "sourceName": ""
     }
   ]
 }

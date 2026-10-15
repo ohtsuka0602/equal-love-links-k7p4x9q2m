@@ -1,13 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-10-14T20:45:44.713Z",
-    "updatedAt": "2026-10-14T18:34:17.402Z"
+    "checkedAt": "2026-10-15T02:43:53.428Z",
+    "updatedAt": "2026-10-15T02:43:53.428Z"
   },
   "schedule": [
     {
-      "title": "株式会社ジェイロック「月刊わんこvo...",
+      "title": "双葉社「EX大衆11月号」※大場花菜",
       "date": "2026-10-15",
-      "url": "https://equal-love.jp/schedule/detail/11874",
+      "url": "https://equal-love.jp/schedule/detail/12173",
       "category": "メディア",
       "time": ""
     },
@@ -16,6 +16,20 @@
       "date": "2026-10-15",
       "url": "https://equal-love.jp/schedule/detail/11616",
       "category": "ライブ/イベント",
+      "time": ""
+    },
+    {
+      "title": "フジテレビ ONE「プロ野球ニュース...",
+      "date": "2026-10-15",
+      "url": "https://equal-love.jp/schedule/detail/11453",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "株式会社ジェイロック「月刊わんこvo...",
+      "date": "2026-10-15",
+      "url": "https://equal-love.jp/schedule/detail/11874",
+      "category": "メディア",
       "time": ""
     },
     {
@@ -57,20 +71,6 @@
       "title": "Artistspoken「イマフレラ...",
       "date": "2026-10-23",
       "url": "https://equal-love.jp/schedule/detail/10743",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "AT-X「マヂラブ・野口衣織のマヂで...",
-      "date": "2026-10-25",
-      "url": "https://equal-love.jp/schedule/detail/11927",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "ニッポン放送「＝LOVEのイコラフ」",
-      "date": "2026-10-26",
-      "url": "https://equal-love.jp/schedule/detail/10448",
       "category": "メディア",
       "time": ""
     }
