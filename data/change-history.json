@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-16T08:45:29.897Z",
-    "updatedAt": "2026-10-16T07:31:13.285Z",
+    "checkedAt": "2026-10-16T13:31:31.064Z",
+    "updatedAt": "2026-10-16T13:31:31.064Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,26 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12274": {
+        "hash": "87b21698417793c77a026d48f31a10829fc1cde649e04978c55d6eeca360889f",
+        "item": {
+          "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」グッズ通販サイトでの販売のお知らせ",
+          "date": "2026-10-16",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12274",
+          "category": "グッズ"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/12275": {
+        "hash": "814ee200eb22eff12df958f4b1be601e67fbec9bb19a72441a7ce5e5056b8e14",
+        "item": {
+          "title": "＝LOVE DOME LIVE in NAGOYA「全ては＝LOVE」開催決定！！",
+          "date": "2026-10-16",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12275",
+          "category": "ライブ/イベント"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12266": {
         "hash": "6639357e79bb0581f1b8a5afe6bce9c87ff2ac5248972f0d44c39610ea3e85a2",
         "item": {
@@ -188,26 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12263",
           "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12260": {
-        "hash": "edbb02acbf8440bcd6691401362ffe75ef2001ceeb0acd5493ad52b26ad508b7",
-        "item": {
-          "title": "＝LOVEデビュー9周年企画 コンサート映像配信決定！",
-          "date": "2026-10-10",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12260",
-          "category": "お知らせ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12253": {
-        "hash": "fd91b1c9a6876b6f99c816d8d030c9b542e0f217f81fd6a3a147d8ef6712646e",
-        "item": {
-          "title": "＝LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～ 一般先行チケット受付開始のお知らせ",
-          "date": "2026-10-09",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12253",
-          "category": "ライブ/イベント"
         }
       }
     },
@@ -499,6 +499,30 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12274:87b216984177",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-16T13:31:31.064Z",
+      "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」グッズ通販サイトでの販売のお知らせ",
+      "url": "https://sp.equal-love.jp/news/detail/12274",
+      "date": "2026-10-16",
+      "category": "グッズ",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12275:814ee200eb22",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-16T13:31:31.064Z",
+      "title": "＝LOVE DOME LIVE in NAGOYA「全ては＝LOVE」開催決定！！",
+      "url": "https://sp.equal-love.jp/news/detail/12275",
+      "date": "2026-10-16",
+      "category": "ライブ/イベント",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12266:6639357e79bb",
       "type": "news",
@@ -1684,30 +1708,6 @@
       "url": "https://equal-love.jp/schedule/detail/11860",
       "date": "2026-09-25",
       "category": "",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/10739:002600affb75",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-09-19T17:16:06.437Z",
-      "title": "Artistspoken「イマフレラ...",
-      "url": "https://equal-love.jp/schedule/detail/10739",
-      "date": "2026-09-25",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/11964:80d1e7051f98",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-09-19T12:41:51.193Z",
-      "title": "＝LOVEデビュー9周年企画 コンサート映像配信決定！",
-      "url": "https://sp.equal-love.jp/news/detail/11964",
-      "date": "2026-09-19",
-      "category": "お知らせ",
       "memberNames": [],
       "sourceName": ""
     }
