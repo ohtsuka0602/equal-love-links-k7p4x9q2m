@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-16T02:45:35.761Z",
-    "updatedAt": "2026-10-15T18:15:16.083Z",
+    "checkedAt": "2026-10-16T07:31:13.285Z",
+    "updatedAt": "2026-10-16T07:31:13.285Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12266": {
+        "hash": "6639357e79bb0581f1b8a5afe6bce9c87ff2ac5248972f0d44c39610ea3e85a2",
+        "item": {
+          "title": "【出演情報】AT-X「マヂラブ・野口衣織のマヂでラブになるTV」#4※野口衣織",
+          "date": "2026-10-16",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12266",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12239": {
         "hash": "eb4197e4fcb2df243ae5ec9d8d89a25d7aea2d0c67c23c207a857050c7979d41",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12253",
           "category": "ライブ/イベント"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12257": {
-        "hash": "56697b30e88e2b3a808c1aefdb5b78fe87d03a0c114fc690937dccfd7d0a70f7",
-        "item": {
-          "title": "「STARフェス」イベント会場にて、＝LOVE映像商品予約抽選会開催決定！",
-          "date": "2026-10-09",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12257",
-          "category": "お知らせ"
         }
       }
     },
@@ -499,6 +499,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12266:6639357e79bb",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-16T07:31:13.285Z",
+      "title": "【出演情報】AT-X「マヂラブ・野口衣織のマヂでラブになるTV」#4※野口衣織",
+      "url": "https://sp.equal-love.jp/news/detail/12266",
+      "date": "2026-10-16",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12249:0afb87d5c30f",
       "type": "schedule",
@@ -1696,18 +1708,6 @@
       "url": "https://sp.equal-love.jp/news/detail/11964",
       "date": "2026-09-19",
       "category": "お知らせ",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11939:1b8670c6c882",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-09-18T17:40:08.142Z",
-      "title": "フジテレビ「ぽかぽか」※大谷映美里、...",
-      "url": "https://equal-love.jp/schedule/detail/11939",
-      "date": "2026-09-22",
-      "category": "メディア",
       "memberNames": [],
       "sourceName": ""
     }
