@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-17T07:11:53.961Z",
-    "updatedAt": "2026-10-16T18:00:46.390Z",
+    "checkedAt": "2026-10-17T08:45:15.711Z",
+    "updatedAt": "2026-10-17T08:45:15.711Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,26 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12273": {
+        "hash": "afa6ca76cc0e936c8d90a23b99df3e774ecd3567033ec7b24f5b432c304a56ed",
+        "item": {
+          "title": "＝LOVEデビュー9周年企画 コンサート映像配信決定！",
+          "date": "2026-10-17",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12273",
+          "category": "お知らせ"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/12272": {
+        "hash": "a163dd871a3e516ec4bc9a8cd79d805f43fc47332c0ebec4ace36724c3261137",
+        "item": {
+          "title": "【出演情報】「evelyn 2026 Winter collection モデル」※音嶋莉沙",
+          "date": "2026-10-17",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12272",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12274": {
         "hash": "87b21698417793c77a026d48f31a10829fc1cde649e04978c55d6eeca360889f",
         "item": {
@@ -188,26 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12259",
           "category": "お知らせ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12261": {
-        "hash": "7dc7b9091395a4bf7fdd7cf6ab24073cd7170d3391a66935808276c421695d03",
-        "item": {
-          "title": "【出演情報】TBS系「CDTVライブ！ライブ！」※＝LOVE",
-          "date": "2026-10-12",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12261",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12263": {
-        "hash": "431dddef36bc87e1ec170f91dda71aec8cd876b518bf4028e5fda24a08fd27de",
-        "item": {
-          "title": "【出演情報】フジテレビ「STARフェス」※＝LOVE",
-          "date": "2026-10-10",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12263",
-          "category": "メディア"
         }
       }
     },
@@ -499,6 +499,30 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12273:afa6ca76cc0e",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-17T08:45:15.711Z",
+      "title": "＝LOVEデビュー9周年企画 コンサート映像配信決定！",
+      "url": "https://sp.equal-love.jp/news/detail/12273",
+      "date": "2026-10-17",
+      "category": "お知らせ",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12272:a163dd871a3e",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-17T08:45:15.711Z",
+      "title": "【出演情報】「evelyn 2026 Winter collection モデル」※音嶋莉沙",
+      "url": "https://sp.equal-love.jp/news/detail/12272",
+      "date": "2026-10-17",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11829:6ff142abf0ab",
       "type": "schedule",
@@ -1683,30 +1707,6 @@
       "title": "MBSラジオ「アッパレやってまーす！...",
       "url": "https://equal-love.jp/schedule/detail/10548",
       "date": "2026-09-26",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/10444:cbb2aa1e566d",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-09-20T17:27:29.616Z",
-      "title": "ニッポン放送「＝LOVEのイコラフ」",
-      "url": "https://equal-love.jp/schedule/detail/10444",
-      "date": "2026-09-28",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11181:c052ca4e548c",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-09-20T02:45:56.709Z",
-      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
-      "url": "https://equal-love.jp/schedule/detail/11181",
-      "date": "2026-09-20",
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""

@@ -1,9 +1,21 @@
 {
   "meta": {
-    "checkedAt": "2026-10-17T07:11:53.801Z",
-    "updatedAt": "2026-10-16T13:31:30.769Z"
+    "checkedAt": "2026-10-17T08:45:15.501Z",
+    "updatedAt": "2026-10-17T08:45:15.501Z"
   },
   "news": [
+    {
+      "title": "＝LOVEデビュー9周年企画 コンサート映像配信決定！",
+      "date": "2026-10-17",
+      "url": "https://sp.equal-love.jp/news/detail/12273",
+      "category": "お知らせ"
+    },
+    {
+      "title": "【出演情報】「evelyn 2026 Winter collection モデル」※音嶋莉沙",
+      "date": "2026-10-17",
+      "url": "https://sp.equal-love.jp/news/detail/12272",
+      "category": "メディア"
+    },
     {
       "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」グッズ通販サイトでの販売のお知らせ",
       "date": "2026-10-16",
@@ -51,18 +63,6 @@
       "date": "2026-10-13",
       "url": "https://sp.equal-love.jp/news/detail/12259",
       "category": "お知らせ"
-    },
-    {
-      "title": "【出演情報】TBS系「CDTVライブ！ライブ！」※＝LOVE",
-      "date": "2026-10-12",
-      "url": "https://sp.equal-love.jp/news/detail/12261",
-      "category": "メディア"
-    },
-    {
-      "title": "【出演情報】フジテレビ「STARフェス」※＝LOVE",
-      "date": "2026-10-10",
-      "url": "https://sp.equal-love.jp/news/detail/12263",
-      "category": "メディア"
     }
   ]
 }
