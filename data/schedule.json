@@ -1,16 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-10-18T14:43:52.554Z",
-    "updatedAt": "2026-10-18T02:43:56.384Z"
+    "checkedAt": "2026-10-18T17:19:53.601Z",
+    "updatedAt": "2026-10-18T17:19:53.601Z"
   },
   "schedule": [
-    {
-      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
-      "date": "2026-10-18",
-      "url": "https://equal-love.jp/schedule/detail/11185",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "ニッポン放送「＝LOVEのイコラフ」",
       "date": "2026-10-19",
@@ -72,6 +65,13 @@
       "date": "2026-10-29",
       "url": "https://equal-love.jp/schedule/detail/10500",
       "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "「MTV VMAJ 2026」※＝L...",
+      "date": "2026-10-29",
+      "url": "https://equal-love.jp/schedule/detail/11829",
+      "category": "ライブ/イベント",
       "time": ""
     }
   ]

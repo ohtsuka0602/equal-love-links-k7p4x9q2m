@@ -1,6 +1,6 @@
 {
   "meta": {
-    "checkedAt": "2026-10-18T14:45:13.175Z",
+    "checkedAt": "2026-10-18T17:19:53.787Z",
     "updatedAt": "2026-10-18T12:47:44.964Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
@@ -8,16 +8,6 @@
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/11185": {
-        "hash": "87e8abd8be66e172f8598fa91472e8db33e1f66e553de46cbe67c2c8a7d1c6cd",
-        "item": {
-          "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
-          "date": "2026-10-18",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11185",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/10447": {
         "hash": "09e7586f12e29d087e76f7c32ef89d07879b89aa66efa2140db0b645898fe539",
         "item": {
@@ -106,6 +96,16 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10500",
           "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11829": {
+        "hash": "6ff142abf0abbb0fae36b534d6a3ff6e8083b141c86a9bc5b4560b715a6b57a4",
+        "item": {
+          "title": "「MTV VMAJ 2026」※＝L...",
+          "date": "2026-10-29",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11829",
+          "category": "ライブ/イベント"
         }
       }
     },
