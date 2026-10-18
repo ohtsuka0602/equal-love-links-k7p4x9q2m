@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-18T08:45:20.194Z",
-    "updatedAt": "2026-10-18T02:43:56.567Z",
+    "checkedAt": "2026-10-18T12:47:44.964Z",
+    "updatedAt": "2026-10-18T12:47:44.964Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -212,6 +212,22 @@
       }
     },
     "youtube": {
+      "ZSkGfov6xak": {
+        "hash": "621b65aa18db55097417dc98deea35409356602076de447053de73da5d644139",
+        "item": {
+          "videoId": "ZSkGfov6xak",
+          "title": "みりにゃ、初めての麻辣湯作り",
+          "url": "https://www.youtube.com/watch?v=ZSkGfov6xak",
+          "thumbnail": "https://i.ytimg.com/vi/ZSkGfov6xak/maxresdefault.jpg",
+          "publishedAt": "2026-10-18T11:00:31Z",
+          "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
+          "channelName": "みりにゃと申します。",
+          "sourceName": "大谷 映美里",
+          "memberNames": [
+            "大谷 映美里"
+          ]
+        }
+      },
       "jr_IEdOX6lc": {
         "hash": "9cc9cf954c45d48d18a18546fe8046f50b7cf796dd47d9ea5cd156f8efb014ec",
         "item": {
@@ -264,20 +280,6 @@
           "url": "https://www.youtube.com/watch?v=97BXESXjdOs",
           "thumbnail": "https://i.ytimg.com/vi/97BXESXjdOs/maxresdefault.jpg",
           "publishedAt": "2026-10-13T13:36:31Z",
-          "channelId": "UCv7VutirxDn3RWIJXI68n_A",
-          "channelName": "＝LOVE（イコールラブ）公式チャンネル",
-          "sourceName": "=LOVE オフィシャル",
-          "memberNames": []
-        }
-      },
-      "czy844ZUvzI": {
-        "hash": "92658bbf6d19e68e8f86e85996fab7b663862b7e1601fa347dfdef4ca70cb849",
-        "item": {
-          "videoId": "czy844ZUvzI",
-          "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #瀧脇笙古 #イコラブ #イコールラブ",
-          "url": "https://www.youtube.com/watch?v=czy844ZUvzI",
-          "thumbnail": "https://i.ytimg.com/vi/czy844ZUvzI/maxresdefault.jpg",
-          "publishedAt": "2026-10-13T13:34:49Z",
           "channelId": "UCv7VutirxDn3RWIJXI68n_A",
           "channelName": "＝LOVE（イコールラブ）公式チャンネル",
           "sourceName": "=LOVE オフィシャル",
@@ -499,6 +501,20 @@
     }
   },
   "history": [
+    {
+      "id": "youtube:added:ZSkGfov6xak:621b65aa18db",
+      "type": "youtube",
+      "action": "added",
+      "occurredAt": "2026-10-18T12:47:44.964Z",
+      "title": "みりにゃ、初めての麻辣湯作り",
+      "url": "https://www.youtube.com/watch?v=ZSkGfov6xak",
+      "date": "2026-10-18T11:00:31Z",
+      "category": "",
+      "memberNames": [
+        "大谷 映美里"
+      ],
+      "sourceName": "大谷 映美里"
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11185:87e8abd8be66",
       "type": "schedule",
@@ -1694,18 +1710,6 @@
       "url": "https://sp.equal-love.jp/news/detail/12105",
       "date": "2026-09-22",
       "category": "グッズ",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/10695:bd1f2e7a0d3e",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-09-22T08:44:22.722Z",
-      "title": "いわき民報連載※諸橋沙夏",
-      "url": "https://equal-love.jp/schedule/detail/10695",
-      "date": "2026-09-22",
-      "category": "メディア",
       "memberNames": [],
       "sourceName": ""
     }
