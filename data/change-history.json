@@ -1,13 +1,23 @@
 {
   "meta": {
-    "checkedAt": "2026-10-17T22:39:22.151Z",
-    "updatedAt": "2026-10-17T08:45:15.711Z",
+    "checkedAt": "2026-10-18T02:43:56.567Z",
+    "updatedAt": "2026-10-18T02:43:56.567Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
+      "https://equal-love.jp/schedule/detail/11185": {
+        "hash": "87e8abd8be66e172f8598fa91472e8db33e1f66e553de46cbe67c2c8a7d1c6cd",
+        "item": {
+          "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
+          "date": "2026-10-18",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11185",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/10447": {
         "hash": "09e7586f12e29d087e76f7c32ef89d07879b89aa66efa2140db0b645898fe539",
         "item": {
@@ -48,6 +58,16 @@
           "category": "メディア"
         }
       },
+      "https://equal-love.jp/schedule/detail/12175": {
+        "hash": "ed1f1c95396363e2426cab1b7f7caa4631c2ee326e7c5686f0f1c495ce315662",
+        "item": {
+          "title": "TELASAオリジナル「アイ=ラブ！...",
+          "date": "2026-10-24",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12175",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/11927": {
         "hash": "f1a582d91a8d966a82157813bae1d61e91c5150c55fe73fd45538c41ac14141e",
         "item": {
@@ -85,26 +105,6 @@
           "date": "2026-10-29",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10500",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11829": {
-        "hash": "6ff142abf0abbb0fae36b534d6a3ff6e8083b141c86a9bc5b4560b715a6b57a4",
-        "item": {
-          "title": "「MTV VMAJ 2026」※＝L...",
-          "date": "2026-10-29",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11829",
-          "category": "ライブ/イベント"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/10744": {
-        "hash": "a98060f99af15cc460f3c72e421f18fd43a366fa01918af183d47b28a30ce115",
-        "item": {
-          "title": "Artistspoken「イマフレラ...",
-          "date": "2026-10-30",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10744",
           "category": "メディア"
         }
       }
@@ -499,6 +499,30 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11185:87e8abd8be66",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-18T02:43:56.567Z",
+      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
+      "url": "https://equal-love.jp/schedule/detail/11185",
+      "date": "2026-10-18",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12175:ed1f1c953963",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-18T02:43:56.567Z",
+      "title": "TELASAオリジナル「アイ=ラブ！...",
+      "url": "https://equal-love.jp/schedule/detail/12175",
+      "date": "2026-10-24",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12273:afa6ca76cc0e",
       "type": "news",
@@ -1681,32 +1705,6 @@
       "title": "いわき民報連載※諸橋沙夏",
       "url": "https://equal-love.jp/schedule/detail/10695",
       "date": "2026-09-22",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "youtube:added:4mX16v7FJ70:0736467025d3",
-      "type": "youtube",
-      "action": "added",
-      "occurredAt": "2026-09-21T14:45:52.337Z",
-      "title": "デニーズ爆食お月見パーティー【爆語り】",
-      "url": "https://www.youtube.com/watch?v=4mX16v7FJ70",
-      "date": "2026-09-21T11:30:22Z",
-      "category": "",
-      "memberNames": [
-        "大谷 映美里"
-      ],
-      "sourceName": "大谷 映美里"
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/10548:f35dee44c25f",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-09-20T17:27:29.616Z",
-      "title": "MBSラジオ「アッパレやってまーす！...",
-      "url": "https://equal-love.jp/schedule/detail/10548",
-      "date": "2026-09-26",
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""

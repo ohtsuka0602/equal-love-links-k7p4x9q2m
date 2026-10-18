@@ -1,9 +1,16 @@
 {
   "meta": {
-    "checkedAt": "2026-10-17T20:44:02.402Z",
-    "updatedAt": "2026-10-16T18:00:46.199Z"
+    "checkedAt": "2026-10-18T02:43:56.384Z",
+    "updatedAt": "2026-10-18T02:43:56.384Z"
   },
   "schedule": [
+    {
+      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
+      "date": "2026-10-18",
+      "url": "https://equal-love.jp/schedule/detail/11185",
+      "category": "メディア",
+      "time": ""
+    },
     {
       "title": "ニッポン放送「＝LOVEのイコラフ」",
       "date": "2026-10-19",
@@ -33,6 +40,13 @@
       "time": ""
     },
     {
+      "title": "TELASAオリジナル「アイ=ラブ！...",
+      "date": "2026-10-24",
+      "url": "https://equal-love.jp/schedule/detail/12175",
+      "category": "メディア",
+      "time": ""
+    },
+    {
       "title": "AT-X「マヂラブ・野口衣織のマヂで...",
       "date": "2026-10-25",
       "url": "https://equal-love.jp/schedule/detail/11927",
@@ -57,20 +71,6 @@
       "title": "SHOWROOM『＝LOVE 山本杏...",
       "date": "2026-10-29",
       "url": "https://equal-love.jp/schedule/detail/10500",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "「MTV VMAJ 2026」※＝L...",
-      "date": "2026-10-29",
-      "url": "https://equal-love.jp/schedule/detail/11829",
-      "category": "ライブ/イベント",
-      "time": ""
-    },
-    {
-      "title": "Artistspoken「イマフレラ...",
-      "date": "2026-10-30",
-      "url": "https://equal-love.jp/schedule/detail/10744",
       "category": "メディア",
       "time": ""
     }
