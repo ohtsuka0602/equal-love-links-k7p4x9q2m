@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-19T08:05:10.635Z",
-    "updatedAt": "2026-10-18T12:47:44.964Z",
+    "checkedAt": "2026-10-19T08:44:45.021Z",
+    "updatedAt": "2026-10-19T08:44:45.021Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12281": {
+        "hash": "6836c7329077f0ed94cfea07d63e714f9305a7ad5e19d63ab5c1eb21dd87ec88",
+        "item": {
+          "title": "＝LOVE STADIUM LIVE「Beyond \"KYUN\"♡」 映像商品発売決定！",
+          "date": "2026-10-19",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12281",
+          "category": "リリース"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12273": {
         "hash": "afa6ca76cc0e936c8d90a23b99df3e774ecd3567033ec7b24f5b432c304a56ed",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12269",
           "category": "ライブ/イベント"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12259": {
-        "hash": "11ce80782d1e80b0253c05741f17626bb7154d7fef8914c4a0cbce6e4a7feebb",
-        "item": {
-          "title": "10月14日（水）～10月20日（火）まで西武新宿駅前のユニカビジョンで＝LOVE 特集が放映されます！",
-          "date": "2026-10-13",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12259",
-          "category": "お知らせ"
         }
       }
     },
@@ -501,6 +501,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12281:6836c7329077",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-19T08:44:45.021Z",
+      "title": "＝LOVE STADIUM LIVE「Beyond \"KYUN\"♡」 映像商品発売決定！",
+      "url": "https://sp.equal-love.jp/news/detail/12281",
+      "date": "2026-10-19",
+      "category": "リリース",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "youtube:added:ZSkGfov6xak:621b65aa18db",
       "type": "youtube",
@@ -1700,18 +1712,6 @@
       "category": "",
       "memberNames": [],
       "sourceName": "=LOVE オフィシャル"
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12105:2b14eff438b3",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-09-22T08:45:54.265Z",
-      "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」プレミアムチケットグッズのお知らせ",
-      "url": "https://sp.equal-love.jp/news/detail/12105",
-      "date": "2026-09-22",
-      "category": "グッズ",
-      "memberNames": [],
-      "sourceName": ""
     }
   ]
 }
