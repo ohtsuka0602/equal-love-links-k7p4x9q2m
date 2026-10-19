@@ -1,33 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-10-19T15:52:03.419Z",
-    "updatedAt": "2026-10-19T08:44:45.021Z",
+    "checkedAt": "2026-10-19T19:53:28.323Z",
+    "updatedAt": "2026-10-19T19:53:28.323Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/10447": {
-        "hash": "09e7586f12e29d087e76f7c32ef89d07879b89aa66efa2140db0b645898fe539",
-        "item": {
-          "title": "ニッポン放送「＝LOVEのイコラフ」",
-          "date": "2026-10-19",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10447",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12262": {
-        "hash": "72db3571a2a8121714f06f4ae7c44d073a1bc528a2051689235df5c0ab86535b",
-        "item": {
-          "title": "TBS系「CDTVライブ！ライブ！」...",
-          "date": "2026-10-19",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12262",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/11083": {
         "hash": "88c057912d007b5d902b84d47f1787c0a064e15ee3c624cde903dd26d211cee4",
         "item": {
@@ -106,6 +86,26 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11829",
           "category": "ライブ/イベント"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10744": {
+        "hash": "a98060f99af15cc460f3c72e421f18fd43a366fa01918af183d47b28a30ce115",
+        "item": {
+          "title": "Artistspoken「イマフレラ...",
+          "date": "2026-10-30",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10744",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12264": {
+        "hash": "d639c1d1e62c1250fd08f3b9fba7b0598e6f19c8917529ec27d37000b8330957",
+        "item": {
+          "title": "フジテレビ「STARフェス」※＝LO...",
+          "date": "2026-10-31",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12264",
+          "category": "メディア"
         }
       }
     },
@@ -501,6 +501,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12264:d639c1d1e62c",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-19T19:53:28.323Z",
+      "title": "フジテレビ「STARフェス」※＝LO...",
+      "url": "https://equal-love.jp/schedule/detail/12264",
+      "date": "2026-10-31",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12281:6836c7329077",
       "type": "news",
@@ -1700,18 +1712,6 @@
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""
-    },
-    {
-      "id": "youtube:added:CRHXjLot5r4:d945dd73c4a4",
-      "type": "youtube",
-      "action": "added",
-      "occurredAt": "2026-09-23T07:58:15.949Z",
-      "title": "“사랑、시작했습니다(Korean ver.)” 음원 공개가 시작되었습니다! 💘「恋、はじめました。」(Korean ver.)ぜひお聴きください！#인기가요 #人気歌謡#이코러브",
-      "url": "https://www.youtube.com/watch?v=CRHXjLot5r4",
-      "date": "2026-09-23T04:11:46Z",
-      "category": "",
-      "memberNames": [],
-      "sourceName": "=LOVE オフィシャル"
     }
   ]
 }
