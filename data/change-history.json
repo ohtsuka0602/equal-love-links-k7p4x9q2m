@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-20T08:44:05.676Z",
-    "updatedAt": "2026-10-20T08:44:05.676Z",
+    "checkedAt": "2026-10-20T08:45:27.672Z",
+    "updatedAt": "2026-10-20T08:45:27.672Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,26 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12284": {
+        "hash": "3edd219994302be716f26b7932b124d2af3e770902b5d161529d8cf9bd6d116c",
+        "item": {
+          "title": "【掲載情報】KADOKAWA「LoveLive!Days 2026年12月号増刊 LoveLive! Series 15th Anniversary SPECIAL」※齋藤樹愛羅",
+          "date": "2026-10-20",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12284",
+          "category": "メディア"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/12286": {
+        "hash": "738a5057b0f0945573e5a45bd2bd2e99215b212b8d2df6a4c4e502d283c8fa82",
+        "item": {
+          "title": "【出演情報】日本マクドナルド『ザクザクジューシーマック』のWebCMに佐々木舞香の出演が決定しました！",
+          "date": "2026-10-20",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12286",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12283": {
         "hash": "1d9b10c6419e5cb4dc6db184594b3f1590e9f5fc81279d82fbe0003473517463",
         "item": {
@@ -188,26 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12239",
           "category": "お知らせ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12265": {
-        "hash": "99b476c2804296393fb058096f2f575d24ae0c10bdd8308693b846e40f53c2cc",
-        "item": {
-          "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」ライブ会場にて、＝LOVE CD＆映像商品購入抽選会開催決定！",
-          "date": "2026-10-13",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12265",
-          "category": "お知らせ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12268": {
-        "hash": "28ccbbee7749366ba98e95d602cbeba384611aeb2ce166a8b424667bf081c68d",
-        "item": {
-          "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」オリジナルラッピングキッチンカーの出店が決定！",
-          "date": "2026-10-13",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12268",
-          "category": "ライブ/イベント"
         }
       }
     },
@@ -501,6 +501,30 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12284:3edd21999430",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-20T08:45:27.672Z",
+      "title": "【掲載情報】KADOKAWA「LoveLive!Days 2026年12月号増刊 LoveLive! Series 15th Anniversary SPECIAL」※齋藤樹愛羅",
+      "url": "https://sp.equal-love.jp/news/detail/12284",
+      "date": "2026-10-20",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12286:738a5057b0f0",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-20T08:45:27.672Z",
+      "title": "【出演情報】日本マクドナルド『ザクザクジューシーマック』のWebCMに佐々木舞香の出演が決定しました！",
+      "url": "https://sp.equal-love.jp/news/detail/12286",
+      "date": "2026-10-20",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12285:f4df19d78e40",
       "type": "schedule",
@@ -1686,30 +1710,6 @@
       "url": "https://sp.equal-love.jp/news/detail/12162",
       "date": "2026-09-28",
       "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11182:0fca065490e9",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-09-27T02:46:11.228Z",
-      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
-      "url": "https://equal-love.jp/schedule/detail/11182",
-      "date": "2026-09-27",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12163:ec5d0d4b9e7d",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-09-26T08:00:12.801Z",
-      "title": "＝LOVEデビュー9周年企画 コンサート映像配信決定！",
-      "url": "https://sp.equal-love.jp/news/detail/12163",
-      "date": "2026-09-26",
-      "category": "お知らせ",
       "memberNames": [],
       "sourceName": ""
     }
