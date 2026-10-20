@@ -1,13 +1,23 @@
 {
   "meta": {
-    "checkedAt": "2026-10-20T02:44:32.760Z",
-    "updatedAt": "2026-10-20T02:44:32.760Z",
+    "checkedAt": "2026-10-20T02:45:13.587Z",
+    "updatedAt": "2026-10-20T02:45:13.587Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
+      "https://equal-love.jp/schedule/detail/11741": {
+        "hash": "c47584dfc2d956d4cdfbb9acc2a094e8e231de5a63823f6488e299a05820b394",
+        "item": {
+          "title": "TOKYO FM「Hand in H...",
+          "date": "2026-10-20",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11741",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/11083": {
         "hash": "88c057912d007b5d902b84d47f1787c0a064e15ee3c624cde903dd26d211cee4",
         "item": {
@@ -68,16 +78,6 @@
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/10500": {
-        "hash": "5756b5ccdaa2f4ffec7db23e23ba42307eeab91e6a61e2705d0d344361d42d26",
-        "item": {
-          "title": "SHOWROOM『＝LOVE 山本杏...",
-          "date": "2026-10-29",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10500",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/11829": {
         "hash": "6ff142abf0abbb0fae36b534d6a3ff6e8083b141c86a9bc5b4560b715a6b57a4",
         "item": {
@@ -88,6 +88,16 @@
           "category": "ライブ/イベント"
         }
       },
+      "https://equal-love.jp/schedule/detail/10500": {
+        "hash": "5756b5ccdaa2f4ffec7db23e23ba42307eeab91e6a61e2705d0d344361d42d26",
+        "item": {
+          "title": "SHOWROOM『＝LOVE 山本杏...",
+          "date": "2026-10-29",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10500",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/10744": {
         "hash": "a98060f99af15cc460f3c72e421f18fd43a366fa01918af183d47b28a30ce115",
         "item": {
@@ -95,16 +105,6 @@
           "date": "2026-10-30",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10744",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12264": {
-        "hash": "d639c1d1e62c1250fd08f3b9fba7b0598e6f19c8917529ec27d37000b8330957",
-        "item": {
-          "title": "フジテレビ「STARフェス」※＝LO...",
-          "date": "2026-10-31",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12264",
           "category": "メディア"
         }
       }
@@ -501,6 +501,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11741:c47584dfc2d9",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-20T02:45:13.587Z",
+      "title": "TOKYO FM「Hand in H...",
+      "url": "https://equal-love.jp/schedule/detail/11741",
+      "date": "2026-10-20",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12283:1d9b10c6419e",
       "type": "news",
@@ -1697,18 +1709,6 @@
       "title": "テレビ朝日「アイ=ラブ！げーみんぐ ...",
       "url": "https://equal-love.jp/schedule/detail/10676",
       "date": "2026-09-26",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/11082:64ab9bae07ef",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-09-25T02:44:59.606Z",
-      "title": "【掲載情報】集英社「MYOJO 12月号」※佐々木舞香",
-      "url": "https://sp.equal-love.jp/news/detail/11082",
-      "date": "2026-09-25",
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""

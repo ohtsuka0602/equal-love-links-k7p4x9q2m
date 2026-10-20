@@ -1,9 +1,16 @@
 {
   "meta": {
-    "checkedAt": "2026-10-19T20:45:09.969Z",
-    "updatedAt": "2026-10-19T19:53:28.123Z"
+    "checkedAt": "2026-10-20T02:45:13.394Z",
+    "updatedAt": "2026-10-20T02:45:13.394Z"
   },
   "schedule": [
+    {
+      "title": "TOKYO FM「Hand in H...",
+      "date": "2026-10-20",
+      "url": "https://equal-love.jp/schedule/detail/11741",
+      "category": "メディア",
+      "time": ""
+    },
     {
       "title": "集英社「MYOJO 12月号」※佐々...",
       "date": "2026-10-22",
@@ -47,13 +54,6 @@
       "time": ""
     },
     {
-      "title": "SHOWROOM『＝LOVE 山本杏...",
-      "date": "2026-10-29",
-      "url": "https://equal-love.jp/schedule/detail/10500",
-      "category": "メディア",
-      "time": ""
-    },
-    {
       "title": "「MTV VMAJ 2026」※＝L...",
       "date": "2026-10-29",
       "url": "https://equal-love.jp/schedule/detail/11829",
@@ -61,16 +61,16 @@
       "time": ""
     },
     {
-      "title": "Artistspoken「イマフレラ...",
-      "date": "2026-10-30",
-      "url": "https://equal-love.jp/schedule/detail/10744",
+      "title": "SHOWROOM『＝LOVE 山本杏...",
+      "date": "2026-10-29",
+      "url": "https://equal-love.jp/schedule/detail/10500",
       "category": "メディア",
       "time": ""
     },
     {
-      "title": "フジテレビ「STARフェス」※＝LO...",
-      "date": "2026-10-31",
-      "url": "https://equal-love.jp/schedule/detail/12264",
+      "title": "Artistspoken「イマフレラ...",
+      "date": "2026-10-30",
+      "url": "https://equal-love.jp/schedule/detail/10744",
       "category": "メディア",
       "time": ""
     }
