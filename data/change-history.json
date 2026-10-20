@@ -1,6 +1,6 @@
 {
   "meta": {
-    "checkedAt": "2026-10-20T14:45:15.849Z",
+    "checkedAt": "2026-10-20T18:27:07.037Z",
     "updatedAt": "2026-10-20T08:45:27.672Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
@@ -8,16 +8,6 @@
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/11741": {
-        "hash": "c47584dfc2d956d4cdfbb9acc2a094e8e231de5a63823f6488e299a05820b394",
-        "item": {
-          "title": "TOKYO FM「Hand in H...",
-          "date": "2026-10-20",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11741",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/11083": {
         "hash": "88c057912d007b5d902b84d47f1787c0a064e15ee3c624cde903dd26d211cee4",
         "item": {
@@ -105,6 +95,16 @@
           "date": "2026-10-29",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12285",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10744": {
+        "hash": "a98060f99af15cc460f3c72e421f18fd43a366fa01918af183d47b28a30ce115",
+        "item": {
+          "title": "Artistspoken「イマフレラ...",
+          "date": "2026-10-30",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10744",
           "category": "メディア"
         }
       }
