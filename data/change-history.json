@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-19T23:56:20.816Z",
-    "updatedAt": "2026-10-19T19:53:28.323Z",
+    "checkedAt": "2026-10-20T02:44:32.760Z",
+    "updatedAt": "2026-10-20T02:44:32.760Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12283": {
+        "hash": "1d9b10c6419e5cb4dc6db184594b3f1590e9f5fc81279d82fbe0003473517463",
+        "item": {
+          "title": "【出演情報】日本マクドナルドの新たなレギュラーメニュー『390ペア』のWebCMに髙松瞳の出演が決定しました！",
+          "date": "2026-10-20",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12283",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12281": {
         "hash": "6836c7329077f0ed94cfea07d63e714f9305a7ad5e19d63ab5c1eb21dd87ec88",
         "item": {
@@ -197,16 +207,6 @@
           "date": "2026-10-13",
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12268",
-          "category": "ライブ/イベント"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12269": {
-        "hash": "18c9b16aec208f686cb002628eafbf0aaf531a765bb35d9668d2e5b5021af70a",
-        "item": {
-          "title": "＝LOVE in TOKYO DOME FC最速先行(会員＋会員)チケット受付開始のお知らせ",
-          "date": "2026-10-13",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12269",
           "category": "ライブ/イベント"
         }
       }
@@ -501,6 +501,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12283:1d9b10c6419e",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-20T02:44:32.760Z",
+      "title": "【出演情報】日本マクドナルドの新たなレギュラーメニュー『390ペア』のWebCMに髙松瞳の出演が決定しました！",
+      "url": "https://sp.equal-love.jp/news/detail/12283",
+      "date": "2026-10-20",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12264:d639c1d1e62c",
       "type": "schedule",
@@ -1697,18 +1709,6 @@
       "title": "【掲載情報】集英社「MYOJO 12月号」※佐々木舞香",
       "url": "https://sp.equal-love.jp/news/detail/11082",
       "date": "2026-09-25",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11450:f54e09c1367b",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-09-24T02:45:40.406Z",
-      "title": "フジテレビ ONE「プロ野球ニュース...",
-      "url": "https://equal-love.jp/schedule/detail/11450",
-      "date": "2026-09-24",
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""
