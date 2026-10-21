@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-10-20T23:24:08.984Z",
-    "updatedAt": "2026-10-20T08:45:27.469Z"
+    "checkedAt": "2026-10-21T02:45:24.396Z",
+    "updatedAt": "2026-10-21T02:45:24.396Z"
   },
   "news": [
+    {
+      "title": "【掲載情報】小学館「CanCam 12月号」※大谷映美里、髙松瞳",
+      "date": "2026-10-21",
+      "url": "https://sp.equal-love.jp/news/detail/12233",
+      "category": "メディア"
+    },
     {
       "title": "【掲載情報】KADOKAWA「LoveLive!Days 2026年12月号増刊 LoveLive! Series 15th Anniversary SPECIAL」※齋藤樹愛羅",
       "date": "2026-10-20",
@@ -57,12 +63,6 @@
       "date": "2026-10-16",
       "url": "https://sp.equal-love.jp/news/detail/12266",
       "category": "メディア"
-    },
-    {
-      "title": "【＝LOVE Official Fan Club】諸橋沙夏・音嶋莉沙バースデーコンテンツ更新！",
-      "date": "2026-10-14",
-      "url": "https://sp.equal-love.jp/news/detail/12239",
-      "category": "お知らせ"
     }
   ]
 }
