@@ -1,13 +1,20 @@
 {
   "meta": {
-    "checkedAt": "2026-10-20T20:45:24.498Z",
-    "updatedAt": "2026-10-20T18:27:06.902Z"
+    "checkedAt": "2026-10-21T02:43:54.126Z",
+    "updatedAt": "2026-10-21T02:43:54.126Z"
   },
   "schedule": [
     {
       "title": "集英社「MYOJO 12月号」※佐々...",
       "date": "2026-10-22",
       "url": "https://equal-love.jp/schedule/detail/11083",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "小学館「CanCam 12月号」※大...",
+      "date": "2026-10-23",
+      "url": "https://equal-love.jp/schedule/detail/12234",
       "category": "メディア",
       "time": ""
     },
@@ -47,13 +54,6 @@
       "time": ""
     },
     {
-      "title": "「MTV VMAJ 2026」※＝L...",
-      "date": "2026-10-29",
-      "url": "https://equal-love.jp/schedule/detail/11829",
-      "category": "ライブ/イベント",
-      "time": ""
-    },
-    {
       "title": "SHOWROOM『＝LOVE 山本杏...",
       "date": "2026-10-29",
       "url": "https://equal-love.jp/schedule/detail/10500",
@@ -61,16 +61,16 @@
       "time": ""
     },
     {
-      "title": "KADOKAWA「LoveLive!...",
+      "title": "「MTV VMAJ 2026」※＝L...",
       "date": "2026-10-29",
-      "url": "https://equal-love.jp/schedule/detail/12285",
-      "category": "メディア",
+      "url": "https://equal-love.jp/schedule/detail/11829",
+      "category": "ライブ/イベント",
       "time": ""
     },
     {
-      "title": "Artistspoken「イマフレラ...",
-      "date": "2026-10-30",
-      "url": "https://equal-love.jp/schedule/detail/10744",
+      "title": "KADOKAWA「LoveLive!...",
+      "date": "2026-10-29",
+      "url": "https://equal-love.jp/schedule/detail/12285",
       "category": "メディア",
       "time": ""
     }

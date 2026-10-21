@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-20T23:24:09.154Z",
-    "updatedAt": "2026-10-20T08:45:27.672Z",
+    "checkedAt": "2026-10-21T02:43:54.320Z",
+    "updatedAt": "2026-10-21T02:43:54.320Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -15,6 +15,16 @@
           "date": "2026-10-22",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11083",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12234": {
+        "hash": "509303893a510116ac5d367708edeb4a337417bcfca3cf57e96de25c4845d138",
+        "item": {
+          "title": "小学館「CanCam 12月号」※大...",
+          "date": "2026-10-23",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12234",
           "category": "メディア"
         }
       },
@@ -68,16 +78,6 @@
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/11829": {
-        "hash": "6ff142abf0abbb0fae36b534d6a3ff6e8083b141c86a9bc5b4560b715a6b57a4",
-        "item": {
-          "title": "「MTV VMAJ 2026」※＝L...",
-          "date": "2026-10-29",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11829",
-          "category": "ライブ/イベント"
-        }
-      },
       "https://equal-love.jp/schedule/detail/10500": {
         "hash": "5756b5ccdaa2f4ffec7db23e23ba42307eeab91e6a61e2705d0d344361d42d26",
         "item": {
@@ -88,6 +88,16 @@
           "category": "メディア"
         }
       },
+      "https://equal-love.jp/schedule/detail/11829": {
+        "hash": "6ff142abf0abbb0fae36b534d6a3ff6e8083b141c86a9bc5b4560b715a6b57a4",
+        "item": {
+          "title": "「MTV VMAJ 2026」※＝L...",
+          "date": "2026-10-29",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11829",
+          "category": "ライブ/イベント"
+        }
+      },
       "https://equal-love.jp/schedule/detail/12285": {
         "hash": "f4df19d78e402a010bc3eb42ed827d7572936c78b9830e96b53164ba0559f152",
         "item": {
@@ -95,16 +105,6 @@
           "date": "2026-10-29",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12285",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/10744": {
-        "hash": "a98060f99af15cc460f3c72e421f18fd43a366fa01918af183d47b28a30ce115",
-        "item": {
-          "title": "Artistspoken「イマフレラ...",
-          "date": "2026-10-30",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10744",
           "category": "メディア"
         }
       }
@@ -501,6 +501,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12234:509303893a51",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-21T02:43:54.320Z",
+      "title": "小学館「CanCam 12月号」※大...",
+      "url": "https://equal-love.jp/schedule/detail/12234",
+      "date": "2026-10-23",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12284:3edd21999430",
       "type": "news",
@@ -1698,18 +1710,6 @@
       "url": "https://sp.equal-love.jp/news/detail/12171",
       "date": "2026-09-28",
       "category": "ライブ/イベント",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12162:6e5e41176c84",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-09-28T08:45:31.980Z",
-      "title": "【出演情報】TVアニメ「放課後のアイドルには秘密がある」に赤井さくら役として野口衣織の出演が決定！",
-      "url": "https://sp.equal-love.jp/news/detail/12162",
-      "date": "2026-09-28",
-      "category": "メディア",
       "memberNames": [],
       "sourceName": ""
     }
