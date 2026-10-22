@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-10-22T08:45:09.742Z",
-    "updatedAt": "2026-10-22T07:58:29.019Z"
+    "checkedAt": "2026-10-22T14:18:20.852Z",
+    "updatedAt": "2026-10-22T14:18:20.852Z"
   },
   "news": [
+    {
+      "title": "生写真セット(「恋、はじめました。」MV衣装)発売！",
+      "date": "2026-10-22",
+      "url": "https://sp.equal-love.jp/news/detail/12293",
+      "category": "グッズ"
+    },
     {
       "title": "【重要】緊急メンテナンス終了およびサービス再開のお知らせ",
       "date": "2026-10-22",
@@ -57,12 +63,6 @@
       "date": "2026-10-19",
       "url": "https://sp.equal-love.jp/news/detail/12281",
       "category": "リリース"
-    },
-    {
-      "title": "＝LOVEデビュー9周年企画 コンサート映像配信決定！",
-      "date": "2026-10-17",
-      "url": "https://sp.equal-love.jp/news/detail/12273",
-      "category": "お知らせ"
     }
   ]
 }

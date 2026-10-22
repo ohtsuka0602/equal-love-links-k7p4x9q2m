@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-22T08:45:09.900Z",
-    "updatedAt": "2026-10-22T08:43:45.839Z",
+    "checkedAt": "2026-10-22T14:18:21.073Z",
+    "updatedAt": "2026-10-22T14:18:21.073Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12293": {
+        "hash": "5175ae637b7d3cddee81a95b934ee10a47915cd6e97f3683d0c2314340829e31",
+        "item": {
+          "title": "生写真セット(「恋、はじめました。」MV衣装)発売！",
+          "date": "2026-10-22",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12293",
+          "category": "グッズ"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12294": {
         "hash": "1dc371ad16fc809dc1126f8ac8525785e838bd01fb751e52d3f635455d3e6234",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12281",
           "category": "リリース"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12273": {
-        "hash": "afa6ca76cc0e936c8d90a23b99df3e774ecd3567033ec7b24f5b432c304a56ed",
-        "item": {
-          "title": "＝LOVEデビュー9周年企画 コンサート映像配信決定！",
-          "date": "2026-10-17",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12273",
-          "category": "お知らせ"
         }
       }
     },
@@ -501,6 +501,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12293:5175ae637b7d",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-22T14:18:21.073Z",
+      "title": "生写真セット(「恋、はじめました。」MV衣装)発売！",
+      "url": "https://sp.equal-love.jp/news/detail/12293",
+      "date": "2026-10-22",
+      "category": "グッズ",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11454:3f07a8b8d476",
       "type": "schedule",
@@ -1694,18 +1706,6 @@
       "url": "https://equal-love.jp/schedule/detail/10446",
       "date": "2026-10-12",
       "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11925:ff1a03468e0c",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-01T02:45:30.107Z",
-      "title": "【発売日】＝LOVE 8周年ツアー「...",
-      "url": "https://equal-love.jp/schedule/detail/11925",
-      "date": "2026-10-14",
-      "category": "リリース",
       "memberNames": [],
       "sourceName": ""
     }
