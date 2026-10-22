@@ -1,13 +1,23 @@
 {
   "meta": {
-    "checkedAt": "2026-10-22T07:58:29.151Z",
-    "updatedAt": "2026-10-22T07:58:29.151Z",
+    "checkedAt": "2026-10-22T08:43:45.839Z",
+    "updatedAt": "2026-10-22T08:43:45.839Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
+      "https://equal-love.jp/schedule/detail/11454": {
+        "hash": "3f07a8b8d4767ba4a6fc161ae55cffe8d10df14c083dd39e01574167a57f750b",
+        "item": {
+          "title": "フジテレビ ONE「プロ野球ニュース...",
+          "date": "2026-10-22",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11454",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/11083": {
         "hash": "88c057912d007b5d902b84d47f1787c0a064e15ee3c624cde903dd26d211cee4",
         "item": {
@@ -68,6 +78,16 @@
           "category": "メディア"
         }
       },
+      "https://equal-love.jp/schedule/detail/12280": {
+        "hash": "e69b0d994f9ad33e9066df806cbce0ac6792a2545912ad85d93d6b5bd6de8d00",
+        "item": {
+          "title": "YouTube「マヂラブ・野口衣織の...",
+          "date": "2026-10-26",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12280",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/12249": {
         "hash": "0afb87d5c30f30d6814c3b00c3d889755de1e54a76329ed8a6782e06e136c7d1",
         "item": {
@@ -85,26 +105,6 @@
           "date": "2026-10-29",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10500",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11829": {
-        "hash": "6ff142abf0abbb0fae36b534d6a3ff6e8083b141c86a9bc5b4560b715a6b57a4",
-        "item": {
-          "title": "「MTV VMAJ 2026」※＝L...",
-          "date": "2026-10-29",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11829",
-          "category": "ライブ/イベント"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12285": {
-        "hash": "f4df19d78e402a010bc3eb42ed827d7572936c78b9830e96b53164ba0559f152",
-        "item": {
-          "title": "KADOKAWA「LoveLive!...",
-          "date": "2026-10-29",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12285",
           "category": "メディア"
         }
       }
@@ -501,6 +501,30 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11454:3f07a8b8d476",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-22T08:43:45.839Z",
+      "title": "フジテレビ ONE「プロ野球ニュース...",
+      "url": "https://equal-love.jp/schedule/detail/11454",
+      "date": "2026-10-22",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12280:e69b0d994f9a",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-22T08:43:45.839Z",
+      "title": "YouTube「マヂラブ・野口衣織の...",
+      "url": "https://equal-love.jp/schedule/detail/12280",
+      "date": "2026-10-26",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12294:1dc371ad16fc",
       "type": "news",
@@ -1682,30 +1706,6 @@
       "url": "https://equal-love.jp/schedule/detail/11925",
       "date": "2026-10-14",
       "category": "リリース",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11616:4db30d9a30dc",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-01T02:45:30.107Z",
-      "title": "＝LOVE 9周年コンサート「＝LO...",
-      "url": "https://equal-love.jp/schedule/detail/11616",
-      "date": "2026-10-15",
-      "category": "ライブ/イベント",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12174:98803e978a18",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-09-30T14:50:07.205Z",
-      "title": "≪物販情報≫＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」",
-      "url": "https://sp.equal-love.jp/news/detail/12174",
-      "date": "2026-09-30",
-      "category": "グッズ",
       "memberNames": [],
       "sourceName": ""
     }
