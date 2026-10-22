@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-22T02:54:07.854Z",
-    "updatedAt": "2026-10-21T08:44:19.006Z",
+    "checkedAt": "2026-10-22T07:58:29.151Z",
+    "updatedAt": "2026-10-22T07:58:29.151Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,36 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12294": {
+        "hash": "1dc371ad16fc809dc1126f8ac8525785e838bd01fb751e52d3f635455d3e6234",
+        "item": {
+          "title": "【重要】緊急メンテナンス終了およびサービス再開のお知らせ",
+          "date": "2026-10-22",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12294",
+          "category": "お知らせ"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/12279": {
+        "hash": "55fa3a41385fe058077214f374b377a358cf54318fe99e92fc0073289a0fc1ed",
+        "item": {
+          "title": "【出演情報】YouTube「マヂラブ・野口衣織のマヂでラブになるTV」#3※野口衣織",
+          "date": "2026-10-21",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12279",
+          "category": "メディア"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/12291": {
+        "hash": "25859a433dfe5c1fa3adc9aacfd7816aea413a1210f1083ed4e03a180a248940",
+        "item": {
+          "title": "大場花菜がパーソナリティーを務める新番組『＝LOVE大場花菜の「はなまる！」』がFM NACK5でスタート！",
+          "date": "2026-10-21",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12291",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12287": {
         "hash": "7ffae4d8e1810706c0d7bad4fc0a094071b1ef8ef5339b750a9328dbce5c9fb0",
         "item": {
@@ -178,36 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12273",
           "category": "お知らせ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12272": {
-        "hash": "a163dd871a3e516ec4bc9a8cd79d805f43fc47332c0ebec4ace36724c3261137",
-        "item": {
-          "title": "【出演情報】「evelyn 2026 Winter collection モデル」※音嶋莉沙",
-          "date": "2026-10-17",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12272",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12274": {
-        "hash": "87b21698417793c77a026d48f31a10829fc1cde649e04978c55d6eeca360889f",
-        "item": {
-          "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」グッズ通販サイトでの販売のお知らせ",
-          "date": "2026-10-16",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12274",
-          "category": "グッズ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12275": {
-        "hash": "814ee200eb22eff12df958f4b1be601e67fbec9bb19a72441a7ce5e5056b8e14",
-        "item": {
-          "title": "＝LOVE DOME LIVE in NAGOYA「全ては＝LOVE」開催決定！！",
-          "date": "2026-10-16",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12275",
-          "category": "ライブ/イベント"
         }
       }
     },
@@ -501,6 +501,42 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12294:1dc371ad16fc",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-22T07:58:29.151Z",
+      "title": "【重要】緊急メンテナンス終了およびサービス再開のお知らせ",
+      "url": "https://sp.equal-love.jp/news/detail/12294",
+      "date": "2026-10-22",
+      "category": "お知らせ",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12279:55fa3a41385f",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-22T07:58:29.151Z",
+      "title": "【出演情報】YouTube「マヂラブ・野口衣織のマヂでラブになるTV」#3※野口衣織",
+      "url": "https://sp.equal-love.jp/news/detail/12279",
+      "date": "2026-10-21",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12291:25859a433dfe",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-22T07:58:29.151Z",
+      "title": "大場花菜がパーソナリティーを務める新番組『＝LOVE大場花菜の「はなまる！」』がFM NACK5でスタート！",
+      "url": "https://sp.equal-love.jp/news/detail/12291",
+      "date": "2026-10-21",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12287:7ffae4d8e181",
       "type": "news",
@@ -1670,44 +1706,6 @@
       "url": "https://sp.equal-love.jp/news/detail/12174",
       "date": "2026-09-30",
       "category": "グッズ",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "youtube:added:Uk66Nkq2G6c:4f4b863e3179",
-      "type": "youtube",
-      "action": "added",
-      "occurredAt": "2026-09-30T14:50:07.205Z",
-      "title": "様子がおかしい韓国VLOG",
-      "url": "https://www.youtube.com/watch?v=Uk66Nkq2G6c",
-      "date": "2026-09-30T11:00:36Z",
-      "category": "",
-      "memberNames": [
-        "音嶋 莉沙"
-      ],
-      "sourceName": "音嶋 莉沙"
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12180:77f59bf7ef2d",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-09-30T08:44:50.708Z",
-      "title": "tocco closet「2026 AW collection - tocco closet」モデルを野口衣織が務めさせていただきました！",
-      "url": "https://sp.equal-love.jp/news/detail/12180",
-      "date": "2026-09-30",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12166:8362899dc409",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-09-30T08:44:50.708Z",
-      "title": "REDYAZEL「Azely（アゼリー）＆Redyna(レディーナ)collection」ビジュアルモデルを大場花菜が務めさせていただくことが決定いたしました！",
-      "url": "https://sp.equal-love.jp/news/detail/12166",
-      "date": "2026-09-30",
-      "category": "メディア",
       "memberNames": [],
       "sourceName": ""
     }

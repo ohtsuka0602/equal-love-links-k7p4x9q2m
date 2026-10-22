@@ -1,9 +1,27 @@
 {
   "meta": {
-    "checkedAt": "2026-10-22T02:50:45.759Z",
-    "updatedAt": "2026-10-21T08:44:18.861Z"
+    "checkedAt": "2026-10-22T07:58:29.019Z",
+    "updatedAt": "2026-10-22T07:58:29.019Z"
   },
   "news": [
+    {
+      "title": "【重要】緊急メンテナンス終了およびサービス再開のお知らせ",
+      "date": "2026-10-22",
+      "url": "https://sp.equal-love.jp/news/detail/12294",
+      "category": "お知らせ"
+    },
+    {
+      "title": "【出演情報】YouTube「マヂラブ・野口衣織のマヂでラブになるTV」#3※野口衣織",
+      "date": "2026-10-21",
+      "url": "https://sp.equal-love.jp/news/detail/12279",
+      "category": "メディア"
+    },
+    {
+      "title": "大場花菜がパーソナリティーを務める新番組『＝LOVE大場花菜の「はなまる！」』がFM NACK5でスタート！",
+      "date": "2026-10-21",
+      "url": "https://sp.equal-love.jp/news/detail/12291",
+      "category": "メディア"
+    },
     {
       "title": "握手会2026.10.21New! ＝LOVE映像商品 『＝LOVE STADIUM LIVE「Beyond \"KYUN\"♡」』 発売記念オンライン個別サイン会 開催決定！",
       "date": "2026-10-21",
@@ -45,24 +63,6 @@
       "date": "2026-10-17",
       "url": "https://sp.equal-love.jp/news/detail/12273",
       "category": "お知らせ"
-    },
-    {
-      "title": "【出演情報】「evelyn 2026 Winter collection モデル」※音嶋莉沙",
-      "date": "2026-10-17",
-      "url": "https://sp.equal-love.jp/news/detail/12272",
-      "category": "メディア"
-    },
-    {
-      "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」グッズ通販サイトでの販売のお知らせ",
-      "date": "2026-10-16",
-      "url": "https://sp.equal-love.jp/news/detail/12274",
-      "category": "グッズ"
-    },
-    {
-      "title": "＝LOVE DOME LIVE in NAGOYA「全ては＝LOVE」開催決定！！",
-      "date": "2026-10-16",
-      "url": "https://sp.equal-love.jp/news/detail/12275",
-      "category": "ライブ/イベント"
     }
   ]
 }
