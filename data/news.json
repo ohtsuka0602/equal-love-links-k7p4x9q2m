@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-10-23T02:51:57.527Z",
-    "updatedAt": "2026-10-22T14:18:20.852Z"
+    "checkedAt": "2026-10-23T07:56:25.708Z",
+    "updatedAt": "2026-10-23T07:56:25.708Z"
   },
   "news": [
+    {
+      "title": "【出演情報】日本テレビ「ヒルナンデス！」※大谷映美里",
+      "date": "2026-10-23",
+      "url": "https://sp.equal-love.jp/news/detail/12297",
+      "category": "メディア"
+    },
     {
       "title": "生写真セット(「恋、はじめました。」MV衣装)発売！",
       "date": "2026-10-22",
@@ -11,7 +17,7 @@
       "category": "グッズ"
     },
     {
-      "title": "【重要】緊急メンテナンス終了およびサービス再開のお知らせ",
+      "title": "【重要】緊急メンテナンス終了およびサービス再開のお知らせ（※10/23更新）",
       "date": "2026-10-22",
       "url": "https://sp.equal-love.jp/news/detail/12294",
       "category": "お知らせ"
@@ -57,12 +63,6 @@
       "date": "2026-10-20",
       "url": "https://sp.equal-love.jp/news/detail/12283",
       "category": "メディア"
-    },
-    {
-      "title": "＝LOVE STADIUM LIVE「Beyond \"KYUN\"♡」 映像商品発売決定！",
-      "date": "2026-10-19",
-      "url": "https://sp.equal-love.jp/news/detail/12281",
-      "category": "リリース"
     }
   ]
 }

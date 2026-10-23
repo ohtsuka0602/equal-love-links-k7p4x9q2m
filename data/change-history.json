@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-23T02:51:57.721Z",
-    "updatedAt": "2026-10-22T14:18:21.073Z",
+    "checkedAt": "2026-10-23T07:56:25.901Z",
+    "updatedAt": "2026-10-23T07:56:25.901Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12297": {
+        "hash": "a1dcce7e5818a37267d6a2d07d3914b8915916d6c591242b134b838391643c52",
+        "item": {
+          "title": "【出演情報】日本テレビ「ヒルナンデス！」※大谷映美里",
+          "date": "2026-10-23",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12297",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12293": {
         "hash": "5175ae637b7d3cddee81a95b934ee10a47915cd6e97f3683d0c2314340829e31",
         "item": {
@@ -121,9 +131,9 @@
         }
       },
       "https://sp.equal-love.jp/news/detail/12294": {
-        "hash": "1dc371ad16fc809dc1126f8ac8525785e838bd01fb751e52d3f635455d3e6234",
+        "hash": "254537e1429c3a383cc5bc5f7426aa51bcf0c09d423f06939b169c89770ce223",
         "item": {
-          "title": "【重要】緊急メンテナンス終了およびサービス再開のお知らせ",
+          "title": "【重要】緊急メンテナンス終了およびサービス再開のお知らせ（※10/23更新）",
           "date": "2026-10-22",
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12294",
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12283",
           "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12281": {
-        "hash": "6836c7329077f0ed94cfea07d63e714f9305a7ad5e19d63ab5c1eb21dd87ec88",
-        "item": {
-          "title": "＝LOVE STADIUM LIVE「Beyond \"KYUN\"♡」 映像商品発売決定！",
-          "date": "2026-10-19",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12281",
-          "category": "リリース"
         }
       }
     },
@@ -501,6 +501,30 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12297:a1dcce7e5818",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-23T07:56:25.901Z",
+      "title": "【出演情報】日本テレビ「ヒルナンデス！」※大谷映美里",
+      "url": "https://sp.equal-love.jp/news/detail/12297",
+      "date": "2026-10-23",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:changed:https://sp.equal-love.jp/news/detail/12294:254537e1429c",
+      "type": "news",
+      "action": "changed",
+      "occurredAt": "2026-10-23T07:56:25.901Z",
+      "title": "【重要】緊急メンテナンス終了およびサービス再開のお知らせ（※10/23更新）",
+      "url": "https://sp.equal-love.jp/news/detail/12294",
+      "date": "2026-10-22",
+      "category": "お知らせ",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12293:5175ae637b7d",
       "type": "news",
@@ -1681,30 +1705,6 @@
       "title": "Artistspoken「イマフレラ...",
       "url": "https://equal-love.jp/schedule/detail/10741",
       "date": "2026-10-09",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11866:81d42978dfb7",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-01T02:45:30.107Z",
-      "title": "「STARフェス」※＝LOVE",
-      "url": "https://equal-love.jp/schedule/detail/11866",
-      "date": "2026-10-10",
-      "category": "ライブ/イベント",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/10446:72e303f15d62",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-01T02:45:30.107Z",
-      "title": "ニッポン放送「＝LOVEのイコラフ」",
-      "url": "https://equal-love.jp/schedule/detail/10446",
-      "date": "2026-10-12",
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""
