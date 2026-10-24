@@ -1,23 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-10-24T14:45:55.759Z",
-    "updatedAt": "2026-10-24T03:40:02.297Z",
+    "checkedAt": "2026-10-24T17:25:10.788Z",
+    "updatedAt": "2026-10-24T17:25:10.788Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/12175": {
-        "hash": "ed1f1c95396363e2426cab1b7f7caa4631c2ee326e7c5686f0f1c495ce315662",
-        "item": {
-          "title": "TELASAオリジナル「アイ=ラブ！...",
-          "date": "2026-10-24",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12175",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/11927": {
         "hash": "f1a582d91a8d966a82157813bae1d61e91c5150c55fe73fd45538c41ac14141e",
         "item": {
@@ -105,6 +95,16 @@
           "date": "2026-10-30",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10744",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12301": {
+        "hash": "7264b2d86341afd9ba034f583d5dba9243ace786f84fc5683da1d5587260e2e6",
+        "item": {
+          "title": "『The NEW ERA Book ...",
+          "date": "2026-10-30",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12301",
           "category": "メディア"
         }
       }
@@ -501,6 +501,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12301:7264b2d86341",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-24T17:25:10.788Z",
+      "title": "『The NEW ERA Book ...",
+      "url": "https://equal-love.jp/schedule/detail/12301",
+      "date": "2026-10-30",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12298:0a86a9900a6f",
       "type": "schedule",
@@ -1694,18 +1706,6 @@
       "url": "https://equal-love.jp/schedule/detail/10740",
       "date": "2026-10-02",
       "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11649:9661c351bfac",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-01T02:45:30.107Z",
-      "title": "握手会 ＝LOVE 21stシングル発売記念...",
-      "url": "https://equal-love.jp/schedule/detail/11649",
-      "date": "2026-10-03",
-      "category": "",
       "memberNames": [],
       "sourceName": ""
     }

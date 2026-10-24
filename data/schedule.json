@@ -1,16 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-10-24T14:45:55.565Z",
-    "updatedAt": "2026-10-24T03:40:02.139Z"
+    "checkedAt": "2026-10-24T17:25:10.636Z",
+    "updatedAt": "2026-10-24T17:25:10.636Z"
   },
   "schedule": [
-    {
-      "title": "TELASAオリジナル「アイ=ラブ！...",
-      "date": "2026-10-24",
-      "url": "https://equal-love.jp/schedule/detail/12175",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "AT-X「マヂラブ・野口衣織のマヂで...",
       "date": "2026-10-25",
@@ -71,6 +64,13 @@
       "title": "Artistspoken「イマフレラ...",
       "date": "2026-10-30",
       "url": "https://equal-love.jp/schedule/detail/10744",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "『The NEW ERA Book ...",
+      "date": "2026-10-30",
+      "url": "https://equal-love.jp/schedule/detail/12301",
       "category": "メディア",
       "time": ""
     }
