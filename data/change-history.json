@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-23T07:56:25.901Z",
-    "updatedAt": "2026-10-23T07:56:25.901Z",
+    "checkedAt": "2026-10-24T03:39:19.659Z",
+    "updatedAt": "2026-10-24T03:39:19.659Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,26 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12300": {
+        "hash": "a0196500b9bd11fed0c03a9261d7b3129c44efef6aa7a8869c218a2555e3e771",
+        "item": {
+          "title": "【掲載情報】『The NEW ERA Book Fall & Winter 2026』※諸橋沙夏",
+          "date": "2026-10-23",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12300",
+          "category": "メディア"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/12295": {
+        "hash": "289c0089ccb908dc9ee2fafa683c214b3eda7d072432f7557efd18afb65b153c",
+        "item": {
+          "title": "【出演情報】NHK Eテレ「沼にハマってきいてみた 【＝LOVE沼】」※＝LOVE",
+          "date": "2026-10-23",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12295",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12297": {
         "hash": "a1dcce7e5818a37267d6a2d07d3914b8915916d6c591242b134b838391643c52",
         "item": {
@@ -187,26 +207,6 @@
           "date": "2026-10-20",
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12284",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12286": {
-        "hash": "738a5057b0f0945573e5a45bd2bd2e99215b212b8d2df6a4c4e502d283c8fa82",
-        "item": {
-          "title": "【出演情報】日本マクドナルド『ザクザクジューシーマック』のWebCMに佐々木舞香の出演が決定しました！",
-          "date": "2026-10-20",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12286",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12283": {
-        "hash": "1d9b10c6419e5cb4dc6db184594b3f1590e9f5fc81279d82fbe0003473517463",
-        "item": {
-          "title": "【出演情報】日本マクドナルドの新たなレギュラーメニュー『390ペア』のWebCMに髙松瞳の出演が決定しました！",
-          "date": "2026-10-20",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12283",
           "category": "メディア"
         }
       }
@@ -501,6 +501,30 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12300:a0196500b9bd",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-24T03:39:19.659Z",
+      "title": "【掲載情報】『The NEW ERA Book Fall & Winter 2026』※諸橋沙夏",
+      "url": "https://sp.equal-love.jp/news/detail/12300",
+      "date": "2026-10-23",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12295:289c0089ccb9",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-24T03:39:19.659Z",
+      "title": "【出演情報】NHK Eテレ「沼にハマってきいてみた 【＝LOVE沼】」※＝LOVE",
+      "url": "https://sp.equal-love.jp/news/detail/12295",
+      "date": "2026-10-23",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12297:a1dcce7e5818",
       "type": "news",
@@ -1681,30 +1705,6 @@
       "title": "ニッポン放送「＝LOVEのイコラフ」",
       "url": "https://equal-love.jp/schedule/detail/10445",
       "date": "2026-10-05",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/10497:1d80ab89f970",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-01T02:45:30.107Z",
-      "title": "SHOWROOM『＝LOVE 山本杏...",
-      "url": "https://equal-love.jp/schedule/detail/10497",
-      "date": "2026-10-08",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/10741:51b7b1ff67a5",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-01T02:45:30.107Z",
-      "title": "Artistspoken「イマフレラ...",
-      "url": "https://equal-love.jp/schedule/detail/10741",
-      "date": "2026-10-09",
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""
