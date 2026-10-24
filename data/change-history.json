@@ -1,33 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-10-24T03:39:19.659Z",
-    "updatedAt": "2026-10-24T03:39:19.659Z",
+    "checkedAt": "2026-10-24T03:40:02.297Z",
+    "updatedAt": "2026-10-24T03:40:02.297Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/12234": {
-        "hash": "509303893a510116ac5d367708edeb4a337417bcfca3cf57e96de25c4845d138",
-        "item": {
-          "title": "小学館「CanCam 12月号」※大...",
-          "date": "2026-10-23",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12234",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/10743": {
-        "hash": "fa307ee2ccecc78049b4c34e4684e373f051bba0d22bfb9b0e251d419fb77c1a",
-        "item": {
-          "title": "Artistspoken「イマフレラ...",
-          "date": "2026-10-23",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10743",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/12175": {
         "hash": "ed1f1c95396363e2426cab1b7f7caa4631c2ee326e7c5686f0f1c495ce315662",
         "item": {
@@ -78,13 +58,13 @@
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/10500": {
-        "hash": "5756b5ccdaa2f4ffec7db23e23ba42307eeab91e6a61e2705d0d344361d42d26",
+      "https://equal-love.jp/schedule/detail/12298": {
+        "hash": "0a86a9900a6f640184908d655a4a7e27c7a5ef1b4ee7ae02b06db18b48ea2c7c",
         "item": {
-          "title": "SHOWROOM『＝LOVE 山本杏...",
-          "date": "2026-10-29",
+          "title": "日本テレビ「ヒルナンデス！」※大谷映...",
+          "date": "2026-10-27",
           "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10500",
+          "url": "https://equal-love.jp/schedule/detail/12298",
           "category": "メディア"
         }
       },
@@ -98,6 +78,16 @@
           "category": "ライブ/イベント"
         }
       },
+      "https://equal-love.jp/schedule/detail/10500": {
+        "hash": "5756b5ccdaa2f4ffec7db23e23ba42307eeab91e6a61e2705d0d344361d42d26",
+        "item": {
+          "title": "SHOWROOM『＝LOVE 山本杏...",
+          "date": "2026-10-29",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10500",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/12285": {
         "hash": "f4df19d78e402a010bc3eb42ed827d7572936c78b9830e96b53164ba0559f152",
         "item": {
@@ -105,6 +95,16 @@
           "date": "2026-10-29",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12285",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10744": {
+        "hash": "a98060f99af15cc460f3c72e421f18fd43a366fa01918af183d47b28a30ce115",
+        "item": {
+          "title": "Artistspoken「イマフレラ...",
+          "date": "2026-10-30",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10744",
           "category": "メディア"
         }
       }
@@ -501,6 +501,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12298:0a86a9900a6f",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-24T03:40:02.297Z",
+      "title": "日本テレビ「ヒルナンデス！」※大谷映...",
+      "url": "https://equal-love.jp/schedule/detail/12298",
+      "date": "2026-10-27",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12300:a0196500b9bd",
       "type": "news",
@@ -1694,18 +1706,6 @@
       "url": "https://equal-love.jp/schedule/detail/11649",
       "date": "2026-10-03",
       "category": "",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/10445:2a0957d9b94e",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-01T02:45:30.107Z",
-      "title": "ニッポン放送「＝LOVEのイコラフ」",
-      "url": "https://equal-love.jp/schedule/detail/10445",
-      "date": "2026-10-05",
-      "category": "メディア",
       "memberNames": [],
       "sourceName": ""
     }
