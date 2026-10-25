@@ -1,6 +1,6 @@
 {
   "meta": {
-    "checkedAt": "2026-10-25T14:45:48.095Z",
+    "checkedAt": "2026-10-25T17:37:56.722Z",
     "updatedAt": "2026-10-25T08:44:28.370Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
@@ -8,26 +8,6 @@
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/11186": {
-        "hash": "8c95a194b1cf9c19e60623699dd07287f8151275cd9f6ffb42179154c49ea006",
-        "item": {
-          "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
-          "date": "2026-10-25",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11186",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11927": {
-        "hash": "f1a582d91a8d966a82157813bae1d61e91c5150c55fe73fd45538c41ac14141e",
-        "item": {
-          "title": "AT-X「マヂラブ・野口衣織のマヂで...",
-          "date": "2026-10-25",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11927",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/10448": {
         "hash": "34cf3a2001f97ebaffed283930423d81f6524500de616bf708f7deac4908e7f4",
         "item": {
@@ -105,6 +85,26 @@
           "date": "2026-10-29",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12285",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10744": {
+        "hash": "a98060f99af15cc460f3c72e421f18fd43a366fa01918af183d47b28a30ce115",
+        "item": {
+          "title": "Artistspoken「イマフレラ...",
+          "date": "2026-10-30",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10744",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12301": {
+        "hash": "7264b2d86341afd9ba034f583d5dba9243ace786f84fc5683da1d5587260e2e6",
+        "item": {
+          "title": "『The NEW ERA Book ...",
+          "date": "2026-10-30",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12301",
           "category": "メディア"
         }
       }
