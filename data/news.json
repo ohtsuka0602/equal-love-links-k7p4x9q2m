@@ -1,9 +1,21 @@
 {
   "meta": {
-    "checkedAt": "2026-10-25T02:45:09.821Z",
-    "updatedAt": "2026-10-24T03:39:19.467Z"
+    "checkedAt": "2026-10-25T07:49:05.757Z",
+    "updatedAt": "2026-10-25T07:49:05.757Z"
   },
   "news": [
+    {
+      "title": "【出演情報】FM NACK5「カメレオンパーティー」※大場花菜",
+      "date": "2026-10-25",
+      "url": "https://sp.equal-love.jp/news/detail/12304",
+      "category": "メディア"
+    },
+    {
+      "title": "【出演情報】FM NACK5「Smile SUMMIT」※大場花菜",
+      "date": "2026-10-25",
+      "url": "https://sp.equal-love.jp/news/detail/12302",
+      "category": "メディア"
+    },
     {
       "title": "【掲載情報】『The NEW ERA Book Fall & Winter 2026』※諸橋沙夏",
       "date": "2026-10-23",
@@ -51,18 +63,6 @@
       "date": "2026-10-21",
       "url": "https://sp.equal-love.jp/news/detail/12287",
       "category": ""
-    },
-    {
-      "title": "【掲載情報】小学館「CanCam 12月号」※大谷映美里、髙松瞳",
-      "date": "2026-10-21",
-      "url": "https://sp.equal-love.jp/news/detail/12233",
-      "category": "メディア"
-    },
-    {
-      "title": "【掲載情報】KADOKAWA「LoveLive!Days 2026年12月号増刊 LoveLive! Series 15th Anniversary SPECIAL」※齋藤樹愛羅",
-      "date": "2026-10-20",
-      "url": "https://sp.equal-love.jp/news/detail/12284",
-      "category": "メディア"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-25T02:45:50.456Z",
-    "updatedAt": "2026-10-25T02:45:50.456Z",
+    "checkedAt": "2026-10-25T07:49:05.959Z",
+    "updatedAt": "2026-10-25T07:49:05.959Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,26 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12304": {
+        "hash": "6944c705f7530d6cedfd36aa1c27a4e6e2915b8708efbbc2dcf15251314683fb",
+        "item": {
+          "title": "【出演情報】FM NACK5「カメレオンパーティー」※大場花菜",
+          "date": "2026-10-25",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12304",
+          "category": "メディア"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/12302": {
+        "hash": "c3dd2212f51ad08b11a513c88ce68bef599015c0a4033164b4a5b8f5f98d6e8a",
+        "item": {
+          "title": "【出演情報】FM NACK5「Smile SUMMIT」※大場花菜",
+          "date": "2026-10-25",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12302",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12300": {
         "hash": "a0196500b9bd11fed0c03a9261d7b3129c44efef6aa7a8869c218a2555e3e771",
         "item": {
@@ -188,26 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12287",
           "category": ""
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12233": {
-        "hash": "f42565643838d22e48ffd215357dce22b90b0ead6de4663731fee82eb70fcc2f",
-        "item": {
-          "title": "【掲載情報】小学館「CanCam 12月号」※大谷映美里、髙松瞳",
-          "date": "2026-10-21",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12233",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12284": {
-        "hash": "3edd219994302be716f26b7932b124d2af3e770902b5d161529d8cf9bd6d116c",
-        "item": {
-          "title": "【掲載情報】KADOKAWA「LoveLive!Days 2026年12月号増刊 LoveLive! Series 15th Anniversary SPECIAL」※齋藤樹愛羅",
-          "date": "2026-10-20",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12284",
-          "category": "メディア"
         }
       }
     },
@@ -501,6 +501,30 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12304:6944c705f753",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-25T07:49:05.959Z",
+      "title": "【出演情報】FM NACK5「カメレオンパーティー」※大場花菜",
+      "url": "https://sp.equal-love.jp/news/detail/12304",
+      "date": "2026-10-25",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12302:c3dd2212f51a",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-25T07:49:05.959Z",
+      "title": "【出演情報】FM NACK5「Smile SUMMIT」※大場花菜",
+      "url": "https://sp.equal-love.jp/news/detail/12302",
+      "date": "2026-10-25",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11186:8c95a194b1cf",
       "type": "schedule",
@@ -1682,30 +1706,6 @@
       "url": "https://sp.equal-love.jp/news/detail/12168",
       "date": "2026-10-01",
       "category": "ライブ/イベント",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12241:7b260c8c11e3",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-01T08:44:53.471Z",
-      "title": "「＝LOVE 21stシングル発売記念 個別お話し会」イベント会場にて、＝LOVE CD購入＆映像商品予約抽選会開催決定！",
-      "url": "https://sp.equal-love.jp/news/detail/12241",
-      "date": "2026-10-01",
-      "category": "お知らせ",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11451:6ca9e5478fe4",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-01T02:45:30.107Z",
-      "title": "フジテレビ ONE「プロ野球ニュース...",
-      "url": "https://equal-love.jp/schedule/detail/11451",
-      "date": "2026-10-01",
-      "category": "メディア",
       "memberNames": [],
       "sourceName": ""
     }
