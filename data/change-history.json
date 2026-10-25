@@ -1,23 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-10-25T07:49:05.959Z",
-    "updatedAt": "2026-10-25T07:49:05.959Z",
+    "checkedAt": "2026-10-25T08:44:28.370Z",
+    "updatedAt": "2026-10-25T08:44:28.370Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/11927": {
-        "hash": "f1a582d91a8d966a82157813bae1d61e91c5150c55fe73fd45538c41ac14141e",
-        "item": {
-          "title": "AT-X「マヂラブ・野口衣織のマヂで...",
-          "date": "2026-10-25",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11927",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/11186": {
         "hash": "8c95a194b1cf9c19e60623699dd07287f8151275cd9f6ffb42179154c49ea006",
         "item": {
@@ -25,6 +15,16 @@
           "date": "2026-10-25",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11186",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11927": {
+        "hash": "f1a582d91a8d966a82157813bae1d61e91c5150c55fe73fd45538c41ac14141e",
+        "item": {
+          "title": "AT-X「マヂラブ・野口衣織のマヂで...",
+          "date": "2026-10-25",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11927",
           "category": "メディア"
         }
       },
@@ -48,6 +48,16 @@
           "category": "メディア"
         }
       },
+      "https://equal-love.jp/schedule/detail/12303": {
+        "hash": "39d33973da47e085933778d81f935872fe44ecac134d33e0c1e3cc95c5e51124",
+        "item": {
+          "title": "FM NACK5「Smile SUM...",
+          "date": "2026-10-26",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12303",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/12249": {
         "hash": "0afb87d5c30f30d6814c3b00c3d889755de1e54a76329ed8a6782e06e136c7d1",
         "item": {
@@ -68,16 +78,6 @@
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/10500": {
-        "hash": "5756b5ccdaa2f4ffec7db23e23ba42307eeab91e6a61e2705d0d344361d42d26",
-        "item": {
-          "title": "SHOWROOM『＝LOVE 山本杏...",
-          "date": "2026-10-29",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10500",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/11829": {
         "hash": "6ff142abf0abbb0fae36b534d6a3ff6e8083b141c86a9bc5b4560b715a6b57a4",
         "item": {
@@ -88,6 +88,16 @@
           "category": "ライブ/イベント"
         }
       },
+      "https://equal-love.jp/schedule/detail/10500": {
+        "hash": "5756b5ccdaa2f4ffec7db23e23ba42307eeab91e6a61e2705d0d344361d42d26",
+        "item": {
+          "title": "SHOWROOM『＝LOVE 山本杏...",
+          "date": "2026-10-29",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10500",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/12285": {
         "hash": "f4df19d78e402a010bc3eb42ed827d7572936c78b9830e96b53164ba0559f152",
         "item": {
@@ -95,16 +105,6 @@
           "date": "2026-10-29",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12285",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12301": {
-        "hash": "7264b2d86341afd9ba034f583d5dba9243ace786f84fc5683da1d5587260e2e6",
-        "item": {
-          "title": "『The NEW ERA Book ...",
-          "date": "2026-10-30",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12301",
           "category": "メディア"
         }
       }
@@ -501,6 +501,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12303:39d33973da47",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-25T08:44:28.370Z",
+      "title": "FM NACK5「Smile SUM...",
+      "url": "https://equal-love.jp/schedule/detail/12303",
+      "date": "2026-10-26",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12304:6944c705f753",
       "type": "news",
@@ -1692,18 +1704,6 @@
       "occurredAt": "2026-10-01T08:44:53.471Z",
       "title": "＝LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～ FC先行チケット受付開始のお知らせ",
       "url": "https://sp.equal-love.jp/news/detail/12235",
-      "date": "2026-10-01",
-      "category": "ライブ/イベント",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12168:d201217c4fc3",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-01T08:44:53.471Z",
-      "title": "『生誕祭イベント~supported by IKONOIJOY Puzzle~』（11月）FC限定チケット受付開始のお知らせ",
-      "url": "https://sp.equal-love.jp/news/detail/12168",
       "date": "2026-10-01",
       "category": "ライブ/イベント",
       "memberNames": [],

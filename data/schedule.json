@@ -1,20 +1,20 @@
 {
   "meta": {
-    "checkedAt": "2026-10-25T02:45:50.321Z",
-    "updatedAt": "2026-10-25T02:45:50.321Z"
+    "checkedAt": "2026-10-25T08:44:28.175Z",
+    "updatedAt": "2026-10-25T08:44:28.175Z"
   },
   "schedule": [
-    {
-      "title": "AT-X「マヂラブ・野口衣織のマヂで...",
-      "date": "2026-10-25",
-      "url": "https://equal-love.jp/schedule/detail/11927",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
       "date": "2026-10-25",
       "url": "https://equal-love.jp/schedule/detail/11186",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "AT-X「マヂラブ・野口衣織のマヂで...",
+      "date": "2026-10-25",
+      "url": "https://equal-love.jp/schedule/detail/11927",
       "category": "メディア",
       "time": ""
     },
@@ -33,6 +33,13 @@
       "time": ""
     },
     {
+      "title": "FM NACK5「Smile SUM...",
+      "date": "2026-10-26",
+      "url": "https://equal-love.jp/schedule/detail/12303",
+      "category": "メディア",
+      "time": ""
+    },
+    {
       "title": "日本マクドナルド サイドメニュー「ザ...",
       "date": "2026-10-27",
       "url": "https://equal-love.jp/schedule/detail/12249",
@@ -47,13 +54,6 @@
       "time": ""
     },
     {
-      "title": "SHOWROOM『＝LOVE 山本杏...",
-      "date": "2026-10-29",
-      "url": "https://equal-love.jp/schedule/detail/10500",
-      "category": "メディア",
-      "time": ""
-    },
-    {
       "title": "「MTV VMAJ 2026」※＝L...",
       "date": "2026-10-29",
       "url": "https://equal-love.jp/schedule/detail/11829",
@@ -61,16 +61,16 @@
       "time": ""
     },
     {
-      "title": "KADOKAWA「LoveLive!...",
+      "title": "SHOWROOM『＝LOVE 山本杏...",
       "date": "2026-10-29",
-      "url": "https://equal-love.jp/schedule/detail/12285",
+      "url": "https://equal-love.jp/schedule/detail/10500",
       "category": "メディア",
       "time": ""
     },
     {
-      "title": "『The NEW ERA Book ...",
-      "date": "2026-10-30",
-      "url": "https://equal-love.jp/schedule/detail/12301",
+      "title": "KADOKAWA「LoveLive!...",
+      "date": "2026-10-29",
+      "url": "https://equal-love.jp/schedule/detail/12285",
       "category": "メディア",
       "time": ""
     }
