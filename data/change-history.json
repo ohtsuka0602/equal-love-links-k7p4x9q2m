@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-25T02:45:10.024Z",
-    "updatedAt": "2026-10-24T17:25:10.788Z",
+    "checkedAt": "2026-10-25T02:45:50.456Z",
+    "updatedAt": "2026-10-25T02:45:50.456Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -15,6 +15,16 @@
           "date": "2026-10-25",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11927",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11186": {
+        "hash": "8c95a194b1cf9c19e60623699dd07287f8151275cd9f6ffb42179154c49ea006",
+        "item": {
+          "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
+          "date": "2026-10-25",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11186",
           "category": "メディア"
         }
       },
@@ -58,16 +68,6 @@
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/11829": {
-        "hash": "6ff142abf0abbb0fae36b534d6a3ff6e8083b141c86a9bc5b4560b715a6b57a4",
-        "item": {
-          "title": "「MTV VMAJ 2026」※＝L...",
-          "date": "2026-10-29",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11829",
-          "category": "ライブ/イベント"
-        }
-      },
       "https://equal-love.jp/schedule/detail/10500": {
         "hash": "5756b5ccdaa2f4ffec7db23e23ba42307eeab91e6a61e2705d0d344361d42d26",
         "item": {
@@ -78,6 +78,16 @@
           "category": "メディア"
         }
       },
+      "https://equal-love.jp/schedule/detail/11829": {
+        "hash": "6ff142abf0abbb0fae36b534d6a3ff6e8083b141c86a9bc5b4560b715a6b57a4",
+        "item": {
+          "title": "「MTV VMAJ 2026」※＝L...",
+          "date": "2026-10-29",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11829",
+          "category": "ライブ/イベント"
+        }
+      },
       "https://equal-love.jp/schedule/detail/12285": {
         "hash": "f4df19d78e402a010bc3eb42ed827d7572936c78b9830e96b53164ba0559f152",
         "item": {
@@ -85,16 +95,6 @@
           "date": "2026-10-29",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12285",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/10744": {
-        "hash": "a98060f99af15cc460f3c72e421f18fd43a366fa01918af183d47b28a30ce115",
-        "item": {
-          "title": "Artistspoken「イマフレラ...",
-          "date": "2026-10-30",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10744",
           "category": "メディア"
         }
       },
@@ -501,6 +501,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11186:8c95a194b1cf",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-25T02:45:50.456Z",
+      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
+      "url": "https://equal-love.jp/schedule/detail/11186",
+      "date": "2026-10-25",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12301:7264b2d86341",
       "type": "schedule",
@@ -1693,18 +1705,6 @@
       "title": "フジテレビ ONE「プロ野球ニュース...",
       "url": "https://equal-love.jp/schedule/detail/11451",
       "date": "2026-10-01",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/10740:af38df8d04f9",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-01T02:45:30.107Z",
-      "title": "Artistspoken「イマフレラ...",
-      "url": "https://equal-love.jp/schedule/detail/10740",
-      "date": "2026-10-02",
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""
