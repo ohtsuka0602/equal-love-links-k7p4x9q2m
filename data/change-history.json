@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-26T08:45:45.933Z",
-    "updatedAt": "2026-10-26T08:45:45.933Z",
+    "checkedAt": "2026-10-26T14:45:11.775Z",
+    "updatedAt": "2026-10-26T14:45:11.775Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12299": {
+        "hash": "0e86d3f8e38a54bfd170d2e4991ccf29f484893bfe19513defc448c28fa201c1",
+        "item": {
+          "title": "＝LOVE in TOKYO DOME「全ては＝LOVE」FC先行チケット受付開始のお知らせ",
+          "date": "2026-10-26",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12299",
+          "category": "ライブ/イベント"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12304": {
         "hash": "6944c705f7530d6cedfd36aa1c27a4e6e2915b8708efbbc2dcf15251314683fb",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12291",
           "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12287": {
-        "hash": "7ffae4d8e1810706c0d7bad4fc0a094071b1ef8ef5339b750a9328dbce5c9fb0",
-        "item": {
-          "title": "握手会2026.10.21New! ＝LOVE映像商品 『＝LOVE STADIUM LIVE「Beyond \"KYUN\"♡」』 発売記念オンライン個別サイン会 開催決定！",
-          "date": "2026-10-21",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12287",
-          "category": ""
         }
       }
     },
@@ -501,6 +501,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12299:0e86d3f8e38a",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-26T14:45:11.775Z",
+      "title": "＝LOVE in TOKYO DOME「全ては＝LOVE」FC先行チケット受付開始のお知らせ",
+      "url": "https://sp.equal-love.jp/news/detail/12299",
+      "date": "2026-10-26",
+      "category": "ライブ/イベント",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12296:f98d972d14c3",
       "type": "schedule",
@@ -1694,18 +1706,6 @@
       "url": "https://sp.equal-love.jp/news/detail/12167",
       "date": "2026-10-01",
       "category": "お知らせ",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12236:14618ced0376",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-01T14:45:05.072Z",
-      "title": "≪物販情報≫10月3日(土)個別お話し会",
-      "url": "https://sp.equal-love.jp/news/detail/12236",
-      "date": "2026-10-01",
-      "category": "グッズ",
       "memberNames": [],
       "sourceName": ""
     }
