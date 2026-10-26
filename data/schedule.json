@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-26T02:44:27.764Z",
-    "updatedAt": "2026-10-25T17:37:56.525Z"
+    "checkedAt": "2026-10-26T08:45:45.736Z",
+    "updatedAt": "2026-10-26T08:45:45.736Z"
   },
   "schedule": [
     {
@@ -47,16 +47,16 @@
       "time": ""
     },
     {
-      "title": "SHOWROOM『＝LOVE 山本杏...",
+      "title": "KADOKAWA「LoveLive!...",
       "date": "2026-10-29",
-      "url": "https://equal-love.jp/schedule/detail/10500",
+      "url": "https://equal-love.jp/schedule/detail/12285",
       "category": "メディア",
       "time": ""
     },
     {
-      "title": "KADOKAWA「LoveLive!...",
-      "date": "2026-10-29",
-      "url": "https://equal-love.jp/schedule/detail/12285",
+      "title": "『The NEW ERA Book ...",
+      "date": "2026-10-30",
+      "url": "https://equal-love.jp/schedule/detail/12301",
       "category": "メディア",
       "time": ""
     },
@@ -68,9 +68,9 @@
       "time": ""
     },
     {
-      "title": "『The NEW ERA Book ...",
-      "date": "2026-10-30",
-      "url": "https://equal-love.jp/schedule/detail/12301",
+      "title": "NHK Eテレ「沼にハマってきいてみ...",
+      "date": "2026-10-31",
+      "url": "https://equal-love.jp/schedule/detail/12296",
       "category": "メディア",
       "time": ""
     }

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-26T08:45:07.405Z",
-    "updatedAt": "2026-10-25T08:44:28.370Z",
+    "checkedAt": "2026-10-26T08:45:45.933Z",
+    "updatedAt": "2026-10-26T08:45:45.933Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -68,16 +68,6 @@
           "category": "ライブ/イベント"
         }
       },
-      "https://equal-love.jp/schedule/detail/10500": {
-        "hash": "5756b5ccdaa2f4ffec7db23e23ba42307eeab91e6a61e2705d0d344361d42d26",
-        "item": {
-          "title": "SHOWROOM『＝LOVE 山本杏...",
-          "date": "2026-10-29",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10500",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/12285": {
         "hash": "f4df19d78e402a010bc3eb42ed827d7572936c78b9830e96b53164ba0559f152",
         "item": {
@@ -85,6 +75,16 @@
           "date": "2026-10-29",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12285",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12301": {
+        "hash": "7264b2d86341afd9ba034f583d5dba9243ace786f84fc5683da1d5587260e2e6",
+        "item": {
+          "title": "『The NEW ERA Book ...",
+          "date": "2026-10-30",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12301",
           "category": "メディア"
         }
       },
@@ -98,13 +98,13 @@
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/12301": {
-        "hash": "7264b2d86341afd9ba034f583d5dba9243ace786f84fc5683da1d5587260e2e6",
+      "https://equal-love.jp/schedule/detail/12296": {
+        "hash": "f98d972d14c3e4ac4661d69ffebfca50861e19351a42dbeea4ac79091b8d5192",
         "item": {
-          "title": "『The NEW ERA Book ...",
-          "date": "2026-10-30",
+          "title": "NHK Eテレ「沼にハマってきいてみ...",
+          "date": "2026-10-31",
           "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12301",
+          "url": "https://equal-love.jp/schedule/detail/12296",
           "category": "メディア"
         }
       }
@@ -501,6 +501,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12296:f98d972d14c3",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-26T08:45:45.933Z",
+      "title": "NHK Eテレ「沼にハマってきいてみ...",
+      "url": "https://equal-love.jp/schedule/detail/12296",
+      "date": "2026-10-31",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12303:39d33973da47",
       "type": "schedule",
@@ -1694,18 +1706,6 @@
       "url": "https://sp.equal-love.jp/news/detail/12236",
       "date": "2026-10-01",
       "category": "グッズ",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12235:c51dd624f588",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-01T08:44:53.471Z",
-      "title": "＝LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～ FC先行チケット受付開始のお知らせ",
-      "url": "https://sp.equal-love.jp/news/detail/12235",
-      "date": "2026-10-01",
-      "category": "ライブ/イベント",
       "memberNames": [],
       "sourceName": ""
     }
