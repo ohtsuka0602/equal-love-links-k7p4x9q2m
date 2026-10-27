@@ -1,6 +1,6 @@
 {
   "meta": {
-    "checkedAt": "2026-10-27T14:54:34.914Z",
+    "checkedAt": "2026-10-27T19:25:30.879Z",
     "updatedAt": "2026-10-27T02:44:46.829Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
@@ -8,46 +8,6 @@
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/11742": {
-        "hash": "940e0ab46e52dffea1c400cebbb22d64088508a82166329b1455f6d9c344028b",
-        "item": {
-          "title": "TOKYO FM「Hand in H...",
-          "date": "2026-10-27",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11742",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12249": {
-        "hash": "0afb87d5c30f30d6814c3b00c3d889755de1e54a76329ed8a6782e06e136c7d1",
-        "item": {
-          "title": "日本マクドナルド サイドメニュー「ザ...",
-          "date": "2026-10-27",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12249",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12298": {
-        "hash": "0a86a9900a6f640184908d655a4a7e27c7a5ef1b4ee7ae02b06db18b48ea2c7c",
-        "item": {
-          "title": "日本テレビ「ヒルナンデス！」※大谷映...",
-          "date": "2026-10-27",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12298",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11686": {
-        "hash": "f53d3f4f6d9a187adeee9e3922349f7284c211082fa7e32e6625149902bb635a",
-        "item": {
-          "title": "フジテレビ・FODプレミアム「キミは...",
-          "date": "2026-10-27",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11686",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/11829": {
         "hash": "6ff142abf0abbb0fae36b534d6a3ff6e8083b141c86a9bc5b4560b715a6b57a4",
         "item": {
