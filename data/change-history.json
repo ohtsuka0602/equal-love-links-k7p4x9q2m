@@ -1,13 +1,23 @@
 {
   "meta": {
-    "checkedAt": "2026-10-27T00:05:08.676Z",
-    "updatedAt": "2026-10-26T14:45:11.775Z",
+    "checkedAt": "2026-10-27T02:44:46.829Z",
+    "updatedAt": "2026-10-27T02:44:46.829Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
+      "https://equal-love.jp/schedule/detail/11742": {
+        "hash": "940e0ab46e52dffea1c400cebbb22d64088508a82166329b1455f6d9c344028b",
+        "item": {
+          "title": "TOKYO FM「Hand in H...",
+          "date": "2026-10-27",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11742",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/12249": {
         "hash": "0afb87d5c30f30d6814c3b00c3d889755de1e54a76329ed8a6782e06e136c7d1",
         "item": {
@@ -25,6 +35,16 @@
           "date": "2026-10-27",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12298",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11686": {
+        "hash": "f53d3f4f6d9a187adeee9e3922349f7284c211082fa7e32e6625149902bb635a",
+        "item": {
+          "title": "フジテレビ・FODプレミアム「キミは...",
+          "date": "2026-10-27",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11686",
           "category": "メディア"
         }
       },
@@ -48,16 +68,6 @@
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/12301": {
-        "hash": "7264b2d86341afd9ba034f583d5dba9243ace786f84fc5683da1d5587260e2e6",
-        "item": {
-          "title": "『The NEW ERA Book ...",
-          "date": "2026-10-30",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12301",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/10744": {
         "hash": "a98060f99af15cc460f3c72e421f18fd43a366fa01918af183d47b28a30ce115",
         "item": {
@@ -68,13 +78,13 @@
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/12296": {
-        "hash": "f98d972d14c3e4ac4661d69ffebfca50861e19351a42dbeea4ac79091b8d5192",
+      "https://equal-love.jp/schedule/detail/12301": {
+        "hash": "7264b2d86341afd9ba034f583d5dba9243ace786f84fc5683da1d5587260e2e6",
         "item": {
-          "title": "NHK Eテレ「沼にハマってきいてみ...",
-          "date": "2026-10-31",
+          "title": "『The NEW ERA Book ...",
+          "date": "2026-10-30",
           "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12296",
+          "url": "https://equal-love.jp/schedule/detail/12301",
           "category": "メディア"
         }
       },
@@ -85,6 +95,16 @@
           "date": "2026-10-31",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12264",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12296": {
+        "hash": "f98d972d14c3e4ac4661d69ffebfca50861e19351a42dbeea4ac79091b8d5192",
+        "item": {
+          "title": "NHK Eテレ「沼にハマってきいてみ...",
+          "date": "2026-10-31",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12296",
           "category": "メディア"
         }
       }
@@ -481,6 +501,30 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11742:940e0ab46e52",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-27T02:44:46.829Z",
+      "title": "TOKYO FM「Hand in H...",
+      "url": "https://equal-love.jp/schedule/detail/11742",
+      "date": "2026-10-27",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11686:f53d3f4f6d9a",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-27T02:44:46.829Z",
+      "title": "フジテレビ・FODプレミアム「キミは...",
+      "url": "https://equal-love.jp/schedule/detail/11686",
+      "date": "2026-10-27",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12299:0e86d3f8e38a",
       "type": "news",
@@ -1662,30 +1706,6 @@
       "url": "https://equal-love.jp/schedule/detail/12178",
       "date": "2026-10-09",
       "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/10742:43b6081bdfbb",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-01T19:30:58.727Z",
-      "title": "Artistspoken「イマフレラ...",
-      "url": "https://equal-love.jp/schedule/detail/10742",
-      "date": "2026-10-16",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12167:1f2f003c6c36",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-01T14:45:05.072Z",
-      "title": "【＝LOVE Official Fan Club】 新企画「イコラブラボ」スタート！SHORT 一問一答の質問を募集！",
-      "url": "https://sp.equal-love.jp/news/detail/12167",
-      "date": "2026-10-01",
-      "category": "お知らせ",
       "memberNames": [],
       "sourceName": ""
     }
