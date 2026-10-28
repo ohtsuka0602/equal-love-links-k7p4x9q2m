@@ -1,9 +1,21 @@
 {
   "meta": {
-    "checkedAt": "2026-10-28T08:59:05.740Z",
-    "updatedAt": "2026-10-28T08:46:13.571Z"
+    "checkedAt": "2026-10-28T14:45:30.672Z",
+    "updatedAt": "2026-10-28T14:45:30.672Z"
   },
   "news": [
+    {
+      "title": "【重要】メール配信サービスの緊急メンテナンスに伴うメール配信停止のお知らせ",
+      "date": "2026-10-28",
+      "url": "https://sp.equal-love.jp/news/detail/12373",
+      "category": "お知らせ"
+    },
+    {
+      "title": "【出演情報】日本マクドナルド『ザクザクジューシーももチキン』のWebCM「ももチキ人生」に＝LOVE佐々木舞香と≠ME櫻井ももの出演が決定しました！",
+      "date": "2026-10-28",
+      "url": "https://sp.equal-love.jp/news/detail/12369",
+      "category": "メディア"
+    },
     {
       "title": "読売テレビ・日本テレビ系全国ネット「ベストヒット歌謡祭2026」番組観覧ご招待のお知らせ",
       "date": "2026-10-28",
@@ -51,18 +63,6 @@
       "date": "2026-10-23",
       "url": "https://sp.equal-love.jp/news/detail/12297",
       "category": "メディア"
-    },
-    {
-      "title": "生写真セット(「恋、はじめました。」MV衣装)発売！",
-      "date": "2026-10-22",
-      "url": "https://sp.equal-love.jp/news/detail/12293",
-      "category": "グッズ"
-    },
-    {
-      "title": "【重要】緊急メンテナンス終了およびサービス再開のお知らせ（※10/23更新）",
-      "date": "2026-10-22",
-      "url": "https://sp.equal-love.jp/news/detail/12294",
-      "category": "お知らせ"
     }
   ]
 }

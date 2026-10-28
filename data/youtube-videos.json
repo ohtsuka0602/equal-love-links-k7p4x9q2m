@@ -1,9 +1,22 @@
 {
   "meta": {
-    "checkedAt": "2026-10-28T08:58:59.383Z",
-    "updatedAt": "2026-10-18T12:47:39.289Z"
+    "checkedAt": "2026-10-28T14:45:24.251Z",
+    "updatedAt": "2026-10-28T14:45:24.251Z"
   },
   "videos": [
+    {
+      "videoId": "bnD5K5aect8",
+      "title": "人生初のびっくりドンキーでずっとびっくり",
+      "url": "https://www.youtube.com/watch?v=bnD5K5aect8",
+      "thumbnail": "https://i.ytimg.com/vi/bnD5K5aect8/maxresdefault.jpg",
+      "publishedAt": "2026-10-28T10:30:25Z",
+      "channelId": "UCcsyyry5bsjTeqqJ_Yz9TiA",
+      "channelName": "音嶋莉沙の様子がおかしいチャンネル",
+      "sourceName": "音嶋 莉沙",
+      "memberNames": [
+        "音嶋 莉沙"
+      ]
+    },
     {
       "videoId": "ZSkGfov6xak",
       "title": "みりにゃ、初めての麻辣湯作り",
@@ -51,17 +64,6 @@
       "memberNames": [
         "音嶋 莉沙"
       ]
-    },
-    {
-      "videoId": "97BXESXjdOs",
-      "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #野口衣織 #イコラブ #イコールラブ",
-      "url": "https://www.youtube.com/watch?v=97BXESXjdOs",
-      "thumbnail": "https://i.ytimg.com/vi/97BXESXjdOs/maxresdefault.jpg",
-      "publishedAt": "2026-10-13T13:36:31Z",
-      "channelId": "UCv7VutirxDn3RWIJXI68n_A",
-      "channelName": "＝LOVE（イコールラブ）公式チャンネル",
-      "sourceName": "=LOVE オフィシャル",
-      "memberNames": []
     }
   ]
 }

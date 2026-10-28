@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-28T14:44:06.198Z",
-    "updatedAt": "2026-10-28T08:46:13.770Z",
+    "checkedAt": "2026-10-28T14:45:30.858Z",
+    "updatedAt": "2026-10-28T14:45:30.858Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -70,6 +70,26 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12373": {
+        "hash": "4d45e5d571b679f26f68a9fdd034569d62904e65a1a14bab5d294b3aa06efce0",
+        "item": {
+          "title": "【重要】メール配信サービスの緊急メンテナンスに伴うメール配信停止のお知らせ",
+          "date": "2026-10-28",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12373",
+          "category": "お知らせ"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/12369": {
+        "hash": "e0bbcec13c3350b12c0c6f32768fd611cb65996b1708b401017808447d210c1d",
+        "item": {
+          "title": "【出演情報】日本マクドナルド『ザクザクジューシーももチキン』のWebCM「ももチキ人生」に＝LOVE佐々木舞香と≠ME櫻井ももの出演が決定しました！",
+          "date": "2026-10-28",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12369",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12372": {
         "hash": "afee178222877e566bbcba6ea556397d961c29922a7d91e7207b69efc5447d15",
         "item": {
@@ -149,29 +169,25 @@
           "url": "https://sp.equal-love.jp/news/detail/12297",
           "category": "メディア"
         }
-      },
-      "https://sp.equal-love.jp/news/detail/12293": {
-        "hash": "5175ae637b7d3cddee81a95b934ee10a47915cd6e97f3683d0c2314340829e31",
-        "item": {
-          "title": "生写真セット(「恋、はじめました。」MV衣装)発売！",
-          "date": "2026-10-22",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12293",
-          "category": "グッズ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12294": {
-        "hash": "254537e1429c3a383cc5bc5f7426aa51bcf0c09d423f06939b169c89770ce223",
-        "item": {
-          "title": "【重要】緊急メンテナンス終了およびサービス再開のお知らせ（※10/23更新）",
-          "date": "2026-10-22",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12294",
-          "category": "お知らせ"
-        }
       }
     },
     "youtube": {
+      "bnD5K5aect8": {
+        "hash": "247e673906dc7cec7993cf7dfa101d28bfcc3f81975f54a578b2bd030a9336cf",
+        "item": {
+          "videoId": "bnD5K5aect8",
+          "title": "人生初のびっくりドンキーでずっとびっくり",
+          "url": "https://www.youtube.com/watch?v=bnD5K5aect8",
+          "thumbnail": "https://i.ytimg.com/vi/bnD5K5aect8/maxresdefault.jpg",
+          "publishedAt": "2026-10-28T10:30:25Z",
+          "channelId": "UCcsyyry5bsjTeqqJ_Yz9TiA",
+          "channelName": "音嶋莉沙の様子がおかしいチャンネル",
+          "sourceName": "音嶋 莉沙",
+          "memberNames": [
+            "音嶋 莉沙"
+          ]
+        }
+      },
       "ZSkGfov6xak": {
         "hash": "621b65aa18db55097417dc98deea35409356602076de447053de73da5d644139",
         "item": {
@@ -230,20 +246,6 @@
           "memberNames": [
             "音嶋 莉沙"
           ]
-        }
-      },
-      "97BXESXjdOs": {
-        "hash": "cfe3726c49801aa39ef00c01e0caabbc9873338408064623a8537e2ba5c33f72",
-        "item": {
-          "videoId": "97BXESXjdOs",
-          "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #野口衣織 #イコラブ #イコールラブ",
-          "url": "https://www.youtube.com/watch?v=97BXESXjdOs",
-          "thumbnail": "https://i.ytimg.com/vi/97BXESXjdOs/maxresdefault.jpg",
-          "publishedAt": "2026-10-13T13:36:31Z",
-          "channelId": "UCv7VutirxDn3RWIJXI68n_A",
-          "channelName": "＝LOVE（イコールラブ）公式チャンネル",
-          "sourceName": "=LOVE オフィシャル",
-          "memberNames": []
         }
       }
     },
@@ -461,6 +463,44 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12373:4d45e5d571b6",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-28T14:45:30.858Z",
+      "title": "【重要】メール配信サービスの緊急メンテナンスに伴うメール配信停止のお知らせ",
+      "url": "https://sp.equal-love.jp/news/detail/12373",
+      "date": "2026-10-28",
+      "category": "お知らせ",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12369:e0bbcec13c33",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-28T14:45:30.858Z",
+      "title": "【出演情報】日本マクドナルド『ザクザクジューシーももチキン』のWebCM「ももチキ人生」に＝LOVE佐々木舞香と≠ME櫻井ももの出演が決定しました！",
+      "url": "https://sp.equal-love.jp/news/detail/12369",
+      "date": "2026-10-28",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "youtube:added:bnD5K5aect8:247e673906dc",
+      "type": "youtube",
+      "action": "added",
+      "occurredAt": "2026-10-28T14:45:30.858Z",
+      "title": "人生初のびっくりドンキーでずっとびっくり",
+      "url": "https://www.youtube.com/watch?v=bnD5K5aect8",
+      "date": "2026-10-28T10:30:25Z",
+      "category": "",
+      "memberNames": [
+        "音嶋 莉沙"
+      ],
+      "sourceName": "音嶋 莉沙"
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12372:afee17822287",
       "type": "news",
@@ -1630,42 +1670,6 @@
       "url": "https://equal-love.jp/schedule/detail/11934",
       "date": "2026-10-10",
       "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/12244:addd795d898f",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-03T08:45:54.471Z",
-      "title": "SBS「2026 SBS 인기가요 ...",
-      "url": "https://equal-love.jp/schedule/detail/12244",
-      "date": "2026-10-05",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12243:350eb9ecd7f0",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-03T08:33:51.975Z",
-      "title": "【出演情報】SBS「2026 SBS 인기가요 Live In Tokyo」※＝LOVE",
-      "url": "https://sp.equal-love.jp/news/detail/12243",
-      "date": "2026-10-03",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12242:0678dec52aaf",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-03T08:33:51.975Z",
-      "title": "＝LOVEデビュー9周年企画 コンサート映像配信決定！",
-      "url": "https://sp.equal-love.jp/news/detail/12242",
-      "date": "2026-10-03",
-      "category": "お知らせ",
       "memberNames": [],
       "sourceName": ""
     }
