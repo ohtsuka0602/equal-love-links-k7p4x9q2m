@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-28T08:44:32.234Z",
-    "updatedAt": "2026-10-27T02:44:46.829Z",
+    "checkedAt": "2026-10-28T08:46:13.770Z",
+    "updatedAt": "2026-10-28T08:46:13.770Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -70,6 +70,26 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12372": {
+        "hash": "afee178222877e566bbcba6ea556397d961c29922a7d91e7207b69efc5447d15",
+        "item": {
+          "title": "読売テレビ・日本テレビ系全国ネット「ベストヒット歌謡祭2026」番組観覧ご招待のお知らせ",
+          "date": "2026-10-28",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12372",
+          "category": "ライブ/イベント"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/12367": {
+        "hash": "37859f38215996b727c0fbc6aff0cb326159606f9bf13d3e9dae708e357fa184",
+        "item": {
+          "title": "【出演情報】読売テレビ・日本テレビ系全国ネット「ベストヒット歌謡祭2026」※＝LOVE",
+          "date": "2026-10-28",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12367",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12299": {
         "hash": "0e86d3f8e38a54bfd170d2e4991ccf29f484893bfe19513defc448c28fa201c1",
         "item": {
@@ -148,26 +168,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12294",
           "category": "お知らせ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12279": {
-        "hash": "55fa3a41385fe058077214f374b377a358cf54318fe99e92fc0073289a0fc1ed",
-        "item": {
-          "title": "【出演情報】YouTube「マヂラブ・野口衣織のマヂでラブになるTV」#3※野口衣織",
-          "date": "2026-10-21",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12279",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12291": {
-        "hash": "25859a433dfe5c1fa3adc9aacfd7816aea413a1210f1083ed4e03a180a248940",
-        "item": {
-          "title": "大場花菜がパーソナリティーを務める新番組『＝LOVE大場花菜の「はなまる！」』がFM NACK5でスタート！",
-          "date": "2026-10-21",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12291",
-          "category": "メディア"
         }
       }
     },
@@ -461,6 +461,30 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12372:afee17822287",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-28T08:46:13.770Z",
+      "title": "読売テレビ・日本テレビ系全国ネット「ベストヒット歌謡祭2026」番組観覧ご招待のお知らせ",
+      "url": "https://sp.equal-love.jp/news/detail/12372",
+      "date": "2026-10-28",
+      "category": "ライブ/イベント",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12367:37859f382159",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-28T08:46:13.770Z",
+      "title": "【出演情報】読売テレビ・日本テレビ系全国ネット「ベストヒット歌謡祭2026」※＝LOVE",
+      "url": "https://sp.equal-love.jp/news/detail/12367",
+      "date": "2026-10-28",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11742:940e0ab46e52",
       "type": "schedule",
@@ -1642,30 +1666,6 @@
       "url": "https://sp.equal-love.jp/news/detail/12242",
       "date": "2026-10-03",
       "category": "お知らせ",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12177:a0d12172631e",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-02T08:45:59.960Z",
-      "title": "【出演情報】TBS系「それSnow Manにやらせて下さい」※＝LOVE",
-      "url": "https://sp.equal-love.jp/news/detail/12177",
-      "date": "2026-10-02",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/12178:f509e256e1bf",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-02T08:44:32.199Z",
-      "title": "TBS系「それSnow Manにやら...",
-      "url": "https://equal-love.jp/schedule/detail/12178",
-      "date": "2026-10-09",
-      "category": "メディア",
       "memberNames": [],
       "sourceName": ""
     }
