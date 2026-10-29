@@ -1,9 +1,21 @@
 {
   "meta": {
-    "checkedAt": "2026-10-29T02:44:48.894Z",
-    "updatedAt": "2026-10-29T02:44:48.894Z"
+    "checkedAt": "2026-10-29T08:44:36.440Z",
+    "updatedAt": "2026-10-29T08:44:36.440Z"
   },
   "news": [
+    {
+      "title": "【出演情報】「MTV VMAJ 2026」の放送・配信が決定！",
+      "date": "2026-10-29",
+      "url": "https://sp.equal-love.jp/news/detail/12370",
+      "category": "メディア"
+    },
+    {
+      "title": "『生誕祭イベント~supported by IKONOIJOY Puzzle~』（11月）FC限定チケット2次受付開始のお知らせ",
+      "date": "2026-10-29",
+      "url": "https://sp.equal-love.jp/news/detail/12366",
+      "category": "ライブ/イベント"
+    },
     {
       "title": "【重要】メール配信サービス再開のお知らせ",
       "date": "2026-10-29",
@@ -50,18 +62,6 @@
       "title": "【出演情報】FM NACK5「Smile SUMMIT」※大場花菜",
       "date": "2026-10-25",
       "url": "https://sp.equal-love.jp/news/detail/12302",
-      "category": "メディア"
-    },
-    {
-      "title": "【掲載情報】『The NEW ERA Book Fall & Winter 2026』※諸橋沙夏",
-      "date": "2026-10-23",
-      "url": "https://sp.equal-love.jp/news/detail/12300",
-      "category": "メディア"
-    },
-    {
-      "title": "【出演情報】NHK Eテレ「沼にハマってきいてみた 【＝LOVE沼】」※＝LOVE",
-      "date": "2026-10-23",
-      "url": "https://sp.equal-love.jp/news/detail/12295",
       "category": "メディア"
     }
   ]

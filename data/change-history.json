@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-29T02:45:29.120Z",
-    "updatedAt": "2026-10-29T02:44:49.081Z",
+    "checkedAt": "2026-10-29T08:44:36.634Z",
+    "updatedAt": "2026-10-29T08:44:36.634Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -70,6 +70,26 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12370": {
+        "hash": "3c17549de4515e889fbe2524f7300ea17bb359538c38d0c72b5fb6814bf4997f",
+        "item": {
+          "title": "【出演情報】「MTV VMAJ 2026」の放送・配信が決定！",
+          "date": "2026-10-29",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12370",
+          "category": "メディア"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/12366": {
+        "hash": "7b16c44f0f17db1e53f21efbaeacf9d56c86869a08c8c15242e26136dac1465f",
+        "item": {
+          "title": "『生誕祭イベント~supported by IKONOIJOY Puzzle~』（11月）FC限定チケット2次受付開始のお知らせ",
+          "date": "2026-10-29",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12366",
+          "category": "ライブ/イベント"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12374": {
         "hash": "03515975a61f9ba5e60fdeaab261c69d8af1a19f28e35fd0b1ce26e794885f15",
         "item": {
@@ -147,26 +167,6 @@
           "date": "2026-10-25",
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12302",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12300": {
-        "hash": "a0196500b9bd11fed0c03a9261d7b3129c44efef6aa7a8869c218a2555e3e771",
-        "item": {
-          "title": "【掲載情報】『The NEW ERA Book Fall & Winter 2026』※諸橋沙夏",
-          "date": "2026-10-23",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12300",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12295": {
-        "hash": "289c0089ccb908dc9ee2fafa683c214b3eda7d072432f7557efd18afb65b153c",
-        "item": {
-          "title": "【出演情報】NHK Eテレ「沼にハマってきいてみた 【＝LOVE沼】」※＝LOVE",
-          "date": "2026-10-23",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12295",
           "category": "メディア"
         }
       }
@@ -463,6 +463,30 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12370:3c17549de451",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-29T08:44:36.634Z",
+      "title": "【出演情報】「MTV VMAJ 2026」の放送・配信が決定！",
+      "url": "https://sp.equal-love.jp/news/detail/12370",
+      "date": "2026-10-29",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12366:7b16c44f0f17",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-29T08:44:36.634Z",
+      "title": "『生誕祭イベント~supported by IKONOIJOY Puzzle~』（11月）FC限定チケット2次受付開始のお知らせ",
+      "url": "https://sp.equal-love.jp/news/detail/12366",
+      "date": "2026-10-29",
+      "category": "ライブ/イベント",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12374:03515975a61f",
       "type": "news",
@@ -1645,30 +1669,6 @@
       "title": "TBS系「坂上&指原のつぶれない店」...",
       "url": "https://equal-love.jp/schedule/detail/12160",
       "date": "2026-10-11",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12161:db6bdd69bd21",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-04T08:45:13.427Z",
-      "title": "生写真セット(「恋、はじめました。」歌唱衣装)・アクリルスタンドキーホルダー(「恋、はじめました。」衣装) ・「恋、はじめました。」フォトアルバム発売！",
-      "url": "https://sp.equal-love.jp/news/detail/12161",
-      "date": "2026-10-04",
-      "category": "グッズ",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11183:6d908d1f53b5",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-04T02:44:40.812Z",
-      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
-      "url": "https://equal-love.jp/schedule/detail/11183",
-      "date": "2026-10-04",
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""
