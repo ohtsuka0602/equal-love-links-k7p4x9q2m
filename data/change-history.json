@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-29T00:23:49.789Z",
-    "updatedAt": "2026-10-28T14:45:30.858Z",
+    "checkedAt": "2026-10-29T02:44:49.081Z",
+    "updatedAt": "2026-10-29T02:44:49.081Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -70,6 +70,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12374": {
+        "hash": "03515975a61f9ba5e60fdeaab261c69d8af1a19f28e35fd0b1ce26e794885f15",
+        "item": {
+          "title": "【重要】メール配信サービス再開のお知らせ",
+          "date": "2026-10-29",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12374",
+          "category": "お知らせ"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12373": {
         "hash": "4d45e5d571b679f26f68a9fdd034569d62904e65a1a14bab5d294b3aa06efce0",
         "item": {
@@ -157,16 +167,6 @@
           "date": "2026-10-23",
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12295",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12297": {
-        "hash": "a1dcce7e5818a37267d6a2d07d3914b8915916d6c591242b134b838391643c52",
-        "item": {
-          "title": "【出演情報】日本テレビ「ヒルナンデス！」※大谷映美里",
-          "date": "2026-10-23",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12297",
           "category": "メディア"
         }
       }
@@ -463,6 +463,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12374:03515975a61f",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-29T02:44:49.081Z",
+      "title": "【重要】メール配信サービス再開のお知らせ",
+      "url": "https://sp.equal-love.jp/news/detail/12374",
+      "date": "2026-10-29",
+      "category": "お知らせ",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12373:4d45e5d571b6",
       "type": "news",
@@ -1657,18 +1669,6 @@
       "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
       "url": "https://equal-love.jp/schedule/detail/11183",
       "date": "2026-10-04",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11934:1508bcacf10b",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-04T02:44:40.812Z",
-      "title": "TELASAオリジナル「アイ=ラブ！...",
-      "url": "https://equal-love.jp/schedule/detail/11934",
-      "date": "2026-10-10",
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""

@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-10-29T00:23:49.634Z",
-    "updatedAt": "2026-10-28T14:45:30.672Z"
+    "checkedAt": "2026-10-29T02:44:48.894Z",
+    "updatedAt": "2026-10-29T02:44:48.894Z"
   },
   "news": [
+    {
+      "title": "【重要】メール配信サービス再開のお知らせ",
+      "date": "2026-10-29",
+      "url": "https://sp.equal-love.jp/news/detail/12374",
+      "category": "お知らせ"
+    },
     {
       "title": "【重要】メール配信サービスの緊急メンテナンスに伴うメール配信停止のお知らせ",
       "date": "2026-10-28",
@@ -56,12 +62,6 @@
       "title": "【出演情報】NHK Eテレ「沼にハマってきいてみた 【＝LOVE沼】」※＝LOVE",
       "date": "2026-10-23",
       "url": "https://sp.equal-love.jp/news/detail/12295",
-      "category": "メディア"
-    },
-    {
-      "title": "【出演情報】日本テレビ「ヒルナンデス！」※大谷映美里",
-      "date": "2026-10-23",
-      "url": "https://sp.equal-love.jp/news/detail/12297",
       "category": "メディア"
     }
   ]
