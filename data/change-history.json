@@ -1,6 +1,6 @@
 {
   "meta": {
-    "checkedAt": "2026-10-30T14:44:59.830Z",
+    "checkedAt": "2026-10-30T19:19:00.985Z",
     "updatedAt": "2026-10-30T08:44:27.933Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
@@ -8,26 +8,6 @@
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/10744": {
-        "hash": "a98060f99af15cc460f3c72e421f18fd43a366fa01918af183d47b28a30ce115",
-        "item": {
-          "title": "Artistspoken「イマフレラ...",
-          "date": "2026-10-30",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10744",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12301": {
-        "hash": "7264b2d86341afd9ba034f583d5dba9243ace786f84fc5683da1d5587260e2e6",
-        "item": {
-          "title": "『The NEW ERA Book ...",
-          "date": "2026-10-30",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12301",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/12264": {
         "hash": "d639c1d1e62c1250fd08f3b9fba7b0598e6f19c8917529ec27d37000b8330957",
         "item": {
