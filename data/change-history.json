@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-30T02:45:03.857Z",
-    "updatedAt": "2026-10-29T08:44:36.634Z",
+    "checkedAt": "2026-10-30T08:44:27.933Z",
+    "updatedAt": "2026-10-30T08:44:27.933Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -50,6 +50,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12364": {
+        "hash": "9841aa19a955cb6b1f04d8ce99503fd235033d53d91d1a77af7e7ab4363d15f1",
+        "item": {
+          "title": "=LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～ 配信チケット発売のお知らせ",
+          "date": "2026-10-30",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12364",
+          "category": "ライブ/イベント"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12370": {
         "hash": "3c17549de4515e889fbe2524f7300ea17bb359538c38d0c72b5fb6814bf4997f",
         "item": {
@@ -137,16 +147,6 @@
           "date": "2026-10-25",
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12304",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12302": {
-        "hash": "c3dd2212f51ad08b11a513c88ce68bef599015c0a4033164b4a5b8f5f98d6e8a",
-        "item": {
-          "title": "【出演情報】FM NACK5「Smile SUMMIT」※大場花菜",
-          "date": "2026-10-25",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12302",
           "category": "メディア"
         }
       }
@@ -443,6 +443,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12364:9841aa19a955",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-30T08:44:27.933Z",
+      "title": "=LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～ 配信チケット発売のお知らせ",
+      "url": "https://sp.equal-love.jp/news/detail/12364",
+      "date": "2026-10-30",
+      "category": "ライブ/イベント",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12370:3c17549de451",
       "type": "news",
@@ -1637,18 +1649,6 @@
       "title": "【出演情報】TBS系「坂上&指原のつぶれない店」※大谷映美里",
       "url": "https://sp.equal-love.jp/news/detail/12159",
       "date": "2026-10-04",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/12160:9032fb660601",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-04T14:44:30.833Z",
-      "title": "TBS系「坂上&指原のつぶれない店」...",
-      "url": "https://equal-love.jp/schedule/detail/12160",
-      "date": "2026-10-11",
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""

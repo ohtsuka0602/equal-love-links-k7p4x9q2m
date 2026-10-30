@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-10-30T02:44:25.078Z",
-    "updatedAt": "2026-10-29T08:44:36.440Z"
+    "checkedAt": "2026-10-30T08:44:27.737Z",
+    "updatedAt": "2026-10-30T08:44:27.737Z"
   },
   "news": [
+    {
+      "title": "=LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～ 配信チケット発売のお知らせ",
+      "date": "2026-10-30",
+      "url": "https://sp.equal-love.jp/news/detail/12364",
+      "category": "ライブ/イベント"
+    },
     {
       "title": "【出演情報】「MTV VMAJ 2026」の放送・配信が決定！",
       "date": "2026-10-29",
@@ -56,12 +62,6 @@
       "title": "【出演情報】FM NACK5「カメレオンパーティー」※大場花菜",
       "date": "2026-10-25",
       "url": "https://sp.equal-love.jp/news/detail/12304",
-      "category": "メディア"
-    },
-    {
-      "title": "【出演情報】FM NACK5「Smile SUMMIT」※大場花菜",
-      "date": "2026-10-25",
-      "url": "https://sp.equal-love.jp/news/detail/12302",
       "category": "メディア"
     }
   ]
