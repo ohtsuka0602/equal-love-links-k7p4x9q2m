@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-10-31T02:44:28.096Z",
-    "updatedAt": "2026-10-30T08:44:27.737Z"
+    "checkedAt": "2026-10-31T08:45:07.293Z",
+    "updatedAt": "2026-10-31T08:45:07.293Z"
   },
   "news": [
+    {
+      "title": "【掲載情報】つなぐ旅 東日本 ～ひがしにほんトラベルガイド～※大場花菜",
+      "date": "2026-10-31",
+      "url": "https://sp.equal-love.jp/news/detail/12375",
+      "category": "メディア"
+    },
     {
       "title": "=LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～ 配信チケット発売のお知らせ",
       "date": "2026-10-30",
@@ -57,12 +63,6 @@
       "date": "2026-10-26",
       "url": "https://sp.equal-love.jp/news/detail/12299",
       "category": "ライブ/イベント"
-    },
-    {
-      "title": "【出演情報】FM NACK5「カメレオンパーティー」※大場花菜",
-      "date": "2026-10-25",
-      "url": "https://sp.equal-love.jp/news/detail/12304",
-      "category": "メディア"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-31T08:43:46.958Z",
-    "updatedAt": "2026-10-31T08:43:46.958Z",
+    "checkedAt": "2026-10-31T08:45:07.492Z",
+    "updatedAt": "2026-10-31T08:45:07.492Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -50,6 +50,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12375": {
+        "hash": "42a3e2941db0d93b81fcb6e98da2a383a87c2a139dd89915ba3cbe7d5f73f83a",
+        "item": {
+          "title": "【掲載情報】つなぐ旅 東日本 ～ひがしにほんトラベルガイド～※大場花菜",
+          "date": "2026-10-31",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12375",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12364": {
         "hash": "9841aa19a955cb6b1f04d8ce99503fd235033d53d91d1a77af7e7ab4363d15f1",
         "item": {
@@ -138,16 +148,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12299",
           "category": "ライブ/イベント"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12304": {
-        "hash": "6944c705f7530d6cedfd36aa1c27a4e6e2915b8708efbbc2dcf15251314683fb",
-        "item": {
-          "title": "【出演情報】FM NACK5「カメレオンパーティー」※大場花菜",
-          "date": "2026-10-25",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12304",
-          "category": "メディア"
         }
       }
     },
@@ -443,6 +443,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12375:42a3e2941db0",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-31T08:45:07.492Z",
+      "title": "【掲載情報】つなぐ旅 東日本 ～ひがしにほんトラベルガイド～※大場花菜",
+      "url": "https://sp.equal-love.jp/news/detail/12375",
+      "date": "2026-10-31",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12376:516d1a3d1dac",
       "type": "schedule",
@@ -1638,18 +1650,6 @@
       "url": "https://equal-love.jp/schedule/detail/12238",
       "date": "2026-10-06",
       "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12237:bbdc1d51defb",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-06T09:24:56.300Z",
-      "title": "アサヒ空想開発局コラボ『とくべチューハイ』の開発が決定！大谷映美里、佐々木舞香、野口衣織、諸橋沙夏が「イコラブチューハイ開発局」局員に就任！",
-      "url": "https://sp.equal-love.jp/news/detail/12237",
-      "date": "2026-10-06",
-      "category": "お知らせ",
       "memberNames": [],
       "sourceName": ""
     }
