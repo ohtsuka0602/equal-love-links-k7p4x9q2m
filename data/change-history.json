@@ -1,13 +1,23 @@
 {
   "meta": {
-    "checkedAt": "2026-10-31T02:44:28.432Z",
-    "updatedAt": "2026-10-30T08:44:27.933Z",
+    "checkedAt": "2026-10-31T02:45:01.494Z",
+    "updatedAt": "2026-10-31T02:45:01.494Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
+      "https://equal-love.jp/schedule/detail/12296": {
+        "hash": "f98d972d14c3e4ac4661d69ffebfca50861e19351a42dbeea4ac79091b8d5192",
+        "item": {
+          "title": "NHK Eテレ「沼にハマってきいてみ...",
+          "date": "2026-10-31",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12296",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/12264": {
         "hash": "d639c1d1e62c1250fd08f3b9fba7b0598e6f19c8917529ec27d37000b8330957",
         "item": {
@@ -18,13 +28,13 @@
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/12296": {
-        "hash": "f98d972d14c3e4ac4661d69ffebfca50861e19351a42dbeea4ac79091b8d5192",
+      "https://equal-love.jp/schedule/detail/10681": {
+        "hash": "bb80e8dd9008cd0a392ab7cc6ae615e1cb357f435640a4984324bcfd6b3b793a",
         "item": {
-          "title": "NHK Eテレ「沼にハマってきいてみ...",
+          "title": "テレビ朝日「アイ=ラブ！げーみんぐ ...",
           "date": "2026-10-31",
           "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12296",
+          "url": "https://equal-love.jp/schedule/detail/10681",
           "category": "メディア"
         }
       }
@@ -423,6 +433,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10681:bb80e8dd9008",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-31T02:45:01.494Z",
+      "title": "テレビ朝日「アイ=ラブ！げーみんぐ ...",
+      "url": "https://equal-love.jp/schedule/detail/10681",
+      "date": "2026-10-31",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12364:9841aa19a955",
       "type": "news",
@@ -1617,18 +1639,6 @@
       "title": "TOKYO FM「Hand in H...",
       "url": "https://equal-love.jp/schedule/detail/11739",
       "date": "2026-10-06",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12159:811fb8192512",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-04T14:45:56.646Z",
-      "title": "【出演情報】TBS系「坂上&指原のつぶれない店」※大谷映美里",
-      "url": "https://sp.equal-love.jp/news/detail/12159",
-      "date": "2026-10-04",
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""

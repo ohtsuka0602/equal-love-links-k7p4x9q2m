@@ -1,9 +1,16 @@
 {
   "meta": {
-    "checkedAt": "2026-10-30T20:43:58.001Z",
-    "updatedAt": "2026-10-30T19:19:00.813Z"
+    "checkedAt": "2026-10-31T02:45:01.363Z",
+    "updatedAt": "2026-10-31T02:45:01.363Z"
   },
   "schedule": [
+    {
+      "title": "NHK Eテレ「沼にハマってきいてみ...",
+      "date": "2026-10-31",
+      "url": "https://equal-love.jp/schedule/detail/12296",
+      "category": "メディア",
+      "time": ""
+    },
     {
       "title": "フジテレビ「STARフェス」※＝LO...",
       "date": "2026-10-31",
@@ -12,9 +19,9 @@
       "time": ""
     },
     {
-      "title": "NHK Eテレ「沼にハマってきいてみ...",
+      "title": "テレビ朝日「アイ=ラブ！げーみんぐ ...",
       "date": "2026-10-31",
-      "url": "https://equal-love.jp/schedule/detail/12296",
+      "url": "https://equal-love.jp/schedule/detail/10681",
       "category": "メディア",
       "time": ""
     }
