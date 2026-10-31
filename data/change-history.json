@@ -1,20 +1,20 @@
 {
   "meta": {
-    "checkedAt": "2026-10-31T02:45:01.494Z",
-    "updatedAt": "2026-10-31T02:45:01.494Z",
+    "checkedAt": "2026-10-31T08:43:46.958Z",
+    "updatedAt": "2026-10-31T08:43:46.958Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/12296": {
-        "hash": "f98d972d14c3e4ac4661d69ffebfca50861e19351a42dbeea4ac79091b8d5192",
+      "https://equal-love.jp/schedule/detail/10681": {
+        "hash": "bb80e8dd9008cd0a392ab7cc6ae615e1cb357f435640a4984324bcfd6b3b793a",
         "item": {
-          "title": "NHK Eテレ「沼にハマってきいてみ...",
+          "title": "テレビ朝日「アイ=ラブ！げーみんぐ ...",
           "date": "2026-10-31",
           "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12296",
+          "url": "https://equal-love.jp/schedule/detail/10681",
           "category": "メディア"
         }
       },
@@ -28,13 +28,23 @@
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/10681": {
-        "hash": "bb80e8dd9008cd0a392ab7cc6ae615e1cb357f435640a4984324bcfd6b3b793a",
+      "https://equal-love.jp/schedule/detail/12296": {
+        "hash": "f98d972d14c3e4ac4661d69ffebfca50861e19351a42dbeea4ac79091b8d5192",
         "item": {
-          "title": "テレビ朝日「アイ=ラブ！げーみんぐ ...",
+          "title": "NHK Eテレ「沼にハマってきいてみ...",
           "date": "2026-10-31",
           "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10681",
+          "url": "https://equal-love.jp/schedule/detail/12296",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12376": {
+        "hash": "516d1a3d1dace75901ceb020519759822157b8f7fd716ff66e801fc9502d9519",
+        "item": {
+          "title": "つなぐ旅 東日本 ～ひがしにほんトラ...",
+          "date": "2026-10-31",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12376",
           "category": "メディア"
         }
       }
@@ -433,6 +443,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12376:516d1a3d1dac",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-10-31T08:43:46.958Z",
+      "title": "つなぐ旅 東日本 ～ひがしにほんトラ...",
+      "url": "https://equal-love.jp/schedule/detail/12376",
+      "date": "2026-10-31",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/10681:bb80e8dd9008",
       "type": "schedule",
@@ -1628,18 +1650,6 @@
       "url": "https://sp.equal-love.jp/news/detail/12237",
       "date": "2026-10-06",
       "category": "お知らせ",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11739:45b23a9f3305",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-05T21:28:33.719Z",
-      "title": "TOKYO FM「Hand in H...",
-      "url": "https://equal-love.jp/schedule/detail/11739",
-      "date": "2026-10-06",
-      "category": "メディア",
       "memberNames": [],
       "sourceName": ""
     }

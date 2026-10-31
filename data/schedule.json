@@ -1,13 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-10-31T02:45:01.363Z",
-    "updatedAt": "2026-10-31T02:45:01.363Z"
+    "checkedAt": "2026-10-31T08:43:46.759Z",
+    "updatedAt": "2026-10-31T08:43:46.759Z"
   },
   "schedule": [
     {
-      "title": "NHK Eテレ「沼にハマってきいてみ...",
+      "title": "テレビ朝日「アイ=ラブ！げーみんぐ ...",
       "date": "2026-10-31",
-      "url": "https://equal-love.jp/schedule/detail/12296",
+      "url": "https://equal-love.jp/schedule/detail/10681",
       "category": "メディア",
       "time": ""
     },
@@ -19,9 +19,16 @@
       "time": ""
     },
     {
-      "title": "テレビ朝日「アイ=ラブ！げーみんぐ ...",
+      "title": "NHK Eテレ「沼にハマってきいてみ...",
       "date": "2026-10-31",
-      "url": "https://equal-love.jp/schedule/detail/10681",
+      "url": "https://equal-love.jp/schedule/detail/12296",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "つなぐ旅 東日本 ～ひがしにほんトラ...",
+      "date": "2026-10-31",
+      "url": "https://equal-love.jp/schedule/detail/12376",
       "category": "メディア",
       "time": ""
     }
