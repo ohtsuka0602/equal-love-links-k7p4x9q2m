@@ -1,9 +1,22 @@
 {
   "meta": {
-    "checkedAt": "2026-10-31T08:52:20.031Z",
-    "updatedAt": "2026-10-28T14:45:24.251Z"
+    "checkedAt": "2026-10-31T14:44:58.195Z",
+    "updatedAt": "2026-10-31T14:44:58.195Z"
   },
   "videos": [
+    {
+      "videoId": "ZnQmGtIaQFM",
+      "title": "北海道で食い倒れたみりにゃ",
+      "url": "https://www.youtube.com/watch?v=ZnQmGtIaQFM",
+      "thumbnail": "https://i.ytimg.com/vi/ZnQmGtIaQFM/maxresdefault.jpg",
+      "publishedAt": "2026-10-31T12:00:24Z",
+      "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
+      "channelName": "みりにゃと申します。",
+      "sourceName": "大谷 映美里",
+      "memberNames": [
+        "大谷 映美里"
+      ]
+    },
     {
       "videoId": "bnD5K5aect8",
       "title": "人生初のびっくりドンキーでずっとびっくり",
@@ -51,19 +64,6 @@
       "channelName": "＝LOVE（イコールラブ）公式チャンネル",
       "sourceName": "=LOVE オフィシャル",
       "memberNames": []
-    },
-    {
-      "videoId": "e4iYaqCBkkY",
-      "title": "緊急おかチャン反省会【サムギョプサル】",
-      "url": "https://www.youtube.com/watch?v=e4iYaqCBkkY",
-      "thumbnail": "https://i.ytimg.com/vi/e4iYaqCBkkY/maxresdefault.jpg",
-      "publishedAt": "2026-10-14T10:00:39Z",
-      "channelId": "UCcsyyry5bsjTeqqJ_Yz9TiA",
-      "channelName": "音嶋莉沙の様子がおかしいチャンネル",
-      "sourceName": "音嶋 莉沙",
-      "memberNames": [
-        "音嶋 莉沙"
-      ]
     }
   ]
 }

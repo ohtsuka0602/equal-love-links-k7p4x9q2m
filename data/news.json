@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-10-31T08:52:25.459Z",
-    "updatedAt": "2026-10-31T08:45:07.293Z"
+    "checkedAt": "2026-10-31T14:45:03.915Z",
+    "updatedAt": "2026-10-31T14:45:03.915Z"
   },
   "news": [
+    {
+      "title": "≪物販情報≫＝LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～",
+      "date": "2026-10-31",
+      "url": "https://sp.equal-love.jp/news/detail/12379",
+      "category": "グッズ"
+    },
     {
       "title": "【掲載情報】つなぐ旅 東日本 ～ひがしにほんトラベルガイド～※大場花菜",
       "date": "2026-10-31",
@@ -57,12 +63,6 @@
       "date": "2026-10-28",
       "url": "https://sp.equal-love.jp/news/detail/12367",
       "category": "メディア"
-    },
-    {
-      "title": "＝LOVE in TOKYO DOME「全ては＝LOVE」FC先行チケット受付開始のお知らせ",
-      "date": "2026-10-26",
-      "url": "https://sp.equal-love.jp/news/detail/12299",
-      "category": "ライブ/イベント"
     }
   ]
 }

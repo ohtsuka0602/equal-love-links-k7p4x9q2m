@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-10-31T14:43:43.546Z",
-    "updatedAt": "2026-10-31T08:45:07.492Z",
+    "checkedAt": "2026-10-31T14:45:04.111Z",
+    "updatedAt": "2026-10-31T14:45:04.111Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -50,6 +50,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12379": {
+        "hash": "efb5b20d7008398737199f21f640b3830970ea45cd428dbfa119577eb0601af0",
+        "item": {
+          "title": "≪物販情報≫＝LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～",
+          "date": "2026-10-31",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12379",
+          "category": "グッズ"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12375": {
         "hash": "42a3e2941db0d93b81fcb6e98da2a383a87c2a139dd89915ba3cbe7d5f73f83a",
         "item": {
@@ -139,19 +149,25 @@
           "url": "https://sp.equal-love.jp/news/detail/12367",
           "category": "メディア"
         }
-      },
-      "https://sp.equal-love.jp/news/detail/12299": {
-        "hash": "0e86d3f8e38a54bfd170d2e4991ccf29f484893bfe19513defc448c28fa201c1",
-        "item": {
-          "title": "＝LOVE in TOKYO DOME「全ては＝LOVE」FC先行チケット受付開始のお知らせ",
-          "date": "2026-10-26",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12299",
-          "category": "ライブ/イベント"
-        }
       }
     },
     "youtube": {
+      "ZnQmGtIaQFM": {
+        "hash": "e11f83488bd42cb266d2bad6f5fe55608e70bbb4054633850ce7462a5dd4d950",
+        "item": {
+          "videoId": "ZnQmGtIaQFM",
+          "title": "北海道で食い倒れたみりにゃ",
+          "url": "https://www.youtube.com/watch?v=ZnQmGtIaQFM",
+          "thumbnail": "https://i.ytimg.com/vi/ZnQmGtIaQFM/maxresdefault.jpg",
+          "publishedAt": "2026-10-31T12:00:24Z",
+          "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
+          "channelName": "みりにゃと申します。",
+          "sourceName": "大谷 映美里",
+          "memberNames": [
+            "大谷 映美里"
+          ]
+        }
+      },
       "bnD5K5aect8": {
         "hash": "247e673906dc7cec7993cf7dfa101d28bfcc3f81975f54a578b2bd030a9336cf",
         "item": {
@@ -210,22 +226,6 @@
           "channelName": "＝LOVE（イコールラブ）公式チャンネル",
           "sourceName": "=LOVE オフィシャル",
           "memberNames": []
-        }
-      },
-      "e4iYaqCBkkY": {
-        "hash": "b2dc3ce2ffe96b4df71bcdda2767f7b6eef09a4ef5be7360e9c11421475eec7e",
-        "item": {
-          "videoId": "e4iYaqCBkkY",
-          "title": "緊急おかチャン反省会【サムギョプサル】",
-          "url": "https://www.youtube.com/watch?v=e4iYaqCBkkY",
-          "thumbnail": "https://i.ytimg.com/vi/e4iYaqCBkkY/maxresdefault.jpg",
-          "publishedAt": "2026-10-14T10:00:39Z",
-          "channelId": "UCcsyyry5bsjTeqqJ_Yz9TiA",
-          "channelName": "音嶋莉沙の様子がおかしいチャンネル",
-          "sourceName": "音嶋 莉沙",
-          "memberNames": [
-            "音嶋 莉沙"
-          ]
         }
       }
     },
@@ -443,6 +443,32 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12379:efb5b20d7008",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-10-31T14:45:04.111Z",
+      "title": "≪物販情報≫＝LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～",
+      "url": "https://sp.equal-love.jp/news/detail/12379",
+      "date": "2026-10-31",
+      "category": "グッズ",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "youtube:added:ZnQmGtIaQFM:e11f83488bd4",
+      "type": "youtube",
+      "action": "added",
+      "occurredAt": "2026-10-31T14:45:04.111Z",
+      "title": "北海道で食い倒れたみりにゃ",
+      "url": "https://www.youtube.com/watch?v=ZnQmGtIaQFM",
+      "date": "2026-10-31T12:00:24Z",
+      "category": "",
+      "memberNames": [
+        "大谷 映美里"
+      ],
+      "sourceName": "大谷 映美里"
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12375:42a3e2941db0",
       "type": "news",
@@ -1628,30 +1654,6 @@
         "大谷 映美里"
       ],
       "sourceName": "大谷 映美里"
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11874:6dfb1457e863",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-07T14:44:30.014Z",
-      "title": "株式会社ジェイロック「月刊わんこvo...",
-      "url": "https://equal-love.jp/schedule/detail/11874",
-      "date": "2026-10-15",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/12238:6c925c518d58",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-06T14:46:05.311Z",
-      "title": "イコラブ ノイミー ニアジョイ チャ...",
-      "url": "https://equal-love.jp/schedule/detail/12238",
-      "date": "2026-10-06",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
     }
   ]
 }
