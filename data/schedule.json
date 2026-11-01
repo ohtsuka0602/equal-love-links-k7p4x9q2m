@@ -1,34 +1,76 @@
 {
   "meta": {
-    "checkedAt": "2026-10-31T20:43:41.632Z",
-    "updatedAt": "2026-10-31T08:43:46.759Z"
+    "checkedAt": "2026-11-01T02:45:03.400Z",
+    "updatedAt": "2026-11-01T02:45:03.400Z"
   },
   "schedule": [
     {
-      "title": "テレビ朝日「アイ=ラブ！げーみんぐ ...",
-      "date": "2026-10-31",
-      "url": "https://equal-love.jp/schedule/detail/10681",
+      "title": "握手会 ＝LOVE 21stシングル発売記念...",
+      "date": "2026-11-01",
+      "url": "https://equal-love.jp/schedule/detail/11592",
+      "category": "",
+      "time": ""
+    },
+    {
+      "title": "FM NACK5「カメレオンパーティ...",
+      "date": "2026-11-01",
+      "url": "https://equal-love.jp/schedule/detail/12305",
       "category": "メディア",
       "time": ""
     },
     {
-      "title": "フジテレビ「STARフェス」※＝LO...",
-      "date": "2026-10-31",
-      "url": "https://equal-love.jp/schedule/detail/12264",
+      "title": "FM NACK5『＝LOVE大場花菜...",
+      "date": "2026-11-01",
+      "url": "https://equal-love.jp/schedule/detail/12292",
       "category": "メディア",
       "time": ""
     },
     {
-      "title": "NHK Eテレ「沼にハマってきいてみ...",
-      "date": "2026-10-31",
-      "url": "https://equal-love.jp/schedule/detail/12296",
+      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
+      "date": "2026-11-01",
+      "url": "https://equal-love.jp/schedule/detail/11187",
       "category": "メディア",
       "time": ""
     },
     {
-      "title": "つなぐ旅 東日本 ～ひがしにほんトラ...",
-      "date": "2026-10-31",
-      "url": "https://equal-love.jp/schedule/detail/12376",
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "date": "2026-11-02",
+      "url": "https://equal-love.jp/schedule/detail/10449",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "「マヂラブ・野口衣織のマヂでラブにな...",
+      "date": "2026-11-03",
+      "url": "https://equal-love.jp/schedule/detail/11846",
+      "category": "ライブ/イベント",
+      "time": ""
+    },
+    {
+      "title": "SHOWROOM『＝LOVE 山本杏...",
+      "date": "2026-11-05",
+      "url": "https://equal-love.jp/schedule/detail/10501",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "オリジナルアニメーション映画『GRO...",
+      "date": "2026-11-06",
+      "url": "https://equal-love.jp/schedule/detail/11691",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "Artistspoken「イマフレラ...",
+      "date": "2026-11-06",
+      "url": "https://equal-love.jp/schedule/detail/10745",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "date": "2026-11-09",
+      "url": "https://equal-love.jp/schedule/detail/10450",
       "category": "メディア",
       "time": ""
     }
