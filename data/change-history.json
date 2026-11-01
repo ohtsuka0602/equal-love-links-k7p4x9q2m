@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-01T20:45:12.175Z",
-    "updatedAt": "2026-11-01T18:54:11.091Z",
+    "checkedAt": "2026-11-01T23:53:52.171Z",
+    "updatedAt": "2026-11-01T23:53:52.171Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12380": {
+        "hash": "595d091bc8e3315fb59af408b1d2727a9d0a587ece165e94acc9d168859dcf6e",
+        "item": {
+          "title": "【出演情報】フジテレビ系「めざましテレビ」11月のマンスリーエンタメプレゼンターを髙松瞳が務めさせていただくことが決定！",
+          "date": "2026-11-02",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12380",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12378": {
         "hash": "72e1e0b1949b11d3f3bf5a229445b42dd9a41d77d688611974b906267a9429df",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12369",
           "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12372": {
-        "hash": "afee178222877e566bbcba6ea556397d961c29922a7d91e7207b69efc5447d15",
-        "item": {
-          "title": "読売テレビ・日本テレビ系全国ネット「ベストヒット歌謡祭2026」番組観覧ご招待のお知らせ",
-          "date": "2026-10-28",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12372",
-          "category": "ライブ/イベント"
         }
       }
     },
@@ -503,6 +503,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12380:595d091bc8e3",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-01T23:53:52.171Z",
+      "title": "【出演情報】フジテレビ系「めざましテレビ」11月のマンスリーエンタメプレゼンターを髙松瞳が務めさせていただくことが決定！",
+      "url": "https://sp.equal-love.jp/news/detail/12380",
+      "date": "2026-11-02",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12368:4bcec45144aa",
       "type": "schedule",
@@ -1697,18 +1709,6 @@
       "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #大場花菜 #イコラブ #イコールラブ",
       "url": "https://www.youtube.com/watch?v=VjAZTmkBJYQ",
       "date": "2026-10-10T13:42:10Z",
-      "category": "",
-      "memberNames": [],
-      "sourceName": "=LOVE オフィシャル"
-    },
-    {
-      "id": "youtube:added:c0dlRRjd-dc:0560e377b789",
-      "type": "youtube",
-      "action": "added",
-      "occurredAt": "2026-10-10T14:46:54.748Z",
-      "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #大谷映美里 #イコラブ #イコールラブ",
-      "url": "https://www.youtube.com/watch?v=c0dlRRjd-dc",
-      "date": "2026-10-10T13:41:34Z",
       "category": "",
       "memberNames": [],
       "sourceName": "=LOVE オフィシャル"
