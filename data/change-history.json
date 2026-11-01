@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-01T08:45:06.577Z",
-    "updatedAt": "2026-11-01T02:45:03.588Z",
+    "checkedAt": "2026-11-01T09:42:54.890Z",
+    "updatedAt": "2026-11-01T09:42:54.890Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12378": {
+        "hash": "72e1e0b1949b11d3f3bf5a229445b42dd9a41d77d688611974b906267a9429df",
+        "item": {
+          "title": "生写真セット(「恋、はじめました。」歌唱衣装②)・「恋、はじめました。」グッズ発売！",
+          "date": "2026-11-01",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12378",
+          "category": "グッズ"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12379": {
         "hash": "efb5b20d7008398737199f21f640b3830970ea45cd428dbfa119577eb0601af0",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12372",
           "category": "ライブ/イベント"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12367": {
-        "hash": "37859f38215996b727c0fbc6aff0cb326159606f9bf13d3e9dae708e357fa184",
-        "item": {
-          "title": "【出演情報】読売テレビ・日本テレビ系全国ネット「ベストヒット歌謡祭2026」※＝LOVE",
-          "date": "2026-10-28",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12367",
-          "category": "メディア"
         }
       }
     },
@@ -503,6 +503,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12378:72e1e0b1949b",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-01T09:42:54.890Z",
+      "title": "生写真セット(「恋、はじめました。」歌唱衣装②)・「恋、はじめました。」グッズ発売！",
+      "url": "https://sp.equal-love.jp/news/detail/12378",
+      "date": "2026-11-01",
+      "category": "グッズ",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11592:bd3527a08942",
       "type": "schedule",
@@ -1698,18 +1710,6 @@
       "url": "https://sp.equal-love.jp/news/detail/12253",
       "date": "2026-10-09",
       "category": "ライブ/イベント",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12257:56697b30e88e",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-09T08:45:34.581Z",
-      "title": "「STARフェス」イベント会場にて、＝LOVE映像商品予約抽選会開催決定！",
-      "url": "https://sp.equal-love.jp/news/detail/12257",
-      "date": "2026-10-09",
-      "category": "お知らせ",
       "memberNames": [],
       "sourceName": ""
     }
