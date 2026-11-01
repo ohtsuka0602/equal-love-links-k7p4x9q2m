@@ -1,53 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-11-01T14:45:01.801Z",
-    "updatedAt": "2026-11-01T09:42:54.890Z",
+    "checkedAt": "2026-11-01T18:54:11.091Z",
+    "updatedAt": "2026-11-01T18:54:11.091Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/11592": {
-        "hash": "bd3527a0894202356b4abb459da5d47a281a7e44cc0106c250404885d54a6dd2",
-        "item": {
-          "title": "握手会 ＝LOVE 21stシングル発売記念...",
-          "date": "2026-11-01",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11592",
-          "category": ""
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12305": {
-        "hash": "785ff4aa1c00948ac22d27aa63972d422572d838abad27e1cc64962576a68772",
-        "item": {
-          "title": "FM NACK5「カメレオンパーティ...",
-          "date": "2026-11-01",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12305",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12292": {
-        "hash": "1e226e4f5ae80dcc6a5d6e2c93fd4029ecedc76f38d74d8a7dfbeb1ebbaa218f",
-        "item": {
-          "title": "FM NACK5『＝LOVE大場花菜...",
-          "date": "2026-11-01",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12292",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11187": {
-        "hash": "a7d075568584f5a15676a16883f77cf70e7525a6313d0b5b36054217ddd06584",
-        "item": {
-          "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
-          "date": "2026-11-01",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11187",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/10449": {
         "hash": "80b89ccecfcf57a9bbb4686a49c92f974ccccf26fdb33590230c7bff7ddca482",
         "item": {
@@ -105,6 +65,46 @@
           "date": "2026-11-09",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10450",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12368": {
+        "hash": "4bcec45144aa116d2606e17b804415854ee00902a98252f75a01ca537f933e96",
+        "item": {
+          "title": "読売テレビ・日本テレビ系全国ネット「...",
+          "date": "2026-11-11",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12368",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10502": {
+        "hash": "d82617ef434485fc8510783e92f0ee2a8f0f6df6cde2afe6b6d1abcfbf7fb94b",
+        "item": {
+          "title": "SHOWROOM『＝LOVE 山本杏...",
+          "date": "2026-11-12",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10502",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12377": {
+        "hash": "3d47399fff439c0eb9fc860a84aabb337c8f55c1051ff40547aeafd057376b6f",
+        "item": {
+          "title": "つなぐ旅 東日本 ～ひがしにほんトラ...",
+          "date": "2026-11-13",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12377",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10746": {
+        "hash": "d05f6848bcfb60311ca6ff3c69205279df8a31540e9abf17d843aa69459413d8",
+        "item": {
+          "title": "Artistspoken「イマフレラ...",
+          "date": "2026-11-13",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10746",
           "category": "メディア"
         }
       }
@@ -503,6 +503,54 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12368:4bcec45144aa",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-01T18:54:11.091Z",
+      "title": "読売テレビ・日本テレビ系全国ネット「...",
+      "url": "https://equal-love.jp/schedule/detail/12368",
+      "date": "2026-11-11",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10502:d82617ef4344",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-01T18:54:11.091Z",
+      "title": "SHOWROOM『＝LOVE 山本杏...",
+      "url": "https://equal-love.jp/schedule/detail/10502",
+      "date": "2026-11-12",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12377:3d47399fff43",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-01T18:54:11.091Z",
+      "title": "つなぐ旅 東日本 ～ひがしにほんトラ...",
+      "url": "https://equal-love.jp/schedule/detail/12377",
+      "date": "2026-11-13",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10746:d05f6848bcfb",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-01T18:54:11.091Z",
+      "title": "Artistspoken「イマフレラ...",
+      "url": "https://equal-love.jp/schedule/detail/10746",
+      "date": "2026-11-13",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12378:72e1e0b1949b",
       "type": "news",
@@ -1664,54 +1712,6 @@
       "category": "",
       "memberNames": [],
       "sourceName": "=LOVE オフィシャル"
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12260:edbb02acbf84",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-10T08:46:08.177Z",
-      "title": "＝LOVEデビュー9周年企画 コンサート映像配信決定！",
-      "url": "https://sp.equal-love.jp/news/detail/12260",
-      "date": "2026-10-10",
-      "category": "お知らせ",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11619:d5c0c8afcfae",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-09T19:31:49.034Z",
-      "title": "＝LOVE 9周年コンサート「＝LO...",
-      "url": "https://equal-love.jp/schedule/detail/11619",
-      "date": "2026-10-16",
-      "category": "ライブ/イベント",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/10447:09e7586f12e2",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-09T19:31:49.034Z",
-      "title": "ニッポン放送「＝LOVEのイコラフ」",
-      "url": "https://equal-love.jp/schedule/detail/10447",
-      "date": "2026-10-19",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12253:fd91b1c9a687",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-09T09:37:29.022Z",
-      "title": "＝LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～ 一般先行チケット受付開始のお知らせ",
-      "url": "https://sp.equal-love.jp/news/detail/12253",
-      "date": "2026-10-09",
-      "category": "ライブ/イベント",
-      "memberNames": [],
-      "sourceName": ""
     }
   ]
 }

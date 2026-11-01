@@ -1,37 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-11-01T14:45:01.653Z",
-    "updatedAt": "2026-11-01T02:45:03.400Z"
+    "checkedAt": "2026-11-01T18:54:10.921Z",
+    "updatedAt": "2026-11-01T18:54:10.921Z"
   },
   "schedule": [
-    {
-      "title": "握手会 ＝LOVE 21stシングル発売記念...",
-      "date": "2026-11-01",
-      "url": "https://equal-love.jp/schedule/detail/11592",
-      "category": "",
-      "time": ""
-    },
-    {
-      "title": "FM NACK5「カメレオンパーティ...",
-      "date": "2026-11-01",
-      "url": "https://equal-love.jp/schedule/detail/12305",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "FM NACK5『＝LOVE大場花菜...",
-      "date": "2026-11-01",
-      "url": "https://equal-love.jp/schedule/detail/12292",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
-      "date": "2026-11-01",
-      "url": "https://equal-love.jp/schedule/detail/11187",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "ニッポン放送「＝LOVEのイコラフ」",
       "date": "2026-11-02",
@@ -71,6 +43,34 @@
       "title": "ニッポン放送「＝LOVEのイコラフ」",
       "date": "2026-11-09",
       "url": "https://equal-love.jp/schedule/detail/10450",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "読売テレビ・日本テレビ系全国ネット「...",
+      "date": "2026-11-11",
+      "url": "https://equal-love.jp/schedule/detail/12368",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "SHOWROOM『＝LOVE 山本杏...",
+      "date": "2026-11-12",
+      "url": "https://equal-love.jp/schedule/detail/10502",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "つなぐ旅 東日本 ～ひがしにほんトラ...",
+      "date": "2026-11-13",
+      "url": "https://equal-love.jp/schedule/detail/12377",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "Artistspoken「イマフレラ...",
+      "date": "2026-11-13",
+      "url": "https://equal-love.jp/schedule/detail/10746",
       "category": "メディア",
       "time": ""
     }
