@@ -1,6 +1,6 @@
 {
   "meta": {
-    "checkedAt": "2026-11-02T20:44:42.569Z",
+    "checkedAt": "2026-11-02T20:45:27.113Z",
     "updatedAt": "2026-11-02T14:44:31.989Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
@@ -8,16 +8,6 @@
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/10449": {
-        "hash": "80b89ccecfcf57a9bbb4686a49c92f974ccccf26fdb33590230c7bff7ddca482",
-        "item": {
-          "title": "ニッポン放送「＝LOVEのイコラフ」",
-          "date": "2026-11-02",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10449",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/11846": {
         "hash": "ad8810f998fff25d5980cff56008993765f1eca1d7f43a796cf9411e4b243229",
         "item": {
@@ -105,6 +95,16 @@
           "date": "2026-11-13",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12377",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10746": {
+        "hash": "d05f6848bcfb60311ca6ff3c69205279df8a31540e9abf17d843aa69459413d8",
+        "item": {
+          "title": "Artistspoken「イマフレラ...",
+          "date": "2026-11-13",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10746",
           "category": "メディア"
         }
       }
