@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-01T20:43:47.220Z",
-    "updatedAt": "2026-11-01T18:54:10.921Z"
+    "checkedAt": "2026-11-02T02:45:02.502Z",
+    "updatedAt": "2026-11-02T02:45:02.502Z"
   },
   "schedule": [
     {
@@ -16,6 +16,13 @@
       "date": "2026-11-03",
       "url": "https://equal-love.jp/schedule/detail/11846",
       "category": "ライブ/イベント",
+      "time": ""
+    },
+    {
+      "title": "フジテレビ系「めざましテレビ」※髙松...",
+      "date": "2026-11-04",
+      "url": "https://equal-love.jp/schedule/detail/12381",
+      "category": "メディア",
       "time": ""
     },
     {
@@ -47,6 +54,13 @@
       "time": ""
     },
     {
+      "title": "フジテレビ系「めざましテレビ」※髙松...",
+      "date": "2026-11-10",
+      "url": "https://equal-love.jp/schedule/detail/12382",
+      "category": "メディア",
+      "time": ""
+    },
+    {
       "title": "読売テレビ・日本テレビ系全国ネット「...",
       "date": "2026-11-11",
       "url": "https://equal-love.jp/schedule/detail/12368",
@@ -57,20 +71,6 @@
       "title": "SHOWROOM『＝LOVE 山本杏...",
       "date": "2026-11-12",
       "url": "https://equal-love.jp/schedule/detail/10502",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "つなぐ旅 東日本 ～ひがしにほんトラ...",
-      "date": "2026-11-13",
-      "url": "https://equal-love.jp/schedule/detail/12377",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "Artistspoken「イマフレラ...",
-      "date": "2026-11-13",
-      "url": "https://equal-love.jp/schedule/detail/10746",
       "category": "メディア",
       "time": ""
     }

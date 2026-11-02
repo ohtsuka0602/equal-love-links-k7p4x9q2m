@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-02T02:44:23.152Z",
-    "updatedAt": "2026-11-01T23:53:52.171Z",
+    "checkedAt": "2026-11-02T02:45:02.657Z",
+    "updatedAt": "2026-11-02T02:45:02.657Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -26,6 +26,16 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11846",
           "category": "ライブ/イベント"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12381": {
+        "hash": "271a21ea8ad1d13ea510dda990801f9bbf6be851c5f8129df328690af34e4b94",
+        "item": {
+          "title": "フジテレビ系「めざましテレビ」※髙松...",
+          "date": "2026-11-04",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12381",
+          "category": "メディア"
         }
       },
       "https://equal-love.jp/schedule/detail/10501": {
@@ -68,6 +78,16 @@
           "category": "メディア"
         }
       },
+      "https://equal-love.jp/schedule/detail/12382": {
+        "hash": "4f8320fd4a5c89ac400ce574ea506ab973e526ea08aa442afb58741550b9414b",
+        "item": {
+          "title": "フジテレビ系「めざましテレビ」※髙松...",
+          "date": "2026-11-10",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12382",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/12368": {
         "hash": "4bcec45144aa116d2606e17b804415854ee00902a98252f75a01ca537f933e96",
         "item": {
@@ -85,26 +105,6 @@
           "date": "2026-11-12",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10502",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12377": {
-        "hash": "3d47399fff439c0eb9fc860a84aabb337c8f55c1051ff40547aeafd057376b6f",
-        "item": {
-          "title": "つなぐ旅 東日本 ～ひがしにほんトラ...",
-          "date": "2026-11-13",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12377",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/10746": {
-        "hash": "d05f6848bcfb60311ca6ff3c69205279df8a31540e9abf17d843aa69459413d8",
-        "item": {
-          "title": "Artistspoken「イマフレラ...",
-          "date": "2026-11-13",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10746",
           "category": "メディア"
         }
       }
@@ -503,6 +503,30 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12381:271a21ea8ad1",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-02T02:45:02.657Z",
+      "title": "フジテレビ系「めざましテレビ」※髙松...",
+      "url": "https://equal-love.jp/schedule/detail/12381",
+      "date": "2026-11-04",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12382:4f8320fd4a5c",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-02T02:45:02.657Z",
+      "title": "フジテレビ系「めざましテレビ」※髙松...",
+      "url": "https://equal-love.jp/schedule/detail/12382",
+      "date": "2026-11-10",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12380:595d091bc8e3",
       "type": "news",
@@ -1688,30 +1712,6 @@
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12263:431dddef36bc",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-10T14:46:54.748Z",
-      "title": "【出演情報】フジテレビ「STARフェス」※＝LOVE",
-      "url": "https://sp.equal-love.jp/news/detail/12263",
-      "date": "2026-10-10",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "youtube:added:VjAZTmkBJYQ:6efd24e521c9",
-      "type": "youtube",
-      "action": "added",
-      "occurredAt": "2026-10-10T14:46:54.748Z",
-      "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #大場花菜 #イコラブ #イコールラブ",
-      "url": "https://www.youtube.com/watch?v=VjAZTmkBJYQ",
-      "date": "2026-10-10T13:42:10Z",
-      "category": "",
-      "memberNames": [],
-      "sourceName": "=LOVE オフィシャル"
     }
   ]
 }
