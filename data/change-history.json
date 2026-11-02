@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-02T22:45:56.912Z",
-    "updatedAt": "2026-11-02T22:45:56.912Z",
+    "checkedAt": "2026-11-02T22:53:49.387Z",
+    "updatedAt": "2026-11-02T22:53:49.387Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12385": {
+        "hash": "c1879f90e26c43bff5554ee6bbfe29a2775083c0e89949fc7cf09967c167fd0e",
+        "item": {
+          "title": "【出演情報】フジテレビ系列「2026 FNS歌謡祭 第1夜」※＝LOVE",
+          "date": "2026-11-03",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12385",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12380": {
         "hash": "595d091bc8e3315fb59af408b1d2727a9d0a587ece165e94acc9d168859dcf6e",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12373",
           "category": "お知らせ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12369": {
-        "hash": "e0bbcec13c3350b12c0c6f32768fd611cb65996b1708b401017808447d210c1d",
-        "item": {
-          "title": "【出演情報】日本マクドナルド『ザクザクジューシーももチキン』のWebCM「ももチキ人生」に＝LOVE佐々木舞香と≠ME櫻井ももの出演が決定しました！",
-          "date": "2026-10-28",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12369",
-          "category": "メディア"
         }
       }
     },
@@ -503,6 +503,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12385:c1879f90e26c",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-02T22:53:49.387Z",
+      "title": "【出演情報】フジテレビ系列「2026 FNS歌謡祭 第1夜」※＝LOVE",
+      "url": "https://sp.equal-love.jp/news/detail/12385",
+      "date": "2026-11-03",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11743:9468e38c2628",
       "type": "schedule",
@@ -1700,18 +1712,6 @@
       "category": "",
       "memberNames": [],
       "sourceName": "=LOVE オフィシャル"
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11184:e6685337eb69",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-11T02:44:37.581Z",
-      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
-      "url": "https://equal-love.jp/schedule/detail/11184",
-      "date": "2026-10-11",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
     }
   ]
 }

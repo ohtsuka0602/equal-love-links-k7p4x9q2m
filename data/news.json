@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-11-02T20:44:42.382Z",
-    "updatedAt": "2026-11-01T23:53:52.028Z"
+    "checkedAt": "2026-11-02T22:53:49.252Z",
+    "updatedAt": "2026-11-02T22:53:49.252Z"
   },
   "news": [
+    {
+      "title": "【出演情報】フジテレビ系列「2026 FNS歌謡祭 第1夜」※＝LOVE",
+      "date": "2026-11-03",
+      "url": "https://sp.equal-love.jp/news/detail/12385",
+      "category": "メディア"
+    },
     {
       "title": "【出演情報】フジテレビ系「めざましテレビ」11月のマンスリーエンタメプレゼンターを髙松瞳が務めさせていただくことが決定！",
       "date": "2026-11-02",
@@ -57,12 +63,6 @@
       "date": "2026-10-28",
       "url": "https://sp.equal-love.jp/news/detail/12373",
       "category": "お知らせ"
-    },
-    {
-      "title": "【出演情報】日本マクドナルド『ザクザクジューシーももチキン』のWebCM「ももチキ人生」に＝LOVE佐々木舞香と≠ME櫻井ももの出演が決定しました！",
-      "date": "2026-10-28",
-      "url": "https://sp.equal-love.jp/news/detail/12369",
-      "category": "メディア"
     }
   ]
 }
