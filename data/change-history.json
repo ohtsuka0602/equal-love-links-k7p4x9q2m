@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-02T20:45:27.113Z",
-    "updatedAt": "2026-11-02T14:44:31.989Z",
+    "checkedAt": "2026-11-02T22:45:56.912Z",
+    "updatedAt": "2026-11-02T22:45:56.912Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -16,6 +16,16 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11846",
           "category": "ライブ/イベント"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11743": {
+        "hash": "9468e38c26289f8f603c17ed644f021d15d5e5eed38f397a0e2ef62baecc5fa6",
+        "item": {
+          "title": "TOKYO FM「Hand in H...",
+          "date": "2026-11-03",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11743",
+          "category": "メディア"
         }
       },
       "https://equal-love.jp/schedule/detail/12381": {
@@ -38,16 +48,6 @@
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/11691": {
-        "hash": "f1e210b05413428200629e7e8a371c4f747116b57952ed1b482c3e7683ca3f8e",
-        "item": {
-          "title": "オリジナルアニメーション映画『GRO...",
-          "date": "2026-11-06",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11691",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/10745": {
         "hash": "4dacd6948997a63a72352b34b41c03c8ffb3082b454d9556cfe9c8ec6c501a2e",
         "item": {
@@ -55,6 +55,16 @@
           "date": "2026-11-06",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10745",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11691": {
+        "hash": "f1e210b05413428200629e7e8a371c4f747116b57952ed1b482c3e7683ca3f8e",
+        "item": {
+          "title": "オリジナルアニメーション映画『GRO...",
+          "date": "2026-11-06",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11691",
           "category": "メディア"
         }
       },
@@ -95,16 +105,6 @@
           "date": "2026-11-13",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12377",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/10746": {
-        "hash": "d05f6848bcfb60311ca6ff3c69205279df8a31540e9abf17d843aa69459413d8",
-        "item": {
-          "title": "Artistspoken「イマフレラ...",
-          "date": "2026-11-13",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10746",
           "category": "メディア"
         }
       }
@@ -503,6 +503,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11743:9468e38c2628",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-02T22:45:56.912Z",
+      "title": "TOKYO FM「Hand in H...",
+      "url": "https://equal-love.jp/schedule/detail/11743",
+      "date": "2026-11-03",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "youtube:added:rzJCv_6Dy-Q:acb839dbeb15",
       "type": "youtube",
@@ -1697,18 +1709,6 @@
       "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
       "url": "https://equal-love.jp/schedule/detail/11184",
       "date": "2026-10-11",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11083:88c057912d00",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-10T18:32:46.101Z",
-      "title": "集英社「MYOJO 12月号」※佐々...",
-      "url": "https://equal-love.jp/schedule/detail/11083",
-      "date": "2026-10-22",
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""

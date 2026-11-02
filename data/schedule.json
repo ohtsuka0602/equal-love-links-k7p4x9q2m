@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-02T20:45:26.926Z",
-    "updatedAt": "2026-11-02T20:45:26.926Z"
+    "checkedAt": "2026-11-02T22:45:56.719Z",
+    "updatedAt": "2026-11-02T22:45:56.719Z"
   },
   "schedule": [
     {
@@ -9,6 +9,13 @@
       "date": "2026-11-03",
       "url": "https://equal-love.jp/schedule/detail/11846",
       "category": "ライブ/イベント",
+      "time": ""
+    },
+    {
+      "title": "TOKYO FM「Hand in H...",
+      "date": "2026-11-03",
+      "url": "https://equal-love.jp/schedule/detail/11743",
+      "category": "メディア",
       "time": ""
     },
     {
@@ -26,16 +33,16 @@
       "time": ""
     },
     {
-      "title": "オリジナルアニメーション映画『GRO...",
+      "title": "Artistspoken「イマフレラ...",
       "date": "2026-11-06",
-      "url": "https://equal-love.jp/schedule/detail/11691",
+      "url": "https://equal-love.jp/schedule/detail/10745",
       "category": "メディア",
       "time": ""
     },
     {
-      "title": "Artistspoken「イマフレラ...",
+      "title": "オリジナルアニメーション映画『GRO...",
       "date": "2026-11-06",
-      "url": "https://equal-love.jp/schedule/detail/10745",
+      "url": "https://equal-love.jp/schedule/detail/11691",
       "category": "メディア",
       "time": ""
     },
@@ -64,13 +71,6 @@
       "title": "つなぐ旅 東日本 ～ひがしにほんトラ...",
       "date": "2026-11-13",
       "url": "https://equal-love.jp/schedule/detail/12377",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "Artistspoken「イマフレラ...",
-      "date": "2026-11-13",
-      "url": "https://equal-love.jp/schedule/detail/10746",
       "category": "メディア",
       "time": ""
     }
