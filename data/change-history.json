@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-02T09:56:54.108Z",
-    "updatedAt": "2026-11-02T02:45:02.657Z",
+    "checkedAt": "2026-11-02T14:44:31.989Z",
+    "updatedAt": "2026-11-02T14:44:31.989Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -212,6 +212,20 @@
       }
     },
     "youtube": {
+      "rzJCv_6Dy-Q": {
+        "hash": "acb839dbeb1557d02722d6c6188d4416859c0e76318c7dcf61c64dd2a0d41ed5",
+        "item": {
+          "videoId": "rzJCv_6Dy-Q",
+          "title": "＝LOVE（イコールラブ）/ 21st Single『恋、はじめました。』2026.10.19 TBS系 CDTVライブ！ライブ！【期間限定公開】",
+          "url": "https://www.youtube.com/watch?v=rzJCv_6Dy-Q",
+          "thumbnail": "https://i.ytimg.com/vi/rzJCv_6Dy-Q/maxresdefault.jpg",
+          "publishedAt": "2026-11-02T13:00:27Z",
+          "channelId": "UCv7VutirxDn3RWIJXI68n_A",
+          "channelName": "＝LOVE（イコールラブ）公式チャンネル",
+          "sourceName": "=LOVE オフィシャル",
+          "memberNames": []
+        }
+      },
       "ZnQmGtIaQFM": {
         "hash": "e11f83488bd42cb266d2bad6f5fe55608e70bbb4054633850ce7462a5dd4d950",
         "item": {
@@ -268,20 +282,6 @@
           "url": "https://www.youtube.com/watch?v=jr_IEdOX6lc",
           "thumbnail": "https://i.ytimg.com/vi/jr_IEdOX6lc/maxresdefault.jpg",
           "publishedAt": "2026-10-14T13:27:44Z",
-          "channelId": "UCv7VutirxDn3RWIJXI68n_A",
-          "channelName": "＝LOVE（イコールラブ）公式チャンネル",
-          "sourceName": "=LOVE オフィシャル",
-          "memberNames": []
-        }
-      },
-      "BhBl5Lp67dk": {
-        "hash": "63ac232c5d8495da1ee99ec33e138cd8718a4ecf58bc4e1e9153873287370c32",
-        "item": {
-          "videoId": "BhBl5Lp67dk",
-          "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒#諸橋沙夏 #イコラブ #イコールラブ",
-          "url": "https://www.youtube.com/watch?v=BhBl5Lp67dk",
-          "thumbnail": "https://i.ytimg.com/vi/BhBl5Lp67dk/maxresdefault.jpg",
-          "publishedAt": "2026-10-14T13:25:53Z",
           "channelId": "UCv7VutirxDn3RWIJXI68n_A",
           "channelName": "＝LOVE（イコールラブ）公式チャンネル",
           "sourceName": "=LOVE オフィシャル",
@@ -503,6 +503,18 @@
     }
   },
   "history": [
+    {
+      "id": "youtube:added:rzJCv_6Dy-Q:acb839dbeb15",
+      "type": "youtube",
+      "action": "added",
+      "occurredAt": "2026-11-02T14:44:31.989Z",
+      "title": "＝LOVE（イコールラブ）/ 21st Single『恋、はじめました。』2026.10.19 TBS系 CDTVライブ！ライブ！【期間限定公開】",
+      "url": "https://www.youtube.com/watch?v=rzJCv_6Dy-Q",
+      "date": "2026-11-02T13:00:27Z",
+      "category": "",
+      "memberNames": [],
+      "sourceName": "=LOVE オフィシャル"
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12381:271a21ea8ad1",
       "type": "schedule",
@@ -1697,18 +1709,6 @@
       "title": "集英社「MYOJO 12月号」※佐々...",
       "url": "https://equal-love.jp/schedule/detail/11083",
       "date": "2026-10-22",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/10743:fa307ee2ccec",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-10T18:32:46.101Z",
-      "title": "Artistspoken「イマフレラ...",
-      "url": "https://equal-love.jp/schedule/detail/10743",
-      "date": "2026-10-23",
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""
