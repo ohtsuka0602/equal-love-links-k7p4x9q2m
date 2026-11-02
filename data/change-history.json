@@ -1,6 +1,6 @@
 {
   "meta": {
-    "checkedAt": "2026-11-02T14:44:31.989Z",
+    "checkedAt": "2026-11-02T14:45:17.847Z",
     "updatedAt": "2026-11-02T14:44:31.989Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
@@ -98,13 +98,13 @@
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/10502": {
-        "hash": "d82617ef434485fc8510783e92f0ee2a8f0f6df6cde2afe6b6d1abcfbf7fb94b",
+      "https://equal-love.jp/schedule/detail/12377": {
+        "hash": "3d47399fff439c0eb9fc860a84aabb337c8f55c1051ff40547aeafd057376b6f",
         "item": {
-          "title": "SHOWROOM『＝LOVE 山本杏...",
-          "date": "2026-11-12",
+          "title": "つなぐ旅 東日本 ～ひがしにほんトラ...",
+          "date": "2026-11-13",
           "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10502",
+          "url": "https://equal-love.jp/schedule/detail/12377",
           "category": "メディア"
         }
       }
