@@ -1,23 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-11-03T14:44:23.617Z",
-    "updatedAt": "2026-11-02T22:45:56.719Z"
+    "checkedAt": "2026-11-03T20:29:55.795Z",
+    "updatedAt": "2026-11-03T20:29:55.795Z"
   },
   "schedule": [
-    {
-      "title": "「マヂラブ・野口衣織のマヂでラブにな...",
-      "date": "2026-11-03",
-      "url": "https://equal-love.jp/schedule/detail/11846",
-      "category": "ライブ/イベント",
-      "time": ""
-    },
-    {
-      "title": "TOKYO FM「Hand in H...",
-      "date": "2026-11-03",
-      "url": "https://equal-love.jp/schedule/detail/11743",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "フジテレビ系「めざましテレビ」※髙松...",
       "date": "2026-11-04",
@@ -72,6 +58,20 @@
       "date": "2026-11-13",
       "url": "https://equal-love.jp/schedule/detail/12377",
       "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "Artistspoken「イマフレラ...",
+      "date": "2026-11-13",
+      "url": "https://equal-love.jp/schedule/detail/10746",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "＝LOVE 諸橋沙夏 2nd Sol...",
+      "date": "2026-11-14",
+      "url": "https://equal-love.jp/schedule/detail/12245",
+      "category": "ライブ/イベント",
       "time": ""
     }
   ]

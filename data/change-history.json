@@ -1,33 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-11-03T14:45:56.947Z",
-    "updatedAt": "2026-11-03T08:45:45.992Z",
+    "checkedAt": "2026-11-03T20:29:55.944Z",
+    "updatedAt": "2026-11-03T20:29:55.944Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/11846": {
-        "hash": "ad8810f998fff25d5980cff56008993765f1eca1d7f43a796cf9411e4b243229",
-        "item": {
-          "title": "「マヂラブ・野口衣織のマヂでラブにな...",
-          "date": "2026-11-03",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11846",
-          "category": "ライブ/イベント"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11743": {
-        "hash": "9468e38c26289f8f603c17ed644f021d15d5e5eed38f397a0e2ef62baecc5fa6",
-        "item": {
-          "title": "TOKYO FM「Hand in H...",
-          "date": "2026-11-03",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11743",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/12381": {
         "hash": "271a21ea8ad1d13ea510dda990801f9bbf6be851c5f8129df328690af34e4b94",
         "item": {
@@ -106,6 +86,26 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12377",
           "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10746": {
+        "hash": "d05f6848bcfb60311ca6ff3c69205279df8a31540e9abf17d843aa69459413d8",
+        "item": {
+          "title": "Artistspoken「イマフレラ...",
+          "date": "2026-11-13",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10746",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12245": {
+        "hash": "06ec216ee2a4e3245f4ca0e812862c655e67d6ca90e925ed0ba72b3a251b91dc",
+        "item": {
+          "title": "＝LOVE 諸橋沙夏 2nd Sol...",
+          "date": "2026-11-14",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12245",
+          "category": "ライブ/イベント"
         }
       }
     },
@@ -503,6 +503,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12245:06ec216ee2a4",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-03T20:29:55.944Z",
+      "title": "＝LOVE 諸橋沙夏 2nd Sol...",
+      "url": "https://equal-love.jp/schedule/detail/12245",
+      "date": "2026-11-14",
+      "category": "ライブ/イベント",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:changed:https://sp.equal-love.jp/news/detail/12364:aa7f059320f8",
       "type": "news",
@@ -1700,18 +1712,6 @@
         "諸橋 沙夏"
       ],
       "sourceName": "諸橋 沙夏"
-    },
-    {
-      "id": "youtube:added:kSUj9lUyLpk:19f14c693a0a",
-      "type": "youtube",
-      "action": "added",
-      "occurredAt": "2026-10-11T14:45:11.666Z",
-      "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #齋藤樹愛羅 #イコラブ #イコールラブ",
-      "url": "https://www.youtube.com/watch?v=kSUj9lUyLpk",
-      "date": "2026-10-11T11:58:21Z",
-      "category": "",
-      "memberNames": [],
-      "sourceName": "=LOVE オフィシャル"
     }
   ]
 }
