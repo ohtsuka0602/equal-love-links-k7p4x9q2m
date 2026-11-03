@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-03T08:44:27.421Z",
-    "updatedAt": "2026-11-02T22:53:49.387Z",
+    "checkedAt": "2026-11-03T08:45:45.992Z",
+    "updatedAt": "2026-11-03T08:45:45.992Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -161,9 +161,9 @@
         }
       },
       "https://sp.equal-love.jp/news/detail/12364": {
-        "hash": "9841aa19a955cb6b1f04d8ce99503fd235033d53d91d1a77af7e7ab4363d15f1",
+        "hash": "aa7f059320f8d91f3ee0e959688d154603f93ddd916d814234a964d46be1297a",
         "item": {
-          "title": "=LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～ 配信チケット発売のお知らせ",
+          "title": "＝LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～ 配信チケット発売のお知らせ",
           "date": "2026-10-30",
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12364",
@@ -503,6 +503,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:changed:https://sp.equal-love.jp/news/detail/12364:aa7f059320f8",
+      "type": "news",
+      "action": "changed",
+      "occurredAt": "2026-11-03T08:45:45.992Z",
+      "title": "＝LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～ 配信チケット発売のお知らせ",
+      "url": "https://sp.equal-love.jp/news/detail/12364",
+      "date": "2026-10-30",
+      "category": "ライブ/イベント",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12385:c1879f90e26c",
       "type": "news",
@@ -1697,18 +1709,6 @@
       "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #齋藤樹愛羅 #イコラブ #イコールラブ",
       "url": "https://www.youtube.com/watch?v=kSUj9lUyLpk",
       "date": "2026-10-11T11:58:21Z",
-      "category": "",
-      "memberNames": [],
-      "sourceName": "=LOVE オフィシャル"
-    },
-    {
-      "id": "youtube:added:S2eHj8VmEi0:b342d06592ba",
-      "type": "youtube",
-      "action": "added",
-      "occurredAt": "2026-10-11T14:45:11.666Z",
-      "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #音嶋莉沙 #イコラブ #イコールラブ",
-      "url": "https://www.youtube.com/watch?v=S2eHj8VmEi0",
-      "date": "2026-10-11T11:56:31Z",
       "category": "",
       "memberNames": [],
       "sourceName": "=LOVE オフィシャル"
