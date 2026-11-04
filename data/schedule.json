@@ -1,16 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-11-04T14:45:53.148Z",
-    "updatedAt": "2026-11-04T14:45:53.148Z"
+    "checkedAt": "2026-11-04T20:46:31.074Z",
+    "updatedAt": "2026-11-04T20:46:31.074Z"
   },
   "schedule": [
-    {
-      "title": "フジテレビ系「めざましテレビ」※髙松...",
-      "date": "2026-11-04",
-      "url": "https://equal-love.jp/schedule/detail/12381",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "SHOWROOM『＝LOVE 山本杏...",
       "date": "2026-11-05",
@@ -72,6 +65,13 @@
       "date": "2026-11-13",
       "url": "https://equal-love.jp/schedule/detail/10746",
       "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "＝LOVE 諸橋沙夏 2nd Sol...",
+      "date": "2026-11-14",
+      "url": "https://equal-love.jp/schedule/detail/12245",
+      "category": "ライブ/イベント",
       "time": ""
     }
   ]

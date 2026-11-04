@@ -1,6 +1,6 @@
 {
   "meta": {
-    "checkedAt": "2026-11-04T20:45:15.720Z",
+    "checkedAt": "2026-11-04T20:46:31.251Z",
     "updatedAt": "2026-11-04T14:45:53.353Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
@@ -8,16 +8,6 @@
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/12381": {
-        "hash": "271a21ea8ad1d13ea510dda990801f9bbf6be851c5f8129df328690af34e4b94",
-        "item": {
-          "title": "フジテレビ系「めざましテレビ」※髙松...",
-          "date": "2026-11-04",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12381",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/10501": {
         "hash": "7edb9a5e16582993fac14ccbb52fd35e052e323f3e595c9dc997ff436d381121",
         "item": {
@@ -106,6 +96,16 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10746",
           "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12245": {
+        "hash": "06ec216ee2a4e3245f4ca0e812862c655e67d6ca90e925ed0ba72b3a251b91dc",
+        "item": {
+          "title": "＝LOVE 諸橋沙夏 2nd Sol...",
+          "date": "2026-11-14",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12245",
+          "category": "ライブ/イベント"
         }
       }
     },
