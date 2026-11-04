@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-04T08:45:42.736Z",
-    "updatedAt": "2026-11-03T20:29:55.944Z",
+    "checkedAt": "2026-11-04T09:51:12.697Z",
+    "updatedAt": "2026-11-04T09:51:12.697Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12387": {
+        "hash": "4953a65b50c894a44514c0e5da678ee8c982c6dee7e42fa2632c0c28a3e40d31",
+        "item": {
+          "title": "【出演情報】日本テレビ「沸騰ワード10」※野口衣織",
+          "date": "2026-11-04",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12387",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12385": {
         "hash": "c1879f90e26c43bff5554ee6bbfe29a2775083c0e89949fc7cf09967c167fd0e",
         "item": {
@@ -197,16 +207,6 @@
           "date": "2026-10-29",
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12374",
-          "category": "お知らせ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12373": {
-        "hash": "4d45e5d571b679f26f68a9fdd034569d62904e65a1a14bab5d294b3aa06efce0",
-        "item": {
-          "title": "【重要】メール配信サービスの緊急メンテナンスに伴うメール配信停止のお知らせ",
-          "date": "2026-10-28",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12373",
           "category": "お知らせ"
         }
       }
@@ -503,6 +503,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12387:4953a65b50c8",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-04T09:51:12.697Z",
+      "title": "【出演情報】日本テレビ「沸騰ワード10」※野口衣織",
+      "url": "https://sp.equal-love.jp/news/detail/12387",
+      "date": "2026-11-04",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12245:06ec216ee2a4",
       "type": "schedule",
@@ -1698,20 +1710,6 @@
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""
-    },
-    {
-      "id": "youtube:added:IE4_1hlE_g4:3bfa2ed63250",
-      "type": "youtube",
-      "action": "added",
-      "occurredAt": "2026-10-11T14:45:11.666Z",
-      "title": "ホテルで1人飲みしながら質問に答えたよ",
-      "url": "https://www.youtube.com/watch?v=IE4_1hlE_g4",
-      "date": "2026-10-11T13:00:17Z",
-      "category": "",
-      "memberNames": [
-        "諸橋 沙夏"
-      ],
-      "sourceName": "諸橋 沙夏"
     }
   ]
 }

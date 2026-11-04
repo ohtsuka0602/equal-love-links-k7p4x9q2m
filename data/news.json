@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-11-04T08:45:42.543Z",
-    "updatedAt": "2026-11-03T08:45:45.845Z"
+    "checkedAt": "2026-11-04T09:51:12.564Z",
+    "updatedAt": "2026-11-04T09:51:12.564Z"
   },
   "news": [
+    {
+      "title": "【出演情報】日本テレビ「沸騰ワード10」※野口衣織",
+      "date": "2026-11-04",
+      "url": "https://sp.equal-love.jp/news/detail/12387",
+      "category": "メディア"
+    },
     {
       "title": "【出演情報】フジテレビ系列「2026 FNS歌謡祭 第1夜」※＝LOVE",
       "date": "2026-11-03",
@@ -56,12 +62,6 @@
       "title": "【重要】メール配信サービス再開のお知らせ",
       "date": "2026-10-29",
       "url": "https://sp.equal-love.jp/news/detail/12374",
-      "category": "お知らせ"
-    },
-    {
-      "title": "【重要】メール配信サービスの緊急メンテナンスに伴うメール配信停止のお知らせ",
-      "date": "2026-10-28",
-      "url": "https://sp.equal-love.jp/news/detail/12373",
       "category": "お知らせ"
     }
   ]
