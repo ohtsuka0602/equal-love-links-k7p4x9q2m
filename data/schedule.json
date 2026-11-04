@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-04T08:44:21.108Z",
-    "updatedAt": "2026-11-03T20:29:55.795Z"
+    "checkedAt": "2026-11-04T14:45:53.148Z",
+    "updatedAt": "2026-11-04T14:45:53.148Z"
   },
   "schedule": [
     {
@@ -19,6 +19,13 @@
       "time": ""
     },
     {
+      "title": "オリジナルアニメーション映画『GRO...",
+      "date": "2026-11-06",
+      "url": "https://equal-love.jp/schedule/detail/11691",
+      "category": "メディア",
+      "time": ""
+    },
+    {
       "title": "Artistspoken「イマフレラ...",
       "date": "2026-11-06",
       "url": "https://equal-love.jp/schedule/detail/10745",
@@ -26,9 +33,9 @@
       "time": ""
     },
     {
-      "title": "オリジナルアニメーション映画『GRO...",
+      "title": "日本テレビ「沸騰ワード10」※野口衣...",
       "date": "2026-11-06",
-      "url": "https://equal-love.jp/schedule/detail/11691",
+      "url": "https://equal-love.jp/schedule/detail/12388",
       "category": "メディア",
       "time": ""
     },
@@ -65,13 +72,6 @@
       "date": "2026-11-13",
       "url": "https://equal-love.jp/schedule/detail/10746",
       "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "＝LOVE 諸橋沙夏 2nd Sol...",
-      "date": "2026-11-14",
-      "url": "https://equal-love.jp/schedule/detail/12245",
-      "category": "ライブ/イベント",
       "time": ""
     }
   ]

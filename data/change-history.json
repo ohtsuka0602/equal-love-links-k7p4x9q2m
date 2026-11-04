@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-04T14:45:07.514Z",
-    "updatedAt": "2026-11-04T09:51:12.697Z",
+    "checkedAt": "2026-11-04T14:45:53.353Z",
+    "updatedAt": "2026-11-04T14:45:53.353Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -28,6 +28,16 @@
           "category": "メディア"
         }
       },
+      "https://equal-love.jp/schedule/detail/11691": {
+        "hash": "f1e210b05413428200629e7e8a371c4f747116b57952ed1b482c3e7683ca3f8e",
+        "item": {
+          "title": "オリジナルアニメーション映画『GRO...",
+          "date": "2026-11-06",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11691",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/10745": {
         "hash": "4dacd6948997a63a72352b34b41c03c8ffb3082b454d9556cfe9c8ec6c501a2e",
         "item": {
@@ -38,13 +48,13 @@
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/11691": {
-        "hash": "f1e210b05413428200629e7e8a371c4f747116b57952ed1b482c3e7683ca3f8e",
+      "https://equal-love.jp/schedule/detail/12388": {
+        "hash": "655bd9cd79a4b18c640bc85fcaac79f5c6a5e38f05642ceb005f79bb51b4e0b7",
         "item": {
-          "title": "オリジナルアニメーション映画『GRO...",
+          "title": "日本テレビ「沸騰ワード10」※野口衣...",
           "date": "2026-11-06",
           "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11691",
+          "url": "https://equal-love.jp/schedule/detail/12388",
           "category": "メディア"
         }
       },
@@ -96,16 +106,6 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10746",
           "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12245": {
-        "hash": "06ec216ee2a4e3245f4ca0e812862c655e67d6ca90e925ed0ba72b3a251b91dc",
-        "item": {
-          "title": "＝LOVE 諸橋沙夏 2nd Sol...",
-          "date": "2026-11-14",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12245",
-          "category": "ライブ/イベント"
         }
       }
     },
@@ -503,6 +503,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12388:655bd9cd79a4",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-04T14:45:53.353Z",
+      "title": "日本テレビ「沸騰ワード10」※野口衣...",
+      "url": "https://equal-love.jp/schedule/detail/12388",
+      "date": "2026-11-06",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12387:4953a65b50c8",
       "type": "news",
@@ -1695,18 +1707,6 @@
       "title": "TBS系「CDTVライブ！ライブ！」...",
       "url": "https://equal-love.jp/schedule/detail/12262",
       "date": "2026-10-19",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11927:f1a582d91a8d",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-11T18:51:57.757Z",
-      "title": "AT-X「マヂラブ・野口衣織のマヂで...",
-      "url": "https://equal-love.jp/schedule/detail/11927",
-      "date": "2026-10-25",
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""
