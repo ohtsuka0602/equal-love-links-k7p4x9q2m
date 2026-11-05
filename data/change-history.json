@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-04T20:56:28.022Z",
-    "updatedAt": "2026-11-04T14:45:53.353Z",
+    "checkedAt": "2026-11-05T02:45:01.611Z",
+    "updatedAt": "2026-11-05T02:45:01.611Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12270": {
+        "hash": "de0b47ac4456ae50ef0b4ea9939a18198403ce902ffcef281ca5b10117ae43d9",
+        "item": {
+          "title": "【掲載情報】宝島社「sweet 12月号」※大谷映美里、音嶋莉沙、髙松瞳、野口衣織、諸橋沙夏",
+          "date": "2026-11-05",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12270",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12387": {
         "hash": "4953a65b50c894a44514c0e5da678ee8c982c6dee7e42fa2632c0c28a3e40d31",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12366",
           "category": "ライブ/イベント"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12374": {
-        "hash": "03515975a61f9ba5e60fdeaab261c69d8af1a19f28e35fd0b1ce26e794885f15",
-        "item": {
-          "title": "【重要】メール配信サービス再開のお知らせ",
-          "date": "2026-10-29",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12374",
-          "category": "お知らせ"
         }
       }
     },
@@ -503,6 +503,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12270:de0b47ac4456",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-05T02:45:01.611Z",
+      "title": "【掲載情報】宝島社「sweet 12月号」※大谷映美里、音嶋莉沙、髙松瞳、野口衣織、諸橋沙夏",
+      "url": "https://sp.equal-love.jp/news/detail/12270",
+      "date": "2026-11-05",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12388:655bd9cd79a4",
       "type": "schedule",
@@ -1698,18 +1710,6 @@
       "category": "",
       "memberNames": [],
       "sourceName": "=LOVE オフィシャル"
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/12262:72db3571a2a8",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-12T14:44:29.288Z",
-      "title": "TBS系「CDTVライブ！ライブ！」...",
-      "url": "https://equal-love.jp/schedule/detail/12262",
-      "date": "2026-10-19",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
     }
   ]
 }

@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-11-04T20:56:27.827Z",
-    "updatedAt": "2026-11-04T09:51:12.564Z"
+    "checkedAt": "2026-11-05T02:45:01.483Z",
+    "updatedAt": "2026-11-05T02:45:01.483Z"
   },
   "news": [
+    {
+      "title": "【掲載情報】宝島社「sweet 12月号」※大谷映美里、音嶋莉沙、髙松瞳、野口衣織、諸橋沙夏",
+      "date": "2026-11-05",
+      "url": "https://sp.equal-love.jp/news/detail/12270",
+      "category": "メディア"
+    },
     {
       "title": "【出演情報】日本テレビ「沸騰ワード10」※野口衣織",
       "date": "2026-11-04",
@@ -57,12 +63,6 @@
       "date": "2026-10-29",
       "url": "https://sp.equal-love.jp/news/detail/12366",
       "category": "ライブ/イベント"
-    },
-    {
-      "title": "【重要】メール配信サービス再開のお知らせ",
-      "date": "2026-10-29",
-      "url": "https://sp.equal-love.jp/news/detail/12374",
-      "category": "お知らせ"
     }
   ]
 }
