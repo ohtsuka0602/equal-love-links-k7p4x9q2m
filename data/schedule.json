@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-04T20:48:23.365Z",
-    "updatedAt": "2026-11-04T20:46:31.074Z"
+    "checkedAt": "2026-11-05T02:45:41.635Z",
+    "updatedAt": "2026-11-05T02:45:41.635Z"
   },
   "schedule": [
     {
@@ -54,6 +54,13 @@
       "time": ""
     },
     {
+      "title": "宝島社「sweet 12月号」※大谷...",
+      "date": "2026-11-12",
+      "url": "https://equal-love.jp/schedule/detail/12271",
+      "category": "メディア",
+      "time": ""
+    },
+    {
       "title": "つなぐ旅 東日本 ～ひがしにほんトラ...",
       "date": "2026-11-13",
       "url": "https://equal-love.jp/schedule/detail/12377",
@@ -65,13 +72,6 @@
       "date": "2026-11-13",
       "url": "https://equal-love.jp/schedule/detail/10746",
       "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "＝LOVE 諸橋沙夏 2nd Sol...",
-      "date": "2026-11-14",
-      "url": "https://equal-love.jp/schedule/detail/12245",
-      "category": "ライブ/イベント",
       "time": ""
     }
   ]
