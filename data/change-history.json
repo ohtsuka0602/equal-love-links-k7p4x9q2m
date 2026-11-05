@@ -1,6 +1,6 @@
 {
   "meta": {
-    "checkedAt": "2026-11-05T14:55:08.475Z",
+    "checkedAt": "2026-11-05T20:43:48.442Z",
     "updatedAt": "2026-11-05T02:45:41.843Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
@@ -8,16 +8,6 @@
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/10501": {
-        "hash": "7edb9a5e16582993fac14ccbb52fd35e052e323f3e595c9dc997ff436d381121",
-        "item": {
-          "title": "SHOWROOM『＝LOVE 山本杏...",
-          "date": "2026-11-05",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10501",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/11691": {
         "hash": "f1e210b05413428200629e7e8a371c4f747116b57952ed1b482c3e7683ca3f8e",
         "item": {
@@ -106,6 +96,16 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10746",
           "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12245": {
+        "hash": "06ec216ee2a4e3245f4ca0e812862c655e67d6ca90e925ed0ba72b3a251b91dc",
+        "item": {
+          "title": "＝LOVE 諸橋沙夏 2nd Sol...",
+          "date": "2026-11-14",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12245",
+          "category": "ライブ/イベント"
         }
       }
     },

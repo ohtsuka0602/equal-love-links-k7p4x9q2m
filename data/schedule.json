@@ -1,16 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-11-05T14:53:35.132Z",
-    "updatedAt": "2026-11-05T02:45:41.635Z"
+    "checkedAt": "2026-11-05T20:43:48.307Z",
+    "updatedAt": "2026-11-05T20:43:48.307Z"
   },
   "schedule": [
-    {
-      "title": "SHOWROOM『＝LOVE 山本杏...",
-      "date": "2026-11-05",
-      "url": "https://equal-love.jp/schedule/detail/10501",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "オリジナルアニメーション映画『GRO...",
       "date": "2026-11-06",
@@ -72,6 +65,13 @@
       "date": "2026-11-13",
       "url": "https://equal-love.jp/schedule/detail/10746",
       "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "＝LOVE 諸橋沙夏 2nd Sol...",
+      "date": "2026-11-14",
+      "url": "https://equal-love.jp/schedule/detail/12245",
+      "category": "ライブ/イベント",
       "time": ""
     }
   ]
