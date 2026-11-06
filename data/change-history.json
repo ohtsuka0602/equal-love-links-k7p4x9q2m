@@ -1,43 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-11-06T14:54:39.743Z",
-    "updatedAt": "2026-11-05T02:45:41.843Z",
+    "checkedAt": "2026-11-06T20:35:13.475Z",
+    "updatedAt": "2026-11-06T20:35:13.475Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/11691": {
-        "hash": "f1e210b05413428200629e7e8a371c4f747116b57952ed1b482c3e7683ca3f8e",
-        "item": {
-          "title": "オリジナルアニメーション映画『GRO...",
-          "date": "2026-11-06",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11691",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/10745": {
-        "hash": "4dacd6948997a63a72352b34b41c03c8ffb3082b454d9556cfe9c8ec6c501a2e",
-        "item": {
-          "title": "Artistspoken「イマフレラ...",
-          "date": "2026-11-06",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10745",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12388": {
-        "hash": "655bd9cd79a4b18c640bc85fcaac79f5c6a5e38f05642ceb005f79bb51b4e0b7",
-        "item": {
-          "title": "日本テレビ「沸騰ワード10」※野口衣...",
-          "date": "2026-11-06",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12388",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/10450": {
         "hash": "94dbc16448fb88541694c7d1ad99eab4ace78eb6a20df151221296b2130bd20a",
         "item": {
@@ -106,6 +76,36 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12245",
           "category": "ライブ/イベント"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12371": {
+        "hash": "9e278126f53c021b4211c5a5e6de45e8f54a1db22be8f3775f5bfac4e1575241",
+        "item": {
+          "title": "MTV・TELASA「MTV VMA...",
+          "date": "2026-11-15",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12371",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11593": {
+        "hash": "9f3a37c852e01ede3bbfc59d6ee2d4f507dc8e174deab9bc1f3c60923fa626b1",
+        "item": {
+          "title": "握手会 ＝LOVE 21stシングル発売記念...",
+          "date": "2026-11-15",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11593",
+          "category": ""
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10451": {
+        "hash": "6e6d2208d1db757fc3fd0b083eb2387e565e45249e475848f7276e18efb29972",
+        "item": {
+          "title": "ニッポン放送「＝LOVEのイコラフ」",
+          "date": "2026-11-16",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10451",
+          "category": "メディア"
         }
       }
     },
@@ -503,6 +503,42 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12371:9e278126f53c",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-06T20:35:13.475Z",
+      "title": "MTV・TELASA「MTV VMA...",
+      "url": "https://equal-love.jp/schedule/detail/12371",
+      "date": "2026-11-15",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11593:9f3a37c852e0",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-06T20:35:13.475Z",
+      "title": "握手会 ＝LOVE 21stシングル発売記念...",
+      "url": "https://equal-love.jp/schedule/detail/11593",
+      "date": "2026-11-15",
+      "category": "",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10451:6e6d2208d1db",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-06T20:35:13.475Z",
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "url": "https://equal-love.jp/schedule/detail/10451",
+      "date": "2026-11-16",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12271:a65860a88456",
       "type": "schedule",
@@ -1674,42 +1710,6 @@
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11740:840f242296e6",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-12T22:07:53.975Z",
-      "title": "TOKYO FM「Hand in H...",
-      "url": "https://equal-love.jp/schedule/detail/11740",
-      "date": "2026-10-13",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12261:7dc7b9091395",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-12T14:45:54.347Z",
-      "title": "【出演情報】TBS系「CDTVライブ！ライブ！」※＝LOVE",
-      "url": "https://sp.equal-love.jp/news/detail/12261",
-      "date": "2026-10-12",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "youtube:added:eOJHqbN_TAs:1943ee46c3ae",
-      "type": "youtube",
-      "action": "added",
-      "occurredAt": "2026-10-12T14:45:54.347Z",
-      "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #髙松瞳 #イコラブ #イコールラブ",
-      "url": "https://www.youtube.com/watch?v=eOJHqbN_TAs",
-      "date": "2026-10-12T12:55:08Z",
-      "category": "",
-      "memberNames": [],
-      "sourceName": "=LOVE オフィシャル"
     }
   ]
 }
