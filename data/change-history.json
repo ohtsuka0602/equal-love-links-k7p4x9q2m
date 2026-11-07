@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-07T08:43:49.721Z",
-    "updatedAt": "2026-11-06T20:35:13.475Z",
+    "checkedAt": "2026-11-07T08:45:15.882Z",
+    "updatedAt": "2026-11-07T08:45:15.882Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,26 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12391": {
+        "hash": "d301827df1c715ede236e5f82b6becb8ed18d2dd90566d47facca087b2b6b3af",
+        "item": {
+          "title": "【出演情報】TVアニメ『勇者パーティーにかわいい⼦がいたので、告⽩してみた。』第2期制作決定！ハピネス役として野口衣織が出演いたします！",
+          "date": "2026-11-07",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12391",
+          "category": "メディア"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/12389": {
+        "hash": "f2ab5b2a3cc6332908a354b01b71c36d254414844d50d366eb82f0d54e34336c",
+        "item": {
+          "title": "野口衣織がエステル役で出演するTVアニメ『ガチャを回して仲間を増やす 最強の美少女軍団を作り上げろ』キャスト舞台挨拶付き先行上映会の開催が決定！",
+          "date": "2026-11-07",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12389",
+          "category": "ライブ/イベント"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12270": {
         "hash": "de0b47ac4456ae50ef0b4ea9939a18198403ce902ffcef281ca5b10117ae43d9",
         "item": {
@@ -187,26 +207,6 @@
           "date": "2026-10-30",
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12364",
-          "category": "ライブ/イベント"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12370": {
-        "hash": "3c17549de4515e889fbe2524f7300ea17bb359538c38d0c72b5fb6814bf4997f",
-        "item": {
-          "title": "【出演情報】「MTV VMAJ 2026」の放送・配信が決定！",
-          "date": "2026-10-29",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12370",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12366": {
-        "hash": "7b16c44f0f17db1e53f21efbaeacf9d56c86869a08c8c15242e26136dac1465f",
-        "item": {
-          "title": "『生誕祭イベント~supported by IKONOIJOY Puzzle~』（11月）FC限定チケット2次受付開始のお知らせ",
-          "date": "2026-10-29",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12366",
           "category": "ライブ/イベント"
         }
       }
@@ -503,6 +503,30 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12391:d301827df1c7",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-07T08:45:15.882Z",
+      "title": "【出演情報】TVアニメ『勇者パーティーにかわいい⼦がいたので、告⽩してみた。』第2期制作決定！ハピネス役として野口衣織が出演いたします！",
+      "url": "https://sp.equal-love.jp/news/detail/12391",
+      "date": "2026-11-07",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12389:f2ab5b2a3cc6",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-07T08:45:15.882Z",
+      "title": "野口衣織がエステル役で出演するTVアニメ『ガチャを回して仲間を増やす 最強の美少女軍団を作り上げろ』キャスト舞台挨拶付き先行上映会の開催が決定！",
+      "url": "https://sp.equal-love.jp/news/detail/12389",
+      "date": "2026-11-07",
+      "category": "ライブ/イベント",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12371:9e278126f53c",
       "type": "schedule",
@@ -1684,30 +1708,6 @@
       "url": "https://sp.equal-love.jp/news/detail/12269",
       "date": "2026-10-13",
       "category": "ライブ/イベント",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12259:11ce80782d1e",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-13T08:46:04.338Z",
-      "title": "10月14日（水）～10月20日（火）まで西武新宿駅前のユニカビジョンで＝LOVE 特集が放映されます！",
-      "url": "https://sp.equal-love.jp/news/detail/12259",
-      "date": "2026-10-13",
-      "category": "お知らせ",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11685:11ad47b773d5",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-13T02:45:48.614Z",
-      "title": "フジテレビ・FODプレミアム「キミは...",
-      "url": "https://equal-love.jp/schedule/detail/11685",
-      "date": "2026-10-13",
-      "category": "メディア",
       "memberNames": [],
       "sourceName": ""
     }
