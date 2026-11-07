@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-07T18:44:24.700Z",
-    "updatedAt": "2026-11-07T18:44:24.700Z",
+    "checkedAt": "2026-11-07T19:02:39.456Z",
+    "updatedAt": "2026-11-07T19:02:39.456Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12164": {
+        "hash": "ccb88b052bbce9ab825731ec65e08da76e1e09b705c75390ab6fa516c70b6734",
+        "item": {
+          "title": "【出演情報】日本テレビ「サクサクヒムヒム☆推しの降る夜☆」※大谷映美里、齋藤樹愛羅、佐々木舞香、野口衣織",
+          "date": "2026-11-07",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12164",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12396": {
         "hash": "6f3920eae8a70fa18b0df2253c6d9ce67e0b6457e9b1b95e59e85f239e33c292",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12379",
           "category": "グッズ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12375": {
-        "hash": "42a3e2941db0d93b81fcb6e98da2a383a87c2a139dd89915ba3cbe7d5f73f83a",
-        "item": {
-          "title": "【掲載情報】つなぐ旅 東日本 ～ひがしにほんトラベルガイド～※大場花菜",
-          "date": "2026-10-31",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12375",
-          "category": "メディア"
         }
       }
     },
@@ -503,6 +503,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12164:ccb88b052bbc",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-07T19:02:39.456Z",
+      "title": "【出演情報】日本テレビ「サクサクヒムヒム☆推しの降る夜☆」※大谷映美里、齋藤樹愛羅、佐々木舞香、野口衣織",
+      "url": "https://sp.equal-love.jp/news/detail/12164",
+      "date": "2026-11-07",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12165:64509714bf45",
       "type": "schedule",
@@ -1698,18 +1710,6 @@
       "category": "",
       "memberNames": [],
       "sourceName": "=LOVE オフィシャル"
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12265:99b476c28042",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-13T08:46:04.338Z",
-      "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」ライブ会場にて、＝LOVE CD＆映像商品購入抽選会開催決定！",
-      "url": "https://sp.equal-love.jp/news/detail/12265",
-      "date": "2026-10-13",
-      "category": "お知らせ",
-      "memberNames": [],
-      "sourceName": ""
     }
   ]
 }
