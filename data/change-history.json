@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-07T09:14:55.557Z",
-    "updatedAt": "2026-11-07T08:45:15.882Z",
+    "checkedAt": "2026-11-07T14:44:41.399Z",
+    "updatedAt": "2026-11-07T14:44:41.399Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12396": {
+        "hash": "6f3920eae8a70fa18b0df2253c6d9ce67e0b6457e9b1b95e59e85f239e33c292",
+        "item": {
+          "title": "外部メール配信サービスへの不正アクセスによるメールアドレス漏えいに関するお詫びとお知らせ",
+          "date": "2026-11-07",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12396",
+          "category": "お知らせ"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12391": {
         "hash": "d301827df1c715ede236e5f82b6becb8ed18d2dd90566d47facca087b2b6b3af",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12375",
           "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12364": {
-        "hash": "aa7f059320f8d91f3ee0e959688d154603f93ddd916d814234a964d46be1297a",
-        "item": {
-          "title": "＝LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～ 配信チケット発売のお知らせ",
-          "date": "2026-10-30",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12364",
-          "category": "ライブ/イベント"
         }
       }
     },
@@ -503,6 +503,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12396:6f3920eae8a7",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-07T14:44:41.399Z",
+      "title": "外部メール配信サービスへの不正アクセスによるメールアドレス漏えいに関するお詫びとお知らせ",
+      "url": "https://sp.equal-love.jp/news/detail/12396",
+      "date": "2026-11-07",
+      "category": "お知らせ",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12391:d301827df1c7",
       "type": "news",
@@ -1694,18 +1706,6 @@
       "occurredAt": "2026-10-13T08:46:04.338Z",
       "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」オリジナルラッピングキッチンカーの出店が決定！",
       "url": "https://sp.equal-love.jp/news/detail/12268",
-      "date": "2026-10-13",
-      "category": "ライブ/イベント",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12269:18c9b16aec20",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-13T08:46:04.338Z",
-      "title": "＝LOVE in TOKYO DOME FC最速先行(会員＋会員)チケット受付開始のお知らせ",
-      "url": "https://sp.equal-love.jp/news/detail/12269",
       "date": "2026-10-13",
       "category": "ライブ/イベント",
       "memberNames": [],

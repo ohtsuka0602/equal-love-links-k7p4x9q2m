@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-11-07T09:14:55.370Z",
-    "updatedAt": "2026-11-07T08:45:15.721Z"
+    "checkedAt": "2026-11-07T14:44:41.199Z",
+    "updatedAt": "2026-11-07T14:44:41.199Z"
   },
   "news": [
+    {
+      "title": "外部メール配信サービスへの不正アクセスによるメールアドレス漏えいに関するお詫びとお知らせ",
+      "date": "2026-11-07",
+      "url": "https://sp.equal-love.jp/news/detail/12396",
+      "category": "お知らせ"
+    },
     {
       "title": "【出演情報】TVアニメ『勇者パーティーにかわいい⼦がいたので、告⽩してみた。』第2期制作決定！ハピネス役として野口衣織が出演いたします！",
       "date": "2026-11-07",
@@ -57,12 +63,6 @@
       "date": "2026-10-31",
       "url": "https://sp.equal-love.jp/news/detail/12375",
       "category": "メディア"
-    },
-    {
-      "title": "＝LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～ 配信チケット発売のお知らせ",
-      "date": "2026-10-30",
-      "url": "https://sp.equal-love.jp/news/detail/12364",
-      "category": "ライブ/イベント"
     }
   ]
 }
