@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-07T14:45:21.772Z",
-    "updatedAt": "2026-11-06T20:35:13.318Z"
+    "checkedAt": "2026-11-07T18:44:24.538Z",
+    "updatedAt": "2026-11-07T18:44:24.538Z"
   },
   "schedule": [
     {
@@ -54,6 +54,13 @@
       "time": ""
     },
     {
+      "title": "日本テレビ「サクサクヒムヒム☆推しの...",
+      "date": "2026-11-14",
+      "url": "https://equal-love.jp/schedule/detail/12165",
+      "category": "メディア",
+      "time": ""
+    },
+    {
       "title": "MTV・TELASA「MTV VMA...",
       "date": "2026-11-15",
       "url": "https://equal-love.jp/schedule/detail/12371",
@@ -65,13 +72,6 @@
       "date": "2026-11-15",
       "url": "https://equal-love.jp/schedule/detail/11593",
       "category": "",
-      "time": ""
-    },
-    {
-      "title": "ニッポン放送「＝LOVEのイコラフ」",
-      "date": "2026-11-16",
-      "url": "https://equal-love.jp/schedule/detail/10451",
-      "category": "メディア",
       "time": ""
     }
   ]

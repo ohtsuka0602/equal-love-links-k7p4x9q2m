@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-07T14:45:21.928Z",
-    "updatedAt": "2026-11-07T14:44:41.399Z",
+    "checkedAt": "2026-11-07T18:44:24.700Z",
+    "updatedAt": "2026-11-07T18:44:24.700Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -78,6 +78,16 @@
           "category": "ライブ/イベント"
         }
       },
+      "https://equal-love.jp/schedule/detail/12165": {
+        "hash": "64509714bf4518f08aa2b92c2b2f1a87ceed753709cf92d81f92ce654d0511a7",
+        "item": {
+          "title": "日本テレビ「サクサクヒムヒム☆推しの...",
+          "date": "2026-11-14",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12165",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/12371": {
         "hash": "9e278126f53c021b4211c5a5e6de45e8f54a1db22be8f3775f5bfac4e1575241",
         "item": {
@@ -96,16 +106,6 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11593",
           "category": ""
-        }
-      },
-      "https://equal-love.jp/schedule/detail/10451": {
-        "hash": "6e6d2208d1db757fc3fd0b083eb2387e565e45249e475848f7276e18efb29972",
-        "item": {
-          "title": "ニッポン放送「＝LOVEのイコラフ」",
-          "date": "2026-11-16",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10451",
-          "category": "メディア"
         }
       }
     },
@@ -503,6 +503,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12165:64509714bf45",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-07T18:44:24.700Z",
+      "title": "日本テレビ「サクサクヒムヒム☆推しの...",
+      "url": "https://equal-love.jp/schedule/detail/12165",
+      "date": "2026-11-14",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12396:6f3920eae8a7",
       "type": "news",
@@ -1696,18 +1708,6 @@
       "url": "https://sp.equal-love.jp/news/detail/12265",
       "date": "2026-10-13",
       "category": "お知らせ",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12268:28ccbbee7749",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-13T08:46:04.338Z",
-      "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」オリジナルラッピングキッチンカーの出店が決定！",
-      "url": "https://sp.equal-love.jp/news/detail/12268",
-      "date": "2026-10-13",
-      "category": "ライブ/イベント",
       "memberNames": [],
       "sourceName": ""
     }
