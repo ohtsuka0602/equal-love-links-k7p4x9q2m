@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-07T20:45:20.597Z",
-    "updatedAt": "2026-11-07T19:02:39.456Z",
+    "checkedAt": "2026-11-07T23:57:29.273Z",
+    "updatedAt": "2026-11-07T23:57:29.273Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12394": {
+        "hash": "e69e0bcf634cce678c50aa3048785e35e108388b416e5a0edc8a8d2e6f1fe78d",
+        "item": {
+          "title": "【出演情報】日本テレビ系「ベストアーティスト 2026」※＝LOVE",
+          "date": "2026-11-08",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12394",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12164": {
         "hash": "ccb88b052bbce9ab825731ec65e08da76e1e09b705c75390ab6fa516c70b6734",
         "item": {
@@ -197,16 +207,6 @@
           "date": "2026-11-01",
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12378",
-          "category": "グッズ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12379": {
-        "hash": "efb5b20d7008398737199f21f640b3830970ea45cd428dbfa119577eb0601af0",
-        "item": {
-          "title": "≪物販情報≫＝LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～",
-          "date": "2026-10-31",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12379",
           "category": "グッズ"
         }
       }
@@ -503,6 +503,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12394:e69e0bcf634c",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-07T23:57:29.273Z",
+      "title": "【出演情報】日本テレビ系「ベストアーティスト 2026」※＝LOVE",
+      "url": "https://sp.equal-love.jp/news/detail/12394",
+      "date": "2026-11-08",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12164:ccb88b052bbc",
       "type": "news",
@@ -1695,18 +1707,6 @@
       "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #野口衣織 #イコラブ #イコールラブ",
       "url": "https://www.youtube.com/watch?v=97BXESXjdOs",
       "date": "2026-10-13T13:36:31Z",
-      "category": "",
-      "memberNames": [],
-      "sourceName": "=LOVE オフィシャル"
-    },
-    {
-      "id": "youtube:added:czy844ZUvzI:92658bbf6d19",
-      "type": "youtube",
-      "action": "added",
-      "occurredAt": "2026-10-13T14:45:43.285Z",
-      "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #瀧脇笙古 #イコラブ #イコールラブ",
-      "url": "https://www.youtube.com/watch?v=czy844ZUvzI",
-      "date": "2026-10-13T13:34:49Z",
       "category": "",
       "memberNames": [],
       "sourceName": "=LOVE オフィシャル"
