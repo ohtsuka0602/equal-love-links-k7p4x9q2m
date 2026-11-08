@@ -1,33 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-11-08T14:45:32.123Z",
-    "updatedAt": "2026-11-08T02:45:32.586Z",
+    "checkedAt": "2026-11-08T18:49:07.722Z",
+    "updatedAt": "2026-11-08T18:49:07.722Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/12306": {
-        "hash": "43571587cbb3fc8084ec8e90816daddc98924d9b53aefd94c729fc2d0f7d93c0",
-        "item": {
-          "title": "FM NACK5『＝LOVE大場花菜...",
-          "date": "2026-11-08",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12306",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11188": {
-        "hash": "bea19ad26ed96089b18ee1c574e0ec382e8d91645d7db95cc756d70d2a10c9b3",
-        "item": {
-          "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
-          "date": "2026-11-08",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11188",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/10450": {
         "hash": "94dbc16448fb88541694c7d1ad99eab4ace78eb6a20df151221296b2130bd20a",
         "item": {
@@ -106,6 +86,26 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12165",
           "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12176": {
+        "hash": "0f5c390d9fc39c58325627fe9c06e167d26553c7a3e6dfdc2185f0b5e4ed7895",
+        "item": {
+          "title": "TELASAオリジナル「アイ=ラブ！...",
+          "date": "2026-11-14",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12176",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11593": {
+        "hash": "9f3a37c852e01ede3bbfc59d6ee2d4f507dc8e174deab9bc1f3c60923fa626b1",
+        "item": {
+          "title": "握手会 ＝LOVE 21stシングル発売記念...",
+          "date": "2026-11-15",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11593",
+          "category": ""
         }
       }
     },
@@ -503,6 +503,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12176:0f5c390d9fc3",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-08T18:49:07.722Z",
+      "title": "TELASAオリジナル「アイ=ラブ！...",
+      "url": "https://equal-love.jp/schedule/detail/12176",
+      "date": "2026-11-14",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12306:43571587cbb3",
       "type": "schedule",
@@ -1693,18 +1705,6 @@
       "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒#山本杏奈 #イコラブ #イコールラブ",
       "url": "https://www.youtube.com/watch?v=jr_IEdOX6lc",
       "date": "2026-10-14T13:27:44Z",
-      "category": "",
-      "memberNames": [],
-      "sourceName": "=LOVE オフィシャル"
-    },
-    {
-      "id": "youtube:added:BhBl5Lp67dk:63ac232c5d84",
-      "type": "youtube",
-      "action": "added",
-      "occurredAt": "2026-10-14T14:01:38.920Z",
-      "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒#諸橋沙夏 #イコラブ #イコールラブ",
-      "url": "https://www.youtube.com/watch?v=BhBl5Lp67dk",
-      "date": "2026-10-14T13:25:53Z",
       "category": "",
       "memberNames": [],
       "sourceName": "=LOVE オフィシャル"
