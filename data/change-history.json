@@ -1,13 +1,33 @@
 {
   "meta": {
-    "checkedAt": "2026-11-08T02:44:53.264Z",
-    "updatedAt": "2026-11-07T23:57:29.273Z",
+    "checkedAt": "2026-11-08T02:45:32.586Z",
+    "updatedAt": "2026-11-08T02:45:32.586Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
+      "https://equal-love.jp/schedule/detail/12306": {
+        "hash": "43571587cbb3fc8084ec8e90816daddc98924d9b53aefd94c729fc2d0f7d93c0",
+        "item": {
+          "title": "FM NACK5『＝LOVE大場花菜...",
+          "date": "2026-11-08",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12306",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11188": {
+        "hash": "bea19ad26ed96089b18ee1c574e0ec382e8d91645d7db95cc756d70d2a10c9b3",
+        "item": {
+          "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
+          "date": "2026-11-08",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11188",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/10450": {
         "hash": "94dbc16448fb88541694c7d1ad99eab4ace78eb6a20df151221296b2130bd20a",
         "item": {
@@ -48,16 +68,6 @@
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/12377": {
-        "hash": "3d47399fff439c0eb9fc860a84aabb337c8f55c1051ff40547aeafd057376b6f",
-        "item": {
-          "title": "つなぐ旅 東日本 ～ひがしにほんトラ...",
-          "date": "2026-11-13",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12377",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/10746": {
         "hash": "d05f6848bcfb60311ca6ff3c69205279df8a31540e9abf17d843aa69459413d8",
         "item": {
@@ -65,6 +75,16 @@
           "date": "2026-11-13",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10746",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12377": {
+        "hash": "3d47399fff439c0eb9fc860a84aabb337c8f55c1051ff40547aeafd057376b6f",
+        "item": {
+          "title": "つなぐ旅 東日本 ～ひがしにほんトラ...",
+          "date": "2026-11-13",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12377",
           "category": "メディア"
         }
       },
@@ -86,26 +106,6 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12165",
           "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12371": {
-        "hash": "9e278126f53c021b4211c5a5e6de45e8f54a1db22be8f3775f5bfac4e1575241",
-        "item": {
-          "title": "MTV・TELASA「MTV VMA...",
-          "date": "2026-11-15",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12371",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11593": {
-        "hash": "9f3a37c852e01ede3bbfc59d6ee2d4f507dc8e174deab9bc1f3c60923fa626b1",
-        "item": {
-          "title": "握手会 ＝LOVE 21stシングル発売記念...",
-          "date": "2026-11-15",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11593",
-          "category": ""
         }
       }
     },
@@ -503,6 +503,30 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12306:43571587cbb3",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-08T02:45:32.586Z",
+      "title": "FM NACK5『＝LOVE大場花菜...",
+      "url": "https://equal-love.jp/schedule/detail/12306",
+      "date": "2026-11-08",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11188:bea19ad26ed9",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-08T02:45:32.586Z",
+      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
+      "url": "https://equal-love.jp/schedule/detail/11188",
+      "date": "2026-11-08",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12394:e69e0bcf634c",
       "type": "news",
@@ -1681,32 +1705,6 @@
       "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒#諸橋沙夏 #イコラブ #イコールラブ",
       "url": "https://www.youtube.com/watch?v=BhBl5Lp67dk",
       "date": "2026-10-14T13:25:53Z",
-      "category": "",
-      "memberNames": [],
-      "sourceName": "=LOVE オフィシャル"
-    },
-    {
-      "id": "youtube:added:e4iYaqCBkkY:b2dc3ce2ffe9",
-      "type": "youtube",
-      "action": "added",
-      "occurredAt": "2026-10-14T14:01:38.920Z",
-      "title": "緊急おかチャン反省会【サムギョプサル】",
-      "url": "https://www.youtube.com/watch?v=e4iYaqCBkkY",
-      "date": "2026-10-14T10:00:39Z",
-      "category": "",
-      "memberNames": [
-        "音嶋 莉沙"
-      ],
-      "sourceName": "音嶋 莉沙"
-    },
-    {
-      "id": "youtube:added:97BXESXjdOs:cfe3726c4980",
-      "type": "youtube",
-      "action": "added",
-      "occurredAt": "2026-10-13T14:45:43.285Z",
-      "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒ #野口衣織 #イコラブ #イコールラブ",
-      "url": "https://www.youtube.com/watch?v=97BXESXjdOs",
-      "date": "2026-10-13T13:36:31Z",
       "category": "",
       "memberNames": [],
       "sourceName": "=LOVE オフィシャル"

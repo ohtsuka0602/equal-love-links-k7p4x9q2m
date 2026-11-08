@@ -1,9 +1,23 @@
 {
   "meta": {
-    "checkedAt": "2026-11-07T20:43:52.237Z",
-    "updatedAt": "2026-11-07T18:44:24.538Z"
+    "checkedAt": "2026-11-08T02:45:32.406Z",
+    "updatedAt": "2026-11-08T02:45:32.406Z"
   },
   "schedule": [
+    {
+      "title": "FM NACK5『＝LOVE大場花菜...",
+      "date": "2026-11-08",
+      "url": "https://equal-love.jp/schedule/detail/12306",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
+      "date": "2026-11-08",
+      "url": "https://equal-love.jp/schedule/detail/11188",
+      "category": "メディア",
+      "time": ""
+    },
     {
       "title": "ニッポン放送「＝LOVEのイコラフ」",
       "date": "2026-11-09",
@@ -33,16 +47,16 @@
       "time": ""
     },
     {
-      "title": "つなぐ旅 東日本 ～ひがしにほんトラ...",
+      "title": "Artistspoken「イマフレラ...",
       "date": "2026-11-13",
-      "url": "https://equal-love.jp/schedule/detail/12377",
+      "url": "https://equal-love.jp/schedule/detail/10746",
       "category": "メディア",
       "time": ""
     },
     {
-      "title": "Artistspoken「イマフレラ...",
+      "title": "つなぐ旅 東日本 ～ひがしにほんトラ...",
       "date": "2026-11-13",
-      "url": "https://equal-love.jp/schedule/detail/10746",
+      "url": "https://equal-love.jp/schedule/detail/12377",
       "category": "メディア",
       "time": ""
     },
@@ -58,20 +72,6 @@
       "date": "2026-11-14",
       "url": "https://equal-love.jp/schedule/detail/12165",
       "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "MTV・TELASA「MTV VMA...",
-      "date": "2026-11-15",
-      "url": "https://equal-love.jp/schedule/detail/12371",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "握手会 ＝LOVE 21stシングル発売記念...",
-      "date": "2026-11-15",
-      "url": "https://equal-love.jp/schedule/detail/11593",
-      "category": "",
       "time": ""
     }
   ]
