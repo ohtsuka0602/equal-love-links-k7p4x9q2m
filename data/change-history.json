@@ -1,6 +1,6 @@
 {
   "meta": {
-    "checkedAt": "2026-11-09T20:44:56.262Z",
+    "checkedAt": "2026-11-09T20:45:37.779Z",
     "updatedAt": "2026-11-09T14:45:33.811Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
@@ -8,16 +8,6 @@
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/10450": {
-        "hash": "94dbc16448fb88541694c7d1ad99eab4ace78eb6a20df151221296b2130bd20a",
-        "item": {
-          "title": "ニッポン放送「＝LOVEのイコラフ」",
-          "date": "2026-11-09",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10450",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/12382": {
         "hash": "4f8320fd4a5c89ac400ce574ea506ab973e526ea08aa442afb58741550b9414b",
         "item": {
@@ -106,6 +96,16 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11593",
           "category": ""
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12371": {
+        "hash": "9e278126f53c021b4211c5a5e6de45e8f54a1db22be8f3775f5bfac4e1575241",
+        "item": {
+          "title": "MTV・TELASA「MTV VMA...",
+          "date": "2026-11-15",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12371",
+          "category": "メディア"
         }
       }
     },
