@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-09T14:44:03.083Z",
-    "updatedAt": "2026-11-08T18:49:07.722Z",
+    "checkedAt": "2026-11-09T14:45:33.811Z",
+    "updatedAt": "2026-11-09T14:45:33.811Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -212,6 +212,22 @@
       }
     },
     "youtube": {
+      "-F-CmPDKHbI": {
+        "hash": "04ca80cf17fe2f590c11fb1bead5668b03f62833073d9d41870a9bb76d495eb2",
+        "item": {
+          "videoId": "-F-CmPDKHbI",
+          "title": "みりにゃの平和な1日の過ごし方",
+          "url": "https://www.youtube.com/watch?v=-F-CmPDKHbI",
+          "thumbnail": "https://i.ytimg.com/vi/-F-CmPDKHbI/maxresdefault.jpg",
+          "publishedAt": "2026-11-09T12:00:21Z",
+          "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
+          "channelName": "みりにゃと申します。",
+          "sourceName": "大谷 映美里",
+          "memberNames": [
+            "大谷 映美里"
+          ]
+        }
+      },
       "rzJCv_6Dy-Q": {
         "hash": "acb839dbeb1557d02722d6c6188d4416859c0e76318c7dcf61c64dd2a0d41ed5",
         "item": {
@@ -272,20 +288,6 @@
           "memberNames": [
             "大谷 映美里"
           ]
-        }
-      },
-      "jr_IEdOX6lc": {
-        "hash": "9cc9cf954c45d48d18a18546fe8046f50b7cf796dd47d9ea5cd156f8efb014ec",
-        "item": {
-          "videoId": "jr_IEdOX6lc",
-          "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒#山本杏奈 #イコラブ #イコールラブ",
-          "url": "https://www.youtube.com/watch?v=jr_IEdOX6lc",
-          "thumbnail": "https://i.ytimg.com/vi/jr_IEdOX6lc/maxresdefault.jpg",
-          "publishedAt": "2026-10-14T13:27:44Z",
-          "channelId": "UCv7VutirxDn3RWIJXI68n_A",
-          "channelName": "＝LOVE（イコールラブ）公式チャンネル",
-          "sourceName": "=LOVE オフィシャル",
-          "memberNames": []
         }
       }
     },
@@ -503,6 +505,20 @@
     }
   },
   "history": [
+    {
+      "id": "youtube:added:-F-CmPDKHbI:04ca80cf17fe",
+      "type": "youtube",
+      "action": "added",
+      "occurredAt": "2026-11-09T14:45:33.811Z",
+      "title": "みりにゃの平和な1日の過ごし方",
+      "url": "https://www.youtube.com/watch?v=-F-CmPDKHbI",
+      "date": "2026-11-09T12:00:21Z",
+      "category": "",
+      "memberNames": [
+        "大谷 映美里"
+      ],
+      "sourceName": "大谷 映美里"
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12176:0f5c390d9fc3",
       "type": "schedule",
@@ -1696,18 +1712,6 @@
       "category": "お知らせ",
       "memberNames": [],
       "sourceName": ""
-    },
-    {
-      "id": "youtube:added:jr_IEdOX6lc:9cc9cf954c45",
-      "type": "youtube",
-      "action": "added",
-      "occurredAt": "2026-10-14T14:01:38.920Z",
-      "title": "#イコラブ8周年ツアー @横浜スタジアムの映像商品が10/14に発売💿ライブ映像の一部をお届けします💘˒˒#山本杏奈 #イコラブ #イコールラブ",
-      "url": "https://www.youtube.com/watch?v=jr_IEdOX6lc",
-      "date": "2026-10-14T13:27:44Z",
-      "category": "",
-      "memberNames": [],
-      "sourceName": "=LOVE オフィシャル"
     }
   ]
 }
