@@ -1,13 +1,23 @@
 {
   "meta": {
-    "checkedAt": "2026-11-09T20:45:37.779Z",
-    "updatedAt": "2026-11-09T14:45:33.811Z",
+    "checkedAt": "2026-11-09T23:25:45.924Z",
+    "updatedAt": "2026-11-09T23:25:45.924Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
+      "https://equal-love.jp/schedule/detail/11744": {
+        "hash": "53342c2e96663cf05f648286b45a4adeeaea5c473dfd311386bef86726d55b36",
+        "item": {
+          "title": "TOKYO FM「Hand in H...",
+          "date": "2026-11-10",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11744",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/12382": {
         "hash": "4f8320fd4a5c89ac400ce574ea506ab973e526ea08aa442afb58741550b9414b",
         "item": {
@@ -38,16 +48,6 @@
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/10746": {
-        "hash": "d05f6848bcfb60311ca6ff3c69205279df8a31540e9abf17d843aa69459413d8",
-        "item": {
-          "title": "Artistspoken「イマフレラ...",
-          "date": "2026-11-13",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10746",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/12377": {
         "hash": "3d47399fff439c0eb9fc860a84aabb337c8f55c1051ff40547aeafd057376b6f",
         "item": {
@@ -55,6 +55,16 @@
           "date": "2026-11-13",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12377",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10746": {
+        "hash": "d05f6848bcfb60311ca6ff3c69205279df8a31540e9abf17d843aa69459413d8",
+        "item": {
+          "title": "Artistspoken「イマフレラ...",
+          "date": "2026-11-13",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10746",
           "category": "メディア"
         }
       },
@@ -96,16 +106,6 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11593",
           "category": ""
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12371": {
-        "hash": "9e278126f53c021b4211c5a5e6de45e8f54a1db22be8f3775f5bfac4e1575241",
-        "item": {
-          "title": "MTV・TELASA「MTV VMA...",
-          "date": "2026-11-15",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12371",
-          "category": "メディア"
         }
       }
     },
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11744:53342c2e9666",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-09T23:25:45.924Z",
+      "title": "TOKYO FM「Hand in H...",
+      "url": "https://equal-love.jp/schedule/detail/11744",
+      "date": "2026-11-10",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "youtube:added:-F-CmPDKHbI:04ca80cf17fe",
       "type": "youtube",
@@ -1698,18 +1710,6 @@
       "url": "https://equal-love.jp/schedule/detail/10448",
       "date": "2026-10-26",
       "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12239:eb4197e4fcb2",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-14T14:01:38.920Z",
-      "title": "【＝LOVE Official Fan Club】諸橋沙夏・音嶋莉沙バースデーコンテンツ更新！",
-      "url": "https://sp.equal-love.jp/news/detail/12239",
-      "date": "2026-10-14",
-      "category": "お知らせ",
       "memberNames": [],
       "sourceName": ""
     }

@@ -1,9 +1,16 @@
 {
   "meta": {
-    "checkedAt": "2026-11-09T20:45:37.592Z",
-    "updatedAt": "2026-11-09T20:45:37.592Z"
+    "checkedAt": "2026-11-09T23:25:45.780Z",
+    "updatedAt": "2026-11-09T23:25:45.780Z"
   },
   "schedule": [
+    {
+      "title": "TOKYO FM「Hand in H...",
+      "date": "2026-11-10",
+      "url": "https://equal-love.jp/schedule/detail/11744",
+      "category": "メディア",
+      "time": ""
+    },
     {
       "title": "フジテレビ系「めざましテレビ」※髙松...",
       "date": "2026-11-10",
@@ -26,16 +33,16 @@
       "time": ""
     },
     {
-      "title": "Artistspoken「イマフレラ...",
+      "title": "つなぐ旅 東日本 ～ひがしにほんトラ...",
       "date": "2026-11-13",
-      "url": "https://equal-love.jp/schedule/detail/10746",
+      "url": "https://equal-love.jp/schedule/detail/12377",
       "category": "メディア",
       "time": ""
     },
     {
-      "title": "つなぐ旅 東日本 ～ひがしにほんトラ...",
+      "title": "Artistspoken「イマフレラ...",
       "date": "2026-11-13",
-      "url": "https://equal-love.jp/schedule/detail/12377",
+      "url": "https://equal-love.jp/schedule/detail/10746",
       "category": "メディア",
       "time": ""
     },
@@ -65,13 +72,6 @@
       "date": "2026-11-15",
       "url": "https://equal-love.jp/schedule/detail/11593",
       "category": "",
-      "time": ""
-    },
-    {
-      "title": "MTV・TELASA「MTV VMA...",
-      "date": "2026-11-15",
-      "url": "https://equal-love.jp/schedule/detail/12371",
-      "category": "メディア",
       "time": ""
     }
   ]
