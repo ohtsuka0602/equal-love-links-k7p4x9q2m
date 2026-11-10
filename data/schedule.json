@@ -1,20 +1,20 @@
 {
   "meta": {
-    "checkedAt": "2026-11-10T08:45:19.083Z",
-    "updatedAt": "2026-11-10T08:45:19.083Z"
+    "checkedAt": "2026-11-10T14:45:55.144Z",
+    "updatedAt": "2026-11-10T14:45:55.144Z"
   },
   "schedule": [
-    {
-      "title": "フジテレビ・FODプレミアム「キミは...",
-      "date": "2026-11-10",
-      "url": "https://equal-love.jp/schedule/detail/11687",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "フジテレビ系「めざましテレビ」※髙松...",
       "date": "2026-11-10",
       "url": "https://equal-love.jp/schedule/detail/12382",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "フジテレビ・FODプレミアム「キミは...",
+      "date": "2026-11-10",
+      "url": "https://equal-love.jp/schedule/detail/11687",
       "category": "メディア",
       "time": ""
     },
@@ -33,6 +33,13 @@
       "time": ""
     },
     {
+      "title": "日本テレビ「ZIP!」 ※野口衣織、...",
+      "date": "2026-11-12",
+      "url": "https://equal-love.jp/schedule/detail/12401",
+      "category": "メディア",
+      "time": ""
+    },
+    {
       "title": "Artistspoken「イマフレラ...",
       "date": "2026-11-13",
       "url": "https://equal-love.jp/schedule/detail/10746",
@@ -44,13 +51,6 @@
       "date": "2026-11-13",
       "url": "https://equal-love.jp/schedule/detail/12377",
       "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "＝LOVE 諸橋沙夏 2nd Sol...",
-      "date": "2026-11-14",
-      "url": "https://equal-love.jp/schedule/detail/12245",
-      "category": "ライブ/イベント",
       "time": ""
     },
     {
@@ -68,10 +68,10 @@
       "time": ""
     },
     {
-      "title": "握手会 ＝LOVE 21stシングル発売記念...",
-      "date": "2026-11-15",
-      "url": "https://equal-love.jp/schedule/detail/11593",
-      "category": "",
+      "title": "＝LOVE 諸橋沙夏 2nd Sol...",
+      "date": "2026-11-14",
+      "url": "https://equal-love.jp/schedule/detail/12245",
+      "category": "ライブ/イベント",
       "time": ""
     }
   ]

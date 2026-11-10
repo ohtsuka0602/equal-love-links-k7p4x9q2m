@@ -1,23 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-11-10T14:45:19.610Z",
-    "updatedAt": "2026-11-10T10:22:17.633Z",
+    "checkedAt": "2026-11-10T14:45:55.292Z",
+    "updatedAt": "2026-11-10T14:45:55.292Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/11687": {
-        "hash": "f808e29d37abe18bd8a2797b879901b3b30efa4d7a6ad14b5f6b0e170047b10d",
-        "item": {
-          "title": "フジテレビ・FODプレミアム「キミは...",
-          "date": "2026-11-10",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11687",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/12382": {
         "hash": "4f8320fd4a5c89ac400ce574ea506ab973e526ea08aa442afb58741550b9414b",
         "item": {
@@ -25,6 +15,16 @@
           "date": "2026-11-10",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12382",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11687": {
+        "hash": "f808e29d37abe18bd8a2797b879901b3b30efa4d7a6ad14b5f6b0e170047b10d",
+        "item": {
+          "title": "フジテレビ・FODプレミアム「キミは...",
+          "date": "2026-11-10",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11687",
           "category": "メディア"
         }
       },
@@ -48,6 +48,16 @@
           "category": "メディア"
         }
       },
+      "https://equal-love.jp/schedule/detail/12401": {
+        "hash": "48fddc9f670072ecc70130e11dbe679ce7c0268fe0b40c882365c02e17adbc6d",
+        "item": {
+          "title": "日本テレビ「ZIP!」 ※野口衣織、...",
+          "date": "2026-11-12",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12401",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/10746": {
         "hash": "d05f6848bcfb60311ca6ff3c69205279df8a31540e9abf17d843aa69459413d8",
         "item": {
@@ -66,16 +76,6 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12377",
           "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12245": {
-        "hash": "06ec216ee2a4e3245f4ca0e812862c655e67d6ca90e925ed0ba72b3a251b91dc",
-        "item": {
-          "title": "＝LOVE 諸橋沙夏 2nd Sol...",
-          "date": "2026-11-14",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12245",
-          "category": "ライブ/イベント"
         }
       },
       "https://equal-love.jp/schedule/detail/12165": {
@@ -98,14 +98,14 @@
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/11593": {
-        "hash": "9f3a37c852e01ede3bbfc59d6ee2d4f507dc8e174deab9bc1f3c60923fa626b1",
+      "https://equal-love.jp/schedule/detail/12245": {
+        "hash": "06ec216ee2a4e3245f4ca0e812862c655e67d6ca90e925ed0ba72b3a251b91dc",
         "item": {
-          "title": "握手会 ＝LOVE 21stシングル発売記念...",
-          "date": "2026-11-15",
+          "title": "＝LOVE 諸橋沙夏 2nd Sol...",
+          "date": "2026-11-14",
           "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11593",
-          "category": ""
+          "url": "https://equal-love.jp/schedule/detail/12245",
+          "category": "ライブ/イベント"
         }
       }
     },
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12401:48fddc9f6700",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-10T14:45:55.292Z",
+      "title": "日本テレビ「ZIP!」 ※野口衣織、...",
+      "url": "https://equal-love.jp/schedule/detail/12401",
+      "date": "2026-11-12",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12400:b285435e0e58",
       "type": "news",
@@ -1697,18 +1709,6 @@
       "title": "【出演情報】AT-X「マヂラブ・野口衣織のマヂでラブになるTV」#4※野口衣織",
       "url": "https://sp.equal-love.jp/news/detail/12266",
       "date": "2026-10-16",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/12249:0afb87d5c30f",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-15T18:15:16.083Z",
-      "title": "日本マクドナルド サイドメニュー「ザ...",
-      "url": "https://equal-love.jp/schedule/detail/12249",
-      "date": "2026-10-27",
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""
