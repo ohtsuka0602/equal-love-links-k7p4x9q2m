@@ -1,27 +1,20 @@
 {
   "meta": {
-    "checkedAt": "2026-11-10T02:45:43.314Z",
-    "updatedAt": "2026-11-10T02:45:43.314Z"
+    "checkedAt": "2026-11-10T08:45:19.083Z",
+    "updatedAt": "2026-11-10T08:45:19.083Z"
   },
   "schedule": [
-    {
-      "title": "フジテレビ系「めざましテレビ」※髙松...",
-      "date": "2026-11-10",
-      "url": "https://equal-love.jp/schedule/detail/12382",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "TOKYO FM「Hand in H...",
-      "date": "2026-11-10",
-      "url": "https://equal-love.jp/schedule/detail/11744",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "フジテレビ・FODプレミアム「キミは...",
       "date": "2026-11-10",
       "url": "https://equal-love.jp/schedule/detail/11687",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "フジテレビ系「めざましテレビ」※髙松...",
+      "date": "2026-11-10",
+      "url": "https://equal-love.jp/schedule/detail/12382",
       "category": "メディア",
       "time": ""
     },
@@ -40,16 +33,16 @@
       "time": ""
     },
     {
-      "title": "つなぐ旅 東日本 ～ひがしにほんトラ...",
+      "title": "Artistspoken「イマフレラ...",
       "date": "2026-11-13",
-      "url": "https://equal-love.jp/schedule/detail/12377",
+      "url": "https://equal-love.jp/schedule/detail/10746",
       "category": "メディア",
       "time": ""
     },
     {
-      "title": "Artistspoken「イマフレラ...",
+      "title": "つなぐ旅 東日本 ～ひがしにほんトラ...",
       "date": "2026-11-13",
-      "url": "https://equal-love.jp/schedule/detail/10746",
+      "url": "https://equal-love.jp/schedule/detail/12377",
       "category": "メディア",
       "time": ""
     },
@@ -72,6 +65,13 @@
       "date": "2026-11-14",
       "url": "https://equal-love.jp/schedule/detail/12176",
       "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "握手会 ＝LOVE 21stシングル発売記念...",
+      "date": "2026-11-15",
+      "url": "https://equal-love.jp/schedule/detail/11593",
+      "category": "",
       "time": ""
     }
   ]
