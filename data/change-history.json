@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-10T08:45:19.252Z",
-    "updatedAt": "2026-11-10T02:45:43.473Z",
+    "checkedAt": "2026-11-10T08:48:06.573Z",
+    "updatedAt": "2026-11-10T08:48:06.573Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,26 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12397": {
+        "hash": "49eff4d99e4c0a8510c72f2c4836e9a563d70f20e3b9d4f91679c2ecff100459",
+        "item": {
+          "title": "【出演情報】AT-X「マヂラブ・野口衣織のマヂでラブになるTV」#5※野口衣織",
+          "date": "2026-11-10",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12397",
+          "category": "メディア"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/12399": {
+        "hash": "eb78f1990097a29cb268bc37fbd2a4bc8a85ad32dde30c65c2f1017274d2d306",
+        "item": {
+          "title": "＝LOVE in TOKYO DOME「全ては＝LOVE」三井ショッピングパーク チケット抽選販売受付開始のお知らせ",
+          "date": "2026-11-10",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12399",
+          "category": "ライブ/イベント"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12394": {
         "hash": "e69e0bcf634cce678c50aa3048785e35e108388b416e5a0edc8a8d2e6f1fe78d",
         "item": {
@@ -188,26 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12385",
           "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12380": {
-        "hash": "595d091bc8e3315fb59af408b1d2727a9d0a587ece165e94acc9d168859dcf6e",
-        "item": {
-          "title": "【出演情報】フジテレビ系「めざましテレビ」11月のマンスリーエンタメプレゼンターを髙松瞳が務めさせていただくことが決定！",
-          "date": "2026-11-02",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12380",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12378": {
-        "hash": "72e1e0b1949b11d3f3bf5a229445b42dd9a41d77d688611974b906267a9429df",
-        "item": {
-          "title": "生写真セット(「恋、はじめました。」歌唱衣装②)・「恋、はじめました。」グッズ発売！",
-          "date": "2026-11-01",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12378",
-          "category": "グッズ"
         }
       }
     },
@@ -505,6 +505,30 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12397:49eff4d99e4c",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-10T08:48:06.573Z",
+      "title": "【出演情報】AT-X「マヂラブ・野口衣織のマヂでラブになるTV」#5※野口衣織",
+      "url": "https://sp.equal-love.jp/news/detail/12397",
+      "date": "2026-11-10",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12399:eb78f1990097",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-10T08:48:06.573Z",
+      "title": "＝LOVE in TOKYO DOME「全ては＝LOVE」三井ショッピングパーク チケット抽選販売受付開始のお知らせ",
+      "url": "https://sp.equal-love.jp/news/detail/12399",
+      "date": "2026-11-10",
+      "category": "ライブ/イベント",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11687:f808e29d37ab",
       "type": "schedule",
@@ -1685,30 +1709,6 @@
       "title": "SHOWROOM『＝LOVE 山本杏...",
       "url": "https://equal-love.jp/schedule/detail/10500",
       "date": "2026-10-29",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/12173:b13df61fa56a",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-15T02:43:53.616Z",
-      "title": "双葉社「EX大衆11月号」※大場花菜",
-      "url": "https://equal-love.jp/schedule/detail/12173",
-      "date": "2026-10-15",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11453:231532f877b7",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-15T02:43:53.616Z",
-      "title": "フジテレビ ONE「プロ野球ニュース...",
-      "url": "https://equal-love.jp/schedule/detail/11453",
-      "date": "2026-10-15",
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""
