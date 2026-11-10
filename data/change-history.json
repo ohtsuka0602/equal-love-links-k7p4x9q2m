@@ -1,13 +1,23 @@
 {
   "meta": {
-    "checkedAt": "2026-11-10T02:44:43.298Z",
-    "updatedAt": "2026-11-09T23:25:45.924Z",
+    "checkedAt": "2026-11-10T02:45:43.473Z",
+    "updatedAt": "2026-11-10T02:45:43.473Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
+      "https://equal-love.jp/schedule/detail/12382": {
+        "hash": "4f8320fd4a5c89ac400ce574ea506ab973e526ea08aa442afb58741550b9414b",
+        "item": {
+          "title": "フジテレビ系「めざましテレビ」※髙松...",
+          "date": "2026-11-10",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12382",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/11744": {
         "hash": "53342c2e96663cf05f648286b45a4adeeaea5c473dfd311386bef86726d55b36",
         "item": {
@@ -18,13 +28,13 @@
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/12382": {
-        "hash": "4f8320fd4a5c89ac400ce574ea506ab973e526ea08aa442afb58741550b9414b",
+      "https://equal-love.jp/schedule/detail/11687": {
+        "hash": "f808e29d37abe18bd8a2797b879901b3b30efa4d7a6ad14b5f6b0e170047b10d",
         "item": {
-          "title": "フジテレビ系「めざましテレビ」※髙松...",
+          "title": "フジテレビ・FODプレミアム「キミは...",
           "date": "2026-11-10",
           "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12382",
+          "url": "https://equal-love.jp/schedule/detail/11687",
           "category": "メディア"
         }
       },
@@ -96,16 +106,6 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12176",
           "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11593": {
-        "hash": "9f3a37c852e01ede3bbfc59d6ee2d4f507dc8e174deab9bc1f3c60923fa626b1",
-        "item": {
-          "title": "握手会 ＝LOVE 21stシングル発売記念...",
-          "date": "2026-11-15",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11593",
-          "category": ""
         }
       }
     },
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11687:f808e29d37ab",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-10T02:45:43.473Z",
+      "title": "フジテレビ・FODプレミアム「キミは...",
+      "url": "https://equal-love.jp/schedule/detail/11687",
+      "date": "2026-11-10",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11744:53342c2e9666",
       "type": "schedule",
@@ -1697,18 +1709,6 @@
       "title": "フジテレビ ONE「プロ野球ニュース...",
       "url": "https://equal-love.jp/schedule/detail/11453",
       "date": "2026-10-15",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/10448:34cf3a2001f9",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-14T18:34:17.533Z",
-      "title": "ニッポン放送「＝LOVEのイコラフ」",
-      "url": "https://equal-love.jp/schedule/detail/10448",
-      "date": "2026-10-26",
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""
