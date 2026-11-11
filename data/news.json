@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-11-11T09:50:43.549Z",
-    "updatedAt": "2026-11-10T10:22:17.456Z"
+    "checkedAt": "2026-11-11T21:32:35.839Z",
+    "updatedAt": "2026-11-11T21:32:35.839Z"
   },
   "news": [
+    {
+      "title": "【出演情報】BS-TBS「ねこ自慢」※髙松瞳",
+      "date": "2026-11-11",
+      "url": "https://sp.equal-love.jp/news/detail/12169",
+      "category": "メディア"
+    },
     {
       "title": "【出演情報】日本テレビ「ZIP!」 ※野口衣織、山本杏奈",
       "date": "2026-11-10",
@@ -56,12 +62,6 @@
       "title": "【掲載情報】宝島社「sweet 12月号」※大谷映美里、音嶋莉沙、髙松瞳、野口衣織、諸橋沙夏",
       "date": "2026-11-05",
       "url": "https://sp.equal-love.jp/news/detail/12270",
-      "category": "メディア"
-    },
-    {
-      "title": "【出演情報】日本テレビ「沸騰ワード10」※野口衣織",
-      "date": "2026-11-04",
-      "url": "https://sp.equal-love.jp/news/detail/12387",
       "category": "メディア"
     }
   ]

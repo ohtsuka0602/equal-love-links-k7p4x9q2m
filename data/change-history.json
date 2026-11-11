@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-11T21:22:57.167Z",
-    "updatedAt": "2026-11-10T14:45:55.292Z",
+    "checkedAt": "2026-11-11T21:32:36.031Z",
+    "updatedAt": "2026-11-11T21:32:36.031Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12169": {
+        "hash": "9c257938f313fb7cfa7e8ccef83421393f084b8fc4f7e4320661af33f7935838",
+        "item": {
+          "title": "【出演情報】BS-TBS「ねこ自慢」※髙松瞳",
+          "date": "2026-11-11",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12169",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12400": {
         "hash": "b285435e0e58231283c0b9818731a0f85785ced3e1bfda13d7d22eabd29c3435",
         "item": {
@@ -197,16 +207,6 @@
           "date": "2026-11-05",
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12270",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12387": {
-        "hash": "4953a65b50c894a44514c0e5da678ee8c982c6dee7e42fa2632c0c28a3e40d31",
-        "item": {
-          "title": "【出演情報】日本テレビ「沸騰ワード10」※野口衣織",
-          "date": "2026-11-04",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12387",
           "category": "メディア"
         }
       }
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12169:9c257938f313",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-11T21:32:36.031Z",
+      "title": "【出演情報】BS-TBS「ねこ自慢」※髙松瞳",
+      "url": "https://sp.equal-love.jp/news/detail/12169",
+      "date": "2026-11-11",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12401:48fddc9f6700",
       "type": "schedule",
@@ -1698,18 +1710,6 @@
       "url": "https://sp.equal-love.jp/news/detail/12275",
       "date": "2026-10-16",
       "category": "ライブ/イベント",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12266:6639357e79bb",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-16T07:31:13.285Z",
-      "title": "【出演情報】AT-X「マヂラブ・野口衣織のマヂでラブになるTV」#4※野口衣織",
-      "url": "https://sp.equal-love.jp/news/detail/12266",
-      "date": "2026-10-16",
-      "category": "メディア",
       "memberNames": [],
       "sourceName": ""
     }
