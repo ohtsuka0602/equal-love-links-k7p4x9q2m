@@ -1,23 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-11-12T14:45:50.553Z",
-    "updatedAt": "2026-11-11T21:22:57.038Z"
+    "checkedAt": "2026-11-12T20:44:19.872Z",
+    "updatedAt": "2026-11-12T20:44:19.872Z"
   },
   "schedule": [
-    {
-      "title": "宝島社「sweet 12月号」※大谷...",
-      "date": "2026-11-12",
-      "url": "https://equal-love.jp/schedule/detail/12271",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "日本テレビ「ZIP!」 ※野口衣織、...",
-      "date": "2026-11-12",
-      "url": "https://equal-love.jp/schedule/detail/12401",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "Artistspoken「イマフレラ...",
       "date": "2026-11-13",
@@ -71,6 +57,20 @@
       "title": "ニッポン放送「＝LOVEのイコラフ」",
       "date": "2026-11-16",
       "url": "https://equal-love.jp/schedule/detail/10451",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "握手会 ＝LOVE映像商品 『＝LOVE S...",
+      "date": "2026-11-17",
+      "url": "https://equal-love.jp/schedule/detail/12288",
+      "category": "",
+      "time": ""
+    },
+    {
+      "title": "BS-TBS「ねこ自慢」※髙松瞳",
+      "date": "2026-11-18",
+      "url": "https://equal-love.jp/schedule/detail/12170",
       "category": "メディア",
       "time": ""
     }

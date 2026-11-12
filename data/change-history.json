@@ -1,33 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-11-12T14:45:50.729Z",
-    "updatedAt": "2026-11-12T08:45:34.105Z",
+    "checkedAt": "2026-11-12T20:44:20.012Z",
+    "updatedAt": "2026-11-12T20:44:20.012Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/12271": {
-        "hash": "a65860a88456fe11a7b87258d2a872c45b067852a747ca350ce6ed193c69eea6",
-        "item": {
-          "title": "宝島社「sweet 12月号」※大谷...",
-          "date": "2026-11-12",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12271",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12401": {
-        "hash": "48fddc9f670072ecc70130e11dbe679ce7c0268fe0b40c882365c02e17adbc6d",
-        "item": {
-          "title": "日本テレビ「ZIP!」 ※野口衣織、...",
-          "date": "2026-11-12",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12401",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/10746": {
         "hash": "d05f6848bcfb60311ca6ff3c69205279df8a31540e9abf17d843aa69459413d8",
         "item": {
@@ -105,6 +85,26 @@
           "date": "2026-11-16",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10451",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12288": {
+        "hash": "8322526b3d5c325373026fe53ccd1c3e97d267e5b3b6952da996db349f1b753f",
+        "item": {
+          "title": "握手会 ＝LOVE映像商品 『＝LOVE S...",
+          "date": "2026-11-17",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12288",
+          "category": ""
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12170": {
+        "hash": "a0206b0c7fb9a3f995f35101244675c6ecbb44c76138a7ff10bf067eeaa430b0",
+        "item": {
+          "title": "BS-TBS「ねこ自慢」※髙松瞳",
+          "date": "2026-11-18",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12170",
           "category": "メディア"
         }
       }
@@ -505,6 +505,30 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12288:8322526b3d5c",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-12T20:44:20.012Z",
+      "title": "握手会 ＝LOVE映像商品 『＝LOVE S...",
+      "url": "https://equal-love.jp/schedule/detail/12288",
+      "date": "2026-11-17",
+      "category": "",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12170:a0206b0c7fb9",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-12T20:44:20.012Z",
+      "title": "BS-TBS「ねこ自慢」※髙松瞳",
+      "url": "https://equal-love.jp/schedule/detail/12170",
+      "date": "2026-11-18",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "youtube:added:dugXInNnJUE:1ea64c94aba2",
       "type": "youtube",
@@ -1688,30 +1712,6 @@
       "url": "https://equal-love.jp/schedule/detail/11829",
       "date": "2026-10-29",
       "category": "ライブ/イベント",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/10744:a98060f99af1",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-16T18:00:46.390Z",
-      "title": "Artistspoken「イマフレラ...",
-      "url": "https://equal-love.jp/schedule/detail/10744",
-      "date": "2026-10-30",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12274:87b216984177",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-16T13:31:31.064Z",
-      "title": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」グッズ通販サイトでの販売のお知らせ",
-      "url": "https://sp.equal-love.jp/news/detail/12274",
-      "date": "2026-10-16",
-      "category": "グッズ",
       "memberNames": [],
       "sourceName": ""
     }
