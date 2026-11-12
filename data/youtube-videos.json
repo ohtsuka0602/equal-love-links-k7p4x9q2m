@@ -1,9 +1,22 @@
 {
   "meta": {
-    "checkedAt": "2026-11-12T02:45:50.966Z",
-    "updatedAt": "2026-11-09T14:45:26.580Z"
+    "checkedAt": "2026-11-12T08:45:27.293Z",
+    "updatedAt": "2026-11-12T08:45:27.293Z"
   },
   "videos": [
+    {
+      "videoId": "dugXInNnJUE",
+      "title": "サッポロ一番塩らーめんアレンジにときめくみりにゃ #shorts",
+      "url": "https://www.youtube.com/watch?v=dugXInNnJUE",
+      "thumbnail": "https://i.ytimg.com/vi/dugXInNnJUE/maxresdefault.jpg",
+      "publishedAt": "2026-11-12T03:22:08Z",
+      "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
+      "channelName": "みりにゃと申します。",
+      "sourceName": "大谷 映美里",
+      "memberNames": [
+        "大谷 映美里"
+      ]
+    },
     {
       "videoId": "-F-CmPDKHbI",
       "title": "みりにゃの平和な1日の過ごし方",
@@ -52,19 +65,6 @@
       "sourceName": "音嶋 莉沙",
       "memberNames": [
         "音嶋 莉沙"
-      ]
-    },
-    {
-      "videoId": "ZSkGfov6xak",
-      "title": "みりにゃ、初めての麻辣湯作り",
-      "url": "https://www.youtube.com/watch?v=ZSkGfov6xak",
-      "thumbnail": "https://i.ytimg.com/vi/ZSkGfov6xak/maxresdefault.jpg",
-      "publishedAt": "2026-10-18T11:00:31Z",
-      "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
-      "channelName": "みりにゃと申します。",
-      "sourceName": "大谷 映美里",
-      "memberNames": [
-        "大谷 映美里"
       ]
     }
   ]

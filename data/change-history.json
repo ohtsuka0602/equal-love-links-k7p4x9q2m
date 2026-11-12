@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-12T02:45:57.760Z",
-    "updatedAt": "2026-11-11T21:32:36.031Z",
+    "checkedAt": "2026-11-12T08:45:34.105Z",
+    "updatedAt": "2026-11-12T08:45:34.105Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -212,6 +212,22 @@
       }
     },
     "youtube": {
+      "dugXInNnJUE": {
+        "hash": "1ea64c94aba2dbcc52ad8829f84a18c09e38558a50878c8e3502a41e3dfc78e2",
+        "item": {
+          "videoId": "dugXInNnJUE",
+          "title": "サッポロ一番塩らーめんアレンジにときめくみりにゃ #shorts",
+          "url": "https://www.youtube.com/watch?v=dugXInNnJUE",
+          "thumbnail": "https://i.ytimg.com/vi/dugXInNnJUE/maxresdefault.jpg",
+          "publishedAt": "2026-11-12T03:22:08Z",
+          "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
+          "channelName": "みりにゃと申します。",
+          "sourceName": "大谷 映美里",
+          "memberNames": [
+            "大谷 映美里"
+          ]
+        }
+      },
       "-F-CmPDKHbI": {
         "hash": "04ca80cf17fe2f590c11fb1bead5668b03f62833073d9d41870a9bb76d495eb2",
         "item": {
@@ -271,22 +287,6 @@
           "sourceName": "音嶋 莉沙",
           "memberNames": [
             "音嶋 莉沙"
-          ]
-        }
-      },
-      "ZSkGfov6xak": {
-        "hash": "621b65aa18db55097417dc98deea35409356602076de447053de73da5d644139",
-        "item": {
-          "videoId": "ZSkGfov6xak",
-          "title": "みりにゃ、初めての麻辣湯作り",
-          "url": "https://www.youtube.com/watch?v=ZSkGfov6xak",
-          "thumbnail": "https://i.ytimg.com/vi/ZSkGfov6xak/maxresdefault.jpg",
-          "publishedAt": "2026-10-18T11:00:31Z",
-          "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
-          "channelName": "みりにゃと申します。",
-          "sourceName": "大谷 映美里",
-          "memberNames": [
-            "大谷 映美里"
           ]
         }
       }
@@ -505,6 +505,20 @@
     }
   },
   "history": [
+    {
+      "id": "youtube:added:dugXInNnJUE:1ea64c94aba2",
+      "type": "youtube",
+      "action": "added",
+      "occurredAt": "2026-11-12T08:45:34.105Z",
+      "title": "サッポロ一番塩らーめんアレンジにときめくみりにゃ #shorts",
+      "url": "https://www.youtube.com/watch?v=dugXInNnJUE",
+      "date": "2026-11-12T03:22:08Z",
+      "category": "",
+      "memberNames": [
+        "大谷 映美里"
+      ],
+      "sourceName": "大谷 映美里"
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12169:9c257938f313",
       "type": "news",
@@ -1698,18 +1712,6 @@
       "url": "https://sp.equal-love.jp/news/detail/12274",
       "date": "2026-10-16",
       "category": "グッズ",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12275:814ee200eb22",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-16T13:31:31.064Z",
-      "title": "＝LOVE DOME LIVE in NAGOYA「全ては＝LOVE」開催決定！！",
-      "url": "https://sp.equal-love.jp/news/detail/12275",
-      "date": "2026-10-16",
-      "category": "ライブ/イベント",
       "memberNames": [],
       "sourceName": ""
     }
