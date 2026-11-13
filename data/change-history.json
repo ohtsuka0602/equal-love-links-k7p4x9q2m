@@ -1,23 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-11-13T02:46:08.726Z",
-    "updatedAt": "2026-11-12T20:44:20.012Z",
+    "checkedAt": "2026-11-13T08:44:11.509Z",
+    "updatedAt": "2026-11-13T08:44:11.509Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/10746": {
-        "hash": "d05f6848bcfb60311ca6ff3c69205279df8a31540e9abf17d843aa69459413d8",
-        "item": {
-          "title": "Artistspoken「イマフレラ...",
-          "date": "2026-11-13",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10746",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/12377": {
         "hash": "3d47399fff439c0eb9fc860a84aabb337c8f55c1051ff40547aeafd057376b6f",
         "item": {
@@ -25,6 +15,26 @@
           "date": "2026-11-13",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12377",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12410": {
+        "hash": "05cce2797fb00b5fae76fb8b0375e20bd37fd89062cb958733b2ca67d8df7db7",
+        "item": {
+          "title": "NHK総合「第77回NHK紅白歌合戦...",
+          "date": "2026-11-13",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12410",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10746": {
+        "hash": "d05f6848bcfb60311ca6ff3c69205279df8a31540e9abf17d843aa69459413d8",
+        "item": {
+          "title": "Artistspoken「イマフレラ...",
+          "date": "2026-11-13",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10746",
           "category": "メディア"
         }
       },
@@ -38,16 +48,6 @@
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/12176": {
-        "hash": "0f5c390d9fc39c58325627fe9c06e167d26553c7a3e6dfdc2185f0b5e4ed7895",
-        "item": {
-          "title": "TELASAオリジナル「アイ=ラブ！...",
-          "date": "2026-11-14",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12176",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/12245": {
         "hash": "06ec216ee2a4e3245f4ca0e812862c655e67d6ca90e925ed0ba72b3a251b91dc",
         "item": {
@@ -56,6 +56,16 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12245",
           "category": "ライブ/イベント"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12176": {
+        "hash": "0f5c390d9fc39c58325627fe9c06e167d26553c7a3e6dfdc2185f0b5e4ed7895",
+        "item": {
+          "title": "TELASAオリジナル「アイ=ラブ！...",
+          "date": "2026-11-14",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12176",
+          "category": "メディア"
         }
       },
       "https://equal-love.jp/schedule/detail/11593": {
@@ -96,16 +106,6 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12288",
           "category": ""
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12170": {
-        "hash": "a0206b0c7fb9a3f995f35101244675c6ecbb44c76138a7ff10bf067eeaa430b0",
-        "item": {
-          "title": "BS-TBS「ねこ自慢」※髙松瞳",
-          "date": "2026-11-18",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12170",
-          "category": "メディア"
         }
       }
     },
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12410:05cce2797fb0",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-13T08:44:11.509Z",
+      "title": "NHK総合「第77回NHK紅白歌合戦...",
+      "url": "https://equal-love.jp/schedule/detail/12410",
+      "date": "2026-11-13",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12288:8322526b3d5c",
       "type": "schedule",
@@ -1700,18 +1712,6 @@
       "url": "https://sp.equal-love.jp/news/detail/12272",
       "date": "2026-10-17",
       "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11829:6ff142abf0ab",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-16T18:00:46.390Z",
-      "title": "「MTV VMAJ 2026」※＝L...",
-      "url": "https://equal-love.jp/schedule/detail/11829",
-      "date": "2026-10-29",
-      "category": "ライブ/イベント",
       "memberNames": [],
       "sourceName": ""
     }

@@ -1,20 +1,27 @@
 {
   "meta": {
-    "checkedAt": "2026-11-13T02:46:08.576Z",
-    "updatedAt": "2026-11-12T20:44:19.872Z"
+    "checkedAt": "2026-11-13T08:44:11.312Z",
+    "updatedAt": "2026-11-13T08:44:11.312Z"
   },
   "schedule": [
-    {
-      "title": "Artistspoken「イマフレラ...",
-      "date": "2026-11-13",
-      "url": "https://equal-love.jp/schedule/detail/10746",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "つなぐ旅 東日本 ～ひがしにほんトラ...",
       "date": "2026-11-13",
       "url": "https://equal-love.jp/schedule/detail/12377",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "NHK総合「第77回NHK紅白歌合戦...",
+      "date": "2026-11-13",
+      "url": "https://equal-love.jp/schedule/detail/12410",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "Artistspoken「イマフレラ...",
+      "date": "2026-11-13",
+      "url": "https://equal-love.jp/schedule/detail/10746",
       "category": "メディア",
       "time": ""
     },
@@ -26,17 +33,17 @@
       "time": ""
     },
     {
-      "title": "TELASAオリジナル「アイ=ラブ！...",
-      "date": "2026-11-14",
-      "url": "https://equal-love.jp/schedule/detail/12176",
-      "category": "メディア",
-      "time": ""
-    },
-    {
       "title": "＝LOVE 諸橋沙夏 2nd Sol...",
       "date": "2026-11-14",
       "url": "https://equal-love.jp/schedule/detail/12245",
       "category": "ライブ/イベント",
+      "time": ""
+    },
+    {
+      "title": "TELASAオリジナル「アイ=ラブ！...",
+      "date": "2026-11-14",
+      "url": "https://equal-love.jp/schedule/detail/12176",
+      "category": "メディア",
       "time": ""
     },
     {
@@ -65,13 +72,6 @@
       "date": "2026-11-17",
       "url": "https://equal-love.jp/schedule/detail/12288",
       "category": "",
-      "time": ""
-    },
-    {
-      "title": "BS-TBS「ねこ自慢」※髙松瞳",
-      "date": "2026-11-18",
-      "url": "https://equal-love.jp/schedule/detail/12170",
-      "category": "メディア",
       "time": ""
     }
   ]
