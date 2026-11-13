@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-11-13T02:45:05.877Z",
-    "updatedAt": "2026-11-11T21:32:35.839Z"
+    "checkedAt": "2026-11-13T08:45:59.827Z",
+    "updatedAt": "2026-11-13T08:45:59.827Z"
   },
   "news": [
+    {
+      "title": "【出演情報】NHK「第77回NHK紅白歌合戦」に＝LOVEが初出場決定！！",
+      "date": "2026-11-13",
+      "url": "https://sp.equal-love.jp/news/detail/12408",
+      "category": "メディア"
+    },
     {
       "title": "【出演情報】BS-TBS「ねこ自慢」※髙松瞳",
       "date": "2026-11-11",
@@ -57,12 +63,6 @@
       "date": "2026-11-07",
       "url": "https://sp.equal-love.jp/news/detail/12389",
       "category": "ライブ/イベント"
-    },
-    {
-      "title": "【掲載情報】宝島社「sweet 12月号」※大谷映美里、音嶋莉沙、髙松瞳、野口衣織、諸橋沙夏",
-      "date": "2026-11-05",
-      "url": "https://sp.equal-love.jp/news/detail/12270",
-      "category": "メディア"
     }
   ]
 }

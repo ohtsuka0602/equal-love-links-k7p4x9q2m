@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-13T08:44:11.509Z",
-    "updatedAt": "2026-11-13T08:44:11.509Z",
+    "checkedAt": "2026-11-13T08:45:59.967Z",
+    "updatedAt": "2026-11-13T08:45:59.967Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12408": {
+        "hash": "d4c7588287af045fd30224eb241ef26380e1672c9e229105b09872f8e8351645",
+        "item": {
+          "title": "【出演情報】NHK「第77回NHK紅白歌合戦」に＝LOVEが初出場決定！！",
+          "date": "2026-11-13",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12408",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12169": {
         "hash": "9c257938f313fb7cfa7e8ccef83421393f084b8fc4f7e4320661af33f7935838",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12389",
           "category": "ライブ/イベント"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12270": {
-        "hash": "de0b47ac4456ae50ef0b4ea9939a18198403ce902ffcef281ca5b10117ae43d9",
-        "item": {
-          "title": "【掲載情報】宝島社「sweet 12月号」※大谷映美里、音嶋莉沙、髙松瞳、野口衣織、諸橋沙夏",
-          "date": "2026-11-05",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12270",
-          "category": "メディア"
         }
       }
     },
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12408:d4c7588287af",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-13T08:45:59.967Z",
+      "title": "【出演情報】NHK「第77回NHK紅白歌合戦」に＝LOVEが初出場決定！！",
+      "url": "https://sp.equal-love.jp/news/detail/12408",
+      "date": "2026-11-13",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12410:05cce2797fb0",
       "type": "schedule",
@@ -1700,18 +1712,6 @@
       "url": "https://sp.equal-love.jp/news/detail/12273",
       "date": "2026-10-17",
       "category": "お知らせ",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12272:a163dd871a3e",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-17T08:45:15.711Z",
-      "title": "【出演情報】「evelyn 2026 Winter collection モデル」※音嶋莉沙",
-      "url": "https://sp.equal-love.jp/news/detail/12272",
-      "date": "2026-10-17",
-      "category": "メディア",
       "memberNames": [],
       "sourceName": ""
     }
