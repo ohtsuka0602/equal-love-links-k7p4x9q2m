@@ -1,43 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-11-13T20:44:47.449Z",
-    "updatedAt": "2026-11-13T08:45:59.967Z",
+    "checkedAt": "2026-11-13T20:45:26.249Z",
+    "updatedAt": "2026-11-13T20:45:26.249Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/12377": {
-        "hash": "3d47399fff439c0eb9fc860a84aabb337c8f55c1051ff40547aeafd057376b6f",
-        "item": {
-          "title": "つなぐ旅 東日本 ～ひがしにほんトラ...",
-          "date": "2026-11-13",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12377",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12410": {
-        "hash": "05cce2797fb00b5fae76fb8b0375e20bd37fd89062cb958733b2ca67d8df7db7",
-        "item": {
-          "title": "NHK総合「第77回NHK紅白歌合戦...",
-          "date": "2026-11-13",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12410",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/10746": {
-        "hash": "d05f6848bcfb60311ca6ff3c69205279df8a31540e9abf17d843aa69459413d8",
-        "item": {
-          "title": "Artistspoken「イマフレラ...",
-          "date": "2026-11-13",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10746",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/12165": {
         "hash": "64509714bf4518f08aa2b92c2b2f1a87ceed753709cf92d81f92ce654d0511a7",
         "item": {
@@ -106,6 +76,36 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12288",
           "category": ""
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12170": {
+        "hash": "a0206b0c7fb9a3f995f35101244675c6ecbb44c76138a7ff10bf067eeaa430b0",
+        "item": {
+          "title": "BS-TBS「ねこ自慢」※髙松瞳",
+          "date": "2026-11-18",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12170",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12383": {
+        "hash": "d4cb532f70e76b8ae151362d4f76ecc9e6909a1e6da310a1d9f302fd12b61b03",
+        "item": {
+          "title": "フジテレビ系「めざましテレビ」※髙松...",
+          "date": "2026-11-19",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12383",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10747": {
+        "hash": "0e9cb89a13a9b2760f8d39bdb386a52a26817a602f8a205776873a1916a15424",
+        "item": {
+          "title": "Artistspoken「イマフレラ...",
+          "date": "2026-11-20",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10747",
+          "category": "メディア"
         }
       }
     },
@@ -505,6 +505,30 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12383:d4cb532f70e7",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-13T20:45:26.249Z",
+      "title": "フジテレビ系「めざましテレビ」※髙松...",
+      "url": "https://equal-love.jp/schedule/detail/12383",
+      "date": "2026-11-19",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10747:0e9cb89a13a9",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-13T20:45:26.249Z",
+      "title": "Artistspoken「イマフレラ...",
+      "url": "https://equal-love.jp/schedule/detail/10747",
+      "date": "2026-11-20",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12408:d4c7588287af",
       "type": "news",
@@ -1688,30 +1712,6 @@
       "url": "https://equal-love.jp/schedule/detail/11185",
       "date": "2026-10-18",
       "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/12175:ed1f1c953963",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-18T02:43:56.567Z",
-      "title": "TELASAオリジナル「アイ=ラブ！...",
-      "url": "https://equal-love.jp/schedule/detail/12175",
-      "date": "2026-10-24",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12273:afa6ca76cc0e",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-17T08:45:15.711Z",
-      "title": "＝LOVEデビュー9周年企画 コンサート映像配信決定！",
-      "url": "https://sp.equal-love.jp/news/detail/12273",
-      "date": "2026-10-17",
-      "category": "お知らせ",
       "memberNames": [],
       "sourceName": ""
     }

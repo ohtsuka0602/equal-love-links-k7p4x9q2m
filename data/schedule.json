@@ -1,30 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-11-13T14:44:01.242Z",
-    "updatedAt": "2026-11-13T08:44:11.312Z"
+    "checkedAt": "2026-11-13T20:45:26.089Z",
+    "updatedAt": "2026-11-13T20:45:26.089Z"
   },
   "schedule": [
-    {
-      "title": "つなぐ旅 東日本 ～ひがしにほんトラ...",
-      "date": "2026-11-13",
-      "url": "https://equal-love.jp/schedule/detail/12377",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "NHK総合「第77回NHK紅白歌合戦...",
-      "date": "2026-11-13",
-      "url": "https://equal-love.jp/schedule/detail/12410",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "Artistspoken「イマフレラ...",
-      "date": "2026-11-13",
-      "url": "https://equal-love.jp/schedule/detail/10746",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "日本テレビ「サクサクヒムヒム☆推しの...",
       "date": "2026-11-14",
@@ -72,6 +51,27 @@
       "date": "2026-11-17",
       "url": "https://equal-love.jp/schedule/detail/12288",
       "category": "",
+      "time": ""
+    },
+    {
+      "title": "BS-TBS「ねこ自慢」※髙松瞳",
+      "date": "2026-11-18",
+      "url": "https://equal-love.jp/schedule/detail/12170",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "フジテレビ系「めざましテレビ」※髙松...",
+      "date": "2026-11-19",
+      "url": "https://equal-love.jp/schedule/detail/12383",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "Artistspoken「イマフレラ...",
+      "date": "2026-11-20",
+      "url": "https://equal-love.jp/schedule/detail/10747",
+      "category": "メディア",
       "time": ""
     }
   ]
