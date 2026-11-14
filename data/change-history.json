@@ -1,43 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-11-14T14:45:23.195Z",
-    "updatedAt": "2026-11-14T14:44:44.133Z",
+    "checkedAt": "2026-11-14T19:07:47.211Z",
+    "updatedAt": "2026-11-14T19:07:47.211Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/12165": {
-        "hash": "64509714bf4518f08aa2b92c2b2f1a87ceed753709cf92d81f92ce654d0511a7",
-        "item": {
-          "title": "日本テレビ「サクサクヒムヒム☆推しの...",
-          "date": "2026-11-14",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12165",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12245": {
-        "hash": "06ec216ee2a4e3245f4ca0e812862c655e67d6ca90e925ed0ba72b3a251b91dc",
-        "item": {
-          "title": "＝LOVE 諸橋沙夏 2nd Sol...",
-          "date": "2026-11-14",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12245",
-          "category": "ライブ/イベント"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12176": {
-        "hash": "0f5c390d9fc39c58325627fe9c06e167d26553c7a3e6dfdc2185f0b5e4ed7895",
-        "item": {
-          "title": "TELASAオリジナル「アイ=ラブ！...",
-          "date": "2026-11-14",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12176",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/11593": {
         "hash": "9f3a37c852e01ede3bbfc59d6ee2d4f507dc8e174deab9bc1f3c60923fa626b1",
         "item": {
@@ -105,6 +75,36 @@
           "date": "2026-11-20",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10747",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12289": {
+        "hash": "5ff3a4a877c2a74fe8a665f5454d4c7a376c36852b69a031d407c149cfac256b",
+        "item": {
+          "title": "握手会 ＝LOVE映像商品 『＝LOVE S...",
+          "date": "2026-11-21",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12289",
+          "category": ""
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11594": {
+        "hash": "614eaed97945a08705b0508b27f52ce8927c6060a5a20801e7cbeb78a473e5a2",
+        "item": {
+          "title": "握手会 ＝LOVE 21stシングル発売記念...",
+          "date": "2026-11-22",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11594",
+          "category": ""
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10452": {
+        "hash": "25173be3b548b0a0bd19b04736db76cc44110e6e99e31c90f13793b9388e92b4",
+        "item": {
+          "title": "ニッポン放送「＝LOVEのイコラフ」",
+          "date": "2026-11-23",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10452",
           "category": "メディア"
         }
       }
@@ -505,6 +505,42 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12289:5ff3a4a877c2",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-14T19:07:47.211Z",
+      "title": "握手会 ＝LOVE映像商品 『＝LOVE S...",
+      "url": "https://equal-love.jp/schedule/detail/12289",
+      "date": "2026-11-21",
+      "category": "",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11594:614eaed97945",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-14T19:07:47.211Z",
+      "title": "握手会 ＝LOVE 21stシングル発売記念...",
+      "url": "https://equal-love.jp/schedule/detail/11594",
+      "date": "2026-11-22",
+      "category": "",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10452:25173be3b548",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-14T19:07:47.211Z",
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "url": "https://equal-love.jp/schedule/detail/10452",
+      "date": "2026-11-23",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12405:c66a7b83b726",
       "type": "news",
@@ -1676,42 +1712,6 @@
       "url": "https://equal-love.jp/schedule/detail/11741",
       "date": "2026-10-20",
       "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12283:1d9b10c6419e",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-20T02:44:32.760Z",
-      "title": "【出演情報】日本マクドナルドの新たなレギュラーメニュー『390ペア』のWebCMに髙松瞳の出演が決定しました！",
-      "url": "https://sp.equal-love.jp/news/detail/12283",
-      "date": "2026-10-20",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/12264:d639c1d1e62c",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-19T19:53:28.323Z",
-      "title": "フジテレビ「STARフェス」※＝LO...",
-      "url": "https://equal-love.jp/schedule/detail/12264",
-      "date": "2026-10-31",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12281:6836c7329077",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-19T08:44:45.021Z",
-      "title": "＝LOVE STADIUM LIVE「Beyond \"KYUN\"♡」 映像商品発売決定！",
-      "url": "https://sp.equal-love.jp/news/detail/12281",
-      "date": "2026-10-19",
-      "category": "リリース",
       "memberNames": [],
       "sourceName": ""
     }
