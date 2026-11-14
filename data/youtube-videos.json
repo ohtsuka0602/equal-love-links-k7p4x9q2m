@@ -1,9 +1,22 @@
 {
   "meta": {
-    "checkedAt": "2026-11-14T02:44:35.324Z",
-    "updatedAt": "2026-11-12T08:45:27.293Z"
+    "checkedAt": "2026-11-14T08:45:33.369Z",
+    "updatedAt": "2026-11-14T08:45:33.369Z"
   },
   "videos": [
+    {
+      "videoId": "1riE18NmNgw",
+      "title": "みりにゃ、初めての日高屋",
+      "url": "https://www.youtube.com/watch?v=1riE18NmNgw",
+      "thumbnail": "https://i.ytimg.com/vi/1riE18NmNgw/maxresdefault.jpg",
+      "publishedAt": "2026-11-14T04:00:21Z",
+      "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
+      "channelName": "みりにゃと申します。",
+      "sourceName": "大谷 映美里",
+      "memberNames": [
+        "大谷 映美里"
+      ]
+    },
     {
       "videoId": "dugXInNnJUE",
       "title": "サッポロ一番塩らーめんアレンジにときめくみりにゃ #shorts",
@@ -52,19 +65,6 @@
       "sourceName": "大谷 映美里",
       "memberNames": [
         "大谷 映美里"
-      ]
-    },
-    {
-      "videoId": "bnD5K5aect8",
-      "title": "人生初のびっくりドンキーでずっとびっくり",
-      "url": "https://www.youtube.com/watch?v=bnD5K5aect8",
-      "thumbnail": "https://i.ytimg.com/vi/bnD5K5aect8/maxresdefault.jpg",
-      "publishedAt": "2026-10-28T10:30:25Z",
-      "channelId": "UCcsyyry5bsjTeqqJ_Yz9TiA",
-      "channelName": "音嶋莉沙の様子がおかしいチャンネル",
-      "sourceName": "音嶋 莉沙",
-      "memberNames": [
-        "音嶋 莉沙"
       ]
     }
   ]

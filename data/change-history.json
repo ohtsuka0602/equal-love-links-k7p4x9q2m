@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-14T08:43:50.206Z",
-    "updatedAt": "2026-11-13T20:45:26.249Z",
+    "checkedAt": "2026-11-14T08:45:39.671Z",
+    "updatedAt": "2026-11-14T08:45:39.671Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -212,6 +212,22 @@
       }
     },
     "youtube": {
+      "1riE18NmNgw": {
+        "hash": "4b6743e8547ac5a2024c8405718dc8c9fadeaea5f075cf726a82b2f591c3f459",
+        "item": {
+          "videoId": "1riE18NmNgw",
+          "title": "みりにゃ、初めての日高屋",
+          "url": "https://www.youtube.com/watch?v=1riE18NmNgw",
+          "thumbnail": "https://i.ytimg.com/vi/1riE18NmNgw/maxresdefault.jpg",
+          "publishedAt": "2026-11-14T04:00:21Z",
+          "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
+          "channelName": "みりにゃと申します。",
+          "sourceName": "大谷 映美里",
+          "memberNames": [
+            "大谷 映美里"
+          ]
+        }
+      },
       "dugXInNnJUE": {
         "hash": "1ea64c94aba2dbcc52ad8829f84a18c09e38558a50878c8e3502a41e3dfc78e2",
         "item": {
@@ -271,22 +287,6 @@
           "sourceName": "大谷 映美里",
           "memberNames": [
             "大谷 映美里"
-          ]
-        }
-      },
-      "bnD5K5aect8": {
-        "hash": "247e673906dc7cec7993cf7dfa101d28bfcc3f81975f54a578b2bd030a9336cf",
-        "item": {
-          "videoId": "bnD5K5aect8",
-          "title": "人生初のびっくりドンキーでずっとびっくり",
-          "url": "https://www.youtube.com/watch?v=bnD5K5aect8",
-          "thumbnail": "https://i.ytimg.com/vi/bnD5K5aect8/maxresdefault.jpg",
-          "publishedAt": "2026-10-28T10:30:25Z",
-          "channelId": "UCcsyyry5bsjTeqqJ_Yz9TiA",
-          "channelName": "音嶋莉沙の様子がおかしいチャンネル",
-          "sourceName": "音嶋 莉沙",
-          "memberNames": [
-            "音嶋 莉沙"
           ]
         }
       }
@@ -505,6 +505,20 @@
     }
   },
   "history": [
+    {
+      "id": "youtube:added:1riE18NmNgw:4b6743e8547a",
+      "type": "youtube",
+      "action": "added",
+      "occurredAt": "2026-11-14T08:45:39.671Z",
+      "title": "みりにゃ、初めての日高屋",
+      "url": "https://www.youtube.com/watch?v=1riE18NmNgw",
+      "date": "2026-11-14T04:00:21Z",
+      "category": "",
+      "memberNames": [
+        "大谷 映美里"
+      ],
+      "sourceName": "大谷 映美里"
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12383:d4cb532f70e7",
       "type": "schedule",
@@ -1702,18 +1716,6 @@
         "大谷 映美里"
       ],
       "sourceName": "大谷 映美里"
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11185:87e8abd8be66",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-18T02:43:56.567Z",
-      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
-      "url": "https://equal-love.jp/schedule/detail/11185",
-      "date": "2026-10-18",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
     }
   ]
 }
