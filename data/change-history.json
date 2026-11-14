@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-14T09:24:38.997Z",
-    "updatedAt": "2026-11-14T08:45:39.671Z",
+    "checkedAt": "2026-11-14T14:44:44.133Z",
+    "updatedAt": "2026-11-14T14:44:44.133Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12405": {
+        "hash": "c66a7b83b726f342fe3e8a915640ee9b2baa0da08f4ab55ac0c7774573b479e7",
+        "item": {
+          "title": "＝LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～グッズ通販サイトでの販売のお知らせ",
+          "date": "2026-11-14",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12405",
+          "category": "グッズ"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12408": {
         "hash": "d4c7588287af045fd30224eb241ef26380e1672c9e229105b09872f8e8351645",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12391",
           "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12389": {
-        "hash": "f2ab5b2a3cc6332908a354b01b71c36d254414844d50d366eb82f0d54e34336c",
-        "item": {
-          "title": "野口衣織がエステル役で出演するTVアニメ『ガチャを回して仲間を増やす 最強の美少女軍団を作り上げろ』キャスト舞台挨拶付き先行上映会の開催が決定！",
-          "date": "2026-11-07",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12389",
-          "category": "ライブ/イベント"
         }
       }
     },
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12405:c66a7b83b726",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-14T14:44:44.133Z",
+      "title": "＝LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～グッズ通販サイトでの販売のお知らせ",
+      "url": "https://sp.equal-love.jp/news/detail/12405",
+      "date": "2026-11-14",
+      "category": "グッズ",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "youtube:added:1riE18NmNgw:4b6743e8547a",
       "type": "youtube",
@@ -1702,20 +1714,6 @@
       "category": "リリース",
       "memberNames": [],
       "sourceName": ""
-    },
-    {
-      "id": "youtube:added:ZSkGfov6xak:621b65aa18db",
-      "type": "youtube",
-      "action": "added",
-      "occurredAt": "2026-10-18T12:47:44.964Z",
-      "title": "みりにゃ、初めての麻辣湯作り",
-      "url": "https://www.youtube.com/watch?v=ZSkGfov6xak",
-      "date": "2026-10-18T11:00:31Z",
-      "category": "",
-      "memberNames": [
-        "大谷 映美里"
-      ],
-      "sourceName": "大谷 映美里"
     }
   ]
 }
