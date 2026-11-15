@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-15T08:45:17.116Z",
-    "updatedAt": "2026-11-15T02:44:11.686Z",
+    "checkedAt": "2026-11-15T09:54:31.619Z",
+    "updatedAt": "2026-11-15T09:54:31.619Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12411": {
+        "hash": "0bb83c563f433ffd952daad5b237917192250e6d195fe0faff5bcc2c07ce7db2",
+        "item": {
+          "title": "生写真セット(「恋、はじめました。」MV衣装②)発売！",
+          "date": "2026-11-15",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12411",
+          "category": "グッズ"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12405": {
         "hash": "c66a7b83b726f342fe3e8a915640ee9b2baa0da08f4ab55ac0c7774573b479e7",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12396",
           "category": "お知らせ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12391": {
-        "hash": "d301827df1c715ede236e5f82b6becb8ed18d2dd90566d47facca087b2b6b3af",
-        "item": {
-          "title": "【出演情報】TVアニメ『勇者パーティーにかわいい⼦がいたので、告⽩してみた。』第2期制作決定！ハピネス役として野口衣織が出演いたします！",
-          "date": "2026-11-07",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12391",
-          "category": "メディア"
         }
       }
     },
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12411:0bb83c563f43",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-15T09:54:31.619Z",
+      "title": "生写真セット(「恋、はじめました。」MV衣装②)発売！",
+      "url": "https://sp.equal-love.jp/news/detail/12411",
+      "date": "2026-11-15",
+      "category": "グッズ",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12307:4f4ec1a12d69",
       "type": "schedule",
@@ -1698,18 +1710,6 @@
       "occurredAt": "2026-10-20T08:45:27.672Z",
       "title": "【掲載情報】KADOKAWA「LoveLive!Days 2026年12月号増刊 LoveLive! Series 15th Anniversary SPECIAL」※齋藤樹愛羅",
       "url": "https://sp.equal-love.jp/news/detail/12284",
-      "date": "2026-10-20",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12286:738a5057b0f0",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-20T08:45:27.672Z",
-      "title": "【出演情報】日本マクドナルド『ザクザクジューシーマック』のWebCMに佐々木舞香の出演が決定しました！",
-      "url": "https://sp.equal-love.jp/news/detail/12286",
       "date": "2026-10-20",
       "category": "メディア",
       "memberNames": [],
