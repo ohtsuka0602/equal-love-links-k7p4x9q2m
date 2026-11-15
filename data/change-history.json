@@ -1,53 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-11-15T14:46:19.412Z",
-    "updatedAt": "2026-11-15T09:54:31.619Z",
+    "checkedAt": "2026-11-15T19:45:26.336Z",
+    "updatedAt": "2026-11-15T19:45:26.336Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/12307": {
-        "hash": "4f4ec1a12d69ccbcd7b9733eb4ee59f0bc38386a8a571a4fff62bcf013e9f34b",
-        "item": {
-          "title": "FM NACK5『＝LOVE大場花菜...",
-          "date": "2026-11-15",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12307",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11593": {
-        "hash": "9f3a37c852e01ede3bbfc59d6ee2d4f507dc8e174deab9bc1f3c60923fa626b1",
-        "item": {
-          "title": "握手会 ＝LOVE 21stシングル発売記念...",
-          "date": "2026-11-15",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11593",
-          "category": ""
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12371": {
-        "hash": "9e278126f53c021b4211c5a5e6de45e8f54a1db22be8f3775f5bfac4e1575241",
-        "item": {
-          "title": "MTV・TELASA「MTV VMA...",
-          "date": "2026-11-15",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12371",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11189": {
-        "hash": "ed7edaec8139b913094f5db00e7238e58149de0e7003390a19efc9ea10b2c19f",
-        "item": {
-          "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
-          "date": "2026-11-15",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11189",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/10451": {
         "hash": "6e6d2208d1db757fc3fd0b083eb2387e565e45249e475848f7276e18efb29972",
         "item": {
@@ -106,6 +66,46 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12289",
           "category": ""
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11594": {
+        "hash": "614eaed97945a08705b0508b27f52ce8927c6060a5a20801e7cbeb78a473e5a2",
+        "item": {
+          "title": "握手会 ＝LOVE 21stシングル発売記念...",
+          "date": "2026-11-22",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11594",
+          "category": ""
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10452": {
+        "hash": "25173be3b548b0a0bd19b04736db76cc44110e6e99e31c90f13793b9388e92b4",
+        "item": {
+          "title": "ニッポン放送「＝LOVEのイコラフ」",
+          "date": "2026-11-23",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10452",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12290": {
+        "hash": "c66aa7d8ed7976c39137b60c0e318f9957c68e221a9424a89af8278c6b0c7d47",
+        "item": {
+          "title": "握手会 ＝LOVE映像商品 『＝LOVE S...",
+          "date": "2026-11-24",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12290",
+          "category": ""
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12384": {
+        "hash": "51f92d859d73637168b36d4e140c07b98b91ed832042b2d7b02452608a44cf4b",
+        "item": {
+          "title": "フジテレビ系「めざましテレビ」※髙松...",
+          "date": "2026-11-24",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12384",
+          "category": "メディア"
         }
       }
     },
@@ -505,6 +505,30 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12290:c66aa7d8ed79",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-15T19:45:26.336Z",
+      "title": "握手会 ＝LOVE映像商品 『＝LOVE S...",
+      "url": "https://equal-love.jp/schedule/detail/12290",
+      "date": "2026-11-24",
+      "category": "",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12384:51f92d859d73",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-15T19:45:26.336Z",
+      "title": "フジテレビ系「めざましテレビ」※髙松...",
+      "url": "https://equal-love.jp/schedule/detail/12384",
+      "date": "2026-11-24",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12411:0bb83c563f43",
       "type": "news",
@@ -1687,30 +1711,6 @@
       "title": "【掲載情報】小学館「CanCam 12月号」※大谷映美里、髙松瞳",
       "url": "https://sp.equal-love.jp/news/detail/12233",
       "date": "2026-10-21",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/12234:509303893a51",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-21T02:43:54.320Z",
-      "title": "小学館「CanCam 12月号」※大...",
-      "url": "https://equal-love.jp/schedule/detail/12234",
-      "date": "2026-10-23",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12284:3edd21999430",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-20T08:45:27.672Z",
-      "title": "【掲載情報】KADOKAWA「LoveLive!Days 2026年12月号増刊 LoveLive! Series 15th Anniversary SPECIAL」※齋藤樹愛羅",
-      "url": "https://sp.equal-love.jp/news/detail/12284",
-      "date": "2026-10-20",
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""

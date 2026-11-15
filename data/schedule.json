@@ -1,37 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-11-15T14:44:28.492Z",
-    "updatedAt": "2026-11-15T02:44:11.550Z"
+    "checkedAt": "2026-11-15T19:45:26.145Z",
+    "updatedAt": "2026-11-15T19:45:26.145Z"
   },
   "schedule": [
-    {
-      "title": "FM NACK5『＝LOVE大場花菜...",
-      "date": "2026-11-15",
-      "url": "https://equal-love.jp/schedule/detail/12307",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "握手会 ＝LOVE 21stシングル発売記念...",
-      "date": "2026-11-15",
-      "url": "https://equal-love.jp/schedule/detail/11593",
-      "category": "",
-      "time": ""
-    },
-    {
-      "title": "MTV・TELASA「MTV VMA...",
-      "date": "2026-11-15",
-      "url": "https://equal-love.jp/schedule/detail/12371",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
-      "date": "2026-11-15",
-      "url": "https://equal-love.jp/schedule/detail/11189",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "ニッポン放送「＝LOVEのイコラフ」",
       "date": "2026-11-16",
@@ -72,6 +44,34 @@
       "date": "2026-11-21",
       "url": "https://equal-love.jp/schedule/detail/12289",
       "category": "",
+      "time": ""
+    },
+    {
+      "title": "握手会 ＝LOVE 21stシングル発売記念...",
+      "date": "2026-11-22",
+      "url": "https://equal-love.jp/schedule/detail/11594",
+      "category": "",
+      "time": ""
+    },
+    {
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "date": "2026-11-23",
+      "url": "https://equal-love.jp/schedule/detail/10452",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "握手会 ＝LOVE映像商品 『＝LOVE S...",
+      "date": "2026-11-24",
+      "url": "https://equal-love.jp/schedule/detail/12290",
+      "category": "",
+      "time": ""
+    },
+    {
+      "title": "フジテレビ系「めざましテレビ」※髙松...",
+      "date": "2026-11-24",
+      "url": "https://equal-love.jp/schedule/detail/12384",
+      "category": "メディア",
       "time": ""
     }
   ]
