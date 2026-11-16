@@ -1,33 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-11-16T14:46:11.957Z",
-    "updatedAt": "2026-11-16T02:46:13.267Z",
+    "checkedAt": "2026-11-16T20:44:53.229Z",
+    "updatedAt": "2026-11-16T20:44:53.229Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/10451": {
-        "hash": "6e6d2208d1db757fc3fd0b083eb2387e565e45249e475848f7276e18efb29972",
-        "item": {
-          "title": "ニッポン放送「＝LOVEのイコラフ」",
-          "date": "2026-11-16",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10451",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12256": {
-        "hash": "f94e96b80a08d0dfdff654e138ebe6bcedc0f022d4b26983cf544195a432dba7",
-        "item": {
-          "title": "双葉社「EX大衆12月号」※大場花菜",
-          "date": "2026-11-16",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12256",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/12288": {
         "hash": "8322526b3d5c325373026fe53ccd1c3e97d267e5b3b6952da996db349f1b753f",
         "item": {
@@ -106,6 +86,26 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12290",
           "category": ""
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12384": {
+        "hash": "51f92d859d73637168b36d4e140c07b98b91ed832042b2d7b02452608a44cf4b",
+        "item": {
+          "title": "フジテレビ系「めざましテレビ」※髙松...",
+          "date": "2026-11-24",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12384",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11852": {
+        "hash": "8a75528d1241356f5503f86e25ff4b7f35401ea363acb9858177b0d06b6db444",
+        "item": {
+          "title": "「GIFT 〜Girls Idol ...",
+          "date": "2026-11-27",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11852",
+          "category": "ライブ/イベント"
         }
       }
     },
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11852:8a75528d1241",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-16T20:44:53.229Z",
+      "title": "「GIFT 〜Girls Idol ...",
+      "url": "https://equal-love.jp/schedule/detail/11852",
+      "date": "2026-11-27",
+      "category": "ライブ/イベント",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12256:f94e96b80a08",
       "type": "schedule",
@@ -1700,18 +1712,6 @@
       "url": "https://sp.equal-love.jp/news/detail/12291",
       "date": "2026-10-21",
       "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12287:7ffae4d8e181",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-21T08:44:19.006Z",
-      "title": "握手会2026.10.21New! ＝LOVE映像商品 『＝LOVE STADIUM LIVE「Beyond \"KYUN\"♡」』 発売記念オンライン個別サイン会 開催決定！",
-      "url": "https://sp.equal-love.jp/news/detail/12287",
-      "date": "2026-10-21",
-      "category": "",
       "memberNames": [],
       "sourceName": ""
     }
