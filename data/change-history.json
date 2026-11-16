@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-16T02:45:07.399Z",
-    "updatedAt": "2026-11-15T19:45:26.336Z",
+    "checkedAt": "2026-11-16T02:46:13.267Z",
+    "updatedAt": "2026-11-16T02:46:13.267Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -15,6 +15,16 @@
           "date": "2026-11-16",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10451",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12256": {
+        "hash": "f94e96b80a08d0dfdff654e138ebe6bcedc0f022d4b26983cf544195a432dba7",
+        "item": {
+          "title": "双葉社「EX大衆12月号」※大場花菜",
+          "date": "2026-11-16",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12256",
           "category": "メディア"
         }
       },
@@ -96,16 +106,6 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12290",
           "category": ""
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12384": {
-        "hash": "51f92d859d73637168b36d4e140c07b98b91ed832042b2d7b02452608a44cf4b",
-        "item": {
-          "title": "フジテレビ系「めざましテレビ」※髙松...",
-          "date": "2026-11-24",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12384",
-          "category": "メディア"
         }
       }
     },
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12256:f94e96b80a08",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-16T02:46:13.267Z",
+      "title": "双葉社「EX大衆12月号」※大場花菜",
+      "url": "https://equal-love.jp/schedule/detail/12256",
+      "date": "2026-11-16",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12290:c66aa7d8ed79",
       "type": "schedule",
@@ -1700,18 +1712,6 @@
       "url": "https://sp.equal-love.jp/news/detail/12287",
       "date": "2026-10-21",
       "category": "",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12233:f42565643838",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-21T02:45:24.605Z",
-      "title": "【掲載情報】小学館「CanCam 12月号」※大谷映美里、髙松瞳",
-      "url": "https://sp.equal-love.jp/news/detail/12233",
-      "date": "2026-10-21",
-      "category": "メディア",
       "memberNames": [],
       "sourceName": ""
     }
