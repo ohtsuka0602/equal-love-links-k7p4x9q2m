@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-17T02:44:04.961Z",
-    "updatedAt": "2026-11-17T02:44:04.961Z",
+    "checkedAt": "2026-11-17T02:45:54.348Z",
+    "updatedAt": "2026-11-17T02:45:54.348Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12406": {
+        "hash": "3977439e0d8a258a5384afff6ccd04e91000b8a64494b1d525cca85e6ba9d3e7",
+        "item": {
+          "title": "【掲載情報】サンケイスポーツ「BAY☆スタ」第43号※瀧脇笙古",
+          "date": "2026-11-17",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12406",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12411": {
         "hash": "0bb83c563f433ffd952daad5b237917192250e6d195fe0faff5bcc2c07ce7db2",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12164",
           "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12396": {
-        "hash": "6f3920eae8a70fa18b0df2253c6d9ce67e0b6457e9b1b95e59e85f239e33c292",
-        "item": {
-          "title": "外部メール配信サービスへの不正アクセスによるメールアドレス漏えいに関するお詫びとお知らせ",
-          "date": "2026-11-07",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12396",
-          "category": "お知らせ"
         }
       }
     },
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12406:3977439e0d8a",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-17T02:45:54.348Z",
+      "title": "【掲載情報】サンケイスポーツ「BAY☆スタ」第43号※瀧脇笙古",
+      "url": "https://sp.equal-love.jp/news/detail/12406",
+      "date": "2026-11-17",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12407:7f125da030f1",
       "type": "schedule",
@@ -1700,18 +1712,6 @@
       "url": "https://sp.equal-love.jp/news/detail/12294",
       "date": "2026-10-22",
       "category": "お知らせ",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12279:55fa3a41385f",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-22T07:58:29.151Z",
-      "title": "【出演情報】YouTube「マヂラブ・野口衣織のマヂでラブになるTV」#3※野口衣織",
-      "url": "https://sp.equal-love.jp/news/detail/12279",
-      "date": "2026-10-21",
-      "category": "メディア",
       "memberNames": [],
       "sourceName": ""
     }

@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-11-16T23:31:24.105Z",
-    "updatedAt": "2026-11-15T09:54:31.433Z"
+    "checkedAt": "2026-11-17T02:45:54.214Z",
+    "updatedAt": "2026-11-17T02:45:54.214Z"
   },
   "news": [
+    {
+      "title": "【掲載情報】サンケイスポーツ「BAY☆スタ」第43号※瀧脇笙古",
+      "date": "2026-11-17",
+      "url": "https://sp.equal-love.jp/news/detail/12406",
+      "category": "メディア"
+    },
     {
       "title": "生写真セット(「恋、はじめました。」MV衣装②)発売！",
       "date": "2026-11-15",
@@ -57,12 +63,6 @@
       "date": "2026-11-07",
       "url": "https://sp.equal-love.jp/news/detail/12164",
       "category": "メディア"
-    },
-    {
-      "title": "外部メール配信サービスへの不正アクセスによるメールアドレス漏えいに関するお詫びとお知らせ",
-      "date": "2026-11-07",
-      "url": "https://sp.equal-love.jp/news/detail/12396",
-      "category": "お知らせ"
     }
   ]
 }
