@@ -1,16 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-11-17T14:44:24.518Z",
-    "updatedAt": "2026-11-17T02:44:04.831Z"
+    "checkedAt": "2026-11-17T20:46:05.808Z",
+    "updatedAt": "2026-11-17T20:46:05.808Z"
   },
   "schedule": [
-    {
-      "title": "握手会 ＝LOVE映像商品 『＝LOVE S...",
-      "date": "2026-11-17",
-      "url": "https://equal-love.jp/schedule/detail/12288",
-      "category": "",
-      "time": ""
-    },
     {
       "title": "サンケイスポーツ「BAY☆スタ」第4...",
       "date": "2026-11-18",
@@ -71,6 +64,13 @@
       "title": "フジテレビ系「めざましテレビ」※髙松...",
       "date": "2026-11-24",
       "url": "https://equal-love.jp/schedule/detail/12384",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "Artistspoken「イマフレラ...",
+      "date": "2026-11-27",
+      "url": "https://equal-love.jp/schedule/detail/10748",
       "category": "メディア",
       "time": ""
     }

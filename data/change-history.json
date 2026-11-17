@@ -1,23 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-11-17T20:45:21.502Z",
-    "updatedAt": "2026-11-17T02:45:54.348Z",
+    "checkedAt": "2026-11-17T20:46:05.962Z",
+    "updatedAt": "2026-11-17T20:46:05.962Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/12288": {
-        "hash": "8322526b3d5c325373026fe53ccd1c3e97d267e5b3b6952da996db349f1b753f",
-        "item": {
-          "title": "握手会 ＝LOVE映像商品 『＝LOVE S...",
-          "date": "2026-11-17",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12288",
-          "category": ""
-        }
-      },
       "https://equal-love.jp/schedule/detail/12407": {
         "hash": "7f125da030f1528cc35645728c1a8690221e25ce18b57e1c321dfe23bdfa761e",
         "item": {
@@ -105,6 +95,16 @@
           "date": "2026-11-24",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12384",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10748": {
+        "hash": "357dbab7b5b4ae1cc42810acc0e6850f826e7a67d86ac438e452f768adc28774",
+        "item": {
+          "title": "Artistspoken「イマフレラ...",
+          "date": "2026-11-27",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10748",
           "category": "メディア"
         }
       }
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10748:357dbab7b5b4",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-17T20:46:05.962Z",
+      "title": "Artistspoken「イマフレラ...",
+      "url": "https://equal-love.jp/schedule/detail/10748",
+      "date": "2026-11-27",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12406:3977439e0d8a",
       "type": "news",
@@ -1700,18 +1712,6 @@
       "url": "https://equal-love.jp/schedule/detail/12280",
       "date": "2026-10-26",
       "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12294:1dc371ad16fc",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-22T07:58:29.151Z",
-      "title": "【重要】緊急メンテナンス終了およびサービス再開のお知らせ",
-      "url": "https://sp.equal-love.jp/news/detail/12294",
-      "date": "2026-10-22",
-      "category": "お知らせ",
       "memberNames": [],
       "sourceName": ""
     }
