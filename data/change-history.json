@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-16T23:31:24.236Z",
-    "updatedAt": "2026-11-16T20:44:53.229Z",
+    "checkedAt": "2026-11-17T02:44:04.961Z",
+    "updatedAt": "2026-11-17T02:44:04.961Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -16,6 +16,16 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12288",
           "category": ""
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12407": {
+        "hash": "7f125da030f1528cc35645728c1a8690221e25ce18b57e1c321dfe23bdfa761e",
+        "item": {
+          "title": "サンケイスポーツ「BAY☆スタ」第4...",
+          "date": "2026-11-18",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12407",
+          "category": "メディア"
         }
       },
       "https://equal-love.jp/schedule/detail/12170": {
@@ -96,16 +106,6 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12384",
           "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11852": {
-        "hash": "8a75528d1241356f5503f86e25ff4b7f35401ea363acb9858177b0d06b6db444",
-        "item": {
-          "title": "「GIFT 〜Girls Idol ...",
-          "date": "2026-11-27",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11852",
-          "category": "ライブ/イベント"
         }
       }
     },
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12407:7f125da030f1",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-17T02:44:04.961Z",
+      "title": "サンケイスポーツ「BAY☆スタ」第4...",
+      "url": "https://equal-love.jp/schedule/detail/12407",
+      "date": "2026-11-18",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11852:8a75528d1241",
       "type": "schedule",
@@ -1698,18 +1710,6 @@
       "occurredAt": "2026-10-22T07:58:29.151Z",
       "title": "【出演情報】YouTube「マヂラブ・野口衣織のマヂでラブになるTV」#3※野口衣織",
       "url": "https://sp.equal-love.jp/news/detail/12279",
-      "date": "2026-10-21",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12291:25859a433dfe",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-22T07:58:29.151Z",
-      "title": "大場花菜がパーソナリティーを務める新番組『＝LOVE大場花菜の「はなまる！」』がFM NACK5でスタート！",
-      "url": "https://sp.equal-love.jp/news/detail/12291",
       "date": "2026-10-21",
       "category": "メディア",
       "memberNames": [],

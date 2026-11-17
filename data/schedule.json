@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-16T23:23:20.625Z",
-    "updatedAt": "2026-11-16T20:44:53.101Z"
+    "checkedAt": "2026-11-17T02:44:04.831Z",
+    "updatedAt": "2026-11-17T02:44:04.831Z"
   },
   "schedule": [
     {
@@ -9,6 +9,13 @@
       "date": "2026-11-17",
       "url": "https://equal-love.jp/schedule/detail/12288",
       "category": "",
+      "time": ""
+    },
+    {
+      "title": "サンケイスポーツ「BAY☆スタ」第4...",
+      "date": "2026-11-18",
+      "url": "https://equal-love.jp/schedule/detail/12407",
+      "category": "メディア",
       "time": ""
     },
     {
@@ -65,13 +72,6 @@
       "date": "2026-11-24",
       "url": "https://equal-love.jp/schedule/detail/12384",
       "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "「GIFT 〜Girls Idol ...",
-      "date": "2026-11-27",
-      "url": "https://equal-love.jp/schedule/detail/11852",
-      "category": "ライブ/イベント",
       "time": ""
     }
   ]
