@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-18T10:48:43.077Z",
-    "updatedAt": "2026-11-18T08:44:41.291Z",
+    "checkedAt": "2026-11-18T14:45:33.097Z",
+    "updatedAt": "2026-11-18T14:45:33.097Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12412": {
+        "hash": "b16ff803c5ac8445a82ba5ca9f17e1b27942a73880a7f66bfccae013894e6c1a",
+        "item": {
+          "title": "【出演情報】日本テレビ系「千鳥かまいたちゴールデンアワー」※大谷映美里、齋藤樹愛羅、髙松瞳、諸橋沙夏",
+          "date": "2026-11-18",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12412",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12406": {
         "hash": "3977439e0d8a258a5384afff6ccd04e91000b8a64494b1d525cca85e6ba9d3e7",
         "item": {
@@ -197,16 +207,6 @@
           "date": "2026-11-08",
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12394",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12164": {
-        "hash": "ccb88b052bbce9ab825731ec65e08da76e1e09b705c75390ab6fa516c70b6734",
-        "item": {
-          "title": "【出演情報】日本テレビ「サクサクヒムヒム☆推しの降る夜☆」※大谷映美里、齋藤樹愛羅、佐々木舞香、野口衣織",
-          "date": "2026-11-07",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12164",
           "category": "メディア"
         }
       }
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12412:b16ff803c5ac",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-18T14:45:33.097Z",
+      "title": "【出演情報】日本テレビ系「千鳥かまいたちゴールデンアワー」※大谷映美里、齋藤樹愛羅、髙松瞳、諸橋沙夏",
+      "url": "https://sp.equal-love.jp/news/detail/12412",
+      "date": "2026-11-18",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12468:c88f1a53bf9a",
       "type": "schedule",
@@ -1700,18 +1712,6 @@
       "url": "https://sp.equal-love.jp/news/detail/12293",
       "date": "2026-10-22",
       "category": "グッズ",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11454:3f07a8b8d476",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-22T08:43:45.839Z",
-      "title": "フジテレビ ONE「プロ野球ニュース...",
-      "url": "https://equal-love.jp/schedule/detail/11454",
-      "date": "2026-10-22",
-      "category": "メディア",
       "memberNames": [],
       "sourceName": ""
     }
