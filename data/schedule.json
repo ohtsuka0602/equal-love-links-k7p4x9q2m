@@ -1,23 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-11-18T14:46:20.609Z",
-    "updatedAt": "2026-11-18T08:44:41.092Z"
+    "checkedAt": "2026-11-18T20:46:08.520Z",
+    "updatedAt": "2026-11-18T20:46:08.520Z"
   },
   "schedule": [
-    {
-      "title": "BS-TBS「ねこ自慢」※髙松瞳",
-      "date": "2026-11-18",
-      "url": "https://equal-love.jp/schedule/detail/12170",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "サンケイスポーツ「BAY☆スタ」第4...",
-      "date": "2026-11-18",
-      "url": "https://equal-love.jp/schedule/detail/12407",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "フジテレビ系「めざましテレビ」※髙松...",
       "date": "2026-11-19",
@@ -72,6 +58,20 @@
       "date": "2026-11-24",
       "url": "https://equal-love.jp/schedule/detail/12384",
       "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "日本テレビ系「千鳥かまいたちゴールデ...",
+      "date": "2026-11-25",
+      "url": "https://equal-love.jp/schedule/detail/12413",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "「GIFT 〜Girls Idol ...",
+      "date": "2026-11-27",
+      "url": "https://equal-love.jp/schedule/detail/11852",
+      "category": "ライブ/イベント",
       "time": ""
     }
   ]

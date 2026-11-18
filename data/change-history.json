@@ -1,33 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-11-18T20:45:31.260Z",
-    "updatedAt": "2026-11-18T14:45:33.097Z",
+    "checkedAt": "2026-11-18T20:46:08.647Z",
+    "updatedAt": "2026-11-18T20:46:08.647Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/12170": {
-        "hash": "a0206b0c7fb9a3f995f35101244675c6ecbb44c76138a7ff10bf067eeaa430b0",
-        "item": {
-          "title": "BS-TBS「ねこ自慢」※髙松瞳",
-          "date": "2026-11-18",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12170",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12407": {
-        "hash": "7f125da030f1528cc35645728c1a8690221e25ce18b57e1c321dfe23bdfa761e",
-        "item": {
-          "title": "サンケイスポーツ「BAY☆スタ」第4...",
-          "date": "2026-11-18",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12407",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/12383": {
         "hash": "d4cb532f70e76b8ae151362d4f76ecc9e6909a1e6da310a1d9f302fd12b61b03",
         "item": {
@@ -106,6 +86,26 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12384",
           "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12413": {
+        "hash": "f8fc2e4e6cb3fe26dee140ecbc611c54ab8145d090e94df5a23381bb406e262c",
+        "item": {
+          "title": "日本テレビ系「千鳥かまいたちゴールデ...",
+          "date": "2026-11-25",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12413",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11852": {
+        "hash": "8a75528d1241356f5503f86e25ff4b7f35401ea363acb9858177b0d06b6db444",
+        "item": {
+          "title": "「GIFT 〜Girls Idol ...",
+          "date": "2026-11-27",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11852",
+          "category": "ライブ/イベント"
         }
       }
     },
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12413:f8fc2e4e6cb3",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-18T20:46:08.647Z",
+      "title": "日本テレビ系「千鳥かまいたちゴールデ...",
+      "url": "https://equal-love.jp/schedule/detail/12413",
+      "date": "2026-11-25",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12412:b16ff803c5ac",
       "type": "news",
@@ -1700,18 +1712,6 @@
       "url": "https://sp.equal-love.jp/news/detail/12294",
       "date": "2026-10-22",
       "category": "お知らせ",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12293:5175ae637b7d",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-22T14:18:21.073Z",
-      "title": "生写真セット(「恋、はじめました。」MV衣装)発売！",
-      "url": "https://sp.equal-love.jp/news/detail/12293",
-      "date": "2026-10-22",
-      "category": "グッズ",
       "memberNames": [],
       "sourceName": ""
     }
