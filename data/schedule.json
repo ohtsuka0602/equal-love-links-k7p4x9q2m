@@ -1,20 +1,20 @@
 {
   "meta": {
-    "checkedAt": "2026-11-18T02:43:52.410Z",
-    "updatedAt": "2026-11-17T20:46:05.808Z"
+    "checkedAt": "2026-11-18T08:44:41.092Z",
+    "updatedAt": "2026-11-18T08:44:41.092Z"
   },
   "schedule": [
-    {
-      "title": "サンケイスポーツ「BAY☆スタ」第4...",
-      "date": "2026-11-18",
-      "url": "https://equal-love.jp/schedule/detail/12407",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "BS-TBS「ねこ自慢」※髙松瞳",
       "date": "2026-11-18",
       "url": "https://equal-love.jp/schedule/detail/12170",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "サンケイスポーツ「BAY☆スタ」第4...",
+      "date": "2026-11-18",
+      "url": "https://equal-love.jp/schedule/detail/12407",
       "category": "メディア",
       "time": ""
     },
@@ -29,6 +29,13 @@
       "title": "Artistspoken「イマフレラ...",
       "date": "2026-11-20",
       "url": "https://equal-love.jp/schedule/detail/10747",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "TELASAオリジナル「アイ=ラブ！...",
+      "date": "2026-11-21",
+      "url": "https://equal-love.jp/schedule/detail/12468",
       "category": "メディア",
       "time": ""
     },
@@ -64,13 +71,6 @@
       "title": "フジテレビ系「めざましテレビ」※髙松...",
       "date": "2026-11-24",
       "url": "https://equal-love.jp/schedule/detail/12384",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "Artistspoken「イマフレラ...",
-      "date": "2026-11-27",
-      "url": "https://equal-love.jp/schedule/detail/10748",
       "category": "メディア",
       "time": ""
     }
