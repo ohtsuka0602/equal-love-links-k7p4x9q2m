@@ -1,6 +1,6 @@
 {
   "meta": {
-    "checkedAt": "2026-11-19T14:46:04.869Z",
+    "checkedAt": "2026-11-19T20:44:25.570Z",
     "updatedAt": "2026-11-18T20:46:08.647Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
@@ -8,16 +8,6 @@
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/12383": {
-        "hash": "d4cb532f70e76b8ae151362d4f76ecc9e6909a1e6da310a1d9f302fd12b61b03",
-        "item": {
-          "title": "フジテレビ系「めざましテレビ」※髙松...",
-          "date": "2026-11-19",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12383",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/10747": {
         "hash": "0e9cb89a13a9b2760f8d39bdb386a52a26817a602f8a205776873a1916a15424",
         "item": {
@@ -106,6 +96,16 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/11852",
           "category": "ライブ/イベント"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10748": {
+        "hash": "357dbab7b5b4ae1cc42810acc0e6850f826e7a67d86ac438e452f768adc28774",
+        "item": {
+          "title": "Artistspoken「イマフレラ...",
+          "date": "2026-11-27",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10748",
+          "category": "メディア"
         }
       }
     },
