@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-20T10:28:44.959Z",
-    "updatedAt": "2026-11-20T10:28:44.959Z",
+    "checkedAt": "2026-11-20T14:45:02.430Z",
+    "updatedAt": "2026-11-20T14:45:02.430Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12476": {
+        "hash": "9b7a9cc7da36f492866cf0a22ca5f33d5597975214e410b051e2f6cc32e10533",
+        "item": {
+          "title": "【出演情報】テレビ朝日系「ミュージックステーション」※＝LOVE",
+          "date": "2026-11-20",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12476",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12480": {
         "hash": "ad6114b7e4ecd86f3909fbd93366becec46088fd272e8317dab5b1ef8cc14e14",
         "item": {
@@ -199,19 +209,41 @@
           "url": "https://sp.equal-love.jp/news/detail/12405",
           "category": "グッズ"
         }
-      },
-      "https://sp.equal-love.jp/news/detail/12408": {
-        "hash": "d4c7588287af045fd30224eb241ef26380e1672c9e229105b09872f8e8351645",
-        "item": {
-          "title": "【出演情報】NHK「第77回NHK紅白歌合戦」に＝LOVEが初出場決定！！",
-          "date": "2026-11-13",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12408",
-          "category": "メディア"
-        }
       }
     },
     "youtube": {
+      "yme2aPIPDDU": {
+        "hash": "070912905b3a9e900353d5f707427e6957bd1986fc82361a60b9e35da63776cf",
+        "item": {
+          "videoId": "yme2aPIPDDU",
+          "title": "加藤浩次さんの「ツケでいいよ」を信じて本当に食べに行ってみた",
+          "url": "https://www.youtube.com/watch?v=yme2aPIPDDU",
+          "thumbnail": "https://i.ytimg.com/vi/yme2aPIPDDU/maxresdefault.jpg",
+          "publishedAt": "2026-11-20T12:00:21Z",
+          "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
+          "channelName": "みりにゃと申します。",
+          "sourceName": "大谷 映美里",
+          "memberNames": [
+            "大谷 映美里"
+          ]
+        }
+      },
+      "brcLoedahv8": {
+        "hash": "fa50e4cd3cc59d3aed68ecd862aa3bb9058b28fe7c5de0e3d5bd516ab2a796aa",
+        "item": {
+          "videoId": "brcLoedahv8",
+          "title": "たぶん様子がおかしくないお仕事の1日",
+          "url": "https://www.youtube.com/watch?v=brcLoedahv8",
+          "thumbnail": "https://i.ytimg.com/vi/brcLoedahv8/maxresdefault.jpg",
+          "publishedAt": "2026-11-20T11:00:38Z",
+          "channelId": "UCcsyyry5bsjTeqqJ_Yz9TiA",
+          "channelName": "音嶋莉沙の様子がおかしいチャンネル",
+          "sourceName": "音嶋 莉沙",
+          "memberNames": [
+            "音嶋 莉沙"
+          ]
+        }
+      },
       "1riE18NmNgw": {
         "hash": "4b6743e8547ac5a2024c8405718dc8c9fadeaea5f075cf726a82b2f591c3f459",
         "item": {
@@ -252,36 +284,6 @@
           "url": "https://www.youtube.com/watch?v=-F-CmPDKHbI",
           "thumbnail": "https://i.ytimg.com/vi/-F-CmPDKHbI/maxresdefault.jpg",
           "publishedAt": "2026-11-09T12:00:21Z",
-          "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
-          "channelName": "みりにゃと申します。",
-          "sourceName": "大谷 映美里",
-          "memberNames": [
-            "大谷 映美里"
-          ]
-        }
-      },
-      "rzJCv_6Dy-Q": {
-        "hash": "acb839dbeb1557d02722d6c6188d4416859c0e76318c7dcf61c64dd2a0d41ed5",
-        "item": {
-          "videoId": "rzJCv_6Dy-Q",
-          "title": "＝LOVE（イコールラブ）/ 21st Single『恋、はじめました。』2026.10.19 TBS系 CDTVライブ！ライブ！【期間限定公開】",
-          "url": "https://www.youtube.com/watch?v=rzJCv_6Dy-Q",
-          "thumbnail": "https://i.ytimg.com/vi/rzJCv_6Dy-Q/maxresdefault.jpg",
-          "publishedAt": "2026-11-02T13:00:27Z",
-          "channelId": "UCv7VutirxDn3RWIJXI68n_A",
-          "channelName": "＝LOVE（イコールラブ）公式チャンネル",
-          "sourceName": "=LOVE オフィシャル",
-          "memberNames": []
-        }
-      },
-      "ZnQmGtIaQFM": {
-        "hash": "e11f83488bd42cb266d2bad6f5fe55608e70bbb4054633850ce7462a5dd4d950",
-        "item": {
-          "videoId": "ZnQmGtIaQFM",
-          "title": "北海道で食い倒れたみりにゃ",
-          "url": "https://www.youtube.com/watch?v=ZnQmGtIaQFM",
-          "thumbnail": "https://i.ytimg.com/vi/ZnQmGtIaQFM/maxresdefault.jpg",
-          "publishedAt": "2026-10-31T12:00:24Z",
           "channelId": "UCGxaJ2y2Le9jST3Me2aMPrw",
           "channelName": "みりにゃと申します。",
           "sourceName": "大谷 映美里",
@@ -505,6 +507,46 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12476:9b7a9cc7da36",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-20T14:45:02.430Z",
+      "title": "【出演情報】テレビ朝日系「ミュージックステーション」※＝LOVE",
+      "url": "https://sp.equal-love.jp/news/detail/12476",
+      "date": "2026-11-20",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "youtube:added:yme2aPIPDDU:070912905b3a",
+      "type": "youtube",
+      "action": "added",
+      "occurredAt": "2026-11-20T14:45:02.430Z",
+      "title": "加藤浩次さんの「ツケでいいよ」を信じて本当に食べに行ってみた",
+      "url": "https://www.youtube.com/watch?v=yme2aPIPDDU",
+      "date": "2026-11-20T12:00:21Z",
+      "category": "",
+      "memberNames": [
+        "大谷 映美里"
+      ],
+      "sourceName": "大谷 映美里"
+    },
+    {
+      "id": "youtube:added:brcLoedahv8:fa50e4cd3cc5",
+      "type": "youtube",
+      "action": "added",
+      "occurredAt": "2026-11-20T14:45:02.430Z",
+      "title": "たぶん様子がおかしくないお仕事の1日",
+      "url": "https://www.youtube.com/watch?v=brcLoedahv8",
+      "date": "2026-11-20T11:00:38Z",
+      "category": "",
+      "memberNames": [
+        "音嶋 莉沙"
+      ],
+      "sourceName": "音嶋 莉沙"
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12480:ad6114b7e4ec",
       "type": "news",
@@ -1675,42 +1717,6 @@
       "title": "【出演情報】FM NACK5「カメレオンパーティー」※大場花菜",
       "url": "https://sp.equal-love.jp/news/detail/12304",
       "date": "2026-10-25",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12302:c3dd2212f51a",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-25T07:49:05.959Z",
-      "title": "【出演情報】FM NACK5「Smile SUMMIT」※大場花菜",
-      "url": "https://sp.equal-love.jp/news/detail/12302",
-      "date": "2026-10-25",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11186:8c95a194b1cf",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-25T02:45:50.456Z",
-      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
-      "url": "https://equal-love.jp/schedule/detail/11186",
-      "date": "2026-10-25",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/12301:7264b2d86341",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-24T17:25:10.788Z",
-      "title": "『The NEW ERA Book ...",
-      "url": "https://equal-love.jp/schedule/detail/12301",
-      "date": "2026-10-30",
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""

@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-11-20T10:28:44.827Z",
-    "updatedAt": "2026-11-20T10:28:44.827Z"
+    "checkedAt": "2026-11-20T14:45:02.296Z",
+    "updatedAt": "2026-11-20T14:45:02.296Z"
   },
   "news": [
+    {
+      "title": "【出演情報】テレビ朝日系「ミュージックステーション」※＝LOVE",
+      "date": "2026-11-20",
+      "url": "https://sp.equal-love.jp/news/detail/12476",
+      "category": "メディア"
+    },
     {
       "title": "＝LOVE in TOKYO DOME「全ては＝LOVE」グッズ事前配送のお知らせ",
       "date": "2026-11-20",
@@ -57,12 +63,6 @@
       "date": "2026-11-14",
       "url": "https://sp.equal-love.jp/news/detail/12405",
       "category": "グッズ"
-    },
-    {
-      "title": "【出演情報】NHK「第77回NHK紅白歌合戦」に＝LOVEが初出場決定！！",
-      "date": "2026-11-13",
-      "url": "https://sp.equal-love.jp/news/detail/12408",
-      "category": "メディア"
     }
   ]
 }
