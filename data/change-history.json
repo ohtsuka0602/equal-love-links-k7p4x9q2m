@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-20T08:46:17.876Z",
-    "updatedAt": "2026-11-20T02:45:13.934Z",
+    "checkedAt": "2026-11-20T10:28:44.959Z",
+    "updatedAt": "2026-11-20T10:28:44.959Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,46 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12480": {
+        "hash": "ad6114b7e4ecd86f3909fbd93366becec46088fd272e8317dab5b1ef8cc14e14",
+        "item": {
+          "title": "＝LOVE in TOKYO DOME「全ては＝LOVE」グッズ事前配送のお知らせ",
+          "date": "2026-11-20",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12480",
+          "category": "グッズ"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/12479": {
+        "hash": "9cc7611fe4dbc192a3e94ad1fc532e7d0be8cbae9a31b4bdfc0a354324a76661",
+        "item": {
+          "title": "＝LOVE in TOKYO DOME「全ては＝LOVE」事前販売グッズのお知らせ",
+          "date": "2026-11-20",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12479",
+          "category": "グッズ"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/12475": {
+        "hash": "b5f92a41869741475d15164e26d6b142c6d0b99305af004db4411cbe49912fd1",
+        "item": {
+          "title": "日本テレビ系「ベストアーティスト 2026」番組観覧ご招待のお知らせ",
+          "date": "2026-11-20",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12475",
+          "category": "ライブ/イベント"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/12473": {
+        "hash": "9af9fb960076cee462386304bc39e02d2d0491316030eaed9f9e3b5201282262",
+        "item": {
+          "title": "＝LOVE DOME LIVE in NAGOYA「全ては＝LOVE」FC最速先行(会員＋会員)チケット受付開始のお知らせ",
+          "date": "2026-11-20",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12473",
+          "category": "ライブ/イベント"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12392": {
         "hash": "8c1ee187414c9dab563d6ad02c2898e8936ec813e3e9e4ef7dd3fea27652db73",
         "item": {
@@ -168,46 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12408",
           "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12169": {
-        "hash": "9c257938f313fb7cfa7e8ccef83421393f084b8fc4f7e4320661af33f7935838",
-        "item": {
-          "title": "【出演情報】BS-TBS「ねこ自慢」※髙松瞳",
-          "date": "2026-11-11",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12169",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12400": {
-        "hash": "b285435e0e58231283c0b9818731a0f85785ced3e1bfda13d7d22eabd29c3435",
-        "item": {
-          "title": "【出演情報】日本テレビ「ZIP!」 ※野口衣織、山本杏奈",
-          "date": "2026-11-10",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12400",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12397": {
-        "hash": "49eff4d99e4c0a8510c72f2c4836e9a563d70f20e3b9d4f91679c2ecff100459",
-        "item": {
-          "title": "【出演情報】AT-X「マヂラブ・野口衣織のマヂでラブになるTV」#5※野口衣織",
-          "date": "2026-11-10",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12397",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12399": {
-        "hash": "eb78f1990097a29cb268bc37fbd2a4bc8a85ad32dde30c65c2f1017274d2d306",
-        "item": {
-          "title": "＝LOVE in TOKYO DOME「全ては＝LOVE」三井ショッピングパーク チケット抽選販売受付開始のお知らせ",
-          "date": "2026-11-10",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12399",
-          "category": "ライブ/イベント"
         }
       }
     },
@@ -505,6 +505,54 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12480:ad6114b7e4ec",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-20T10:28:44.959Z",
+      "title": "＝LOVE in TOKYO DOME「全ては＝LOVE」グッズ事前配送のお知らせ",
+      "url": "https://sp.equal-love.jp/news/detail/12480",
+      "date": "2026-11-20",
+      "category": "グッズ",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12479:9cc7611fe4db",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-20T10:28:44.959Z",
+      "title": "＝LOVE in TOKYO DOME「全ては＝LOVE」事前販売グッズのお知らせ",
+      "url": "https://sp.equal-love.jp/news/detail/12479",
+      "date": "2026-11-20",
+      "category": "グッズ",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12475:b5f92a418697",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-20T10:28:44.959Z",
+      "title": "日本テレビ系「ベストアーティスト 2026」番組観覧ご招待のお知らせ",
+      "url": "https://sp.equal-love.jp/news/detail/12475",
+      "date": "2026-11-20",
+      "category": "ライブ/イベント",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12473:9af9fb960076",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-20T10:28:44.959Z",
+      "title": "＝LOVE DOME LIVE in NAGOYA「全ては＝LOVE」FC最速先行(会員＋会員)チケット受付開始のお知らせ",
+      "url": "https://sp.equal-love.jp/news/detail/12473",
+      "date": "2026-11-20",
+      "category": "ライブ/イベント",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12392:8c1ee187414c",
       "type": "news",
@@ -1663,54 +1711,6 @@
       "title": "『The NEW ERA Book ...",
       "url": "https://equal-love.jp/schedule/detail/12301",
       "date": "2026-10-30",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/12298:0a86a9900a6f",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-24T03:40:02.297Z",
-      "title": "日本テレビ「ヒルナンデス！」※大谷映...",
-      "url": "https://equal-love.jp/schedule/detail/12298",
-      "date": "2026-10-27",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12300:a0196500b9bd",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-24T03:39:19.659Z",
-      "title": "【掲載情報】『The NEW ERA Book Fall & Winter 2026』※諸橋沙夏",
-      "url": "https://sp.equal-love.jp/news/detail/12300",
-      "date": "2026-10-23",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12295:289c0089ccb9",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-24T03:39:19.659Z",
-      "title": "【出演情報】NHK Eテレ「沼にハマってきいてみた 【＝LOVE沼】」※＝LOVE",
-      "url": "https://sp.equal-love.jp/news/detail/12295",
-      "date": "2026-10-23",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12297:a1dcce7e5818",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-23T07:56:25.901Z",
-      "title": "【出演情報】日本テレビ「ヒルナンデス！」※大谷映美里",
-      "url": "https://sp.equal-love.jp/news/detail/12297",
-      "date": "2026-10-23",
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""
