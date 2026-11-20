@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-19T22:27:10.271Z",
-    "updatedAt": "2026-11-18T20:46:08.647Z",
+    "checkedAt": "2026-11-20T02:45:13.934Z",
+    "updatedAt": "2026-11-20T02:45:13.934Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12392": {
+        "hash": "8c1ee187414c9dab563d6ad02c2898e8936ec813e3e9e4ef7dd3fea27652db73",
+        "item": {
+          "title": "【掲載情報】小学館「美的 2027年2月号」※＝LOVE",
+          "date": "2026-11-20",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12392",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12412": {
         "hash": "b16ff803c5ac8445a82ba5ca9f17e1b27942a73880a7f66bfccae013894e6c1a",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12399",
           "category": "ライブ/イベント"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12394": {
-        "hash": "e69e0bcf634cce678c50aa3048785e35e108388b416e5a0edc8a8d2e6f1fe78d",
-        "item": {
-          "title": "【出演情報】日本テレビ系「ベストアーティスト 2026」※＝LOVE",
-          "date": "2026-11-08",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12394",
-          "category": "メディア"
         }
       }
     },
@@ -505,6 +505,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12392:8c1ee187414c",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-20T02:45:13.934Z",
+      "title": "【掲載情報】小学館「美的 2027年2月号」※＝LOVE",
+      "url": "https://sp.equal-love.jp/news/detail/12392",
+      "date": "2026-11-20",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12413:f8fc2e4e6cb3",
       "type": "schedule",
@@ -1700,18 +1712,6 @@
       "url": "https://sp.equal-love.jp/news/detail/12297",
       "date": "2026-10-23",
       "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:changed:https://sp.equal-love.jp/news/detail/12294:254537e1429c",
-      "type": "news",
-      "action": "changed",
-      "occurredAt": "2026-10-23T07:56:25.901Z",
-      "title": "【重要】緊急メンテナンス終了およびサービス再開のお知らせ（※10/23更新）",
-      "url": "https://sp.equal-love.jp/news/detail/12294",
-      "date": "2026-10-22",
-      "category": "お知らせ",
       "memberNames": [],
       "sourceName": ""
     }

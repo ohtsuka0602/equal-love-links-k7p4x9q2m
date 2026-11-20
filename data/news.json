@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-11-19T22:27:10.080Z",
-    "updatedAt": "2026-11-18T14:45:32.908Z"
+    "checkedAt": "2026-11-20T02:45:13.752Z",
+    "updatedAt": "2026-11-20T02:45:13.752Z"
   },
   "news": [
+    {
+      "title": "【掲載情報】小学館「美的 2027年2月号」※＝LOVE",
+      "date": "2026-11-20",
+      "url": "https://sp.equal-love.jp/news/detail/12392",
+      "category": "メディア"
+    },
     {
       "title": "【出演情報】日本テレビ系「千鳥かまいたちゴールデンアワー」※大谷映美里、齋藤樹愛羅、髙松瞳、諸橋沙夏",
       "date": "2026-11-18",
@@ -57,12 +63,6 @@
       "date": "2026-11-10",
       "url": "https://sp.equal-love.jp/news/detail/12399",
       "category": "ライブ/イベント"
-    },
-    {
-      "title": "【出演情報】日本テレビ系「ベストアーティスト 2026」※＝LOVE",
-      "date": "2026-11-08",
-      "url": "https://sp.equal-love.jp/news/detail/12394",
-      "category": "メディア"
     }
   ]
 }
