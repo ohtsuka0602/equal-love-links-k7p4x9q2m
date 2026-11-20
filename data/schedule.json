@@ -1,16 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-11-20T14:46:13.257Z",
-    "updatedAt": "2026-11-19T20:44:25.370Z"
+    "checkedAt": "2026-11-20T20:46:52.173Z",
+    "updatedAt": "2026-11-20T20:46:52.173Z"
   },
   "schedule": [
-    {
-      "title": "Artistspoken「イマフレラ...",
-      "date": "2026-11-20",
-      "url": "https://equal-love.jp/schedule/detail/10747",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "TELASAオリジナル「アイ=ラブ！...",
       "date": "2026-11-21",
@@ -71,6 +64,13 @@
       "title": "Artistspoken「イマフレラ...",
       "date": "2026-11-27",
       "url": "https://equal-love.jp/schedule/detail/10748",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "テレビ朝日系「ミュージックステーショ...",
+      "date": "2026-11-27",
+      "url": "https://equal-love.jp/schedule/detail/12477",
       "category": "メディア",
       "time": ""
     }

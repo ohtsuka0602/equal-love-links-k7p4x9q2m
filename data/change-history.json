@@ -1,23 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-11-20T20:45:29.982Z",
-    "updatedAt": "2026-11-20T14:45:02.430Z",
+    "checkedAt": "2026-11-20T20:46:52.308Z",
+    "updatedAt": "2026-11-20T20:46:52.308Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/10747": {
-        "hash": "0e9cb89a13a9b2760f8d39bdb386a52a26817a602f8a205776873a1916a15424",
-        "item": {
-          "title": "Artistspoken「イマフレラ...",
-          "date": "2026-11-20",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10747",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/12468": {
         "hash": "c88f1a53bf9ac84ba12f36b23d5bc37ae6527729fc903672b5f951771b239b1e",
         "item": {
@@ -105,6 +95,16 @@
           "date": "2026-11-27",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10748",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12477": {
+        "hash": "3949c8b6e617dcdf41472f0183963033af73877c8a5abadeefb18db2b76ec592",
+        "item": {
+          "title": "テレビ朝日系「ミュージックステーショ...",
+          "date": "2026-11-27",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12477",
           "category": "メディア"
         }
       }
@@ -507,6 +507,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12477:3949c8b6e617",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-20T20:46:52.308Z",
+      "title": "テレビ朝日系「ミュージックステーショ...",
+      "url": "https://equal-love.jp/schedule/detail/12477",
+      "date": "2026-11-27",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12476:9b7a9cc7da36",
       "type": "news",
@@ -1705,18 +1717,6 @@
       "title": "FM NACK5「Smile SUM...",
       "url": "https://equal-love.jp/schedule/detail/12303",
       "date": "2026-10-26",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12304:6944c705f753",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-25T07:49:05.959Z",
-      "title": "【出演情報】FM NACK5「カメレオンパーティー」※大場花菜",
-      "url": "https://sp.equal-love.jp/news/detail/12304",
-      "date": "2026-10-25",
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""
