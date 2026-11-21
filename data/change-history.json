@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-20T21:58:37.706Z",
-    "updatedAt": "2026-11-20T20:46:52.308Z",
+    "checkedAt": "2026-11-21T02:45:41.098Z",
+    "updatedAt": "2026-11-21T02:45:41.098Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12481": {
+        "hash": "869f4a870cd8a233f165a40da00fcb0b2c2a59d6f2b2deebe51ff4282b242a52",
+        "item": {
+          "title": "＝LOVE Official Fan Light 発売決定‼",
+          "date": "2026-11-21",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12481",
+          "category": "グッズ"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12476": {
         "hash": "9b7a9cc7da36f492866cf0a22ca5f33d5597975214e410b051e2f6cc32e10533",
         "item": {
@@ -197,16 +207,6 @@
           "date": "2026-11-15",
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12411",
-          "category": "グッズ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12405": {
-        "hash": "c66a7b83b726f342fe3e8a915640ee9b2baa0da08f4ab55ac0c7774573b479e7",
-        "item": {
-          "title": "＝LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～グッズ通販サイトでの販売のお知らせ",
-          "date": "2026-11-14",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12405",
           "category": "グッズ"
         }
       }
@@ -507,6 +507,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12481:869f4a870cd8",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-21T02:45:41.098Z",
+      "title": "＝LOVE Official Fan Light 発売決定‼",
+      "url": "https://sp.equal-love.jp/news/detail/12481",
+      "date": "2026-11-21",
+      "category": "グッズ",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12477:3949c8b6e617",
       "type": "schedule",
@@ -1705,18 +1717,6 @@
       "title": "NHK Eテレ「沼にハマってきいてみ...",
       "url": "https://equal-love.jp/schedule/detail/12296",
       "date": "2026-10-31",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/12303:39d33973da47",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-25T08:44:28.370Z",
-      "title": "FM NACK5「Smile SUM...",
-      "url": "https://equal-love.jp/schedule/detail/12303",
-      "date": "2026-10-26",
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""
