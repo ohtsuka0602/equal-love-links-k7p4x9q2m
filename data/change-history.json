@@ -1,23 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-11-21T08:45:34.403Z",
-    "updatedAt": "2026-11-21T08:45:34.403Z",
+    "checkedAt": "2026-11-21T08:46:19.650Z",
+    "updatedAt": "2026-11-21T08:46:19.650Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/12468": {
-        "hash": "c88f1a53bf9ac84ba12f36b23d5bc37ae6527729fc903672b5f951771b239b1e",
-        "item": {
-          "title": "TELASAオリジナル「アイ=ラブ！...",
-          "date": "2026-11-21",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12468",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/12289": {
         "hash": "5ff3a4a877c2a74fe8a665f5454d4c7a376c36852b69a031d407c149cfac256b",
         "item": {
@@ -26,6 +16,16 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12289",
           "category": ""
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12468": {
+        "hash": "c88f1a53bf9ac84ba12f36b23d5bc37ae6527729fc903672b5f951771b239b1e",
+        "item": {
+          "title": "TELASAオリジナル「アイ=ラブ！...",
+          "date": "2026-11-21",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12468",
+          "category": "メディア"
         }
       },
       "https://equal-love.jp/schedule/detail/11594": {
@@ -48,16 +48,6 @@
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/12290": {
-        "hash": "c66aa7d8ed7976c39137b60c0e318f9957c68e221a9424a89af8278c6b0c7d47",
-        "item": {
-          "title": "握手会 ＝LOVE映像商品 『＝LOVE S...",
-          "date": "2026-11-24",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12290",
-          "category": ""
-        }
-      },
       "https://equal-love.jp/schedule/detail/12384": {
         "hash": "51f92d859d73637168b36d4e140c07b98b91ed832042b2d7b02452608a44cf4b",
         "item": {
@@ -68,6 +58,16 @@
           "category": "メディア"
         }
       },
+      "https://equal-love.jp/schedule/detail/12290": {
+        "hash": "c66aa7d8ed7976c39137b60c0e318f9957c68e221a9424a89af8278c6b0c7d47",
+        "item": {
+          "title": "握手会 ＝LOVE映像商品 『＝LOVE S...",
+          "date": "2026-11-24",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12290",
+          "category": ""
+        }
+      },
       "https://equal-love.jp/schedule/detail/12413": {
         "hash": "f8fc2e4e6cb3fe26dee140ecbc611c54ab8145d090e94df5a23381bb406e262c",
         "item": {
@@ -75,6 +75,16 @@
           "date": "2026-11-25",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12413",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10748": {
+        "hash": "357dbab7b5b4ae1cc42810acc0e6850f826e7a67d86ac438e452f768adc28774",
+        "item": {
+          "title": "Artistspoken「イマフレラ...",
+          "date": "2026-11-27",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10748",
           "category": "メディア"
         }
       },
@@ -88,23 +98,13 @@
           "category": "ライブ/イベント"
         }
       },
-      "https://equal-love.jp/schedule/detail/10748": {
-        "hash": "357dbab7b5b4ae1cc42810acc0e6850f826e7a67d86ac438e452f768adc28774",
+      "https://equal-love.jp/schedule/detail/12471": {
+        "hash": "d56fd5315b883807b7991de784608bcaf2963bf9f5127e3e9b3a0fd11977e897",
         "item": {
-          "title": "Artistspoken「イマフレラ...",
+          "title": "テレビ朝日「ラブ!!Jリーグ」※大場...",
           "date": "2026-11-27",
           "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10748",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12477": {
-        "hash": "3949c8b6e617dcdf41472f0183963033af73877c8a5abadeefb18db2b76ec592",
-        "item": {
-          "title": "テレビ朝日系「ミュージックステーショ...",
-          "date": "2026-11-27",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12477",
+          "url": "https://equal-love.jp/schedule/detail/12471",
           "category": "メディア"
         }
       }
@@ -507,6 +507,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12471:d56fd5315b88",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-21T08:46:19.650Z",
+      "title": "テレビ朝日「ラブ!!Jリーグ」※大場...",
+      "url": "https://equal-love.jp/schedule/detail/12471",
+      "date": "2026-11-27",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12470:acec890fdcd6",
       "type": "news",
@@ -1706,18 +1718,6 @@
       "url": "https://equal-love.jp/schedule/detail/11686",
       "date": "2026-10-27",
       "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12299:0e86d3f8e38a",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-26T14:45:11.775Z",
-      "title": "＝LOVE in TOKYO DOME「全ては＝LOVE」FC先行チケット受付開始のお知らせ",
-      "url": "https://sp.equal-love.jp/news/detail/12299",
-      "date": "2026-10-26",
-      "category": "ライブ/イベント",
       "memberNames": [],
       "sourceName": ""
     }

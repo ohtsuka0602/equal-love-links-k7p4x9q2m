@@ -1,21 +1,21 @@
 {
   "meta": {
-    "checkedAt": "2026-11-21T02:46:50.954Z",
-    "updatedAt": "2026-11-20T20:46:52.173Z"
+    "checkedAt": "2026-11-21T08:46:19.489Z",
+    "updatedAt": "2026-11-21T08:46:19.489Z"
   },
   "schedule": [
-    {
-      "title": "TELASAオリジナル「アイ=ラブ！...",
-      "date": "2026-11-21",
-      "url": "https://equal-love.jp/schedule/detail/12468",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "握手会 ＝LOVE映像商品 『＝LOVE S...",
       "date": "2026-11-21",
       "url": "https://equal-love.jp/schedule/detail/12289",
       "category": "",
+      "time": ""
+    },
+    {
+      "title": "TELASAオリジナル「アイ=ラブ！...",
+      "date": "2026-11-21",
+      "url": "https://equal-love.jp/schedule/detail/12468",
+      "category": "メディア",
       "time": ""
     },
     {
@@ -33,13 +33,6 @@
       "time": ""
     },
     {
-      "title": "握手会 ＝LOVE映像商品 『＝LOVE S...",
-      "date": "2026-11-24",
-      "url": "https://equal-love.jp/schedule/detail/12290",
-      "category": "",
-      "time": ""
-    },
-    {
       "title": "フジテレビ系「めざましテレビ」※髙松...",
       "date": "2026-11-24",
       "url": "https://equal-love.jp/schedule/detail/12384",
@@ -47,9 +40,23 @@
       "time": ""
     },
     {
+      "title": "握手会 ＝LOVE映像商品 『＝LOVE S...",
+      "date": "2026-11-24",
+      "url": "https://equal-love.jp/schedule/detail/12290",
+      "category": "",
+      "time": ""
+    },
+    {
       "title": "日本テレビ系「千鳥かまいたちゴールデ...",
       "date": "2026-11-25",
       "url": "https://equal-love.jp/schedule/detail/12413",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "Artistspoken「イマフレラ...",
+      "date": "2026-11-27",
+      "url": "https://equal-love.jp/schedule/detail/10748",
       "category": "メディア",
       "time": ""
     },
@@ -61,16 +68,9 @@
       "time": ""
     },
     {
-      "title": "Artistspoken「イマフレラ...",
+      "title": "テレビ朝日「ラブ!!Jリーグ」※大場...",
       "date": "2026-11-27",
-      "url": "https://equal-love.jp/schedule/detail/10748",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "テレビ朝日系「ミュージックステーショ...",
-      "date": "2026-11-27",
-      "url": "https://equal-love.jp/schedule/detail/12477",
+      "url": "https://equal-love.jp/schedule/detail/12471",
       "category": "メディア",
       "time": ""
     }
