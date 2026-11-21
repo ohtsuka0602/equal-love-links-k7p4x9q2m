@@ -1,23 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-11-21T14:44:36.452Z",
-    "updatedAt": "2026-11-21T08:46:19.489Z"
+    "checkedAt": "2026-11-21T20:30:23.185Z",
+    "updatedAt": "2026-11-21T20:30:23.185Z"
   },
   "schedule": [
-    {
-      "title": "握手会 ＝LOVE映像商品 『＝LOVE S...",
-      "date": "2026-11-21",
-      "url": "https://equal-love.jp/schedule/detail/12289",
-      "category": "",
-      "time": ""
-    },
-    {
-      "title": "TELASAオリジナル「アイ=ラブ！...",
-      "date": "2026-11-21",
-      "url": "https://equal-love.jp/schedule/detail/12468",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "握手会 ＝LOVE 21stシングル発売記念...",
       "date": "2026-11-22",
@@ -71,6 +57,20 @@
       "title": "テレビ朝日「ラブ!!Jリーグ」※大場...",
       "date": "2026-11-27",
       "url": "https://equal-love.jp/schedule/detail/12471",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "テレビ朝日系「ミュージックステーショ...",
+      "date": "2026-11-27",
+      "url": "https://equal-love.jp/schedule/detail/12477",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "日本テレビ系「ベストアーティスト 2...",
+      "date": "2026-11-28",
+      "url": "https://equal-love.jp/schedule/detail/12395",
       "category": "メディア",
       "time": ""
     }

@@ -1,33 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-11-21T14:46:37.946Z",
-    "updatedAt": "2026-11-21T14:46:37.946Z",
+    "checkedAt": "2026-11-21T20:30:23.329Z",
+    "updatedAt": "2026-11-21T20:30:23.329Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/12289": {
-        "hash": "5ff3a4a877c2a74fe8a665f5454d4c7a376c36852b69a031d407c149cfac256b",
-        "item": {
-          "title": "握手会 ＝LOVE映像商品 『＝LOVE S...",
-          "date": "2026-11-21",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12289",
-          "category": ""
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12468": {
-        "hash": "c88f1a53bf9ac84ba12f36b23d5bc37ae6527729fc903672b5f951771b239b1e",
-        "item": {
-          "title": "TELASAオリジナル「アイ=ラブ！...",
-          "date": "2026-11-21",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12468",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/11594": {
         "hash": "614eaed97945a08705b0508b27f52ce8927c6060a5a20801e7cbeb78a473e5a2",
         "item": {
@@ -105,6 +85,26 @@
           "date": "2026-11-27",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12471",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12477": {
+        "hash": "3949c8b6e617dcdf41472f0183963033af73877c8a5abadeefb18db2b76ec592",
+        "item": {
+          "title": "テレビ朝日系「ミュージックステーショ...",
+          "date": "2026-11-27",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12477",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12395": {
+        "hash": "f665e1d0ce5cb4b52dc97f61a72f03f31adacfeeef7cf2255c5e08cca25ce33b",
+        "item": {
+          "title": "日本テレビ系「ベストアーティスト 2...",
+          "date": "2026-11-28",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12395",
           "category": "メディア"
         }
       }
@@ -507,6 +507,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12395:f665e1d0ce5c",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-21T20:30:23.329Z",
+      "title": "日本テレビ系「ベストアーティスト 2...",
+      "url": "https://equal-love.jp/schedule/detail/12395",
+      "date": "2026-11-28",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12474:5d3d3a2462d7",
       "type": "news",
@@ -1705,18 +1717,6 @@
       "title": "【出演情報】読売テレビ・日本テレビ系全国ネット「ベストヒット歌謡祭2026」※＝LOVE",
       "url": "https://sp.equal-love.jp/news/detail/12367",
       "date": "2026-10-28",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11742:940e0ab46e52",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-27T02:44:46.829Z",
-      "title": "TOKYO FM「Hand in H...",
-      "url": "https://equal-love.jp/schedule/detail/11742",
-      "date": "2026-10-27",
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""
