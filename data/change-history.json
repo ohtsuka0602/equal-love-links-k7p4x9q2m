@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-21T14:44:36.603Z",
-    "updatedAt": "2026-11-21T08:46:19.650Z",
+    "checkedAt": "2026-11-21T14:46:37.946Z",
+    "updatedAt": "2026-11-21T14:46:37.946Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12474": {
+        "hash": "5d3d3a2462d7ab92d11a5eb6d537552ea5e8f744460547503d3bfc47ddcc4ccb",
+        "item": {
+          "title": "＝LOVE in TOKYO DOME「全ては＝LOVE」一般先行チケット受付開始のお知らせ",
+          "date": "2026-11-21",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12474",
+          "category": "ライブ/イベント"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12470": {
         "hash": "acec890fdcd6fb82ed4b4d79b838deb0e353698b009a5d0a20d1340342c4fd6e",
         "item": {
@@ -197,16 +207,6 @@
           "date": "2026-11-18",
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12412",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12406": {
-        "hash": "3977439e0d8a258a5384afff6ccd04e91000b8a64494b1d525cca85e6ba9d3e7",
-        "item": {
-          "title": "【掲載情報】サンケイスポーツ「BAY☆スタ」第43号※瀧脇笙古",
-          "date": "2026-11-17",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12406",
           "category": "メディア"
         }
       }
@@ -507,6 +507,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12474:5d3d3a2462d7",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-21T14:46:37.946Z",
+      "title": "＝LOVE in TOKYO DOME「全ては＝LOVE」一般先行チケット受付開始のお知らせ",
+      "url": "https://sp.equal-love.jp/news/detail/12474",
+      "date": "2026-11-21",
+      "category": "ライブ/イベント",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12471:d56fd5315b88",
       "type": "schedule",
@@ -1704,18 +1716,6 @@
       "occurredAt": "2026-10-27T02:44:46.829Z",
       "title": "TOKYO FM「Hand in H...",
       "url": "https://equal-love.jp/schedule/detail/11742",
-      "date": "2026-10-27",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11686:f53d3f4f6d9a",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-27T02:44:46.829Z",
-      "title": "フジテレビ・FODプレミアム「キミは...",
-      "url": "https://equal-love.jp/schedule/detail/11686",
       "date": "2026-10-27",
       "category": "メディア",
       "memberNames": [],
