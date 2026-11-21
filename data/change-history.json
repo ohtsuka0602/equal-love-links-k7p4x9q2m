@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-21T02:46:51.090Z",
-    "updatedAt": "2026-11-21T02:45:41.098Z",
+    "checkedAt": "2026-11-21T08:45:34.403Z",
+    "updatedAt": "2026-11-21T08:45:34.403Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12470": {
+        "hash": "acec890fdcd6fb82ed4b4d79b838deb0e353698b009a5d0a20d1340342c4fd6e",
+        "item": {
+          "title": "【出演情報】テレビ朝日「ラブ!!Jリーグ」※大場花菜、山本杏奈",
+          "date": "2026-11-21",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12470",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12481": {
         "hash": "869f4a870cd8a233f165a40da00fcb0b2c2a59d6f2b2deebe51ff4282b242a52",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12406",
           "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12411": {
-        "hash": "0bb83c563f433ffd952daad5b237917192250e6d195fe0faff5bcc2c07ce7db2",
-        "item": {
-          "title": "生写真セット(「恋、はじめました。」MV衣装②)発売！",
-          "date": "2026-11-15",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12411",
-          "category": "グッズ"
         }
       }
     },
@@ -507,6 +507,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12470:acec890fdcd6",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-21T08:45:34.403Z",
+      "title": "【出演情報】テレビ朝日「ラブ!!Jリーグ」※大場花菜、山本杏奈",
+      "url": "https://sp.equal-love.jp/news/detail/12470",
+      "date": "2026-11-21",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12481:869f4a870cd8",
       "type": "news",
@@ -1706,18 +1718,6 @@
       "url": "https://sp.equal-love.jp/news/detail/12299",
       "date": "2026-10-26",
       "category": "ライブ/イベント",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/12296:f98d972d14c3",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-26T08:45:45.933Z",
-      "title": "NHK Eテレ「沼にハマってきいてみ...",
-      "url": "https://equal-love.jp/schedule/detail/12296",
-      "date": "2026-10-31",
-      "category": "メディア",
       "memberNames": [],
       "sourceName": ""
     }

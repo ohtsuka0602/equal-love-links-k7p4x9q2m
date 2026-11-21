@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-11-21T02:45:40.968Z",
-    "updatedAt": "2026-11-21T02:45:40.968Z"
+    "checkedAt": "2026-11-21T08:45:34.264Z",
+    "updatedAt": "2026-11-21T08:45:34.264Z"
   },
   "news": [
+    {
+      "title": "【出演情報】テレビ朝日「ラブ!!Jリーグ」※大場花菜、山本杏奈",
+      "date": "2026-11-21",
+      "url": "https://sp.equal-love.jp/news/detail/12470",
+      "category": "メディア"
+    },
     {
       "title": "＝LOVE Official Fan Light 発売決定‼",
       "date": "2026-11-21",
@@ -57,12 +63,6 @@
       "date": "2026-11-17",
       "url": "https://sp.equal-love.jp/news/detail/12406",
       "category": "メディア"
-    },
-    {
-      "title": "生写真セット(「恋、はじめました。」MV衣装②)発売！",
-      "date": "2026-11-15",
-      "url": "https://sp.equal-love.jp/news/detail/12411",
-      "category": "グッズ"
     }
   ]
 }
