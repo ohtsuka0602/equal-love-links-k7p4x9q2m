@@ -1,53 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-11-22T14:45:56.140Z",
-    "updatedAt": "2026-11-22T08:46:32.771Z",
+    "checkedAt": "2026-11-22T20:43:32.816Z",
+    "updatedAt": "2026-11-22T20:43:32.816Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/10696": {
-        "hash": "29fda9f67b63befe09f2d2c841f33e0016a2f43863a12da0a53c73bfa4252c8c",
-        "item": {
-          "title": "いわき民報連載※諸橋沙夏",
-          "date": "2026-11-22",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10696",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12308": {
-        "hash": "ca029c25d17b2c1ebdb568278ba0f3b1510cd30091f0e39ca2d9a7acd4770171",
-        "item": {
-          "title": "FM NACK5『＝LOVE大場花菜...",
-          "date": "2026-11-22",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12308",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11190": {
-        "hash": "5c1039ca7f7d22100d56c14946472aff38e02e290848ed0df3d9a4c5c8c5fcb1",
-        "item": {
-          "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
-          "date": "2026-11-22",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11190",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/11594": {
-        "hash": "614eaed97945a08705b0508b27f52ce8927c6060a5a20801e7cbeb78a473e5a2",
-        "item": {
-          "title": "握手会 ＝LOVE 21stシングル発売記念...",
-          "date": "2026-11-22",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11594",
-          "category": ""
-        }
-      },
       "https://equal-love.jp/schedule/detail/10452": {
         "hash": "25173be3b548b0a0bd19b04736db76cc44110e6e99e31c90f13793b9388e92b4",
         "item": {
@@ -105,6 +65,46 @@
           "date": "2026-11-27",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12477",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11852": {
+        "hash": "8a75528d1241356f5503f86e25ff4b7f35401ea363acb9858177b0d06b6db444",
+        "item": {
+          "title": "「GIFT 〜Girls Idol ...",
+          "date": "2026-11-27",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11852",
+          "category": "ライブ/イベント"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10748": {
+        "hash": "357dbab7b5b4ae1cc42810acc0e6850f826e7a67d86ac438e452f768adc28774",
+        "item": {
+          "title": "Artistspoken「イマフレラ...",
+          "date": "2026-11-27",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10748",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12395": {
+        "hash": "f665e1d0ce5cb4b52dc97f61a72f03f31adacfeeef7cf2255c5e08cca25ce33b",
+        "item": {
+          "title": "日本テレビ系「ベストアーティスト 2...",
+          "date": "2026-11-28",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12395",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12267": {
+        "hash": "dae57f480f4f2a39977eb99135a08fa4d9cbf1f0def5b5ed2e0ec53e56c015f2",
+        "item": {
+          "title": "AT-X「マヂラブ・野口衣織のマヂで...",
+          "date": "2026-11-29",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12267",
           "category": "メディア"
         }
       }
@@ -507,6 +507,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12267:dae57f480f4f",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-22T20:43:32.816Z",
+      "title": "AT-X「マヂラブ・野口衣織のマヂで...",
+      "url": "https://equal-love.jp/schedule/detail/12267",
+      "date": "2026-11-29",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/10696:29fda9f67b63",
       "type": "schedule",
@@ -1704,18 +1716,6 @@
       "url": "https://sp.equal-love.jp/news/detail/12373",
       "date": "2026-10-28",
       "category": "お知らせ",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12369:e0bbcec13c33",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-28T14:45:30.858Z",
-      "title": "【出演情報】日本マクドナルド『ザクザクジューシーももチキン』のWebCM「ももチキ人生」に＝LOVE佐々木舞香と≠ME櫻井ももの出演が決定しました！",
-      "url": "https://sp.equal-love.jp/news/detail/12369",
-      "date": "2026-10-28",
-      "category": "メディア",
       "memberNames": [],
       "sourceName": ""
     }
