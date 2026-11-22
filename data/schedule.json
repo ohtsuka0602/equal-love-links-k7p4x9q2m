@@ -1,9 +1,16 @@
 {
   "meta": {
-    "checkedAt": "2026-11-22T02:46:24.024Z",
-    "updatedAt": "2026-11-22T02:46:24.024Z"
+    "checkedAt": "2026-11-22T08:46:32.639Z",
+    "updatedAt": "2026-11-22T08:46:32.639Z"
   },
   "schedule": [
+    {
+      "title": "いわき民報連載※諸橋沙夏",
+      "date": "2026-11-22",
+      "url": "https://equal-love.jp/schedule/detail/10696",
+      "category": "メディア",
+      "time": ""
+    },
     {
       "title": "FM NACK5『＝LOVE大場花菜...",
       "date": "2026-11-22",
@@ -33,13 +40,6 @@
       "time": ""
     },
     {
-      "title": "フジテレビ系「めざましテレビ」※髙松...",
-      "date": "2026-11-24",
-      "url": "https://equal-love.jp/schedule/detail/12384",
-      "category": "メディア",
-      "time": ""
-    },
-    {
       "title": "握手会 ＝LOVE映像商品 『＝LOVE S...",
       "date": "2026-11-24",
       "url": "https://equal-love.jp/schedule/detail/12290",
@@ -47,16 +47,16 @@
       "time": ""
     },
     {
-      "title": "日本テレビ系「千鳥かまいたちゴールデ...",
-      "date": "2026-11-25",
-      "url": "https://equal-love.jp/schedule/detail/12413",
+      "title": "フジテレビ系「めざましテレビ」※髙松...",
+      "date": "2026-11-24",
+      "url": "https://equal-love.jp/schedule/detail/12384",
       "category": "メディア",
       "time": ""
     },
     {
-      "title": "テレビ朝日系「ミュージックステーショ...",
-      "date": "2026-11-27",
-      "url": "https://equal-love.jp/schedule/detail/12477",
+      "title": "日本テレビ系「千鳥かまいたちゴールデ...",
+      "date": "2026-11-25",
+      "url": "https://equal-love.jp/schedule/detail/12413",
       "category": "メディア",
       "time": ""
     },
@@ -68,10 +68,10 @@
       "time": ""
     },
     {
-      "title": "「GIFT 〜Girls Idol ...",
+      "title": "テレビ朝日系「ミュージックステーショ...",
       "date": "2026-11-27",
-      "url": "https://equal-love.jp/schedule/detail/11852",
-      "category": "ライブ/イベント",
+      "url": "https://equal-love.jp/schedule/detail/12477",
+      "category": "メディア",
       "time": ""
     }
   ]

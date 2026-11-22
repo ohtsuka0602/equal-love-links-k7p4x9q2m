@@ -1,13 +1,23 @@
 {
   "meta": {
-    "checkedAt": "2026-11-22T08:45:25.826Z",
-    "updatedAt": "2026-11-22T02:46:24.162Z",
+    "checkedAt": "2026-11-22T08:46:32.771Z",
+    "updatedAt": "2026-11-22T08:46:32.771Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
+      "https://equal-love.jp/schedule/detail/10696": {
+        "hash": "29fda9f67b63befe09f2d2c841f33e0016a2f43863a12da0a53c73bfa4252c8c",
+        "item": {
+          "title": "いわき民報連載※諸橋沙夏",
+          "date": "2026-11-22",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10696",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/12308": {
         "hash": "ca029c25d17b2c1ebdb568278ba0f3b1510cd30091f0e39ca2d9a7acd4770171",
         "item": {
@@ -48,16 +58,6 @@
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/12384": {
-        "hash": "51f92d859d73637168b36d4e140c07b98b91ed832042b2d7b02452608a44cf4b",
-        "item": {
-          "title": "フジテレビ系「めざましテレビ」※髙松...",
-          "date": "2026-11-24",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12384",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/12290": {
         "hash": "c66aa7d8ed7976c39137b60c0e318f9957c68e221a9424a89af8278c6b0c7d47",
         "item": {
@@ -68,6 +68,16 @@
           "category": ""
         }
       },
+      "https://equal-love.jp/schedule/detail/12384": {
+        "hash": "51f92d859d73637168b36d4e140c07b98b91ed832042b2d7b02452608a44cf4b",
+        "item": {
+          "title": "フジテレビ系「めざましテレビ」※髙松...",
+          "date": "2026-11-24",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12384",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/12413": {
         "hash": "f8fc2e4e6cb3fe26dee140ecbc611c54ab8145d090e94df5a23381bb406e262c",
         "item": {
@@ -75,16 +85,6 @@
           "date": "2026-11-25",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12413",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12477": {
-        "hash": "3949c8b6e617dcdf41472f0183963033af73877c8a5abadeefb18db2b76ec592",
-        "item": {
-          "title": "テレビ朝日系「ミュージックステーショ...",
-          "date": "2026-11-27",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12477",
           "category": "メディア"
         }
       },
@@ -98,14 +98,14 @@
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/11852": {
-        "hash": "8a75528d1241356f5503f86e25ff4b7f35401ea363acb9858177b0d06b6db444",
+      "https://equal-love.jp/schedule/detail/12477": {
+        "hash": "3949c8b6e617dcdf41472f0183963033af73877c8a5abadeefb18db2b76ec592",
         "item": {
-          "title": "「GIFT 〜Girls Idol ...",
+          "title": "テレビ朝日系「ミュージックステーショ...",
           "date": "2026-11-27",
           "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11852",
-          "category": "ライブ/イベント"
+          "url": "https://equal-love.jp/schedule/detail/12477",
+          "category": "メディア"
         }
       }
     },
@@ -507,6 +507,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10696:29fda9f67b63",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-22T08:46:32.771Z",
+      "title": "いわき民報連載※諸橋沙夏",
+      "url": "https://equal-love.jp/schedule/detail/10696",
+      "date": "2026-11-22",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12308:ca029c25d17b",
       "type": "schedule",
@@ -1706,20 +1718,6 @@
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""
-    },
-    {
-      "id": "youtube:added:bnD5K5aect8:247e673906dc",
-      "type": "youtube",
-      "action": "added",
-      "occurredAt": "2026-10-28T14:45:30.858Z",
-      "title": "人生初のびっくりドンキーでずっとびっくり",
-      "url": "https://www.youtube.com/watch?v=bnD5K5aect8",
-      "date": "2026-10-28T10:30:25Z",
-      "category": "",
-      "memberNames": [
-        "音嶋 莉沙"
-      ],
-      "sourceName": "音嶋 莉沙"
     }
   ]
 }
