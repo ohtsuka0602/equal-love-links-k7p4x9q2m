@@ -1,9 +1,23 @@
 {
   "meta": {
-    "checkedAt": "2026-11-21T20:44:32.797Z",
-    "updatedAt": "2026-11-21T20:30:23.185Z"
+    "checkedAt": "2026-11-22T02:46:24.024Z",
+    "updatedAt": "2026-11-22T02:46:24.024Z"
   },
   "schedule": [
+    {
+      "title": "FM NACK5『＝LOVE大場花菜...",
+      "date": "2026-11-22",
+      "url": "https://equal-love.jp/schedule/detail/12308",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
+      "date": "2026-11-22",
+      "url": "https://equal-love.jp/schedule/detail/11190",
+      "category": "メディア",
+      "time": ""
+    },
     {
       "title": "握手会 ＝LOVE 21stシングル発売記念...",
       "date": "2026-11-22",
@@ -40,17 +54,10 @@
       "time": ""
     },
     {
-      "title": "Artistspoken「イマフレラ...",
+      "title": "テレビ朝日系「ミュージックステーショ...",
       "date": "2026-11-27",
-      "url": "https://equal-love.jp/schedule/detail/10748",
+      "url": "https://equal-love.jp/schedule/detail/12477",
       "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "「GIFT 〜Girls Idol ...",
-      "date": "2026-11-27",
-      "url": "https://equal-love.jp/schedule/detail/11852",
-      "category": "ライブ/イベント",
       "time": ""
     },
     {
@@ -61,17 +68,10 @@
       "time": ""
     },
     {
-      "title": "テレビ朝日系「ミュージックステーショ...",
+      "title": "「GIFT 〜Girls Idol ...",
       "date": "2026-11-27",
-      "url": "https://equal-love.jp/schedule/detail/12477",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "日本テレビ系「ベストアーティスト 2...",
-      "date": "2026-11-28",
-      "url": "https://equal-love.jp/schedule/detail/12395",
-      "category": "メディア",
+      "url": "https://equal-love.jp/schedule/detail/11852",
+      "category": "ライブ/イベント",
       "time": ""
     }
   ]
