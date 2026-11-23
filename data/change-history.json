@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-23T11:16:52.739Z",
-    "updatedAt": "2026-11-23T11:16:52.739Z",
+    "checkedAt": "2026-11-23T14:44:12.026Z",
+    "updatedAt": "2026-11-23T14:44:12.026Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -18,13 +18,13 @@
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/12384": {
-        "hash": "51f92d859d73637168b36d4e140c07b98b91ed832042b2d7b02452608a44cf4b",
+      "https://equal-love.jp/schedule/detail/12485": {
+        "hash": "832028b785a90094c126ff810e9422b6a55d62602f48ec1c228461084d17a029",
         "item": {
           "title": "フジテレビ系「めざましテレビ」※髙松...",
           "date": "2026-11-24",
           "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12384",
+          "url": "https://equal-love.jp/schedule/detail/12485",
           "category": "メディア"
         }
       },
@@ -58,26 +58,6 @@
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/12477": {
-        "hash": "3949c8b6e617dcdf41472f0183963033af73877c8a5abadeefb18db2b76ec592",
-        "item": {
-          "title": "テレビ朝日系「ミュージックステーショ...",
-          "date": "2026-11-27",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12477",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12471": {
-        "hash": "d56fd5315b883807b7991de784608bcaf2963bf9f5127e3e9b3a0fd11977e897",
-        "item": {
-          "title": "テレビ朝日「ラブ!!Jリーグ」※大場...",
-          "date": "2026-11-27",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12471",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/11852": {
         "hash": "8a75528d1241356f5503f86e25ff4b7f35401ea363acb9858177b0d06b6db444",
         "item": {
@@ -95,6 +75,26 @@
           "date": "2026-11-27",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10748",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12471": {
+        "hash": "d56fd5315b883807b7991de784608bcaf2963bf9f5127e3e9b3a0fd11977e897",
+        "item": {
+          "title": "テレビ朝日「ラブ!!Jリーグ」※大場...",
+          "date": "2026-11-27",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12471",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12477": {
+        "hash": "3949c8b6e617dcdf41472f0183963033af73877c8a5abadeefb18db2b76ec592",
+        "item": {
+          "title": "テレビ朝日系「ミュージックステーショ...",
+          "date": "2026-11-27",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12477",
           "category": "メディア"
         }
       },
@@ -507,6 +507,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12485:832028b785a9",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-23T14:44:12.026Z",
+      "title": "フジテレビ系「めざましテレビ」※髙松...",
+      "url": "https://equal-love.jp/schedule/detail/12485",
+      "date": "2026-11-24",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12483:647d22f8c59b",
       "type": "news",
@@ -1704,18 +1716,6 @@
       "url": "https://sp.equal-love.jp/news/detail/12364",
       "date": "2026-10-30",
       "category": "ライブ/イベント",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12370:3c17549de451",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-29T08:44:36.634Z",
-      "title": "【出演情報】「MTV VMAJ 2026」の放送・配信が決定！",
-      "url": "https://sp.equal-love.jp/news/detail/12370",
-      "date": "2026-10-29",
-      "category": "メディア",
       "memberNames": [],
       "sourceName": ""
     }

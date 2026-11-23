@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-23T08:46:44.356Z",
-    "updatedAt": "2026-11-23T08:46:44.356Z"
+    "checkedAt": "2026-11-23T14:44:11.835Z",
+    "updatedAt": "2026-11-23T14:44:11.835Z"
   },
   "schedule": [
     {
@@ -14,7 +14,7 @@
     {
       "title": "フジテレビ系「めざましテレビ」※髙松...",
       "date": "2026-11-24",
-      "url": "https://equal-love.jp/schedule/detail/12384",
+      "url": "https://equal-love.jp/schedule/detail/12485",
       "category": "メディア",
       "time": ""
     },
@@ -40,9 +40,16 @@
       "time": ""
     },
     {
-      "title": "テレビ朝日系「ミュージックステーショ...",
+      "title": "「GIFT 〜Girls Idol ...",
       "date": "2026-11-27",
-      "url": "https://equal-love.jp/schedule/detail/12477",
+      "url": "https://equal-love.jp/schedule/detail/11852",
+      "category": "ライブ/イベント",
+      "time": ""
+    },
+    {
+      "title": "Artistspoken「イマフレラ...",
+      "date": "2026-11-27",
+      "url": "https://equal-love.jp/schedule/detail/10748",
       "category": "メディア",
       "time": ""
     },
@@ -54,16 +61,9 @@
       "time": ""
     },
     {
-      "title": "「GIFT 〜Girls Idol ...",
+      "title": "テレビ朝日系「ミュージックステーショ...",
       "date": "2026-11-27",
-      "url": "https://equal-love.jp/schedule/detail/11852",
-      "category": "ライブ/イベント",
-      "time": ""
-    },
-    {
-      "title": "Artistspoken「イマフレラ...",
-      "date": "2026-11-27",
-      "url": "https://equal-love.jp/schedule/detail/10748",
+      "url": "https://equal-love.jp/schedule/detail/12477",
       "category": "メディア",
       "time": ""
     },
