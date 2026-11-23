@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-11-23T11:16:52.605Z",
-    "updatedAt": "2026-11-23T11:16:52.605Z"
+    "checkedAt": "2026-11-23T14:46:00.440Z",
+    "updatedAt": "2026-11-23T14:46:00.440Z"
   },
   "news": [
+    {
+      "title": "【出演情報】フジテレビ系「めざましテレビ」※髙松瞳、諸橋沙夏",
+      "date": "2026-11-23",
+      "url": "https://sp.equal-love.jp/news/detail/12484",
+      "category": "メディア"
+    },
     {
       "title": "＝LOVE STADIUM LIVE「Beyond \"KYUN\"♡」 映像商品アートワーク・収録内容公開！",
       "date": "2026-11-23",
@@ -56,12 +62,6 @@
       "title": "日本テレビ系「ベストアーティスト 2026」番組観覧ご招待のお知らせ",
       "date": "2026-11-20",
       "url": "https://sp.equal-love.jp/news/detail/12475",
-      "category": "ライブ/イベント"
-    },
-    {
-      "title": "＝LOVE DOME LIVE in NAGOYA「全ては＝LOVE」FC最速先行(会員＋会員)チケット受付開始のお知らせ",
-      "date": "2026-11-20",
-      "url": "https://sp.equal-love.jp/news/detail/12473",
       "category": "ライブ/イベント"
     }
   ]

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-23T14:44:12.026Z",
-    "updatedAt": "2026-11-23T14:44:12.026Z",
+    "checkedAt": "2026-11-23T14:46:00.595Z",
+    "updatedAt": "2026-11-23T14:46:00.595Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12484": {
+        "hash": "4ea4cea62d1400ada6ef6b2b0076734e76940e0e46589c0c424e079e6ce2c8c8",
+        "item": {
+          "title": "【出演情報】フジテレビ系「めざましテレビ」※髙松瞳、諸橋沙夏",
+          "date": "2026-11-23",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12484",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12483": {
         "hash": "647d22f8c59b23b962b3131aa8d311b526d07e69cec1f851826f75bf1961aab1",
         "item": {
@@ -197,16 +207,6 @@
           "date": "2026-11-20",
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12475",
-          "category": "ライブ/イベント"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12473": {
-        "hash": "9af9fb960076cee462386304bc39e02d2d0491316030eaed9f9e3b5201282262",
-        "item": {
-          "title": "＝LOVE DOME LIVE in NAGOYA「全ては＝LOVE」FC最速先行(会員＋会員)チケット受付開始のお知らせ",
-          "date": "2026-11-20",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12473",
           "category": "ライブ/イベント"
         }
       }
@@ -507,6 +507,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12484:4ea4cea62d14",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-23T14:46:00.595Z",
+      "title": "【出演情報】フジテレビ系「めざましテレビ」※髙松瞳、諸橋沙夏",
+      "url": "https://sp.equal-love.jp/news/detail/12484",
+      "date": "2026-11-23",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12485:832028b785a9",
       "type": "schedule",
@@ -1704,18 +1716,6 @@
       "url": "https://equal-love.jp/schedule/detail/10681",
       "date": "2026-10-31",
       "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12364:9841aa19a955",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-30T08:44:27.933Z",
-      "title": "=LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～ 配信チケット発売のお知らせ",
-      "url": "https://sp.equal-love.jp/news/detail/12364",
-      "date": "2026-10-30",
-      "category": "ライブ/イベント",
       "memberNames": [],
       "sourceName": ""
     }
