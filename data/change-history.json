@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-23T08:45:09.534Z",
-    "updatedAt": "2026-11-23T08:45:09.534Z",
+    "checkedAt": "2026-11-23T08:46:44.496Z",
+    "updatedAt": "2026-11-23T08:46:44.496Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -18,16 +18,6 @@
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/12290": {
-        "hash": "c66aa7d8ed7976c39137b60c0e318f9957c68e221a9424a89af8278c6b0c7d47",
-        "item": {
-          "title": "握手会 ＝LOVE映像商品 『＝LOVE S...",
-          "date": "2026-11-24",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12290",
-          "category": ""
-        }
-      },
       "https://equal-love.jp/schedule/detail/12384": {
         "hash": "51f92d859d73637168b36d4e140c07b98b91ed832042b2d7b02452608a44cf4b",
         "item": {
@@ -36,6 +26,16 @@
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12384",
           "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12290": {
+        "hash": "c66aa7d8ed7976c39137b60c0e318f9957c68e221a9424a89af8278c6b0c7d47",
+        "item": {
+          "title": "握手会 ＝LOVE映像商品 『＝LOVE S...",
+          "date": "2026-11-24",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12290",
+          "category": ""
         }
       },
       "https://equal-love.jp/schedule/detail/12413": {
@@ -48,13 +48,13 @@
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/12471": {
-        "hash": "d56fd5315b883807b7991de784608bcaf2963bf9f5127e3e9b3a0fd11977e897",
+      "https://equal-love.jp/schedule/detail/12404": {
+        "hash": "ecfa2d6afe6e6e3fde731549ea923b80c8831432eef8aaafc31671b4ae72806f",
         "item": {
-          "title": "テレビ朝日「ラブ!!Jリーグ」※大場...",
-          "date": "2026-11-27",
+          "title": "TBS系「この歌詞が刺さった！グッと...",
+          "date": "2026-11-26",
           "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12471",
+          "url": "https://equal-love.jp/schedule/detail/12404",
           "category": "メディア"
         }
       },
@@ -65,6 +65,16 @@
           "date": "2026-11-27",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12477",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12471": {
+        "hash": "d56fd5315b883807b7991de784608bcaf2963bf9f5127e3e9b3a0fd11977e897",
+        "item": {
+          "title": "テレビ朝日「ラブ!!Jリーグ」※大場...",
+          "date": "2026-11-27",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12471",
           "category": "メディア"
         }
       },
@@ -95,16 +105,6 @@
           "date": "2026-11-28",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12395",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12267": {
-        "hash": "dae57f480f4f2a39977eb99135a08fa4d9cbf1f0def5b5ed2e0ec53e56c015f2",
-        "item": {
-          "title": "AT-X「マヂラブ・野口衣織のマヂで...",
-          "date": "2026-11-29",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12267",
           "category": "メディア"
         }
       }
@@ -507,6 +507,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12404:ecfa2d6afe6e",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-23T08:46:44.496Z",
+      "title": "TBS系「この歌詞が刺さった！グッと...",
+      "url": "https://equal-love.jp/schedule/detail/12404",
+      "date": "2026-11-26",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12403:09258943fe3d",
       "type": "news",
@@ -1704,18 +1716,6 @@
       "url": "https://sp.equal-love.jp/news/detail/12366",
       "date": "2026-10-29",
       "category": "ライブ/イベント",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12374:03515975a61f",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-29T02:44:49.081Z",
-      "title": "【重要】メール配信サービス再開のお知らせ",
-      "url": "https://sp.equal-love.jp/news/detail/12374",
-      "date": "2026-10-29",
-      "category": "お知らせ",
       "memberNames": [],
       "sourceName": ""
     }

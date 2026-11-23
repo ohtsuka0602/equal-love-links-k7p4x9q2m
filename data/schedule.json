@@ -1,13 +1,20 @@
 {
   "meta": {
-    "checkedAt": "2026-11-23T02:45:54.818Z",
-    "updatedAt": "2026-11-22T20:43:32.678Z"
+    "checkedAt": "2026-11-23T08:46:44.356Z",
+    "updatedAt": "2026-11-23T08:46:44.356Z"
   },
   "schedule": [
     {
       "title": "ニッポン放送「＝LOVEのイコラフ」",
       "date": "2026-11-23",
       "url": "https://equal-love.jp/schedule/detail/10452",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "フジテレビ系「めざましテレビ」※髙松...",
+      "date": "2026-11-24",
+      "url": "https://equal-love.jp/schedule/detail/12384",
       "category": "メディア",
       "time": ""
     },
@@ -19,13 +26,6 @@
       "time": ""
     },
     {
-      "title": "フジテレビ系「めざましテレビ」※髙松...",
-      "date": "2026-11-24",
-      "url": "https://equal-love.jp/schedule/detail/12384",
-      "category": "メディア",
-      "time": ""
-    },
-    {
       "title": "日本テレビ系「千鳥かまいたちゴールデ...",
       "date": "2026-11-25",
       "url": "https://equal-love.jp/schedule/detail/12413",
@@ -33,9 +33,9 @@
       "time": ""
     },
     {
-      "title": "テレビ朝日「ラブ!!Jリーグ」※大場...",
-      "date": "2026-11-27",
-      "url": "https://equal-love.jp/schedule/detail/12471",
+      "title": "TBS系「この歌詞が刺さった！グッと...",
+      "date": "2026-11-26",
+      "url": "https://equal-love.jp/schedule/detail/12404",
       "category": "メディア",
       "time": ""
     },
@@ -43,6 +43,13 @@
       "title": "テレビ朝日系「ミュージックステーショ...",
       "date": "2026-11-27",
       "url": "https://equal-love.jp/schedule/detail/12477",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "テレビ朝日「ラブ!!Jリーグ」※大場...",
+      "date": "2026-11-27",
+      "url": "https://equal-love.jp/schedule/detail/12471",
       "category": "メディア",
       "time": ""
     },
@@ -64,13 +71,6 @@
       "title": "日本テレビ系「ベストアーティスト 2...",
       "date": "2026-11-28",
       "url": "https://equal-love.jp/schedule/detail/12395",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "AT-X「マヂラブ・野口衣織のマヂで...",
-      "date": "2026-11-29",
-      "url": "https://equal-love.jp/schedule/detail/12267",
       "category": "メディア",
       "time": ""
     }
