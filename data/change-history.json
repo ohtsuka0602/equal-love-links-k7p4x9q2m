@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-23T08:46:44.496Z",
-    "updatedAt": "2026-11-23T08:46:44.496Z",
+    "checkedAt": "2026-11-23T11:16:52.739Z",
+    "updatedAt": "2026-11-23T11:16:52.739Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12483": {
+        "hash": "647d22f8c59b23b962b3131aa8d311b526d07e69cec1f851826f75bf1961aab1",
+        "item": {
+          "title": "＝LOVE STADIUM LIVE「Beyond \"KYUN\"♡」 映像商品アートワーク・収録内容公開！",
+          "date": "2026-11-23",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12483",
+          "category": "リリース"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12403": {
         "hash": "09258943fe3d58f7070c97680359fc2025f0d69a2aa6efee6266ed4edd092c48",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12473",
           "category": "ライブ/イベント"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12392": {
-        "hash": "8c1ee187414c9dab563d6ad02c2898e8936ec813e3e9e4ef7dd3fea27652db73",
-        "item": {
-          "title": "【掲載情報】小学館「美的 2027年2月号」※＝LOVE",
-          "date": "2026-11-20",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12392",
-          "category": "メディア"
         }
       }
     },
@@ -507,6 +507,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12483:647d22f8c59b",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-23T11:16:52.739Z",
+      "title": "＝LOVE STADIUM LIVE「Beyond \"KYUN\"♡」 映像商品アートワーク・収録内容公開！",
+      "url": "https://sp.equal-love.jp/news/detail/12483",
+      "date": "2026-11-23",
+      "category": "リリース",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12404:ecfa2d6afe6e",
       "type": "schedule",
@@ -1704,18 +1716,6 @@
       "url": "https://sp.equal-love.jp/news/detail/12370",
       "date": "2026-10-29",
       "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12366:7b16c44f0f17",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-29T08:44:36.634Z",
-      "title": "『生誕祭イベント~supported by IKONOIJOY Puzzle~』（11月）FC限定チケット2次受付開始のお知らせ",
-      "url": "https://sp.equal-love.jp/news/detail/12366",
-      "date": "2026-10-29",
-      "category": "ライブ/イベント",
       "memberNames": [],
       "sourceName": ""
     }
