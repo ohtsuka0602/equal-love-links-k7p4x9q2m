@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-11-23T02:45:08.992Z",
-    "updatedAt": "2026-11-21T14:46:37.811Z"
+    "checkedAt": "2026-11-23T08:45:09.350Z",
+    "updatedAt": "2026-11-23T08:45:09.350Z"
   },
   "news": [
+    {
+      "title": "【出演情報】TBS系「この歌詞が刺さった！グッとフレーズ」※大谷",
+      "date": "2026-11-23",
+      "url": "https://sp.equal-love.jp/news/detail/12403",
+      "category": "メディア"
+    },
     {
       "title": "＝LOVE in TOKYO DOME「全ては＝LOVE」一般先行チケット受付開始のお知らせ",
       "date": "2026-11-21",
@@ -56,12 +62,6 @@
       "title": "【掲載情報】小学館「美的 2027年2月号」※＝LOVE",
       "date": "2026-11-20",
       "url": "https://sp.equal-love.jp/news/detail/12392",
-      "category": "メディア"
-    },
-    {
-      "title": "【出演情報】日本テレビ系「千鳥かまいたちゴールデンアワー」※大谷映美里、齋藤樹愛羅、髙松瞳、諸橋沙夏",
-      "date": "2026-11-18",
-      "url": "https://sp.equal-love.jp/news/detail/12412",
       "category": "メディア"
     }
   ]

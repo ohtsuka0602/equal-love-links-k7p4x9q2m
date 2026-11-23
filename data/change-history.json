@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-23T02:45:54.968Z",
-    "updatedAt": "2026-11-22T20:43:32.816Z",
+    "checkedAt": "2026-11-23T08:45:09.534Z",
+    "updatedAt": "2026-11-23T08:45:09.534Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12403": {
+        "hash": "09258943fe3d58f7070c97680359fc2025f0d69a2aa6efee6266ed4edd092c48",
+        "item": {
+          "title": "【出演情報】TBS系「この歌詞が刺さった！グッとフレーズ」※大谷",
+          "date": "2026-11-23",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12403",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12474": {
         "hash": "5d3d3a2462d7ab92d11a5eb6d537552ea5e8f744460547503d3bfc47ddcc4ccb",
         "item": {
@@ -197,16 +207,6 @@
           "date": "2026-11-20",
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12392",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12412": {
-        "hash": "b16ff803c5ac8445a82ba5ca9f17e1b27942a73880a7f66bfccae013894e6c1a",
-        "item": {
-          "title": "【出演情報】日本テレビ系「千鳥かまいたちゴールデンアワー」※大谷映美里、齋藤樹愛羅、髙松瞳、諸橋沙夏",
-          "date": "2026-11-18",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12412",
           "category": "メディア"
         }
       }
@@ -507,6 +507,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12403:09258943fe3d",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-23T08:45:09.534Z",
+      "title": "【出演情報】TBS系「この歌詞が刺さった！グッとフレーズ」※大谷",
+      "url": "https://sp.equal-love.jp/news/detail/12403",
+      "date": "2026-11-23",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12267:dae57f480f4f",
       "type": "schedule",
@@ -1703,18 +1715,6 @@
       "title": "【重要】メール配信サービス再開のお知らせ",
       "url": "https://sp.equal-love.jp/news/detail/12374",
       "date": "2026-10-29",
-      "category": "お知らせ",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12373:4d45e5d571b6",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-28T14:45:30.858Z",
-      "title": "【重要】メール配信サービスの緊急メンテナンスに伴うメール配信停止のお知らせ",
-      "url": "https://sp.equal-love.jp/news/detail/12373",
-      "date": "2026-10-28",
       "category": "お知らせ",
       "memberNames": [],
       "sourceName": ""
