@@ -1,30 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-11-24T14:44:13.608Z",
-    "updatedAt": "2026-11-24T08:43:54.329Z"
+    "checkedAt": "2026-11-24T20:43:38.383Z",
+    "updatedAt": "2026-11-24T20:43:38.383Z"
   },
   "schedule": [
-    {
-      "title": "フジテレビ系「めざましテレビ」※髙松...",
-      "date": "2026-11-24",
-      "url": "https://equal-love.jp/schedule/detail/12485",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "フジテレビ・FODプレミアム「キミは...",
-      "date": "2026-11-24",
-      "url": "https://equal-love.jp/schedule/detail/11688",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "握手会 ＝LOVE映像商品 『＝LOVE S...",
-      "date": "2026-11-24",
-      "url": "https://equal-love.jp/schedule/detail/12290",
-      "category": "",
-      "time": ""
-    },
     {
       "title": "日本テレビ系「千鳥かまいたちゴールデ...",
       "date": "2026-11-25",
@@ -71,6 +50,27 @@
       "title": "Artistspoken「イマフレラ...",
       "date": "2026-11-27",
       "url": "https://equal-love.jp/schedule/detail/10748",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "テレビ朝日「ラブ!!Jリーグ」※大場...",
+      "date": "2026-11-27",
+      "url": "https://equal-love.jp/schedule/detail/12471",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "テレビ朝日系「ミュージックステーショ...",
+      "date": "2026-11-27",
+      "url": "https://equal-love.jp/schedule/detail/12477",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "日本テレビ系「ベストアーティスト 2...",
+      "date": "2026-11-28",
+      "url": "https://equal-love.jp/schedule/detail/12395",
       "category": "メディア",
       "time": ""
     }
