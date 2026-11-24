@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-23T20:50:16.470Z",
-    "updatedAt": "2026-11-23T14:46:00.595Z",
+    "checkedAt": "2026-11-24T01:38:42.209Z",
+    "updatedAt": "2026-11-24T01:38:42.209Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -15,6 +15,16 @@
           "date": "2026-11-24",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12485",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/11688": {
+        "hash": "431430b8ea3dd1fa33880ccd70903347418f57f4c3bc455cc660d6e6f3725882",
+        "item": {
+          "title": "フジテレビ・FODプレミアム「キミは...",
+          "date": "2026-11-24",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/11688",
           "category": "メディア"
         }
       },
@@ -95,16 +105,6 @@
           "date": "2026-11-28",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12395",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12267": {
-        "hash": "dae57f480f4f2a39977eb99135a08fa4d9cbf1f0def5b5ed2e0ec53e56c015f2",
-        "item": {
-          "title": "AT-X「マヂラブ・野口衣織のマヂで...",
-          "date": "2026-11-29",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12267",
           "category": "メディア"
         }
       }
@@ -507,6 +507,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/11688:431430b8ea3d",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-24T01:38:42.209Z",
+      "title": "フジテレビ・FODプレミアム「キミは...",
+      "url": "https://equal-love.jp/schedule/detail/11688",
+      "date": "2026-11-24",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12484:4ea4cea62d14",
       "type": "news",
@@ -1702,18 +1714,6 @@
       "occurredAt": "2026-10-31T08:43:46.958Z",
       "title": "つなぐ旅 東日本 ～ひがしにほんトラ...",
       "url": "https://equal-love.jp/schedule/detail/12376",
-      "date": "2026-10-31",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/10681:bb80e8dd9008",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-31T02:45:01.494Z",
-      "title": "テレビ朝日「アイ=ラブ！げーみんぐ ...",
-      "url": "https://equal-love.jp/schedule/detail/10681",
       "date": "2026-10-31",
       "category": "メディア",
       "memberNames": [],

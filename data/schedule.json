@@ -1,13 +1,20 @@
 {
   "meta": {
-    "checkedAt": "2026-11-23T20:48:44.401Z",
-    "updatedAt": "2026-11-23T20:48:44.401Z"
+    "checkedAt": "2026-11-24T01:38:42.010Z",
+    "updatedAt": "2026-11-24T01:38:42.010Z"
   },
   "schedule": [
     {
       "title": "フジテレビ系「めざましテレビ」※髙松...",
       "date": "2026-11-24",
       "url": "https://equal-love.jp/schedule/detail/12485",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "フジテレビ・FODプレミアム「キミは...",
+      "date": "2026-11-24",
+      "url": "https://equal-love.jp/schedule/detail/11688",
       "category": "メディア",
       "time": ""
     },
@@ -64,13 +71,6 @@
       "title": "日本テレビ系「ベストアーティスト 2...",
       "date": "2026-11-28",
       "url": "https://equal-love.jp/schedule/detail/12395",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "AT-X「マヂラブ・野口衣織のマヂで...",
-      "date": "2026-11-29",
-      "url": "https://equal-love.jp/schedule/detail/12267",
       "category": "メディア",
       "time": ""
     }
