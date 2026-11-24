@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-24T08:43:54.513Z",
-    "updatedAt": "2026-11-24T08:43:54.513Z",
+    "checkedAt": "2026-11-24T08:45:24.918Z",
+    "updatedAt": "2026-11-24T08:45:24.918Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,66 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12499": {
+        "hash": "5c77f693c30e39349b64efeae0a234a38428d654c3a2aa356d5f3979a3a75327",
+        "item": {
+          "title": "＝LOVE in TOKYO DOME「全ては＝LOVE」グッズ事前配送ラインナップのお知らせ",
+          "date": "2026-11-24",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12499",
+          "category": "グッズ"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/12498": {
+        "hash": "d010f2d764bee9e0b71723bff0f0b155ff826a0ce5977ccb4e7b824004f214c1",
+        "item": {
+          "title": "＝LOVE in TOKYO DOME「全ては＝LOVE」事前販売グッズラインナップのお知らせ",
+          "date": "2026-11-24",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12498",
+          "category": "グッズ"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/12497": {
+        "hash": "2402483ea0d85131a3a22ffb9c3c1c97200a4ff40e5014ecf693b37e0f2998c0",
+        "item": {
+          "title": "＝LOVE in TOKYO DOME「全ては＝LOVE」プレミアムチケットグッズのお知らせ",
+          "date": "2026-11-24",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12497",
+          "category": "グッズ"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/12492": {
+        "hash": "b1ecee78a36e63f3f4c628669e8d9b83c07dbda44854a8766a09c11901dcb001",
+        "item": {
+          "title": "【出演情報】日本テレビ「ヒルナンデス！」※齋藤樹愛羅、諸橋沙夏",
+          "date": "2026-11-24",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12492",
+          "category": "メディア"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/12490": {
+        "hash": "cba5e38d6f7166d9abd6c1799ea6d5cbc5abe818612cf706408214ecc3f0fabf",
+        "item": {
+          "title": "【出演情報】日本テレビ「DayDay.」※齋藤樹愛羅、諸橋沙夏",
+          "date": "2026-11-24",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12490",
+          "category": "メディア"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/12488": {
+        "hash": "614a0b9759e0f7a5fd3ccd1a88dce1be18157c7bcaa4e6a87923d04a64faaeae",
+        "item": {
+          "title": "【出演情報】日本テレビ「ZIP!」※齋藤樹愛羅、諸橋沙夏",
+          "date": "2026-11-24",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12488",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12484": {
         "hash": "4ea4cea62d1400ada6ef6b2b0076734e76940e0e46589c0c424e079e6ce2c8c8",
         "item": {
@@ -147,66 +207,6 @@
           "date": "2026-11-21",
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12474",
-          "category": "ライブ/イベント"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12470": {
-        "hash": "acec890fdcd6fb82ed4b4d79b838deb0e353698b009a5d0a20d1340342c4fd6e",
-        "item": {
-          "title": "【出演情報】テレビ朝日「ラブ!!Jリーグ」※大場花菜、山本杏奈",
-          "date": "2026-11-21",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12470",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12481": {
-        "hash": "869f4a870cd8a233f165a40da00fcb0b2c2a59d6f2b2deebe51ff4282b242a52",
-        "item": {
-          "title": "＝LOVE Official Fan Light 発売決定‼",
-          "date": "2026-11-21",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12481",
-          "category": "グッズ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12476": {
-        "hash": "9b7a9cc7da36f492866cf0a22ca5f33d5597975214e410b051e2f6cc32e10533",
-        "item": {
-          "title": "【出演情報】テレビ朝日系「ミュージックステーション」※＝LOVE",
-          "date": "2026-11-20",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12476",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12480": {
-        "hash": "ad6114b7e4ecd86f3909fbd93366becec46088fd272e8317dab5b1ef8cc14e14",
-        "item": {
-          "title": "＝LOVE in TOKYO DOME「全ては＝LOVE」グッズ事前配送のお知らせ",
-          "date": "2026-11-20",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12480",
-          "category": "グッズ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12479": {
-        "hash": "9cc7611fe4dbc192a3e94ad1fc532e7d0be8cbae9a31b4bdfc0a354324a76661",
-        "item": {
-          "title": "＝LOVE in TOKYO DOME「全ては＝LOVE」事前販売グッズのお知らせ",
-          "date": "2026-11-20",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12479",
-          "category": "グッズ"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12475": {
-        "hash": "b5f92a41869741475d15164e26d6b142c6d0b99305af004db4411cbe49912fd1",
-        "item": {
-          "title": "日本テレビ系「ベストアーティスト 2026」番組観覧ご招待のお知らせ",
-          "date": "2026-11-20",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12475",
           "category": "ライブ/イベント"
         }
       }
@@ -507,6 +507,78 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12499:5c77f693c30e",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-24T08:45:24.918Z",
+      "title": "＝LOVE in TOKYO DOME「全ては＝LOVE」グッズ事前配送ラインナップのお知らせ",
+      "url": "https://sp.equal-love.jp/news/detail/12499",
+      "date": "2026-11-24",
+      "category": "グッズ",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12498:d010f2d764be",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-24T08:45:24.918Z",
+      "title": "＝LOVE in TOKYO DOME「全ては＝LOVE」事前販売グッズラインナップのお知らせ",
+      "url": "https://sp.equal-love.jp/news/detail/12498",
+      "date": "2026-11-24",
+      "category": "グッズ",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12497:2402483ea0d8",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-24T08:45:24.918Z",
+      "title": "＝LOVE in TOKYO DOME「全ては＝LOVE」プレミアムチケットグッズのお知らせ",
+      "url": "https://sp.equal-love.jp/news/detail/12497",
+      "date": "2026-11-24",
+      "category": "グッズ",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12492:b1ecee78a36e",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-24T08:45:24.918Z",
+      "title": "【出演情報】日本テレビ「ヒルナンデス！」※齋藤樹愛羅、諸橋沙夏",
+      "url": "https://sp.equal-love.jp/news/detail/12492",
+      "date": "2026-11-24",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12490:cba5e38d6f71",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-24T08:45:24.918Z",
+      "title": "【出演情報】日本テレビ「DayDay.」※齋藤樹愛羅、諸橋沙夏",
+      "url": "https://sp.equal-love.jp/news/detail/12490",
+      "date": "2026-11-24",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12488:614a0b9759e0",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-24T08:45:24.918Z",
+      "title": "【出演情報】日本テレビ「ZIP!」※齋藤樹愛羅、諸橋沙夏",
+      "url": "https://sp.equal-love.jp/news/detail/12488",
+      "date": "2026-11-24",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12489:12421482271f",
       "type": "schedule",
@@ -1642,78 +1714,6 @@
       "url": "https://equal-love.jp/schedule/detail/10449",
       "date": "2026-11-02",
       "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11846:ad8810f998ff",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-11-01T02:45:03.588Z",
-      "title": "「マヂラブ・野口衣織のマヂでラブにな...",
-      "url": "https://equal-love.jp/schedule/detail/11846",
-      "date": "2026-11-03",
-      "category": "ライブ/イベント",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/10501:7edb9a5e1658",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-11-01T02:45:03.588Z",
-      "title": "SHOWROOM『＝LOVE 山本杏...",
-      "url": "https://equal-love.jp/schedule/detail/10501",
-      "date": "2026-11-05",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11691:f1e210b05413",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-11-01T02:45:03.588Z",
-      "title": "オリジナルアニメーション映画『GRO...",
-      "url": "https://equal-love.jp/schedule/detail/11691",
-      "date": "2026-11-06",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/10745:4dacd6948997",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-11-01T02:45:03.588Z",
-      "title": "Artistspoken「イマフレラ...",
-      "url": "https://equal-love.jp/schedule/detail/10745",
-      "date": "2026-11-06",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/10450:94dbc16448fb",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-11-01T02:45:03.588Z",
-      "title": "ニッポン放送「＝LOVEのイコラフ」",
-      "url": "https://equal-love.jp/schedule/detail/10450",
-      "date": "2026-11-09",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12379:efb5b20d7008",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-31T14:45:04.111Z",
-      "title": "≪物販情報≫＝LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～",
-      "url": "https://sp.equal-love.jp/news/detail/12379",
-      "date": "2026-10-31",
-      "category": "グッズ",
       "memberNames": [],
       "sourceName": ""
     }
