@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-24T02:43:48.401Z",
-    "updatedAt": "2026-11-24T01:38:42.010Z"
+    "checkedAt": "2026-11-24T08:43:54.329Z",
+    "updatedAt": "2026-11-24T08:43:54.329Z"
   },
   "schedule": [
     {
@@ -33,6 +33,27 @@
       "time": ""
     },
     {
+      "title": "日本テレビ「ZIP!」※齋藤樹愛羅、...",
+      "date": "2026-11-25",
+      "url": "https://equal-love.jp/schedule/detail/12489",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "日本テレビ「DayDay.」※齋藤樹...",
+      "date": "2026-11-25",
+      "url": "https://equal-love.jp/schedule/detail/12491",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "日本テレビ「ヒルナンデス！」※齋藤樹...",
+      "date": "2026-11-25",
+      "url": "https://equal-love.jp/schedule/detail/12493",
+      "category": "メディア",
+      "time": ""
+    },
+    {
       "title": "TBS系「この歌詞が刺さった！グッと...",
       "date": "2026-11-26",
       "url": "https://equal-love.jp/schedule/detail/12404",
@@ -50,27 +71,6 @@
       "title": "Artistspoken「イマフレラ...",
       "date": "2026-11-27",
       "url": "https://equal-love.jp/schedule/detail/10748",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "テレビ朝日「ラブ!!Jリーグ」※大場...",
-      "date": "2026-11-27",
-      "url": "https://equal-love.jp/schedule/detail/12471",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "テレビ朝日系「ミュージックステーショ...",
-      "date": "2026-11-27",
-      "url": "https://equal-love.jp/schedule/detail/12477",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "日本テレビ系「ベストアーティスト 2...",
-      "date": "2026-11-28",
-      "url": "https://equal-love.jp/schedule/detail/12395",
       "category": "メディア",
       "time": ""
     }

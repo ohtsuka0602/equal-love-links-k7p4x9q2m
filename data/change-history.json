@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-24T02:51:49.454Z",
-    "updatedAt": "2026-11-24T01:38:42.209Z",
+    "checkedAt": "2026-11-24T08:43:54.513Z",
+    "updatedAt": "2026-11-24T08:43:54.513Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -48,6 +48,36 @@
           "category": "メディア"
         }
       },
+      "https://equal-love.jp/schedule/detail/12489": {
+        "hash": "12421482271ff9d3a91d5c06942bdf7c12586c78a3edf37160ec528fc178da12",
+        "item": {
+          "title": "日本テレビ「ZIP!」※齋藤樹愛羅、...",
+          "date": "2026-11-25",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12489",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12491": {
+        "hash": "6b958448f609455e372147c887c7684f00e1c47c253702bce279ed1a5d262fc6",
+        "item": {
+          "title": "日本テレビ「DayDay.」※齋藤樹...",
+          "date": "2026-11-25",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12491",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12493": {
+        "hash": "46aeea89b710b909c317e70fd9be43fb210187c4ac16e8bde00832009cb68aef",
+        "item": {
+          "title": "日本テレビ「ヒルナンデス！」※齋藤樹...",
+          "date": "2026-11-25",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12493",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/12404": {
         "hash": "ecfa2d6afe6e6e3fde731549ea923b80c8831432eef8aaafc31671b4ae72806f",
         "item": {
@@ -75,36 +105,6 @@
           "date": "2026-11-27",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/10748",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12471": {
-        "hash": "d56fd5315b883807b7991de784608bcaf2963bf9f5127e3e9b3a0fd11977e897",
-        "item": {
-          "title": "テレビ朝日「ラブ!!Jリーグ」※大場...",
-          "date": "2026-11-27",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12471",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12477": {
-        "hash": "3949c8b6e617dcdf41472f0183963033af73877c8a5abadeefb18db2b76ec592",
-        "item": {
-          "title": "テレビ朝日系「ミュージックステーショ...",
-          "date": "2026-11-27",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12477",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12395": {
-        "hash": "f665e1d0ce5cb4b52dc97f61a72f03f31adacfeeef7cf2255c5e08cca25ce33b",
-        "item": {
-          "title": "日本テレビ系「ベストアーティスト 2...",
-          "date": "2026-11-28",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12395",
           "category": "メディア"
         }
       }
@@ -507,6 +507,42 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12489:12421482271f",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-24T08:43:54.513Z",
+      "title": "日本テレビ「ZIP!」※齋藤樹愛羅、...",
+      "url": "https://equal-love.jp/schedule/detail/12489",
+      "date": "2026-11-25",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12491:6b958448f609",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-24T08:43:54.513Z",
+      "title": "日本テレビ「DayDay.」※齋藤樹...",
+      "url": "https://equal-love.jp/schedule/detail/12491",
+      "date": "2026-11-25",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12493:46aeea89b710",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-24T08:43:54.513Z",
+      "title": "日本テレビ「ヒルナンデス！」※齋藤樹...",
+      "url": "https://equal-love.jp/schedule/detail/12493",
+      "date": "2026-11-25",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/11688:431430b8ea3d",
       "type": "schedule",
@@ -1678,44 +1714,6 @@
       "url": "https://sp.equal-love.jp/news/detail/12379",
       "date": "2026-10-31",
       "category": "グッズ",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "youtube:added:ZnQmGtIaQFM:e11f83488bd4",
-      "type": "youtube",
-      "action": "added",
-      "occurredAt": "2026-10-31T14:45:04.111Z",
-      "title": "北海道で食い倒れたみりにゃ",
-      "url": "https://www.youtube.com/watch?v=ZnQmGtIaQFM",
-      "date": "2026-10-31T12:00:24Z",
-      "category": "",
-      "memberNames": [
-        "大谷 映美里"
-      ],
-      "sourceName": "大谷 映美里"
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12375:42a3e2941db0",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-10-31T08:45:07.492Z",
-      "title": "【掲載情報】つなぐ旅 東日本 ～ひがしにほんトラベルガイド～※大場花菜",
-      "url": "https://sp.equal-love.jp/news/detail/12375",
-      "date": "2026-10-31",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/12376:516d1a3d1dac",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-10-31T08:43:46.958Z",
-      "title": "つなぐ旅 東日本 ～ひがしにほんトラ...",
-      "url": "https://equal-love.jp/schedule/detail/12376",
-      "date": "2026-10-31",
-      "category": "メディア",
       "memberNames": [],
       "sourceName": ""
     }
