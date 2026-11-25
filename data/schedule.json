@@ -1,37 +1,9 @@
 {
   "meta": {
-    "checkedAt": "2026-11-25T14:44:28.825Z",
-    "updatedAt": "2026-11-25T14:44:28.825Z"
+    "checkedAt": "2026-11-25T20:46:26.791Z",
+    "updatedAt": "2026-11-25T20:46:26.791Z"
   },
   "schedule": [
-    {
-      "title": "日本テレビ系「千鳥かまいたちゴールデ...",
-      "date": "2026-11-25",
-      "url": "https://equal-love.jp/schedule/detail/12413",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "日本テレビ「ZIP!」※齋藤樹愛羅、...",
-      "date": "2026-11-25",
-      "url": "https://equal-love.jp/schedule/detail/12489",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "日本テレビ「DayDay.」※齋藤樹...",
-      "date": "2026-11-25",
-      "url": "https://equal-love.jp/schedule/detail/12491",
-      "category": "メディア",
-      "time": ""
-    },
-    {
-      "title": "日本テレビ「ヒルナンデス！」※齋藤樹...",
-      "date": "2026-11-25",
-      "url": "https://equal-love.jp/schedule/detail/12493",
-      "category": "メディア",
-      "time": ""
-    },
     {
       "title": "TBS系「この歌詞が刺さった！グッと...",
       "date": "2026-11-26",
@@ -71,6 +43,20 @@
       "title": "日本テレビ系「ベストアーティスト 2...",
       "date": "2026-11-28",
       "url": "https://equal-love.jp/schedule/detail/12487",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "AT-X「マヂラブ・野口衣織のマヂで...",
+      "date": "2026-11-29",
+      "url": "https://equal-love.jp/schedule/detail/12267",
+      "category": "メディア",
+      "time": ""
+    },
+    {
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "date": "2026-11-30",
+      "url": "https://equal-love.jp/schedule/detail/10453",
       "category": "メディア",
       "time": ""
     }

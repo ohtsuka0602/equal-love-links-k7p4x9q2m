@@ -1,53 +1,13 @@
 {
   "meta": {
-    "checkedAt": "2026-11-25T20:45:40.046Z",
-    "updatedAt": "2026-11-25T14:46:02.963Z",
+    "checkedAt": "2026-11-25T20:46:26.981Z",
+    "updatedAt": "2026-11-25T20:46:26.981Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/12413": {
-        "hash": "f8fc2e4e6cb3fe26dee140ecbc611c54ab8145d090e94df5a23381bb406e262c",
-        "item": {
-          "title": "日本テレビ系「千鳥かまいたちゴールデ...",
-          "date": "2026-11-25",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12413",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12489": {
-        "hash": "12421482271ff9d3a91d5c06942bdf7c12586c78a3edf37160ec528fc178da12",
-        "item": {
-          "title": "日本テレビ「ZIP!」※齋藤樹愛羅、...",
-          "date": "2026-11-25",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12489",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12491": {
-        "hash": "6b958448f609455e372147c887c7684f00e1c47c253702bce279ed1a5d262fc6",
-        "item": {
-          "title": "日本テレビ「DayDay.」※齋藤樹...",
-          "date": "2026-11-25",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12491",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12493": {
-        "hash": "46aeea89b710b909c317e70fd9be43fb210187c4ac16e8bde00832009cb68aef",
-        "item": {
-          "title": "日本テレビ「ヒルナンデス！」※齋藤樹...",
-          "date": "2026-11-25",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12493",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/12404": {
         "hash": "ecfa2d6afe6e6e3fde731549ea923b80c8831432eef8aaafc31671b4ae72806f",
         "item": {
@@ -105,6 +65,26 @@
           "date": "2026-11-28",
           "time": "",
           "url": "https://equal-love.jp/schedule/detail/12487",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/12267": {
+        "hash": "dae57f480f4f2a39977eb99135a08fa4d9cbf1f0def5b5ed2e0ec53e56c015f2",
+        "item": {
+          "title": "AT-X「マヂラブ・野口衣織のマヂで...",
+          "date": "2026-11-29",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/12267",
+          "category": "メディア"
+        }
+      },
+      "https://equal-love.jp/schedule/detail/10453": {
+        "hash": "badc0226127eab6a81246d096041883e987864c08e3579034ee8bee36f46ecb3",
+        "item": {
+          "title": "ニッポン放送「＝LOVEのイコラフ」",
+          "date": "2026-11-30",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10453",
           "category": "メディア"
         }
       }
@@ -507,6 +487,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10453:badc0226127e",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-25T20:46:26.981Z",
+      "title": "ニッポン放送「＝LOVEのイコラフ」",
+      "url": "https://equal-love.jp/schedule/detail/10453",
+      "date": "2026-11-30",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12486:c5ec80fff09c",
       "type": "news",
@@ -1702,18 +1694,6 @@
       "url": "https://sp.equal-love.jp/news/detail/12378",
       "date": "2026-11-01",
       "category": "グッズ",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11592:bd3527a08942",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-11-01T02:45:03.588Z",
-      "title": "握手会 ＝LOVE 21stシングル発売記念...",
-      "url": "https://equal-love.jp/schedule/detail/11592",
-      "date": "2026-11-01",
-      "category": "",
       "memberNames": [],
       "sourceName": ""
     }
