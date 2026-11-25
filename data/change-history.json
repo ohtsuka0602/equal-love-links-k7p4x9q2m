@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-25T11:43:09.239Z",
-    "updatedAt": "2026-11-25T08:45:16.875Z",
+    "checkedAt": "2026-11-25T14:44:29.024Z",
+    "updatedAt": "2026-11-25T14:44:29.024Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -98,13 +98,13 @@
           "category": "メディア"
         }
       },
-      "https://equal-love.jp/schedule/detail/12395": {
-        "hash": "f665e1d0ce5cb4b52dc97f61a72f03f31adacfeeef7cf2255c5e08cca25ce33b",
+      "https://equal-love.jp/schedule/detail/12487": {
+        "hash": "0becc46c2437593de2d32097c67bd50e8ddaab1e86c440842efd17af1c817567",
         "item": {
           "title": "日本テレビ系「ベストアーティスト 2...",
           "date": "2026-11-28",
           "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12395",
+          "url": "https://equal-love.jp/schedule/detail/12487",
           "category": "メディア"
         }
       }
@@ -507,6 +507,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/12487:0becc46c2437",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-25T14:44:29.024Z",
+      "title": "日本テレビ系「ベストアーティスト 2...",
+      "url": "https://equal-love.jp/schedule/detail/12487",
+      "date": "2026-11-28",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12482:a1570f0555e9",
       "type": "news",
@@ -1700,18 +1712,6 @@
       "occurredAt": "2026-11-01T02:45:03.588Z",
       "title": "FM NACK5「カメレオンパーティ...",
       "url": "https://equal-love.jp/schedule/detail/12305",
-      "date": "2026-11-01",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/12292:1e226e4f5ae8",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-11-01T02:45:03.588Z",
-      "title": "FM NACK5『＝LOVE大場花菜...",
-      "url": "https://equal-love.jp/schedule/detail/12292",
       "date": "2026-11-01",
       "category": "メディア",
       "memberNames": [],
