@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-25T02:45:53.002Z",
-    "updatedAt": "2026-11-24T08:45:24.918Z",
+    "checkedAt": "2026-11-25T08:45:16.875Z",
+    "updatedAt": "2026-11-25T08:45:16.875Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,26 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12482": {
+        "hash": "a1570f0555e9c45b1ef65894042cac743797c26a2cb1728ae64112b47aab54f5",
+        "item": {
+          "title": "【＝LOVE Official Fan Club】 9周年記念「＝LOVE オリジナルラバーコードクリップ」プレゼント決定！",
+          "date": "2026-11-25",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12482",
+          "category": "お知らせ"
+        }
+      },
+      "https://sp.equal-love.jp/news/detail/11719": {
+        "hash": "03ef104e7527f74dc34fc829757f400dacf10595d8b84f3e005afbaed5caec12",
+        "item": {
+          "title": "【＝LOVE Official Fan Club】齋藤樹愛羅へのバースデーメッセージを募集♪",
+          "date": "2026-11-25",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/11719",
+          "category": "お知らせ"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12499": {
         "hash": "5c77f693c30e39349b64efeae0a234a38428d654c3a2aa356d5f3979a3a75327",
         "item": {
@@ -188,26 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12483",
           "category": "リリース"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12403": {
-        "hash": "09258943fe3d58f7070c97680359fc2025f0d69a2aa6efee6266ed4edd092c48",
-        "item": {
-          "title": "【出演情報】TBS系「この歌詞が刺さった！グッとフレーズ」※大谷",
-          "date": "2026-11-23",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12403",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12474": {
-        "hash": "5d3d3a2462d7ab92d11a5eb6d537552ea5e8f744460547503d3bfc47ddcc4ccb",
-        "item": {
-          "title": "＝LOVE in TOKYO DOME「全ては＝LOVE」一般先行チケット受付開始のお知らせ",
-          "date": "2026-11-21",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12474",
-          "category": "ライブ/イベント"
         }
       }
     },
@@ -507,6 +507,30 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12482:a1570f0555e9",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-25T08:45:16.875Z",
+      "title": "【＝LOVE Official Fan Club】 9周年記念「＝LOVE オリジナルラバーコードクリップ」プレゼント決定！",
+      "url": "https://sp.equal-love.jp/news/detail/12482",
+      "date": "2026-11-25",
+      "category": "お知らせ",
+      "memberNames": [],
+      "sourceName": ""
+    },
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/11719:03ef104e7527",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-25T08:45:16.875Z",
+      "title": "【＝LOVE Official Fan Club】齋藤樹愛羅へのバースデーメッセージを募集♪",
+      "url": "https://sp.equal-love.jp/news/detail/11719",
+      "date": "2026-11-25",
+      "category": "お知らせ",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12499:5c77f693c30e",
       "type": "news",
@@ -1689,30 +1713,6 @@
       "title": "FM NACK5『＝LOVE大場花菜...",
       "url": "https://equal-love.jp/schedule/detail/12292",
       "date": "2026-11-01",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/11187:a7d075568584",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-11-01T02:45:03.588Z",
-      "title": "文化放送「＝LOVE 齋藤樹愛羅・≠...",
-      "url": "https://equal-love.jp/schedule/detail/11187",
-      "date": "2026-11-01",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/10449:80b89ccecfcf",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-11-01T02:45:03.588Z",
-      "title": "ニッポン放送「＝LOVEのイコラフ」",
-      "url": "https://equal-love.jp/schedule/detail/10449",
-      "date": "2026-11-02",
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""
