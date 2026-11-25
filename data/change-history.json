@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-25T14:44:29.024Z",
-    "updatedAt": "2026-11-25T14:44:29.024Z",
+    "checkedAt": "2026-11-25T14:46:02.963Z",
+    "updatedAt": "2026-11-25T14:46:02.963Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -110,6 +110,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12486": {
+        "hash": "c5ec80fff09cd7bfc1a5dbab64d624f8e91f5cbf7f06c4c621c77f19c629fd82",
+        "item": {
+          "title": "【出演情報】日本テレビ系「ベストアーティスト 2026」※＝LOVE",
+          "date": "2026-11-25",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12486",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12482": {
         "hash": "a1570f0555e9c45b1ef65894042cac743797c26a2cb1728ae64112b47aab54f5",
         "item": {
@@ -198,16 +208,6 @@
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12484",
           "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12483": {
-        "hash": "647d22f8c59b23b962b3131aa8d311b526d07e69cec1f851826f75bf1961aab1",
-        "item": {
-          "title": "＝LOVE STADIUM LIVE「Beyond \"KYUN\"♡」 映像商品アートワーク・収録内容公開！",
-          "date": "2026-11-23",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12483",
-          "category": "リリース"
         }
       }
     },
@@ -507,6 +507,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12486:c5ec80fff09c",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-25T14:46:02.963Z",
+      "title": "【出演情報】日本テレビ系「ベストアーティスト 2026」※＝LOVE",
+      "url": "https://sp.equal-love.jp/news/detail/12486",
+      "date": "2026-11-25",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/12487:0becc46c2437",
       "type": "schedule",
@@ -1702,18 +1714,6 @@
       "url": "https://equal-love.jp/schedule/detail/11592",
       "date": "2026-11-01",
       "category": "",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/12305:785ff4aa1c00",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-11-01T02:45:03.588Z",
-      "title": "FM NACK5「カメレオンパーティ...",
-      "url": "https://equal-love.jp/schedule/detail/12305",
-      "date": "2026-11-01",
-      "category": "メディア",
       "memberNames": [],
       "sourceName": ""
     }

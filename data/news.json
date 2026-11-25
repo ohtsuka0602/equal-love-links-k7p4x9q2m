@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-11-25T11:43:09.107Z",
-    "updatedAt": "2026-11-25T08:45:16.664Z"
+    "checkedAt": "2026-11-25T14:46:02.805Z",
+    "updatedAt": "2026-11-25T14:46:02.805Z"
   },
   "news": [
+    {
+      "title": "【出演情報】日本テレビ系「ベストアーティスト 2026」※＝LOVE",
+      "date": "2026-11-25",
+      "url": "https://sp.equal-love.jp/news/detail/12486",
+      "category": "メディア"
+    },
     {
       "title": "【＝LOVE Official Fan Club】 9周年記念「＝LOVE オリジナルラバーコードクリップ」プレゼント決定！",
       "date": "2026-11-25",
@@ -57,12 +63,6 @@
       "date": "2026-11-23",
       "url": "https://sp.equal-love.jp/news/detail/12484",
       "category": "メディア"
-    },
-    {
-      "title": "＝LOVE STADIUM LIVE「Beyond \"KYUN\"♡」 映像商品アートワーク・収録内容公開！",
-      "date": "2026-11-23",
-      "url": "https://sp.equal-love.jp/news/detail/12483",
-      "category": "リリース"
     }
   ]
 }
