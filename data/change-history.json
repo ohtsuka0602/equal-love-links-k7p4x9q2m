@@ -1,6 +1,6 @@
 {
   "meta": {
-    "checkedAt": "2026-11-26T14:46:34.387Z",
+    "checkedAt": "2026-11-26T20:44:41.232Z",
     "updatedAt": "2026-11-25T20:46:26.981Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
@@ -8,16 +8,6 @@
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/12404": {
-        "hash": "ecfa2d6afe6e6e3fde731549ea923b80c8831432eef8aaafc31671b4ae72806f",
-        "item": {
-          "title": "TBS系「この歌詞が刺さった！グッと...",
-          "date": "2026-11-26",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12404",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/11852": {
         "hash": "8a75528d1241356f5503f86e25ff4b7f35401ea363acb9858177b0d06b6db444",
         "item": {
