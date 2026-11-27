@@ -1,6 +1,6 @@
 {
   "meta": {
-    "checkedAt": "2026-11-27T14:45:55.611Z",
+    "checkedAt": "2026-11-27T20:44:05.884Z",
     "updatedAt": "2026-11-27T14:45:55.611Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
@@ -8,46 +8,6 @@
   },
   "baseline": {
     "schedule": {
-      "https://equal-love.jp/schedule/detail/11852": {
-        "hash": "8a75528d1241356f5503f86e25ff4b7f35401ea363acb9858177b0d06b6db444",
-        "item": {
-          "title": "「GIFT 〜Girls Idol ...",
-          "date": "2026-11-27",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/11852",
-          "category": "ライブ/イベント"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/10748": {
-        "hash": "357dbab7b5b4ae1cc42810acc0e6850f826e7a67d86ac438e452f768adc28774",
-        "item": {
-          "title": "Artistspoken「イマフレラ...",
-          "date": "2026-11-27",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/10748",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12471": {
-        "hash": "d56fd5315b883807b7991de784608bcaf2963bf9f5127e3e9b3a0fd11977e897",
-        "item": {
-          "title": "テレビ朝日「ラブ!!Jリーグ」※大場...",
-          "date": "2026-11-27",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12471",
-          "category": "メディア"
-        }
-      },
-      "https://equal-love.jp/schedule/detail/12477": {
-        "hash": "3949c8b6e617dcdf41472f0183963033af73877c8a5abadeefb18db2b76ec592",
-        "item": {
-          "title": "テレビ朝日系「ミュージックステーショ...",
-          "date": "2026-11-27",
-          "time": "",
-          "url": "https://equal-love.jp/schedule/detail/12477",
-          "category": "メディア"
-        }
-      },
       "https://equal-love.jp/schedule/detail/12487": {
         "hash": "0becc46c2437593de2d32097c67bd50e8ddaab1e86c440842efd17af1c817567",
         "item": {
