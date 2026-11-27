@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-11-27T11:25:04.543Z",
-    "updatedAt": "2026-11-27T08:46:03.909Z"
+    "checkedAt": "2026-11-27T14:45:55.475Z",
+    "updatedAt": "2026-11-27T14:45:55.475Z"
   },
   "news": [
+    {
+      "title": "【出演情報】テレビ朝日系「MUSIC STATION SUPER LIVE 2026」※＝LOVE",
+      "date": "2026-11-27",
+      "url": "https://sp.equal-love.jp/news/detail/12502",
+      "category": "メディア"
+    },
     {
       "title": "【出演情報】テレビ東京「出没！アド街ック天国」※瀧脇笙古",
       "date": "2026-11-27",
@@ -56,12 +62,6 @@
       "title": "【出演情報】日本テレビ「DayDay.」※齋藤樹愛羅、諸橋沙夏",
       "date": "2026-11-24",
       "url": "https://sp.equal-love.jp/news/detail/12490",
-      "category": "メディア"
-    },
-    {
-      "title": "【出演情報】日本テレビ「ZIP!」※齋藤樹愛羅、諸橋沙夏",
-      "date": "2026-11-24",
-      "url": "https://sp.equal-love.jp/news/detail/12488",
       "category": "メディア"
     }
   ]

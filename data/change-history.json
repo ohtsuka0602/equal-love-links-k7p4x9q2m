@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-27T14:44:06.419Z",
-    "updatedAt": "2026-11-27T08:46:04.044Z",
+    "checkedAt": "2026-11-27T14:45:55.611Z",
+    "updatedAt": "2026-11-27T14:45:55.611Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -80,6 +80,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12502": {
+        "hash": "86083b8a3e6289e78a06660d752c926c290e8eeff0c1f69a742f58d06ba51010",
+        "item": {
+          "title": "【出演情報】テレビ朝日系「MUSIC STATION SUPER LIVE 2026」※＝LOVE",
+          "date": "2026-11-27",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12502",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12504": {
         "hash": "958c77a85c7d1316b9114f89214a31a18ec7ef2ebd4058d6a4c6d082e63710bd",
         "item": {
@@ -167,16 +177,6 @@
           "date": "2026-11-24",
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12490",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12488": {
-        "hash": "614a0b9759e0f7a5fd3ccd1a88dce1be18157c7bcaa4e6a87923d04a64faaeae",
-        "item": {
-          "title": "【出演情報】日本テレビ「ZIP!」※齋藤樹愛羅、諸橋沙夏",
-          "date": "2026-11-24",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12488",
           "category": "メディア"
         }
       }
@@ -477,6 +477,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12502:86083b8a3e62",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-27T14:45:55.611Z",
+      "title": "【出演情報】テレビ朝日系「MUSIC STATION SUPER LIVE 2026」※＝LOVE",
+      "url": "https://sp.equal-love.jp/news/detail/12502",
+      "date": "2026-11-27",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12504:958c77a85c7d",
       "type": "news",
@@ -1670,18 +1682,6 @@
       "occurredAt": "2026-11-01T18:54:11.091Z",
       "title": "つなぐ旅 東日本 ～ひがしにほんトラ...",
       "url": "https://equal-love.jp/schedule/detail/12377",
-      "date": "2026-11-13",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/10746:d05f6848bcfb",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-11-01T18:54:11.091Z",
-      "title": "Artistspoken「イマフレラ...",
-      "url": "https://equal-love.jp/schedule/detail/10746",
       "date": "2026-11-13",
       "category": "メディア",
       "memberNames": [],
