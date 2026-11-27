@@ -1,7 +1,7 @@
 {
   "meta": {
-    "checkedAt": "2026-11-27T08:44:05.736Z",
-    "updatedAt": "2026-11-25T20:46:26.981Z",
+    "checkedAt": "2026-11-27T08:46:04.044Z",
+    "updatedAt": "2026-11-27T08:46:04.044Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
@@ -80,6 +80,16 @@
       }
     },
     "news": {
+      "https://sp.equal-love.jp/news/detail/12504": {
+        "hash": "958c77a85c7d1316b9114f89214a31a18ec7ef2ebd4058d6a4c6d082e63710bd",
+        "item": {
+          "title": "【出演情報】テレビ東京「出没！アド街ック天国」※瀧脇笙古",
+          "date": "2026-11-27",
+          "time": "",
+          "url": "https://sp.equal-love.jp/news/detail/12504",
+          "category": "メディア"
+        }
+      },
       "https://sp.equal-love.jp/news/detail/12486": {
         "hash": "c5ec80fff09cd7bfc1a5dbab64d624f8e91f5cbf7f06c4c621c77f19c629fd82",
         "item": {
@@ -167,16 +177,6 @@
           "date": "2026-11-24",
           "time": "",
           "url": "https://sp.equal-love.jp/news/detail/12488",
-          "category": "メディア"
-        }
-      },
-      "https://sp.equal-love.jp/news/detail/12484": {
-        "hash": "4ea4cea62d1400ada6ef6b2b0076734e76940e0e46589c0c424e079e6ce2c8c8",
-        "item": {
-          "title": "【出演情報】フジテレビ系「めざましテレビ」※髙松瞳、諸橋沙夏",
-          "date": "2026-11-23",
-          "time": "",
-          "url": "https://sp.equal-love.jp/news/detail/12484",
           "category": "メディア"
         }
       }
@@ -477,6 +477,18 @@
     }
   },
   "history": [
+    {
+      "id": "news:added:https://sp.equal-love.jp/news/detail/12504:958c77a85c7d",
+      "type": "news",
+      "action": "added",
+      "occurredAt": "2026-11-27T08:46:04.044Z",
+      "title": "【出演情報】テレビ東京「出没！アド街ック天国」※瀧脇笙古",
+      "url": "https://sp.equal-love.jp/news/detail/12504",
+      "date": "2026-11-27",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "schedule:added:https://equal-love.jp/schedule/detail/10453:badc0226127e",
       "type": "schedule",
@@ -1672,18 +1684,6 @@
       "url": "https://equal-love.jp/schedule/detail/10746",
       "date": "2026-11-13",
       "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "news:added:https://sp.equal-love.jp/news/detail/12378:72e1e0b1949b",
-      "type": "news",
-      "action": "added",
-      "occurredAt": "2026-11-01T09:42:54.890Z",
-      "title": "生写真セット(「恋、はじめました。」歌唱衣装②)・「恋、はじめました。」グッズ発売！",
-      "url": "https://sp.equal-love.jp/news/detail/12378",
-      "date": "2026-11-01",
-      "category": "グッズ",
       "memberNames": [],
       "sourceName": ""
     }

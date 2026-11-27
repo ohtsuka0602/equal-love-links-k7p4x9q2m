@@ -1,9 +1,15 @@
 {
   "meta": {
-    "checkedAt": "2026-11-27T02:44:53.442Z",
-    "updatedAt": "2026-11-25T14:46:02.805Z"
+    "checkedAt": "2026-11-27T08:46:03.909Z",
+    "updatedAt": "2026-11-27T08:46:03.909Z"
   },
   "news": [
+    {
+      "title": "【出演情報】テレビ東京「出没！アド街ック天国」※瀧脇笙古",
+      "date": "2026-11-27",
+      "url": "https://sp.equal-love.jp/news/detail/12504",
+      "category": "メディア"
+    },
     {
       "title": "【出演情報】日本テレビ系「ベストアーティスト 2026」※＝LOVE",
       "date": "2026-11-25",
@@ -56,12 +62,6 @@
       "title": "【出演情報】日本テレビ「ZIP!」※齋藤樹愛羅、諸橋沙夏",
       "date": "2026-11-24",
       "url": "https://sp.equal-love.jp/news/detail/12488",
-      "category": "メディア"
-    },
-    {
-      "title": "【出演情報】フジテレビ系「めざましテレビ」※髙松瞳、諸橋沙夏",
-      "date": "2026-11-23",
-      "url": "https://sp.equal-love.jp/news/detail/12484",
       "category": "メディア"
     }
   ]
