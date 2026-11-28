@@ -1,13 +1,23 @@
 {
   "meta": {
-    "checkedAt": "2026-11-27T22:56:28.574Z",
-    "updatedAt": "2026-11-27T14:45:55.611Z",
+    "checkedAt": "2026-11-28T02:44:05.878Z",
+    "updatedAt": "2026-11-28T02:44:05.878Z",
     "baselineCreatedAt": "2026-09-07T01:24:11.468Z",
     "retentionDays": 30,
     "maxItems": 100
   },
   "baseline": {
     "schedule": {
+      "https://equal-love.jp/schedule/detail/10685": {
+        "hash": "480bef0994937ceb6e7f97dbfcfe800a2cb3297bbc5b17fcab7367310b58baec",
+        "item": {
+          "title": "テレビ朝日「アイ=ラブ！げーみんぐ ...",
+          "date": "2026-11-28",
+          "time": "",
+          "url": "https://equal-love.jp/schedule/detail/10685",
+          "category": "メディア"
+        }
+      },
       "https://equal-love.jp/schedule/detail/12487": {
         "hash": "0becc46c2437593de2d32097c67bd50e8ddaab1e86c440842efd17af1c817567",
         "item": {
@@ -437,6 +447,18 @@
     }
   },
   "history": [
+    {
+      "id": "schedule:added:https://equal-love.jp/schedule/detail/10685:480bef099493",
+      "type": "schedule",
+      "action": "added",
+      "occurredAt": "2026-11-28T02:44:05.878Z",
+      "title": "テレビ朝日「アイ=ラブ！げーみんぐ ...",
+      "url": "https://equal-love.jp/schedule/detail/10685",
+      "date": "2026-11-28",
+      "category": "メディア",
+      "memberNames": [],
+      "sourceName": ""
+    },
     {
       "id": "news:added:https://sp.equal-love.jp/news/detail/12502:86083b8a3e62",
       "type": "news",
@@ -1631,18 +1653,6 @@
       "title": "SHOWROOM『＝LOVE 山本杏...",
       "url": "https://equal-love.jp/schedule/detail/10502",
       "date": "2026-11-12",
-      "category": "メディア",
-      "memberNames": [],
-      "sourceName": ""
-    },
-    {
-      "id": "schedule:added:https://equal-love.jp/schedule/detail/12377:3d47399fff43",
-      "type": "schedule",
-      "action": "added",
-      "occurredAt": "2026-11-01T18:54:11.091Z",
-      "title": "つなぐ旅 東日本 ～ひがしにほんトラ...",
-      "url": "https://equal-love.jp/schedule/detail/12377",
-      "date": "2026-11-13",
       "category": "メディア",
       "memberNames": [],
       "sourceName": ""
